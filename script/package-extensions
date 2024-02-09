@@ -1,22 +1,53 @@
 #!/usr/bin/env node
 
-import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import path from "node:path";
 import fs from "node:fs/promises";
 import { execFile } from "node:child_process";
-import path from "node:path";
 import toml from "toml";
+import Ajv from "ajv";
+import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
 
 const { S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET, SHOULD_PUBLISH } = process.env;
 
-/**
- * Whether we're running offline.
- *
- * The `--offline` flag can be used to suppress interactions with S3, which allows
- * developing the script locally without a set of credentials.
- *
- * Note that this will cause all extensions to be packaged.
- */
-const isOffline = process.argv.includes("--offline");
+const USAGE = `
+package-extensions [--offline] [extensionId]
+
+Package extensions and publish them to the Zed extension blob store.
+If an extension ID is provided, only package that extension. Otherwise,
+package all extensions for which there is not already a package in
+the blob store.
+
+OPTIONS
+  --offline   Just create packages, don't read or write to the blob store.
+
+ENVIRONMENT VARIABLES
+  S3_ACCESS_KEY     Access key for the blob store
+  S3_SECRET_KEY     Secret key for the blob store
+  S3_BUCKET         Name of the bucket where extensions are published
+  SHOULD_PUBLISH    Whether to publish packages to the blob store.
+                    Set this to "true" to publish the packages.
+`;
+
+let isOffline = false;
+let selectedExtensionId;
+for (const arg of process.argv.slice(2)) {
+  if (arg === "--offline") {
+    isOffline = true;
+    continue;
+  }
+
+  if (arg === "-h" || arg === "--help") {
+    console.log(USAGE);
+    process.exit(0);
+  }
+
+  if (arg.startsWith("-")) {
+    console.log("no such flag:", arg);
+    process.exit(1);
+  }
+
+  selectedExtensionId = arg;
+}
 
 /** Whether packages should be published to the blob store. */
 const shouldPublish = SHOULD_PUBLISH === "true" && !isOffline;
@@ -26,6 +57,14 @@ const treeSitterPath = path.join(
   "node_modules",
   ".bin",
   "tree-sitter",
+);
+
+const ajv = new Ajv({});
+const themeValidator = ajv.compile(
+  JSON.parse(await fs.readFile("schemas/theme-family.json", "utf8")),
+);
+const languageConfigValidator = ajv.compile(
+  JSON.parse(await fs.readFile("schemas/language-config.json", "utf8")),
 );
 
 const s3 = new S3({
@@ -52,6 +91,9 @@ const extensionsToml = toml.parse(await fs.readFile("extensions.toml"));
 await fs.mkdir("build", { recursive: true });
 try {
   for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
+    if (extensionId !== selectedExtensionId) {
+      continue;
+    }
     const publishedVersions =
       publishedVersionsByExtensionName[extensionId] ?? [];
 
@@ -245,6 +287,20 @@ async function isDirectory(path) {
   }
 }
 
+function validateLanguageConfig(config) {
+  languageConfigValidator(config);
+  if (languageConfigValidator.errors) {
+    throw new Error(ajv.errorsText(languageConfigValidator.errors));
+  }
+}
+
+function validateTheme(theme) {
+  themeValidator(theme);
+  if (themeValidator.errors) {
+    throw new Error(ajv.errorsText(themeValidator.errors));
+  }
+}
+
 async function getPublishedVersionsByExtensionId() {
   const bucketList = await s3.listObjects({
     Bucket: S3_BUCKET,
@@ -295,12 +351,4 @@ function exec(command, args, options) {
       }
     });
   });
-}
-
-function validateLanguageConfig(config) {
-  //
-}
-
-function validateTheme(theme) {
-  //
 }
