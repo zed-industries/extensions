@@ -1,14 +1,21 @@
 #!/usr/bin/env node
 
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
-import fs from "fs/promises";
-import { execFileSync } from "child_process";
-import path from "path";
+import fs from "node:fs/promises";
+import { execFile } from "node:child_process";
+import path from "node:path";
 import toml from "toml";
 
 const { S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET, SHOULD_PUBLISH } = process.env;
 
 const shouldPublish = SHOULD_PUBLISH === "true";
+
+const treeSitterPath = path.join(
+  process.cwd(),
+  "node_modules",
+  ".bin",
+  "tree-sitter",
+);
 
 const s3 = new S3({
   forcePathStyle: false,
@@ -22,53 +29,58 @@ const s3 = new S3({
 
 const EXTENSIONS_PREFIX = "extensions";
 
-const bucketList = await s3.listObjects({
-  Bucket: S3_BUCKET,
-  Prefix: `${EXTENSIONS_PREFIX}/`,
-});
+const publishedVersionsByExtensionName =
+  await getPublishedVersionsByExtensionId();
 
-const versionsByExtensionName = {};
-bucketList.Contents?.forEach((object) => {
-  const [_prefix, name, filename] = object.Key.split("/");
-  const version = filename.replace(".tar.gz", "");
-  if (!versionsByExtensionName[name]) {
-    versionsByExtensionName[name] = [];
+// Get the list of extension versions in the repository.
+const extensionsToml = toml.parse(await fs.readFile("extensions.toml"));
+
+// Package each extension in the repository that has not already
+// been packaged.
+await fs.mkdir("build", { recursive: true });
+try {
+  for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
+    const publishedVersions =
+      publishedVersionsByExtensionName[extensionId] ?? [];
+
+    if (!publishedVersions.includes(extensionInfo.version)) {
+      console.log(
+        `Packaging '${extensionId}'. Version: ${extensionInfo.version}`,
+      );
+
+      await packageExtension(
+        extensionId,
+        extensionInfo.path,
+        extensionInfo.version,
+        shouldPublish,
+      );
+    }
   }
-  versionsByExtensionName[name].push(version);
-});
-
-const extensionSourceDirs = await fs.readdir("extensions");
-
-for (const extensionSourceDirname of extensionSourceDirs) {
-  const extensionSourcePath = path.join("extensions", extensionSourceDirname);
-  const publishedVersions =
-    versionsByExtensionName[extensionSourceDirname] ?? [];
-
-  const extensionMetadata = JSON.parse(
-    await fs.readFile(
-      path.join(extensionSourcePath, "extension.json"),
-      "utf-8",
-    ),
-  );
-
-  if (!publishedVersions.includes(extensionMetadata.version)) {
-    console.log(
-      "Packaging",
-      extensionMetadata.name,
-      "version",
-      extensionMetadata.version,
-    );
-
-    await packageExtension(
-      extensionSourcePath,
-      extensionMetadata,
-      shouldPublish,
-    );
-  }
+} finally {
+  await fs.rm("build", { recursive: true });
 }
 
-async function packageExtension(extensionPath, metadata, shouldPublish) {
-  const extensionDirname = path.basename(extensionPath);
+async function packageExtension(
+  extensionId,
+  extensionPath,
+  extensionVersion,
+  shouldPublish,
+) {
+  const metadata = JSON.parse(
+    await fs.readFile(path.join(extensionPath, "extension.json"), "utf-8"),
+  );
+
+  if (metadata.version !== extensionVersion) {
+    throw new Error(
+      [
+        `Incorrect version for extension ${extensionId} (${metadata.name})`,
+        "",
+        `Expected version: ${extensionVersion}`,
+        `Actual version: ${metadata.version}`,
+      ].join("\n"),
+    );
+  }
+
   const packageManifest = {
     name: metadata.name,
     version: metadata.version,
@@ -76,146 +88,200 @@ async function packageExtension(extensionPath, metadata, shouldPublish) {
     repository: metadata.repository,
   };
 
-  const packageDir = await fs.mkdtemp(extensionDirname + ".extension");
-  const archiveName = `${extensionDirname}-${packageManifest.version}.tar.gz`;
+  const packageDir = await fs.mkdtemp(
+    path.join("build", extensionId + ".extension"),
+  );
+  const archiveName = path.join(
+    "build",
+    `${extensionId}-${packageManifest.version}.tar.gz`,
+  );
+  const grammarRepoPaths = {};
 
-  try {
-    if (metadata.themes) {
-      const themesDir = path.join(packageDir, "themes");
-      await fs.mkdir(themesDir);
-      packageManifest.themes = {};
+  const grammarsSrcDir = path.join(extensionPath, "grammars");
+  const languagesSrcDir = path.join(extensionPath, "languages");
+  const themesSrcDir = path.join(extensionPath, "themes");
 
-      const themeFilenames = {};
-      for (const themePath of metadata.themes) {
-        const themeFullPath = path.join(extensionPath, themePath);
-        let themeFilename = path.basename(themePath, ".json");
+  const grammarsPkgDir = path.join(packageDir, "grammars");
+  const languagesPkgDir = path.join(packageDir, "languages");
+  const themesPkgDir = path.join(packageDir, "themes");
 
-        const theme = JSON.parse(await fs.readFile(themeFullPath, "utf-8"));
+  if (await isDirectory(themesSrcDir)) {
+    await fs.mkdir(themesPkgDir);
+    packageManifest.themes = {};
 
-        validateTheme(theme);
+    for (const themeFilename of await fs.readdir(themesSrcDir)) {
+      const themeFullPath = path.join(themesSrcDir, themeFilename);
+      const theme = JSON.parse(await fs.readFile(themeFullPath, "utf-8"));
 
-        const count = themeFilenames[themeFilename] || 0;
-        themeFilenames[themeFilename] = count + 1;
-        if (count > 0) {
-          themeFilename = `${themeFilename}.${count}`;
-        }
+      validateTheme(theme);
 
-        const themeDestinationPath = path.join(
-          themesDir,
-          `${themeFilename}.json`,
-        );
-        await fs.copyFile(themeFullPath, themeDestinationPath);
-        packageManifest.themes[theme.name] = `themes/${themeFilename}.json`;
-      }
+      const themeDestinationPath = path.join(themesPkgDir, themeFilename);
+      await fs.copyFile(themeFullPath, themeDestinationPath);
+      packageManifest.themes[theme.name] = `themes/${themeFilename}`;
     }
+  }
 
-    if (metadata.languages) {
-      const languagesDir = path.join(packageDir, "languages");
-      await fs.mkdir(languagesDir);
-      packageManifest.languages = {};
+  if (await isDirectory(languagesSrcDir)) {
+    await fs.mkdir(languagesPkgDir);
+    packageManifest.languages = {};
 
-      const languageDirnames = {};
-      for (const languagePath of metadata.languages) {
-        const languageFullPath = path.join(extensionPath, languagePath);
-        let languageDirname = path.basename(languagePath);
+    for (const languageDirname of await fs.readdir(languagesSrcDir)) {
+      const languageFullPath = path.join(languagesSrcDir, languageDirname);
+      const config = toml.parse(
+        await fs.readFile(path.join(languageFullPath, "config.toml"), "utf-8"),
+      );
 
-        const config = toml.parse(
-          await fs.readFile(
-            path.join(languageFullPath, "config.toml"),
-            "utf-8",
-          ),
-        );
+      validateLanguageConfig(config);
 
-        validateLanguageConfig(config);
-
-        const count = languageDirnames[languageDirname] || 0;
-        languageDirnames[languageDirname] = count + 1;
-        if (count > 0) {
-          languageDirname = `${languageDirname}.${count}`;
-        }
-
-        const languageDestinationPath = path.join(
-          languagesDir,
-          languageDirname,
-        );
-        await fs.cp(languageFullPath, languageDestinationPath, {
-          recursive: true,
-        });
-        packageManifest.languages[config.name] = `languages/${languageDirname}`;
-      }
+      const languageDestinationPath = path.join(
+        languagesPkgDir,
+        languageDirname,
+      );
+      await fs.cp(languageFullPath, languageDestinationPath, {
+        recursive: true,
+      });
+      packageManifest.languages[config.name] = `languages/${languageDirname}`;
     }
+  }
 
-    if (metadata.grammars) {
-      const grammarsDir = path.join(packageDir, "grammars");
-      await fs.mkdir(grammarsDir);
-      packageManifest.grammars = {};
+  if (await isDirectory(grammarsSrcDir)) {
+    await fs.mkdir(grammarsPkgDir);
+    packageManifest.grammars = {};
 
-      for (const grammarPath of metadata.grammars) {
-        const grammarFullPath = path.join(extensionPath, grammarPath);
-        const grammarName = JSON.parse(
-          await fs.readFile(
-            path.join(grammarFullPath, "src", "grammar.json"),
-            "utf-8",
-          ),
-        ).name;
+    for (const grammarFilename of await fs.readdir(grammarsSrcDir)) {
+      const grammarConfigPath = path.join(grammarsSrcDir, grammarFilename);
+      const config = toml.parse(await fs.readFile(grammarConfigPath, "utf-8"));
 
-        const treeSitterPath = path.join(
-          process.cwd(),
-          "node_modules",
-          ".bin",
-          "tree-sitter",
+      const grammarName = grammarFilename.replace(/\.toml$/, "");
+      const grammarRepoKey = `${config.repository}/${config.commit}`;
+      let grammarRepoPath;
+      if (grammarRepoPaths[grammarRepoKey]) {
+        grammarRepoPath = grammarRepoPaths[grammarRepoKey];
+      } else {
+        grammarRepoPath = await checkoutGitRepo(
+          grammarName,
+          config.repository,
+          config.commit,
         );
-        execFileSync(treeSitterPath, ["build-wasm"], {
-          stdio: "inherit",
-          cwd: grammarFullPath,
-        });
-
-        const wasmSourcePath = path.join(
-          grammarFullPath,
-          `tree-sitter-${grammarName}.wasm`,
-        );
-
-        const wasmDestinationPath = path.join(
-          grammarsDir,
-          `${grammarName}.wasm`,
-        );
-        await fs.copyFile(wasmSourcePath, wasmDestinationPath);
-        packageManifest.grammars[grammarName] = `grammars/${grammarName}.wasm`;
+        grammarRepoPaths[grammarRepoKey] = grammarRepoPath;
       }
-    }
 
-    await fs.writeFile(
-      path.join(packageDir, "extension.json"),
-      JSON.stringify(packageManifest, null, 2),
+      const grammarFullPath = config.path
+        ? path.join(grammarRepoPath, path)
+        : grammarRepoPath;
+
+      await exec(treeSitterPath, ["build-wasm"], {
+        cwd: grammarFullPath,
+      });
+
+      const wasmSourcePath = path.join(
+        grammarRepoPath,
+        `tree-sitter-${grammarName}.wasm`,
+      );
+
+      const wasmDestinationPath = path.join(
+        grammarsPkgDir,
+        `${grammarName}.wasm`,
+      );
+      await fs.copyFile(wasmSourcePath, wasmDestinationPath);
+      packageManifest.grammars[grammarName] = `grammars/${grammarName}.wasm`;
+    }
+  }
+
+  await fs.writeFile(
+    path.join(packageDir, "extension.json"),
+    JSON.stringify(packageManifest, null, 2),
+  );
+
+  const tarOutput = await exec("tar", [
+    "-czvf",
+    archiveName,
+    "-C",
+    packageDir,
+    ".",
+  ]);
+  console.log(tarOutput.stderr);
+
+  if (shouldPublish) {
+    const archiveData = await fs.readFile(archiveName);
+
+    await s3.send(
+      new PutObjectCommand({
+        Bucket: S3_BUCKET,
+        Key: `${EXTENSIONS_PREFIX}/${extensionId}/${packageManifest.version}/archive.tar.gz`,
+        Body: archiveData,
+      }),
     );
 
-    execFileSync("tar", ["-czvf", archiveName, "-C", packageDir, "."], {
-      stdio: "inherit",
-    });
-
-    if (shouldPublish) {
-      const archiveData = await fs.readFile(archiveName);
-
-      await s3.send(
-        new PutObjectCommand({
-          Bucket: S3_BUCKET,
-          Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}/archive.tar.gz`,
-          Body: archiveData,
-        }),
-      );
-
-      await s3.send(
-        new PutObjectCommand({
-          Bucket: S3_BUCKET,
-          Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}/manifest.json`,
-          Body: JSON.stringify(packageManifest),
-        }),
-      );
-    }
-  } finally {
-    await fs.rm(packageDir, { recursive: true, force: true });
-    await fs.rm(archiveName, { force: true });
+    await s3.send(
+      new PutObjectCommand({
+        Bucket: S3_BUCKET,
+        Key: `${EXTENSIONS_PREFIX}/${extensionId}/${packageManifest.version}/manifest.json`,
+        Body: JSON.stringify(packageManifest),
+      }),
+    );
   }
+}
+
+async function isDirectory(path) {
+  try {
+    const stats = await fs.stat(path);
+    return stats.isDirectory();
+  } catch {
+    return false;
+  }
+}
+
+async function getPublishedVersionsByExtensionId() {
+  const bucketList = await s3.listObjects({
+    Bucket: S3_BUCKET,
+    Prefix: `${EXTENSIONS_PREFIX}/`,
+  });
+
+  const publishedVersionsByExtensionId = {};
+  bucketList.Contents?.forEach((object) => {
+    const [_prefix, extensionId, version, _filename] = object.Key.split("/");
+    if (!publishedVersionsByExtensionId[extensionId]) {
+      publishedVersionsByExtensionId[extensionId] = [];
+    }
+    publishedVersionsByExtensionId[extensionId].push(version);
+  });
+
+  return publishedVersionsByExtensionId;
+}
+
+async function checkoutGitRepo(name, repositoryUrl, commitSha) {
+  const repoPath = await fs.mkdtemp(
+    path.join("build", `${name}-${commitSha}.repo`),
+  );
+  const processOptions = {
+    cwd: repoPath,
+  };
+
+  await exec("git", ["init"], processOptions);
+  await exec("git", ["remote", "add", "origin", repositoryUrl], processOptions);
+  await exec(
+    "git",
+    ["fetch", "--depth", "1", "origin", commitSha],
+    processOptions,
+  );
+  await exec("git", ["checkout", commitSha], processOptions);
+  return repoPath;
+}
+
+function exec(command, args, options) {
+  return new Promise((resolve, reject) => {
+    execFile(command, args, options, (err, stdout, stderr) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve({
+          stdout: stdout.toString("utf8"),
+          stderr: stderr.toString("utf8"),
+        });
+      }
+    });
+  });
 }
 
 function validateLanguageConfig(config) {
