@@ -8,7 +8,18 @@ import toml from "toml";
 
 const { S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET, SHOULD_PUBLISH } = process.env;
 
-const shouldPublish = SHOULD_PUBLISH === "true";
+/**
+ * Whether we're running offline.
+ *
+ * The `--offline` flag can be used to suppress interactions with S3, which allows
+ * developing the script locally without a set of credentials.
+ *
+ * Note that this will cause all extensions to be packaged.
+ */
+const isOffline = process.argv.includes("--offline");
+
+/** Whether packages should be published to the blob store. */
+const shouldPublish = SHOULD_PUBLISH === "true" && !isOffline;
 
 const treeSitterPath = path.join(
   process.cwd(),
@@ -29,8 +40,9 @@ const s3 = new S3({
 
 const EXTENSIONS_PREFIX = "extensions";
 
-const publishedVersionsByExtensionName =
-  await getPublishedVersionsByExtensionId();
+const publishedVersionsByExtensionName = isOffline
+  ? {}
+  : await getPublishedVersionsByExtensionId();
 
 // Get the list of extension versions in the repository.
 const extensionsToml = toml.parse(await fs.readFile("extensions.toml"));
