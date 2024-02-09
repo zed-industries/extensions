@@ -19,20 +19,28 @@ const s3 = new S3({
 });
 
 const EXTENSIONS_PREFIX = "extensions";
-const MANIFEST_FILENAME = "manifest.json";
 
-let manifestResponse = await s3.getObject({
+const bucketList = await s3.listObjects({
   Bucket: S3_BUCKET,
-  Key: MANIFEST_FILENAME,
+  Prefix: `${EXTENSIONS_PREFIX}/`,
 });
 
-const manifest = JSON.parse(await streamToString(manifestResponse.Body));
+const versionsByExtensionName = {};
+bucketList.Contents?.forEach((object) => {
+  const [_prefix, name, filename] = object.Key.split("/");
+  const version = filename.replace(".tar.gz", "");
+  if (!versionsByExtensionName[name]) {
+    versionsByExtensionName[name] = [];
+  }
+  versionsByExtensionName[name].push(version);
+});
+
 const extensionSourceDirs = await fs.readdir("extensions");
 
 for (const extensionSourceDirname of extensionSourceDirs) {
   const extensionSourcePath = path.join("extensions", extensionSourceDirname);
-  const manifestEntry = manifest.extensions?.[extensionSourceDirname];
-  const publishedVersions = manifestEntry?.versions ?? [];
+  const publishedVersions =
+    versionsByExtensionName[extensionSourceDirname] ?? [];
 
   const extensionMetadata = JSON.parse(
     await fs.readFile(
@@ -42,7 +50,7 @@ for (const extensionSourceDirname of extensionSourceDirs) {
   );
 
   if (!publishedVersions.includes(extensionMetadata.version)) {
-    console.log("publish ", extensionMetadata.name, extensionMetadata.version);
+    console.log("publish", extensionMetadata.name, extensionMetadata.version);
     await publishExtension(extensionSourcePath, extensionMetadata);
   }
 }
@@ -52,6 +60,8 @@ async function publishExtension(extensionPath, metadata) {
   const packageManifest = {
     name: metadata.name,
     version: metadata.version,
+    author: metadata.author,
+    repository: metadata.repository,
   };
 
   const packageDir = await fs.mkdtemp(extensionDirname + ".extension");
@@ -186,13 +196,4 @@ function validateLanguageConfig(config) {
 
 function validateTheme(theme) {
   //
-}
-
-function streamToString(stream) {
-  const chunks = [];
-  return new Promise((resolve, reject) => {
-    stream.on("data", (chunk) => chunks.push(Buffer.from(chunk)));
-    stream.on("error", (err) => reject(err));
-    stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-  });
 }
