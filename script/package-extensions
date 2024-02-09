@@ -196,13 +196,21 @@ async function packageExtension(extensionPath, metadata, shouldPublish) {
     if (shouldPublish) {
       const archiveData = await fs.readFile(archiveName);
 
-      const command = new PutObjectCommand({
-        Bucket: S3_BUCKET,
-        Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}.tar.gz`,
-        Body: archiveData,
-      });
+      await s3.send(
+        new PutObjectCommand({
+          Bucket: S3_BUCKET,
+          Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}/archive.tar.gz`,
+          Body: archiveData,
+        }),
+      );
 
-      await s3.send(command);
+      await s3.send(
+        new PutObjectCommand({
+          Bucket: S3_BUCKET,
+          Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}/manifest.json`,
+          Body: JSON.stringify(packageManifest),
+        }),
+      );
     }
   } finally {
     await fs.rm(packageDir, { recursive: true, force: true });
