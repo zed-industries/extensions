@@ -159,7 +159,13 @@ async function packageExtension(extensionPath, metadata, shouldPublish) {
           ),
         ).name;
 
-        execFileSync("node_modules/.bin/tree-sitter", ["build-wasm"], {
+        const treeSitterPath = path.join(
+          process.cwd(),
+          "node_modules",
+          ".bin",
+          "tree-sitter",
+        );
+        execFileSync(treeSitterPath, ["build-wasm"], {
           stdio: "inherit",
           cwd: grammarFullPath,
         });
