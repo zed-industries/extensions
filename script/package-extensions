@@ -6,7 +6,9 @@ import { execFileSync } from "child_process";
 import path from "path";
 import toml from "toml";
 
-const { S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET } = process.env;
+const { S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET, SHOULD_PUBLISH } = process.env;
+
+const shouldPublish = SHOULD_PUBLISH === "true";
 
 const s3 = new S3({
   forcePathStyle: false,
@@ -50,12 +52,22 @@ for (const extensionSourceDirname of extensionSourceDirs) {
   );
 
   if (!publishedVersions.includes(extensionMetadata.version)) {
-    console.log("publish", extensionMetadata.name, extensionMetadata.version);
-    await publishExtension(extensionSourcePath, extensionMetadata);
+    console.log(
+      "Packaging",
+      extensionMetadata.name,
+      "version",
+      extensionMetadata.version,
+    );
+
+    await packageExtension(
+      extensionSourcePath,
+      extensionMetadata,
+      shouldPublish,
+    );
   }
 }
 
-async function publishExtension(extensionPath, metadata) {
+async function packageExtension(extensionPath, metadata, shouldPublish) {
   const extensionDirname = path.basename(extensionPath);
   const packageManifest = {
     name: metadata.name,
@@ -147,7 +159,7 @@ async function publishExtension(extensionPath, metadata) {
           ),
         ).name;
 
-        execFileSync("tree-sitter", ["build-wasm"], {
+        execFileSync("node_modules/.bin/tree-sitter", ["build-wasm"], {
           stdio: "inherit",
           cwd: grammarFullPath,
         });
@@ -175,15 +187,17 @@ async function publishExtension(extensionPath, metadata) {
       stdio: "inherit",
     });
 
-    const archiveData = await fs.readFile(archiveName);
+    if (shouldPublish) {
+      const archiveData = await fs.readFile(archiveName);
 
-    const command = new PutObjectCommand({
-      Bucket: S3_BUCKET,
-      Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}.tar.gz`,
-      Body: archiveData,
-    });
+      const command = new PutObjectCommand({
+        Bucket: S3_BUCKET,
+        Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}.tar.gz`,
+        Body: archiveData,
+      });
 
-    await s3.send(command);
+      await s3.send(command);
+    }
   } finally {
     await fs.rm(packageDir, { recursive: true, force: true });
     await fs.rm(archiveName, { force: true });
