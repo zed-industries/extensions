@@ -1,0 +1,198 @@
+#!/usr/bin/env node
+
+import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import fs from "fs/promises";
+import { execFileSync } from "child_process";
+import path from "path";
+import toml from "toml";
+
+const { S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET } = process.env;
+
+const s3 = new S3({
+  forcePathStyle: false,
+  endpoint: "https://nyc3.digitaloceanspaces.com",
+  region: "nyc3",
+  credentials: {
+    accessKeyId: S3_ACCESS_KEY,
+    secretAccessKey: S3_SECRET_KEY,
+  },
+});
+
+const EXTENSIONS_PREFIX = "extensions";
+const MANIFEST_FILENAME = "manifest.json";
+
+let manifestResponse = await s3.getObject({
+  Bucket: S3_BUCKET,
+  Key: MANIFEST_FILENAME,
+});
+
+const manifest = JSON.parse(await streamToString(manifestResponse.Body));
+const extensionSourceDirs = await fs.readdir("extensions");
+
+for (const extensionSourceDirname of extensionSourceDirs) {
+  const extensionSourcePath = path.join("extensions", extensionSourceDirname);
+  const manifestEntry = manifest.extensions?.[extensionSourceDirname];
+  const publishedVersions = manifestEntry?.versions ?? [];
+
+  const extensionMetadata = JSON.parse(
+    await fs.readFile(
+      path.join(extensionSourcePath, "extension.json"),
+      "utf-8",
+    ),
+  );
+
+  if (!publishedVersions.includes(extensionMetadata.version)) {
+    console.log("publish ", extensionMetadata.name, extensionMetadata.version);
+    await publishExtension(extensionSourcePath, extensionMetadata);
+  }
+}
+
+async function publishExtension(extensionPath, metadata) {
+  const extensionDirname = path.basename(extensionPath);
+  const packageManifest = {
+    name: metadata.name,
+    version: metadata.version,
+  };
+
+  const packageDir = await fs.mkdtemp(extensionDirname + ".extension");
+  const archiveName = `${extensionDirname}-${packageManifest.version}.tar.gz`;
+
+  try {
+    if (metadata.themes) {
+      const themesDir = path.join(packageDir, "themes");
+      await fs.mkdir(themesDir);
+      packageManifest.themes = {};
+
+      const themeFilenames = {};
+      for (const themePath of metadata.themes) {
+        const themeFullPath = path.join(extensionPath, themePath);
+        let themeFilename = path.basename(themePath, ".json");
+
+        const theme = JSON.parse(await fs.readFile(themeFullPath, "utf-8"));
+
+        validateTheme(theme);
+
+        const count = themeFilenames[themeFilename] || 0;
+        themeFilenames[themeFilename] = count + 1;
+        if (count > 0) {
+          themeFilename = `${themeFilename}.${count}`;
+        }
+
+        const themeDestinationPath = path.join(
+          themesDir,
+          `${themeFilename}.json`,
+        );
+        await fs.copyFile(themeFullPath, themeDestinationPath);
+        packageManifest.themes[theme.name] = `themes/${themeFilename}.json`;
+      }
+    }
+
+    if (metadata.languages) {
+      const languagesDir = path.join(packageDir, "languages");
+      await fs.mkdir(languagesDir);
+      packageManifest.languages = {};
+
+      const languageDirnames = {};
+      for (const languagePath of metadata.languages) {
+        const languageFullPath = path.join(extensionPath, languagePath);
+        let languageDirname = path.basename(languagePath);
+
+        const config = toml.parse(
+          await fs.readFile(
+            path.join(languageFullPath, "config.toml"),
+            "utf-8",
+          ),
+        );
+
+        validateLanguageConfig(config);
+
+        const count = languageDirnames[languageDirname] || 0;
+        languageDirnames[languageDirname] = count + 1;
+        if (count > 0) {
+          languageDirname = `${languageDirname}.${count}`;
+        }
+
+        const languageDestinationPath = path.join(
+          languagesDir,
+          languageDirname,
+        );
+        await fs.cp(languageFullPath, languageDestinationPath, {
+          recursive: true,
+        });
+        packageManifest.languages[config.name] = `languages/${languageDirname}`;
+      }
+    }
+
+    if (metadata.grammars) {
+      const grammarsDir = path.join(packageDir, "grammars");
+      await fs.mkdir(grammarsDir);
+      packageManifest.grammars = {};
+
+      for (const grammarPath of metadata.grammars) {
+        const grammarFullPath = path.join(extensionPath, grammarPath);
+        const grammarName = JSON.parse(
+          await fs.readFile(
+            path.join(grammarFullPath, "src", "grammar.json"),
+            "utf-8",
+          ),
+        ).name;
+
+        execFileSync("tree-sitter", ["build-wasm"], {
+          stdio: "inherit",
+          cwd: grammarFullPath,
+        });
+
+        const wasmSourcePath = path.join(
+          grammarFullPath,
+          `tree-sitter-${grammarName}.wasm`,
+        );
+
+        const wasmDestinationPath = path.join(
+          grammarsDir,
+          `${grammarName}.wasm`,
+        );
+        await fs.copyFile(wasmSourcePath, wasmDestinationPath);
+        packageManifest.grammars[grammarName] = `grammars/${grammarName}.wasm`;
+      }
+    }
+
+    await fs.writeFile(
+      path.join(packageDir, "extension.json"),
+      JSON.stringify(packageManifest, null, 2),
+    );
+
+    execFileSync("tar", ["-czvf", archiveName, "-C", packageDir, "."], {
+      stdio: "inherit",
+    });
+
+    const archiveData = await fs.readFile(archiveName);
+
+    const command = new PutObjectCommand({
+      Bucket: S3_BUCKET,
+      Key: `${EXTENSIONS_PREFIX}/${extensionDirname}/${packageManifest.version}.tar.gz`,
+      Body: archiveData,
+    });
+
+    await s3.send(command);
+  } finally {
+    await fs.rm(packageDir, { recursive: true, force: true });
+    await fs.rm(archiveName, { force: true });
+  }
+}
+
+function validateLanguageConfig(config) {
+  //
+}
+
+function validateTheme(theme) {
+  //
+}
+
+function streamToString(stream) {
+  const chunks = [];
+  return new Promise((resolve, reject) => {
+    stream.on("data", (chunk) => chunks.push(Buffer.from(chunk)));
+    stream.on("error", (err) => reject(err));
+    stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+  });
+}
