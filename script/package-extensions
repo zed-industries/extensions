@@ -72,7 +72,7 @@ async function packageExtension(extensionPath, metadata, shouldPublish) {
   const packageManifest = {
     name: metadata.name,
     version: metadata.version,
-    author: metadata.author,
+    authors: metadata.authors,
     repository: metadata.repository,
   };
 
