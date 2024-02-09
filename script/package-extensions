@@ -203,6 +203,7 @@ async function packageExtension(
   console.log(tarOutput.stderr);
 
   if (shouldPublish) {
+    console.log(`Uploading ${extensionId} version ${extensionVersion}`);
     const archiveData = await fs.readFile(archiveName);
 
     await s3.send(
