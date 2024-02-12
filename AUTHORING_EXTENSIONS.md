@@ -36,10 +36,7 @@ A Zed extension is a Git repository that contains an `extension.json`:
     "Your Name <you@example.com>"
   ],
   "description": "My cool extension",
-  "repository": "https://github.com/your-name/my-zed-extension",
-  "grammars": [],
-  "languages": [],
-  "themes": []
+  "repository": "https://github.com/your-name/my-zed-extension"
 }
 ```
 
@@ -47,23 +44,30 @@ Extensions may contain any combination of grammars, languages, and themes. For e
 
 ### Grammars
 
-The `grammars` field in `extension.json` is an array containing paths to Tree-sitter grammars.
+The `grammars` directory in an extension should contain one or more TOML files containing grammar configs.
 
-Generally you will want to add a repository containing a Tree-sitter grammar as a Git submodule and then update the `grammars` list to point to that directory:
+Each file must specify the repository where the Tree-sitter grammar should be loaded from, as well as the SHA of the Git commit to use:
 
-```json
-{
-  "grammars": ["grammars/tree-sitter-example"]
-}
+```toml
+repository = "https://github.com/polarmutex/tree-sitter-beancount"
+commit = "dd6f4ec9b01dd18cc4aa8c8517738414fb98cd63"
+```
+
+You may also supply an optional `path` to indicate that the Tree-sitter grammar should be loaded from a subdirectory within the repository:
+
+```toml
+repository = "https://github.com/polarmutex/tree-sitter-php"
+commit = "5ceb92397f68b4aad73b09dee3c63639cb4611e7"
+path = "php_only"
 ```
 
 ### Languages
 
-The `languages` field in `extension.json` is an array containing paths to directories containing a language configuration.
+The `languages` directory in an extension should contain one or more directories containing languages.
 
 ### Themes
 
-The `themes` field in `extension.json` is an array containing paths to theme files.
+The `themes` directory in an extension should contain one or more theme files.
 
 Each theme file should adhere to the JSON schema specified at [`https://zed.dev/schema/themes/v0.1.0.json`](https://zed.dev/schema/themes/v0.1.0.json).
 
@@ -73,7 +77,15 @@ See [this blog post](https://zed.dev/blog/user-themes-now-in-preview) for more d
 
 To publish an extension, open a PR to [this repo](https://github.com/zed-industries/extensions).
 
-In your PR, add your extension as a Git submodule within the `extensions/` directory.
+In your PR do the following:
+
+1. Add your extension as a Git submodule within the `extensions/` directory
+2. Add a new entry to `extensions.toml` containing your extension:
+    ```toml
+    [my-extension]
+    path = "extensions/my-extension"
+    version = "0.0.1"
+    ```
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
 
