@@ -130,6 +130,7 @@ async function packageExtension(
     name: metadata.name,
     version: metadata.version,
     authors: metadata.authors,
+    description: metadata.description,
     repository: metadata.repository,
   };
 
