@@ -1,6 +1,9 @@
 [submodule "extensions/beancount"]
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount
+[submodule "dracula"]
+	path = extensions/dracula
+	url = https://github.com/dracula/zed
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
@@ -10,6 +13,3 @@
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu
-[submodule "dracula"]
-	path = extensions/dracula
-	url = https://github.com/dracula/zed
