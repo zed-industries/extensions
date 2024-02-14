@@ -1,12 +1,24 @@
 [submodule "extensions/beancount"]
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount
+[submodule "extensions/catppuccin"]
+	path = extensions/catppuccin
+	url = https://github.com/ssaunderss/zed-catppuccin
+[submodule "dracula"]
+	path = extensions/dracula
+	url = https://github.com/dracula/zed
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
+[submodule "extensions/nightfox"]
+	path = extensions/nightfox
+	url = https://github.com/ssaunderss/zed-nightfox
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu
+[submodule "extensions/tokyo-night"]
+	path = extensions/tokyo-night
+	url = https://github.com/ssaunderss/zed-tokyo-night
 [submodule "extensions/vscode-dark-plus"]
 	path = extensions/vscode-dark-plus
 	url = git@github.com:d1y/vscode_dark_plus.zed.git
