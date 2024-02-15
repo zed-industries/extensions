@@ -7,7 +7,14 @@ import toml from "toml";
 import Ajv from "ajv";
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
 
-const { S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET, SHOULD_PUBLISH } = process.env;
+const {
+  S3_ACCESS_KEY,
+  S3_SECRET_KEY,
+  S3_BUCKET,
+  SHOULD_PUBLISH,
+  S3_ENDPOINT,
+  S3_REGION,
+} = process.env;
 
 const USAGE = `
 package-extensions [extensionId]
@@ -63,8 +70,8 @@ const languageConfigValidator = ajv.compile(
 
 const s3 = new S3({
   forcePathStyle: false,
-  endpoint: "https://nyc3.digitaloceanspaces.com",
-  region: "nyc3",
+  endpoint: S3_ENDPOINT || "https://nyc3.digitaloceanspaces.com",
+  region: S3_REGION || "nyc3",
   credentials: {
     accessKeyId: S3_ACCESS_KEY,
     secretAccessKey: S3_SECRET_KEY,
