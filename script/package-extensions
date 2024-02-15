@@ -55,10 +55,10 @@ const treeSitterPath = path.join(
 
 const ajv = new Ajv({});
 const themeValidator = ajv.compile(
-  JSON.parse(await fs.readFile("schemas/theme-family.json", "utf8")),
+  await readJsonFile("schemas/theme-family.json"),
 );
 const languageConfigValidator = ajv.compile(
-  JSON.parse(await fs.readFile("schemas/language-config.json", "utf8")),
+  await readJsonFile("schemas/language-config.json"),
 );
 
 const s3 = new S3({
@@ -111,8 +111,8 @@ async function packageExtension(
   extensionVersion,
   shouldPublish,
 ) {
-  const metadata = JSON.parse(
-    await fs.readFile(path.join(extensionPath, "extension.json"), "utf-8"),
+  const metadata = await readJsonFile(
+    path.join(extensionPath, "extension.json"),
   );
 
   if (metadata.version !== extensionVersion) {
@@ -156,8 +156,12 @@ async function packageExtension(
     packageManifest.themes = {};
 
     for (const themeFilename of await fs.readdir(themesSrcDir)) {
+      if (!themeFilename.endsWith(".json")) {
+        continue;
+      }
+
       const themeFullPath = path.join(themesSrcDir, themeFilename);
-      const theme = JSON.parse(await fs.readFile(themeFullPath, "utf-8"));
+      const theme = await readJsonFile(themeFullPath);
 
       validateTheme(theme);
 
@@ -276,6 +280,16 @@ async function isDirectory(path) {
     return stats.isDirectory();
   } catch {
     return false;
+  }
+}
+
+async function readJsonFile(path) {
+  const json = await fs.readFile(path, "utf-8");
+
+  try {
+    return JSON.parse(json);
+  } catch (err) {
+    throw new Error(`Failed to parse JSON file '${path}': ${err}`);
   }
 }
 
