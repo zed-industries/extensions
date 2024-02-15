@@ -1,6 +1,9 @@
 [submodule "extensions/beancount"]
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount
+[submodule "extensions/brainfuck"]
+	path = extensions/brainfuck
+	url = https://github.com/JosephTLyons/zed-brainfuck
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/ssaunderss/zed-catppuccin
@@ -28,6 +31,3 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
-[submodule "extensions/brainfuck"]
-	path = extensions/brainfuck
-	url = https://github.com/JosephTLyons/zed-brainfuck
