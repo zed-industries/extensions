@@ -1,12 +1,18 @@
 [submodule "extensions/beancount"]
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount
+[submodule "extensions/brainfuck"]
+	path = extensions/brainfuck
+	url = https://github.com/JosephTLyons/zed-brainfuck
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/ssaunderss/zed-catppuccin
 [submodule "dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed
+[submodule "extensions/mau"]
+	path = extensions/mau
+	url = https://github.com/mauscoelho/zed-mau-themes
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
@@ -19,6 +25,9 @@
 [submodule "extensions/one-dark-pro"]
 	path = extensions/one-dark-pro
 	url = git@github.com:MordFustang21/zed-one-dark-pro.git
+[submodule "extensions/pkl"]
+	path = extensions/pkl
+	url = https://github.com/Moshyfawn/pkl-zed.git
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night
@@ -31,6 +40,3 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
-[submodule "extensions/brainfuck"]
-	path = extensions/brainfuck
-	url = https://github.com/JosephTLyons/zed-brainfuck
