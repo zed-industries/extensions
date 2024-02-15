@@ -156,6 +156,10 @@ async function packageExtension(
     packageManifest.themes = {};
 
     for (const themeFilename of await fs.readdir(themesSrcDir)) {
+      if (!themeFilename.endsWith(".json")) {
+        continue;
+      }
+
       const themeFullPath = path.join(themesSrcDir, themeFilename);
       const theme = await readJsonFile(themeFullPath);
 
