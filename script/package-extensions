@@ -74,7 +74,7 @@ const s3 = new S3({
 const EXTENSIONS_PREFIX = "extensions";
 
 // Get the list of extension versions in the repository.
-const extensionsToml = toml.parse(await fs.readFile("extensions.toml"));
+const extensionsToml = await readTomlFile("extensions.toml");
 
 // Package each extension in the repository that has not already
 // been packaged.
@@ -177,8 +177,8 @@ async function packageExtension(
 
     for (const languageDirname of await fs.readdir(languagesSrcDir)) {
       const languageFullPath = path.join(languagesSrcDir, languageDirname);
-      const config = toml.parse(
-        await fs.readFile(path.join(languageFullPath, "config.toml"), "utf-8"),
+      const config = await readTomlFile(
+        path.join(languageFullPath, "config.toml"),
       );
 
       validateLanguageConfig(config);
@@ -200,7 +200,7 @@ async function packageExtension(
 
     for (const grammarFilename of await fs.readdir(grammarsSrcDir)) {
       const grammarConfigPath = path.join(grammarsSrcDir, grammarFilename);
-      const config = toml.parse(await fs.readFile(grammarConfigPath, "utf-8"));
+      const config = await readTomlFile(grammarConfigPath);
 
       const grammarName = grammarFilename.replace(/\.toml$/, "");
       const grammarRepoKey = `${config.repository}/${config.commit}`;
@@ -290,6 +290,16 @@ async function readJsonFile(path) {
     return JSON.parse(json);
   } catch (err) {
     throw new Error(`Failed to parse JSON file '${path}': ${err}`);
+  }
+}
+
+async function readTomlFile(path) {
+  const tomlContents = await fs.readFile(path, "utf-8");
+
+  try {
+    return toml.parse(tomlContents);
+  } catch (err) {
+    throw new Error(`Failed to parse TOML file '${path}': ${err}`);
   }
 }
 
