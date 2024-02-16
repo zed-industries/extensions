@@ -10,6 +10,9 @@
 [submodule "dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed
+[submodule "extensions/github-theme"]
+	path = extensions/github-theme
+	url = https://github.com/PyaeSoneAungRgn/github-zed-theme
 [submodule "extensions/mau"]
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes
@@ -40,6 +43,3 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
-[submodule "extensions/github-theme"]
-	path = extensions/github-theme
-	url = https://github.com/PyaeSoneAungRgn/github-zed-theme
