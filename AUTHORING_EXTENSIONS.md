@@ -73,6 +73,16 @@ Each theme file should adhere to the JSON schema specified at [`https://zed.dev/
 
 See [this blog post](https://zed.dev/blog/user-themes-now-in-preview) for more details about creating themes.
 
+## Testing your extension locally
+
+To test your extension locally, you can add it to the `~/Library/Application\ Support/Zed/extensions/installed/` directory.
+
+Zed should automatically pick up the extension as installed and load it. If it doesn't, you can run `zed: reload extensions` from the command palette to force a reload.
+
+### Grammars
+
+If your extension contains grammars, you will need to install the Tree-sitter CLI to generate the WASM grammar file by running `build-wasm` command in the extension directory.
+
 ## Publishing your extension
 
 To publish an extension, open a PR to [this repo](https://github.com/zed-industries/extensions).
