@@ -22,6 +22,9 @@
 [submodule "extensions/mellow"]
 	path = extensions/mellow
 	url = https://github.com/sonodima/zed-mellow
+[submodule "extensions/msun-dark"]
+	path = extensions/msun-dark
+	url = https://github.com/mikesun/msun-dark-zed.git
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
@@ -49,6 +52,3 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
-[submodule "extensions/msun-dark-zed"]
-	path = extensions/msun-dark-zed
-	url = https://github.com/mikesun/msun-dark-zed.git
