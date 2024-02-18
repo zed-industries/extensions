@@ -1,10 +1,10 @@
-# config.toml
-[settings]
-theme = "Monokai"
-fontSize = 14
-autoComplete = true
-tabSize = 4
-
-[java]
-jdkPath = "/path/to/jdk"
-classpath = ["./lib", "./src"]
+name = "Java"
+grammar = "java"
+pathSuffixes = ["java"]
+lineComments = ["// "]
+autoCloseBefore = ";:.,=}])>` \n\t\""
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = false },
+]

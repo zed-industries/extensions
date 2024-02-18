@@ -1,5 +1,3 @@
-;; brackets.scm
-(define java-brackets
-  '(( "{" "}" )
-    ( "[" "]" )
-    ( "(" ")" )))
+("(" @open ")" @close)
+("[" @open "]" @close)
+("{" @open "}" @close)
