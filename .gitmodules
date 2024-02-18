@@ -10,6 +10,9 @@
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/ssaunderss/zed-catppuccin
+[submodule "extensions/dockerfile"]
+	path = extensions/dockerfile
+	url = git@github.com:d1y/dockerfile.zed.git
 [submodule "dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed
@@ -67,6 +70,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/dockerfile"]
-	path = extensions/dockerfile
-	url = git@github.com:d1y/dockerfile.zed.git
