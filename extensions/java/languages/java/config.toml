@@ -1,0 +1,10 @@
+# config.toml
+[settings]
+theme = "Monokai"
+fontSize = 14
+autoComplete = true
+tabSize = 4
+
+[java]
+jdkPath = "/path/to/jdk"
+classpath = ["./lib", "./src"]
