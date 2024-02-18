@@ -13,9 +13,15 @@
 [submodule "dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed
+[submodule "extensions/exquisite"]
+	path = extensions/exquisite
+	url = https://github.com/xqsit94/zed-xqsit-theme.git
 [submodule "extensions/github-theme"]
 	path = extensions/github-theme
 	url = https://github.com/PyaeSoneAungRgn/github-zed-theme
+[submodule "extensions/macos-classic"]
+	path = extensions/macos-classic
+	url = https://github.com/huacnlee/zed-theme-macos-classic
 [submodule "extensions/mau"]
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes
@@ -52,6 +58,12 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
+[submodule "extensions/zedokai"]
+	path = extensions/zedokai
+	url = https://github.com/slymax/zedokai
+[submodule "extensions/zedspace"]
+	path = extensions/zedspace
+	url = git@github.com:Brunowilliang/zedspace.git
 [submodule "extensions/napalm"]
 	path = extensions/napalm
 	url = https://github.com/napalmpapalam/napalm-theme-zed.git
