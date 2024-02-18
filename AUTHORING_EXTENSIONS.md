@@ -81,7 +81,7 @@ Zed should automatically pick up the extension as installed and load it. If it d
 
 ### Grammars
 
-If your extension contains grammars, you will need to install the Tree-sitter CLI to generate the WASM grammar file by running `build-wasm` command in the extension directory.
+If your extension contains grammars, you will need to install the Tree-sitter CLI to generate the WASM grammar file by running the `build-wasm` command to generate the WASM grammar and then place the `<grammar>.wasm` file in the `grammars` directory in the extension.
 
 ## Publishing your extension
 
