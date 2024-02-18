@@ -26,6 +26,10 @@ version = "0.1.0"
 path = "extensions/github-theme"
 version = "0.0.1"
 
+[log]
+path = "extensions/log"
+version = "0.0.1"
+
 [macos-classic]
 path = "extensions/macos-classic"
 version = "0.0.2"
@@ -84,8 +88,4 @@ version = "0.0.1"
 
 [zedspace]
 path = "extensions/zedspace"
-version = "0.0.1"
-
-[zed-log]
-path = "extensions/zed-log"
 version = "0.0.1"
