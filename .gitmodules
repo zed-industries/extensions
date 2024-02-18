@@ -40,6 +40,9 @@
 [submodule "extensions/pkl"]
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
+[submodule "extensions/synthwave"]
+	path = extensions/synthwave
+	url = https://github.com/DanielMSchmidt/zed-synthwave
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night
@@ -52,6 +55,3 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
-[submodule "extensions/zed-synthwave"]
-	path = extensions/zed-synthwave
-	url = https://github.com/DanielMSchmidt/zed-synthwave
