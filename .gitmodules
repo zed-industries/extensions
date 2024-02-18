@@ -58,8 +58,8 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
-[submodule "extension/wgsl"]
-	path = "extensions/wgsl"
+[submodule "extensions/wgsl"]
+	path = extensions/wgsl
 	url = https://github.com/luan/zed-wgsl
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
@@ -67,6 +67,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "zed-wgsl"]
-	path = zed-wgsl
-	url = https://github.com/luan/zed-wgsl
