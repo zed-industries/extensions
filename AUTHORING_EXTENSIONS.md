@@ -89,13 +89,16 @@ To publish an extension, open a PR to [this repo](https://github.com/zed-industr
 
 In your PR do the following:
 
-1. Add your extension as a Git submodule within the `extensions/` directory
-2. Add a new entry to `extensions.toml` containing your extension:
+1. Add a new entry to `extensions.toml` containing your extension:
     ```toml
     [my-extension]
     path = "extensions/my-extension"
     version = "0.0.1"
+    # commit = "dd6f4ec9b01dd18cc4aa8c8517738414fb98cd63" # optional
     ```
+2. Run `npm run package-extensions` to test that your extension can be packaged.
+
+The `package-extensions` command will clone your extension repo as submodule into `extensions` directory, and checkout the specified commit if `commit` is provided, otherwise it will use `version` to checkout the tag with `v${version}`.
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
 

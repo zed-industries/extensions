@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - 'main'
+      - "main"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -24,12 +24,12 @@ jobs:
       - name: Install Emscripten
         uses: mymindstorm/setup-emsdk@v14
         with:
-          version: '3.1.37'
-          actions-cache-folder: 'emsdk-cache'
+          version: "3.1.37"
+          actions-cache-folder: "emsdk-cache"
 
       - run: npm install
 
-      - run: ./script/package-extensions
+      - run: npm run package-extensions
         env:
           SHOULD_PUBLISH: ${{ github.ref_name == 'main' }}
           S3_BUCKET: ${{ secrets.S3_BUCKET }}

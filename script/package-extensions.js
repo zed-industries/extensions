@@ -103,6 +103,15 @@ try {
       `Packaging '${extensionId}'. Version: ${extensionInfo.version}`,
     );
 
+    // Update the submodule to the latest commit.
+    await exec("git", ["submodule", "update", "--init", extensionInfo.path]);
+
+    // If the extension has a commit, update the submodule to that commit.
+    const checkoutCommit = extensionInfo.commit || `v${extensionInfo.version}`;
+
+    console.log(`Updating submodule: ${extensionId} to ${checkoutCommit}`);
+    await exec("git", ["-C", extensionInfo.path, "checkout", checkoutCommit]);
+
     await packageExtension(
       extensionId,
       extensionInfo.path,
