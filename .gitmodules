@@ -37,6 +37,12 @@
 [submodule "extensions/msun-dark"]
 	path = extensions/msun-dark
 	url = https://github.com/mikesun/msun-dark-zed.git
+[submodule "extensions/napalm"]
+	path = extensions/napalm
+	url = https://github.com/napalmpapalam/napalm-theme-zed.git
+[submodule "extensions/navi"]
+	path = extensions/navi
+	url = https://github.com/navi-language/zed-navi
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
@@ -64,6 +70,9 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
+[submodule "extensions/wgsl"]
+	path = extensions/wgsl
+	url = https://github.com/luan/zed-wgsl
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
 	url = https://github.com/slymax/zedokai
