@@ -2,6 +2,10 @@
 path = "extensions/assembly"
 version = "0.0.1"
 
+[base16]
+path = "extensions/base16"
+version = "0.0.1"
+
 [beancount]
 path = "extensions/beancount"
 version = "0.0.1"
@@ -34,6 +38,10 @@ version = "0.0.1"
 path = "extensions/java"
 version = "0.0.1"
 
+[log]
+path = "extensions/log"
+version = "0.0.1"
+
 [macos-classic]
 path = "extensions/macos-classic"
 version = "0.0.2"
@@ -48,6 +56,14 @@ version = "0.0.1"
 
 [msun-dark]
 path = "extensions/msun-dark"
+version = "0.0.2"
+
+[napalm]
+path = "extensions/napalm"
+version = "0.0.1"
+
+[navi]
+path = "extensions/navi"
 version = "0.0.1"
 
 [neosolarized]
@@ -74,6 +90,10 @@ version = "0.0.1"
 path = "extensions/swift"
 version = "0.0.1"
 
+[smooth]
+path = "extensions/smooth"
+version = "0.0.1"
+
 [tokyo-night]
 path = "extensions/tokyo-night"
 version = "0.0.2"
@@ -90,9 +110,13 @@ version = "0.0.1"
 path = "extensions/vscode-monokai-charcoal"
 version = "0.0.1"
 
+[wgsl]
+path = "extensions/wgsl"
+version = "0.0.1"
+
 [zedokai]
 path = "extensions/zedokai"
-version = "0.0.1"
+version = "0.1.0"
 
 [zedspace]
 path = "extensions/zedspace"
