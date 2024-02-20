@@ -10,6 +10,9 @@
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/ssaunderss/zed-catppuccin
+[submodule "extensions/dockerfile"]
+	path = extensions/dockerfile
+	url = git@github.com:d1y/dockerfile.zed.git
 [submodule "dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed
@@ -19,6 +22,9 @@
 [submodule "extensions/github-theme"]
 	path = extensions/github-theme
 	url = https://github.com/PyaeSoneAungRgn/github-zed-theme
+[submodule "extensions/java"]
+	path = extensions/java
+	url = https://github.com/samuser107/zed-java-extension
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
 	url = https://github.com/huacnlee/zed-theme-macos-classic
@@ -58,6 +64,9 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = git@github.com:d1y/vscode-monokaicharcoal.zed.git
+[submodule "extensions/wgsl"]
+	path = extensions/wgsl
+	url = https://github.com/luan/zed-wgsl
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
 	url = https://github.com/slymax/zedokai

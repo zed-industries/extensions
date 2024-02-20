@@ -14,6 +14,10 @@ version = "0.0.1"
 path = "extensions/catppuccin"
 version = "0.0.2"
 
+[dockerfile]
+path = "extensions/dockerfile"
+version = "0.0.1"
+
 [dracula]
 path = "extensions/dracula"
 version = "0.0.1"
@@ -26,9 +30,13 @@ version = "0.1.0"
 path = "extensions/github-theme"
 version = "0.0.1"
 
+[java]
+path = "extensions/java"
+version = "0.0.1"
+
 [macos-classic]
 path = "extensions/macos-classic"
-version = "0.0.1"
+version = "0.0.2"
 
 [mau]
 path = "extensions/mau"
@@ -76,6 +84,10 @@ version = "0.0.1"
 
 [vscode-monokai-charcoal]
 path = "extensions/vscode-monokai-charcoal"
+version = "0.0.1"
+
+[wgsl]
+path = "extensions/wgsl"
 version = "0.0.1"
 
 [zedokai]
