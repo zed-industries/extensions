@@ -28,6 +28,9 @@
 [submodule "extensions/java"]
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension
+[submodule "extensions/kiselevka"]
+	path = extensions/kiselevka
+	url = https://github.com/kdubrovsky/kiselevka.git
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/evrsen/zed-log
@@ -91,6 +94,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/kiselevka"]
-	path = extensions/kiselevka
-	url = https://github.com/kdubrovsky/kiselevka.git
