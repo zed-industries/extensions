@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
-import path from "node:path";
-import fs from "node:fs/promises";
-import { execFile } from "node:child_process";
-import toml from "toml";
 import Ajv from "ajv";
+import fs from "node:fs/promises";
+import path from "node:path";
+import stripJsonComments from 'strip-json-comments';
+import toml from "toml";
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import { execFile } from "node:child_process";
 
 const {
   S3_ACCESS_KEY,
@@ -298,7 +299,7 @@ async function readJsonFile(path) {
   const json = await fs.readFile(path, "utf-8");
 
   try {
-    return JSON.parse(json);
+    return JSON.parse(stripJsonComments(json));
   } catch (err) {
     throw new Error(`Failed to parse JSON file '${path}': ${err}`);
   }
