@@ -19,6 +19,9 @@
 [submodule "dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed
+[submodule "extensions/everforest"]
+	path = extensions/everforest
+	url = https://github.com/ThomasAlban/everforest-zed
 [submodule "extensions/exquisite"]
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
@@ -100,6 +103,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/everforest"]
-	path = extensions/everforest
-	url = https://github.com/ThomasAlban/everforest-zed
