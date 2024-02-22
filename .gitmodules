@@ -19,12 +19,21 @@
 [submodule "dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed
+[submodule "extensions/everforest"]
+	path = extensions/everforest
+	url = https://github.com/ThomasAlban/everforest-zed
 [submodule "extensions/exquisite"]
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
+[submodule "extensions/github-dark-default"]
+	path = extensions/github-dark-default
+	url = git@github.com:MordFustang21/zed-github-dark.git
 [submodule "extensions/github-theme"]
 	path = extensions/github-theme
 	url = https://github.com/PyaeSoneAungRgn/github-zed-theme
+[submodule "extensions/horizon"]
+	path = extensions/horizon
+	url = https://github.com/ayn2op/zed-horizon
 [submodule "extensions/java"]
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension
@@ -97,3 +106,6 @@
 [submodule "extensions/the-dark-side"]
 	path = extensions/the-dark-side
 	url = https://github.com/Imgkl/the-dark-side.git
+[submodule "extensions/graphene"]
+	path = extensions/graphene
+	url = https://github.com/adinack/graphene
