@@ -34,6 +34,9 @@
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene
+[submodule "extensions/graphql"]
+	path = extensions/graphql
+	url = git@github.com:11bit/zed-extension-graphql.git
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon
@@ -79,15 +82,27 @@
 [submodule "extensions/pkl"]
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
+[submodule "extensions/poimandres"]
+	path = extensions/poimandres
+	url = https://github.com/mshaugh/poimandres.zed
+[submodule "extensions/r"]
+	path = extensions/r
+	url = https://github.com/ocsmit/zed-r.git
 [submodule "extensions/smooth"]
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
-[submodule "extensions/swift"]
-	path = extensions/swift
-	url = https://github.com/samuser107/zed-swift-extension
+[submodule "extensions/sql"]
+	path = extensions/sql
+	url = https://github.com/evrsen/zed-sql
 [submodule "extensions/srcery"]
 	path = extensions/srcery
 	url = https://github.com/srcery-colors/srcery-zed
+[submodule "extensions/swift"]
+	path = extensions/swift
+	url = https://github.com/samuser107/zed-swift-extension
+[submodule "extensions/synthwave"]
+	path = extensions/synthwave
+	url = https://github.com/DanielMSchmidt/zed-synthwave
 [submodule "extensions/the-dark-side"]
 	path = extensions/the-dark-side
 	url = https://github.com/Imgkl/the-dark-side.git
@@ -106,6 +121,9 @@
 [submodule "extensions/wgsl"]
 	path = extensions/wgsl
 	url = https://github.com/luan/zed-wgsl
+[submodule "extensions/xy-zed"]
+	path = extensions/xy-zed
+	url = https://github.com/zarifpour/xy-zed
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
 	url = https://github.com/slymax/zedokai
