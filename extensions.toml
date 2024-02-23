@@ -52,7 +52,7 @@ version = "0.0.1"
 
 [java]
 path = "extensions/java"
-version = "0.0.1"
+version = "0.0.2"
 
 [kiselevka]
 path = "extensions/kiselevka"
@@ -110,9 +110,13 @@ version = "0.0.1"
 path = "extensions/smooth"
 version = "0.0.1"
 
+[r]
+path = "extensions/r"
+version = "0.0.1"
+
 [swift]
 path = "extensions/swift"
-version = "0.0.2"
+version = "0.0.3"
 
 [srcery]
 path = "extensions/srcery"
@@ -120,7 +124,7 @@ version = "0.0.1"
 
 [the-dark-side]
 path = "extensions/the-dark-side"
-version = "0.2.0"
+version = "0.2.1"
 
 [tokyo-night]
 path = "extensions/tokyo-night"
@@ -142,14 +146,14 @@ version = "0.0.1"
 path = "extensions/wgsl"
 version = "0.0.1"
 
+[xy-zed]
+path = "extensions/xy-zed"
+version = "0.0.1"
+
 [zedokai]
 path = "extensions/zedokai"
 version = "0.1.0"
 
 [zedspace]
 path = "extensions/zedspace"
-version = "0.0.1"
-
-[r]
-path = "extensions/r"
 version = "0.0.1"
