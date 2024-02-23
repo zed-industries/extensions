@@ -34,6 +34,9 @@
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene
+[submodule "extensions/graphql"]
+	path = extensions/graphql
+	url = git@github.com:11bit/zed-extension-graphql.git
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon
@@ -121,6 +124,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/graphql"]
-	path = extensions/graphql
-	url = git@github.com:11bit/zed-extension-graphql.git
