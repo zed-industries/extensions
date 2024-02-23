@@ -79,9 +79,15 @@
 [submodule "extensions/pkl"]
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
+[submodule "extensions/r"]
+	path = extensions/r
+	url = https://github.com/ocsmit/zed-r.git
 [submodule "extensions/smooth"]
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
+[submodule "extensions/sql"]
+	path = extensions/sql
+	url = https://github.com/evrsen/zed-sql
 [submodule "extensions/swift"]
 	path = extensions/swift
 	url = https://github.com/samuser107/zed-swift-extension
@@ -112,6 +118,6 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/sql"]
-	path = extensions/sql
-	url = https://github.com/evrsen/zed-sql
+[submodule "extensions/xy-zed"]
+	path = extensions/xy-zed
+	url = https://github.com/zarifpour/xy-zed
