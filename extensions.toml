@@ -4,7 +4,7 @@ version = "0.0.1"
 
 [base16]
 path = "extensions/base16"
-version = "0.0.1"
+version = "0.0.2"
 
 [beancount]
 path = "extensions/beancount"
@@ -16,7 +16,7 @@ version = "0.0.2"
 
 [catppuccin]
 path = "extensions/catppuccin"
-version = "0.1.0"
+version = "0.1.1"
 
 [dockerfile]
 path = "extensions/dockerfile"
@@ -26,13 +26,17 @@ version = "0.0.1"
 path = "extensions/dracula"
 version = "0.0.1"
 
+[elisp]
+path = "extensions/elisp"
+version = "0.0.2"
+
 [everforest]
 path = "extensions/everforest"
-version = "0.0.1"
+version = "0.0.2"
 
 [exquisite]
 path = "extensions/exquisite"
-version = "0.1.0"
+version = "0.1.1"
 
 [github-dark-default]
 path = "extensions/github-dark-default"
@@ -80,7 +84,11 @@ version = "0.0.1"
 
 [msun-dark]
 path = "extensions/msun-dark"
-version = "0.0.2"
+version = "0.0.3"
+
+[muted]
+path = "extensions/muted"
+version = "0.0.1"
 
 [napalm]
 path = "extensions/napalm"
@@ -93,6 +101,10 @@ version = "0.0.2"
 [neosolarized]
 path = "extensions/neosolarized"
 version = "0.0.1"
+
+[new-darcula]
+path = "extensions/new-darcula"
+version = "1.0.2"
 
 [nightfox]
 path = "extensions/nightfox"
@@ -118,6 +130,10 @@ version = "0.0.1"
 path = "extensions/r"
 version = "0.0.1"
 
+[smithy]
+path = "extensions/smithy"
+version = "0.0.1"
+
 [smooth]
 path = "extensions/smooth"
 version = "0.0.1"
@@ -140,7 +156,7 @@ version = "0.0.1"
 
 [the-dark-side]
 path = "extensions/the-dark-side"
-version = "0.2.1"
+version = "0.2.2"
 
 [tokyo-night]
 path = "extensions/tokyo-night"
@@ -162,9 +178,13 @@ version = "0.0.1"
 path = "extensions/wgsl"
 version = "0.0.1"
 
+[xcode-themes]
+path = "extensions/xcode-themes"
+version = "1.0.0"
+
 [xy-zed]
 path = "extensions/xy-zed"
-version = "0.0.1"
+version = "0.0.4"
 
 [zedokai]
 path = "extensions/zedokai"
