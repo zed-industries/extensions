@@ -43,6 +43,9 @@
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon
+[submodule "extensions/helm"]
+    path = extensions/helm
+    url = https://github.com/hjoshi123/helm.zed
 [submodule "extensions/java"]
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension
@@ -148,3 +151,6 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
+[submodule "extensions/helm"]
+	path = extensions/helm
+	url = git@github.com:hjoshi123/helm.zed.git
