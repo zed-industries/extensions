@@ -3,7 +3,7 @@
 import Ajv from "ajv";
 import fs from "node:fs/promises";
 import path from "node:path";
-import stripJsonComments from 'strip-json-comments';
+import stripJsonComments from "strip-json-comments";
 import toml from "toml";
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
 import { execFile } from "node:child_process";
@@ -187,6 +187,10 @@ async function packageExtension(
 
     for (const languageDirname of await fs.readdir(languagesSrcDir)) {
       const languageFullPath = path.join(languagesSrcDir, languageDirname);
+      if (!isDirectory(languageFullPath)) {
+        continue;
+      }
+
       const config = await readTomlFile(
         path.join(languageFullPath, "config.toml"),
       );
