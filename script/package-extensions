@@ -187,7 +187,7 @@ async function packageExtension(
 
     for (const languageDirname of await fs.readdir(languagesSrcDir)) {
       const languageFullPath = path.join(languagesSrcDir, languageDirname);
-      if (!isDirectory(languageFullPath)) {
+      if (!(await isDirectory(languageFullPath))) {
         continue;
       }
 
