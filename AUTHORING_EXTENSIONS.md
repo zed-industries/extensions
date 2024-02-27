@@ -32,9 +32,7 @@ A Zed extension is a Git repository that contains an `extension.json`:
 {
   "name": "My extension",
   "version": "0.0.1",
-  "authors": [
-    "Your Name <you@example.com>"
-  ],
+  "authors": ["Your Name <you@example.com>"],
   "description": "My cool extension",
   "repository": "https://github.com/your-name/my-zed-extension"
 }
@@ -91,11 +89,11 @@ In your PR do the following:
 
 1. Add your extension as a Git submodule within the `extensions/` directory
 2. Add a new entry to `extensions.toml` containing your extension:
-    ```toml
-    [my-extension]
-    path = "extensions/my-extension"
-    version = "0.0.1"
-    ```
+   ```toml
+   [my-extension]
+   path = "extensions/my-extension"
+   version = "0.0.1"
+   ```
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
 
