@@ -96,5 +96,3 @@ In your PR do the following:
    ```
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
-
-Note: The ability to download extensions is coming soon.
