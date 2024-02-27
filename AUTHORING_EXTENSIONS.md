@@ -32,9 +32,7 @@ A Zed extension is a Git repository that contains an `extension.json`:
 {
   "name": "My extension",
   "version": "0.0.1",
-  "authors": [
-    "Your Name <you@example.com>"
-  ],
+  "authors": ["Your Name <you@example.com>"],
   "description": "My cool extension",
   "repository": "https://github.com/your-name/my-zed-extension"
 }
@@ -91,12 +89,59 @@ In your PR do the following:
 
 1. Add your extension as a Git submodule within the `extensions/` directory
 2. Add a new entry to `extensions.toml` containing your extension:
-    ```toml
-    [my-extension]
-    path = "extensions/my-extension"
-    version = "0.0.1"
-    ```
+   ```toml
+   [my-extension]
+   path = "extensions/my-extension"
+   version = "0.0.1"
+   ```
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
+
+## GitHub Action for publishing extensions
+
+To make it easier to publish extensions, we have a [GitHub Action: zed-extension-action](https://github.com/huacnlee/zed-extension-action) that will automatically update and create Pull Request to Zed extensions when you create a new release.
+
+To use the action, add the following to your `.github/workflows/release.yml`:
+
+```yaml
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  homebrew:
+    name: Release Zed Extension
+    runs-on: ubuntu-latest
+    steps:
+      - uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: your-extension-name
+          # extension-path: extensions/${{ extension-name }}
+          push-to: your-name/extensions
+        env:
+          # the personal access token should have "repo" & "workflow" scopes
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
+```
+
+### Inputs
+
+| Name             | Description                                            | Required | Default                          |
+| ---------------- | ------------------------------------------------------ | -------- | -------------------------------- |
+| `extension-name` | Your Zed extension name.                               | `true`   | -                                |
+| `extension-path` | If you have a different path.                          | `false`  | `extensions/${ extension-name }` |
+| `push-to`        | Your forked repo of the **zed-industries/extensions**. | `true`   | -                                |
+
+The `COMMITTER_TOKEN` is a personal access token with `repo` and `workflow` scopes. You can create one in your [Personal access tokens](https://github.com/settings/tokens).
+
+### How it works
+
+When a new tag is pushed, the action will:
+
+1. Check if the tag is a valid version number.
+2. Create a Pull Request with the new version to [Zed Extensions](https://github.com/zed-industries/extensions/pulls) repository.
+3. Merge the Pull Request if it's approved, then the extension version will released.
+
+See example: https://github.com/zed-industries/extensions/pull/217
 
 Note: The ability to download extensions is coming soon.
