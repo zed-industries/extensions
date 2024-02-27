@@ -52,6 +52,9 @@
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
+[submodule "extensions/kotlin"]
+	path = extensions/kotlin
+	url = https://github.com/evrsen/zed-kotlin
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/evrsen/zed-log
@@ -151,6 +154,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/kotlin"]
-	path = extensions/kotlin
-	url = https://github.com/evrsen/zed-kotlin
