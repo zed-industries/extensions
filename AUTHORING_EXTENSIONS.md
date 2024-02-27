@@ -96,3 +96,16 @@ In your PR do the following:
    ```
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
+
+## Updating an extension
+
+To update an extension, open a PR to [this repo](https://github.com/zed-industries/extensions).
+
+In your PR do the following:
+
+1. Update the extension's submodule to that commit of the new version.
+2. Update the `version` field for the extension in `extensions.tom`
+
+- Make sure the `version` matches the one set in `extension.json` at the particular commit.
+
+If you'd like to automate this process, there is a [community GitHub Action](https://github.com/huacnlee/zed-extension-action) you can use.
