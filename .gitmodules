@@ -61,6 +61,9 @@
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
 	url = https://github.com/huacnlee/zed-theme-macos-classic
+[submodule "extensions/make"]
+	path = extensions/make
+	url = https://github.com/caius/zed-make.git
 [submodule "extensions/mau"]
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes
@@ -154,6 +157,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/make"]
-	path = extensions/make
-	url = https://github.com/caius/zed-make.git
