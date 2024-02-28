@@ -483,7 +483,7 @@ async function changedExtensionIds(extensionsToml) {
  */
 async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   const repoPath = await fs.mkdtemp(
-    path.join("build", `${name} - ${commitSha}.repo`),
+    path.join("build", `${name}-${commitSha}.repo`),
   );
   const processOptions = {
     cwd: repoPath,
