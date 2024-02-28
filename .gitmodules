@@ -118,6 +118,9 @@
 [submodule "extensions/smooth"]
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
+[submodule "extensions/solidity"]
+	path = extensions/solidity
+	url = https://github.com/zarifpour/zed-solidity.git
 [submodule "extensions/sql"]
 	path = extensions/sql
 	url = https://github.com/evrsen/zed-sql
@@ -163,6 +166,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/solidity"]
-	path = extensions/solidity
-	url = https://github.com/zarifpour/zed-solidity.git
