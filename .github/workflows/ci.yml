@@ -39,7 +39,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - run: pnpm package-extensions
+      - name: Run tests
+        run: pnpm test
+
+      - name: Package extensions
+        run: pnpm package-extensions
         env:
           SHOULD_PUBLISH: ${{ github.ref_name == 'main' }}
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
