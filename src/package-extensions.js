@@ -1,12 +1,11 @@
-// @ts-check
-
-import Ajv from "ajv";
+import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import ajvModule from "ajv";
+import assert from "node:assert";
+import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
 import stripJsonComments from "strip-json-comments";
 import toml from "toml";
-import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
-import { execFile } from "node:child_process";
 
 const {
   S3_ACCESS_KEY,
@@ -60,6 +59,8 @@ const treeSitterPath = path.join(
   ".bin",
   "tree-sitter",
 );
+
+const Ajv = ajvModule.default;
 
 const ajv = new Ajv({});
 const themeValidator = ajv.compile(
@@ -116,6 +117,18 @@ try {
 }
 
 /**
+ * @typedef {Object} PackageManifest
+ * @property {string} name
+ * @property {string} version
+ * @property {string[]} authors
+ * @property {string} description
+ * @property {string} repository
+ * @property {Record<string, string>} [themes]
+ * @property {Record<string, string>} [languages]
+ * @property {Record<string, string>} [grammars]
+ */
+
+/**
  * @param {string} extensionId
  * @param {string} extensionPath
  * @param {string} extensionVersion
@@ -140,6 +153,7 @@ async function packageExtension(
     );
   }
 
+  /** @type {PackageManifest} */
   const packageManifest = {
     name: metadata.name,
     version: metadata.version,
@@ -155,6 +169,7 @@ async function packageExtension(
     "build",
     `${extensionId}-${packageManifest.version}.tar.gz`,
   );
+  /** @type {Record<string, string>} */
   const grammarRepoPaths = {};
 
   const grammarsSrcDir = path.join(extensionPath, "grammars");
@@ -222,15 +237,18 @@ async function packageExtension(
 
       const grammarName = grammarFilename.replace(/\.toml$/, "");
       const grammarRepoKey = `${config.repository}/${config.commit}`;
+      /** @type {string} */
       let grammarRepoPath;
-      if (grammarRepoPaths[grammarRepoKey]) {
-        grammarRepoPath = grammarRepoPaths[grammarRepoKey];
+      const existingGrammarRepoPath = grammarRepoPaths[grammarRepoKey];
+      if (existingGrammarRepoPath) {
+        grammarRepoPath = existingGrammarRepoPath;
       } else {
         grammarRepoPath = await checkoutGitRepo(
           grammarName,
           config.repository,
           config.commit,
         );
+
         grammarRepoPaths[grammarRepoKey] = grammarRepoPath;
       }
 
@@ -368,9 +386,9 @@ function validateExtensionsToml(extensionsToml) {
  * @param {Record<string, any>} manifest
  */
 function validateManifest(manifest) {
-  if (manifest.name.startsWith("Zed ")) {
+  if (manifest["name"].startsWith("Zed ")) {
     throw new Error(
-      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest.name}".`,
+      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest["name"]}".`,
     );
   }
 }
@@ -398,17 +416,20 @@ function validateTheme(theme) {
 async function getPublishedVersionsByExtensionId() {
   const bucketList = await s3.listObjects({
     Bucket: S3_BUCKET,
-    Prefix: `${EXTENSIONS_PREFIX}/`,
+    Prefix: `${EXTENSIONS_PREFIX} / `,
   });
 
+  /** @type {Record<string, string[]>} */
   const publishedVersionsByExtensionId = {};
   bucketList.Contents?.forEach((object) => {
     const [_prefix, extensionId, version, _filename] =
       object.Key?.split("/") ?? [];
-    if (!publishedVersionsByExtensionId[extensionId]) {
-      publishedVersionsByExtensionId[extensionId] = [];
-    }
-    publishedVersionsByExtensionId[extensionId].push(version);
+    assert.ok(extensionId, "No extension ID in blob store key.");
+    assert.ok(version, "No version in blob store key.");
+
+    const publishedVersions = publishedVersionsByExtensionId[extensionId] ?? [];
+    publishedVersions.push(version);
+    publishedVersionsByExtensionId[extensionId] = publishedVersions;
   });
 
   return publishedVersionsByExtensionId;
@@ -462,7 +483,7 @@ async function changedExtensionIds(extensionsToml) {
  */
 async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   const repoPath = await fs.mkdtemp(
-    path.join("build", `${name}-${commitSha}.repo`),
+    path.join("build", `${name} - ${commitSha}.repo`),
   );
   const processOptions = {
     cwd: repoPath,

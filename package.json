@@ -5,6 +5,7 @@
   },
   "scripts": {
     "fmt": "prettier --write .",
+    "build": "tsc -p .",
     "package-extensions": "node src/package-extensions.js"
   },
   "dependencies": {
@@ -15,6 +16,9 @@
     "tree-sitter-cli": "0.21.0-pre-release-1"
   },
   "devDependencies": {
-    "prettier": "3.2.5"
+    "@tsconfig/node20": "20.1.2",
+    "@tsconfig/strictest": "2.0.3",
+    "prettier": "3.2.5",
+    "typescript": "5.3.3"
   }
 }
