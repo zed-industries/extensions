@@ -4,7 +4,7 @@ version = "0.0.1"
 
 [base16]
 path = "extensions/base16"
-version = "0.0.3"
+version = "0.0.4"
 
 [beancount]
 path = "extensions/beancount"
@@ -24,7 +24,7 @@ version = "0.0.1"
 
 [dracula]
 path = "extensions/dracula"
-version = "0.0.1"
+version = "0.1.0"
 
 [elisp]
 path = "extensions/elisp"
@@ -37,6 +37,10 @@ version = "0.0.2"
 [exquisite]
 path = "extensions/exquisite"
 version = "0.1.1"
+
+[gdscript]
+path = "extensions/gdscript"
+version = "0.0.2"
 
 [github-dark-default]
 path = "extensions/github-dark-default"
@@ -58,9 +62,13 @@ version = "0.0.1"
 path = "extensions/horizon"
 version = "0.0.1"
 
+[kotlin]
+path = "extensions/kotlin"
+version = "0.0.1"
+
 [java]
 path = "extensions/java"
-version = "0.0.2"
+version = "0.0.3"
 
 [kiselevka]
 path = "extensions/kiselevka"
@@ -72,7 +80,11 @@ version = "0.0.2"
 
 [macos-classic]
 path = "extensions/macos-classic"
-version = "0.0.3"
+version = "0.0.4"
+
+[make]
+path = "extensions/make"
+version = "0.0.1"
 
 [mau]
 path = "extensions/mau"
@@ -96,7 +108,7 @@ version = "0.0.2"
 
 [navi]
 path = "extensions/navi"
-version = "0.0.2"
+version = "0.0.4"
 
 [neosolarized]
 path = "extensions/neosolarized"
@@ -108,7 +120,7 @@ version = "1.0.2"
 
 [night-owlz]
 path = "extensions/night-owlz"
-version = "0.0.1"
+version = "0.0.2"
 
 [nightfox]
 path = "extensions/nightfox"
@@ -120,6 +132,10 @@ version = "0.0.1"
 
 [one-dark-pro]
 path = "extensions/one-dark-pro"
+version = "0.0.2"
+
+[pact]
+path = "extensions/pact"
 version = "0.0.1"
 
 [pkl]
@@ -142,6 +158,10 @@ version = "0.0.1"
 path = "extensions/smooth"
 version = "0.0.1"
 
+[solidity]
+path = "extensions/solidity"
+version = "0.0.1"
+
 [sql]
 path = "extensions/sql"
 version = "0.0.2"
@@ -152,10 +172,14 @@ version = "0.0.1"
 
 [swift]
 path = "extensions/swift"
-version = "0.0.4"
+version = "0.1.0"
 
 [synthwave]
 path = "extensions/synthwave"
+version = "0.0.1"
+
+[templ]
+path = "extensions/templ"
 version = "0.0.1"
 
 [the-dark-side]
@@ -168,7 +192,7 @@ version = "0.0.2"
 
 [ultimate-dark-neo]
 path = "extensions/ultimate-dark-neo"
-version = "0.0.1"
+version = "0.0.2"
 
 [vscode-dark-plus]
 path = "extensions/vscode-dark-plus"
@@ -184,11 +208,11 @@ version = "0.0.1"
 
 [xcode-themes]
 path = "extensions/xcode-themes"
-version = "1.0.0"
+version = "1.1.1"
 
 [xy-zed]
 path = "extensions/xy-zed"
-version = "0.0.4"
+version = "0.0.6"
 
 [zedokai]
 path = "extensions/zedokai"
