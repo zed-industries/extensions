@@ -1,6 +1,5 @@
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
 import assert from "node:assert";
-import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
 import toml from "toml";
@@ -10,6 +9,7 @@ import {
   readJsonFile,
   readTomlFile,
 } from "./lib/fs.js";
+import { exec } from "./lib/process.js";
 import {
   validateExtensionsToml,
   validateLanguageConfig,
@@ -396,24 +396,4 @@ async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   );
   await exec("git", ["checkout", commitSha], processOptions);
   return repoPath;
-}
-
-/**
- * @param {string} command
- * @param {readonly string[]} args
- * @param {any} [options]
- */
-function exec(command, args, options) {
-  return new Promise((resolve, reject) => {
-    execFile(command, args, options, (err, stdout, stderr) => {
-      if (err) {
-        reject(err);
-      } else {
-        resolve({
-          stdout: stdout.toString("utf8"),
-          stderr: stderr.toString("utf8"),
-        });
-      }
-    });
-  });
 }
