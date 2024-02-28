@@ -1,10 +1,11 @@
-import Ajv from "ajv";
+import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import ajvModule from "ajv";
+import assert from "node:assert";
+import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
 import stripJsonComments from "strip-json-comments";
 import toml from "toml";
-import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
-import { execFile } from "node:child_process";
 
 const {
   S3_ACCESS_KEY,
@@ -59,6 +60,8 @@ const treeSitterPath = path.join(
   "tree-sitter",
 );
 
+const Ajv = ajvModule.default;
+
 const ajv = new Ajv({});
 const themeValidator = ajv.compile(
   await readJsonFile("schemas/theme-family.json"),
@@ -72,8 +75,8 @@ const s3 = new S3({
   endpoint: S3_ENDPOINT || "https://nyc3.digitaloceanspaces.com",
   region: S3_REGION || "nyc3",
   credentials: {
-    accessKeyId: S3_ACCESS_KEY,
-    secretAccessKey: S3_SECRET_KEY,
+    accessKeyId: S3_ACCESS_KEY || "",
+    secretAccessKey: S3_SECRET_KEY || "",
   },
 });
 
@@ -113,6 +116,24 @@ try {
   await fs.rm("build", { recursive: true });
 }
 
+/**
+ * @typedef {Object} PackageManifest
+ * @property {string} name
+ * @property {string} version
+ * @property {string[]} authors
+ * @property {string} description
+ * @property {string} repository
+ * @property {Record<string, string>} [themes]
+ * @property {Record<string, string>} [languages]
+ * @property {Record<string, string>} [grammars]
+ */
+
+/**
+ * @param {string} extensionId
+ * @param {string} extensionPath
+ * @param {string} extensionVersion
+ * @param {boolean} shouldPublish
+ */
 async function packageExtension(
   extensionId,
   extensionPath,
@@ -132,6 +153,7 @@ async function packageExtension(
     );
   }
 
+  /** @type {PackageManifest} */
   const packageManifest = {
     name: metadata.name,
     version: metadata.version,
@@ -147,6 +169,7 @@ async function packageExtension(
     "build",
     `${extensionId}-${packageManifest.version}.tar.gz`,
   );
+  /** @type {Record<string, string>} */
   const grammarRepoPaths = {};
 
   const grammarsSrcDir = path.join(extensionPath, "grammars");
@@ -214,9 +237,11 @@ async function packageExtension(
 
       const grammarName = grammarFilename.replace(/\.toml$/, "");
       const grammarRepoKey = `${config.repository}/${config.commit}`;
+      /** @type {string} */
       let grammarRepoPath;
-      if (grammarRepoPaths[grammarRepoKey]) {
-        grammarRepoPath = grammarRepoPaths[grammarRepoKey];
+      const existingGrammarRepoPath = grammarRepoPaths[grammarRepoKey];
+      if (existingGrammarRepoPath) {
+        grammarRepoPath = existingGrammarRepoPath;
       } else {
         grammarRepoPath = await checkoutGitRepo(
           grammarName,
@@ -227,7 +252,7 @@ async function packageExtension(
       }
 
       const grammarFullPath = config.path
-        ? path.join(grammarRepoPath, path)
+        ? path.join(grammarRepoPath, config.path)
         : grammarRepoPath;
 
       await exec(treeSitterPath, ["build-wasm"], {
@@ -286,6 +311,10 @@ async function packageExtension(
   }
 }
 
+/**
+ * @param {string} path
+ * @returns {Promise<boolean>}
+ */
 async function isDirectory(path) {
   try {
     const stats = await fs.stat(path);
@@ -295,6 +324,10 @@ async function isDirectory(path) {
   }
 }
 
+/**
+ * @param {string} extensionPath
+ * @returns {Promise<{ manifest: any, manifestFormat: "toml" | "json"}>}
+ */
 async function readExtensionManifest(extensionPath) {
   try {
     const extensionToml = await readTomlFile(
@@ -309,6 +342,9 @@ async function readExtensionManifest(extensionPath) {
   }
 }
 
+/**
+ * @param {string} path
+ */
 async function readJsonFile(path) {
   const json = await fs.readFile(path, "utf-8");
 
@@ -319,6 +355,9 @@ async function readJsonFile(path) {
   }
 }
 
+/**
+ * @param {string} path
+ */
 async function readTomlFile(path) {
   const tomlContents = await fs.readFile(path, "utf-8");
 
@@ -329,6 +368,9 @@ async function readTomlFile(path) {
   }
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 function validateExtensionsToml(extensionsToml) {
   for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
     if (extensionId.startsWith("zed-")) {
@@ -339,14 +381,20 @@ function validateExtensionsToml(extensionsToml) {
   }
 }
 
+/**
+ * @param {Record<string, any>} manifest
+ */
 function validateManifest(manifest) {
-  if (manifest.name.startsWith("Zed ")) {
+  if (manifest["name"].startsWith("Zed ")) {
     throw new Error(
-      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest.name}".`,
+      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest["name"]}".`,
     );
   }
 }
 
+/**
+ * @param {Record<string, any>} config
+ */
 function validateLanguageConfig(config) {
   languageConfigValidator(config);
   if (languageConfigValidator.errors) {
@@ -354,6 +402,9 @@ function validateLanguageConfig(config) {
   }
 }
 
+/**
+ * @param {Record<string, any>} theme
+ */
 function validateTheme(theme) {
   themeValidator(theme);
   if (themeValidator.errors) {
@@ -367,18 +418,25 @@ async function getPublishedVersionsByExtensionId() {
     Prefix: `${EXTENSIONS_PREFIX}/`,
   });
 
+  /** @type {Record<string, string[]>} */
   const publishedVersionsByExtensionId = {};
   bucketList.Contents?.forEach((object) => {
-    const [_prefix, extensionId, version, _filename] = object.Key.split("/");
-    if (!publishedVersionsByExtensionId[extensionId]) {
-      publishedVersionsByExtensionId[extensionId] = [];
-    }
-    publishedVersionsByExtensionId[extensionId].push(version);
+    const [_prefix, extensionId, version, _filename] =
+      object.Key?.split("/") ?? [];
+    assert.ok(extensionId, "No extension ID in blob store key.");
+    assert.ok(version, "No version in blob store key.");
+
+    const publishedVersions = publishedVersionsByExtensionId[extensionId] ?? [];
+    publishedVersions.push(version);
+    publishedVersionsByExtensionId[extensionId] = publishedVersions;
   });
 
   return publishedVersionsByExtensionId;
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 async function unpublishedExtensionIds(extensionsToml) {
   const publishedExtensionVersions = await getPublishedVersionsByExtensionId();
 
@@ -395,6 +453,9 @@ async function unpublishedExtensionIds(extensionsToml) {
   return result;
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 async function changedExtensionIds(extensionsToml) {
   const { stdout: extensionsContents } = await exec("git", [
     "show",
@@ -414,6 +475,11 @@ async function changedExtensionIds(extensionsToml) {
   return result;
 }
 
+/**
+ * @param {string} name
+ * @param {string} repositoryUrl
+ * @param {string} commitSha
+ */
 async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   const repoPath = await fs.mkdtemp(
     path.join("build", `${name}-${commitSha}.repo`),
@@ -433,6 +499,11 @@ async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   return repoPath;
 }
 
+/**
+ * @param {string} command
+ * @param {readonly string[]} args
+ * @param {any} [options]
+ */
 function exec(command, args, options) {
   return new Promise((resolve, reject) => {
     execFile(command, args, options, (err, stdout, stderr) => {
