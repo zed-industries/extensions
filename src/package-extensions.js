@@ -248,7 +248,6 @@ async function packageExtension(
           config.repository,
           config.commit,
         );
-
         grammarRepoPaths[grammarRepoKey] = grammarRepoPath;
       }
 
@@ -416,7 +415,7 @@ function validateTheme(theme) {
 async function getPublishedVersionsByExtensionId() {
   const bucketList = await s3.listObjects({
     Bucket: S3_BUCKET,
-    Prefix: `${EXTENSIONS_PREFIX} / `,
+    Prefix: `${EXTENSIONS_PREFIX}/`,
   });
 
   /** @type {Record<string, string[]>} */
