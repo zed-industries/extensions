@@ -4,7 +4,12 @@ import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
 import toml from "toml";
-import { readExtensionManifest, readJsonFile, readTomlFile } from "./lib/fs.js";
+import {
+  isDirectory,
+  readExtensionManifest,
+  readJsonFile,
+  readTomlFile,
+} from "./lib/fs.js";
 import {
   validateExtensionsToml,
   validateLanguageConfig,
@@ -303,19 +308,6 @@ async function packageExtension(
         Body: JSON.stringify(packageManifest),
       }),
     );
-  }
-}
-
-/**
- * @param {string} path
- * @returns {Promise<boolean>}
- */
-async function isDirectory(path) {
-  try {
-    const stats = await fs.stat(path);
-    return stats.isDirectory();
-  } catch {
-    return false;
   }
 }
 
