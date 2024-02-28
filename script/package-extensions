@@ -121,9 +121,7 @@ async function packageExtension(
   extensionVersion,
   shouldPublish,
 ) {
-  const metadata = await readJsonFile(
-    path.join(extensionPath, "extension.json"),
-  );
+  const { manifest: metadata } = await readExtensionManifest(extensionPath);
 
   if (metadata.version !== extensionVersion) {
     throw new Error(
@@ -296,6 +294,20 @@ async function isDirectory(path) {
     return stats.isDirectory();
   } catch {
     return false;
+  }
+}
+
+async function readExtensionManifest(extensionPath) {
+  try {
+    const extensionToml = await readTomlFile(
+      path.join(extensionPath, "extension.toml"),
+    );
+    return { manifest: extensionToml, manifestFormat: "toml" };
+  } catch {
+    const extensionJson = await readJsonFile(
+      path.join(extensionPath, "extension.json"),
+    );
+    return { manifest: extensionJson, manifestFormat: "json" };
   }
 }
 
