@@ -1,11 +1,16 @@
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
-import ajvModule from "ajv";
 import assert from "node:assert";
 import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
-import stripJsonComments from "strip-json-comments";
 import toml from "toml";
+import { readExtensionManifest, readJsonFile, readTomlFile } from "./lib/fs.js";
+import {
+  validateExtensionsToml,
+  validateLanguageConfig,
+  validateManifest,
+  validateTheme,
+} from "./lib/validation.js";
 
 const {
   S3_ACCESS_KEY,
@@ -58,16 +63,6 @@ const treeSitterPath = path.join(
   "node_modules",
   ".bin",
   "tree-sitter",
-);
-
-const Ajv = ajvModule.default;
-
-const ajv = new Ajv({});
-const themeValidator = ajv.compile(
-  await readJsonFile("schemas/theme-family.json"),
-);
-const languageConfigValidator = ajv.compile(
-  await readJsonFile("schemas/language-config.json"),
 );
 
 const s3 = new S3({
@@ -321,94 +316,6 @@ async function isDirectory(path) {
     return stats.isDirectory();
   } catch {
     return false;
-  }
-}
-
-/**
- * @param {string} extensionPath
- * @returns {Promise<{ manifest: any, manifestFormat: "toml" | "json"}>}
- */
-async function readExtensionManifest(extensionPath) {
-  try {
-    const extensionToml = await readTomlFile(
-      path.join(extensionPath, "extension.toml"),
-    );
-    return { manifest: extensionToml, manifestFormat: "toml" };
-  } catch {
-    const extensionJson = await readJsonFile(
-      path.join(extensionPath, "extension.json"),
-    );
-    return { manifest: extensionJson, manifestFormat: "json" };
-  }
-}
-
-/**
- * @param {string} path
- */
-async function readJsonFile(path) {
-  const json = await fs.readFile(path, "utf-8");
-
-  try {
-    return JSON.parse(stripJsonComments(json));
-  } catch (err) {
-    throw new Error(`Failed to parse JSON file '${path}': ${err}`);
-  }
-}
-
-/**
- * @param {string} path
- */
-async function readTomlFile(path) {
-  const tomlContents = await fs.readFile(path, "utf-8");
-
-  try {
-    return toml.parse(tomlContents);
-  } catch (err) {
-    throw new Error(`Failed to parse TOML file '${path}': ${err}`);
-  }
-}
-
-/**
- * @param {Record<string, any>} extensionsToml
- */
-function validateExtensionsToml(extensionsToml) {
-  for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
-    if (extensionId.startsWith("zed-")) {
-      throw new Error(
-        `Extension IDs should not start with "zed-", as they are all Zed extensions: "${extensionId}".`,
-      );
-    }
-  }
-}
-
-/**
- * @param {Record<string, any>} manifest
- */
-function validateManifest(manifest) {
-  if (manifest["name"].startsWith("Zed ")) {
-    throw new Error(
-      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest["name"]}".`,
-    );
-  }
-}
-
-/**
- * @param {Record<string, any>} config
- */
-function validateLanguageConfig(config) {
-  languageConfigValidator(config);
-  if (languageConfigValidator.errors) {
-    throw new Error(ajv.errorsText(languageConfigValidator.errors));
-  }
-}
-
-/**
- * @param {Record<string, any>} theme
- */
-function validateTheme(theme) {
-  themeValidator(theme);
-  if (themeValidator.errors) {
-    throw new Error(ajv.errorsText(themeValidator.errors));
   }
 }
 
