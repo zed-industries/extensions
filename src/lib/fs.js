@@ -4,6 +4,19 @@ import stripJsonComments from "strip-json-comments";
 import toml from "toml";
 
 /**
+ * @param {string} path
+ * @returns {Promise<boolean>}
+ */
+export async function isDirectory(path) {
+  try {
+    const stats = await fs.stat(path);
+    return stats.isDirectory();
+  } catch {
+    return false;
+  }
+}
+
+/**
  * @param {string} extensionPath
  * @returns {Promise<{ manifest: any, manifestFormat: "toml" | "json"}>}
  */
