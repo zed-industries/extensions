@@ -1,3 +1,5 @@
+// @ts-check
+
 import Ajv from "ajv";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -72,8 +74,8 @@ const s3 = new S3({
   endpoint: S3_ENDPOINT || "https://nyc3.digitaloceanspaces.com",
   region: S3_REGION || "nyc3",
   credentials: {
-    accessKeyId: S3_ACCESS_KEY,
-    secretAccessKey: S3_SECRET_KEY,
+    accessKeyId: S3_ACCESS_KEY || "",
+    secretAccessKey: S3_SECRET_KEY || "",
   },
 });
 
@@ -113,6 +115,12 @@ try {
   await fs.rm("build", { recursive: true });
 }
 
+/**
+ * @param {string} extensionId
+ * @param {string} extensionPath
+ * @param {string} extensionVersion
+ * @param {boolean} shouldPublish
+ */
 async function packageExtension(
   extensionId,
   extensionPath,
@@ -227,7 +235,7 @@ async function packageExtension(
       }
 
       const grammarFullPath = config.path
-        ? path.join(grammarRepoPath, path)
+        ? path.join(grammarRepoPath, config.path)
         : grammarRepoPath;
 
       await exec(treeSitterPath, ["build-wasm"], {
@@ -286,6 +294,10 @@ async function packageExtension(
   }
 }
 
+/**
+ * @param {string} path
+ * @returns {Promise<boolean>}
+ */
 async function isDirectory(path) {
   try {
     const stats = await fs.stat(path);
@@ -295,6 +307,10 @@ async function isDirectory(path) {
   }
 }
 
+/**
+ * @param {string} extensionPath
+ * @returns {Promise<{ manifest: any, manifestFormat: "toml" | "json"}>}
+ */
 async function readExtensionManifest(extensionPath) {
   try {
     const extensionToml = await readTomlFile(
@@ -309,6 +325,9 @@ async function readExtensionManifest(extensionPath) {
   }
 }
 
+/**
+ * @param {string} path
+ */
 async function readJsonFile(path) {
   const json = await fs.readFile(path, "utf-8");
 
@@ -319,6 +338,9 @@ async function readJsonFile(path) {
   }
 }
 
+/**
+ * @param {string} path
+ */
 async function readTomlFile(path) {
   const tomlContents = await fs.readFile(path, "utf-8");
 
@@ -329,6 +351,9 @@ async function readTomlFile(path) {
   }
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 function validateExtensionsToml(extensionsToml) {
   for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
     if (extensionId.startsWith("zed-")) {
@@ -339,6 +364,9 @@ function validateExtensionsToml(extensionsToml) {
   }
 }
 
+/**
+ * @param {Record<string, any>} manifest
+ */
 function validateManifest(manifest) {
   if (manifest.name.startsWith("Zed ")) {
     throw new Error(
@@ -347,6 +375,9 @@ function validateManifest(manifest) {
   }
 }
 
+/**
+ * @param {Record<string, any>} config
+ */
 function validateLanguageConfig(config) {
   languageConfigValidator(config);
   if (languageConfigValidator.errors) {
@@ -354,6 +385,9 @@ function validateLanguageConfig(config) {
   }
 }
 
+/**
+ * @param {Record<string, any>} theme
+ */
 function validateTheme(theme) {
   themeValidator(theme);
   if (themeValidator.errors) {
@@ -369,7 +403,8 @@ async function getPublishedVersionsByExtensionId() {
 
   const publishedVersionsByExtensionId = {};
   bucketList.Contents?.forEach((object) => {
-    const [_prefix, extensionId, version, _filename] = object.Key.split("/");
+    const [_prefix, extensionId, version, _filename] =
+      object.Key?.split("/") ?? [];
     if (!publishedVersionsByExtensionId[extensionId]) {
       publishedVersionsByExtensionId[extensionId] = [];
     }
@@ -379,6 +414,9 @@ async function getPublishedVersionsByExtensionId() {
   return publishedVersionsByExtensionId;
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 async function unpublishedExtensionIds(extensionsToml) {
   const publishedExtensionVersions = await getPublishedVersionsByExtensionId();
 
@@ -395,6 +433,9 @@ async function unpublishedExtensionIds(extensionsToml) {
   return result;
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 async function changedExtensionIds(extensionsToml) {
   const { stdout: extensionsContents } = await exec("git", [
     "show",
@@ -414,6 +455,11 @@ async function changedExtensionIds(extensionsToml) {
   return result;
 }
 
+/**
+ * @param {string} name
+ * @param {string} repositoryUrl
+ * @param {string} commitSha
+ */
 async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   const repoPath = await fs.mkdtemp(
     path.join("build", `${name}-${commitSha}.repo`),
@@ -433,6 +479,11 @@ async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   return repoPath;
 }
 
+/**
+ * @param {string} command
+ * @param {readonly string[]} args
+ * @param {any} [options]
+ */
 function exec(command, args, options) {
   return new Promise((resolve, reject) => {
     execFile(command, args, options, (err, stdout, stderr) => {
