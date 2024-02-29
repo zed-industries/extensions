@@ -105,6 +105,8 @@ try {
       `Packaging '${extensionId}'. Version: ${extensionInfo.version}`,
     );
 
+    await checkoutGitSubmodule(extensionInfo.path);
+
     await packageExtension(
       extensionId,
       extensionInfo.path,
@@ -372,6 +374,11 @@ async function changedExtensionIds(extensionsToml) {
 
   console.log("Extensions changed from main:", result.join(", "));
   return result;
+}
+
+/** @param {string} path */
+async function checkoutGitSubmodule(path) {
+  await exec("git", ["submodule", "update", path]);
 }
 
 /**
