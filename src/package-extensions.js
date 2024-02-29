@@ -378,9 +378,10 @@ async function changedExtensionIds(extensionsToml) {
 
 /** @param {string} path */
 async function checkoutGitSubmodule(path) {
-  console.log(`Checking out Git submodule at '${path}'`)
+  console.log(`Checking out Git submodule at '${path}'`);
 
-  await exec("git", ["submodule", "update", path]);
+  const { stdout, stderr } = await exec("git", ["submodule", "update", path]);
+  console.log({ stdout, stderr });
 }
 
 /**
