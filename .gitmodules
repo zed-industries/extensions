@@ -55,6 +55,9 @@
 [submodule "extensions/kotlin"]
 	path = extensions/kotlin
 	url = https://github.com/evrsen/zed-kotlin
+[submodule "extensions/latex"]
+	path = extensions/latex
+	url = git@github.com:rzukic/zed-latex.git
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/evrsen/zed-log
@@ -76,6 +79,9 @@
 [submodule "extensions/muted"]
 	path = extensions/muted
 	url = https://github.com/arifzeeshan/Muted
+[submodule "extensions/nanowise"]
+	path = extensions/nanowise
+	url = git@github.com:Fastiraz/nanowise.git
 [submodule "extensions/napalm"]
 	path = extensions/napalm
 	url = https://github.com/napalmpapalam/napalm-theme-zed.git
@@ -100,6 +106,9 @@
 [submodule "extensions/one-dark-pro"]
 	path = extensions/one-dark-pro
 	url = git@github.com:MordFustang21/zed-one-dark-pro.git
+[submodule "extensions/one-hunter"]
+	path = extensions/one-hunter
+	url = https://github.com/teziovsky/zed-one-hunter-theme.git
 [submodule "extensions/pact"]
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
@@ -166,9 +175,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/nanowise"]
-	path = extensions/nanowise
-	url = git@github.com:Fastiraz/nanowise.git
-[submodule "extensions/one-hunter"]
-	path = extensions/one-hunter
-	url = https://github.com/teziovsky/zed-one-hunter-theme.git
