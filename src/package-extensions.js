@@ -9,6 +9,11 @@ import {
   readJsonFile,
   readTomlFile,
 } from "./lib/fs.js";
+import {
+  checkoutGitRepo,
+  checkoutGitSubmodule,
+  sortGitmodules,
+} from "./lib/git.js";
 import { exec } from "./lib/process.js";
 import {
   validateExtensionsToml,
@@ -90,6 +95,8 @@ const extensionsToml = await readTomlFile("extensions.toml");
 await fs.mkdir("build", { recursive: true });
 try {
   validateExtensionsToml(extensionsToml);
+
+  sortGitmodules(".gitmodules");
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
@@ -374,35 +381,4 @@ async function changedExtensionIds(extensionsToml) {
 
   console.log("Extensions changed from main:", result.join(", "));
   return result;
-}
-
-/** @param {string} path */
-async function checkoutGitSubmodule(path) {
-  console.log(`Checking out Git submodule at '${path}'`);
-
-  await exec("git", ["submodule", "update", "--init", path]);
-}
-
-/**
- * @param {string} name
- * @param {string} repositoryUrl
- * @param {string} commitSha
- */
-async function checkoutGitRepo(name, repositoryUrl, commitSha) {
-  const repoPath = await fs.mkdtemp(
-    path.join("build", `${name}-${commitSha}.repo`),
-  );
-  const processOptions = {
-    cwd: repoPath,
-  };
-
-  await exec("git", ["init"], processOptions);
-  await exec("git", ["remote", "add", "origin", repositoryUrl], processOptions);
-  await exec(
-    "git",
-    ["fetch", "--depth", "1", "origin", commitSha],
-    processOptions,
-  );
-  await exec("git", ["checkout", commitSha], processOptions);
-  return repoPath;
 }

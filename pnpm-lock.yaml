@@ -11,6 +11,9 @@ dependencies:
   ajv:
     specifier: 8.12.0
     version: 8.12.0
+  git-submodule-js:
+    specifier: 1.0.4
+    version: 1.0.4
   strip-json-comments:
     specifier: 5.0.1
     version: 5.0.1
@@ -1609,6 +1612,10 @@ packages:
     resolution: {integrity: sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==}
     engines: {node: '>=16'}
     dev: true
+
+  /git-submodule-js@1.0.4:
+    resolution: {integrity: sha512-hD/tF9FP/5zYHV9PfcWg/Sj0Da7+Eh9+pJKQxWr1mKhDL02nRSqZ7fOJLZ7mIWftm7yDg38GRO/1oQEjUjMVAA==}
+    dev: false
 
   /human-signals@5.0.0:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
