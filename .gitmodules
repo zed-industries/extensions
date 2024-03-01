@@ -26,6 +26,10 @@
 	path = extensions/dockerfile
 	url = git@github.com:d1y/dockerfile.zed.git
 
+[submodule "extensions/dracula"]
+	path = extensions/dracula
+	url = https://github.com/dracula/zed
+
 [submodule "extensions/elisp"]
 	path = extensions/elisp
 	url = https://github.com/JosephTLyons/zed-elisp
@@ -233,3 +237,4 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
+
