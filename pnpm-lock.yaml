@@ -8,6 +8,9 @@ dependencies:
   '@aws-sdk/client-s3':
     specifier: 3.454.0
     version: 3.454.0
+  '@iarna/toml':
+    specifier: 2.2.5
+    version: 2.2.5
   ajv:
     specifier: 8.12.0
     version: 8.12.0
@@ -17,9 +20,6 @@ dependencies:
   strip-json-comments:
     specifier: 5.0.1
     version: 5.0.1
-  toml:
-    specifier: 3.0.0
-    version: 3.0.0
   tree-sitter-cli:
     specifier: 0.21.0-pre-release-1
     version: 0.21.0-pre-release-1
@@ -831,6 +831,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@iarna/toml@2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: false
 
   /@jest/schemas@29.6.3:
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -1871,10 +1875,6 @@ packages:
     resolution: {integrity: sha512-KYad6Vy5VDWV4GH3fjpseMQ/XU2BhIYP7Vzd0LG44qRWm/Yt2WCOTicFdvmgo6gWaqooMQCawTtILVQJupKu7A==}
     engines: {node: '>=14.0.0'}
     dev: true
-
-  /toml@3.0.0:
-    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
-    dev: false
 
   /tree-sitter-cli@0.21.0-pre-release-1:
     resolution: {integrity: sha512-Vr/9mlcphNSSYKB73UpBlVE9ZiRfLcsYtbsdFEfIq9Kh306W0nGY0QISvnn5vixmx6oAS//pbWcrz0uUPwRvcA==}

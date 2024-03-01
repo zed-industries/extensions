@@ -1,8 +1,8 @@
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import toml from "@iarna/toml";
 import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
-import toml from "toml";
 import {
   isDirectory,
   readExtensionManifest,
@@ -96,6 +96,7 @@ await fs.mkdir("build", { recursive: true });
 try {
   validateExtensionsToml(extensionsToml);
 
+  sortExtensionsToml("extensions.toml");
   sortGitmodules(".gitmodules");
 
   const extensionIds = shouldPublish
@@ -369,6 +370,7 @@ async function changedExtensionIds(extensionsToml) {
     "show",
     "origin/main:extensions.toml",
   ]);
+  /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
 
   const result = [];
@@ -381,4 +383,26 @@ async function changedExtensionIds(extensionsToml) {
 
   console.log("Extensions changed from main:", result.join(", "));
   return result;
+}
+
+/** @param {string} path */
+async function sortExtensionsToml(path) {
+  const extensionsToml = await readTomlFile(path);
+
+  const extensionNames = Object.keys(extensionsToml);
+  extensionNames.sort();
+
+  /** @type {Record<string, any>} */
+  const sortedExtensionsToml = {};
+
+  for (const name of extensionNames) {
+    const entry = extensionsToml[name];
+    sortedExtensionsToml[name] = entry;
+  }
+
+  await fs.writeFile(
+    path,
+    toml.stringify(sortedExtensionsToml).trimEnd() + "\n",
+    "utf-8",
+  );
 }
