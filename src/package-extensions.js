@@ -1,14 +1,19 @@
 import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import toml from "@iarna/toml";
 import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
-import toml from "toml";
 import {
   isDirectory,
   readExtensionManifest,
   readJsonFile,
   readTomlFile,
 } from "./lib/fs.js";
+import {
+  checkoutGitRepo,
+  checkoutGitSubmodule,
+  sortGitmodules,
+} from "./lib/git.js";
 import { exec } from "./lib/process.js";
 import {
   validateExtensionsToml,
@@ -90,6 +95,9 @@ const extensionsToml = await readTomlFile("extensions.toml");
 await fs.mkdir("build", { recursive: true });
 try {
   validateExtensionsToml(extensionsToml);
+
+  sortExtensionsToml("extensions.toml");
+  sortGitmodules(".gitmodules");
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
@@ -362,6 +370,7 @@ async function changedExtensionIds(extensionsToml) {
     "show",
     "origin/main:extensions.toml",
   ]);
+  /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
 
   const result = [];
@@ -377,32 +386,23 @@ async function changedExtensionIds(extensionsToml) {
 }
 
 /** @param {string} path */
-async function checkoutGitSubmodule(path) {
-  console.log(`Checking out Git submodule at '${path}'`);
+async function sortExtensionsToml(path) {
+  const extensionsToml = await readTomlFile(path);
 
-  await exec("git", ["submodule", "update", "--init", path]);
-}
+  const extensionNames = Object.keys(extensionsToml);
+  extensionNames.sort();
 
-/**
- * @param {string} name
- * @param {string} repositoryUrl
- * @param {string} commitSha
- */
-async function checkoutGitRepo(name, repositoryUrl, commitSha) {
-  const repoPath = await fs.mkdtemp(
-    path.join("build", `${name}-${commitSha}.repo`),
+  /** @type {Record<string, any>} */
+  const sortedExtensionsToml = {};
+
+  for (const name of extensionNames) {
+    const entry = extensionsToml[name];
+    sortedExtensionsToml[name] = entry;
+  }
+
+  await fs.writeFile(
+    path,
+    toml.stringify(sortedExtensionsToml).trimEnd() + "\n",
+    "utf-8",
   );
-  const processOptions = {
-    cwd: repoPath,
-  };
-
-  await exec("git", ["init"], processOptions);
-  await exec("git", ["remote", "add", "origin", repositoryUrl], processOptions);
-  await exec(
-    "git",
-    ["fetch", "--depth", "1", "origin", commitSha],
-    processOptions,
-  );
-  await exec("git", ["checkout", commitSha], processOptions);
-  return repoPath;
 }

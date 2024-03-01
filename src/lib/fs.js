@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import stripJsonComments from "strip-json-comments";
-import toml from "toml";
+import toml from "@iarna/toml";
 
 /**
  * @param {string} path
@@ -49,6 +49,7 @@ export async function readJsonFile(path) {
 
 /**
  * @param {string} path
+ * @returns {Promise<any>}
  */
 export async function readTomlFile(path) {
   const tomlContents = await fs.readFile(path, "utf-8");
