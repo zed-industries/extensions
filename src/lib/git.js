@@ -1,7 +1,7 @@
+import gitSubmodules from "git-submodule-js";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { exec } from "./process.js";
-import gitSubmodules from "git-submodule-js";
 
 /** @param {string} path */
 export async function checkoutGitSubmodule(path) {
