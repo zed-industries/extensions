@@ -96,8 +96,8 @@ await fs.mkdir("build", { recursive: true });
 try {
   validateExtensionsToml(extensionsToml);
 
-  sortExtensionsToml("extensions.toml");
-  sortGitmodules(".gitmodules");
+  await sortExtensionsToml("extensions.toml");
+  await sortGitmodules(".gitmodules");
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
