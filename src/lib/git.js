@@ -53,5 +53,9 @@ export async function sortGitmodules(path) {
     }
   }
 
-  await fs.writeFile(path, gitSubmodules.serialize(sortedGitmodules), "utf-8");
+  await fs.writeFile(
+    path,
+    gitSubmodules.serialize(sortedGitmodules).trimEnd() + "\n",
+    "utf-8",
+  );
 }
