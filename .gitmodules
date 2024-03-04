@@ -98,6 +98,10 @@
 	path = extensions/make
 	url = https://github.com/caius/zed-make.git
 
+[submodule "extensions/matlab"]
+	path = extensions/matlab
+	url = git@github.com:rzukic/zed-matlab.git
+
 [submodule "extensions/mau"]
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes
@@ -253,6 +257,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/matlab"]
-	path = extensions/matlab
-	url = git@github.com:rzukic/zed-matlab.git
