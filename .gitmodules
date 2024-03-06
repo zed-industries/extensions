@@ -190,6 +190,10 @@
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
 
+[submodule "extensions/ruby"]
+	path = extensions/ruby
+	url = git@github.com:rzukic/zed-ruby.git
+
 [submodule "extensions/smithy"]
 	path = extensions/smithy
 	url = https://github.com/joshrutkowski/zed-smithy.git
