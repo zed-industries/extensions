@@ -12,6 +12,13 @@ const languageConfigValidator = ajv.compile(
 );
 
 /**
+ * Exceptions to the rule of extension IDs ending in `-zed`.
+ *
+ * Only to be edited by Zed staff.
+ */
+const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed"];
+
+/**
  * @param {Record<string, any>} extensionsToml
  */
 export function validateExtensionsToml(extensionsToml) {
@@ -22,7 +29,10 @@ export function validateExtensionsToml(extensionsToml) {
       );
     }
 
-    if (extensionId.endsWith("-zed")) {
+    if (
+      extensionId.endsWith("-zed") &&
+      !EXTENSION_ID_ENDS_WITH_EXCEPTIONS.includes(extensionId)
+    ) {
       throw new Error(
         `Extension IDs should not end with "-zed", as they are all Zed extensions: "${extensionId}".`,
       );
