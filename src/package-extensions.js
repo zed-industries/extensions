@@ -27,6 +27,7 @@ const {
   S3_SECRET_KEY,
   S3_BUCKET,
   SHOULD_PUBLISH,
+  STAY_BUILD,
   S3_ENDPOINT,
   S3_REGION,
 } = process.env;
@@ -46,6 +47,7 @@ ENVIRONMENT VARIABLES
   S3_ACCESS_KEY     Access key for the blob store
   S3_SECRET_KEY     Secret key for the blob store
   S3_BUCKET         Name of the bucket where extensions are published
+  STAY_BUILD        Stay build for observation
   SHOULD_PUBLISH    Whether to publish packages to the blob store.
                     Set this to "true" to publish the packages.
 `;
@@ -64,6 +66,9 @@ for (const arg of process.argv.slice(2)) {
 
   selectedExtensionId = arg;
 }
+
+/** Stay build for observation */
+const stayBuild = STAY_BUILD === "true"
 
 /** Whether packages should be published to the blob store. */
 const shouldPublish = SHOULD_PUBLISH === "true";
@@ -123,7 +128,9 @@ try {
     );
   }
 } finally {
-  await fs.rm("build", { recursive: true });
+  if (!stayBuild) {
+    await fs.rm("build", { recursive: true });
+  }
 }
 
 /**
