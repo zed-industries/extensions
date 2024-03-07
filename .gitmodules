@@ -46,6 +46,10 @@
 	path = extensions/fish
 	url = https://github.com/hasit/zed-fish
 
+[submodule "extensions/fleet-themes"]
+	path = extensions/fleet-themes
+	url = https://github.com/skarline/zed-fleet-themes
+
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
 	url = https://github.com/grndctrl/zed-gdscript
@@ -98,6 +102,14 @@
 	path = extensions/make
 	url = https://github.com/caius/zed-make.git
 
+[submodule "extensions/material-dark"]
+	path = extensions/material-dark
+	url = https://github.com/xerodark/zed-material-theme.git
+
+[submodule "extensions/matlab"]
+	path = extensions/matlab
+	url = git@github.com:rzukic/zed-matlab.git
+
 [submodule "extensions/mau"]
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes
@@ -105,6 +117,10 @@
 [submodule "extensions/mellow"]
 	path = extensions/mellow
 	url = https://github.com/sonodima/zed-mellow
+
+[submodule "extensions/modest-dark"]
+	path = extensions/modest-dark
+	url = git@github.com:timcole/modest-dark.git
 
 [submodule "extensions/msun-dark"]
 	path = extensions/msun-dark

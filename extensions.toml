@@ -16,7 +16,7 @@ version = "0.0.2"
 
 [catppuccin]
 path = "extensions/catppuccin"
-version = "0.1.2"
+version = "0.2.0"
 
 [cosmos]
 path = "extensions/cosmos"
@@ -46,6 +46,10 @@ version = "0.1.1"
 path = "extensions/fish"
 version = "0.0.3"
 
+[fleet-themes]
+path = "extensions/fleet-themes"
+version = "1.0.0"
+
 [gdscript]
 path = "extensions/gdscript"
 version = "0.0.2"
@@ -56,7 +60,7 @@ version = "0.0.1"
 
 [github-theme]
 path = "extensions/github-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [graphene]
 path = "extensions/graphene"
@@ -92,10 +96,18 @@ version = "0.0.2"
 
 [macos-classic]
 path = "extensions/macos-classic"
-version = "0.0.4"
+version = "0.0.5"
 
 [make]
 path = "extensions/make"
+version = "0.0.1"
+
+[material-dark]
+path = "extensions/material-dark"
+version = "0.0.1"
+
+[matlab]
+path = "extensions/matlab"
 version = "0.0.1"
 
 [mau]
@@ -105,6 +117,10 @@ version = "0.0.1"
 [mellow]
 path = "extensions/mellow"
 version = "0.0.1"
+
+[modest-dark]
+path = "extensions/modest-dark"
+version = "0.1.0"
 
 [msun-dark]
 path = "extensions/msun-dark"
@@ -180,7 +196,7 @@ version = "0.0.1"
 
 [smooth]
 path = "extensions/smooth"
-version = "0.0.1"
+version = "1.0.0"
 
 [solarized-fp]
 path = "extensions/solarized-fp"
@@ -188,7 +204,7 @@ version = "0.0.1"
 
 [solidity]
 path = "extensions/solidity"
-version = "0.0.1"
+version = "0.0.2"
 
 [sql]
 path = "extensions/sql"
@@ -196,7 +212,7 @@ version = "0.0.2"
 
 [srcery]
 path = "extensions/srcery"
-version = "0.0.1"
+version = "0.0.2"
 
 [swift]
 path = "extensions/swift"
@@ -236,11 +252,11 @@ version = "0.0.1"
 
 [xcode-themes]
 path = "extensions/xcode-themes"
-version = "1.1.1"
+version = "1.1.2"
 
 [xy-zed]
 path = "extensions/xy-zed"
-version = "0.0.7"
+version = "0.0.8"
 
 [zedokai]
 path = "extensions/zedokai"
