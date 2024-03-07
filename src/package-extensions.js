@@ -1,12 +1,26 @@
-#!/usr/bin/env node
-
-import Ajv from "ajv";
+import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
+import toml from "@iarna/toml";
+import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
-import stripJsonComments from 'strip-json-comments';
-import toml from "toml";
-import { PutObjectCommand, S3 } from "@aws-sdk/client-s3";
-import { execFile } from "node:child_process";
+import {
+  isDirectory,
+  readExtensionManifest,
+  readJsonFile,
+  readTomlFile,
+} from "./lib/fs.js";
+import {
+  checkoutGitRepo,
+  checkoutGitSubmodule,
+  sortGitmodules,
+} from "./lib/git.js";
+import { exec } from "./lib/process.js";
+import {
+  validateExtensionsToml,
+  validateLanguageConfig,
+  validateManifest,
+  validateTheme,
+} from "./lib/validation.js";
 
 const {
   S3_ACCESS_KEY,
@@ -61,21 +75,13 @@ const treeSitterPath = path.join(
   "tree-sitter",
 );
 
-const ajv = new Ajv({});
-const themeValidator = ajv.compile(
-  await readJsonFile("schemas/theme-family.json"),
-);
-const languageConfigValidator = ajv.compile(
-  await readJsonFile("schemas/language-config.json"),
-);
-
 const s3 = new S3({
   forcePathStyle: false,
   endpoint: S3_ENDPOINT || "https://nyc3.digitaloceanspaces.com",
   region: S3_REGION || "nyc3",
   credentials: {
-    accessKeyId: S3_ACCESS_KEY,
-    secretAccessKey: S3_SECRET_KEY,
+    accessKeyId: S3_ACCESS_KEY || "",
+    secretAccessKey: S3_SECRET_KEY || "",
   },
 });
 
@@ -89,6 +95,9 @@ const extensionsToml = await readTomlFile("extensions.toml");
 await fs.mkdir("build", { recursive: true });
 try {
   validateExtensionsToml(extensionsToml);
+
+  await sortExtensionsToml("extensions.toml");
+  await sortGitmodules(".gitmodules");
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
@@ -104,6 +113,8 @@ try {
       `Packaging '${extensionId}'. Version: ${extensionInfo.version}`,
     );
 
+    await checkoutGitSubmodule(extensionInfo.path);
+
     await packageExtension(
       extensionId,
       extensionInfo.path,
@@ -115,15 +126,31 @@ try {
   await fs.rm("build", { recursive: true });
 }
 
+/**
+ * @typedef {Object} PackageManifest
+ * @property {string} name
+ * @property {string} version
+ * @property {string[]} authors
+ * @property {string} description
+ * @property {string} repository
+ * @property {Record<string, string>} [themes]
+ * @property {Record<string, string>} [languages]
+ * @property {Record<string, string>} [grammars]
+ */
+
+/**
+ * @param {string} extensionId
+ * @param {string} extensionPath
+ * @param {string} extensionVersion
+ * @param {boolean} shouldPublish
+ */
 async function packageExtension(
   extensionId,
   extensionPath,
   extensionVersion,
   shouldPublish,
 ) {
-  const metadata = await readJsonFile(
-    path.join(extensionPath, "extension.json"),
-  );
+  const { manifest: metadata } = await readExtensionManifest(extensionPath);
 
   if (metadata.version !== extensionVersion) {
     throw new Error(
@@ -136,6 +163,7 @@ async function packageExtension(
     );
   }
 
+  /** @type {PackageManifest} */
   const packageManifest = {
     name: metadata.name,
     version: metadata.version,
@@ -151,6 +179,7 @@ async function packageExtension(
     "build",
     `${extensionId}-${packageManifest.version}.tar.gz`,
   );
+  /** @type {Record<string, string>} */
   const grammarRepoPaths = {};
 
   const grammarsSrcDir = path.join(extensionPath, "grammars");
@@ -187,6 +216,10 @@ async function packageExtension(
 
     for (const languageDirname of await fs.readdir(languagesSrcDir)) {
       const languageFullPath = path.join(languagesSrcDir, languageDirname);
+      if (!(await isDirectory(languageFullPath))) {
+        continue;
+      }
+
       const config = await readTomlFile(
         path.join(languageFullPath, "config.toml"),
       );
@@ -214,9 +247,11 @@ async function packageExtension(
 
       const grammarName = grammarFilename.replace(/\.toml$/, "");
       const grammarRepoKey = `${config.repository}/${config.commit}`;
+      /** @type {string} */
       let grammarRepoPath;
-      if (grammarRepoPaths[grammarRepoKey]) {
-        grammarRepoPath = grammarRepoPaths[grammarRepoKey];
+      const existingGrammarRepoPath = grammarRepoPaths[grammarRepoKey];
+      if (existingGrammarRepoPath) {
+        grammarRepoPath = existingGrammarRepoPath;
       } else {
         grammarRepoPath = await checkoutGitRepo(
           grammarName,
@@ -227,7 +262,7 @@ async function packageExtension(
       }
 
       const grammarFullPath = config.path
-        ? path.join(grammarRepoPath, path)
+        ? path.join(grammarRepoPath, config.path)
         : grammarRepoPath;
 
       await exec(treeSitterPath, ["build-wasm"], {
@@ -286,85 +321,31 @@ async function packageExtension(
   }
 }
 
-async function isDirectory(path) {
-  try {
-    const stats = await fs.stat(path);
-    return stats.isDirectory();
-  } catch {
-    return false;
-  }
-}
-
-async function readJsonFile(path) {
-  const json = await fs.readFile(path, "utf-8");
-
-  try {
-    return JSON.parse(stripJsonComments(json));
-  } catch (err) {
-    throw new Error(`Failed to parse JSON file '${path}': ${err}`);
-  }
-}
-
-async function readTomlFile(path) {
-  const tomlContents = await fs.readFile(path, "utf-8");
-
-  try {
-    return toml.parse(tomlContents);
-  } catch (err) {
-    throw new Error(`Failed to parse TOML file '${path}': ${err}`);
-  }
-}
-
-function validateExtensionsToml(extensionsToml) {
-  for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
-    if (extensionId.startsWith("zed-")) {
-      throw new Error(
-        `Extension IDs should not start with "zed-", as they are all Zed extensions: "${extensionId}".`,
-      );
-    }
-  }
-}
-
-function validateManifest(manifest) {
-  if (manifest.name.startsWith("Zed ")) {
-    throw new Error(
-      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest.name}".`,
-    );
-  }
-}
-
-function validateLanguageConfig(config) {
-  languageConfigValidator(config);
-  if (languageConfigValidator.errors) {
-    throw new Error(ajv.errorsText(languageConfigValidator.errors));
-  }
-}
-
-function validateTheme(theme) {
-  themeValidator(theme);
-  if (themeValidator.errors) {
-    throw new Error(ajv.errorsText(themeValidator.errors));
-  }
-}
-
 async function getPublishedVersionsByExtensionId() {
   const bucketList = await s3.listObjects({
     Bucket: S3_BUCKET,
     Prefix: `${EXTENSIONS_PREFIX}/`,
   });
 
+  /** @type {Record<string, string[]>} */
   const publishedVersionsByExtensionId = {};
   bucketList.Contents?.forEach((object) => {
-    const [_prefix, extensionId, version, _filename] = object.Key.split("/");
-    if (!publishedVersionsByExtensionId[extensionId]) {
-      publishedVersionsByExtensionId[extensionId] = [];
-    }
-    publishedVersionsByExtensionId[extensionId].push(version);
+    const [_prefix, extensionId, version, _filename] =
+      object.Key?.split("/") ?? [];
+    assert.ok(extensionId, "No extension ID in blob store key.");
+    assert.ok(version, "No version in blob store key.");
+
+    const publishedVersions = publishedVersionsByExtensionId[extensionId] ?? [];
+    publishedVersions.push(version);
+    publishedVersionsByExtensionId[extensionId] = publishedVersions;
   });
 
   return publishedVersionsByExtensionId;
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 async function unpublishedExtensionIds(extensionsToml) {
   const publishedExtensionVersions = await getPublishedVersionsByExtensionId();
 
@@ -381,11 +362,15 @@ async function unpublishedExtensionIds(extensionsToml) {
   return result;
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ */
 async function changedExtensionIds(extensionsToml) {
   const { stdout: extensionsContents } = await exec("git", [
     "show",
     "origin/main:extensions.toml",
   ]);
+  /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
 
   const result = [];
@@ -400,36 +385,24 @@ async function changedExtensionIds(extensionsToml) {
   return result;
 }
 
-async function checkoutGitRepo(name, repositoryUrl, commitSha) {
-  const repoPath = await fs.mkdtemp(
-    path.join("build", `${name}-${commitSha}.repo`),
-  );
-  const processOptions = {
-    cwd: repoPath,
-  };
+/** @param {string} path */
+async function sortExtensionsToml(path) {
+  const extensionsToml = await readTomlFile(path);
 
-  await exec("git", ["init"], processOptions);
-  await exec("git", ["remote", "add", "origin", repositoryUrl], processOptions);
-  await exec(
-    "git",
-    ["fetch", "--depth", "1", "origin", commitSha],
-    processOptions,
-  );
-  await exec("git", ["checkout", commitSha], processOptions);
-  return repoPath;
-}
+  const extensionNames = Object.keys(extensionsToml);
+  extensionNames.sort();
 
-function exec(command, args, options) {
-  return new Promise((resolve, reject) => {
-    execFile(command, args, options, (err, stdout, stderr) => {
-      if (err) {
-        reject(err);
-      } else {
-        resolve({
-          stdout: stdout.toString("utf8"),
-          stderr: stderr.toString("utf8"),
-        });
-      }
-    });
-  });
+  /** @type {Record<string, any>} */
+  const sortedExtensionsToml = {};
+
+  for (const name of extensionNames) {
+    const entry = extensionsToml[name];
+    sortedExtensionsToml[name] = entry;
+  }
+
+  await fs.writeFile(
+    path,
+    toml.stringify(sortedExtensionsToml).trimEnd() + "\n",
+    "utf-8",
+  );
 }
