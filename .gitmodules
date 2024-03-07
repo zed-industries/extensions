@@ -54,6 +54,10 @@
 	path = extensions/gdscript
 	url = https://github.com/grndctrl/zed-gdscript
 
+[submodule "extensions/git-firefly"]
+	path = extensions/git-firefly
+	url = git@github.com:d1y/git_firefly.git
+
 [submodule "extensions/github-dark-default"]
 	path = extensions/github-dark-default
 	url = git@github.com:MordFustang21/zed-github-dark.git
@@ -265,6 +269,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-[submodule "extensions/git-firefly"]
-	path = extensions/git-firefly
-	url = git@github.com:d1y/git_firefly.git
