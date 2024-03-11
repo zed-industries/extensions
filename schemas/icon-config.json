@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IconConfig",
+  "type": "object",
+  "required": [
+    "author",
+    "name",
+    "icons"
+  ],
+  "properties": {
+    "author": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    // Example of the icon configuration
+    // "icons": {
+    //    "files": [
+    //      {
+    //        "name": "JavaScript",
+    //        "asset": "icons/files/javascript.svg",
+    //        "file_extensions": ["js"]
+    //      },
+    //      {
+    //        "name": "Readme",
+    //        "asset": "icons/files/license.svg",
+    //        "file_names": ["LICENSE"]
+    //      }
+    //    ],
+    //    "folders": [
+    //      {
+    //        "name": "Source",
+    //        "asset": "icons/folders/src.svg",
+    //        "folder_names": ["src"]
+    //      }
+    //    ]
+    // }
+    "icons": {
+      "type": "object",
+      "required": [
+        "files"
+      ],
+      "properties": {
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FileIconConfig"
+          }
+        },
+        "folders": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FolderIconConfig"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "FileIconConfig": {
+      "type": "object",
+      "required": [
+        "name",
+        "asset"
+      ],
+      "properties": {
+        "name": { // name of the icon
+          "type": "string"
+        },
+        "asset": { // path to the icon
+          "type": "string"
+        },
+        "file_names": { // allow for file name specific icons, such as LICENSE, README etc.
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "string"
+          }
+        },
+        "file_extensions": { // allow for file extension specific icons, such as .js, .json, .ts etc.
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "FolderIconConfig": {
+      "type": "object",
+      "required": [
+        "name",
+        "asset",
+        "folder_names"
+      ],
+      "properties": {
+        "name": { // name of the icon
+          "type": "string"
+        },
+        "asset": { // path to the icon
+          "type": "string"
+        },
+        "folder_names": { // allow for folder name specific icons, such as node_modules, .vscode etc.
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
