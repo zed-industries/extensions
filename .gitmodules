@@ -254,6 +254,10 @@
 	path = extensions/ultimate-dark-neo
 	url = git@github.com:rubjo/ultimate-dark-neo-zed.git
 
+[submodule "extensions/vesper"]
+	path = extensions/vesper
+	url = https://github.com/bdsqqq/vesper-zed
+
 [submodule "extensions/vscode-dark-plus"]
 	path = extensions/vscode-dark-plus
 	url = git@github.com:d1y/vscode_dark_plus.zed.git
@@ -281,7 +285,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = git@github.com:Brunowilliang/zedspace.git
-
-[submodule "extensions/vesper"]
-	path = extensions/vesper
-	url = https://github.com/bdsqqq/vesper-zed
