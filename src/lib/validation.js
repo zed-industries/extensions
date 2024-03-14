@@ -55,6 +55,19 @@ export function validateManifest(manifest) {
       `Extension names should not end with " Zed", as they are all Zed extensions: "${manifest["name"]}".`,
     );
   }
+
+  const authors = manifest["authors"];
+  if (!authors) {
+    throw new Error(`Missing "authors" field.`);
+  }
+
+  if (!Array.isArray(authors)) {
+    throw new Error(`"authors" field must be an array of strings.`);
+  }
+
+  if (authors.some((author) => typeof author !== "string")) {
+    throw new Error(`"authors" field must be an array of strings.`);
+  }
 }
 
 /**
