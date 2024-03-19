@@ -45,7 +45,7 @@ jobs:
           ZED_EXTENSION_CLI_SHA: 2f13a02b0e08997a2348f4128b3f366ede554ed2
 
       - name: Test extension CLI
-        run: zed-extension --help
+        run: ./zed-extension --help
 
       - name: Install dependencies
         run: pnpm install
