@@ -10,6 +10,10 @@ version = "0.0.4"
 path = "extensions/beancount"
 version = "0.0.1"
 
+[blanche]
+path = "extensions/blanche"
+version = "0.0.1"
+
 [brainfuck]
 path = "extensions/brainfuck"
 version = "0.0.2"
@@ -20,7 +24,7 @@ version = "0.2.2"
 
 [colorizer]
 path = "extensions/colorizer"
-version = "0.0.1"
+version = "0.0.2"
 
 [cosmos]
 path = "extensions/cosmos"
@@ -136,7 +140,7 @@ version = "0.1.1"
 
 [msun-dark]
 path = "extensions/msun-dark"
-version = "0.0.3"
+version = "0.0.4"
 
 [muted]
 path = "extensions/muted"
@@ -280,7 +284,7 @@ version = "1.1.2"
 
 [xy-zed]
 path = "extensions/xy-zed"
-version = "0.0.9"
+version = "0.0.10"
 
 [zedokai]
 path = "extensions/zedokai"
