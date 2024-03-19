@@ -48,7 +48,7 @@ jobs:
 
       - name: Setup Zed Linux dependencies
         shell: bash -euxo pipefail {0}
-        run: script/linux
+        run: zed/script/linux
 
       - name: Install extension CLI
         run: cargo install --path zed/crates/extension_cli
