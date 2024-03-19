@@ -23,14 +23,6 @@ jobs:
           # We just need to figure out the Git authentication story.
           submodules: "recursive"
 
-      - name: Checkout Zed repo
-        uses: actions/checkout@v4
-        with:
-          repository: zed-industries/zed
-          path: "./zed"
-          clean: false
-          submodules: "recursive"
-
       - uses: pnpm/action-setup@v3
         with:
           version: 8
@@ -46,12 +38,11 @@ jobs:
           version: "3.1.37"
           actions-cache-folder: "emsdk-cache"
 
-      - name: Setup Zed Linux dependencies
-        shell: bash -euxo pipefail {0}
-        run: zed/script/linux
-
-      - name: Install extension CLI
-        run: cargo install --path zed/crates/extension_cli
+      - name: Install zed-extension CLI
+        run: |
+          wget "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
+        env:
+          ZED_EXTENSION_CLI_SHA: 2f13a02b0e08997a2348f4128b3f366ede554ed2
 
       - name: Test extension CLI
         run: zed-extension --help
