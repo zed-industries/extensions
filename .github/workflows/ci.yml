@@ -54,7 +54,7 @@ jobs:
         run: cargo install --path zed/crates/extension_cli
 
       - name: Test extension CLI
-        run: extensions_cli --help
+        run: zed-extension --help
 
       - name: Install dependencies
         run: pnpm install
