@@ -23,6 +23,14 @@ jobs:
           # We just need to figure out the Git authentication story.
           submodules: "recursive"
 
+      - name: Checkout Zed repo
+        uses: actions/checkout@v4
+        with:
+          repository: zed-industries/zed
+          path: "./zed"
+          clean: false
+          submodules: "recursive"
+
       - uses: pnpm/action-setup@v3
         with:
           version: 8
@@ -37,6 +45,12 @@ jobs:
         with:
           version: "3.1.37"
           actions-cache-folder: "emsdk-cache"
+
+      - name: Build extension CLI
+        run: |
+          cd zed
+          cargo build --release --package extension_cli
+          cd -
 
       - name: Install dependencies
         run: pnpm install
