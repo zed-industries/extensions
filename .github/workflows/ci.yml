@@ -40,7 +40,7 @@ jobs:
 
       - name: Install zed-extension CLI
         run: |
-          wget "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
+          wget --quiet "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
         env:
           ZED_EXTENSION_CLI_SHA: 2f13a02b0e08997a2348f4128b3f366ede554ed2
 
