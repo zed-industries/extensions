@@ -46,13 +46,15 @@ jobs:
           version: "3.1.37"
           actions-cache-folder: "emsdk-cache"
 
-      - name: Build extension CLI
+      - name: Setup Zed Linux dependencies
         shell: bash -euxo pipefail {0}
-        run: |
-          cd zed
-          ./script/linux
-          cargo build --release --package extension_cli
-          cd -
+        run: script/linux
+
+      - name: Install extension CLI
+        run: cargo install --path zed/crates/extension_cli
+
+      - name: Test extension CLI
+        run: zed-extension --help
 
       - name: Install dependencies
         run: pnpm install
