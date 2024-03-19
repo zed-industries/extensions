@@ -47,8 +47,10 @@ jobs:
           actions-cache-folder: "emsdk-cache"
 
       - name: Build extension CLI
+        shell: bash -euxo pipefail {0}
         run: |
           cd zed
+          ./script/linux
           cargo build --release --package extension_cli
           cd -
 
