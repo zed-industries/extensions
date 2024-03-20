@@ -32,20 +32,12 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
-      - name: Install Emscripten
-        uses: mymindstorm/setup-emsdk@v14
-        with:
-          version: "3.1.37"
-          actions-cache-folder: "emsdk-cache"
-
       - name: Install zed-extension CLI
         run: |
           wget --quiet "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
+          chmod +x zed-extension
         env:
-          ZED_EXTENSION_CLI_SHA: 2f13a02b0e08997a2348f4128b3f366ede554ed2
-
-      - name: Test extension CLI
-        run: ./zed-extension --help
+          ZED_EXTENSION_CLI_SHA: 3a2eb12f68993ba6c03494ffb5e6fc8cb9f084c1
 
       - name: Install dependencies
         run: pnpm install
