@@ -43,3 +43,19 @@ export function validateManifest(manifest) {
     );
   }
 }
+
+/**
+ * @param {import('git-submodule-js').Submodule} gitmodules
+ */
+export function validateGitmodules(gitmodules) {
+  for (const [name, entry] of Object.entries(gitmodules)) {
+    const url = entry["url"];
+    if (!url) {
+      throw new Error(`Missing URL for "${name}".`);
+    }
+
+    if (!url.startsWith("https://")) {
+      throw new Error(`Submodules must use "https://" scheme.`);
+    }
+  }
+}
