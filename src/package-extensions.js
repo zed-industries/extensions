@@ -128,9 +128,12 @@ async function packageExtension(
 ) {
   const outputDir = "output";
 
+  const SCRATCH_DIR = "./scratch";
+  await fs.mkdir(SCRATCH_DIR, { recursive: true });
+
   await exec("./zed-extension", [
     "--scratch-dir",
-    "./scratch",
+    SCRATCH_DIR,
     "--source-dir",
     extensionPath,
     "--output-dir",
