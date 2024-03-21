@@ -35,10 +35,15 @@ export async function checkoutGitRepo(name, repositoryUrl, commitSha) {
 }
 
 /** @param {string} path */
-export async function sortGitmodules(path) {
+export async function readGitmodules(path) {
   const gitmodulesContent = await fs.readFile(path, "utf-8");
 
-  const gitmodules = gitSubmodules.deserialize(gitmodulesContent);
+  return gitSubmodules.deserialize(gitmodulesContent);
+}
+
+/** @param {string} path */
+export async function sortGitmodules(path) {
+  const gitmodules = await readGitmodules(path);
 
   const submoduleNames = Object.keys(gitmodules);
   submoduleNames.sort();

@@ -4,9 +4,17 @@ import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { readTomlFile } from "./lib/fs.js";
-import { checkoutGitSubmodule, sortGitmodules } from "./lib/git.js";
+import {
+  checkoutGitSubmodule,
+  readGitmodules,
+  sortGitmodules,
+} from "./lib/git.js";
 import { exec } from "./lib/process.js";
-import { validateExtensionsToml, validateManifest } from "./lib/validation.js";
+import {
+  validateExtensionsToml,
+  validateGitmodules,
+  validateManifest,
+} from "./lib/validation.js";
 
 const {
   S3_ACCESS_KEY,
@@ -74,6 +82,7 @@ const extensionsToml = await readTomlFile("extensions.toml");
 await fs.mkdir("build", { recursive: true });
 try {
   validateExtensionsToml(extensionsToml);
+  validateGitmodules(await readGitmodules(".gitmodules"));
 
   await sortExtensionsToml("extensions.toml");
   await sortGitmodules(".gitmodules");
