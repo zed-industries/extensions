@@ -8,4 +8,5 @@ See [`AUTHORING_EXTENSIONS.md`](./AUTHORING_EXTENSIONS.md) for how to author you
 
 Looking for extension ideas? Check out:
 
-- [Theme requests](https://github.com/zed-industries/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Atheme+sort%3Areactions-%2B1-desc)
+- [Top theme requests](https://github.com/zed-industries/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Atheme+sort%3Areactions-%2B1-desc)
+- [Top language requests](https://github.com/zed-industries/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Alanguage+sort%3Areactions-%2B1-desc)

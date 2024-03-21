@@ -10,6 +10,10 @@
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount
 
+[submodule "extensions/blanche"]
+	path = extensions/blanche
+	url = https://github.com/kwonoj/zed-blanche
+
 [submodule "extensions/brainfuck"]
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck
@@ -17,6 +21,10 @@
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/catppuccin/zed
+
+[submodule "extensions/colorizer"]
+	path = extensions/colorizer
+	url = https://github.com/tamimhasandev/colorizer
 
 [submodule "extensions/cosmos"]
 	path = extensions/cosmos
@@ -53,6 +61,14 @@
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
 	url = https://github.com/grndctrl/zed-gdscript
+
+[submodule "extensions/gentle-dark"]
+	path = extensions/gentle-dark
+	url = https://github.com/gentlelionstudios/gentle-dark-zed
+
+[submodule "extensions/git-firefly"]
+	path = extensions/git-firefly
+	url = git@github.com:d1y/git_firefly.git
 
 [submodule "extensions/github-dark-default"]
 	path = extensions/github-dark-default
@@ -162,6 +178,10 @@
 	path = extensions/nix
 	url = https://github.com/hasit/zed-nix
 
+[submodule "extensions/nord"]
+	path = extensions/nord
+	url = https://github.com/mikasius/zed-nord-theme.git
+
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu
@@ -178,6 +198,10 @@
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
 
+[submodule "extensions/penumbra"]
+	path = extensions/penumbra
+	url = https://github.com/jbisits/penumbra-zed
+
 [submodule "extensions/pest"]
 	path = extensions/pest
 	url = https://github.com/pest-parser/zed-pest.git
@@ -193,6 +217,10 @@
 [submodule "extensions/r"]
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
+
+[submodule "extensions/siri"]
+	path = extensions/siri
+	url = https://github.com/perragnar/zed-theme-siri
 
 [submodule "extensions/smithy"]
 	path = extensions/smithy
@@ -241,6 +269,10 @@
 [submodule "extensions/ultimate-dark-neo"]
 	path = extensions/ultimate-dark-neo
 	url = git@github.com:rubjo/ultimate-dark-neo-zed.git
+
+[submodule "extensions/vesper"]
+	path = extensions/vesper
+	url = https://github.com/bdsqqq/vesper-zed
 
 [submodule "extensions/vscode-dark-plus"]
 	path = extensions/vscode-dark-plus
