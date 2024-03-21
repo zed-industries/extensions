@@ -143,6 +143,7 @@ async function packageExtension(
     ],
     {
       env: {
+        PATH: process.env["PATH"],
         RUST_LOG: "info",
       },
     },
