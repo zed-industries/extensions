@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { validateManifest } from "./validation.js";
+import { validateGitmodules, validateManifest } from "./validation.js";
 
 describe("validateManifest", () => {
   describe("given a valid manifest", () => {
@@ -22,6 +22,25 @@ describe("validateManifest", () => {
         validateManifest({ name: "Zed Something" }),
       ).toThrowErrorMatchingInlineSnapshot(
         `[Error: Extension names should not start with "Zed ", as they are all Zed extensions: "Zed Something".]`,
+      );
+    });
+  });
+});
+
+describe("validateGitmodules", () => {
+  describe("when an entry contains a non-HTTPS URL", () => {
+    it("throws a validation error", () => {
+      const gitmodules = {
+        "extensions/my-extension": {
+          path: "extensions/my-extension",
+          url: "git@github.com:me/my-extension.git",
+        },
+      };
+
+      expect(() =>
+        validateGitmodules(gitmodules),
+      ).toThrowErrorMatchingInlineSnapshot(
+        `[Error: Submodules must use "https://" scheme.]`,
       );
     });
   });
