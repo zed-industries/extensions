@@ -222,6 +222,10 @@
 	path = extensions/siri
 	url = https://github.com/perragnar/zed-theme-siri.git
 
+[submodule "extensions/slint"]
+	path = extensions/slint
+	url = https://gitlab.com/flukejones/zed-slint.git
+
 [submodule "extensions/smithy"]
 	path = extensions/smithy
 	url = https://github.com/joshrutkowski/zed-smithy.git
@@ -301,7 +305,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-
-[submodule "extensions/slint"]
-	path = extensions/slint
-	url = https://gitlab.com/flukejones/zed-slint.git
