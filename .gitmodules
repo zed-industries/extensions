@@ -222,6 +222,10 @@
 	path = extensions/siri
 	url = https://github.com/perragnar/zed-theme-siri.git
 
+[submodule "extensions/slint"]
+	path = extensions/slint
+	url = https://gitlab.com/flukejones/zed-slint.git
+
 [submodule "extensions/smithy"]
 	path = extensions/smithy
 	url = https://github.com/joshrutkowski/zed-smithy.git
@@ -273,6 +277,10 @@
 [submodule "extensions/vesper"]
 	path = extensions/vesper
 	url = https://github.com/bdsqqq/vesper-zed.git
+
+[submodule "extensions/visual-assist-dark"]
+	path = extensions/visual-assist-dark
+	url = https://github.com/trojanfoe/visual-assist-dark.zed
 
 [submodule "extensions/vscode-dark-plus"]
 	path = extensions/vscode-dark-plus
