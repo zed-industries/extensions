@@ -81,8 +81,10 @@ const extensionsToml = await readTomlFile("extensions.toml");
 // been packaged.
 await fs.mkdir("build", { recursive: true });
 try {
+  const gitModules = await readGitmodules(".gitmodules");
+
   validateExtensionsToml(extensionsToml);
-  validateGitmodules(await readGitmodules(".gitmodules"));
+  validateGitmodules(gitModules);
 
   await sortExtensionsToml("extensions.toml");
   await sortGitmodules(".gitmodules");
@@ -101,7 +103,11 @@ try {
       `Packaging '${extensionId}'. Version: ${extensionInfo.version}`,
     );
 
-    await checkoutGitSubmodule(extensionInfo.path);
+    const submodulePath = Object.keys(gitModules).find((key) =>
+      extensionInfo.path.startsWith(key),
+    );
+    assert(submodulePath, `no submodule for extension ${extensionId}`);
+    await checkoutGitSubmodule(submodulePath);
 
     await packageExtension(
       extensionId,
