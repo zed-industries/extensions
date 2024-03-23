@@ -30,6 +30,10 @@
 	path = extensions/cosmos
 	url = https://github.com/nauvalazhar/cosmos.git
 
+[submodule "extensions/cue"]
+	path = extensions/cue
+	url = git@github.com:jkasky/zed-cue
+
 [submodule "extensions/dockerfile"]
 	path = extensions/dockerfile
 	url = https://github.com/d1y/dockerfile.zed.git
