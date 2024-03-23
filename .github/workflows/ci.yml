@@ -45,9 +45,10 @@ jobs:
       - name: Run tests
         run: pnpm test
 
-      - name: Cache extension build binaries
+      - name: Cache extension build dependencies
         uses: actions/cache@v3
         with:
+          key: cache-build-dependencies
           path: |
             ./scratch
 
