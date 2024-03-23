@@ -34,7 +34,7 @@ jobs:
           wget --quiet "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
           chmod +x zed-extension
         env:
-          ZED_EXTENSION_CLI_SHA: adcb591629cbcbd5e75fdaf775de267f64eff064
+          ZED_EXTENSION_CLI_SHA: 6ebe599c980508aa8c7e87fad3e59e5a43892368
 
       - name: Install dependencies
         run: pnpm install
@@ -44,6 +44,12 @@ jobs:
 
       - name: Run tests
         run: pnpm test
+
+      - name: Cache extension build binaries
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./scratch
 
       - name: Package extensions
         run: pnpm package-extensions
