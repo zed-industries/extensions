@@ -1,3 +1,7 @@
+[alabaster]
+path = "extensions/alabaster"
+version = "0.0.1"
+
 [assembly]
 path = "extensions/assembly"
 version = "0.0.1"
@@ -32,6 +36,14 @@ version = "0.0.3"
 
 [cosmos]
 path = "extensions/cosmos"
+version = "0.0.1"
+
+[cue]
+path = "extensions/cue"
+version = "0.0.1"
+
+[d]
+path = "extensions/d"
 version = "0.0.1"
 
 [dockerfile]
@@ -81,6 +93,10 @@ version = "0.0.1"
 [github-theme]
 path = "extensions/github-theme"
 version = "0.0.2"
+
+[gleam]
+path = "extensions/zed/extensions/gleam"
+version = "0.0.1"
 
 [graphene]
 path = "extensions/graphene"
@@ -186,6 +202,10 @@ version = "0.0.4"
 path = "extensions/nord"
 version = "0.0.1"
 
+[norrsken]
+path = "extensions/norrsken"
+version = "0.0.1"
+
 [nu]
 path = "extensions/nu"
 version = "0.0.1"
@@ -201,6 +221,10 @@ version = "0.0.2"
 [pact]
 path = "extensions/pact"
 version = "0.0.1"
+
+[paraiso]
+path = "extensions/paraiso"
+version = "1.0.0"
 
 [penumbra]
 path = "extensions/penumbra"
@@ -254,6 +278,10 @@ version = "0.0.2"
 path = "extensions/srcery"
 version = "0.0.2"
 
+[svelte]
+path = "extensions/zed/extensions/svelte"
+version = "0.0.1"
+
 [swift]
 path = "extensions/swift"
 version = "0.1.0"
@@ -273,6 +301,10 @@ version = "0.2.4"
 [tokyo-night]
 path = "extensions/tokyo-night"
 version = "0.0.2"
+
+[uiua]
+path = "extensions/zed/extensions/uiua"
+version = "0.0.1"
 
 [ultimate-dark-neo]
 path = "extensions/ultimate-dark-neo"

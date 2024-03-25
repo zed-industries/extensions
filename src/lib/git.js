@@ -7,7 +7,7 @@ import { exec } from "./process.js";
 export async function checkoutGitSubmodule(path) {
   console.log(`Checking out Git submodule at '${path}'`);
 
-  await exec("git", ["submodule", "update", "--init", path]);
+  await exec("git", ["submodule", "update", "--init", "--depth", "1", path]);
 }
 
 /**
