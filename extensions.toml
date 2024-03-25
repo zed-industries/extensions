@@ -30,6 +30,14 @@ version = "0.0.3"
 path = "extensions/cosmos"
 version = "0.0.1"
 
+[cue]
+path = "extensions/cue"
+version = "0.0.1"
+
+[d]
+path = "extensions/d"
+version = "0.0.1"
+
 [dockerfile]
 path = "extensions/dockerfile"
 version = "0.0.1"
@@ -188,6 +196,10 @@ version = "0.0.4"
 
 [nord]
 path = "extensions/nord"
+version = "0.0.1"
+
+[norrsken]
+path = "extensions/norrsken"
 version = "0.0.1"
 
 [nu]
