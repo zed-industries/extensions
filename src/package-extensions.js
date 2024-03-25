@@ -137,7 +137,7 @@ async function packageExtension(
   const SCRATCH_DIR = "./scratch";
   await fs.mkdir(SCRATCH_DIR, { recursive: true });
 
-  await exec(
+  const zedExtensionOutput = await exec(
     "./zed-extension",
     [
       "--scratch-dir",
@@ -154,6 +154,7 @@ async function packageExtension(
       },
     },
   );
+  console.log(zedExtensionOutput.stdout);
 
   const manifestJson = await fs.readFile(
     path.join(outputDir, "manifest.json"),
