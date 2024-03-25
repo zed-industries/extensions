@@ -149,19 +149,3 @@ In your PR do the following:
 - Make sure the `version` matches the one set in `extension.json` at the particular commit.
 
 If you'd like to automate this process, there is a [community GitHub Action](https://github.com/huacnlee/zed-extension-action) you can use.
-
-id = "gleam"
-name = "Gleam"
-description = "Gleam support for Zed"
-version = "0.0.1"
-schema_version = 1
-authors = ["Marshall Bowers <elliott.codes@gmail.com>"]
-repository = "https://github.com/zed-industries/zed"
-
-[language_servers.gleam]
-name = "Gleam LSP"
-language = "Gleam"
-
-[grammars.gleam]
-repository = "https://github.com/gleam-lang/tree-sitter-gleam"
-commit = "58b7cac8fc14c92b0677c542610d8738c373fa81"
