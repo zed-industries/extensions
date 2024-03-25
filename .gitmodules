@@ -1,3 +1,7 @@
+[submodule "extensions/alabaster"]
+	path = extensions/alabaster
+	url = https://github.com/tsimoshka/zed-theme-alabaster
+
 [submodule "extensions/assembly"]
 	path = extensions/assembly
 	url = https://github.com/DevBlocky/zed-asm.git
@@ -29,6 +33,14 @@
 [submodule "extensions/cosmos"]
 	path = extensions/cosmos
 	url = https://github.com/nauvalazhar/cosmos.git
+
+[submodule "extensions/cue"]
+	path = extensions/cue
+	url = https://github.com/jkasky/zed-cue.git
+
+[submodule "extensions/d"]
+	path = extensions/d
+	url = https://github.com/staysail/zed-d
 
 [submodule "extensions/dockerfile"]
 	path = extensions/dockerfile
@@ -181,6 +193,10 @@
 [submodule "extensions/nord"]
 	path = extensions/nord
 	url = https://github.com/mikasius/zed-nord-theme.git
+
+[submodule "extensions/norrsken"]
+	path = extensions/norrsken
+	url = https://github.com/webhooked/norrsken-zed.git
 
 [submodule "extensions/nu"]
 	path = extensions/nu
