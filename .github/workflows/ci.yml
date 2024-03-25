@@ -34,7 +34,7 @@ jobs:
           wget --quiet "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
           chmod +x zed-extension
         env:
-          ZED_EXTENSION_CLI_SHA: 053d05f6f5da63440aa35c92a9553a650ae8f98f
+          ZED_EXTENSION_CLI_SHA: 5adc51f113c6646306e74fc22f4c1d1292b5daa5
 
       - name: Install dependencies
         run: pnpm install
