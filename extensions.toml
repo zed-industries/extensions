@@ -4,10 +4,14 @@ version = "0.0.1"
 
 [base16]
 path = "extensions/base16"
-version = "0.0.3"
+version = "0.0.4"
 
 [beancount]
 path = "extensions/beancount"
+version = "0.0.1"
+
+[blanche]
+path = "extensions/blanche"
 version = "0.0.1"
 
 [brainfuck]
@@ -16,7 +20,15 @@ version = "0.0.2"
 
 [catppuccin]
 path = "extensions/catppuccin"
-version = "0.1.1"
+version = "0.2.2"
+
+[colorizer]
+path = "extensions/colorizer"
+version = "0.0.3"
+
+[cosmos]
+path = "extensions/cosmos"
+version = "0.0.1"
 
 [dockerfile]
 path = "extensions/dockerfile"
@@ -24,7 +36,7 @@ version = "0.0.1"
 
 [dracula]
 path = "extensions/dracula"
-version = "0.0.1"
+version = "0.4.0"
 
 [elisp]
 path = "extensions/elisp"
@@ -38,12 +50,36 @@ version = "0.0.2"
 path = "extensions/exquisite"
 version = "0.1.1"
 
+[fish]
+path = "extensions/fish"
+version = "0.0.4"
+
+[fleet-themes]
+path = "extensions/fleet-themes"
+version = "1.0.0"
+
+[gdscript]
+path = "extensions/gdscript"
+version = "0.0.2"
+
+[gentle-dark]
+path = "extensions/gentle-dark"
+version = "0.0.2"
+
+[git-firefly]
+path = "extensions/git-firefly"
+version = "0.0.2"
+
 [github-dark-default]
 path = "extensions/github-dark-default"
 version = "0.0.1"
 
 [github-theme]
 path = "extensions/github-theme"
+version = "0.0.2"
+
+[gleam]
+path = "extensions/zed/extensions/gleam"
 version = "0.0.1"
 
 [graphene]
@@ -52,7 +88,7 @@ version = "0.1.0"
 
 [graphql]
 path = "extensions/graphql"
-version = "0.0.1"
+version = "0.0.2"
 
 [horizon]
 path = "extensions/horizon"
@@ -64,10 +100,18 @@ version = "0.0.1"
 
 [java]
 path = "extensions/java"
-version = "0.0.2"
+version = "0.0.3"
 
 [kiselevka]
 path = "extensions/kiselevka"
+version = "0.0.1"
+
+[kotlin]
+path = "extensions/kotlin"
+version = "0.0.1"
+
+[latex]
+path = "extensions/latex"
 version = "0.0.1"
 
 [log]
@@ -76,7 +120,19 @@ version = "0.0.2"
 
 [macos-classic]
 path = "extensions/macos-classic"
-version = "0.0.4"
+version = "0.0.5"
+
+[make]
+path = "extensions/make"
+version = "0.0.1"
+
+[material-dark]
+path = "extensions/material-dark"
+version = "0.0.1"
+
+[matlab]
+path = "extensions/matlab"
+version = "0.0.1"
 
 [mau]
 path = "extensions/mau"
@@ -86,13 +142,21 @@ version = "0.0.1"
 path = "extensions/mellow"
 version = "0.0.1"
 
+[modest-dark]
+path = "extensions/modest-dark"
+version = "0.1.1"
+
 [msun-dark]
 path = "extensions/msun-dark"
-version = "0.0.3"
+version = "0.0.4"
 
 [muted]
 path = "extensions/muted"
 version = "0.0.1"
+
+[nanowise]
+path = "extensions/nanowise"
+version = "0.1.0"
 
 [napalm]
 path = "extensions/napalm"
@@ -100,7 +164,7 @@ version = "0.0.2"
 
 [navi]
 path = "extensions/navi"
-version = "0.0.3"
+version = "0.1.0"
 
 [neosolarized]
 path = "extensions/neosolarized"
@@ -108,14 +172,22 @@ version = "0.0.1"
 
 [new-darcula]
 path = "extensions/new-darcula"
-version = "1.0.2"
+version = "1.0.3"
 
 [night-owlz]
 path = "extensions/night-owlz"
-version = "0.0.1"
+version = "0.0.2"
 
 [nightfox]
 path = "extensions/nightfox"
+version = "0.0.1"
+
+[nix]
+path = "extensions/nix"
+version = "0.0.4"
+
+[nord]
+path = "extensions/nord"
 version = "0.0.1"
 
 [nu]
@@ -124,6 +196,22 @@ version = "0.0.1"
 
 [one-dark-pro]
 path = "extensions/one-dark-pro"
+version = "0.0.3"
+
+[one-hunter]
+path = "extensions/one-hunter"
+version = "0.0.2"
+
+[pact]
+path = "extensions/pact"
+version = "0.0.1"
+
+[penumbra]
+path = "extensions/penumbra"
+version = "0.0.1"
+
+[pest]
+path = "extensions/pest"
 version = "0.0.1"
 
 [pkl]
@@ -138,13 +226,29 @@ version = "0.0.1"
 path = "extensions/r"
 version = "0.0.1"
 
+[siri]
+path = "extensions/siri"
+version = "0.0.3"
+
+[slint]
+path = "extensions/slint"
+version = "0.0.1"
+
 [smithy]
 path = "extensions/smithy"
 version = "0.0.1"
 
 [smooth]
 path = "extensions/smooth"
+version = "1.0.0"
+
+[solarized-fp]
+path = "extensions/solarized-fp"
 version = "0.0.1"
+
+[solidity]
+path = "extensions/solidity"
+version = "0.0.3"
 
 [sql]
 path = "extensions/sql"
@@ -152,27 +256,47 @@ version = "0.0.2"
 
 [srcery]
 path = "extensions/srcery"
+version = "0.0.2"
+
+[svelte]
+path = "extensions/zed/extensions/svelte"
 version = "0.0.1"
 
 [swift]
 path = "extensions/swift"
-version = "0.0.4"
+version = "0.1.0"
 
 [synthwave]
 path = "extensions/synthwave"
 version = "0.0.1"
 
+[templ]
+path = "extensions/templ"
+version = "0.0.1"
+
 [the-dark-side]
 path = "extensions/the-dark-side"
-version = "0.2.3"
+version = "0.2.4"
 
 [tokyo-night]
 path = "extensions/tokyo-night"
 version = "0.0.2"
 
+[uiua]
+path = "extensions/zed/extensions/uiua"
+version = "0.0.1"
+
 [ultimate-dark-neo]
 path = "extensions/ultimate-dark-neo"
 version = "0.0.2"
+
+[vesper]
+path = "extensions/vesper"
+version = "0.0.1"
+
+[visual-assist-dark]
+path = "extensions/visual-assist-dark"
+version = "0.0.1"
 
 [vscode-dark-plus]
 path = "extensions/vscode-dark-plus"
@@ -180,7 +304,7 @@ version = "0.0.1"
 
 [vscode-monokai-charcoal]
 path = "extensions/vscode-monokai-charcoal"
-version = "0.0.1"
+version = "0.0.2"
 
 [wgsl]
 path = "extensions/wgsl"
@@ -188,15 +312,15 @@ version = "0.0.1"
 
 [xcode-themes]
 path = "extensions/xcode-themes"
-version = "1.0.0"
+version = "1.1.2"
 
 [xy-zed]
 path = "extensions/xy-zed"
-version = "0.0.4"
+version = "0.0.10"
 
 [zedokai]
 path = "extensions/zedokai"
-version = "0.1.0"
+version = "1.0.2"
 
 [zedspace]
 path = "extensions/zedspace"
