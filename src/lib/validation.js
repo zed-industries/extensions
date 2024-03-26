@@ -1,16 +1,3 @@
-import ajvModule from "ajv";
-import { readJsonFile } from "./fs.js";
-
-const Ajv = ajvModule.default;
-
-const ajv = new Ajv({});
-const themeValidator = ajv.compile(
-  await readJsonFile("schemas/theme-family.json"),
-);
-const languageConfigValidator = ajv.compile(
-  await readJsonFile("schemas/language-config.json"),
-);
-
 /**
  * Exceptions to the rule of extension IDs ending in `-zed`.
  *
@@ -58,21 +45,17 @@ export function validateManifest(manifest) {
 }
 
 /**
- * @param {Record<string, any>} config
+ * @param {import('git-submodule-js').Submodule} gitmodules
  */
-export function validateLanguageConfig(config) {
-  languageConfigValidator(config);
-  if (languageConfigValidator.errors) {
-    throw new Error(ajv.errorsText(languageConfigValidator.errors));
-  }
-}
+export function validateGitmodules(gitmodules) {
+  for (const [name, entry] of Object.entries(gitmodules)) {
+    const url = entry["url"];
+    if (!url) {
+      throw new Error(`Missing URL for "${name}".`);
+    }
 
-/**
- * @param {Record<string, any>} theme
- */
-export function validateTheme(theme) {
-  themeValidator(theme);
-  if (themeValidator.errors) {
-    throw new Error(ajv.errorsText(themeValidator.errors));
+    if (!url.startsWith("https://")) {
+      throw new Error(`Submodules must use "https://" scheme.`);
+    }
   }
 }
