@@ -131,7 +131,7 @@ In your PR do the following:
 2. Add a new entry to `extensions.toml` containing your extension:
    ```toml
    [my-extension]
-   path = "extensions/my-extension"
+   submodule = "extensions/my-extension"
    version = "0.0.1"
    ```
 
