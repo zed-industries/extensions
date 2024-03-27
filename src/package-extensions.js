@@ -103,15 +103,21 @@ try {
       `Packaging '${extensionId}'. Version: ${extensionInfo.version}`,
     );
 
-    const submodulePath = Object.keys(gitModules).find((key) =>
-      extensionInfo.path.startsWith(key),
+    const submodulePath = extensionInfo.submodule;
+    assert(
+      typeof submodulePath === "string",
+      "`submodule` must exist and be a string.",
     );
-    assert(submodulePath, `no submodule for extension ${extensionId}`);
+
     await checkoutGitSubmodule(submodulePath);
+
+    const extensionPath = extensionInfo.path
+      ? path.join(submodulePath, extensionInfo.path)
+      : submodulePath;
 
     await packageExtension(
       extensionId,
-      extensionInfo.path,
+      extensionPath,
       extensionInfo.version,
       shouldPublish,
     );

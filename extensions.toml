@@ -1,367 +1,374 @@
 [alabaster]
-path = "extensions/alabaster"
+submodule = "extensions/alabaster"
 version = "0.0.1"
 
 [assembly]
-path = "extensions/assembly"
+submodule = "extensions/assembly"
 version = "0.0.1"
 
 [astro]
-path = "extensions/zed/extensions/astro"
+submodule = "extensions/zed"
+path = "extensions/astro"
 version = "0.0.1"
 
 [base16]
-path = "extensions/base16"
+submodule = "extensions/base16"
 version = "0.0.4"
 
 [beancount]
-path = "extensions/beancount"
+submodule = "extensions/beancount"
 version = "0.0.1"
 
 [blanche]
-path = "extensions/blanche"
+submodule = "extensions/blanche"
 version = "0.0.1"
 
 [brainfuck]
-path = "extensions/brainfuck"
+submodule = "extensions/brainfuck"
 version = "0.0.2"
 
 [cadence]
-path = "extensions/cadence"
+submodule = "extensions/cadence"
 version = "0.0.1"
 
 [catppuccin]
-path = "extensions/catppuccin"
+submodule = "extensions/catppuccin"
 version = "0.2.3"
 
 [colorizer]
-path = "extensions/colorizer"
+submodule = "extensions/colorizer"
 version = "0.0.3"
 
 [cosmos]
-path = "extensions/cosmos"
+submodule = "extensions/cosmos"
 version = "0.0.1"
 
 [cue]
-path = "extensions/cue"
+submodule = "extensions/cue"
 version = "0.0.1"
 
 [d]
-path = "extensions/d"
+submodule = "extensions/d"
 version = "0.0.1"
 
 [dockerfile]
-path = "extensions/dockerfile"
+submodule = "extensions/dockerfile"
 version = "0.0.2"
 
 [dracula]
-path = "extensions/dracula"
+submodule = "extensions/dracula"
 version = "0.4.0"
 
 [elisp]
-path = "extensions/elisp"
+submodule = "extensions/elisp"
 version = "0.0.2"
 
 [everforest]
-path = "extensions/everforest"
+submodule = "extensions/everforest"
 version = "0.0.2"
 
 [exquisite]
-path = "extensions/exquisite"
+submodule = "extensions/exquisite"
 version = "0.1.1"
 
 [fish]
-path = "extensions/fish"
+submodule = "extensions/fish"
 version = "0.0.4"
 
 [fleet-themes]
-path = "extensions/fleet-themes"
+submodule = "extensions/fleet-themes"
 version = "1.0.0"
 
 [gdscript]
-path = "extensions/gdscript"
+submodule = "extensions/gdscript"
 version = "0.0.2"
 
 [gentle-dark]
-path = "extensions/gentle-dark"
+submodule = "extensions/gentle-dark"
 version = "0.0.2"
 
 [git-firefly]
-path = "extensions/git-firefly"
+submodule = "extensions/git-firefly"
 version = "0.0.2"
 
 [github-dark-default]
-path = "extensions/github-dark-default"
+submodule = "extensions/github-dark-default"
 version = "0.0.1"
 
 [github-theme]
-path = "extensions/github-theme"
+submodule = "extensions/github-theme"
 version = "0.0.2"
 
 [gleam]
-path = "extensions/zed/extensions/gleam"
+submodule = "extensions/zed"
+path = "extensions/gleam"
 version = "0.0.1"
 
 [graphene]
-path = "extensions/graphene"
+submodule = "extensions/graphene"
 version = "0.1.0"
 
 [graphql]
-path = "extensions/graphql"
+submodule = "extensions/graphql"
 version = "0.0.2"
 
 [haskell]
-path = "extensions/zed/extensions/haskell"
+submodule = "extensions/zed"
+path = "extensions/haskell"
 version = "0.0.1"
 
 [horizon]
-path = "extensions/horizon"
+submodule = "extensions/horizon"
 version = "0.0.1"
 
 [java]
-path = "extensions/java"
+submodule = "extensions/java"
 version = "0.0.3"
 
 [kiselevka]
-path = "extensions/kiselevka"
+submodule = "extensions/kiselevka"
 version = "0.0.1"
 
 [kotlin]
-path = "extensions/kotlin"
+submodule = "extensions/kotlin"
 version = "0.0.1"
 
 [latex]
-path = "extensions/latex"
+submodule = "extensions/latex"
 version = "0.0.1"
 
 [log]
-path = "extensions/log"
+submodule = "extensions/log"
 version = "0.0.2"
 
 [macos-classic]
-path = "extensions/macos-classic"
+submodule = "extensions/macos-classic"
 version = "0.0.5"
 
 [make]
-path = "extensions/make"
+submodule = "extensions/make"
 version = "0.0.1"
 
 [markdown-oxide]
-path = "extensions/markdown-oxide"
+submodule = "extensions/markdown-oxide"
 version = "0.0.2"
 
 [material-dark]
-path = "extensions/material-dark"
+submodule = "extensions/material-dark"
 version = "0.0.1"
 
 [matlab]
-path = "extensions/matlab"
+submodule = "extensions/matlab"
 version = "0.0.1"
 
 [mau]
-path = "extensions/mau"
+submodule = "extensions/mau"
 version = "0.0.1"
 
 [mellow]
-path = "extensions/mellow"
+submodule = "extensions/mellow"
 version = "0.0.1"
 
 [modest-dark]
-path = "extensions/modest-dark"
+submodule = "extensions/modest-dark"
 version = "0.1.1"
 
 [msun-dark]
-path = "extensions/msun-dark"
+submodule = "extensions/msun-dark"
 version = "0.0.4"
 
 [muted]
-path = "extensions/muted"
+submodule = "extensions/muted"
 version = "0.0.1"
 
 [nanowise]
-path = "extensions/nanowise"
+submodule = "extensions/nanowise"
 version = "0.1.0"
 
 [napalm]
-path = "extensions/napalm"
+submodule = "extensions/napalm"
 version = "0.0.2"
 
 [navi]
-path = "extensions/navi"
+submodule = "extensions/navi"
 version = "0.1.0"
 
 [neosolarized]
-path = "extensions/neosolarized"
+submodule = "extensions/neosolarized"
 version = "0.0.1"
 
 [new-darcula]
-path = "extensions/new-darcula"
+submodule = "extensions/new-darcula"
 version = "1.0.4"
 
 [night-owlz]
-path = "extensions/night-owlz"
+submodule = "extensions/night-owlz"
 version = "0.0.2"
 
 [nightfox]
-path = "extensions/nightfox"
+submodule = "extensions/nightfox"
 version = "0.0.1"
 
 [nix]
-path = "extensions/nix"
+submodule = "extensions/nix"
 version = "0.0.4"
 
 [nord]
-path = "extensions/nord"
+submodule = "extensions/nord"
 version = "0.0.1"
 
 [norrsken]
-path = "extensions/norrsken"
+submodule = "extensions/norrsken"
 version = "0.0.2"
 
 [nu]
-path = "extensions/nu"
+submodule = "extensions/nu"
 version = "0.0.1"
 
 [one-dark-pro]
-path = "extensions/one-dark-pro"
+submodule = "extensions/one-dark-pro"
 version = "0.0.3"
 
 [one-hunter]
-path = "extensions/one-hunter"
+submodule = "extensions/one-hunter"
 version = "0.0.2"
 
 [pact]
-path = "extensions/pact"
+submodule = "extensions/pact"
 version = "0.0.1"
 
 [paraiso]
-path = "extensions/paraiso"
+submodule = "extensions/paraiso"
 version = "1.0.0"
 
 [penumbra]
-path = "extensions/penumbra"
+submodule = "extensions/penumbra"
 version = "0.0.1"
 
 [pest]
-path = "extensions/pest"
+submodule = "extensions/pest"
 version = "0.0.1"
 
 [pkl]
-path = "extensions/pkl"
+submodule = "extensions/pkl"
 version = "0.1.0"
 
 [poimandres]
-path = "extensions/poimandres"
+submodule = "extensions/poimandres"
 version = "0.0.1"
 
 [prisma]
-path = "extensions/zed/extensions/prisma"
+submodule = "extensions/zed"
+path = "extensions/prisma"
 version = "0.0.1"
 
 [purescript]
-path = "extensions/zed/extensions/purescript"
+submodule = "extensions/zed"
+path = "extensions/purescript"
 version = "0.0.1"
 
 [r]
-path = "extensions/r"
+submodule = "extensions/r"
 version = "0.0.1"
 
 [siri]
-path = "extensions/siri"
+submodule = "extensions/siri"
 version = "0.0.3"
 
 [slint]
-path = "extensions/slint"
+submodule = "extensions/slint"
 version = "0.0.1"
 
 [smithy]
-path = "extensions/smithy"
+submodule = "extensions/smithy"
 version = "0.0.1"
 
 [smooth]
-path = "extensions/smooth"
+submodule = "extensions/smooth"
 version = "1.0.0"
 
 [solarized-fp]
-path = "extensions/solarized-fp"
+submodule = "extensions/solarized-fp"
 version = "0.0.1"
 
 [solidity]
-path = "extensions/solidity"
+submodule = "extensions/solidity"
 version = "0.0.3"
 
 [sql]
-path = "extensions/sql"
+submodule = "extensions/sql"
 version = "0.0.2"
 
 [srcery]
-path = "extensions/srcery"
+submodule = "extensions/srcery"
 version = "0.0.2"
 
 [svelte]
-path = "extensions/zed/extensions/svelte"
+submodule = "extensions/zed"
+path = "extensions/svelte"
 version = "0.0.1"
 
 [swift]
-path = "extensions/swift"
+submodule = "extensions/swift"
 version = "0.1.0"
 
 [synthwave]
-path = "extensions/synthwave"
+submodule = "extensions/synthwave"
 version = "0.0.1"
 
 [templ]
-path = "extensions/templ"
+submodule = "extensions/templ"
 version = "0.0.1"
 
 [the-dark-side]
-path = "extensions/the-dark-side"
+submodule = "extensions/the-dark-side"
 version = "0.2.4"
 
 [tokyo-night]
-path = "extensions/tokyo-night"
+submodule = "extensions/tokyo-night"
 version = "0.0.2"
 
 [uiua]
-path = "extensions/zed/extensions/uiua"
+submodule = "extensions/zed"
+path = "extensions/uiua"
 version = "0.0.1"
 
 [ultimate-dark-neo]
-path = "extensions/ultimate-dark-neo"
+submodule = "extensions/ultimate-dark-neo"
 version = "0.0.2"
 
 [vesper]
-path = "extensions/vesper"
+submodule = "extensions/vesper"
 version = "0.0.1"
 
 [visual-assist-dark]
-path = "extensions/visual-assist-dark"
+submodule = "extensions/visual-assist-dark"
 version = "0.0.2"
 
 [vscode-dark-plus]
-path = "extensions/vscode-dark-plus"
+submodule = "extensions/vscode-dark-plus"
 version = "0.0.1"
 
 [vscode-monokai-charcoal]
-path = "extensions/vscode-monokai-charcoal"
+submodule = "extensions/vscode-monokai-charcoal"
 version = "0.0.2"
 
 [wgsl]
-path = "extensions/wgsl"
+submodule = "extensions/wgsl"
 version = "0.0.1"
 
 [xcode-themes]
-path = "extensions/xcode-themes"
+submodule = "extensions/xcode-themes"
 version = "1.1.2"
 
 [xy-zed]
-path = "extensions/xy-zed"
+submodule = "extensions/xy-zed"
 version = "0.0.10"
 
 [zedokai]
-path = "extensions/zedokai"
+submodule = "extensions/zedokai"
 version = "1.0.2"
 
 [zedspace]
-path = "extensions/zedspace"
+submodule = "extensions/zedspace"
 version = "0.0.1"
