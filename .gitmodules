@@ -246,6 +246,10 @@
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
 
+[submodule "extensions/scala"]
+	path = extensions/scala
+	url = https://github.com/scalameta/metals-zed.git
+
 [submodule "extensions/siri"]
 	path = extensions/siri
 	url = https://github.com/perragnar/zed-theme-siri.git
