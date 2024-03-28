@@ -101,6 +101,10 @@
 [submodule "extensions/graphql"]
 	path = extensions/graphql
 	url = https://github.com/11bit/zed-extension-graphql.git
+  
+[submodule "extensions/go-template"]
+	path = extensions/go-template
+	url = https://github.com/hjoshi123/helm.zed.git
 
 [submodule "extensions/horizon"]
 	path = extensions/horizon
@@ -348,4 +352,4 @@
 
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
-	url = https://github.com/Brunowilliang/zedspace.git
+	url = git@github.com:Brunowilliang/zedspace.git
