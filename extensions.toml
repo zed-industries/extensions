@@ -332,6 +332,11 @@ version = "0.2.4"
 submodule = "extensions/tokyo-night"
 version = "0.0.2"
 
+[toml]
+submodule = "extensions/zed"
+path = "extensions/toml"
+version = "0.0.1"
+
 [uiua]
 submodule = "extensions/zed"
 path = "extensions/uiua"
