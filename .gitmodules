@@ -1,6 +1,6 @@
 [submodule "extensions/alabaster"]
 	path = extensions/alabaster
-	url = https://github.com/tsimoshka/zed-theme-alabaster
+	url = https://github.com/tsimoshka/zed-theme-alabaster.git
 
 [submodule "extensions/assembly"]
 	path = extensions/assembly
@@ -44,7 +44,7 @@
 
 [submodule "extensions/d"]
 	path = extensions/d
-	url = https://github.com/staysail/zed-d
+	url = https://github.com/staysail/zed-d.git
 
 [submodule "extensions/dockerfile"]
 	path = extensions/dockerfile
@@ -246,6 +246,10 @@
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
 
+[submodule "extensions/scala"]
+	path = extensions/scala
+	url = https://github.com/scalameta/metals-zed.git
+
 [submodule "extensions/siri"]
 	path = extensions/siri
 	url = https://github.com/perragnar/zed-theme-siri.git
@@ -308,7 +312,11 @@
 
 [submodule "extensions/visual-assist-dark"]
 	path = extensions/visual-assist-dark
-	url = https://github.com/trojanfoe/visual-assist-dark.zed
+	url = https://github.com/trojanfoe/visual-assist-dark.zed.git
+
+[submodule "extensions/vitesse"]
+	path = extensions/vitesse
+	url = https://github.com/d1y/vitesse.zed.git
 
 [submodule "extensions/vscode-dark-plus"]
 	path = extensions/vscode-dark-plus
@@ -332,7 +340,7 @@
 
 [submodule "extensions/zed"]
 	path = extensions/zed
-	url = https://github.com/zed-industries/zed
+	url = https://github.com/zed-industries/zed.git
 
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
