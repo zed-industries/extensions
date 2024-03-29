@@ -43,6 +43,11 @@ version = "0.0.3"
 submodule = "extensions/cosmos"
 version = "0.0.1"
 
+[csharp]
+submodule = "extensions/zed"
+path = "extensions/csharp"
+version = "0.0.1"
+
 [cue]
 submodule = "extensions/cue"
 version = "0.0.1"
