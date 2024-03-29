@@ -68,6 +68,11 @@ version = "0.6.0"
 submodule = "extensions/elisp"
 version = "0.0.3"
 
+[erlang]
+submodule = "extensions/zed"
+path = "extensions/erlang"
+version = "0.0.1"
+
 [everforest]
 submodule = "extensions/everforest"
 version = "0.0.2"
