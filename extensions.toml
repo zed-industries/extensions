@@ -330,6 +330,10 @@ version = "0.0.2"
 submodule = "extensions/srcery"
 version = "0.0.2"
 
+[starlark]
+submodule = "extensions/starlark"
+version = "0.1.1"
+
 [svelte]
 submodule = "extensions/zed"
 path = "extensions/svelte"
