@@ -35,6 +35,11 @@ version = "0.0.1"
 submodule = "extensions/catppuccin"
 version = "0.2.4"
 
+[clojure]
+submodule = "extensions/zed"
+path = "extensions/clojure"
+version = "0.0.1"
+
 [colorizer]
 submodule = "extensions/colorizer"
 version = "0.0.3"
