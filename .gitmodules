@@ -258,6 +258,10 @@
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
 
+[submodule "extensions/roc"]
+	path = extensions/roc
+	url = https://github.com/h2000/zed-roc.git
+
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
@@ -365,7 +369,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-
-[submodule "extensions/roc"]
-	path = extensions/roc
-	url = https://github.com/h2000/zed-roc.git
