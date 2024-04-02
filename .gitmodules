@@ -122,6 +122,10 @@
 	path = extensions/kotlin
 	url = https://github.com/evrsen/zed-kotlin.git
 
+[submodule "extensions/ktrz-monokai"]
+	path = extensions/ktrz-monokai
+	url = https://github.com/pcminh0505/ktrz-monokai-zed-theme.git
+
 [submodule "extensions/latex"]
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
@@ -361,3 +365,4 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
+
