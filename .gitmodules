@@ -14,6 +14,10 @@
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount.git
 
+[submodule "extensions/biome"]
+	path = extensions/biome
+	url = https://github.com/biomejs/biome-zed.git
+
 [submodule "extensions/blanche"]
 	path = extensions/blanche
 	url = https://github.com/kwonoj/zed-blanche.git
@@ -373,7 +377,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-
-[submodule "extensions/biome"]
-	path = extensions/biome
-	url = https://github.com/biomejs/biome-zed.git

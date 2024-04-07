@@ -19,6 +19,10 @@ version = "0.0.4"
 submodule = "extensions/beancount"
 version = "0.0.1"
 
+[biome]
+submodule = "extensions/biome"
+version = "0.0.1"
+
 [blanche]
 submodule = "extensions/blanche"
 version = "0.0.1"
@@ -443,8 +447,4 @@ version = "0.0.1"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.0.1"
-
-[biome]
-submodule = "extensions/biome"
 version = "0.0.1"
