@@ -322,6 +322,10 @@
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
 
+[submodule "extensions/typst"]
+	path = extensions/typst
+	url = https://codeberg.org/WeetHet/typst.zed.git
+
 [submodule "extensions/ultimate-dark-neo"]
 	path = extensions/ultimate-dark-neo
 	url = https://github.com/rubjo/ultimate-dark-neo-zed.git
@@ -369,6 +373,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-[submodule "extensions/typst"]
-	path = extensions/typst
-	url = https://codeberg.org/WeetHet/typst.zed.git
