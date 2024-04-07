@@ -67,7 +67,7 @@ version = "0.0.2"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.7.1"
+version = "0.7.3"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -386,6 +386,10 @@ version = "0.0.2"
 submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.0.2"
+
+[typst]
+submodule = "extensions/typst"
+version = "0.0.1"
 
 [uiua]
 submodule = "extensions/zed"
