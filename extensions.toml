@@ -19,6 +19,10 @@ version = "0.0.4"
 submodule = "extensions/beancount"
 version = "0.0.1"
 
+[biome]
+submodule = "extensions/biome"
+version = "0.0.1"
+
 [blanche]
 submodule = "extensions/blanche"
 version = "0.0.1"
@@ -67,7 +71,7 @@ version = "0.0.2"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.7.1"
+version = "0.7.3"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -97,7 +101,7 @@ version = "0.1.1"
 
 [fish]
 submodule = "extensions/fish"
-version = "0.0.5"
+version = "0.0.6"
 
 [fleet-themes]
 submodule = "extensions/fleet-themes"
@@ -390,6 +394,10 @@ version = "0.0.2"
 submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.0.2"
+
+[typst]
+submodule = "extensions/typst"
+version = "0.0.1"
 
 [uiua]
 submodule = "extensions/zed"

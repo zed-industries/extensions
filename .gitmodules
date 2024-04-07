@@ -14,6 +14,10 @@
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount.git
 
+[submodule "extensions/biome"]
+	path = extensions/biome
+	url = https://github.com/biomejs/biome-zed.git
+
 [submodule "extensions/blanche"]
 	path = extensions/blanche
 	url = https://github.com/kwonoj/zed-blanche.git
@@ -325,6 +329,10 @@
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
+
+[submodule "extensions/typst"]
+	path = extensions/typst
+	url = https://codeberg.org/WeetHet/typst.zed.git
 
 [submodule "extensions/ultimate-dark-neo"]
 	path = extensions/ultimate-dark-neo
