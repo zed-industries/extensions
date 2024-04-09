@@ -69,6 +69,11 @@ version = "0.0.1"
 submodule = "extensions/d"
 version = "0.0.3"
 
+[dart]
+submodule = "extensions/zed"
+path = "extensions/dart"
+version = "0.0.1"
+
 [dockerfile]
 submodule = "extensions/dockerfile"
 version = "0.0.2"
