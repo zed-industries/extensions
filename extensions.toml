@@ -19,6 +19,10 @@ version = "0.0.4"
 submodule = "extensions/beancount"
 version = "0.0.1"
 
+[biome]
+submodule = "extensions/biome"
+version = "0.0.1"
+
 [blanche]
 submodule = "extensions/blanche"
 version = "0.0.1"
@@ -97,7 +101,7 @@ version = "0.1.1"
 
 [fish]
 submodule = "extensions/fish"
-version = "0.0.5"
+version = "0.0.6"
 
 [fleet-themes]
 submodule = "extensions/fleet-themes"
@@ -178,6 +182,10 @@ version = "0.0.2"
 submodule = "extensions/log"
 version = "0.0.3"
 
+[lox]
+submodule = "extensions/lox"
+version = "0.0.1"
+
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.0.6"
@@ -209,6 +217,10 @@ version = "0.0.1"
 [modest-dark]
 submodule = "extensions/modest-dark"
 version = "0.1.1"
+
+[monosami]
+submodule = "extensions/monosami"
+version = "0.0.1"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
@@ -386,6 +398,10 @@ version = "0.0.2"
 submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.0.2"
+
+[typst]
+submodule = "extensions/typst"
+version = "0.0.1"
 
 [uiua]
 submodule = "extensions/zed"
