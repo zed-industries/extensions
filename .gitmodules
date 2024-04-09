@@ -102,6 +102,10 @@
 	path = extensions/github-theme
 	url = https://github.com/PyaeSoneAungRgn/github-zed-theme.git
 
+[submodule "extensions/glazier"]
+	path = extensions/glazier
+	url = https://github.com/airgap/glazier.git
+
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene.git
@@ -385,7 +389,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-
-[submodule "extensions/glazier"]
-	path = extensions/glazier
-	url = https://github.com/airgap/glazier.git

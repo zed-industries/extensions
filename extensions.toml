@@ -127,6 +127,10 @@ version = "0.0.1"
 submodule = "extensions/github-theme"
 version = "0.0.2"
 
+[glazier]
+submodule = "extensions/glazier"
+version = "0.0.1"
+
 [gleam]
 submodule = "extensions/zed"
 path = "extensions/gleam"
@@ -455,8 +459,4 @@ version = "0.0.1"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.0.1"
-
-[glazier]
-submodule = "extensions/glazier"
 version = "0.0.1"
