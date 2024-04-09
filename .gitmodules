@@ -42,6 +42,10 @@
 	path = extensions/cosmos
 	url = https://github.com/nauvalazhar/cosmos.git
 
+[submodule "extensions/csv"]
+	path = extensions/csv
+	url = https://github.com/huacnlee/zed-csv.git
+
 [submodule "extensions/cue"]
 	path = extensions/cue
 	url = https://github.com/jkasky/zed-cue.git
