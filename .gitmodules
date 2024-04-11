@@ -338,6 +338,10 @@
 	path = extensions/the-dark-side
 	url = https://github.com/Imgkl/the-dark-side.git
 
+[submodule "extensions/tmux"]
+	path = extensions/tmux
+	url = https://github.com/dangh/zed-tmux.git
+
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
@@ -393,6 +397,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-[submodule "extensions/tmux"]
-	path = extensions/tmux
-	url = https://github.com/dangh/zed-tmux.git
