@@ -209,6 +209,11 @@ version = "0.0.3"
 submodule = "extensions/lox"
 version = "0.0.1"
 
+[lua]
+submodule = "extensions/zed"
+path = "extensions/lua"
+version = "0.0.1"
+
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.0.7"
