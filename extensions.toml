@@ -145,6 +145,11 @@ submodule = "extensions/zed"
 path = "extensions/gleam"
 version = "0.1.0"
 
+[glsl]
+submodule = "extensions/zed"
+path = "extensions/glsl"
+version = "0.0.1"
+
 [graphene]
 submodule = "extensions/graphene"
 version = "0.1.0"
