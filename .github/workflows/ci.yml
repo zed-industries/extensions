@@ -38,7 +38,7 @@ jobs:
         with:
           path: |
             zed-extension
-          key: ${{ env.ZED_EXTENSION_CLI_SHA }}
+          key: zed-extension-${{ env.ZED_EXTENSION_CLI_SHA }}
 
       - name: Download zed-extension CLI if not cached
         if: steps.cache-zed-extension.outputs.cache-hit != 'true'
