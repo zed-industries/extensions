@@ -25,7 +25,7 @@ version = "0.0.1"
 
 [brainfuck]
 submodule = "extensions/brainfuck"
-version = "0.0.2"
+version = "0.0.3"
 
 [cadence]
 submodule = "extensions/cadence"
@@ -43,6 +43,11 @@ version = "0.0.3"
 submodule = "extensions/cosmos"
 version = "0.0.1"
 
+[csharp]
+submodule = "extensions/zed"
+path = "extensions/csharp"
+version = "0.0.1"
+
 [cue]
 submodule = "extensions/cue"
 version = "0.0.1"
@@ -57,11 +62,16 @@ version = "0.0.2"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.4.0"
+version = "0.6.0"
 
 [elisp]
 submodule = "extensions/elisp"
-version = "0.0.2"
+version = "0.0.3"
+
+[erlang]
+submodule = "extensions/zed"
+path = "extensions/erlang"
+version = "0.0.1"
 
 [everforest]
 submodule = "extensions/everforest"
@@ -225,6 +235,10 @@ version = "0.0.2"
 submodule = "extensions/nu"
 version = "0.0.1"
 
+[oceanic-next]
+submodule = "extensions/oceanic-next"
+version = "0.1.0"
+
 [one-dark-pro]
 submodule = "extensions/one-dark-pro"
 version = "0.0.3"
@@ -239,7 +253,7 @@ version = "0.0.1"
 
 [paraiso]
 submodule = "extensions/paraiso"
-version = "1.0.0"
+version = "1.0.1"
 
 [penumbra]
 submodule = "extensions/penumbra"
@@ -248,6 +262,11 @@ version = "0.0.1"
 [pest]
 submodule = "extensions/pest"
 version = "0.1.0"
+
+[php]
+submodule = "extensions/zed"
+path = "extensions/php"
+version = "0.0.1"
 
 [pkl]
 submodule = "extensions/pkl"
