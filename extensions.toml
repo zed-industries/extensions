@@ -1,6 +1,6 @@
 [alabaster]
 submodule = "extensions/alabaster"
-version = "0.0.1"
+version = "0.0.2"
 
 [assembly]
 submodule = "extensions/assembly"
@@ -19,6 +19,10 @@ version = "0.0.4"
 submodule = "extensions/beancount"
 version = "0.0.1"
 
+[biome]
+submodule = "extensions/biome"
+version = "0.0.2"
+
 [blanche]
 submodule = "extensions/blanche"
 version = "0.0.1"
@@ -33,7 +37,12 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.3"
+version = "0.2.5"
+
+[clojure]
+submodule = "extensions/zed"
+path = "extensions/clojure"
+version = "0.0.1"
 
 [colorizer]
 submodule = "extensions/colorizer"
@@ -48,13 +57,22 @@ submodule = "extensions/zed"
 path = "extensions/csharp"
 version = "0.0.1"
 
+[csv]
+submodule = "extensions/csv"
+version = "0.0.1"
+
 [cue]
 submodule = "extensions/cue"
 version = "0.0.1"
 
 [d]
 submodule = "extensions/d"
-version = "0.0.2"
+version = "0.0.3"
+
+[dart]
+submodule = "extensions/zed"
+path = "extensions/dart"
+version = "0.0.1"
 
 [dockerfile]
 submodule = "extensions/dockerfile"
@@ -62,11 +80,20 @@ version = "0.0.2"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.6.0"
+version = "0.7.3"
 
 [elisp]
 submodule = "extensions/elisp"
-version = "0.0.3"
+version = "0.0.4"
+
+[ember]
+submodule = "extensions/ember"
+version = "0.0.1"
+
+[emmet]
+submodule = "extensions/zed"
+path = "extensions/emmet"
+version = "0.0.2"
 
 [erlang]
 submodule = "extensions/zed"
@@ -83,7 +110,7 @@ version = "0.1.1"
 
 [fish]
 submodule = "extensions/fish"
-version = "0.0.4"
+version = "0.0.6"
 
 [fleet-themes]
 submodule = "extensions/fleet-themes"
@@ -109,10 +136,14 @@ version = "0.0.1"
 submodule = "extensions/github-theme"
 version = "0.0.2"
 
+[glazier]
+submodule = "extensions/glazier"
+version = "0.0.2"
+
 [gleam]
 submodule = "extensions/zed"
 path = "extensions/gleam"
-version = "0.0.2"
+version = "0.1.0"
 
 [graphene]
 submodule = "extensions/graphene"
@@ -125,11 +156,20 @@ version = "0.0.2"
 [haskell]
 submodule = "extensions/zed"
 path = "extensions/haskell"
-version = "0.0.1"
+version = "0.1.0"
 
 [horizon]
 submodule = "extensions/horizon"
 version = "0.0.1"
+
+[html]
+submodule = "extensions/zed"
+path = "extensions/html"
+version = "0.0.1"
+
+[indigo]
+submodule = "extensions/indigo"
+version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
@@ -143,17 +183,25 @@ version = "0.0.1"
 submodule = "extensions/kotlin"
 version = "0.0.1"
 
+[ktrz-monokai]
+submodule = "extensions/ktrz-monokai"
+version = "0.0.2"
+
 [latex]
 submodule = "extensions/latex"
-version = "0.0.1"
+version = "0.0.2"
 
 [log]
 submodule = "extensions/log"
 version = "0.0.3"
 
+[lox]
+submodule = "extensions/lox"
+version = "0.0.1"
+
 [macos-classic]
 submodule = "extensions/macos-classic"
-version = "0.0.6"
+version = "0.0.7"
 
 [make]
 submodule = "extensions/make"
@@ -161,7 +209,7 @@ version = "1.0.0"
 
 [markdown-oxide]
 submodule = "extensions/markdown-oxide"
-version = "0.0.2"
+version = "0.0.4"
 
 [material-dark]
 submodule = "extensions/material-dark"
@@ -182,6 +230,10 @@ version = "0.0.1"
 [modest-dark]
 submodule = "extensions/modest-dark"
 version = "0.1.1"
+
+[monosami]
+submodule = "extensions/monosami"
+version = "0.0.1"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
@@ -225,11 +277,11 @@ version = "0.0.4"
 
 [nord]
 submodule = "extensions/nord"
-version = "0.0.1"
+version = "0.0.3"
 
 [norrsken]
 submodule = "extensions/norrsken"
-version = "0.0.2"
+version = "1.0.0"
 
 [nu]
 submodule = "extensions/nu"
@@ -300,7 +352,7 @@ version = "0.0.3"
 
 [slint]
 submodule = "extensions/slint"
-version = "0.0.1"
+version = "0.0.2"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -326,6 +378,10 @@ version = "0.0.3"
 submodule = "extensions/srcery"
 version = "0.0.2"
 
+[starlark]
+submodule = "extensions/starlark"
+version = "0.1.1"
+
 [svelte]
 submodule = "extensions/zed"
 path = "extensions/svelte"
@@ -341,11 +397,15 @@ version = "0.0.1"
 
 [templ]
 submodule = "extensions/templ"
-version = "0.0.1"
+version = "0.0.2"
 
 [the-dark-side]
 submodule = "extensions/the-dark-side"
 version = "0.2.4"
+
+[tmux]
+submodule = "extensions/tmux"
+version = "0.0.1"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"
@@ -356,6 +416,10 @@ submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.0.2"
 
+[typst]
+submodule = "extensions/typst"
+version = "0.0.1"
+
 [uiua]
 submodule = "extensions/zed"
 path = "extensions/uiua"
@@ -363,7 +427,7 @@ version = "0.0.1"
 
 [ultimate-dark-neo]
 submodule = "extensions/ultimate-dark-neo"
-version = "0.0.2"
+version = "0.0.4"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -395,11 +459,11 @@ version = "1.1.2"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
-version = "0.0.10"
+version = "0.0.11"
 
 [zedokai]
 submodule = "extensions/zedokai"
-version = "1.0.2"
+version = "1.1.0"
 
 [zedspace]
 submodule = "extensions/zedspace"

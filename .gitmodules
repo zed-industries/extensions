@@ -14,6 +14,10 @@
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount.git
 
+[submodule "extensions/biome"]
+	path = extensions/biome
+	url = https://github.com/biomejs/biome-zed.git
+
 [submodule "extensions/blanche"]
 	path = extensions/blanche
 	url = https://github.com/kwonoj/zed-blanche.git
@@ -38,6 +42,10 @@
 	path = extensions/cosmos
 	url = https://github.com/nauvalazhar/cosmos.git
 
+[submodule "extensions/csv"]
+	path = extensions/csv
+	url = https://github.com/huacnlee/zed-csv.git
+
 [submodule "extensions/cue"]
 	path = extensions/cue
 	url = https://github.com/jkasky/zed-cue.git
@@ -57,6 +65,10 @@
 [submodule "extensions/elisp"]
 	path = extensions/elisp
 	url = https://github.com/JosephTLyons/zed-elisp.git
+
+[submodule "extensions/ember"]
+	path = extensions/ember
+	url = https://github.com/jylamont/zed-ember.git
 
 [submodule "extensions/everforest"]
 	path = extensions/everforest
@@ -94,6 +106,10 @@
 	path = extensions/github-theme
 	url = https://github.com/PyaeSoneAungRgn/github-zed-theme.git
 
+[submodule "extensions/glazier"]
+	path = extensions/glazier
+	url = https://github.com/airgap/glazier.git
+
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene.git
@@ -105,6 +121,10 @@
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
+
+[submodule "extensions/indigo"]
+	path = extensions/indigo
+	url = https://github.com/p3rception/Indigo-zed.git
 
 [submodule "extensions/java"]
 	path = extensions/java
@@ -118,6 +138,10 @@
 	path = extensions/kotlin
 	url = https://github.com/evrsen/zed-kotlin.git
 
+[submodule "extensions/ktrz-monokai"]
+	path = extensions/ktrz-monokai
+	url = https://github.com/pcminh0505/ktrz-monokai-zed-theme.git
+
 [submodule "extensions/latex"]
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
@@ -125,6 +149,10 @@
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/evrsen/zed-log.git
+
+[submodule "extensions/lox"]
+	path = extensions/lox
+	url = https://github.com/arian81/zed-lox.git
 
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
@@ -157,6 +185,10 @@
 [submodule "extensions/modest-dark"]
 	path = extensions/modest-dark
 	url = https://github.com/timcole/modest-dark.git
+
+[submodule "extensions/monosami"]
+	path = extensions/monosami
+	url = https://github.com/borngraced/monosami.git
 
 [submodule "extensions/msun-dark"]
 	path = extensions/msun-dark
@@ -286,6 +318,10 @@
 	path = extensions/srcery
 	url = https://github.com/srcery-colors/srcery-zed.git
 
+[submodule "extensions/starlark"]
+	path = extensions/starlark
+	url = https://github.com/zaucy/zed-starlark.git
+
 [submodule "extensions/swift"]
 	path = extensions/swift
 	url = https://github.com/samuser107/zed-swift-extension.git
@@ -302,9 +338,17 @@
 	path = extensions/the-dark-side
 	url = https://github.com/Imgkl/the-dark-side.git
 
+[submodule "extensions/tmux"]
+	path = extensions/tmux
+	url = https://github.com/dangh/zed-tmux.git
+
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
+
+[submodule "extensions/typst"]
+	path = extensions/typst
+	url = https://codeberg.org/WeetHet/typst.zed.git
 
 [submodule "extensions/ultimate-dark-neo"]
 	path = extensions/ultimate-dark-neo
