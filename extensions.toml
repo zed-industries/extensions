@@ -302,6 +302,11 @@ version = "1.0.0"
 submodule = "extensions/nu"
 version = "0.0.1"
 
+[ocaml]
+submodule = "extensions/zed"
+path = "extensions/ocaml"
+version = "0.0.1"
+
 [oceanic-next]
 submodule = "extensions/oceanic-next"
 version = "0.1.0"
