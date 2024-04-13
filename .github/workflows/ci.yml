@@ -10,6 +10,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  ZED_EXTENSION_CLI_SHA: 5adc51f113c6646306e74fc22f4c1d1292b5daa5
+
 jobs:
   package:
     runs-on: ubuntu-latest
@@ -29,12 +32,19 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
-      - name: Install zed-extension CLI
+      - name: Cache zed-extension CLI
+        id: cache-zed-extension
+        uses: actions/cache@v3
+        with:
+          path: |
+            zed-extension
+          key: ${{ env.ZED_EXTENSION_CLI_SHA }}
+
+      - name: Download zed-extension CLI if not cached
+        if: steps.cache-zed-extension.outputs.cache-hit != 'true'
         run: |
           wget --quiet "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
           chmod +x zed-extension
-        env:
-          ZED_EXTENSION_CLI_SHA: 5adc51f113c6646306e74fc22f4c1d1292b5daa5
 
       - name: Install dependencies
         run: pnpm install
