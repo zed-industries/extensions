@@ -59,7 +59,7 @@ version = "0.0.1"
 
 [csv]
 submodule = "extensions/csv"
-version = "0.0.1"
+version = "0.0.2"
 
 [cue]
 submodule = "extensions/cue"
@@ -85,6 +85,11 @@ version = "0.7.3"
 [elisp]
 submodule = "extensions/elisp"
 version = "0.0.4"
+
+[elm]
+submodule = "extensions/zed"
+path = "extensions/elm"
+version = "0.0.1"
 
 [ember]
 submodule = "extensions/ember"
@@ -145,6 +150,11 @@ submodule = "extensions/zed"
 path = "extensions/gleam"
 version = "0.1.0"
 
+[glsl]
+submodule = "extensions/zed"
+path = "extensions/glsl"
+version = "0.0.1"
+
 [graphene]
 submodule = "extensions/graphene"
 version = "0.1.0"
@@ -173,7 +183,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "0.0.3"
+version = "0.0.4"
 
 [kiselevka]
 submodule = "extensions/kiselevka"
@@ -197,6 +207,11 @@ version = "0.0.3"
 
 [lox]
 submodule = "extensions/lox"
+version = "0.0.1"
+
+[lua]
+submodule = "extensions/zed"
+path = "extensions/lua"
 version = "0.0.1"
 
 [macos-classic]
@@ -253,7 +268,7 @@ version = "0.0.2"
 
 [navi]
 submodule = "extensions/navi"
-version = "0.1.0"
+version = "0.2.0"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -287,6 +302,11 @@ version = "1.0.0"
 submodule = "extensions/nu"
 version = "0.0.1"
 
+[ocaml]
+submodule = "extensions/zed"
+path = "extensions/ocaml"
+version = "0.0.1"
+
 [oceanic-next]
 submodule = "extensions/oceanic-next"
 version = "0.1.0"
@@ -318,7 +338,7 @@ version = "0.1.0"
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
-version = "0.0.1"
+version = "0.0.2"
 
 [pkl]
 submodule = "extensions/pkl"
@@ -342,8 +362,18 @@ version = "0.0.1"
 submodule = "extensions/r"
 version = "0.0.1"
 
+[racket]
+submodule = "extensions/zed"
+path = "extensions/racket"
+version = "0.0.1"
+
 [scala]
 submodule = "extensions/scala"
+version = "0.0.1"
+
+[scheme]
+submodule = "extensions/zed"
+path = "extensions/scheme"
 version = "0.0.1"
 
 [siri]
@@ -399,9 +429,14 @@ version = "0.0.1"
 submodule = "extensions/templ"
 version = "0.0.2"
 
+[terraform]
+submodule = "extensions/zed"
+path = "extensions/terraform"
+version = "0.0.1"
+
 [the-dark-side]
 submodule = "extensions/the-dark-side"
-version = "0.2.4"
+version = "0.2.5"
 
 [tmux]
 submodule = "extensions/tmux"
@@ -414,7 +449,7 @@ version = "0.0.2"
 [toml]
 submodule = "extensions/zed"
 path = "extensions/toml"
-version = "0.0.2"
+version = "0.1.0"
 
 [typst]
 submodule = "extensions/typst"
@@ -449,6 +484,11 @@ version = "0.0.1"
 submodule = "extensions/vscode-monokai-charcoal"
 version = "0.0.2"
 
+[vue]
+submodule = "extensions/zed"
+path = "extensions/vue"
+version = "0.0.1"
+
 [wgsl]
 submodule = "extensions/wgsl"
 version = "0.0.1"
@@ -472,4 +512,4 @@ version = "0.0.1"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.0.1"
+version = "0.1.0"
