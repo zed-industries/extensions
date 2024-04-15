@@ -90,6 +90,10 @@
 	path = extensions/gdscript
 	url = https://github.com/grndctrl/zed-gdscript.git
 
+[submodule "extensions/gemini"]
+	path = extensions/gemini
+	url = https://github.com/clseibold/gemini-zed.git
+
 [submodule "extensions/gentle-dark"]
 	path = extensions/gentle-dark
 	url = https://github.com/gentlelionstudios/gentle-dark-zed.git
@@ -401,6 +405,3 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-[submodule "extensions/gemini"]
-	path = extensions/gemini
-	url = https://github.com/clseibold/gemini-zed.git
