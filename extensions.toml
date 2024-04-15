@@ -86,6 +86,11 @@ version = "0.7.3"
 submodule = "extensions/elisp"
 version = "0.0.4"
 
+[elm]
+submodule = "extensions/zed"
+path = "extensions/elm"
+version = "0.0.1"
+
 [ember]
 submodule = "extensions/ember"
 version = "0.0.1"
@@ -145,6 +150,11 @@ submodule = "extensions/zed"
 path = "extensions/gleam"
 version = "0.1.0"
 
+[glsl]
+submodule = "extensions/zed"
+path = "extensions/glsl"
+version = "0.0.1"
+
 [graphene]
 submodule = "extensions/graphene"
 version = "0.1.0"
@@ -197,6 +207,11 @@ version = "0.0.3"
 
 [lox]
 submodule = "extensions/lox"
+version = "0.0.1"
+
+[lua]
+submodule = "extensions/zed"
+path = "extensions/lua"
 version = "0.0.1"
 
 [macos-classic]
@@ -287,6 +302,11 @@ version = "1.0.0"
 submodule = "extensions/nu"
 version = "0.0.1"
 
+[ocaml]
+submodule = "extensions/zed"
+path = "extensions/ocaml"
+version = "0.0.1"
+
 [oceanic-next]
 submodule = "extensions/oceanic-next"
 version = "0.1.0"
@@ -346,8 +366,18 @@ version = "0.0.1"
 submodule = "extensions/r"
 version = "0.0.1"
 
+[racket]
+submodule = "extensions/zed"
+path = "extensions/racket"
+version = "0.0.1"
+
 [scala]
 submodule = "extensions/scala"
+version = "0.0.1"
+
+[scheme]
+submodule = "extensions/zed"
+path = "extensions/scheme"
 version = "0.0.1"
 
 [siri]
@@ -403,6 +433,11 @@ version = "0.0.1"
 submodule = "extensions/templ"
 version = "0.0.2"
 
+[terraform]
+submodule = "extensions/zed"
+path = "extensions/terraform"
+version = "0.0.1"
+
 [the-dark-side]
 submodule = "extensions/the-dark-side"
 version = "0.2.5"
@@ -452,6 +487,11 @@ version = "0.0.1"
 [vscode-monokai-charcoal]
 submodule = "extensions/vscode-monokai-charcoal"
 version = "0.0.2"
+
+[vue]
+submodule = "extensions/zed"
+path = "extensions/vue"
+version = "0.0.1"
 
 [wgsl]
 submodule = "extensions/wgsl"
