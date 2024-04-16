@@ -3,7 +3,7 @@ import toml from "@iarna/toml";
 import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { readTomlFile } from "./lib/fs.js";
+import { fileExists, readTomlFile } from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
   readGitmodules,
@@ -142,6 +142,12 @@ async function packageExtension(
 
   const SCRATCH_DIR = "./scratch";
   await fs.mkdir(SCRATCH_DIR, { recursive: true });
+
+  if (await fileExists(path.join(extensionPath, "extension.json"))) {
+    console.warn(
+      "The `extension.json` manifest format has been superseded by `extension.toml`",
+    );
+  }
 
   const zedExtensionOutput = await exec(
     "./zed-extension",
