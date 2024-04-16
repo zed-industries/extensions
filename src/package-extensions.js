@@ -3,7 +3,7 @@ import toml from "@iarna/toml";
 import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { readTomlFile } from "./lib/fs.js";
+import { fileExists, readTomlFile } from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
   readGitmodules,
@@ -81,8 +81,10 @@ const extensionsToml = await readTomlFile("extensions.toml");
 // been packaged.
 await fs.mkdir("build", { recursive: true });
 try {
+  const gitModules = await readGitmodules(".gitmodules");
+
   validateExtensionsToml(extensionsToml);
-  validateGitmodules(await readGitmodules(".gitmodules"));
+  validateGitmodules(gitModules);
 
   await sortExtensionsToml("extensions.toml");
   await sortGitmodules(".gitmodules");
@@ -101,11 +103,21 @@ try {
       `Packaging '${extensionId}'. Version: ${extensionInfo.version}`,
     );
 
-    await checkoutGitSubmodule(extensionInfo.path);
+    const submodulePath = extensionInfo.submodule;
+    assert(
+      typeof submodulePath === "string",
+      "`submodule` must exist and be a string.",
+    );
+
+    await checkoutGitSubmodule(submodulePath);
+
+    const extensionPath = extensionInfo.path
+      ? path.join(submodulePath, extensionInfo.path)
+      : submodulePath;
 
     await packageExtension(
       extensionId,
-      extensionInfo.path,
+      extensionPath,
       extensionInfo.version,
       shouldPublish,
     );
@@ -131,7 +143,13 @@ async function packageExtension(
   const SCRATCH_DIR = "./scratch";
   await fs.mkdir(SCRATCH_DIR, { recursive: true });
 
-  await exec(
+  if (await fileExists(path.join(extensionPath, "extension.json"))) {
+    console.warn(
+      "The `extension.json` manifest format has been superseded by `extension.toml`",
+    );
+  }
+
+  const zedExtensionOutput = await exec(
     "./zed-extension",
     [
       "--scratch-dir",
@@ -148,6 +166,7 @@ async function packageExtension(
       },
     },
   );
+  console.log(zedExtensionOutput.stdout);
 
   const manifestJson = await fs.readFile(
     path.join(outputDir, "manifest.json"),
