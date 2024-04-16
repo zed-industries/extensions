@@ -39,6 +39,10 @@ version = "0.0.1"
 submodule = "extensions/catppuccin"
 version = "0.2.5"
 
+[cfengine]
+submodule = "extensions/cfengine"
+version = "1.0.0"
+
 [clojure]
 submodule = "extensions/zed"
 path = "extensions/clojure"
