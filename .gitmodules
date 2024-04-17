@@ -18,6 +18,10 @@
 	path = extensions/biome
 	url = https://github.com/biomejs/biome-zed.git
 
+[submodule "extensions/blackula"]
+	path = extensions/blackula
+	url = https://github.com/JacobCoffee/blackula.git
+
 [submodule "extensions/blanche"]
 	path = extensions/blanche
 	url = https://github.com/kwonoj/zed-blanche.git
@@ -33,6 +37,10 @@
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/catppuccin/zed.git
+
+[submodule "extensions/cfengine"]
+	path = extensions/cfengine
+	url = https://github.com/olehermanse/zed-cfengine.git
 
 [submodule "extensions/colorizer"]
 	path = extensions/colorizer
@@ -286,6 +294,10 @@
 	path = extensions/pest
 	url = https://github.com/pest-parser/zed-pest.git
 
+[submodule "extensions/pica200"]
+	path = extensions/pica200
+	url = https://github.com/Squareheron942/zed-pica200.git
+
 [submodule "extensions/pkl"]
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
@@ -393,6 +405,10 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = https://github.com/d1y/vscode-monokaicharcoal.zed.git
+ 
+[submodule "extensions/warp-one-dark"]
+  path = extensions/warp-one-dark
+	url = https://github.com/distributed-intelligence/warp-one-dark
 
 [submodule "extensions/wgsl"]
 	path = extensions/wgsl
@@ -417,6 +433,7 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
-[submodule "extensions/warp-one-dark"]
-	path = extensions/warp-one-dark
-	url = https://github.com/distributed-intelligence/warp-one-dark
+
+[submodule "extensions/zedwaita"]
+	path = extensions/zedwaita
+	url = https://github.com/someone13574/zed-adwaita-theme.git

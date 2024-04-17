@@ -149,6 +149,22 @@ async function packageExtension(
     );
   }
 
+  const pathToExtensionToml = path.join(extensionPath, "extension.toml");
+  if (await fileExists(pathToExtensionToml)) {
+    const extensionToml = await readTomlFile(pathToExtensionToml);
+
+    if (extensionToml.id !== extensionId) {
+      throw new Error(
+        [
+          "IDs in `extensions.toml` and `extension.toml` do not match:",
+          "",
+          `extensions.toml: ${extensionId}`,
+          ` extension.toml: ${extensionToml.id}`,
+        ].join("\n"),
+      );
+    }
+  }
+
   const zedExtensionOutput = await exec(
     "./zed-extension",
     [
