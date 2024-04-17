@@ -18,6 +18,10 @@
 	path = extensions/biome
 	url = https://github.com/biomejs/biome-zed.git
 
+[submodule "extensions/blackula"]
+	path = extensions/blackula
+	url = https://github.com/JacobCoffee/blackula.git
+
 [submodule "extensions/blanche"]
 	path = extensions/blanche
 	url = https://github.com/kwonoj/zed-blanche.git
@@ -33,6 +37,10 @@
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/catppuccin/zed.git
+
+[submodule "extensions/cfengine"]
+	path = extensions/cfengine
+	url = https://github.com/olehermanse/zed-cfengine.git
 
 [submodule "extensions/colorizer"]
 	path = extensions/colorizer
@@ -90,6 +98,10 @@
 	path = extensions/gdscript
 	url = https://github.com/grndctrl/zed-gdscript.git
 
+[submodule "extensions/gemini"]
+	path = extensions/gemini
+	url = https://github.com/clseibold/gemini-zed.git
+
 [submodule "extensions/gentle-dark"]
 	path = extensions/gentle-dark
 	url = https://github.com/gentlelionstudios/gentle-dark-zed.git
@@ -129,6 +141,14 @@
 [submodule "extensions/java"]
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension.git
+
+[submodule "extensions/just"]
+	path = extensions/just
+	url = https://github.com/jackTabsCode/zed-just.git
+
+[submodule "extensions/kanagawa-themes"]
+	path = extensions/kanagawa-themes
+	url = https://github.com/ethangilmore/zed-kanagawa.git
 
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
@@ -246,6 +266,10 @@
 	path = extensions/oceanic-next
 	url = https://github.com/rkunev/oceanic-next.git
 
+[submodule "extensions/odin"]
+	path = extensions/odin
+	url = https://github.com/clseibold/zed-odin
+
 [submodule "extensions/one-dark-pro"]
 	path = extensions/one-dark-pro
 	url = https://github.com/MordFustang21/zed-one-dark-pro.git
@@ -269,6 +293,10 @@
 [submodule "extensions/pest"]
 	path = extensions/pest
 	url = https://github.com/pest-parser/zed-pest.git
+
+[submodule "extensions/pica200"]
+	path = extensions/pica200
+	url = https://github.com/Squareheron942/zed-pica200.git
 
 [submodule "extensions/pkl"]
 	path = extensions/pkl
@@ -358,6 +386,10 @@
 	path = extensions/vesper
 	url = https://github.com/bdsqqq/vesper-zed.git
 
+[submodule "extensions/vhs"]
+	path = extensions/vhs
+	url = https://github.com/eth0net/zed-vhs.git
+
 [submodule "extensions/visual-assist-dark"]
 	path = extensions/visual-assist-dark
 	url = https://github.com/trojanfoe/visual-assist-dark.zed.git
@@ -397,3 +429,7 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
+
+[submodule "extensions/zedwaita"]
+	path = extensions/zedwaita
+	url = https://github.com/someone13574/zed-adwaita-theme.git
