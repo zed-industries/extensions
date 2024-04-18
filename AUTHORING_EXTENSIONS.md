@@ -134,7 +134,7 @@ In your PR do the following:
    submodule = "extensions/my-extension"
    version = "0.0.1"
    ```
-3. Add a new entry to `Cargo.toml` workspace.members for your extension:
+3. Add a new entry to `Cargo.toml` workspace.members for your extension (for extensions with rust libraries):
    ```toml
    [workspace]
    members = [
