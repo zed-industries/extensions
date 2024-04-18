@@ -66,6 +66,10 @@
 	path = extensions/d
 	url = https://github.com/staysail/zed-d.git
 
+[submodule "extensions/docker-compose"]
+	path = extensions/docker-compose
+	url = https://github.com/eth0net/zed-docker-compose.git
+
 [submodule "extensions/dockerfile"]
 	path = extensions/dockerfile
 	url = https://github.com/d1y/dockerfile.zed.git
