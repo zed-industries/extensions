@@ -92,7 +92,7 @@ version = "0.0.2"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.7.3"
+version = "0.9.0"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -399,6 +399,10 @@ submodule = "extensions/zed"
 path = "extensions/racket"
 version = "0.0.1"
 
+[rescript]
+submodule = "extensions/rescript"
+version = "0.0.1"
+
 [scala]
 submodule = "extensions/scala"
 version = "0.0.1"
@@ -525,6 +529,10 @@ submodule = "extensions/zed"
 path = "extensions/vue"
 version = "0.0.1"
 
+[warp-one-dark]
+submodule = "extensions/warp-one-dark"
+version = "0.1.0"
+
 [wgsl]
 submodule = "extensions/wgsl"
 version = "0.0.1"
@@ -547,7 +555,7 @@ version = "0.0.1"
 
 [zedwaita]
 submodule = "extensions/zedwaita"
-version = "0.0.1"
+version = "0.0.2"
 
 [zig]
 submodule = "extensions/zed"

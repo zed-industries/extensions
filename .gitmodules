@@ -314,6 +314,10 @@
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
 
+[submodule "extensions/rescript"]
+	path = extensions/rescript
+	url = https://github.com/humaans/rescript-zed.git
+
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
@@ -409,6 +413,10 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = https://github.com/d1y/vscode-monokaicharcoal.zed.git
+
+[submodule "extensions/warp-one-dark"]
+	path = extensions/warp-one-dark
+	url = https://github.com/distributed-intelligence/warp-one-dark
 
 [submodule "extensions/wgsl"]
 	path = extensions/wgsl
