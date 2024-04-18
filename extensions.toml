@@ -86,6 +86,10 @@ submodule = "extensions/zed"
 path = "extensions/dart"
 version = "0.0.1"
 
+[docker-compose]
+submodule = "extensions/docker-compose"
+version = "0.1.0"
+
 [dockerfile]
 submodule = "extensions/dockerfile"
 version = "0.0.2"
