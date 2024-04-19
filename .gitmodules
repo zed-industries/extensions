@@ -34,6 +34,10 @@
 	path = extensions/cadence
 	url = https://github.com/janezpodhostnik/cadence.zed.git
 
+[submodule "extensions/capnp"]
+	path = extensions/capnp
+	url = https://github.com/cmackenzie1/zed-capnp.git
+
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/catppuccin/zed.git
@@ -61,6 +65,10 @@
 [submodule "extensions/d"]
 	path = extensions/d
 	url = https://github.com/staysail/zed-d.git
+
+[submodule "extensions/docker-compose"]
+	path = extensions/docker-compose
+	url = https://github.com/eth0net/zed-docker-compose.git
 
 [submodule "extensions/dockerfile"]
 	path = extensions/dockerfile
@@ -309,6 +317,10 @@
 [submodule "extensions/r"]
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
+
+[submodule "extensions/rescript"]
+	path = extensions/rescript
+	url = https://github.com/humaans/rescript-zed.git
 
 [submodule "extensions/scala"]
 	path = extensions/scala

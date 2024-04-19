@@ -39,6 +39,10 @@ version = "0.0.3"
 submodule = "extensions/cadence"
 version = "0.0.1"
 
+[capnp]
+submodule = "extensions/capnp"
+version = "0.0.1"
+
 [catppuccin]
 submodule = "extensions/catppuccin"
 version = "0.2.5"
@@ -82,13 +86,17 @@ submodule = "extensions/zed"
 path = "extensions/dart"
 version = "0.0.1"
 
+[docker-compose]
+submodule = "extensions/docker-compose"
+version = "0.1.0"
+
 [dockerfile]
 submodule = "extensions/dockerfile"
 version = "0.0.2"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.7.3"
+version = "0.9.0"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -165,7 +173,7 @@ version = "0.1.1"
 [glsl]
 submodule = "extensions/zed"
 path = "extensions/glsl"
-version = "0.0.1"
+version = "0.1.0"
 
 [graphene]
 submodule = "extensions/graphene"
@@ -395,6 +403,10 @@ submodule = "extensions/zed"
 path = "extensions/racket"
 version = "0.0.1"
 
+[rescript]
+submodule = "extensions/rescript"
+version = "0.0.1"
+
 [scala]
 submodule = "extensions/scala"
 version = "0.0.1"
@@ -547,7 +559,7 @@ version = "0.0.1"
 
 [zedwaita]
 submodule = "extensions/zedwaita"
-version = "0.0.1"
+version = "0.0.2"
 
 [zig]
 submodule = "extensions/zed"
