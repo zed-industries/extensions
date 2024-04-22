@@ -379,10 +379,6 @@ version = "0.0.1"
 submodule = "extensions/pest"
 version = "0.1.0"
 
-[pest]
-submodule = "extensions/quill"
-version = "0.1.0"
-
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
@@ -399,6 +395,10 @@ version = "0.1.0"
 [poimandres]
 submodule = "extensions/poimandres"
 version = "0.0.1"
+
+[quill]
+submodule = "extensions/quill"
+version = "0.1.0"
 
 [prisma]
 submodule = "extensions/zed"
