@@ -2,6 +2,10 @@
 	path = extensions/alabaster
 	url = https://github.com/tsimoshka/zed-theme-alabaster.git
 
+[submodule "extensions/asciidoc"]
+	path = extensions/asciidoc
+	url = https://github.com/andreicek/zed-asciidoc.git
+
 [submodule "extensions/assembly"]
 	path = extensions/assembly
 	url = https://github.com/DevBlocky/zed-asm.git
@@ -168,7 +172,7 @@
 
 [submodule "extensions/kotlin"]
 	path = extensions/kotlin
-	url = https://github.com/evrsen/zed-kotlin.git
+	url = https://github.com/zed-extensions/zed-kotlin.git
 
 [submodule "extensions/ktrz-monokai"]
 	path = extensions/ktrz-monokai
