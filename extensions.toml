@@ -2,6 +2,14 @@
 submodule = "extensions/alabaster"
 version = "0.0.2"
 
+[anya]
+submodule = "extensions/anya"
+version = "0.0.1"
+
+[asciidoc]
+submodule = "extensions/asciidoc"
+version = "0.0.1"
+
 [assembly]
 submodule = "extensions/assembly"
 version = "0.0.1"
@@ -22,6 +30,10 @@ version = "0.0.2"
 [biome]
 submodule = "extensions/biome"
 version = "0.0.2"
+
+[blackfox]
+submodule = "extensions/blackfox"
+version = "0.1.0"
 
 [blackula]
 submodule = "extensions/blackula"
@@ -79,7 +91,7 @@ version = "0.0.2"
 
 [d]
 submodule = "extensions/d"
-version = "0.0.3"
+version = "0.0.4"
 
 [dart]
 submodule = "extensions/zed"
@@ -223,7 +235,7 @@ version = "0.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.0.1"
+version = "0.0.2"
 
 [ktrz-monokai]
 submodule = "extensions/ktrz-monokai"
@@ -398,6 +410,10 @@ submodule = "extensions/zed"
 path = "extensions/purescript"
 version = "0.0.1"
 
+[quill]
+submodule = "extensions/quill"
+version = "0.1.0"
+
 [r]
 submodule = "extensions/r"
 version = "0.0.1"
@@ -409,7 +425,7 @@ version = "0.0.1"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.0.1"
+version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"

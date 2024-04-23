@@ -2,6 +2,14 @@
 	path = extensions/alabaster
 	url = https://github.com/tsimoshka/zed-theme-alabaster.git
 
+[submodule "extensions/anya"]
+	path = extensions/anya
+	url = https://github.com/anya-theme/anya-zed.git
+
+[submodule "extensions/asciidoc"]
+	path = extensions/asciidoc
+	url = https://github.com/andreicek/zed-asciidoc.git
+
 [submodule "extensions/assembly"]
 	path = extensions/assembly
 	url = https://github.com/DevBlocky/zed-asm.git
@@ -17,6 +25,10 @@
 [submodule "extensions/biome"]
 	path = extensions/biome
 	url = https://github.com/biomejs/biome-zed.git
+
+[submodule "extensions/blackfox"]
+	path = extensions/blackfox
+	url = https://github.com/matejcerny/BlackFoxZed.git
 
 [submodule "extensions/blackula"]
 	path = extensions/blackula
@@ -168,7 +180,7 @@
 
 [submodule "extensions/kotlin"]
 	path = extensions/kotlin
-	url = https://github.com/evrsen/zed-kotlin.git
+	url = https://github.com/zed-extensions/zed-kotlin.git
 
 [submodule "extensions/ktrz-monokai"]
 	path = extensions/ktrz-monokai
@@ -317,6 +329,10 @@
 [submodule "extensions/poimandres"]
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
+
+[submodule "extensions/quill"]
+	path = extensions/quill
+	url = https://github.com/CraftQuill/zed-theme-quill.git
 
 [submodule "extensions/r"]
 	path = extensions/r
