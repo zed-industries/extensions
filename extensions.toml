@@ -2,6 +2,14 @@
 submodule = "extensions/alabaster"
 version = "0.0.2"
 
+[anya]
+submodule = "extensions/anya"
+version = "0.0.1"
+
+[asciidoc]
+submodule = "extensions/asciidoc"
+version = "0.0.1"
+
 [assembly]
 submodule = "extensions/assembly"
 version = "0.0.1"
@@ -21,7 +29,11 @@ version = "0.0.2"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.0.2"
+version = "0.0.6"
+
+[blackfox]
+submodule = "extensions/blackfox"
+version = "0.1.0"
 
 [blackula]
 submodule = "extensions/blackula"
@@ -79,11 +91,16 @@ version = "0.0.2"
 
 [d]
 submodule = "extensions/d"
-version = "0.0.3"
+version = "0.0.4"
 
 [dart]
 submodule = "extensions/zed"
 path = "extensions/dart"
+version = "0.0.1"
+
+[deno]
+submodule = "extensions/zed"
+path = "extensions/deno"
 version = "0.0.1"
 
 [docker-compose]
@@ -96,7 +113,7 @@ version = "0.0.2"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.9.0"
+version = "0.9.1"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -135,7 +152,7 @@ version = "0.0.7"
 
 [fleet-themes]
 submodule = "extensions/fleet-themes"
-version = "1.0.0"
+version = "1.1.0"
 
 [gdscript]
 submodule = "extensions/gdscript"
@@ -183,6 +200,10 @@ version = "0.1.0"
 submodule = "extensions/graphql"
 version = "0.0.2"
 
+[groq]
+submodule = "extensions/groq"
+version = "0.0.1"
+
 [haskell]
 submodule = "extensions/zed"
 path = "extensions/haskell"
@@ -223,7 +244,7 @@ version = "0.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.0.1"
+version = "0.0.2"
 
 [ktrz-monokai]
 submodule = "extensions/ktrz-monokai"
@@ -328,7 +349,7 @@ version = "0.0.4"
 
 [norrsken]
 submodule = "extensions/norrsken"
-version = "2.0.0"
+version = "2.0.1"
 
 [nu]
 submodule = "extensions/nu"
@@ -398,6 +419,10 @@ submodule = "extensions/zed"
 path = "extensions/purescript"
 version = "0.0.1"
 
+[quill]
+submodule = "extensions/quill"
+version = "0.2.1"
+
 [r]
 submodule = "extensions/r"
 version = "0.0.1"
@@ -409,7 +434,7 @@ version = "0.0.1"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.0.1"
+version = "0.1.0"
 
 [roc]
 submodule = "extensions/roc"
@@ -514,7 +539,7 @@ version = "0.0.4"
 
 [unoflat]
 submodule = "extensions/unoflat"
-version = "0.0.1"
+version = "0.0.2"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -555,7 +580,7 @@ version = "0.0.1"
 
 [xcode-themes]
 submodule = "extensions/xcode-themes"
-version = "1.1.2"
+version = "1.1.3"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
