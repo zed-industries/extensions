@@ -150,6 +150,10 @@
 	path = extensions/graphql
 	url = https://github.com/11bit/zed-extension-graphql.git
 
+[submodule "extensions/groq"]
+	path = extensions/groq
+	url = https://github.com/juice49/zed-groq
+
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
@@ -382,6 +386,10 @@
 	path = extensions/starlark
 	url = https://github.com/zaucy/zed-starlark.git
 
+[submodule "extensions/struct-theme"]
+	path = extensions/struct-theme
+	url = https://gitlab.com/Fake.User/struct-zed-theme
+
 [submodule "extensions/swift"]
 	path = extensions/swift
 	url = https://github.com/samuser107/zed-swift-extension.git
@@ -453,6 +461,10 @@
 [submodule "extensions/xcode-themes"]
 	path = extensions/xcode-themes
 	url = https://github.com/skarline/zed-xcode-themes.git
+
+[submodule "extensions/xml"]
+	path = extensions/xml
+	url = https://github.com/sweetppro/zed-xml.git
 
 [submodule "extensions/xy-zed"]
 	path = extensions/xy-zed
