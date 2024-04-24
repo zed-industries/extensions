@@ -98,6 +98,11 @@ submodule = "extensions/zed"
 path = "extensions/dart"
 version = "0.0.1"
 
+[deno]
+submodule = "extensions/zed"
+path = "extensions/deno"
+version = "0.0.1"
+
 [docker-compose]
 submodule = "extensions/docker-compose"
 version = "0.1.0"
@@ -416,7 +421,7 @@ version = "0.0.1"
 
 [quill]
 submodule = "extensions/quill"
-version = "0.1.0"
+version = "0.2.1"
 
 [r]
 submodule = "extensions/r"
