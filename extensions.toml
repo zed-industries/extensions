@@ -61,7 +61,7 @@ version = "0.2.6"
 
 [cfengine]
 submodule = "extensions/cfengine"
-version = "1.0.0"
+version = "1.0.1"
 
 [clojure]
 submodule = "extensions/zed"
@@ -279,6 +279,10 @@ version = "1.0.1"
 submodule = "extensions/markdown-oxide"
 version = "0.0.4"
 
+[marksman]
+submodule = "extensions/marksman"
+version = "0.0.1"
+
 [material-dark]
 submodule = "extensions/material-dark"
 version = "0.0.1"
@@ -441,6 +445,10 @@ version = "0.0.1"
 submodule = "extensions/rescript"
 version = "0.1.0"
 
+[rose-pine-theme]
+submodule = "extensions/rose-pine-theme"
+version = "1.0.3"
+
 [scala]
 submodule = "extensions/scala"
 version = "0.0.1"
@@ -527,6 +535,10 @@ version = "0.0.2"
 [toml]
 submodule = "extensions/zed"
 path = "extensions/toml"
+version = "0.1.0"
+
+[twig]
+submodule = "extensions/twig"
 version = "0.1.0"
 
 [typst]
