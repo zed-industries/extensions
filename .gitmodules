@@ -214,6 +214,10 @@
 	path = extensions/markdown-oxide
 	url = https://github.com/Feel-ix-343/markdown-oxide-zed.git
 
+[submodule "extensions/marksman"]
+	path = extensions/marksman
+	url = https://github.com/vitallium/zed-marksman.git
+
 [submodule "extensions/material-dark"]
 	path = extensions/material-dark
 	url = https://github.com/xerodark/zed-material-theme.git
@@ -342,13 +346,21 @@
 	path = extensions/r
 	url = https://github.com/ocsmit/zed-r.git
 
+[submodule "extensions/rainbow-csv"]
+	path = extensions/rainbow-csv
+	url = https://github.com/weartist/zed-rainbow-csv.git
+
 [submodule "extensions/roc"]
 	path = extensions/roc
-	url = https://github.com/h2000/zed-roc.git
+	url = https://github.com/h2000/zed-roc.git  
 
 [submodule "extensions/rescript"]
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
+
+[submodule "extensions/rose-pine-theme"]
+	path = extensions/rose-pine-theme
+	url = https://github.com/rose-pine/zed
 
 [submodule "extensions/scala"]
 	path = extensions/scala
@@ -390,6 +402,10 @@
 	path = extensions/starlark
 	url = https://github.com/zaucy/zed-starlark.git
 
+[submodule "extensions/struct-theme"]
+	path = extensions/struct-theme
+	url = https://gitlab.com/Fake.User/struct-zed-theme
+
 [submodule "extensions/swift"]
 	path = extensions/swift
 	url = https://github.com/samuser107/zed-swift-extension.git
@@ -414,6 +430,10 @@
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
 
+[submodule "extensions/twig"]
+	path = extensions/twig
+	url = https://github.com/YussufSassi/zed-twig.git
+
 [submodule "extensions/typst"]
 	path = extensions/typst
 	url = https://codeberg.org/WeetHet/typst.zed.git
@@ -421,6 +441,10 @@
 [submodule "extensions/ultimate-dark-neo"]
 	path = extensions/ultimate-dark-neo
 	url = https://github.com/rubjo/ultimate-dark-neo-zed.git
+
+[submodule "extensions/unison"]
+	path = extensions/unison
+	url = https://github.com/zetashift/unison-zed
 
 [submodule "extensions/unoflat"]
 	path = extensions/unoflat
@@ -461,6 +485,10 @@
 [submodule "extensions/xcode-themes"]
 	path = extensions/xcode-themes
 	url = https://github.com/skarline/zed-xcode-themes.git
+
+[submodule "extensions/xml"]
+	path = extensions/xml
+	url = https://github.com/sweetppro/zed-xml.git
 
 [submodule "extensions/xy-zed"]
 	path = extensions/xy-zed
