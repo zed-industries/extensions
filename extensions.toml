@@ -4,7 +4,7 @@ version = "0.0.2"
 
 [anya]
 submodule = "extensions/anya"
-version = "0.0.1"
+version = "0.0.2"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
@@ -225,6 +225,10 @@ version = "0.1.2"
 [java]
 submodule = "extensions/java"
 version = "0.0.4"
+
+[jsonnet]
+submodule = "extensions/jsonnet"
+version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
