@@ -166,6 +166,10 @@
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension.git
 
+[submodule "extensions/jsonnet"]
+	path = extensions/jsonnet
+	url = https://github.com/narqo/zed-jsonnet.git
+
 [submodule "extensions/julia"]
 	path = extensions/julia
 	url = https://github.com/JuliaEditorSupport/zed-julia.git

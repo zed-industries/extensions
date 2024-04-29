@@ -4,7 +4,7 @@ version = "0.0.2"
 
 [anya]
 submodule = "extensions/anya"
-version = "0.0.1"
+version = "0.0.2"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
@@ -119,6 +119,11 @@ version = "0.9.1"
 submodule = "extensions/elisp"
 version = "0.0.4"
 
+[elixir]
+submodule = "extensions/zed"
+path = "extensions/elixir"
+version = "0.0.1"
+
 [elm]
 submodule = "extensions/zed"
 path = "extensions/elm"
@@ -225,6 +230,10 @@ version = "0.1.2"
 [java]
 submodule = "extensions/java"
 version = "0.0.4"
+
+[jsonnet]
+submodule = "extensions/jsonnet"
+version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
@@ -446,7 +455,7 @@ version = "0.1.0"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
-version = "1.0.3"
+version = "1.0.4"
 
 [scala]
 submodule = "extensions/scala"
