@@ -4,7 +4,7 @@ version = "0.0.2"
 
 [anya]
 submodule = "extensions/anya"
-version = "0.0.1"
+version = "0.0.2"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
@@ -38,6 +38,10 @@ version = "0.1.0"
 [blackula]
 submodule = "extensions/blackula"
 version = "0.1.1"
+
+[blade]
+submodule = "extensions/blade"
+version = "0.0.1"
 
 [blanche]
 submodule = "extensions/blanche"
@@ -118,6 +122,11 @@ version = "0.9.1"
 [elisp]
 submodule = "extensions/elisp"
 version = "0.0.4"
+
+[elixir]
+submodule = "extensions/zed"
+path = "extensions/elixir"
+version = "0.0.1"
 
 [elm]
 submodule = "extensions/zed"
@@ -225,6 +234,10 @@ version = "0.1.2"
 [java]
 submodule = "extensions/java"
 version = "0.0.4"
+
+[jsonnet]
+submodule = "extensions/jsonnet"
+version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
@@ -446,7 +459,7 @@ version = "0.1.0"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
-version = "1.0.3"
+version = "1.0.4"
 
 [scala]
 submodule = "extensions/scala"
@@ -460,6 +473,10 @@ version = "0.0.1"
 [siri]
 submodule = "extensions/siri"
 version = "0.0.3"
+
+[slate]
+submodule = "extensions/slate"
+version = "0.0.1"
 
 [slint]
 submodule = "extensions/slint"
@@ -536,6 +553,10 @@ submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.1.0"
 
+[tsar]
+submodule = "extensions/tsar"
+version = "0.0.1"
+
 [twig]
 submodule = "extensions/twig"
 version = "0.1.0"
@@ -552,6 +573,10 @@ version = "0.0.1"
 [ultimate-dark-neo]
 submodule = "extensions/ultimate-dark-neo"
 version = "0.0.4"
+
+[unison]
+submodule = "extensions/unison"
+version = "0.0.1"
 
 [unoflat]
 submodule = "extensions/unoflat"
