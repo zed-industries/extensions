@@ -123,6 +123,11 @@ version = "0.9.1"
 submodule = "extensions/elisp"
 version = "0.0.4"
 
+[elixir]
+submodule = "extensions/zed"
+path = "extensions/elixir"
+version = "0.0.1"
+
 [elm]
 submodule = "extensions/zed"
 path = "extensions/elm"
@@ -454,7 +459,7 @@ version = "0.1.0"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
-version = "1.0.3"
+version = "1.0.4"
 
 [scala]
 submodule = "extensions/scala"
@@ -468,6 +473,10 @@ version = "0.0.1"
 [siri]
 submodule = "extensions/siri"
 version = "0.0.3"
+
+[slate]
+submodule = "extensions/slate"
+version = "0.0.1"
 
 [slint]
 submodule = "extensions/slint"
@@ -543,6 +552,10 @@ version = "0.0.2"
 submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.1.0"
+
+[tsar]
+submodule = "extensions/tsar"
+version = "0.0.1"
 
 [twig]
 submodule = "extensions/twig"
