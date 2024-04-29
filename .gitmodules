@@ -170,6 +170,10 @@
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension.git
 
+[submodule "extensions/java-eclipse-jdtls"]
+	path = extensions/java-eclipse-jdtls
+	url = https://github.com/ABckh/zed-java-language-support-jdtls
+
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
 	url = https://github.com/narqo/zed-jsonnet.git
