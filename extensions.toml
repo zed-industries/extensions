@@ -39,6 +39,10 @@ version = "0.1.0"
 submodule = "extensions/blackula"
 version = "0.1.1"
 
+[blade]
+submodule = "extensions/blade"
+version = "0.0.1"
+
 [blanche]
 submodule = "extensions/blanche"
 version = "0.0.1"
@@ -213,6 +217,10 @@ version = "0.0.2"
 submodule = "extensions/groq"
 version = "0.0.1"
 
+[gruber-darker]
+submodule = "extensions/gruber-darker"
+version = "0.0.2"
+
 [haskell]
 submodule = "extensions/zed"
 path = "extensions/haskell"
@@ -234,6 +242,10 @@ version = "0.1.2"
 [java]
 submodule = "extensions/java"
 version = "0.0.4"
+
+[java-eclipse-jdtls]
+submodule = "extensions/java-eclipse-jdtls"
+version = "0.1.0"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -338,7 +350,7 @@ version = "0.0.2"
 
 [navi]
 submodule = "extensions/navi"
-version = "0.2.0"
+version = "0.2.1"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -474,6 +486,10 @@ version = "0.0.1"
 submodule = "extensions/siri"
 version = "0.0.3"
 
+[slate]
+submodule = "extensions/slate"
+version = "0.0.1"
+
 [slint]
 submodule = "extensions/slint"
 version = "0.0.3"
@@ -548,6 +564,10 @@ version = "0.0.2"
 submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.1.0"
+
+[tsar]
+submodule = "extensions/tsar"
+version = "0.0.1"
 
 [twig]
 submodule = "extensions/twig"
