@@ -61,7 +61,7 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.6"
+version = "0.2.7"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -88,6 +88,10 @@ version = "0.0.2"
 [csv]
 submodule = "extensions/csv"
 version = "0.0.2"
+
+[cucumber]
+submodule = "extensions/cucumber"
+version = "0.0.1"
 
 [cue]
 submodule = "extensions/cue"
@@ -374,7 +378,7 @@ version = "0.0.4"
 
 [norrsken]
 submodule = "extensions/norrsken"
-version = "2.0.1"
+version = "3.0.1"
 
 [nu]
 submodule = "extensions/nu"
@@ -450,7 +454,7 @@ version = "0.2.2"
 
 [r]
 submodule = "extensions/r"
-version = "0.0.1"
+version = "0.0.2"
 
 [racket]
 submodule = "extensions/zed"
@@ -476,6 +480,10 @@ version = "0.0.1"
 [scheme]
 submodule = "extensions/zed"
 path = "extensions/scheme"
+version = "0.0.1"
+
+[scss]
+submodule = "extensions/scss"
 version = "0.0.1"
 
 [siri]

@@ -74,6 +74,10 @@
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
 
+[submodule "extensions/cucumber"]
+	path = extensions/cucumber
+	url = https://github.com/thlcodes/zed-extension-cucumber
+
 [submodule "extensions/cue"]
 	path = extensions/cue
 	url = https://github.com/jkasky/zed-cue.git
@@ -377,6 +381,10 @@
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
+
+[submodule "extensions/scss"]
+	path = extensions/scss
+	url = https://github.com/bajrangCoder/zed-scss.git
 
 [submodule "extensions/siri"]
 	path = extensions/siri
