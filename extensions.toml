@@ -409,6 +409,10 @@ version = "0.0.3"
 submodule = "extensions/one-hunter"
 version = "0.0.2"
 
+[oolong]
+submodule = "extensions/oolong"
+version = "0.0.2"
+
 [pact]
 submodule = "extensions/pact"
 version = "0.0.1"
@@ -671,7 +675,3 @@ version = "0.0.3"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.1.1"
-
-[oolong]
-submodule = "extensions/oolong"
-version = "0.0.2"
