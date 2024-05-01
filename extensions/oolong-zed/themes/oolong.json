@@ -1,0 +1,190 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "author": "José Duarte <duarte.gmj@gmail.com>",
+  "name": "Oolong",
+  "themes": [
+    {
+      "name": "Oolong",
+      "appearance": "dark",
+      "style": {
+        "background.appearance": "opaque",
+        "border": "#0b3934",
+        "border.variant": "#0b3934",
+        "border.focused": "#0b3934",
+        "border.selected": "#0b3934",
+        "border.transparent": "#0b3934",
+        "border.disabled": "#0b3934",
+        "elevated_surface.background": "#072020",
+        "surface.background": "#072020",
+        "background": "#072626",
+        "element.background": "#0b3934",
+        "element.hover": "#0A3D38",
+        "element.active": null,
+        "element.selected": "#0A3D38",
+        "element.disabled": null,
+        "drop_target.background": "#5C9EEB",
+        "ghost_element.background": null,
+        "ghost_element.hover": "#0A3D38",
+        "ghost_element.active": null,
+        "ghost_element.selected": "#0A3D38",
+        "ghost_element.disabled": null,
+        "text": "#E3BC8F",
+        "text.muted": null,
+        "text.placeholder": null,
+        "text.disabled": null,
+        "text.accent": null,
+        "icon": null,
+        "icon.muted": null,
+        "icon.disabled": null,
+        "icon.placeholder": null,
+        "icon.accent": null,
+        "status_bar.background": "#072020",
+        "title_bar.background": "#072020",
+        "toolbar.background": "#072626",
+        "tab_bar.background": "#072020",
+        "tab.inactive_background": "#072020",
+        "tab.active_background": "#072626",
+        "search.match_background": null,
+        "panel.background": "#072020",
+        "panel.focused_border": null,
+        "pane.focused_border": null,
+        "pane_group.border": "#0b3934",
+        "scrollbar.thumb.background": "#E3BC8F60",
+        "scrollbar.thumb.hover_background": "#E3BC8F90",
+        "scrollbar.thumb.border": "#E3BC8F60",
+        "scrollbar.track.background": "#072626",
+        "scrollbar.track.border": null,
+        "editor.foreground": "#E3BC8F",
+        "editor.background": "#072626",
+        "editor.gutter.background": "#072626",
+        "editor.subheader.background": null,
+        "editor.active_line.background": "#0A3D38",
+        "editor.highlighted_line.background": null,
+        "editor.line_number": "#E3BC8F",
+        "editor.active_line_number": "#E3BC8F",
+        "editor.invisible": null,
+        "editor.wrap_guide": "#0b3934",
+        "editor.active_wrap_guide": "#0b3934",
+        "editor.document_highlight.read_background": null,
+        "editor.document_highlight.write_background": null,
+        "terminal.background": "#072626",
+        "terminal.foreground": null,
+        "terminal.bright_foreground": null,
+        "terminal.dim_foreground": null,
+        "terminal.ansi.black": "#E3BC8F",
+        "terminal.ansi.bright_black": "#E3BC8F90",
+        "terminal.ansi.dim_black": "#E3BC8F",
+        "terminal.ansi.red": "#D54C34",
+        "terminal.ansi.bright_red": "#F04A2D",
+        "terminal.ansi.dim_red": null,
+        "terminal.ansi.green": null,
+        "terminal.ansi.bright_green": null,
+        "terminal.ansi.dim_green": null,
+        "terminal.ansi.yellow": null,
+        "terminal.ansi.bright_yellow": null,
+        "terminal.ansi.dim_yellow": null,
+        "terminal.ansi.blue": null,
+        "terminal.ansi.bright_blue": null,
+        "terminal.ansi.dim_blue": null,
+        "terminal.ansi.magenta": null,
+        "terminal.ansi.bright_magenta": null,
+        "terminal.ansi.dim_magenta": null,
+        "terminal.ansi.cyan": null,
+        "terminal.ansi.bright_cyan": null,
+        "terminal.ansi.dim_cyan": null,
+        "terminal.ansi.white": null,
+        "terminal.ansi.bright_white": null,
+        "terminal.ansi.dim_white": null,
+        "link_text.hover": "#0088ff",
+        "conflict": null,
+        "conflict.background": null,
+        "conflict.border": null,
+        "created": null,
+        "created.background": null,
+        "created.border": null,
+        "deleted": null,
+        "deleted.background": null,
+        "deleted.border": null,
+        "error": "#ff3a3a",
+        "error.background": null,
+        "error.border": null,
+        "hidden": null,
+        "hidden.background": null,
+        "hidden.border": null,
+        "hint": "#E3BC8Fc5",
+        "hint.background": null,
+        "hint.border": null,
+        "ignored": null,
+        "ignored.background": null,
+        "ignored.border": null,
+        "info": null,
+        "info.background": null,
+        "info.border": null,
+        "modified": "#5C9EEB",
+        "modified.background": null,
+        "modified.border": null,
+        "predictive": null,
+        "predictive.background": null,
+        "predictive.border": null,
+        "renamed": null,
+        "renamed.background": null,
+        "renamed.border": null,
+        "success": null,
+        "success.background": null,
+        "success.border": null,
+        "unreachable": null,
+        "unreachable.background": null,
+        "unreachable.border": null,
+        "warning": null,
+        "warning.background": null,
+        "warning.border": null,
+        "players": [
+          {
+            "selection": "#0B413C"
+          }
+        ],
+        "syntax": {
+          "comment": {
+            "color": "#5AC648"
+          },
+          "comment.doc": {
+            "color": "#5AC648"
+          },
+          "link_text": {
+            "color": "#0088ff"
+          },
+          "link_uri": {
+            "color": "#0088ff"
+          },
+          "number": {
+            "color": "#5FC3A5"
+          },
+          "string": {
+            "color": "#5FC3A5"
+          },
+          "string.escape": {
+            "color": "#5FC3A5"
+          },
+          "string.regex": {
+            "color": "#5FC3A5"
+          },
+          "string.special": {
+            "color": "#5FC3A5"
+          },
+          "string.special.symbol": {
+            "color": "#5FC3A5"
+          },
+          "text.literal": {
+            "color": "#5FC3A5"
+          },
+          "type": {
+            "color": "#A2D5E0"
+          },
+          "keyword": {
+            "color": "#9AE399"
+          }
+        }
+      }
+    }
+  ]
+}
