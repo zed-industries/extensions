@@ -18,6 +18,10 @@
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
 
+[submodule "extensions/basher"]
+	path = extensions/basher
+	url = https://github.com/d1y/bash.zed
+
 [submodule "extensions/beancount"]
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount.git
@@ -33,6 +37,10 @@
 [submodule "extensions/blackula"]
 	path = extensions/blackula
 	url = https://github.com/JacobCoffee/blackula.git
+
+[submodule "extensions/blade"]
+	path = extensions/blade
+	url = https://github.com/bajrangCoder/zed-laravel-blade.git
 
 [submodule "extensions/blanche"]
 	path = extensions/blanche
@@ -69,6 +77,10 @@
 [submodule "extensions/csv"]
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
+
+[submodule "extensions/cucumber"]
+	path = extensions/cucumber
+	url = https://github.com/thlcodes/zed-extension-cucumber
 
 [submodule "extensions/cue"]
 	path = extensions/cue
@@ -154,6 +166,10 @@
 	path = extensions/groq
 	url = https://github.com/juice49/zed-groq
 
+[submodule "extensions/gruber-darker"]
+	path = extensions/gruber-darker
+	url = https://github.com/th0jensen/gruber-darker.zed.git
+
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
@@ -165,6 +181,10 @@
 [submodule "extensions/java"]
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension.git
+
+[submodule "extensions/java-eclipse-jdtls"]
+	path = extensions/java-eclipse-jdtls
+	url = https://github.com/ABckh/zed-java-language-support-jdtls
 
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
@@ -197,6 +217,10 @@
 [submodule "extensions/latex"]
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
+
+[submodule "extensions/leblackque"]
+	path = extensions/leblackque
+	url = https://github.com/gx0r/leblackque.git
 
 [submodule "extensions/log"]
 	path = extensions/log
@@ -314,6 +338,10 @@
 	path = extensions/one-hunter
 	url = https://github.com/teziovsky/zed-one-hunter-theme.git
 
+[submodule "extensions/oolong"]
+	path = extensions/oolong
+	url = https://github.com/jmg-duarte/oolong-zed.git
+
 [submodule "extensions/pact"]
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
@@ -358,6 +386,10 @@
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
 
+[submodule "extensions/roc"]
+	path = extensions/roc
+	url = https://github.com/h2000/zed-roc.git
+
 [submodule "extensions/rose-pine-theme"]
 	path = extensions/rose-pine-theme
 	url = https://github.com/rose-pine/zed
@@ -366,9 +398,17 @@
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
 
+[submodule "extensions/scss"]
+	path = extensions/scss
+	url = https://github.com/bajrangCoder/zed-scss.git
+
 [submodule "extensions/siri"]
 	path = extensions/siri
 	url = https://github.com/perragnar/zed-theme-siri.git
+
+[submodule "extensions/slate"]
+	path = extensions/slate
+	url = https://github.com/someone13574/zed-slate-theme.git
 
 [submodule "extensions/slint"]
 	path = extensions/slint
@@ -381,6 +421,10 @@
 [submodule "extensions/smooth"]
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
+
+[submodule "extensions/snowflake"]
+	path = extensions/snowflake
+	url = https://github.com/bxxf/snowflake-zed.git
 
 [submodule "extensions/solarized-fp"]
 	path = extensions/solarized-fp

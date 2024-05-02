@@ -23,6 +23,10 @@ version = "0.0.1"
 submodule = "extensions/base16"
 version = "0.0.4"
 
+[basher]
+submodule = "extensions/basher"
+version = "0.0.1"
+
 [beancount]
 submodule = "extensions/beancount"
 version = "0.0.2"
@@ -38,6 +42,10 @@ version = "0.1.0"
 [blackula]
 submodule = "extensions/blackula"
 version = "0.1.1"
+
+[blade]
+submodule = "extensions/blade"
+version = "0.0.1"
 
 [blanche]
 submodule = "extensions/blanche"
@@ -57,7 +65,7 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.6"
+version = "0.2.7"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -84,6 +92,10 @@ version = "0.0.2"
 [csv]
 submodule = "extensions/csv"
 version = "0.0.2"
+
+[cucumber]
+submodule = "extensions/cucumber"
+version = "0.0.1"
 
 [cue]
 submodule = "extensions/cue"
@@ -209,6 +221,10 @@ version = "0.0.2"
 submodule = "extensions/groq"
 version = "0.0.1"
 
+[gruber-darker]
+submodule = "extensions/gruber-darker"
+version = "0.0.2"
+
 [haskell]
 submodule = "extensions/zed"
 path = "extensions/haskell"
@@ -230,6 +246,10 @@ version = "0.1.2"
 [java]
 submodule = "extensions/java"
 version = "0.0.4"
+
+[java-eclipse-jdtls]
+submodule = "extensions/java-eclipse-jdtls"
+version = "0.2.0"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -262,6 +282,10 @@ version = "0.0.3"
 [latex]
 submodule = "extensions/latex"
 version = "0.0.2"
+
+[leblackque]
+submodule = "extensions/leblackque"
+version = "0.0.1"
 
 [log]
 submodule = "extensions/log"
@@ -334,7 +358,7 @@ version = "0.0.2"
 
 [navi]
 submodule = "extensions/navi"
-version = "0.2.0"
+version = "0.2.1"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -362,7 +386,7 @@ version = "0.0.4"
 
 [norrsken]
 submodule = "extensions/norrsken"
-version = "2.0.1"
+version = "3.0.1"
 
 [nu]
 submodule = "extensions/nu"
@@ -387,6 +411,10 @@ version = "0.0.3"
 
 [one-hunter]
 submodule = "extensions/one-hunter"
+version = "0.0.2"
+
+[oolong]
+submodule = "extensions/oolong"
 version = "0.0.2"
 
 [pact]
@@ -438,7 +466,7 @@ version = "0.2.2"
 
 [r]
 submodule = "extensions/r"
-version = "0.0.1"
+version = "0.0.2"
 
 [racket]
 submodule = "extensions/zed"
@@ -453,6 +481,10 @@ version = "0.0.1"
 submodule = "extensions/rescript"
 version = "0.1.0"
 
+[roc]
+submodule = "extensions/roc"
+version = "0.0.3"
+
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
 version = "1.0.4"
@@ -466,9 +498,17 @@ submodule = "extensions/zed"
 path = "extensions/scheme"
 version = "0.0.1"
 
+[scss]
+submodule = "extensions/scss"
+version = "0.0.1"
+
 [siri]
 submodule = "extensions/siri"
 version = "0.0.3"
+
+[slate]
+submodule = "extensions/slate"
+version = "0.0.1"
 
 [slint]
 submodule = "extensions/slint"
@@ -481,6 +521,10 @@ version = "0.0.1"
 [smooth]
 submodule = "extensions/smooth"
 version = "1.0.0"
+
+[snowflake]
+submodule = "extensions/snowflake"
+version = "0.0.1"
 
 [solarized-fp]
 submodule = "extensions/solarized-fp"
