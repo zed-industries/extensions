@@ -23,6 +23,10 @@ version = "0.0.1"
 submodule = "extensions/base16"
 version = "0.0.4"
 
+[basher]
+submodule = "extensions/basher"
+version = "0.0.1"
+
 [beancount]
 submodule = "extensions/beancount"
 version = "0.0.2"
@@ -61,7 +65,7 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.6"
+version = "0.2.7"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -88,6 +92,10 @@ version = "0.0.2"
 [csv]
 submodule = "extensions/csv"
 version = "0.0.2"
+
+[cucumber]
+submodule = "extensions/cucumber"
+version = "0.0.1"
 
 [cue]
 submodule = "extensions/cue"
@@ -126,7 +134,7 @@ version = "0.0.4"
 [elixir]
 submodule = "extensions/zed"
 path = "extensions/elixir"
-version = "0.0.1"
+version = "0.0.2"
 
 [elm]
 submodule = "extensions/zed"
@@ -241,7 +249,7 @@ version = "0.0.4"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
-version = "0.1.0"
+version = "0.2.0"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -275,6 +283,10 @@ version = "0.0.3"
 submodule = "extensions/latex"
 version = "0.0.2"
 
+[leblackque]
+submodule = "extensions/leblackque"
+version = "0.0.1"
+
 [log]
 submodule = "extensions/log"
 version = "0.0.3"
@@ -290,7 +302,7 @@ version = "0.0.2"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
-version = "0.0.7"
+version = "0.0.8"
 
 [make]
 submodule = "extensions/make"
@@ -374,7 +386,7 @@ version = "0.0.4"
 
 [norrsken]
 submodule = "extensions/norrsken"
-version = "2.0.1"
+version = "3.0.1"
 
 [nu]
 submodule = "extensions/nu"
@@ -399,6 +411,10 @@ version = "0.0.3"
 
 [one-hunter]
 submodule = "extensions/one-hunter"
+version = "0.0.4"
+
+[oolong]
+submodule = "extensions/oolong"
 version = "0.0.2"
 
 [pact]
@@ -450,7 +466,7 @@ version = "0.2.2"
 
 [r]
 submodule = "extensions/r"
-version = "0.0.1"
+version = "0.0.2"
 
 [racket]
 submodule = "extensions/zed"
@@ -465,6 +481,10 @@ version = "0.0.1"
 submodule = "extensions/rescript"
 version = "0.1.0"
 
+[roc]
+submodule = "extensions/roc"
+version = "0.0.3"
+
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
 version = "1.0.4"
@@ -477,6 +497,10 @@ version = "0.0.1"
 submodule = "extensions/zed"
 path = "extensions/scheme"
 version = "0.0.1"
+
+[scss]
+submodule = "extensions/scss"
+version = "0.0.2"
 
 [siri]
 submodule = "extensions/siri"
@@ -497,6 +521,10 @@ version = "0.0.1"
 [smooth]
 submodule = "extensions/smooth"
 version = "1.0.0"
+
+[snowflake]
+submodule = "extensions/snowflake"
+version = "0.0.1"
 
 [solarized-fp]
 submodule = "extensions/solarized-fp"
@@ -584,7 +612,7 @@ version = "0.0.4"
 
 [unison]
 submodule = "extensions/unison"
-version = "0.0.1"
+version = "0.0.2"
 
 [unoflat]
 submodule = "extensions/unoflat"

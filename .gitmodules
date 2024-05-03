@@ -18,6 +18,10 @@
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
 
+[submodule "extensions/basher"]
+	path = extensions/basher
+	url = https://github.com/d1y/bash.zed
+
 [submodule "extensions/beancount"]
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount.git
@@ -73,6 +77,10 @@
 [submodule "extensions/csv"]
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
+
+[submodule "extensions/cucumber"]
+	path = extensions/cucumber
+	url = https://github.com/thlcodes/zed-extension-cucumber
 
 [submodule "extensions/cue"]
 	path = extensions/cue
@@ -210,6 +218,10 @@
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
 
+[submodule "extensions/leblackque"]
+	path = extensions/leblackque
+	url = https://github.com/gx0r/leblackque.git
+
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/evrsen/zed-log.git
@@ -326,6 +338,10 @@
 	path = extensions/one-hunter
 	url = https://github.com/teziovsky/zed-one-hunter-theme.git
 
+[submodule "extensions/oolong"]
+	path = extensions/oolong
+	url = https://github.com/jmg-duarte/oolong-zed.git
+
 [submodule "extensions/pact"]
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
@@ -370,6 +386,10 @@
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
 
+[submodule "extensions/roc"]
+	path = extensions/roc
+	url = https://github.com/h2000/zed-roc.git
+
 [submodule "extensions/rose-pine-theme"]
 	path = extensions/rose-pine-theme
 	url = https://github.com/rose-pine/zed
@@ -377,6 +397,10 @@
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
+
+[submodule "extensions/scss"]
+	path = extensions/scss
+	url = https://github.com/bajrangCoder/zed-scss.git
 
 [submodule "extensions/siri"]
 	path = extensions/siri
@@ -397,6 +421,10 @@
 [submodule "extensions/smooth"]
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
+
+[submodule "extensions/snowflake"]
+	path = extensions/snowflake
+	url = https://github.com/bxxf/snowflake-zed.git
 
 [submodule "extensions/solarized-fp"]
 	path = extensions/solarized-fp
