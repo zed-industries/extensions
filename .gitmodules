@@ -222,6 +222,10 @@
 	path = extensions/leblackque
 	url = https://github.com/gx0r/leblackque.git
 
+[submodule "extensions/liquid"]
+	path = extensions/liquid
+	url = https://github.com/TheBeyondGroup/zed-shopify-liquid.git
+
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/evrsen/zed-log.git
@@ -561,7 +565,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-
-[submodule "liquid"]
-	path = extensions/liquid
-	url = https://github.com/TheBeyondGroup/zed-shopify-liquid.git
