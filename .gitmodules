@@ -310,10 +310,6 @@
 	path = extensions/nightfox
 	url = https://github.com/ssaunderss/zed-nightfox.git
 
-[submodule "extensions/nightfox-zed"]
-	path = extensions/nightfox-zed
-	url = https://github.com/cange/nightfox.zed.git
-
 [submodule "extensions/nix"]
 	path = extensions/nix
 	url = https://github.com/hasit/zed-nix.git
@@ -333,6 +329,10 @@
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu.git
+
+[submodule "extensions/nvim-nightfox"]
+	path = extensions/nvim-nightfox
+	url = https://github.com/cange/nightfox.zed.git
 
 [submodule "extensions/oceanic-next"]
 	path = extensions/oceanic-next
