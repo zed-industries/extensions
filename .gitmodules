@@ -14,6 +14,10 @@
 	path = extensions/assembly
 	url = https://github.com/DevBlocky/zed-asm.git
 
+[submodule "extensions/asteroid"]
+	path = extensions/asteroid
+	url = https://github.com/webhooked/asteroid-zed
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -573,6 +577,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/asteroid"]
-	path = extensions/asteroid
-	url = https://github.com/webhooked/asteroid-zed
