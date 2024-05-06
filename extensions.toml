@@ -14,6 +14,10 @@ version = "0.0.1"
 submodule = "extensions/assembly"
 version = "0.0.1"
 
+[asteroid]
+submodule = "extensions/asteroid"
+version = "0.0.1"
+
 [astro]
 submodule = "extensions/zed"
 path = "extensions/astro"
@@ -134,7 +138,7 @@ version = "0.0.4"
 [elixir]
 submodule = "extensions/zed"
 path = "extensions/elixir"
-version = "0.0.3"
+version = "0.0.4"
 
 [elm]
 submodule = "extensions/zed"
@@ -483,7 +487,7 @@ version = "0.0.1"
 
 [rainbow-csv]
 submodule = "extensions/rainbow-csv"
-version = "0.0.1"
+version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
@@ -630,6 +634,10 @@ version = "0.0.3"
 submodule = "extensions/vale"
 version = "0.0.1"
 
+[vapor-theme]
+submodule = "extensions/vapor-theme"
+version = "0.0.1"
+
 [vesper]
 submodule = "extensions/vesper"
 version = "0.0.1"
@@ -637,6 +645,10 @@ version = "0.0.1"
 [vhs]
 submodule = "extensions/vhs"
 version = "0.1.0"
+
+[vintergata]
+submodule = "extensions/vintergata"
+version = "0.0.1"
 
 [visual-assist-dark]
 submodule = "extensions/visual-assist-dark"
@@ -698,4 +710,4 @@ version = "0.0.3"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.1.1"
+version = "0.1.2"
