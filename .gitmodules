@@ -462,6 +462,10 @@
 	path = extensions/starlark
 	url = https://github.com/zaucy/zed-starlark.git
 
+[submodule "extensions/strace"]
+	path = extensions/strace
+	url = https://github.com/sigmaSd/zed-strace
+
 [submodule "extensions/struct-theme"]
 	path = extensions/struct-theme
 	url = https://gitlab.com/Fake.User/struct-zed-theme
