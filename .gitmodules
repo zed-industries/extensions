@@ -66,6 +66,10 @@
 	path = extensions/catppuccin
 	url = https://github.com/catppuccin/zed.git
 
+[submodule "extensions/cedar"]
+	path = extensions/cedar
+	url = https://github.com/chrnorm/zed-cedar.git
+
 [submodule "extensions/cfengine"]
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
@@ -306,6 +310,10 @@
 	path = extensions/new-darcula
 	url = https://github.com/e-simpson/new-darcula-z.git
 
+[submodule "extensions/nginx"]
+	path = extensions/nginx
+	url = https://github.com/d1y/nginx-zed
+
 [submodule "extensions/night-owlz"]
 	path = extensions/night-owlz
 	url = https://github.com/elGusto/night-owlz.git
@@ -461,6 +469,10 @@
 [submodule "extensions/starlark"]
 	path = extensions/starlark
 	url = https://github.com/zaucy/zed-starlark.git
+
+[submodule "extensions/strace"]
+	path = extensions/strace
+	url = https://github.com/sigmaSd/zed-strace
 
 [submodule "extensions/struct-theme"]
 	path = extensions/struct-theme

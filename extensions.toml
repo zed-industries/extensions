@@ -71,6 +71,10 @@ version = "0.0.1"
 submodule = "extensions/catppuccin"
 version = "0.2.7"
 
+[cedar]
+submodule = "extensions/cedar"
+version = "0.0.1"
+
 [cfengine]
 submodule = "extensions/cfengine"
 version = "1.0.1"
@@ -215,7 +219,7 @@ version = "0.1.0"
 
 [graphene]
 submodule = "extensions/graphene"
-version = "0.1.0"
+version = "0.2.0"
 
 [graphql]
 submodule = "extensions/graphql"
@@ -289,7 +293,7 @@ version = "0.0.2"
 
 [leblackque]
 submodule = "extensions/leblackque"
-version = "0.0.1"
+version = "1.0.0"
 
 [liquid]
 submodule = "extensions/liquid"
@@ -346,7 +350,7 @@ version = "0.1.1"
 
 [monosami]
 submodule = "extensions/monosami"
-version = "0.0.1"
+version = "0.1.0"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
@@ -366,7 +370,7 @@ version = "0.0.2"
 
 [navi]
 submodule = "extensions/navi"
-version = "0.2.1"
+version = "0.3.0"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -375,6 +379,10 @@ version = "0.0.1"
 [new-darcula]
 submodule = "extensions/new-darcula"
 version = "1.0.5"
+
+[nginx]
+submodule = "extensions/nginx"
+version = "0.0.1"
 
 [night-owlz]
 submodule = "extensions/night-owlz"
@@ -406,7 +414,7 @@ version = "0.0.3"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.1.0"
+version = "0.1.1"
 
 [ocaml]
 submodule = "extensions/zed"
@@ -505,6 +513,11 @@ version = "0.0.3"
 submodule = "extensions/rose-pine-theme"
 version = "1.0.4"
 
+[ruby]
+submodule = "extensions/zed"
+path = "extensions/ruby"
+version = "0.0.1"
+
 [scala]
 submodule = "extensions/scala"
 version = "0.0.1"
@@ -561,6 +574,10 @@ version = "0.0.2"
 [starlark]
 submodule = "extensions/starlark"
 version = "0.1.1"
+
+[strace]
+submodule = "extensions/strace"
+version = "0.0.2"
 
 [struct-theme]
 submodule = "extensions/struct-theme"
@@ -669,7 +686,7 @@ version = "0.0.2"
 [vue]
 submodule = "extensions/zed"
 path = "extensions/vue"
-version = "0.0.1"
+version = "0.0.2"
 
 [warp-one-dark]
 submodule = "extensions/warp-one-dark"
