@@ -110,10 +110,6 @@
 	path = extensions/graphql
 	url = https://github.com/11bit/zed-extension-graphql.git
 
-[submodule "extensions/helm"]
-	path = extensions/helm
-	url = https://github.com/cabrinha/helm.zed.git
-
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
@@ -381,3 +377,6 @@
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
 	url = https://github.com/Brunowilliang/zedspace.git
+[submodule "helm"]
+	path = extensions/helm
+	url = https://github.com/cabrinha/helm.zed.git
