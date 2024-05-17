@@ -14,3 +14,25 @@ export async function readTomlFile(path) {
     throw new Error(`Failed to parse TOML file '${path}': ${err}`);
   }
 }
+
+/**
+ * @param {string} path
+ * @returns {Promise<boolean>}
+ */
+export async function fileExists(path) {
+  try {
+    const stat = await fs.stat(path);
+    return stat.isFile();
+  } catch (err) {
+    if (
+      err &&
+      typeof err === "object" &&
+      "code" in err &&
+      err.code === "ENOENT"
+    ) {
+      return false;
+    }
+
+    throw err;
+  }
+}
