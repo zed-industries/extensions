@@ -446,6 +446,10 @@
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
 
+[submodule "extensions/snowflake"]
+	path = extensions/snowflake
+	url = https://github.com/bxxf/snowflake-zed
+
 [submodule "extensions/solarized-fp"]
 	path = extensions/solarized-fp
 	url = https://github.com/lohazo/zed-solarized-fp.git
@@ -601,6 +605,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/snowflake"]
-	path = extensions/snowflake
-	url = https://github.com/bxxf/snowflake-zed
