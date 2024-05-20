@@ -430,6 +430,10 @@
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
 
+[submodule "extensions/scls"]
+	path = extensions/scls
+	url = https://github.com/d1y/simple-completion-zed
+
 [submodule "extensions/scss"]
 	path = extensions/scss
 	url = https://github.com/bajrangCoder/zed-scss.git
