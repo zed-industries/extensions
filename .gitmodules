@@ -18,6 +18,10 @@
 	path = extensions/asteroid
 	url = https://github.com/webhooked/asteroid-zed
 
+[submodule "extensions/aura"]
+	path = extensions/aura
+	url = https://github.com/daltonmenezes/aura-theme.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -617,6 +621,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/aura"]
-	path = extensions/aura
-	url = https://github.com/daltonmenezes/aura-theme.git
