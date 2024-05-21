@@ -123,14 +123,14 @@ submodule = "extensions/zed"
 path = "extensions/dart"
 version = "0.0.2"
 
-[deno]
-submodule = "extensions/zed"
-path = "extensions/deno"
-version = "0.0.1"
-
 [denix]
 submodule = "extensions/denix"
 path = "extensions/denix"
+version = "0.0.1"
+
+[deno]
+submodule = "extensions/zed"
+path = "extensions/deno"
 version = "0.0.1"
 
 [docker-compose]
