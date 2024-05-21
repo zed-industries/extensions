@@ -14,6 +14,14 @@
 	path = extensions/assembly
 	url = https://github.com/DevBlocky/zed-asm.git
 
+[submodule "extensions/asteroid"]
+	path = extensions/asteroid
+	url = https://github.com/webhooked/asteroid-zed
+
+[submodule "extensions/aura"]
+	path = extensions/aura
+	url = https://github.com/daltonmenezes/aura-theme.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -61,6 +69,10 @@
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
 	url = https://github.com/catppuccin/zed.git
+
+[submodule "extensions/cedar"]
+	path = extensions/cedar
+	url = https://github.com/chrnorm/zed-cedar.git
 
 [submodule "extensions/cfengine"]
 	path = extensions/cfengine
@@ -161,6 +173,10 @@
 [submodule "extensions/graphql"]
 	path = extensions/graphql
 	url = https://github.com/11bit/zed-extension-graphql.git
+
+[submodule "extensions/groovy"]
+	path = extensions/groovy
+	url = https://github.com/valentinegb/zed-groovy.git
 
 [submodule "extensions/groq"]
 	path = extensions/groq
@@ -294,6 +310,10 @@
 	path = extensions/navi
 	url = https://github.com/navi-language/zed-navi.git
 
+[submodule "extensions/neocmake"]
+	path = extensions/neocmake
+	url = https://github.com/k0tran/zed_neocmake.git
+
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
@@ -301,6 +321,10 @@
 [submodule "extensions/new-darcula"]
 	path = extensions/new-darcula
 	url = https://github.com/e-simpson/new-darcula-z.git
+
+[submodule "extensions/nginx"]
+	path = extensions/nginx
+	url = https://github.com/d1y/nginx-zed
 
 [submodule "extensions/night-owlz"]
 	path = extensions/night-owlz
@@ -329,6 +353,10 @@
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu.git
+
+[submodule "extensions/nvim-nightfox"]
+	path = extensions/nvim-nightfox
+	url = https://github.com/cange/nightfox.zed.git
 
 [submodule "extensions/oceanic-next"]
 	path = extensions/oceanic-next
@@ -406,9 +434,17 @@
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
 
+[submodule "extensions/scls"]
+	path = extensions/scls
+	url = https://github.com/d1y/simple-completion-zed
+
 [submodule "extensions/scss"]
 	path = extensions/scss
 	url = https://github.com/bajrangCoder/zed-scss.git
+
+[submodule "extensions/serendipity"]
+	path = extensions/serendipity
+	url = https://github.com/meocoder31099/Serendipity-Theme-Zed
 
 [submodule "extensions/siri"]
 	path = extensions/siri
@@ -454,6 +490,14 @@
 	path = extensions/starlark
 	url = https://github.com/zaucy/zed-starlark.git
 
+[submodule "extensions/stimulus"]
+	path = extensions/stimulus
+	url = https://github.com/vitallium/zed-stimulus
+
+[submodule "extensions/strace"]
+	path = extensions/strace
+	url = https://github.com/sigmaSd/zed-strace
+
 [submodule "extensions/struct-theme"]
 	path = extensions/struct-theme
 	url = https://gitlab.com/Fake.User/struct-zed-theme
@@ -461,6 +505,10 @@
 [submodule "extensions/swift"]
 	path = extensions/swift
 	url = https://github.com/samuser107/zed-swift-extension.git
+
+[submodule "extensions/syntax"]
+	path = extensions/syntax
+	url = https://github.com/syntaxfm/syntax-zed-theme.git
 
 [submodule "extensions/synthwave"]
 	path = extensions/synthwave
@@ -506,6 +554,14 @@
 	path = extensions/unoflat
 	url = https://github.com/bryanbuchanan/unoflat
 
+[submodule "extensions/vapor-theme"]
+	path = extensions/vapor-theme
+	url = https://github.com/felipetesc/vapor-theme.git
+
+[submodule "extensions/verilog"]
+	path = extensions/verilog
+	url = https://github.com/someone13574/zed-verilog-extension.git
+
 [submodule "extensions/vesper"]
 	path = extensions/vesper
 	url = https://github.com/bdsqqq/vesper-zed.git
@@ -513,6 +569,10 @@
 [submodule "extensions/vhs"]
 	path = extensions/vhs
 	url = https://github.com/eth0net/zed-vhs.git
+
+[submodule "extensions/vintergata"]
+	path = extensions/vintergata
+	url = https://github.com/webhooked/vintergata-zed
 
 [submodule "extensions/visual-assist-dark"]
 	path = extensions/visual-assist-dark
