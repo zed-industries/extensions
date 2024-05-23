@@ -72,6 +72,10 @@ version = "0.0.1"
 submodule = "extensions/capnp"
 version = "0.0.1"
 
+[catbox]
+submodule = "extensions/catbox"
+version = "0.0.1"
+
 [catppuccin]
 submodule = "extensions/catppuccin"
 version = "0.2.7"
@@ -241,6 +245,10 @@ version = "0.0.1"
 [gruber-darker]
 submodule = "extensions/gruber-darker"
 version = "0.0.2"
+
+[halcyon]
+submodule = "extensions/halcyon"
+version = "0.0.1"
 
 [haskell]
 submodule = "extensions/zed"
@@ -458,6 +466,10 @@ version = "0.0.2"
 submodule = "extensions/pact"
 version = "0.0.1"
 
+[palenight]
+submodule = "extensions/palenight"
+version = "0.0.1"
+
 [paraiso]
 submodule = "extensions/paraiso"
 version = "1.0.1"
@@ -473,7 +485,7 @@ version = "0.1.0"
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
-version = "0.0.3"
+version = "0.0.4"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -529,7 +541,7 @@ version = "1.0.4"
 [ruby]
 submodule = "extensions/zed"
 path = "extensions/ruby"
-version = "0.0.3"
+version = "0.0.4"
 
 [scala]
 submodule = "extensions/scala"
@@ -683,6 +695,10 @@ version = "0.0.1"
 [unoflat]
 submodule = "extensions/unoflat"
 version = "0.0.3"
+
+[v]
+submodule = "extensions/v"
+version = "0.1.0"
 
 [vapor-theme]
 submodule = "extensions/vapor-theme"
