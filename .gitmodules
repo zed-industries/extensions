@@ -18,6 +18,14 @@
 	path = extensions/asteroid
 	url = https://github.com/webhooked/asteroid-zed
 
+[submodule "extensions/aura"]
+	path = extensions/aura
+	url = https://github.com/daltonmenezes/aura-theme.git
+
+[submodule "extensions/autocorrect"]
+	path = extensions/autocorrect
+	url = https://github.com/huacnlee/zed-autocorrect.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -61,6 +69,10 @@
 [submodule "extensions/capnp"]
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
+
+[submodule "extensions/catbox"]
+	path = extensions/catbox
+	url = https://github.com/adibhanna/catbox.git
 
 [submodule "extensions/catppuccin"]
 	path = extensions/catppuccin
@@ -181,6 +193,10 @@
 [submodule "extensions/gruber-darker"]
 	path = extensions/gruber-darker
 	url = https://github.com/th0jensen/gruber-darker.zed.git
+
+[submodule "extensions/halcyon"]
+	path = extensions/halcyon
+	url = https://github.com/hichemfantar/halcyon-zed.git
 
 [submodule "extensions/horizon"]
 	path = extensions/horizon
@@ -378,6 +394,10 @@
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
 
+[submodule "extensions/palenight"]
+	path = extensions/palenight
+	url = https://github.com/alanmontgomery/palenight-zed.git
+
 [submodule "extensions/paraiso"]
 	path = extensions/paraiso
 	url = https://github.com/treffynnon/zed-Paraiso.git
@@ -502,6 +522,10 @@
 	path = extensions/swift
 	url = https://github.com/samuser107/zed-swift-extension.git
 
+[submodule "extensions/syntax"]
+	path = extensions/syntax
+	url = https://github.com/syntaxfm/syntax-zed-theme.git
+
 [submodule "extensions/synthwave"]
 	path = extensions/synthwave
 	url = https://github.com/DanielMSchmidt/zed-synthwave.git
@@ -542,9 +566,17 @@
 	path = extensions/unison
 	url = https://github.com/zetashift/unison-zed
 
+[submodule "extensions/unocss"]
+	path = extensions/unocss
+	url = https://github.com/bajrangCoder/zed-unocss.git
+
 [submodule "extensions/unoflat"]
 	path = extensions/unoflat
 	url = https://github.com/bryanbuchanan/unoflat
+
+[submodule "extensions/v"]
+	path = extensions/v
+	url = https://github.com/lv37/zed-v.git
 
 [submodule "extensions/vapor-theme"]
 	path = extensions/vapor-theme
