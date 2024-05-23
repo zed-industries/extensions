@@ -78,6 +78,10 @@
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
 
+[submodule "extensions/codesandbox-theme"]
+	path = extensions/codesandbox-theme
+	url = https://github.com/MartinRybergLaude/zed-theme-codesandbox.git
+
 [submodule "extensions/colorizer"]
 	path = extensions/colorizer
 	url = https://github.com/tamimhasandev/colorizer.git
@@ -633,7 +637,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-
-[submodule "extensions/codesandbox-theme"]
-	path = extensions/codesandbox-theme
-	url = https://github.com/MartinRybergLaude/zed-theme-codesandbox.git
