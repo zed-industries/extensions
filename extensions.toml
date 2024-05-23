@@ -28,6 +28,10 @@ submodule = "extensions/aura"
 path = "packages/zed"
 version = "1.0.0"
 
+[autocorrect]
+submodule = "extensions/autocorrect"
+version = "0.1.0"
+
 [base16]
 submodule = "extensions/base16"
 version = "0.1.0"
