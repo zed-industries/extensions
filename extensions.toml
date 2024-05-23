@@ -242,6 +242,10 @@ version = "0.0.1"
 submodule = "extensions/gruber-darker"
 version = "0.0.2"
 
+[halcyon]
+submodule = "extensions/halcyon"
+version = "0.0.1"
+
 [haskell]
 submodule = "extensions/zed"
 path = "extensions/haskell"
@@ -765,7 +769,3 @@ version = "0.0.3"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.1.2"
-
-[halcyon]
-submodule = "extensions/halcyon"
-version = "0.0.1"
