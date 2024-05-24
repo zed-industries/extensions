@@ -131,6 +131,10 @@ submodule = "extensions/zed"
 path = "extensions/dart"
 version = "0.0.2"
 
+[denix]
+submodule = "extensions/denix"
+version = "0.0.3"
+
 [deno]
 submodule = "extensions/zed"
 path = "extensions/deno"
@@ -146,7 +150,7 @@ version = "0.0.3"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.9.1"
+version = "0.9.2"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -574,7 +578,7 @@ version = "0.0.3"
 
 [slate]
 submodule = "extensions/slate"
-version = "0.0.1"
+version = "0.0.2"
 
 [slint]
 submodule = "extensions/slint"
