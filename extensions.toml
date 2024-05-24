@@ -1,3 +1,7 @@
+[0x96f]
+submodule = "extensions/0x96f"
+version = "0.0.1"
+
 [alabaster]
 submodule = "extensions/alabaster"
 version = "0.0.2"
@@ -22,6 +26,15 @@ version = "0.0.1"
 submodule = "extensions/zed"
 path = "extensions/astro"
 version = "0.0.2"
+
+[aura-theme]
+submodule = "extensions/aura"
+path = "packages/zed"
+version = "1.0.0"
+
+[autocorrect]
+submodule = "extensions/autocorrect"
+version = "0.1.0"
 
 [base16]
 submodule = "extensions/base16"
@@ -65,6 +78,10 @@ version = "0.0.1"
 
 [capnp]
 submodule = "extensions/capnp"
+version = "0.0.1"
+
+[catbox]
+submodule = "extensions/catbox"
 version = "0.0.1"
 
 [catppuccin]
@@ -118,6 +135,10 @@ submodule = "extensions/zed"
 path = "extensions/dart"
 version = "0.0.2"
 
+[denix]
+submodule = "extensions/denix"
+version = "0.0.3"
+
 [deno]
 submodule = "extensions/zed"
 path = "extensions/deno"
@@ -133,7 +154,7 @@ version = "0.0.3"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.9.1"
+version = "0.9.2"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -210,7 +231,7 @@ version = "0.0.2"
 [gleam]
 submodule = "extensions/zed"
 path = "extensions/gleam"
-version = "0.1.2"
+version = "0.1.3"
 
 [glsl]
 submodule = "extensions/zed"
@@ -227,7 +248,7 @@ version = "0.0.2"
 
 [groovy]
 submodule = "extensions/groovy"
-version = "1.0.0"
+version = "1.1.0"
 
 [groq]
 submodule = "extensions/groq"
@@ -236,6 +257,10 @@ version = "0.0.1"
 [gruber-darker]
 submodule = "extensions/gruber-darker"
 version = "0.0.2"
+
+[halcyon]
+submodule = "extensions/halcyon"
+version = "0.0.1"
 
 [haskell]
 submodule = "extensions/zed"
@@ -249,7 +274,7 @@ version = "0.0.1"
 [html]
 submodule = "extensions/zed"
 path = "extensions/html"
-version = "0.0.1"
+version = "0.1.1"
 
 [indigo]
 submodule = "extensions/indigo"
@@ -374,7 +399,11 @@ version = "0.0.2"
 
 [navi]
 submodule = "extensions/navi"
-version = "0.3.0"
+version = "0.4.0"
+
+[neocmake]
+submodule = "extensions/neocmake"
+version = "0.0.1"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -390,7 +419,7 @@ version = "0.0.1"
 
 [night-owlz]
 submodule = "extensions/night-owlz"
-version = "0.0.2"
+version = "0.0.3"
 
 [nightfox]
 submodule = "extensions/nightfox"
@@ -449,6 +478,10 @@ version = "0.0.2"
 submodule = "extensions/pact"
 version = "0.0.1"
 
+[palenight]
+submodule = "extensions/palenight"
+version = "0.0.1"
+
 [paraiso]
 submodule = "extensions/paraiso"
 version = "1.0.1"
@@ -464,7 +497,7 @@ version = "0.1.0"
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
-version = "0.0.3"
+version = "0.0.4"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -520,7 +553,7 @@ version = "1.0.4"
 [ruby]
 submodule = "extensions/zed"
 path = "extensions/ruby"
-version = "0.0.3"
+version = "0.0.4"
 
 [scala]
 submodule = "extensions/scala"
@@ -531,8 +564,16 @@ submodule = "extensions/zed"
 path = "extensions/scheme"
 version = "0.0.1"
 
+[scls]
+submodule = "extensions/scls"
+version = "0.0.1"
+
 [scss]
 submodule = "extensions/scss"
+version = "0.0.3"
+
+[serendipity]
+submodule = "extensions/serendipity"
 version = "0.0.2"
 
 [siri]
@@ -541,7 +582,7 @@ version = "0.0.3"
 
 [slate]
 submodule = "extensions/slate"
-version = "0.0.1"
+version = "0.0.2"
 
 [slint]
 submodule = "extensions/slint"
@@ -557,7 +598,7 @@ version = "1.0.0"
 
 [snowflake]
 submodule = "extensions/snowflake"
-version = "0.0.1"
+version = "1.0.0"
 
 [solarized-fp]
 submodule = "extensions/solarized-fp"
@@ -600,6 +641,10 @@ version = "0.0.1"
 submodule = "extensions/swift"
 version = "0.2.0"
 
+[syntax]
+submodule = "extensions/syntax"
+version = "0.0.1"
+
 [synthwave]
 submodule = "extensions/synthwave"
 version = "0.0.1"
@@ -632,7 +677,7 @@ version = "0.1.1"
 
 [tsar]
 submodule = "extensions/tsar"
-version = "0.0.1"
+version = "0.0.2"
 
 [twig]
 submodule = "extensions/twig"
@@ -655,9 +700,17 @@ version = "0.0.4"
 submodule = "extensions/unison"
 version = "0.0.2"
 
+[unocss]
+submodule = "extensions/unocss"
+version = "0.0.1"
+
 [unoflat]
 submodule = "extensions/unoflat"
 version = "0.0.3"
+
+[v]
+submodule = "extensions/v"
+version = "0.1.0"
 
 [vapor-theme]
 submodule = "extensions/vapor-theme"
@@ -665,7 +718,7 @@ version = "0.0.1"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.1"
+version = "0.0.2"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -722,7 +775,7 @@ version = "1.1.3"
 
 [xml]
 submodule = "extensions/xml"
-version = "0.0.1"
+version = "0.0.2"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
