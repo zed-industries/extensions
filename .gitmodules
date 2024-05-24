@@ -1,3 +1,7 @@
+[submodule "extensions/0x96f"]
+	path = extensions/0x96f
+	url = https://github.com/filipjanevski/zed-theme.git
+
 [submodule "extensions/alabaster"]
 	path = extensions/alabaster
 	url = https://github.com/tsimoshka/zed-theme-alabaster.git
@@ -613,6 +617,10 @@
 [submodule "extensions/vitesse"]
 	path = extensions/vitesse
 	url = https://github.com/d1y/vitesse.zed.git
+
+[submodule "extensions/vscode-dark-modern"]
+	path = extensions/vscode-dark-modern
+	url = https://github.com/kcamcam/vscode_dark_modern.zed.git
 
 [submodule "extensions/vscode-dark-plus"]
 	path = extensions/vscode-dark-plus
