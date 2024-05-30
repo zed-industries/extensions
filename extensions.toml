@@ -160,6 +160,10 @@ version = "0.0.3"
 submodule = "extensions/dracula"
 version = "0.9.2"
 
+[earthfile]
+submodule = "extensions/earthfile"
+version = "0.1.0"
+
 [elisp]
 submodule = "extensions/elisp"
 version = "0.0.4"
@@ -190,6 +194,14 @@ version = "0.0.1"
 
 [everforest]
 submodule = "extensions/everforest"
+version = "0.0.2"
+
+[evil-rabbit-theme]
+submodule = "extensions/evil-rabbit-theme"
+version = "0.0.1"
+
+[exograph]
+submodule = "extensions/exograph"
 version = "0.0.2"
 
 [exquisite]
@@ -294,7 +306,7 @@ version = "0.0.4"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
-version = "0.2.0"
+version = "0.2.1"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -381,9 +393,17 @@ version = "0.0.2"
 submodule = "extensions/mellow"
 version = "0.0.1"
 
+[meson]
+submodule = "extensions/meson"
+version = "0.1.0"
+
 [modest-dark]
 submodule = "extensions/modest-dark"
 version = "0.1.1"
+
+[monolith]
+submodule = "extensions/monolith"
+version = "0.0.2"
 
 [monosami]
 submodule = "extensions/monosami"
@@ -505,7 +525,7 @@ version = "0.1.0"
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
-version = "0.0.4"
+version = "0.0.5"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -561,7 +581,7 @@ version = "1.0.4"
 [ruby]
 submodule = "extensions/zed"
 path = "extensions/ruby"
-version = "0.0.4"
+version = "0.0.6"
 
 [scala]
 submodule = "extensions/scala"
@@ -582,7 +602,7 @@ version = "0.0.3"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "0.0.2"
+version = "0.0.4"
 
 [siri]
 submodule = "extensions/siri"
@@ -726,7 +746,7 @@ version = "0.0.1"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.2"
+version = "0.0.3"
 
 [vesper]
 submodule = "extensions/vesper"

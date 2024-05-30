@@ -134,6 +134,10 @@
 	path = extensions/dracula
 	url = https://github.com/dracula/zed.git
 
+[submodule "extensions/earthfile"]
+	path = extensions/earthfile
+	url = https://github.com/glehmann/earthfile.zed.git
+
 [submodule "extensions/elisp"]
 	path = extensions/elisp
 	url = https://github.com/JosephTLyons/zed-elisp.git
@@ -145,6 +149,14 @@
 [submodule "extensions/everforest"]
 	path = extensions/everforest
 	url = https://github.com/ThomasAlban/everforest-zed.git
+
+[submodule "extensions/evil-rabbit-theme"]
+	path = extensions/evil-rabbit-theme
+	url = https://github.com/kettanaito/zed-theme-evil-rabbit.git
+
+[submodule "extensions/exograph"]
+	path = extensions/exograph
+	url = https://github.com/exograph/zed-extension
 
 [submodule "extensions/exquisite"]
 	path = extensions/exquisite
@@ -310,9 +322,17 @@
 	path = extensions/mellow
 	url = https://github.com/sonodima/zed-mellow.git
 
+[submodule "extensions/meson"]
+	path = extensions/meson
+	url = https://github.com/hqnna/zed-meson
+
 [submodule "extensions/modest-dark"]
 	path = extensions/modest-dark
 	url = https://github.com/timcole/modest-dark.git
+
+[submodule "extensions/monolith"]
+	path = extensions/monolith
+	url = https://github.com/someone13574/zed-monolith-theme.git
 
 [submodule "extensions/monosami"]
 	path = extensions/monosami
