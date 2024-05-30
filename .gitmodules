@@ -134,6 +134,10 @@
 	path = extensions/dracula
 	url = https://github.com/dracula/zed.git
 
+[submodule "extensions/earthfile"]
+	path = extensions/earthfile
+	url = https://github.com/glehmann/earthfile.zed.git
+
 [submodule "extensions/elisp"]
 	path = extensions/elisp
 	url = https://github.com/JosephTLyons/zed-elisp.git
@@ -685,6 +689,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/earthfile"]
-	path = extensions/earthfile
-	url = https://github.com/glehmann/earthfile.zed.git
