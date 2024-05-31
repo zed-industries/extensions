@@ -118,6 +118,10 @@ submodule = "extensions/zed"
 path = "extensions/csharp"
 version = "0.0.2"
 
+[css]
+submodule = "extensions/css"
+version = "0.0.1"
+
 [csv]
 submodule = "extensions/csv"
 version = "0.0.2"
@@ -829,7 +833,3 @@ version = "0.0.3"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.1.2"
-
-[css]
-submodule = "extensions/css"
-version = "0.0.1"
