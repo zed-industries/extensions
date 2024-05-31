@@ -266,6 +266,10 @@ version = "0.2.0"
 submodule = "extensions/graphql"
 version = "0.0.2"
 
+[green-monochrome-monitor-crt-phosphor]
+submodule = "extensions/green-monochrome-monitor-crt-phosphor"
+version = "0.0.1"
+
 [groovy]
 submodule = "extensions/groovy"
 version = "1.1.0"
@@ -829,6 +833,3 @@ version = "0.0.3"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.1.2"
-[green-monochrome-monitor]
-submodule = "extensions/green-monochrome-monitor"
-version = "0.1.3"
