@@ -102,6 +102,10 @@
 	path = extensions/cosmos
 	url = https://github.com/nauvalazhar/cosmos.git
 
+[submodule "extensions/css"]
+	path = extensions/css
+	url = https://github.com/filipjanevski/zed-css
+
 [submodule "extensions/csv"]
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
@@ -697,6 +701,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/css"]
-	path = extensions/css
-	url = https://github.com/filipjanevski/zed-css
