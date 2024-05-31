@@ -1,6 +1,6 @@
 [0x96f]
 submodule = "extensions/0x96f"
-version = "0.0.1"
+version = "1.0.0"
 
 [alabaster]
 submodule = "extensions/alabaster"
@@ -103,7 +103,7 @@ version = "0.0.2"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [colorizer]
 submodule = "extensions/colorizer"
@@ -154,7 +154,7 @@ version = "0.1.0"
 
 [dockerfile]
 submodule = "extensions/dockerfile"
-version = "0.0.3"
+version = "0.0.4"
 
 [dracula]
 submodule = "extensions/dracula"
@@ -210,7 +210,7 @@ version = "0.1.1"
 
 [fish]
 submodule = "extensions/fish"
-version = "0.0.7"
+version = "0.0.8"
 
 [fleet-themes]
 submodule = "extensions/fleet-themes"
@@ -689,6 +689,10 @@ version = "0.0.2"
 submodule = "extensions/zed"
 path = "extensions/terraform"
 version = "0.0.3"
+
+[terrible-theme]
+submodule = "extensions/terrible-theme"
+version = "0.0.1"
 
 [the-dark-side]
 submodule = "extensions/the-dark-side"
