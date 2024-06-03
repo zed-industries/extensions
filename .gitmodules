@@ -170,6 +170,10 @@
 	path = extensions/fleet-themes
 	url = https://github.com/skarline/zed-fleet-themes.git
 
+[submodule "extensions/frosted-theme"]
+	path = extensions/frosted-theme
+	url = https://github.com/daviiiL/frosted-theme
+
 [submodule "extensions/fsharp"]
 	path = extensions/fsharp
 	url = https://github.com/nathanjcollins/zed-fsharp.git
@@ -705,6 +709,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/frosted-theme"]
-	path = extensions/frosted-theme
-	url = https://github.com/daviiiL/frosted-theme
