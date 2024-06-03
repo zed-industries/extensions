@@ -253,6 +253,8 @@ async function getPublishedVersionsByExtensionId() {
     if (bucketList.Contents && bucketList.IsTruncated) {
       const lastObject = bucketList.Contents[bucketList.Contents.length - 1];
       nextMarker = lastObject?.Key;
+    } else {
+      nextMarker = undefined;
     }
   } while (nextMarker);
 
