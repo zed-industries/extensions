@@ -225,6 +225,8 @@ async function getPublishedVersionsByExtensionId() {
     Prefix: `${EXTENSIONS_PREFIX}/`,
   });
 
+  console.log(bucketList.IsTruncated);
+
   /** @type {Record<string, string[]>} */
   const publishedVersionsByExtensionId = {};
   bucketList.Contents?.forEach((object) => {
