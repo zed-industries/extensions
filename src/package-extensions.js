@@ -220,23 +220,41 @@ async function packageExtension(
 }
 
 async function getPublishedVersionsByExtensionId() {
-  const bucketList = await s3.listObjects({
-    Bucket: S3_BUCKET,
-    Prefix: `${EXTENSIONS_PREFIX}/`,
-  });
+  /** @type {string | undefined} */
+  let nextMarker;
 
   /** @type {Record<string, string[]>} */
   const publishedVersionsByExtensionId = {};
-  bucketList.Contents?.forEach((object) => {
-    const [_prefix, extensionId, version, _filename] =
-      object.Key?.split("/") ?? [];
-    assert.ok(extensionId, "No extension ID in blob store key.");
-    assert.ok(version, "No version in blob store key.");
 
-    const publishedVersions = publishedVersionsByExtensionId[extensionId] ?? [];
-    publishedVersions.push(version);
-    publishedVersionsByExtensionId[extensionId] = publishedVersions;
-  });
+  do {
+    const bucketList = await s3.listObjects({
+      Bucket: S3_BUCKET,
+      Prefix: `${EXTENSIONS_PREFIX}/`,
+      ...(nextMarker ? { Marker: nextMarker } : {}),
+    });
+
+    console.log(
+      `Retrieved ${bucketList.Contents?.length} object(s) from bucket.`,
+    );
+    for (const object of bucketList.Contents ?? []) {
+      const [_prefix, extensionId, version, _filename] =
+        object.Key?.split("/") ?? [];
+      assert.ok(extensionId, "No extension ID in blob store key.");
+      assert.ok(version, "No version in blob store key.");
+
+      const publishedVersions =
+        publishedVersionsByExtensionId[extensionId] ?? [];
+      publishedVersions.push(version);
+      publishedVersionsByExtensionId[extensionId] = publishedVersions;
+    }
+
+    if (bucketList.Contents && bucketList.IsTruncated) {
+      const lastObject = bucketList.Contents[bucketList.Contents.length - 1];
+      nextMarker = lastObject?.Key;
+    } else {
+      nextMarker = undefined;
+    }
+  } while (nextMarker);
 
   return publishedVersionsByExtensionId;
 }
