@@ -239,9 +239,6 @@ async function getPublishedVersionsByExtensionId() {
       `Retrieved ${bucketList.Contents?.length} object(s) from bucket.`,
     );
     for (const object of bucketList.Contents ?? []) {
-      console.log(object.Key);
-      nextMarker = object.Key;
-
       const [_prefix, extensionId, version, _filename] =
         object.Key?.split("/") ?? [];
       assert.ok(extensionId, "No extension ID in blob store key.");
@@ -253,8 +250,9 @@ async function getPublishedVersionsByExtensionId() {
       publishedVersionsByExtensionId[extensionId] = publishedVersions;
     }
 
-    if (!bucketList.IsTruncated) {
-      nextMarker = undefined;
+    if (bucketList.Contents && bucketList.IsTruncated) {
+      const lastObject = bucketList.Contents[bucketList.Contents.length];
+      nextMarker = lastObject?.Key;
     }
   } while (nextMarker);
 
