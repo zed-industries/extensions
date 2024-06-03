@@ -222,7 +222,6 @@ async function packageExtension(
 }
 
 async function getPublishedVersionsByExtensionId() {
-  let isTruncated = false;
   /** @type {string | undefined} */
   let nextMarker;
 
@@ -253,7 +252,11 @@ async function getPublishedVersionsByExtensionId() {
       publishedVersions.push(version);
       publishedVersionsByExtensionId[extensionId] = publishedVersions;
     }
-  } while (isTruncated);
+
+    if (!bucketList.IsTruncated) {
+      nextMarker = undefined;
+    }
+  } while (nextMarker);
 
   return publishedVersionsByExtensionId;
 }
