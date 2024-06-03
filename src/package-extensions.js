@@ -89,6 +89,8 @@ try {
   await sortExtensionsToml("extensions.toml");
   await sortGitmodules(".gitmodules");
 
+  console.log(await getPublishedVersionsByExtensionId());
+
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
     : await changedExtensionIds(extensionsToml);
