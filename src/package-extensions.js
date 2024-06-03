@@ -251,7 +251,7 @@ async function getPublishedVersionsByExtensionId() {
     }
 
     if (bucketList.Contents && bucketList.IsTruncated) {
-      const lastObject = bucketList.Contents[bucketList.Contents.length];
+      const lastObject = bucketList.Contents[bucketList.Contents.length - 1];
       nextMarker = lastObject?.Key;
     }
   } while (nextMarker);
