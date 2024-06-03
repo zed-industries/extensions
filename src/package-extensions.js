@@ -144,7 +144,7 @@ async function packageExtension(
   await fs.mkdir(SCRATCH_DIR, { recursive: true });
 
   if (await fileExists(path.join(extensionPath, "extension.json"))) {
-    console.warn(
+    throw new Error(
       "The `extension.json` manifest format has been superseded by `extension.toml`",
     );
   }
