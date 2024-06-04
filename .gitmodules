@@ -394,6 +394,10 @@
 	path = extensions/nix
 	url = https://github.com/hasit/zed-nix.git
 
+[submodule "extensions/nix-language"]
+	path = extensions/nix-language
+	url = https://github.com/msanft/nix-zed
+
 [submodule "extensions/noir"]
 	path = extensions/noir
 	url = https://github.com/shuklaayush/zed-noir.git
