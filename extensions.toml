@@ -76,6 +76,10 @@ version = "0.0.3"
 submodule = "extensions/cadence"
 version = "0.0.1"
 
+[call-trans-opt-received]
+submodule = "extensions/call-trans-opt-received"
+version = "0.1.0"
+
 [capnp]
 submodule = "extensions/capnp"
 version = "0.0.1"
@@ -841,6 +845,3 @@ version = "0.0.3"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.1.2"
-[call-trans-opt-received]
-submodule = 'extensions/call-trans-opt-received'
-version = '0.1.0'
