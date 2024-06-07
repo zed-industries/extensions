@@ -70,6 +70,10 @@
 	path = extensions/cadence
 	url = https://github.com/janezpodhostnik/cadence.zed.git
 
+[submodule "extensions/call-trans-opt-received"]
+	path = extensions/call-trans-opt-received
+	url = https://github.com/takk8is/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed.gif
+
 [submodule "extensions/capnp"]
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
@@ -717,7 +721,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-
-[submodule "extensions/call-trans-opt-received"]
-	path = extensions/call-trans-opt-received
-	url = https://github.com/takk8is/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed.gif
