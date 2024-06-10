@@ -258,6 +258,10 @@
 	path = extensions/ini
 	url = https://github.com/bajrangCoder/zed-ini.git
 
+[submodule "extensions/intellij-newui-theme"]
+	path = extensions/intellij-newui-theme
+	url = https://github.com/kpitt/zed-theme-intellij-newui.git
+
 [submodule "extensions/java"]
 	path = extensions/java
 	url = https://github.com/samuser107/zed-java-extension.git
@@ -729,6 +733,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/intellij-newui-theme"]
-	path = extensions/intellij-newui-theme
-	url = https://github.com/kpitt/zed-theme-intellij-newui.git
