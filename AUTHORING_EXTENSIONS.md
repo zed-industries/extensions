@@ -134,6 +134,7 @@ In your PR do the following:
    submodule = "extensions/my-extension"
    version = "0.0.1"
    ```
+3. Run `pnpm sort-extensions` to ensure `extensions.toml` and `.gitmodules` are sorted
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
 
