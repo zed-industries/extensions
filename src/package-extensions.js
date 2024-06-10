@@ -3,6 +3,7 @@ import toml from "@iarna/toml";
 import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { sortExtensionsToml } from "./lib/extensions-toml.js";
 import { fileExists, readTomlFile } from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
@@ -299,26 +300,4 @@ async function changedExtensionIds(extensionsToml) {
 
   console.log("Extensions changed from main:", result.join(", "));
   return result;
-}
-
-/** @param {string} path */
-async function sortExtensionsToml(path) {
-  const extensionsToml = await readTomlFile(path);
-
-  const extensionNames = Object.keys(extensionsToml);
-  extensionNames.sort();
-
-  /** @type {Record<string, any>} */
-  const sortedExtensionsToml = {};
-
-  for (const name of extensionNames) {
-    const entry = extensionsToml[name];
-    sortedExtensionsToml[name] = entry;
-  }
-
-  await fs.writeFile(
-    path,
-    toml.stringify(sortedExtensionsToml).trimEnd() + "\n",
-    "utf-8",
-  );
 }
