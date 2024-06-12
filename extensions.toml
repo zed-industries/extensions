@@ -6,6 +6,10 @@ version = "1.0.2"
 submodule = "extensions/alabaster"
 version = "0.0.2"
 
+[amber-monochrome-monitor-crt-phosphor]
+submodule = "extensions/amber-monochrome-monitor-crt-phosphor"
+version = "0.1.3"
+
 [anya]
 submodule = "extensions/anya"
 version = "0.0.2"
@@ -80,6 +84,10 @@ version = "0.0.1"
 submodule = "extensions/cairo"
 version = "0.0.1"
 
+[call-trans-opt-received]
+submodule = "extensions/call-trans-opt-received"
+version = "0.1.0"
+
 [capnp]
 submodule = "extensions/capnp"
 version = "0.0.1"
@@ -111,7 +119,7 @@ version = "0.0.2"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
-version = "0.0.2"
+version = "0.0.3"
 
 [colorizer]
 submodule = "extensions/colorizer"
@@ -230,7 +238,7 @@ version = "0.0.1"
 
 [fsharp]
 submodule = "extensions/fsharp"
-version = "0.0.1"
+version = "0.0.2"
 
 [gdscript]
 submodule = "extensions/gdscript"
@@ -319,6 +327,14 @@ version = "0.1.1"
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
+
+[ini]
+submodule = "extensions/ini"
+version = "0.0.1"
+
+[intellij-newui-theme]
+submodule = "extensions/intellij-newui-theme"
+version = "0.1.0"
 
 [java]
 submodule = "extensions/java"
@@ -451,7 +467,7 @@ version = "0.4.0"
 
 [neocmake]
 submodule = "extensions/neocmake"
-version = "0.0.1"
+version = "0.0.2"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -495,7 +511,7 @@ version = "0.0.3"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.1.1"
+version = "0.2.0"
 
 [ocaml]
 submodule = "extensions/zed"
@@ -586,6 +602,10 @@ version = "0.0.1"
 submodule = "extensions/rainbow-csv"
 version = "0.0.2"
 
+[rego]
+submodule = "extensions/rego"
+version = "0.0.1"
+
 [rescript]
 submodule = "extensions/rescript"
 version = "0.1.0"
@@ -622,7 +642,11 @@ version = "0.0.3"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "0.0.5"
+version = "0.0.6"
+
+[simple-darker]
+submodule = "extensions/simple-darker"
+version = "0.0.1"
 
 [siri]
 submodule = "extensions/siri"

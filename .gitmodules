@@ -6,6 +6,10 @@
 	path = extensions/alabaster
 	url = https://github.com/tsimoshka/zed-theme-alabaster.git
 
+[submodule "extensions/amber-monochrome-monitor-crt-phosphor"]
+	path = extensions/amber-monochrome-monitor-crt-phosphor
+	url = https://github.com/Takk8IS/amber-monochrome-monitor-crt-phosphor-theme-for-zed.git
+
 [submodule "extensions/anya"]
 	path = extensions/anya
 	url = https://github.com/anya-theme/anya-zed.git
@@ -72,7 +76,11 @@
 
 [submodule "extensions/cairo"]
 	path = extensions/cairo
-	url = https://github.com/trbutler4/zed-cairo.git
+    url = https://github.com/trbutler4/zed-cairo.git
+
+[submodule "extensions/call-trans-opt-received"]
+	path = extensions/call-trans-opt-received
+	url = https://github.com/takk8is/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed.git
 
 [submodule "extensions/capnp"]
 	path = extensions/capnp
@@ -253,6 +261,14 @@
 [submodule "extensions/indigo"]
 	path = extensions/indigo
 	url = https://github.com/p3rception/Indigo-zed.git
+
+[submodule "extensions/ini"]
+	path = extensions/ini
+	url = https://github.com/bajrangCoder/zed-ini.git
+
+[submodule "extensions/intellij-newui-theme"]
+	path = extensions/intellij-newui-theme
+	url = https://github.com/kpitt/zed-theme-intellij-newui.git
 
 [submodule "extensions/java"]
 	path = extensions/java
@@ -490,6 +506,10 @@
 	path = extensions/rainbow-csv
 	url = https://github.com/weartist/zed-rainbow-csv.git
 
+[submodule "extensions/rego"]
+	path = extensions/rego
+	url = https://github.com/StyraInc/zed-rego.git
+
 [submodule "extensions/rescript"]
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
@@ -517,6 +537,10 @@
 [submodule "extensions/serendipity"]
 	path = extensions/serendipity
 	url = https://github.com/meocoder31099/Serendipity-Theme-Zed
+
+[submodule "extensions/simple-darker"]
+	path = extensions/simple-darker
+	url = https://github.com/DP19/zed-theme-simple-darker.git
 
 [submodule "extensions/siri"]
 	path = extensions/siri
