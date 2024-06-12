@@ -76,6 +76,10 @@ version = "0.0.3"
 submodule = "extensions/cadence"
 version = "0.0.1"
 
+[cairo]
+submodule = "extensions/cairo"
+version = "0.0.1"
+
 [capnp]
 submodule = "extensions/capnp"
 version = "0.0.1"
@@ -849,7 +853,3 @@ version = "0.0.3"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.1.2"
-
-[cairo]
-submodule = "extensions/cairo"
-version = "0.0.1"
