@@ -2,6 +2,10 @@
 package-extensions:
     pnpm package-extensions
 
+# Sorts the extensions.
+sort-extensions:
+    pnpm sort-extensions
+
 # Initializes the submodule at the given path.
 init-submodule SUBMODULE_PATH:
     git submodule update --init --recursive {{SUBMODULE_PATH}}
