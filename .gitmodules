@@ -2,6 +2,10 @@
 	path = extensions/0x96f
 	url = https://github.com/filipjanevski/zed-theme.git
 
+[submodule "extensions/adwaita-pastel"]
+	path = extensions/adwaita-pastel
+	url = https://github.com/Benjamin-Davies/zed-theme-adwaita.git
+
 [submodule "extensions/alabaster"]
 	path = extensions/alabaster
 	url = https://github.com/tsimoshka/zed-theme-alabaster.git
@@ -709,6 +713,10 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = https://github.com/d1y/vscode-monokaicharcoal.zed.git
+
+[submodule "extensions/wakfu-theme"]
+	path = extensions/wakfu-theme
+	url = https://github.com/JulesSorensen/zed-wakfu-theme
 
 [submodule "extensions/warp-one-dark"]
 	path = extensions/warp-one-dark
