@@ -185,6 +185,13 @@ async function packageExtension(
   );
   console.log(zedExtensionOutput.stdout);
 
+  const warnings = zedExtensionOutput.stderr
+    .split("\n")
+    .filter((line) => line.includes("WARN"));
+  for (const warning of warnings) {
+    console.log(warning);
+  }
+
   const manifestJson = await fs.readFile(
     path.join(outputDir, "manifest.json"),
     "utf-8",
