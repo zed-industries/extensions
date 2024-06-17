@@ -115,7 +115,7 @@ See [this blog post](https://zed.dev/blog/user-themes-now-in-preview) for more d
 
 ## Testing your extension locally
 
-To test your extension locally, you can open up the extensions view with the `zed: extensions` command and then click on the `Add Dev Extension` button.
+To test your extension locally, you can open up the extensions view with the `zed: extensions` command and then click on the `Install Dev Extension` button.
 
 This will open a file dialog where you can locate and select the directory in which your extension resides.
 
@@ -134,6 +134,7 @@ In your PR do the following:
    submodule = "extensions/my-extension"
    version = "0.0.1"
    ```
+3. Run `pnpm sort-extensions` to ensure `extensions.toml` and `.gitmodules` are sorted
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
 
