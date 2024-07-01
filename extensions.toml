@@ -272,6 +272,10 @@ version = "0.0.2"
 submodule = "extensions/git-firefly"
 version = "0.0.3"
 
+[github-copilot-theme]
+submodule = "extensions/zed-gh-copilot-theme"
+version = "0.0.1"
+
 [github-dark-default]
 submodule = "extensions/github-dark-default"
 version = "0.0.1"
@@ -893,10 +897,6 @@ version = "0.0.5"
 [xy-zed]
 submodule = "extensions/xy-zed"
 version = "0.0.11"
-
-[zed-gh-copilot-theme]
-submodule = "extensions/zed-gh-copilot-theme"
-version = "0.0.1"
 
 [zedokai]
 submodule = "extensions/zedokai"
