@@ -272,6 +272,10 @@ version = "0.0.2"
 submodule = "extensions/git-firefly"
 version = "0.0.3"
 
+[github-copilot-theme]
+submodule = "extensions/github-copilot-theme"
+version = "0.0.1"
+
 [github-dark-default]
 submodule = "extensions/github-dark-default"
 version = "0.0.1"
@@ -398,6 +402,10 @@ version = "1.0.1"
 
 [less]
 submodule = "extensions/less"
+version = "0.0.1"
+
+[lilypond]
+submodule = "extensions/lilypond"
 version = "0.0.1"
 
 [liquid]
@@ -640,7 +648,7 @@ version = "0.1.0"
 
 [roc]
 submodule = "extensions/roc"
-version = "0.0.5"
+version = "0.0.6"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
