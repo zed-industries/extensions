@@ -226,6 +226,10 @@
 	path = extensions/git-firefly
 	url = https://github.com/d1y/git_firefly.git
 
+[submodule "extensions/github-copilot-theme"]
+	path = extensions/github-copilot-theme
+	url = https://github.com/ssaunderss/zed-gh-copilot-theme
+
 [submodule "extensions/github-dark-default"]
 	path = extensions/github-dark-default
 	url = https://github.com/MordFustang21/zed-github-dark.git
@@ -329,6 +333,14 @@
 [submodule "extensions/leblackque"]
 	path = extensions/leblackque
 	url = https://github.com/gx0r/leblackque.git
+
+[submodule "extensions/less"]
+	path = extensions/less
+	url = https://github.com/jimliang/zed-less.git
+
+[submodule "extensions/lilypond"]
+	path = extensions/lilypond
+	url = https://github.com/nwhetsell/lilypond-zed-extension
 
 [submodule "extensions/liquid"]
 	path = extensions/liquid
