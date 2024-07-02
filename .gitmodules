@@ -402,6 +402,10 @@
 	path = extensions/modest-dark
 	url = https://github.com/timcole/modest-dark.git
 
+[submodule "extensions/monokai"]
+	path = extensions/monokai
+	url = https://github.com/billgo/monokai.git
+
 [submodule "extensions/monolith"]
 	path = extensions/monolith
 	url = https://github.com/someone13574/zed-monolith-theme.git
@@ -478,9 +482,9 @@
 	path = extensions/nvim-nightfox
 	url = https://github.com/cange/nightfox.zed.git
 
-[submodule "extensions/ocean-dark-motives"]
-	path = extensions/ocean-dark-motives
-	url = https://github.com/kirqe/zed-ocean-dark-motives-theme.git
+[submodule "extensions/ocean-dark-motifs"]
+	path = extensions/ocean-dark-motifs
+	url = https://github.com/kirqe/zed-ocean-dark-motifs-theme.git
 
 [submodule "extensions/oceanic-next"]
 	path = extensions/oceanic-next
