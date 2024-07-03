@@ -94,7 +94,7 @@ version = "0.0.1"
 
 [cairo]
 submodule = "extensions/cairo"
-version = "0.0.2"
+version = "0.0.3"
 
 [call-trans-opt-received]
 submodule = "extensions/call-trans-opt-received"
@@ -469,6 +469,10 @@ version = "0.1.0"
 submodule = "extensions/modest-dark"
 version = "0.1.1"
 
+[monokai]
+submodule = "extensions/monokai"
+version = "0.1.0"
+
 [monolith]
 submodule = "extensions/monolith"
 version = "0.0.2"
@@ -550,8 +554,8 @@ submodule = "extensions/zed"
 path = "extensions/ocaml"
 version = "0.0.1"
 
-[ocean-dark-motives]
-submodule = "extensions/ocean-dark-motives"
+[ocean-dark-motifs]
+submodule = "extensions/ocean-dark-motifs"
 version = "0.0.1"
 
 [oceanic-next]
@@ -614,7 +618,7 @@ version = "0.0.3"
 [prisma]
 submodule = "extensions/zed"
 path = "extensions/prisma"
-version = "0.0.2"
+version = "0.0.3"
 
 [purescript]
 submodule = "extensions/zed"
@@ -719,7 +723,7 @@ version = "0.0.1"
 
 [solidity]
 submodule = "extensions/solidity"
-version = "0.0.3"
+version = "0.1.0"
 
 [sql]
 submodule = "extensions/sql"
@@ -921,4 +925,4 @@ version = "0.0.3"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.1.2"
+version = "0.1.3"
