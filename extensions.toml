@@ -1,6 +1,6 @@
 [0x96f]
 submodule = "extensions/0x96f"
-version = "1.0.2"
+version = "1.0.3"
 
 [adwaita-pastel]
 submodule = "extensions/adwaita-pastel"
@@ -80,6 +80,10 @@ version = "0.0.2"
 submodule = "extensions/blanche"
 version = "0.0.1"
 
+[bqn]
+submodule = "extensions/bqn"
+version = "0.0.1"
+
 [brainfuck]
 submodule = "extensions/brainfuck"
 version = "0.0.3"
@@ -90,7 +94,7 @@ version = "0.0.1"
 
 [cairo]
 submodule = "extensions/cairo"
-version = "0.0.1"
+version = "0.0.3"
 
 [call-trans-opt-received]
 submodule = "extensions/call-trans-opt-received"
@@ -169,7 +173,7 @@ version = "0.0.2"
 
 [denix]
 submodule = "extensions/denix"
-version = "0.0.5"
+version = "0.0.6"
 
 [deno]
 submodule = "extensions/zed"
@@ -268,6 +272,10 @@ version = "0.0.2"
 submodule = "extensions/git-firefly"
 version = "0.0.3"
 
+[github-copilot-theme]
+submodule = "extensions/github-copilot-theme"
+version = "0.0.2"
+
 [github-dark-default]
 submodule = "extensions/github-dark-default"
 version = "0.0.1"
@@ -300,7 +308,7 @@ version = "0.2.0"
 
 [graphql]
 submodule = "extensions/graphql"
-version = "0.0.2"
+version = "0.0.3"
 
 [green-monochrome-monitor-crt-phosphor]
 submodule = "extensions/green-monochrome-monitor-crt-phosphor"
@@ -316,7 +324,7 @@ version = "0.0.1"
 
 [gruber-darker]
 submodule = "extensions/gruber-darker"
-version = "0.0.2"
+version = "0.0.4"
 
 [halcyon]
 submodule = "extensions/halcyon"
@@ -354,7 +362,7 @@ version = "0.0.4"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
-version = "0.2.1"
+version = "0.2.2"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -392,6 +400,14 @@ version = "0.0.2"
 submodule = "extensions/leblackque"
 version = "1.0.1"
 
+[less]
+submodule = "extensions/less"
+version = "0.0.1"
+
+[lilypond]
+submodule = "extensions/lilypond"
+version = "0.0.1"
+
 [liquid]
 submodule = "extensions/liquid"
 version = "0.0.1"
@@ -411,7 +427,7 @@ version = "0.0.2"
 
 [luau]
 submodule = "extensions/luau"
-version = "0.1.0"
+version = "0.1.2"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -452,6 +468,10 @@ version = "0.1.0"
 [modest-dark]
 submodule = "extensions/modest-dark"
 version = "0.1.1"
+
+[monokai]
+submodule = "extensions/monokai"
+version = "0.1.0"
 
 [monolith]
 submodule = "extensions/monolith"
@@ -534,6 +554,10 @@ submodule = "extensions/zed"
 path = "extensions/ocaml"
 version = "0.0.1"
 
+[ocean-dark-motifs]
+submodule = "extensions/ocean-dark-motifs"
+version = "0.0.2"
+
 [oceanic-next]
 submodule = "extensions/oceanic-next"
 version = "0.1.0"
@@ -589,12 +613,12 @@ version = "0.1.0"
 
 [poimandres]
 submodule = "extensions/poimandres"
-version = "0.0.2"
+version = "0.0.3"
 
 [prisma]
 submodule = "extensions/zed"
 path = "extensions/prisma"
-version = "0.0.2"
+version = "0.0.3"
 
 [purescript]
 submodule = "extensions/zed"
@@ -616,11 +640,11 @@ version = "0.0.1"
 
 [rainbow-csv]
 submodule = "extensions/rainbow-csv"
-version = "0.0.2"
+version = "0.0.3"
 
 [rego]
 submodule = "extensions/rego"
-version = "0.0.1"
+version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
@@ -628,7 +652,7 @@ version = "0.1.0"
 
 [roc]
 submodule = "extensions/roc"
-version = "0.0.3"
+version = "0.0.6"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
@@ -684,6 +708,11 @@ version = "0.0.1"
 submodule = "extensions/smooth"
 version = "1.0.0"
 
+[snippets]
+submodule = "extensions/zed"
+path = "extensions/snippets"
+version = "0.0.5"
+
 [snowflake]
 submodule = "extensions/snowflake"
 version = "1.0.0"
@@ -694,7 +723,7 @@ version = "0.0.1"
 
 [solidity]
 submodule = "extensions/solidity"
-version = "0.0.3"
+version = "0.1.0"
 
 [sql]
 submodule = "extensions/sql"
@@ -706,7 +735,7 @@ version = "0.0.2"
 
 [starlark]
 submodule = "extensions/starlark"
-version = "0.1.1"
+version = "0.1.2"
 
 [stimulus]
 submodule = "extensions/stimulus"
@@ -748,7 +777,7 @@ version = "0.0.3"
 
 [terrible-theme]
 submodule = "extensions/terrible-theme"
-version = "0.0.1"
+version = "0.0.3"
 
 [the-dark-side]
 submodule = "extensions/the-dark-side"
@@ -798,7 +827,7 @@ version = "0.0.1"
 
 [unoflat]
 submodule = "extensions/unoflat"
-version = "0.0.3"
+version = "0.1.0"
 
 [v]
 submodule = "extensions/v"
@@ -896,4 +925,4 @@ version = "0.0.3"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.1.2"
+version = "0.1.3"
