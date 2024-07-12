@@ -202,6 +202,10 @@
 	path = extensions/fleet-themes
 	url = https://github.com/skarline/zed-fleet-themes.git
 
+[submodule "extensions/focus"]
+	path = extensions/focus
+	url = https://github.com/jigyansunanda/focus.git
+
 [submodule "extensions/fortran"]
 	path = extensions/fortran
 	url = https://github.com/Xavier-Maruff/zed-fortran.git
@@ -805,6 +809,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/focus"]
-	path = extensions/focus
-	url = https://github.com/jigyansunanda/focus.git
