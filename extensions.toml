@@ -310,6 +310,10 @@ submodule = "extensions/zed"
 path = "extensions/glsl"
 version = "0.1.0"
 
+[golangci-lint]
+submodule = "extensions/golangci-lint"
+version = "0.1.0"
+
 [graphene]
 submodule = "extensions/graphene"
 version = "0.2.0"
