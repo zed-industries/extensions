@@ -150,6 +150,10 @@
 	path = extensions/d
 	url = https://github.com/staysail/zed-d.git
 
+[submodule "extensions/dbml"]
+	path = extensions/dbml
+	url = https://github.com/shuklaayush/zed-dbml.git
+
 [submodule "extensions/denix"]
 	path = extensions/denix
 	url = https://github.com/denix666/zed-theme.git
@@ -178,6 +182,10 @@
 	path = extensions/ember
 	url = https://github.com/jylamont/zed-ember.git
 
+[submodule "extensions/env"]
+	path = extensions/env
+	url = https://github.com/zarifpour/zed-env
+
 [submodule "extensions/everforest"]
 	path = extensions/everforest
 	url = https://github.com/ThomasAlban/everforest-zed.git
@@ -201,6 +209,14 @@
 [submodule "extensions/fleet-themes"]
 	path = extensions/fleet-themes
 	url = https://github.com/skarline/zed-fleet-themes.git
+
+[submodule "extensions/flexoki-themes"]
+	path = extensions/flexoki-themes
+	url = https://github.com/oddship/zed-flexoki-theme.git
+
+[submodule "extensions/focus-theme"]
+	path = extensions/focus-theme
+	url = https://github.com/jigyansunanda/focus.git
 
 [submodule "extensions/fortran"]
 	path = extensions/fortran
@@ -249,6 +265,10 @@
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
+
+[submodule "extensions/golangci-lint"]
+	path = extensions/golangci-lint
+	url = https://github.com/j4ng5y/zed_golangci_lint
 
 [submodule "extensions/graphene"]
 	path = extensions/graphene
@@ -390,6 +410,10 @@
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes.git
 
+[submodule "extensions/melange"]
+	path = extensions/melange
+	url = https://github.com/adorabilis/melange-zed
+
 [submodule "extensions/mellow"]
 	path = extensions/mellow
 	url = https://github.com/sonodima/zed-mellow.git
@@ -502,6 +526,10 @@
 	path = extensions/one-dark-pro
 	url = https://github.com/MordFustang21/zed-one-dark-pro.git
 
+[submodule "extensions/one-dark-pro-monokai-darker"]
+	path = extensions/one-dark-pro-monokai-darker
+	url = https://github.com/9ssi7/zed-one-dark-pro-monokai-darker.git
+
 [submodule "extensions/one-hunter"]
 	path = extensions/one-hunter
 	url = https://github.com/teziovsky/zed-one-hunter-theme.git
@@ -509,6 +537,10 @@
 [submodule "extensions/oolong"]
 	path = extensions/oolong
 	url = https://github.com/jmg-duarte/oolong-zed.git
+
+[submodule "extensions/outrun"]
+	path = extensions/outrun
+	url = https://github.com/Acepie/OutrunZedTheme.git
 
 [submodule "extensions/pact"]
 	path = extensions/pact
@@ -541,6 +573,10 @@
 [submodule "extensions/poimandres"]
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
+
+[submodule "extensions/qml"]
+	path = extensions/qml
+	url = https://github.com/lkroll/zed-qml.git
 
 [submodule "extensions/quill"]
 	path = extensions/quill
