@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { validateGitmodules, validateManifest } from "./validation.js";
+import {
+  validateExtensionsToml,
+  validateGitmodules,
+  validateManifest,
+} from "./validation.js";
 
 describe("validateManifest", () => {
   describe("given a valid manifest", () => {
@@ -24,6 +28,36 @@ describe("validateManifest", () => {
         `[Error: Extension names should not start with "Zed ", as they are all Zed extensions: "Zed Something".]`,
       );
     });
+  });
+});
+
+describe("validateExtensionsToml", () => {
+  describe("when `extensions.toml` only contains extensions with valid IDs", () => {
+    it.each(["my-cool-extension", "base16"])(
+      'does not throw for "%s"',
+      (extensionId) => {
+        const extensionsToml = {
+          [extensionId]: {},
+        };
+
+        expect(() => validateExtensionsToml(extensionsToml)).not.toThrow();
+      },
+    );
+  });
+
+  describe("when `extensions.toml` contains an extension ID with invalid characters", () => {
+    it.each(["BadExtension", "bad_extension"])(
+      'throws a validation error for "%s"',
+      (extensionId) => {
+        const extensionsToml = {
+          [extensionId]: {},
+        };
+
+        expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
+          `Extension IDs must only consist of lowercase letters, numbers, and hyphens ('-'): "${extensionId}".`,
+        );
+      },
+    );
   });
 });
 
