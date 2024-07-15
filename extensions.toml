@@ -169,7 +169,11 @@ version = "0.0.4"
 [dart]
 submodule = "extensions/zed"
 path = "extensions/dart"
-version = "0.0.2"
+version = "0.0.3"
+
+[dbml]
+submodule = "extensions/dbml"
+version = "0.0.1"
 
 [denix]
 submodule = "extensions/denix"
@@ -250,7 +254,7 @@ version = "1.1.0"
 
 [fortran]
 submodule = "extensions/fortran"
-version = "0.0.1"
+version = "0.0.2"
 
 [frosted-theme]
 submodule = "extensions/frosted-theme"
@@ -258,7 +262,7 @@ version = "0.0.1"
 
 [fsharp]
 submodule = "extensions/fsharp"
-version = "0.0.2"
+version = "0.0.3"
 
 [gdscript]
 submodule = "extensions/gdscript"
@@ -383,7 +387,7 @@ version = "0.1.2"
 
 [just]
 submodule = "extensions/just"
-version = "0.1.0"
+version = "0.1.1"
 
 [kanagawa-themes]
 submodule = "extensions/kanagawa-themes"
@@ -436,7 +440,7 @@ version = "0.0.3"
 
 [luau]
 submodule = "extensions/luau"
-version = "0.1.2"
+version = "0.1.3"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -465,6 +469,10 @@ version = "0.0.1"
 [mau]
 submodule = "extensions/mau"
 version = "0.0.2"
+
+[melange]
+submodule = "extensions/melange"
+version = "0.0.1"
 
 [mellow]
 submodule = "extensions/mellow"
@@ -591,6 +599,10 @@ version = "0.0.4"
 submodule = "extensions/oolong"
 version = "0.0.2"
 
+[outrun]
+submodule = "extensions/outrun"
+version = "0.0.1"
+
 [pact]
 submodule = "extensions/pact"
 version = "0.0.2"
@@ -636,6 +648,10 @@ version = "0.0.3"
 [purescript]
 submodule = "extensions/zed"
 path = "extensions/purescript"
+version = "0.0.1"
+
+[qml]
+submodule = "extensions/qml"
 version = "0.0.1"
 
 [quill]
@@ -713,6 +729,10 @@ version = "0.0.5"
 submodule = "extensions/slate"
 version = "0.0.2"
 
+[slim]
+submodule = "extensions/slim"
+version = "1.0.1"
+
 [slint]
 submodule = "extensions/slint"
 version = "0.0.3"
@@ -740,7 +760,7 @@ version = "0.0.1"
 
 [solidity]
 submodule = "extensions/solidity"
-version = "0.1.0"
+version = "0.1.3"
 
 [sql]
 submodule = "extensions/sql"
@@ -925,7 +945,7 @@ version = "0.0.5"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
-version = "0.0.11"
+version = "0.1.1"
 
 [zedokai]
 submodule = "extensions/zedokai"
