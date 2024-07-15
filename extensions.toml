@@ -223,6 +223,10 @@ submodule = "extensions/zed"
 path = "extensions/emmet"
 version = "0.0.3"
 
+[env]
+submodule = "extensions/env"
+version = "0.0.1"
+
 [erlang]
 submodule = "extensions/zed"
 path = "extensions/erlang"
