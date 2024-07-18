@@ -3,6 +3,7 @@ import toml from "@iarna/toml";
 import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { sortExtensionsToml } from "./lib/extensions-toml.js";
 import { fileExists, readTomlFile } from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
@@ -144,7 +145,7 @@ async function packageExtension(
   await fs.mkdir(SCRATCH_DIR, { recursive: true });
 
   if (await fileExists(path.join(extensionPath, "extension.json"))) {
-    console.warn(
+    throw new Error(
       "The `extension.json` manifest format has been superseded by `extension.toml`",
     );
   }
@@ -184,6 +185,13 @@ async function packageExtension(
   );
   console.log(zedExtensionOutput.stdout);
 
+  const warnings = zedExtensionOutput.stderr
+    .split("\n")
+    .filter((line) => line.includes("WARN"));
+  for (const warning of warnings) {
+    console.log(warning);
+  }
+
   const manifestJson = await fs.readFile(
     path.join(outputDir, "manifest.json"),
     "utf-8",
@@ -220,23 +228,41 @@ async function packageExtension(
 }
 
 async function getPublishedVersionsByExtensionId() {
-  const bucketList = await s3.listObjects({
-    Bucket: S3_BUCKET,
-    Prefix: `${EXTENSIONS_PREFIX}/`,
-  });
+  /** @type {string | undefined} */
+  let nextMarker;
 
   /** @type {Record<string, string[]>} */
   const publishedVersionsByExtensionId = {};
-  bucketList.Contents?.forEach((object) => {
-    const [_prefix, extensionId, version, _filename] =
-      object.Key?.split("/") ?? [];
-    assert.ok(extensionId, "No extension ID in blob store key.");
-    assert.ok(version, "No version in blob store key.");
 
-    const publishedVersions = publishedVersionsByExtensionId[extensionId] ?? [];
-    publishedVersions.push(version);
-    publishedVersionsByExtensionId[extensionId] = publishedVersions;
-  });
+  do {
+    const bucketList = await s3.listObjects({
+      Bucket: S3_BUCKET,
+      Prefix: `${EXTENSIONS_PREFIX}/`,
+      ...(nextMarker ? { Marker: nextMarker } : {}),
+    });
+
+    console.log(
+      `Retrieved ${bucketList.Contents?.length} object(s) from bucket.`,
+    );
+    for (const object of bucketList.Contents ?? []) {
+      const [_prefix, extensionId, version, _filename] =
+        object.Key?.split("/") ?? [];
+      assert.ok(extensionId, "No extension ID in blob store key.");
+      assert.ok(version, "No version in blob store key.");
+
+      const publishedVersions =
+        publishedVersionsByExtensionId[extensionId] ?? [];
+      publishedVersions.push(version);
+      publishedVersionsByExtensionId[extensionId] = publishedVersions;
+    }
+
+    if (bucketList.Contents && bucketList.IsTruncated) {
+      const lastObject = bucketList.Contents[bucketList.Contents.length - 1];
+      nextMarker = lastObject?.Key;
+    } else {
+      nextMarker = undefined;
+    }
+  } while (nextMarker);
 
   return publishedVersionsByExtensionId;
 }
@@ -281,26 +307,4 @@ async function changedExtensionIds(extensionsToml) {
 
   console.log("Extensions changed from main:", result.join(", "));
   return result;
-}
-
-/** @param {string} path */
-async function sortExtensionsToml(path) {
-  const extensionsToml = await readTomlFile(path);
-
-  const extensionNames = Object.keys(extensionsToml);
-  extensionNames.sort();
-
-  /** @type {Record<string, any>} */
-  const sortedExtensionsToml = {};
-
-  for (const name of extensionNames) {
-    const entry = extensionsToml[name];
-    sortedExtensionsToml[name] = entry;
-  }
-
-  await fs.writeFile(
-    path,
-    toml.stringify(sortedExtensionsToml).trimEnd() + "\n",
-    "utf-8",
-  );
 }
