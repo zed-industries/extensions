@@ -48,6 +48,10 @@ version = "1.0.0"
 submodule = "extensions/autocorrect"
 version = "0.1.0"
 
+[awk]
+submodule = "extensions/awk"
+version = "0.0.1"
+
 [base16]
 submodule = "extensions/base16"
 version = "0.1.0"
@@ -673,7 +677,7 @@ version = "0.1.0"
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
-version = "0.1.1"
+version = "0.1.2"
 
 [pica200]
 submodule = "extensions/pica200"
