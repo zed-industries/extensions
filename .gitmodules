@@ -690,6 +690,10 @@
 	path = extensions/slint
 	url = https://gitlab.com/flukejones/zed-slint.git
 
+[submodule "extensions/smali"]
+	path = extensions/smali
+	url = https://github.com/Belluxx/zed-smali-extension
+
 [submodule "extensions/smithy"]
 	path = extensions/smithy
 	url = https://github.com/joshrutkowski/zed-smithy.git
@@ -893,6 +897,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/smali"]
-	path = extensions/smali
-	url = https://github.com/Belluxx/zed-smali-extension
