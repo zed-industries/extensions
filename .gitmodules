@@ -650,10 +650,6 @@
 	path = extensions/rose-pine-theme
 	url = https://github.com/rose-pine/zed
 
-[submodule "extensions/s-dark-theme"]
-	path = extensions/s-dark-theme
-	url = https://github.com/sinamombeiny/S-DarkTheme.zed.git
-
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
@@ -893,3 +889,6 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
+[submodule "extensions/s-dark-theme"]
+	path = extensions/s-dark-theme
+	url = https://github.com/sinamombeiny/S-DarkTheme.zed
