@@ -216,6 +216,10 @@ version = "0.9.2"
 submodule = "extensions/earthfile"
 version = "0.1.0"
 
+[ejs]
+submodule = "extensions/ejs"
+version = "0.0.1"
+
 [elisp]
 submodule = "extensions/elisp"
 version = "0.0.4"
@@ -236,7 +240,7 @@ version = "0.0.1"
 
 [ember-theme]
 submodule = "extensions/ember-theme"
-version = "0.5.0"
+version = "0.6.0"
 
 [emmet]
 submodule = "extensions/zed"
@@ -298,7 +302,7 @@ version = "0.0.3"
 
 [gdscript]
 submodule = "extensions/gdscript"
-version = "0.2.0"
+version = "0.3.1"
 
 [gemini]
 submodule = "extensions/gemini"
@@ -446,7 +450,7 @@ version = "1.0.0"
 
 [latex]
 submodule = "extensions/latex"
-version = "0.0.2"
+version = "0.0.3"
 
 [leblackque]
 submodule = "extensions/leblackque"
@@ -488,6 +492,10 @@ version = "0.0.8"
 [make]
 submodule = "extensions/make"
 version = "1.0.1"
+
+[mariana-theme]
+submodule = "extensions/mariana-theme"
+version = "0.5.0"
 
 [marine-dark]
 submodule = "extensions/marine-dark"
@@ -670,6 +678,10 @@ version = "0.0.2"
 submodule = "extensions/palenight"
 version = "0.0.1"
 
+[panda-theme]
+submodule = "extensions/panda-theme"
+version = "0.5.0"
+
 [paraiso]
 submodule = "extensions/paraiso"
 version = "1.0.1"
@@ -755,9 +767,14 @@ submodule = "extensions/zed"
 path = "extensions/ruby"
 version = "0.0.8"
 
+[ruff]
+submodule = "extensions/zed"
+path = "extensions/ruff"
+version = "0.0.1"
+
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
-version = "1.0.0"
+version = "1.0.1"
 
 [scala]
 submodule = "extensions/scala"
@@ -900,6 +917,10 @@ submodule = "extensions/zed"
 path = "extensions/toml"
 version = "0.1.1"
 
+[tomorrow-theme]
+submodule = "extensions/tomorrow-theme"
+version = "0.5.0"
+
 [tsar]
 submodule = "extensions/tsar"
 version = "0.0.2"
@@ -1017,6 +1038,10 @@ version = "0.0.5"
 [xy-zed]
 submodule = "extensions/xy-zed"
 version = "0.1.1"
+
+[yue-theme]
+submodule = "extensions/yue-theme"
+version = "0.5.0"
 
 [zedokai]
 submodule = "extensions/zedokai"
