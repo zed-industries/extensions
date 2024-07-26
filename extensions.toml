@@ -37,7 +37,7 @@ version = "0.0.1"
 [astro]
 submodule = "extensions/zed"
 path = "extensions/astro"
-version = "0.0.3"
+version = "0.1.0"
 
 [aura-theme]
 submodule = "extensions/aura"
@@ -198,7 +198,7 @@ version = "0.0.8"
 [deno]
 submodule = "extensions/zed"
 path = "extensions/deno"
-version = "0.0.1"
+version = "0.0.2"
 
 [docker-compose]
 submodule = "extensions/docker-compose"
@@ -438,7 +438,7 @@ version = "0.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.0.4"
+version = "0.1.0"
 
 [ktrz-monokai]
 submodule = "extensions/ktrz-monokai"
@@ -717,7 +717,7 @@ version = "0.1.0"
 
 [poimandres]
 submodule = "extensions/poimandres"
-version = "0.0.3"
+version = "0.0.4"
 
 [prisma]
 submodule = "extensions/zed"
@@ -897,12 +897,12 @@ version = "0.0.1"
 
 [templ]
 submodule = "extensions/templ"
-version = "0.0.2"
+version = "0.0.3"
 
 [terraform]
 submodule = "extensions/zed"
 path = "extensions/terraform"
-version = "0.0.3"
+version = "0.0.4"
 
 [terrible-theme]
 submodule = "extensions/terrible-theme"
@@ -1047,6 +1047,11 @@ version = "0.0.5"
 submodule = "extensions/xy-zed"
 version = "0.1.1"
 
+[yogi-amoled]
+submodule = "extensions/yogi-amoled"
+path = "Zed/yogi-amoled"
+version = "0.1.0"
+
 [yue-theme]
 submodule = "extensions/yue-theme"
 version = "0.5.0"
@@ -1066,4 +1071,4 @@ version = "0.0.3"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.1.4"
+version = "0.1.5"
