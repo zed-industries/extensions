@@ -2,6 +2,10 @@
 	path = extensions/0x96f
 	url = https://github.com/filipjanevski/zed-theme.git
 
+[submodule "extensions/ada"]
+	path = extensions/ada
+	url = https://github.com/wisn/zed-ada-language.git
+
 [submodule "extensions/adwaita-pastel"]
 	path = extensions/adwaita-pastel
 	url = https://github.com/Benjamin-Davies/zed-theme-adwaita.git
@@ -90,6 +94,10 @@
 	path = extensions/blanche
 	url = https://github.com/kwonoj/zed-blanche.git
 
+[submodule "extensions/blueprint"]
+	path = extensions/blueprint
+	url = https://github.com/tfuxu/zed-blueprint.git
+
 [submodule "extensions/bqn"]
 	path = extensions/bqn
 	url = https://github.com/DavidZwitser/zed-bqn.git
@@ -165,6 +173,10 @@
 [submodule "extensions/cue"]
 	path = extensions/cue
 	url = https://github.com/jkasky/zed-cue.git
+
+[submodule "extensions/curry"]
+	path = extensions/curry
+	url = https://github.com/fwcd/zed-curry.git
 
 [submodule "extensions/d"]
 	path = extensions/d
