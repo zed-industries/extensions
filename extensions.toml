@@ -1,6 +1,6 @@
 [0x96f]
 submodule = "extensions/0x96f"
-version = "1.1.0"
+version = "1.1.1"
 
 [ada]
 submodule = "extensions/ada"
@@ -402,6 +402,10 @@ version = "0.0.1"
 submodule = "extensions/gruber-darker"
 version = "0.0.4"
 
+[gruvbox-material]
+submodule = "extensions/gruvbox-material"
+version = "1.0.0"
+
 [halcyon]
 submodule = "extensions/halcyon"
 version = "0.0.1"
@@ -573,17 +577,13 @@ version = "0.0.1"
 submodule = "extensions/modest-dark"
 version = "0.1.2"
 
-[monokai]
-submodule = "extensions/monokai"
-version = "0.1.0"
-
 [monolith]
 submodule = "extensions/monolith"
 version = "0.0.3"
 
 [monosami]
 submodule = "extensions/monosami"
-version = "0.1.0"
+version = "0.1.1"
 
 [monospace-theme]
 submodule = "extensions/monospace-theme"
@@ -1103,6 +1103,10 @@ version = "0.7.0"
 [zedokai]
 submodule = "extensions/zedokai"
 version = "1.1.1"
+
+[zedrack-theme]
+submodule = "extensions/zedrack-theme"
+version = "0.0.5"
 
 [zedspace]
 submodule = "extensions/zedspace"
