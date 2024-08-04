@@ -670,6 +670,10 @@
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
 
+[submodule "extensions/pylsp"]
+	path = extensions/pylsp
+	url = git@github.com:erickod/extensions.git
+
 [submodule "extensions/qml"]
 	path = extensions/qml
 	url = https://github.com/lkroll/zed-qml.git
