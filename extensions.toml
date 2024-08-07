@@ -228,6 +228,10 @@ submodule = "extensions/zed"
 path = "extensions/deno"
 version = "0.0.2"
 
+[discord_presence]
+submodule = "extensions/discord-presence"
+version = "0.1.0"
+
 [docker-compose]
 submodule = "extensions/docker-compose"
 version = "0.1.0"
