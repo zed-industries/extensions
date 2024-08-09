@@ -10,6 +10,10 @@
 	path = extensions/adwaita-pastel
 	url = https://github.com/Benjamin-Davies/zed-theme-adwaita.git
 
+[submodule "extensions/aiken"]
+	path = extensions/aiken
+	url = https://github.com/aiken-lang/zed-aiken.git
+
 [submodule "extensions/alabaster"]
 	path = extensions/alabaster
 	url = https://github.com/tsimoshka/zed-theme-alabaster.git
@@ -25,6 +29,10 @@
 [submodule "extensions/anya"]
 	path = extensions/anya
 	url = https://github.com/anya-theme/anya-zed.git
+
+[submodule "extensions/aquarium-theme"]
+	path = extensions/aquarium-theme
+	url = https://github.com/biaqat/aquarium-theme-zed.git
 
 [submodule "extensions/asciidoc"]
 	path = extensions/asciidoc
@@ -53,6 +61,10 @@
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
+
+[submodule "extensions/basedpyright"]
+	path = extensions/basedpyright
+	url = https://github.com/m1guer/basedpyright-zed.git
 
 [submodule "extensions/basher"]
 	path = extensions/basher
@@ -170,6 +182,14 @@
 	path = extensions/cue
 	url = https://github.com/jkasky/zed-cue.git
 
+[submodule "extensions/curry"]
+	path = extensions/curry
+	url = https://github.com/fwcd/zed-curry.git
+
+[submodule "extensions/cyan-light-theme"]
+	path = extensions/cyan-light-theme
+	url = https://github.com/biaqat/cyan-light-theme-zed.git
+
 [submodule "extensions/d"]
 	path = extensions/d
 	url = https://github.com/staysail/zed-d.git
@@ -264,7 +284,7 @@
 
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
-	url = https://github.com/grndctrl/zed-gdscript.git
+	url = https://github.com/GDQuest/zed-gdscript.git
 
 [submodule "extensions/gemini"]
 	path = extensions/gemini
@@ -325,6 +345,14 @@
 [submodule "extensions/gruber-darker"]
 	path = extensions/gruber-darker
 	url = https://github.com/th0jensen/gruber-darker.zed.git
+
+[submodule "extensions/gruber-flavors"]
+	path = extensions/gruber-flavors
+	url = https://github.com/biaqat/gruber-theme-zed.git
+
+[submodule "extensions/gruvbox-material"]
+	path = extensions/gruvbox-material
+	url = https://github.com/tokiory/zed-gruvbox-material.git
 
 [submodule "extensions/halcyon"]
 	path = extensions/halcyon
@@ -481,10 +509,6 @@
 [submodule "extensions/modest-dark"]
 	path = extensions/modest-dark
 	url = https://github.com/timcole/modest-dark.git
-
-[submodule "extensions/monokai"]
-	path = extensions/monokai
-	url = https://github.com/billgo/monokai.git
 
 [submodule "extensions/monolith"]
 	path = extensions/monolith
@@ -646,13 +670,29 @@
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
 
+[submodule "extensions/playdate-zed-extension"]
+	path = extensions/playdate
+	url = https://github.com/notpeter/playdate-zed-extension.git
+
 [submodule "extensions/poimandres"]
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
 
+[submodule "extensions/polar-theme"]
+	path = extensions/polar-theme
+	url = https://github.com/biaqat/polar-theme-zed.git
+
+[submodule "extensions/python-refactoring"]
+	path = extensions/python-refactoring
+	url = https://github.com/rowillia/zed-python-refactoring.git
+
 [submodule "extensions/qml"]
 	path = extensions/qml
 	url = https://github.com/lkroll/zed-qml.git
+
+[submodule "extensions/quiet-light-theme"]
+	path = extensions/quiet-light-theme
+	url = https://github.com/biaqat/quiet-light-theme-zed.git
 
 [submodule "extensions/quill"]
 	path = extensions/quill
@@ -685,6 +725,10 @@
 [submodule "extensions/rose-pine-theme"]
 	path = extensions/rose-pine-theme
 	url = https://github.com/rose-pine/zed
+
+[submodule "extensions/rst"]
+	path = extensions/rst
+	url = https://github.com/elmarco/zed-rst.git
 
 [submodule "extensions/s-dark-theme"]
 	path = extensions/s-dark-theme
@@ -878,6 +922,10 @@
 	path = extensions/vitesse
 	url = https://github.com/d1y/vitesse.zed.git
 
+[submodule "extensions/vscode-dark-high-contrast"]
+	path = extensions/vscode-dark-high-contrast
+	url = https://github.com/nick-myrick/vscode-dark-high-contrast.git
+
 [submodule "extensions/vscode-dark-modern"]
 	path = extensions/vscode-dark-modern
 	url = https://github.com/kcamcam/vscode_dark_modern.zed.git
@@ -933,6 +981,10 @@
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
 	url = https://github.com/slymax/zedokai.git
+
+[submodule "extensions/zedrack-theme"]
+	path = extensions/zedrack-theme
+	url = https://github.com/foorack/zed-theme.git
 
 [submodule "extensions/zedspace"]
 	path = extensions/zedspace
