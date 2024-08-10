@@ -114,6 +114,10 @@
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck.git
 
+[submodule "extensions/c3"]
+	path = extensions/c3
+	url = https://github.com/AineeJames/c3-zed.git
+
 [submodule "extensions/cadence"]
 	path = extensions/cadence
 	url = https://github.com/janezpodhostnik/cadence.zed.git
@@ -284,7 +288,7 @@
 
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
-	url = https://github.com/grndctrl/zed-gdscript.git
+	url = https://github.com/GDQuest/zed-gdscript.git
 
 [submodule "extensions/gemini"]
 	path = extensions/gemini
@@ -345,6 +349,10 @@
 [submodule "extensions/gruber-darker"]
 	path = extensions/gruber-darker
 	url = https://github.com/th0jensen/gruber-darker.zed.git
+
+[submodule "extensions/gruber-flavors"]
+	path = extensions/gruber-flavors
+	url = https://github.com/biaqat/gruber-theme-zed.git
 
 [submodule "extensions/gruvbox-material"]
 	path = extensions/gruvbox-material
@@ -650,6 +658,10 @@
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
 
+[submodule "extensions/perm"]
+	path = extensions/perm
+	url = https://github.com/theoriginalstove/perm.git
+
 [submodule "extensions/pest"]
 	path = extensions/pest
 	url = https://github.com/pest-parser/zed-pest.git
@@ -662,6 +674,10 @@
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
 
+[submodule "extensions/playdate-zed-extension"]
+	path = extensions/playdate
+	url = https://github.com/notpeter/playdate-zed-extension.git
+
 [submodule "extensions/poimandres"]
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
@@ -672,11 +688,19 @@
 
 [submodule "extensions/pylsp"]
 	path = extensions/pylsp
-	url = git@github.com:erickod/extensions.git
+	url = https://github.com/erickod/zed-pylsp.git
+
+[submodule "extensions/python-refactoring"]
+	path = extensions/python-refactoring
+	url = https://github.com/rowillia/zed-python-refactoring.git
 
 [submodule "extensions/qml"]
 	path = extensions/qml
 	url = https://github.com/lkroll/zed-qml.git
+
+[submodule "extensions/quiet-light-theme"]
+	path = extensions/quiet-light-theme
+	url = https://github.com/biaqat/quiet-light-theme-zed.git
 
 [submodule "extensions/quill"]
 	path = extensions/quill
