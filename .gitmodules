@@ -58,6 +58,10 @@
 	path = extensions/awk
 	url = https://github.com/dangh/zed-awk.git
 
+[submodule "extensions/aylin-theme"]
+	path = extensions/aylin-theme
+	url = https://github.com/biaqat/aylin-theme-zed.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -113,6 +117,10 @@
 [submodule "extensions/brainfuck"]
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck.git
+
+[submodule "extensions/c3"]
+	path = extensions/c3
+	url = https://github.com/AineeJames/c3-zed.git
 
 [submodule "extensions/cadence"]
 	path = extensions/cadence
@@ -653,6 +661,10 @@
 [submodule "extensions/penumbra"]
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
+
+[submodule "extensions/perm"]
+	path = extensions/perm
+	url = https://github.com/theoriginalstove/perm.git
 
 [submodule "extensions/pest"]
 	path = extensions/pest
