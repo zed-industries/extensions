@@ -694,13 +694,13 @@
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
 
-[submodule "extensions/powershell"]
-	path = extensions/powershell
-	url = https://github.com/wingyplus/zed-powershell.git
-
 [submodule "extensions/polar-theme"]
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
+
+[submodule "extensions/powershell"]
+	path = extensions/powershell
+	url = https://github.com/wingyplus/zed-powershell.git
 
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
