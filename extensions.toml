@@ -4,7 +4,7 @@ version = "1.1.1"
 
 [ada]
 submodule = "extensions/ada"
-version = "0.1.0"
+version = "0.2.0"
 
 [adwaita-pastel]
 submodule = "extensions/adwaita-pastel"
@@ -20,7 +20,7 @@ version = "0.0.2"
 
 [amber]
 submodule = "extensions/amber"
-version = "0.1.0"
+version = "0.1.1"
 
 [amber-monochrome-monitor-crt-phosphor]
 submodule = "extensions/amber-monochrome-monitor-crt-phosphor"
@@ -63,6 +63,10 @@ version = "0.1.0"
 [awk]
 submodule = "extensions/awk"
 version = "0.0.1"
+
+[aylin-theme]
+submodule = "extensions/aylin-theme"
+version = "0.5.0"
 
 [base16]
 submodule = "extensions/base16"
@@ -119,6 +123,10 @@ version = "0.0.1"
 [brainfuck]
 submodule = "extensions/brainfuck"
 version = "0.0.3"
+
+[c3]
+submodule = "extensions/c3"
+version = "0.0.1"
 
 [cadence]
 submodule = "extensions/cadence"
@@ -298,7 +306,7 @@ version = "0.0.2"
 
 [exquisite]
 submodule = "extensions/exquisite"
-version = "0.1.1"
+version = "0.1.3"
 
 [fish]
 submodule = "extensions/fish"
@@ -378,6 +386,10 @@ version = "0.1.0"
 submodule = "extensions/golangci-lint"
 version = "0.1.0"
 
+[gosum]
+submodule = "extensions/gosum"
+version = "0.0.1"
+
 [graphene]
 submodule = "extensions/graphene"
 version = "0.2.0"
@@ -404,7 +416,7 @@ version = "0.0.4"
 
 [gruber-flavors]
 submodule = "extensions/gruber-flavors"
-version = "0.5.0"
+version = "0.6.0"
 
 [gruvbox-ish]
 submodule = "extensions/gruvbox-ish"
@@ -416,7 +428,7 @@ version = "1.0.0"
 
 [halcyon]
 submodule = "extensions/halcyon"
-version = "0.0.1"
+version = "0.0.2"
 
 [haskell]
 submodule = "extensions/zed"
@@ -425,7 +437,7 @@ version = "0.1.0"
 
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [horizon]
 submodule = "extensions/horizon"
@@ -435,6 +447,10 @@ version = "0.0.1"
 submodule = "extensions/zed"
 path = "extensions/html"
 version = "0.1.2"
+
+[http]
+submodule = "extensions/http"
+version = "0.0.1"
 
 [indigo]
 submodule = "extensions/indigo"
@@ -506,7 +522,7 @@ version = "0.0.1"
 
 [lilypond]
 submodule = "extensions/lilypond"
-version = "0.0.2"
+version = "0.0.3"
 
 [liquid]
 submodule = "extensions/liquid"
@@ -518,6 +534,10 @@ version = "0.0.3"
 
 [lox]
 submodule = "extensions/lox"
+version = "0.0.1"
+
+[ltex]
+submodule = "extensions/ltex"
 version = "0.0.1"
 
 [lua]
@@ -575,7 +595,7 @@ version = "0.0.1"
 
 [meson]
 submodule = "extensions/meson"
-version = "0.1.0"
+version = "0.1.1"
 
 [min-theme]
 submodule = "extensions/min-theme"
@@ -599,7 +619,7 @@ version = "0.1.2"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
-version = "0.0.5"
+version = "0.0.6"
 
 [muted]
 submodule = "extensions/muted"
@@ -616,6 +636,10 @@ version = "0.0.2"
 [navi]
 submodule = "extensions/navi"
 version = "0.4.0"
+
+[nebula-pulse]
+submodule = "extensions/nebula-pulse"
+version = "0.0.2"
 
 [neocmake]
 submodule = "extensions/neocmake"
@@ -700,7 +724,7 @@ version = "0.0.4"
 
 [one-dark-pro-monokai-darker]
 submodule = "extensions/one-dark-pro-monokai-darker"
-version = "0.1.0"
+version = "0.1.1"
 
 [one-hunter]
 submodule = "extensions/one-hunter"
@@ -734,6 +758,10 @@ version = "1.0.1"
 submodule = "extensions/penumbra"
 version = "0.0.1"
 
+[perm]
+submodule = "extensions/perm"
+version = "0.0.4"
+
 [pest]
 submodule = "extensions/pest"
 version = "0.1.0"
@@ -761,7 +789,11 @@ version = "0.0.4"
 
 [polar-theme]
 submodule = "extensions/polar-theme"
-version = "0.5.0"
+version = "0.6.0"
+
+[powershell]
+submodule = "extensions/powershell"
+version = "0.1.0"
 
 [prisma]
 submodule = "extensions/zed"
@@ -773,13 +805,17 @@ submodule = "extensions/zed"
 path = "extensions/purescript"
 version = "0.0.1"
 
+[python-refactoring]
+submodule = "extensions/python-refactoring"
+version = "0.0.3"
+
 [qml]
 submodule = "extensions/qml"
 version = "0.0.1"
 
 [quiet-light-theme]
 submodule = "extensions/quiet-light-theme"
-version = "0.5.0"
+version = "0.6.0"
 
 [quill]
 submodule = "extensions/quill"
@@ -797,6 +833,10 @@ version = "0.0.1"
 [rainbow-csv]
 submodule = "extensions/rainbow-csv"
 version = "0.0.3"
+
+[rcl]
+submodule = "extensions/rcl"
+version = "0.5.0"
 
 [rego]
 submodule = "extensions/rego"
@@ -825,7 +865,7 @@ version = "0.0.1"
 [ruby]
 submodule = "extensions/zed"
 path = "extensions/ruby"
-version = "0.0.8"
+version = "0.1.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -970,7 +1010,7 @@ version = "0.0.1"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"
-version = "0.2.0"
+version = "0.3.0"
 
 [toml]
 submodule = "extensions/zed"
@@ -979,11 +1019,15 @@ version = "0.1.1"
 
 [tomorrow-theme]
 submodule = "extensions/tomorrow-theme"
-version = "0.6.0"
+version = "0.7.0"
 
 [tsar]
 submodule = "extensions/tsar"
 version = "0.0.2"
+
+[tsarcasm]
+submodule = "extensions/tsarcasm"
+version = "0.0.7"
 
 [twig]
 submodule = "extensions/twig"
@@ -1000,7 +1044,7 @@ version = "0.0.1"
 
 [ultimate-dark-neo]
 submodule = "extensions/ultimate-dark-neo"
-version = "0.0.4"
+version = "0.0.5"
 
 [unison]
 submodule = "extensions/unison"
