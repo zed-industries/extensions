@@ -58,6 +58,10 @@
 	path = extensions/awk
 	url = https://github.com/dangh/zed-awk.git
 
+[submodule "extensions/aylin-theme"]
+	path = extensions/aylin-theme
+	url = https://github.com/biaqat/aylin-theme-zed.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -113,6 +117,10 @@
 [submodule "extensions/brainfuck"]
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck.git
+
+[submodule "extensions/c3"]
+	path = extensions/c3
+	url = https://github.com/AineeJames/c3-zed.git
 
 [submodule "extensions/cadence"]
 	path = extensions/cadence
@@ -284,7 +292,7 @@
 
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
-	url = https://github.com/grndctrl/zed-gdscript.git
+	url = https://github.com/GDQuest/zed-gdscript.git
 
 [submodule "extensions/gemini"]
 	path = extensions/gemini
@@ -654,6 +662,10 @@
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
 
+[submodule "extensions/perm"]
+	path = extensions/perm
+	url = https://github.com/theoriginalstove/perm.git
+
 [submodule "extensions/pest"]
 	path = extensions/pest
 	url = https://github.com/pest-parser/zed-pest.git
@@ -677,6 +689,10 @@
 [submodule "extensions/polar-theme"]
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
+
+[submodule "extensions/python-refactoring"]
+	path = extensions/python-refactoring
+	url = https://github.com/rowillia/zed-python-refactoring.git
 
 [submodule "extensions/qml"]
 	path = extensions/qml
@@ -849,6 +865,10 @@
 [submodule "extensions/tsar"]
 	path = extensions/tsar
 	url = https://github.com/x032205/tsar-zed-theme.git
+
+[submodule "extensions/tsarcasm"]
+	path = extensions/tsarcasm
+	url = https://github.com/xtrasmal/zed-theme-tsarcasm.git
 
 [submodule "extensions/twig"]
 	path = extensions/twig
