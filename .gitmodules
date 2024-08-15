@@ -58,6 +58,10 @@
 	path = extensions/awk
 	url = https://github.com/dangh/zed-awk.git
 
+[submodule "extensions/aylin-theme"]
+	path = extensions/aylin-theme
+	url = https://github.com/biaqat/aylin-theme-zed.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -326,6 +330,10 @@
 	path = extensions/golangci-lint
 	url = https://github.com/j4ng5y/zed_golangci_lint
 
+[submodule "extensions/gosum"]
+	path = extensions/gosum
+	url = https://github.com/kartikvashistha/zed-gosum.git
+
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene.git
@@ -369,6 +377,10 @@
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
+
+[submodule "extensions/http"]
+	path = extensions/http
+	url = https://github.com/tie304/zed-http.git
 
 [submodule "extensions/indigo"]
 	path = extensions/indigo
@@ -453,6 +465,10 @@
 [submodule "extensions/lox"]
 	path = extensions/lox
 	url = https://github.com/arian81/zed-lox.git
+
+[submodule "extensions/ltex"]
+	path = extensions/ltex
+	url = https://github.com/vitallium/zed-ltex.git
 
 [submodule "extensions/luau"]
 	path = extensions/luau
@@ -545,6 +561,10 @@
 [submodule "extensions/navi"]
 	path = extensions/navi
 	url = https://github.com/navi-language/zed-navi.git
+
+[submodule "extensions/nebula-pulse"]
+	path = extensions/nebula-pulse
+	url = https://github.com/foxoman/nebula-pulse-zed-theme.git
 
 [submodule "extensions/neocmake"]
 	path = extensions/neocmake
@@ -690,6 +710,10 @@
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
 
+[submodule "extensions/powershell"]
+	path = extensions/powershell
+	url = https://github.com/wingyplus/zed-powershell.git
+
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
 	url = https://github.com/rowillia/zed-python-refactoring.git
@@ -713,6 +737,10 @@
 [submodule "extensions/rainbow-csv"]
 	path = extensions/rainbow-csv
 	url = https://github.com/weartist/zed-rainbow-csv.git
+
+[submodule "extensions/rcl"]
+	path = extensions/rcl
+	url = https://github.com/rcl-lang/zed-rcl.git
 
 [submodule "extensions/rego"]
 	path = extensions/rego
@@ -865,6 +893,10 @@
 [submodule "extensions/tsar"]
 	path = extensions/tsar
 	url = https://github.com/x032205/tsar-zed-theme.git
+
+[submodule "extensions/tsarcasm"]
+	path = extensions/tsarcasm
+	url = https://github.com/xtrasmal/zed-theme-tsarcasm.git
 
 [submodule "extensions/twig"]
 	path = extensions/twig
