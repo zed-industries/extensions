@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  ZED_EXTENSION_CLI_SHA: 18aff55f342448401a4dd40747f106a639b73e25
+  ZED_EXTENSION_CLI_SHA: 6b7664ef4a87d006425a8ce260b00c8e8befaf54
 
 jobs:
   package:
