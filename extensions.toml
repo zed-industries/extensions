@@ -448,6 +448,11 @@ version = "0.1.2"
 submodule = "extensions/http"
 version = "0.0.1"
 
+[iceberg-zed-theme]
+submodule = "extensions/iceberg-zed-theme"
+path = "extensions/iceberg-zed-theme"
+version = "0.2.10"
+
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
@@ -1172,8 +1177,3 @@ version = "0.0.4"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.2.0"
-
-[iceberg-zed-theme]
-submodule = "extensions/iceberg-zed-theme"
-path = "extensions/iceberg-zed-theme"
-version = "0.2.10"

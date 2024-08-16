@@ -382,6 +382,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/iceberg-zed-theme"]
+		path = extensions/iceberg-zed-theme
+		url = https://github.com/EFDos/iceberg-zed-theme
+
 [submodule "extensions/indigo"]
 	path = extensions/indigo
 	url = https://github.com/p3rception/Indigo-zed.git
@@ -1029,7 +1033,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-
-[submodule "extensions/iceberg-zed-theme"]
-	path = extensions/iceberg-zed-theme
-	url = https://github.com/EFDos/iceberg-zed-theme
