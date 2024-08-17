@@ -553,6 +553,10 @@ version = "0.1.0"
 submodule = "extensions/make"
 version = "1.0.1"
 
+[malibu-theme]
+submodule = "extensions/malibu-theme"
+version = "0.0.1"
+
 [mariana-theme]
 submodule = "extensions/mariana-theme"
 version = "0.7.0"
@@ -1172,7 +1176,3 @@ version = "0.0.4"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.2.0"
-
-[malibu-theme]
-submodule = "extensions/malibu-theme"
-version = "0.0.1"
