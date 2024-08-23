@@ -51,6 +51,10 @@ submodule = "extensions/zed"
 path = "extensions/astro"
 version = "0.1.0"
 
+[atomize]
+submodule = "extensions/atomize"
+version = "0.0.1"
+
 [aura-theme]
 submodule = "extensions/aura"
 path = "packages/zed"
@@ -1172,7 +1176,3 @@ version = "0.0.4"
 submodule = "extensions/zed"
 path = "extensions/zig"
 version = "0.2.0"
-
-[atomize]
-submodule = "extensions/atomize"
-version = "0.0.1"
