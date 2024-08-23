@@ -8,7 +8,7 @@ version = "0.2.0"
 
 [adwaita-pastel]
 submodule = "extensions/adwaita-pastel"
-version = "0.0.1"
+version = "0.0.2"
 
 [aiken]
 submodule = "extensions/aiken"
@@ -50,6 +50,10 @@ version = "0.0.1"
 submodule = "extensions/zed"
 path = "extensions/astro"
 version = "0.1.0"
+
+[atomize]
+submodule = "extensions/atomize"
+version = "0.0.1"
 
 [aura-theme]
 submodule = "extensions/aura"
@@ -126,11 +130,11 @@ version = "0.0.3"
 
 [c3]
 submodule = "extensions/c3"
-version = "0.0.1"
+version = "0.0.2"
 
 [cadence]
 submodule = "extensions/cadence"
-version = "0.0.1"
+version = "0.0.2"
 
 [cairo]
 submodule = "extensions/cairo"
@@ -177,9 +181,13 @@ submodule = "extensions/zed"
 path = "extensions/clojure"
 version = "0.0.3"
 
+[cobalt2]
+submodule = "extensions/cobalt2"
+version = "0.1.0"
+
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
-version = "0.0.4"
+version = "0.0.5"
 
 [colorizer]
 submodule = "extensions/colorizer"
@@ -217,6 +225,10 @@ version = "0.5.0"
 [d]
 submodule = "extensions/d"
 version = "0.0.7"
+
+[dafny]
+submodule = "extensions/dafny"
+version = "0.0.1"
 
 [dart]
 submodule = "extensions/zed"
@@ -263,7 +275,7 @@ version = "0.0.4"
 [elixir]
 submodule = "extensions/zed"
 path = "extensions/elixir"
-version = "0.0.7"
+version = "0.0.8"
 
 [elm]
 submodule = "extensions/zed"
@@ -424,7 +436,7 @@ version = "1.0.0"
 
 [halcyon]
 submodule = "extensions/halcyon"
-version = "0.0.2"
+version = "0.0.4"
 
 [haskell]
 submodule = "extensions/zed"
@@ -434,6 +446,10 @@ version = "0.1.1"
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
 version = "0.0.2"
+
+[hlsl]
+submodule = "extensions/hlsl"
+version = "0.0.1"
 
 [horizon]
 submodule = "extensions/horizon"
@@ -587,7 +603,7 @@ version = "0.0.4"
 
 [melange]
 submodule = "extensions/melange"
-version = "0.0.2"
+version = "0.0.3"
 
 [mellow]
 submodule = "extensions/mellow"
@@ -643,7 +659,7 @@ version = "0.0.2"
 
 [neocmake]
 submodule = "extensions/neocmake"
-version = "0.0.2"
+version = "0.0.5"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -720,7 +736,7 @@ version = "0.0.1"
 
 [one-dark-pro]
 submodule = "extensions/one-dark-pro"
-version = "0.0.4"
+version = "0.0.5"
 
 [one-dark-pro-monokai-darker]
 submodule = "extensions/one-dark-pro-monokai-darker"
@@ -856,7 +872,7 @@ version = "0.0.1"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
-version = "1.0.8"
+version = "1.1.2"
 
 [rst]
 submodule = "extensions/rst"
@@ -1064,7 +1080,7 @@ version = "0.2.0"
 
 [vala]
 submodule = "extensions/vala"
-version = "0.1.0"
+version = "0.2.0"
 
 [vale]
 submodule = "extensions/vale"
@@ -1175,4 +1191,4 @@ version = "0.0.4"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.2.0"
+version = "0.3.0"
