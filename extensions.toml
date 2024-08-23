@@ -177,9 +177,13 @@ submodule = "extensions/zed"
 path = "extensions/clojure"
 version = "0.0.3"
 
+[cobalt2]
+submodule = "extensions/cobalt2"
+version = "0.1.0"
+
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
-version = "0.0.4"
+version = "0.0.5"
 
 [colorizer]
 submodule = "extensions/colorizer"
@@ -217,6 +221,10 @@ version = "0.5.0"
 [d]
 submodule = "extensions/d"
 version = "0.0.7"
+
+[dafny]
+submodule = "extensions/dafny"
+version = "0.0.1"
 
 [dart]
 submodule = "extensions/zed"
@@ -1065,7 +1073,7 @@ version = "0.2.0"
 
 [vala]
 submodule = "extensions/vala"
-version = "0.1.0"
+version = "0.2.0"
 
 [vale]
 submodule = "extensions/vale"
@@ -1176,4 +1184,4 @@ version = "0.0.4"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.2.0"
+version = "0.3.0"
