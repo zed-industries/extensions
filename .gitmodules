@@ -750,6 +750,10 @@
 	path = extensions/powershell
 	url = https://github.com/wingyplus/zed-powershell.git
 
+[submodule "extensions/pylsp"]
+	path = extensions/pylsp
+	url = https://github.com/rgbkrk/python-lsp-zed-extension.git
+
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
 	url = https://github.com/rowillia/zed-python-refactoring.git
