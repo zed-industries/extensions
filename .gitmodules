@@ -26,6 +26,10 @@
 	path = extensions/amber-monochrome-monitor-crt-phosphor
 	url = https://github.com/Takk8IS/amber-monochrome-monitor-crt-phosphor-theme-for-zed.git
 
+[submodule "extensions/ansible"]
+	path = extensions/ansible
+	url = https://github.com/kartikvashistha/zed-ansible
+
 [submodule "extensions/anya"]
 	path = extensions/anya
 	url = https://github.com/anya-theme/anya-zed.git
@@ -46,6 +50,10 @@
 	path = extensions/asteroid
 	url = https://github.com/webhooked/asteroid-zed
 
+[submodule "extensions/atomize"]
+	path = extensions/atomize
+	url = https://github.com/zhouyuxiang0/atomize.zed.git
+
 [submodule "extensions/aura"]
 	path = extensions/aura
 	url = https://github.com/daltonmenezes/aura-theme.git
@@ -57,6 +65,10 @@
 [submodule "extensions/awk"]
 	path = extensions/awk
 	url = https://github.com/dangh/zed-awk.git
+
+[submodule "extensions/aylin-theme"]
+	path = extensions/aylin-theme
+	url = https://github.com/biaqat/aylin-theme-zed.git
 
 [submodule "extensions/base16"]
 	path = extensions/base16
@@ -86,6 +98,10 @@
 	path = extensions/biome
 	url = https://github.com/biomejs/biome-zed.git
 
+[submodule "extensions/bitbake"]
+	path = extensions/bitbake
+	url = https://github.com/anikinmd/zed_bitbake.git
+
 [submodule "extensions/blackfox"]
 	path = extensions/blackfox
 	url = https://github.com/matejcerny/BlackFoxZed.git
@@ -113,6 +129,10 @@
 [submodule "extensions/brainfuck"]
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck.git
+
+[submodule "extensions/c3"]
+	path = extensions/c3
+	url = https://github.com/AineeJames/c3-zed.git
 
 [submodule "extensions/cadence"]
 	path = extensions/cadence
@@ -150,6 +170,10 @@
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
 
+[submodule "extensions/chanterelle"]
+	path = extensions/chanterelle
+	url = https://github.com/steffenhaug/chanterelle-zed.git
+
 [submodule "extensions/chatgpt"]
 	path = extensions/chatgpt
 	url = https://github.com/Takk8IS/chatgpt-theme-for-zed.git
@@ -157,6 +181,14 @@
 [submodule "extensions/city-lights"]
 	path = extensions/city-lights
 	url = https://github.com/DP19/zed-theme-city-lights.git
+
+[submodule "extensions/cobalt2"]
+	path = extensions/cobalt2
+	url = https://github.com/wesbos/cobalt2-zed.git
+
+[submodule "extensions/code-stats"]
+	path = extensions/code-stats
+	url = https://github.com/maxdeviant/zed-code-stats.git
 
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
@@ -194,6 +226,10 @@
 	path = extensions/d
 	url = https://github.com/staysail/zed-d.git
 
+[submodule "extensions/dafny"]
+	path = extensions/dafny
+	url = https://github.com/WeetHet/dafny-zed.git
+
 [submodule "extensions/dbml"]
 	path = extensions/dbml
 	url = https://github.com/shuklaayush/zed-dbml.git
@@ -201,6 +237,10 @@
 [submodule "extensions/denix"]
 	path = extensions/denix
 	url = https://github.com/denix666/zed-theme.git
+
+[submodule "extensions/discord-presence"]
+	path = extensions/discord-presence
+	url = https://github.com/xhyrom/zed-discord-presence
 
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
@@ -213,6 +253,10 @@
 [submodule "extensions/dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed.git
+
+[submodule "extensions/duckyscript"]
+	path = extensions/duckyscript
+	url = https://github.com/Lalolog/duckyscript-zed-extension
 
 [submodule "extensions/earthfile"]
 	path = extensions/earthfile
@@ -253,6 +297,10 @@
 [submodule "extensions/exquisite"]
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
+
+[submodule "extensions/fennel"]
+	path = extensions/fennel
+	url = https://codeberg.org/mattly/zed-lang-fennel.git
 
 [submodule "extensions/fish"]
 	path = extensions/fish
@@ -322,6 +370,10 @@
 	path = extensions/golangci-lint
 	url = https://github.com/j4ng5y/zed_golangci_lint
 
+[submodule "extensions/gosum"]
+	path = extensions/gosum
+	url = https://github.com/kartikvashistha/zed-gosum.git
+
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene.git
@@ -350,6 +402,10 @@
 	path = extensions/gruber-flavors
 	url = https://github.com/biaqat/gruber-theme-zed.git
 
+[submodule "extensions/gruvbox-ish"]
+	path = extensions/gruvbox-ish
+	url = https://github.com/LeoDog896/zed-gruvbox-ish
+
 [submodule "extensions/gruvbox-material"]
 	path = extensions/gruvbox-material
 	url = https://github.com/tokiory/zed-gruvbox-material.git
@@ -362,9 +418,21 @@
 	path = extensions/hex-light-theme
 	url = https://github.com/coghost/light-zed-theme
 
+[submodule "extensions/hlsl"]
+	path = extensions/hlsl
+	url = https://github.com/igordreher/zed-hlsl
+
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
+
+[submodule "extensions/http"]
+	path = extensions/http
+	url = https://github.com/tie304/zed-http.git
+
+[submodule "extensions/iceberg"]
+	path = extensions/iceberg
+	url = https://github.com/EFDos/iceberg-zed-theme.git
 
 [submodule "extensions/indigo"]
 	path = extensions/indigo
@@ -450,6 +518,10 @@
 	path = extensions/lox
 	url = https://github.com/arian81/zed-lox.git
 
+[submodule "extensions/ltex"]
+	path = extensions/ltex
+	url = https://github.com/vitallium/zed-ltex.git
+
 [submodule "extensions/luau"]
 	path = extensions/luau
 	url = https://github.com/4teapo/zed-luau
@@ -461,6 +533,10 @@
 [submodule "extensions/make"]
 	path = extensions/make
 	url = https://github.com/caius/zed-make.git
+
+[submodule "extensions/malibu"]
+	path = extensions/malibu
+	url = https://github.com/michael-andreuzza/malibu-theme-zed.git
 
 [submodule "extensions/mariana-theme"]
 	path = extensions/mariana-theme
@@ -541,6 +617,10 @@
 [submodule "extensions/navi"]
 	path = extensions/navi
 	url = https://github.com/navi-language/zed-navi.git
+
+[submodule "extensions/nebula-pulse"]
+	path = extensions/nebula-pulse
+	url = https://github.com/foxoman/nebula-pulse-zed-theme.git
 
 [submodule "extensions/neocmake"]
 	path = extensions/neocmake
@@ -634,6 +714,10 @@
 	path = extensions/outrun
 	url = https://github.com/Acepie/OutrunZedTheme.git
 
+[submodule "extensions/oxocarbon"]
+	path = extensions/oxocarbon
+	url = https://github.com/Takk8IS/oxocarbon-theme-for-zed.git
+
 [submodule "extensions/pact"]
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
@@ -653,6 +737,10 @@
 [submodule "extensions/penumbra"]
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
+
+[submodule "extensions/perm"]
+	path = extensions/perm
+	url = https://github.com/theoriginalstove/perm.git
 
 [submodule "extensions/pest"]
 	path = extensions/pest
@@ -678,6 +766,14 @@
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
 
+[submodule "extensions/powershell"]
+	path = extensions/powershell
+	url = https://github.com/wingyplus/zed-powershell.git
+
+[submodule "extensions/pylsp"]
+	path = extensions/pylsp
+	url = https://github.com/rgbkrk/python-lsp-zed-extension.git
+
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
 	url = https://github.com/rowillia/zed-python-refactoring.git
@@ -701,6 +797,10 @@
 [submodule "extensions/rainbow-csv"]
 	path = extensions/rainbow-csv
 	url = https://github.com/weartist/zed-rainbow-csv.git
+
+[submodule "extensions/rcl"]
+	path = extensions/rcl
+	url = https://github.com/rcl-lang/zed-rcl.git
 
 [submodule "extensions/rego"]
 	path = extensions/rego
@@ -773,6 +873,10 @@
 [submodule "extensions/smooth"]
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
+
+[submodule "extensions/snakemake"]
+	path = extensions/snakemake
+	url = https://github.com/lvignoli/zed-snakemake
 
 [submodule "extensions/snowflake"]
 	path = extensions/snowflake
@@ -853,6 +957,10 @@
 [submodule "extensions/tsar"]
 	path = extensions/tsar
 	url = https://github.com/x032205/tsar-zed-theme.git
+
+[submodule "extensions/tsarcasm"]
+	path = extensions/tsarcasm
+	url = https://github.com/xtrasmal/zed-theme-tsarcasm.git
 
 [submodule "extensions/twig"]
 	path = extensions/twig
