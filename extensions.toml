@@ -287,7 +287,7 @@ version = "0.0.4"
 [elixir]
 submodule = "extensions/zed"
 path = "extensions/elixir"
-version = "0.0.8"
+version = "0.0.9"
 
 [elm]
 submodule = "extensions/zed"
@@ -483,6 +483,10 @@ version = "0.1.2"
 [http]
 submodule = "extensions/http"
 version = "0.0.1"
+
+[iceberg]
+submodule = "extensions/iceberg"
+version = "0.2.10"
 
 [indigo]
 submodule = "extensions/indigo"
