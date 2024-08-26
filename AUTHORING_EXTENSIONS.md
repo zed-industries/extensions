@@ -74,7 +74,7 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-zed_extension_api = "0.0.4"
+zed_extension_api = "0.0.6"
 ```
 
 Make sure to use the latest version of the `zed_extension_api` available on crates.io.
@@ -134,6 +134,7 @@ In your PR do the following:
    submodule = "extensions/my-extension"
    version = "0.0.1"
    ```
+3. Run `pnpm sort-extensions` to ensure `extensions.toml` and `.gitmodules` are sorted
 
 Once your PR is merged, the extension will be packaged and published to the Zed extension registry.
 
