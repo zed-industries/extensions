@@ -894,6 +894,10 @@
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
 
+[submodule "extensions/sourcepawn"]
+	path = extensions/sourcepawn
+	url = https://github.com/tsuza/zed-sourcepawn-ext.git
+
 [submodule "extensions/sql"]
 	path = extensions/sql
 	url = https://github.com/nervenes/zed-sql.git
@@ -1101,6 +1105,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/sourcepawn"]
-	path = extensions/sourcepawn
-	url = https://github.com/tsuza/zed-sourcepawn-ext.git
