@@ -176,6 +176,10 @@ version = "0.0.1"
 submodule = "extensions/cfengine"
 version = "1.0.1"
 
+[chanterelle]
+submodule = "extensions/chanterelle"
+version = "0.0.1"
+
 [chatgpt]
 submodule = "extensions/chatgpt"
 version = "0.1.3"
@@ -192,6 +196,10 @@ version = "0.0.3"
 [cobalt2]
 submodule = "extensions/cobalt2"
 version = "0.1.0"
+
+[code-stats]
+submodule = "extensions/code-stats"
+version = "0.2.1"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -256,6 +264,10 @@ submodule = "extensions/zed"
 path = "extensions/deno"
 version = "0.0.2"
 
+[discord-presence]
+submodule = "extensions/discord-presence"
+version = "0.2.0"
+
 [docker-compose]
 submodule = "extensions/docker-compose"
 version = "0.1.0"
@@ -287,7 +299,7 @@ version = "0.0.4"
 [elixir]
 submodule = "extensions/zed"
 path = "extensions/elixir"
-version = "0.0.8"
+version = "0.0.9"
 
 [elm]
 submodule = "extensions/zed"
@@ -456,7 +468,7 @@ version = "1.0.0"
 
 [halcyon]
 submodule = "extensions/halcyon"
-version = "0.0.4"
+version = "0.0.5"
 
 [haskell]
 submodule = "extensions/zed"
@@ -484,6 +496,10 @@ version = "0.1.2"
 submodule = "extensions/http"
 version = "0.0.1"
 
+[iceberg]
+submodule = "extensions/iceberg"
+version = "0.2.10"
+
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
@@ -506,7 +522,7 @@ version = "0.2.2"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
-version = "0.1.0"
+version = "0.2.0"
 
 [julia]
 submodule = "extensions/julia"
@@ -566,7 +582,7 @@ version = "0.0.1"
 
 [log]
 submodule = "extensions/log"
-version = "0.0.3"
+version = "0.0.6"
 
 [lox]
 submodule = "extensions/lox"
@@ -825,7 +841,7 @@ version = "0.1.0"
 
 [playdate]
 submodule = "extensions/playdate"
-version = "0.1.0"
+version = "0.1.1"
 
 [poimandres]
 submodule = "extensions/poimandres"
@@ -890,6 +906,10 @@ version = "0.5.0"
 submodule = "extensions/rego"
 version = "0.0.2"
 
+[relay]
+submodule = "extensions/relay"
+version = "0.0.1"
+
 [rescript]
 submodule = "extensions/rescript"
 version = "0.1.0"
@@ -926,7 +946,7 @@ version = "1.0.1"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.0.3"
+version = "0.0.4"
 
 [scheme]
 submodule = "extensions/zed"
@@ -951,7 +971,7 @@ version = "0.0.1"
 
 [siri]
 submodule = "extensions/siri"
-version = "0.0.5"
+version = "0.0.6"
 
 [slate]
 submodule = "extensions/slate"
@@ -996,7 +1016,7 @@ version = "0.1.3"
 
 [sql]
 submodule = "extensions/sql"
-version = "1.0.0"
+version = "1.1.2"
 
 [srcery]
 submodule = "extensions/srcery"
@@ -1062,7 +1082,7 @@ version = "0.0.1"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"
-version = "0.3.0"
+version = "0.4.0"
 
 [toml]
 submodule = "extensions/zed"
@@ -1120,7 +1140,7 @@ version = "0.2.0"
 
 [vale]
 submodule = "extensions/vale"
-version = "0.0.1"
+version = "0.0.2"
 
 [vapor-theme]
 submodule = "extensions/vapor-theme"

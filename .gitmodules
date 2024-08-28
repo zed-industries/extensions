@@ -170,6 +170,10 @@
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
 
+[submodule "extensions/chanterelle"]
+	path = extensions/chanterelle
+	url = https://github.com/steffenhaug/chanterelle-zed.git
+
 [submodule "extensions/chatgpt"]
 	path = extensions/chatgpt
 	url = https://github.com/Takk8IS/chatgpt-theme-for-zed.git
@@ -180,7 +184,11 @@
 
 [submodule "extensions/cobalt2"]
 	path = extensions/cobalt2
-	url = https://github.com/mrpmohiburrahman/cobalt2-zed
+	url = https://github.com/wesbos/cobalt2-zed.git
+
+[submodule "extensions/code-stats"]
+	path = extensions/code-stats
+	url = https://github.com/maxdeviant/zed-code-stats.git
 
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
@@ -229,6 +237,10 @@
 [submodule "extensions/denix"]
 	path = extensions/denix
 	url = https://github.com/denix666/zed-theme.git
+
+[submodule "extensions/discord-presence"]
+	path = extensions/discord-presence
+	url = https://github.com/xhyrom/zed-discord-presence
 
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
@@ -418,6 +430,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/iceberg"]
+	path = extensions/iceberg
+	url = https://github.com/EFDos/iceberg-zed-theme.git
+
 [submodule "extensions/indigo"]
 	path = extensions/indigo
 	url = https://github.com/p3rception/Indigo-zed.git
@@ -496,7 +512,7 @@
 
 [submodule "extensions/log"]
 	path = extensions/log
-	url = https://github.com/evrsen/zed-log.git
+	url = https://github.com/nervenes/zed-log.git
 
 [submodule "extensions/lox"]
 	path = extensions/lox
@@ -790,6 +806,10 @@
 	path = extensions/rego
 	url = https://github.com/StyraInc/zed-rego.git
 
+[submodule "extensions/relay"]
+	path = extensions/relay
+	url = https://github.com/XiNiHa/relay-zed
+
 [submodule "extensions/rescript"]
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
@@ -876,7 +896,7 @@
 
 [submodule "extensions/sql"]
 	path = extensions/sql
-	url = https://github.com/evrsen/zed-sql.git
+	url = https://github.com/nervenes/zed-sql.git
 
 [submodule "extensions/srcery"]
 	path = extensions/srcery
