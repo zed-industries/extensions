@@ -156,6 +156,10 @@ version = "0.1.1"
 submodule = "extensions/capnp"
 version = "0.0.1"
 
+[cargo-tom]
+submodule = "extensions/cargo-tom"
+version = "0.4.1"
+
 [catbox]
 submodule = "extensions/catbox"
 version = "0.0.1"
@@ -368,6 +372,10 @@ version = "0.0.1"
 submodule = "extensions/fortran"
 version = "0.0.2"
 
+[fountain]
+submodule = "extensions/fountain"
+version = "0.0.2"
+
 [frosted-theme]
 submodule = "extensions/frosted-theme"
 version = "0.0.1"
@@ -504,6 +512,10 @@ version = "0.2.10"
 submodule = "extensions/indigo"
 version = "0.1.2"
 
+[inform6]
+submodule = "extensions/inform6"
+version = "1.0.0"
+
 [ini]
 submodule = "extensions/ini"
 version = "0.0.1"
@@ -520,6 +532,10 @@ version = "0.0.4"
 submodule = "extensions/java-eclipse-jdtls"
 version = "0.2.2"
 
+[jinja2]
+submodule = "extensions/jinja2"
+version = "0.0.1"
+
 [jsonnet]
 submodule = "extensions/jsonnet"
 version = "0.2.0"
@@ -534,6 +550,10 @@ version = "0.1.1"
 
 [kanagawa-themes]
 submodule = "extensions/kanagawa-themes"
+version = "0.0.1"
+
+[kdl]
+submodule = "extensions/kdl"
 version = "0.0.1"
 
 [kiselevka]
@@ -575,6 +595,10 @@ version = "0.0.4"
 [liquid]
 submodule = "extensions/liquid"
 version = "0.0.1"
+
+[live-server]
+submodule = "extensions/live-server"
+version = "0.3.0"
 
 [log]
 submodule = "extensions/log"
@@ -860,6 +884,10 @@ submodule = "extensions/zed"
 path = "extensions/prisma"
 version = "0.0.3"
 
+[pug]
+submodule = "extensions/pug"
+version = "0.0.1"
+
 [purescript]
 submodule = "extensions/zed"
 path = "extensions/purescript"
@@ -933,7 +961,7 @@ version = "0.0.1"
 [ruby]
 submodule = "extensions/zed"
 path = "extensions/ruby"
-version = "0.1.0"
+version = "0.2.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -964,6 +992,10 @@ version = "0.0.3"
 [serendipity]
 submodule = "extensions/serendipity"
 version = "0.0.6"
+
+[short-giraffe-theme]
+submodule = "extensions/short-giraffe-theme"
+version = "2.0.0"
 
 [simple-darker]
 submodule = "extensions/simple-darker"
@@ -1032,7 +1064,7 @@ version = "0.2.0"
 
 [stimulus]
 submodule = "extensions/stimulus"
-version = "0.0.1"
+version = "0.0.2"
 
 [strace]
 submodule = "extensions/strace"
