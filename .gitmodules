@@ -150,6 +150,10 @@
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
 
+[submodule "extensions/cargo-tom"]
+	path = extensions/cargo-tom
+	url = https://github.com/frederik-uni/zed-cargotom.git
+
 [submodule "extensions/catbox"]
 	path = extensions/catbox
 	url = https://github.com/adibhanna/catbox.git
@@ -170,6 +174,10 @@
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
 
+[submodule "extensions/chanterelle"]
+	path = extensions/chanterelle
+	url = https://github.com/steffenhaug/chanterelle-zed.git
+
 [submodule "extensions/chatgpt"]
 	path = extensions/chatgpt
 	url = https://github.com/Takk8IS/chatgpt-theme-for-zed.git
@@ -180,7 +188,11 @@
 
 [submodule "extensions/cobalt2"]
 	path = extensions/cobalt2
-	url = https://github.com/mrpmohiburrahman/cobalt2-zed
+	url = https://github.com/wesbos/cobalt2-zed.git
+
+[submodule "extensions/code-stats"]
+	path = extensions/code-stats
+	url = https://github.com/maxdeviant/zed-code-stats.git
 
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
@@ -229,6 +241,10 @@
 [submodule "extensions/denix"]
 	path = extensions/denix
 	url = https://github.com/denix666/zed-theme.git
+
+[submodule "extensions/discord-presence"]
+	path = extensions/discord-presence
+	url = https://github.com/xhyrom/zed-discord-presence
 
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
@@ -309,6 +325,10 @@
 [submodule "extensions/fortran"]
 	path = extensions/fortran
 	url = https://github.com/Xavier-Maruff/zed-fortran.git
+
+[submodule "extensions/fountain"]
+	path = extensions/fountain
+	url = https://github.com/LaPingvino/zed-fountain
 
 [submodule "extensions/frosted-theme"]
 	path = extensions/frosted-theme
@@ -418,6 +438,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/iceberg"]
+	path = extensions/iceberg
+	url = https://github.com/EFDos/iceberg-zed-theme.git
+
 [submodule "extensions/indigo"]
 	path = extensions/indigo
 	url = https://github.com/p3rception/Indigo-zed.git
@@ -438,6 +462,10 @@
 	path = extensions/java-eclipse-jdtls
 	url = https://github.com/ABckh/zed-java-language-support-jdtls
 
+[submodule "extensions/jinja2"]
+	path = extensions/jinja2
+	url = https://github.com/ArcherHume/jinja2-support.git
+
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
 	url = https://github.com/narqo/zed-jsonnet.git
@@ -453,6 +481,10 @@
 [submodule "extensions/kanagawa-themes"]
 	path = extensions/kanagawa-themes
 	url = https://github.com/ethangilmore/zed-kanagawa.git
+
+[submodule "extensions/kdl"]
+	path = extensions/kdl
+	url = https://github.com/elkowar/zed-kdl.git
 
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
@@ -494,9 +526,13 @@
 	path = extensions/liquid
 	url = https://github.com/TheBeyondGroup/zed-shopify-liquid.git
 
+[submodule "extensions/live-server"]
+	path = extensions/live-server
+	url = https://github.com/frederik-uni/zed-live-server.git
+
 [submodule "extensions/log"]
 	path = extensions/log
-	url = https://github.com/evrsen/zed-log.git
+	url = https://github.com/nervenes/zed-log.git
 
 [submodule "extensions/lox"]
 	path = extensions/lox
@@ -509,6 +545,10 @@
 [submodule "extensions/luau"]
 	path = extensions/luau
 	url = https://github.com/4teapo/zed-luau
+
+[submodule "extensions/lusch-theme"]
+	path = extensions/lusch-theme
+	url = https://github.com/biaqat/lusch-theme-zed.git
 
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
@@ -754,6 +794,10 @@
 	path = extensions/powershell
 	url = https://github.com/wingyplus/zed-powershell.git
 
+[submodule "extensions/pug"]
+	path = extensions/pug
+	url = https://github.com/Baw-Appie/zed-pug
+
 [submodule "extensions/pylsp"]
 	path = extensions/pylsp
 	url = https://github.com/rgbkrk/python-lsp-zed-extension.git
@@ -789,6 +833,10 @@
 [submodule "extensions/rego"]
 	path = extensions/rego
 	url = https://github.com/StyraInc/zed-rego.git
+
+[submodule "extensions/relay"]
+	path = extensions/relay
+	url = https://github.com/XiNiHa/relay-zed
 
 [submodule "extensions/rescript"]
 	path = extensions/rescript
@@ -878,9 +926,13 @@
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
 
+[submodule "extensions/sourcepawn"]
+	path = extensions/sourcepawn
+	url = https://github.com/tsuza/zed-sourcepawn-ext.git
+
 [submodule "extensions/sql"]
 	path = extensions/sql
-	url = https://github.com/evrsen/zed-sql.git
+	url = https://github.com/nervenes/zed-sql.git
 
 [submodule "extensions/srcery"]
 	path = extensions/srcery
