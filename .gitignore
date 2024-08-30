@@ -2,7 +2,11 @@
 .env
 build
 node_modules
+
+# We only use pnpm.
 bun.lockb
+package-lock.json
+yarn.lock
 
 # Zed extension CLI.
 zed-extension
