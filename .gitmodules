@@ -526,6 +526,10 @@
 	path = extensions/luau
 	url = https://github.com/4teapo/zed-luau
 
+[submodule "extensions/lusch-theme"]
+	path = extensions/lusch-theme
+	url = https://github.com/biaqat/lusch-theme-zed.git
+
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
 	url = https://github.com/huacnlee/zed-theme-macos-classic.git
@@ -893,6 +897,10 @@
 [submodule "extensions/solidity"]
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
+
+[submodule "extensions/sourcepawn"]
+	path = extensions/sourcepawn
+	url = https://github.com/tsuza/zed-sourcepawn-ext.git
 
 [submodule "extensions/sql"]
 	path = extensions/sql
