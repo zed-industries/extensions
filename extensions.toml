@@ -106,7 +106,7 @@ version = "0.1.1"
 
 [bitbake]
 submodule = "extensions/bitbake"
-version = "0.0.1"
+version = "0.0.2"
 
 [blackfox]
 submodule = "extensions/blackfox"
@@ -155,6 +155,10 @@ version = "0.1.1"
 [capnp]
 submodule = "extensions/capnp"
 version = "0.0.1"
+
+[cargo-tom]
+submodule = "extensions/cargo-tom"
+version = "0.4.1"
 
 [catbox]
 submodule = "extensions/catbox"
@@ -481,7 +485,7 @@ version = "0.1.1"
 
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
-version = "0.0.2"
+version = "0.0.3"
 
 [hlsl]
 submodule = "extensions/hlsl"
@@ -507,6 +511,10 @@ version = "0.2.10"
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
+
+[inform6]
+submodule = "extensions/inform6"
+version = "1.0.0"
 
 [ini]
 submodule = "extensions/ini"
@@ -588,6 +596,10 @@ version = "0.0.4"
 submodule = "extensions/liquid"
 version = "0.0.1"
 
+[live-server]
+submodule = "extensions/live-server"
+version = "0.3.0"
+
 [log]
 submodule = "extensions/log"
 version = "0.0.6"
@@ -639,7 +651,7 @@ version = "0.0.4"
 
 [marksman]
 submodule = "extensions/marksman"
-version = "0.0.1"
+version = "0.0.2"
 
 [material-dark]
 submodule = "extensions/material-dark"
@@ -872,6 +884,10 @@ submodule = "extensions/zed"
 path = "extensions/prisma"
 version = "0.0.3"
 
+[pug]
+submodule = "extensions/pug"
+version = "0.0.1"
+
 [purescript]
 submodule = "extensions/zed"
 path = "extensions/purescript"
@@ -945,7 +961,7 @@ version = "0.0.1"
 [ruby]
 submodule = "extensions/zed"
 path = "extensions/ruby"
-version = "0.1.0"
+version = "0.2.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -976,6 +992,10 @@ version = "0.0.3"
 [serendipity]
 submodule = "extensions/serendipity"
 version = "0.0.6"
+
+[short-giraffe-theme]
+submodule = "extensions/short-giraffe-theme"
+version = "2.0.0"
 
 [simple-darker]
 submodule = "extensions/simple-darker"
@@ -1044,7 +1064,7 @@ version = "0.2.0"
 
 [stimulus]
 submodule = "extensions/stimulus"
-version = "0.0.1"
+version = "0.0.2"
 
 [strace]
 submodule = "extensions/strace"
@@ -1094,7 +1114,7 @@ version = "0.2.5"
 
 [tmux]
 submodule = "extensions/tmux"
-version = "0.0.1"
+version = "0.0.2"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"
