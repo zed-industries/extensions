@@ -670,6 +670,10 @@
 	path = extensions/nginx
 	url = https://github.com/d1y/nginx-zed
 
+[submodule "extensions/nickel"]
+	path = extensions/nickel
+	url = https://github.com/norpadon/zed-nickel-extension
+
 [submodule "extensions/night-owlz"]
 	path = extensions/night-owlz
 	url = https://github.com/elGusto/night-owlz.git
@@ -1089,6 +1093,10 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = https://github.com/d1y/vscode-monokaicharcoal.zed.git
+
+[submodule "extensions/wakatime"]
+	path = extensions/wakatime
+	url = https://github.com/bestgopher/wakatime-zed
 
 [submodule "extensions/wakfu-theme"]
 	path = extensions/wakfu-theme
