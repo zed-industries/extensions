@@ -206,6 +206,10 @@
 	path = extensions/cosmos
 	url = https://github.com/nauvalazhar/cosmos.git
 
+[submodule "extensions/cpp2"]
+	path = extensions/cpp2
+	url = https://github.com/tsoj/zed-cpp2.git
+
 [submodule "extensions/csv"]
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
@@ -305,6 +309,10 @@
 [submodule "extensions/fennel"]
 	path = extensions/fennel
 	url = https://codeberg.org/mattly/zed-lang-fennel.git
+
+[submodule "extensions/fiberplane-studio"]
+	path = extensions/fiberplane-studio
+	url = https://github.com/keturiosakys/zed-fp-studio.git
 
 [submodule "extensions/fish"]
 	path = extensions/fish
@@ -582,6 +590,10 @@
 	path = extensions/marksman
 	url = https://github.com/vitallium/zed-marksman.git
 
+[submodule "extensions/martianized"]
+	path = extensions/martianized
+	url = https://github.com/clamjohnston/martianized
+
 [submodule "extensions/material-dark"]
 	path = extensions/material-dark
 	url = https://github.com/xerodark/zed-material-theme.git
@@ -665,6 +677,10 @@
 [submodule "extensions/nginx"]
 	path = extensions/nginx
 	url = https://github.com/d1y/nginx-zed
+
+[submodule "extensions/nickel"]
+	path = extensions/nickel
+	url = https://github.com/norpadon/zed-nickel-extension
 
 [submodule "extensions/night-owlz"]
 	path = extensions/night-owlz
@@ -1014,6 +1030,10 @@
 	path = extensions/twig
 	url = https://github.com/YussufSassi/zed-twig.git
 
+[submodule "extensions/typos"]
+	path = extensions/typos
+	url = https://github.com/BaptisteRoseau/zed-typos.git
+
 [submodule "extensions/typst"]
 	path = extensions/typst
 	url = https://github.com/WeetHet/typst.zed.git
@@ -1089,6 +1109,10 @@
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = https://github.com/d1y/vscode-monokaicharcoal.zed.git
+
+[submodule "extensions/wakatime"]
+	path = extensions/wakatime
+	url = https://github.com/bestgopher/wakatime-zed
 
 [submodule "extensions/wakfu-theme"]
 	path = extensions/wakfu-theme
