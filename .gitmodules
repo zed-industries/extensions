@@ -1026,6 +1026,10 @@
 	path = extensions/twig
 	url = https://github.com/YussufSassi/zed-twig.git
 
+[submodule "extensions/typos"]
+	path = extensions/typos
+	url = https://github.com/BaptisteRoseau/zed-typos.git
+
 [submodule "extensions/typst"]
 	path = extensions/typst
 	url = https://github.com/WeetHet/typst.zed.git
@@ -1161,6 +1165,3 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-[submodule "extensions/typos"]
-	path = extensions/typos
-	url = https://github.com/BaptisteRoseau/zed-typos.git
