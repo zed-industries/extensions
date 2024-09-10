@@ -70,6 +70,10 @@
 	path = extensions/awk
 	url = https://github.com/dangh/zed-awk.git
 
+[submodule "extensions/axolosin"]
+	path = extensions/axolosin
+	url = https://github.com/LightTreasure/axolosin-theme.git
+
 [submodule "extensions/aylin-theme"]
 	path = extensions/aylin-theme
 	url = https://github.com/biaqat/aylin-theme-zed.git
@@ -177,6 +181,10 @@
 [submodule "extensions/cfengine"]
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
+
+[submodule "extensions/cfml"]
+	path = extensions/cfml
+	url = https://github.com/cfmleditor/zed-cfml.git
 
 [submodule "extensions/chanterelle"]
 	path = extensions/chanterelle
@@ -989,6 +997,10 @@
 [submodule "extensions/sublime-mariana-theme"]
 	path = extensions/sublime-mariana-theme
 	url = https://github.com/hnatiukr/zed-mariana-theme.git
+
+[submodule "extensions/surrealql"]
+	path = extensions/surrealql
+	url = https://github.com/siteforge-io/surql-zed
 
 [submodule "extensions/swift"]
 	path = extensions/swift
