@@ -878,6 +878,10 @@
 	path = extensions/rcl
 	url = https://github.com/rcl-lang/zed-rcl.git
 
+[submodule "extensions/reason"]
+	path = extensions/reason
+	url = https://github.com/WeetHet/reason-zed.git
+
 [submodule "extensions/rego"]
 	path = extensions/rego
 	url = https://github.com/StyraInc/zed-rego.git
@@ -889,10 +893,6 @@
 [submodule "extensions/rescript"]
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
-
-[submodule "extensions/reason"]
-	path = extensions/reason
-	url = https://github.com/WeetHet/reason-zed.git
 
 [submodule "extensions/roc"]
 	path = extensions/roc
