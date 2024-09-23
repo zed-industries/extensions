@@ -454,6 +454,10 @@
 	path = extensions/halcyon
 	url = https://github.com/hichemfantar/halcyon-zed.git
 
+[submodule "extensions/harper"]
+	path = extensions/harper
+	url = https://github.com/Stef16Robbe/harper_zed.git
+
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
 	url = https://github.com/coghost/light-zed-theme
@@ -822,6 +826,10 @@
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
 
+[submodule "extensions/perl"]
+	path = extensions/perl
+	url = https://github.com/tree-sitter-perl/zed-perl.git
+
 [submodule "extensions/perm"]
 	path = extensions/perm
 	url = https://github.com/theoriginalstove/perm.git
@@ -1106,6 +1114,10 @@
 	path = extensions/v
 	url = https://github.com/lv37/zed-v.git
 
+[submodule "extensions/vacuum"]
+	path = extensions/vacuum
+	url = https://github.com/kovapatrik/zed-vacuum.git
+
 [submodule "extensions/vala"]
 	path = extensions/vala
 	url = https://github.com/FyraLabs/zed-vala.git
@@ -1160,7 +1172,7 @@
 
 [submodule "extensions/wakatime"]
 	path = extensions/wakatime
-	url = https://github.com/bestgopher/wakatime-zed
+	url = https://github.com/wakatime/zed-wakatime.git
 
 [submodule "extensions/wakfu-theme"]
 	path = extensions/wakfu-theme
