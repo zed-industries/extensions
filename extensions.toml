@@ -110,7 +110,7 @@ version = "0.0.1"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.1.2"
+version = "0.1.3"
 
 [bitbake]
 submodule = "extensions/bitbake"
@@ -264,7 +264,7 @@ version = "0.7.0"
 
 [d]
 submodule = "extensions/d"
-version = "0.0.7"
+version = "0.0.8"
 
 [dafny]
 submodule = "extensions/dafny"
@@ -287,6 +287,10 @@ version = "0.0.8"
 submodule = "extensions/zed"
 path = "extensions/deno"
 version = "0.0.2"
+
+[devicetree]
+submodule = "extensions/devicetree"
+version = "0.0.1"
 
 [discord-presence]
 submodule = "extensions/discord-presence"
@@ -442,7 +446,7 @@ version = "0.0.1"
 
 [github-theme]
 submodule = "extensions/github-theme"
-version = "0.1.0"
+version = "0.1.1"
 
 [glazier]
 submodule = "extensions/glazier"
@@ -509,6 +513,10 @@ version = "1.0.0"
 [halcyon]
 submodule = "extensions/halcyon"
 version = "0.0.5"
+
+[harper]
+submodule = "extensions/harper"
+version = "0.0.3"
 
 [haskell]
 submodule = "extensions/zed"
@@ -651,7 +659,7 @@ version = "0.0.1"
 [lua]
 submodule = "extensions/zed"
 path = "extensions/lua"
-version = "0.0.3"
+version = "0.1.0"
 
 [luau]
 submodule = "extensions/luau"
@@ -811,7 +819,7 @@ version = "0.0.1"
 
 [nord]
 submodule = "extensions/nord"
-version = "0.0.8"
+version = "0.0.9"
 
 [norrsken]
 submodule = "extensions/norrsken"
@@ -856,7 +864,7 @@ version = "0.0.2"
 
 [one-dark-pro]
 submodule = "extensions/one-dark-pro"
-version = "0.0.5"
+version = "0.0.7"
 
 [one-dark-pro-monokai-darker]
 submodule = "extensions/one-dark-pro-monokai-darker"
@@ -901,6 +909,10 @@ version = "1.0.1"
 [penumbra]
 submodule = "extensions/penumbra"
 version = "0.0.1"
+
+[perl]
+submodule = "extensions/perl"
+version = "0.1.0"
 
 [perm]
 submodule = "extensions/perm"
@@ -1232,7 +1244,7 @@ version = "0.0.5"
 
 [unison]
 submodule = "extensions/unison"
-version = "0.0.2"
+version = "0.0.4"
 
 [unocss]
 submodule = "extensions/unocss"
@@ -1245,6 +1257,10 @@ version = "0.1.1"
 [v]
 submodule = "extensions/v"
 version = "0.3.0"
+
+[vacuum]
+submodule = "extensions/vacuum"
+version = "0.1.0"
 
 [vala]
 submodule = "extensions/vala"
@@ -1305,7 +1321,7 @@ version = "0.1.0"
 
 [wakatime]
 submodule = "extensions/wakatime"
-version = "0.1.2"
+version = "0.1.3"
 
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
@@ -1359,6 +1375,10 @@ version = "0.0.1"
 [zedwaita]
 submodule = "extensions/zedwaita"
 version = "0.0.4"
+
+[zen-abyssal]
+submodule = "extensions/zen-abyssal"
+version = "0.1.0"
 
 [zig]
 submodule = "extensions/zed"
