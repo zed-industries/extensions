@@ -158,6 +158,10 @@
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
 
+[submodule "extensions/cargo-appraiser"]
+	path = extensions/cargo-appraiser
+	url = https://github.com/washanhanzi/zed-cargo-appraiser
+
 [submodule "extensions/cargo-tom"]
 	path = extensions/cargo-tom
 	url = https://github.com/frederik-uni/zed-cargotom.git
@@ -262,6 +266,10 @@
 	path = extensions/denix
 	url = https://github.com/denix666/zed-theme.git
 
+[submodule "extensions/devicetree"]
+	path = extensions/devicetree
+	url = https://github.com/anikinmd/zed_devicetree
+
 [submodule "extensions/discord-presence"]
 	path = extensions/discord-presence
 	url = https://github.com/xhyrom/zed-discord-presence
@@ -333,6 +341,14 @@
 [submodule "extensions/fish"]
 	path = extensions/fish
 	url = https://github.com/hasit/zed-fish.git
+
+[submodule "extensions/flat-theme"]
+	path = extensions/flat-theme
+	url = https://github.com/biaqat/flat-theme-zed.git
+
+[submodule "extensions/flatbuffers"]
+	path = extensions/flatbuffers
+	url = https://github.com/smpanaro/zed-flatbuffers.git
 
 [submodule "extensions/fleet-themes"]
 	path = extensions/fleet-themes
@@ -449,6 +465,10 @@
 [submodule "extensions/halcyon"]
 	path = extensions/halcyon
 	url = https://github.com/hichemfantar/halcyon-zed.git
+
+[submodule "extensions/harper"]
+	path = extensions/harper
+	url = https://github.com/Stef16Robbe/harper_zed.git
 
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
@@ -646,6 +666,10 @@
 	path = extensions/modest-dark
 	url = https://github.com/timcole/modest-dark.git
 
+[submodule "extensions/monokai-reversed"]
+	path = extensions/monokai-reversed
+	url = https://github.com/everdrone/zed-monokai-reversed
+
 [submodule "extensions/monolith"]
 	path = extensions/monolith
 	url = https://github.com/someone13574/zed-monolith-theme.git
@@ -786,6 +810,10 @@
 	path = extensions/outrun
 	url = https://github.com/Acepie/OutrunZedTheme.git
 
+[submodule "extensions/oxc"]
+	path = extensions/oxc
+	url = https://github.com/oxc-project/zed-oxc.git
+
 [submodule "extensions/oxocarbon"]
 	path = extensions/oxocarbon
 	url = https://github.com/Takk8IS/oxocarbon-theme-for-zed.git
@@ -809,6 +837,10 @@
 [submodule "extensions/penumbra"]
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
+
+[submodule "extensions/perl"]
+	path = extensions/perl
+	url = https://github.com/tree-sitter-perl/zed-perl.git
 
 [submodule "extensions/perm"]
 	path = extensions/perm
@@ -1098,6 +1130,10 @@
 	path = extensions/v
 	url = https://github.com/lv37/zed-v.git
 
+[submodule "extensions/vacuum"]
+	path = extensions/vacuum
+	url = https://github.com/kovapatrik/zed-vacuum.git
+
 [submodule "extensions/vala"]
 	path = extensions/vala
 	url = https://github.com/FyraLabs/zed-vala.git
@@ -1152,7 +1188,7 @@
 
 [submodule "extensions/wakatime"]
 	path = extensions/wakatime
-	url = https://github.com/bestgopher/wakatime-zed
+	url = https://github.com/wakatime/zed-wakatime.git
 
 [submodule "extensions/wakfu-theme"]
 	path = extensions/wakfu-theme
@@ -1209,3 +1245,7 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
+
+[submodule "extensions/zen-abyssal"]
+	path = extensions/zen-abyssal
+	url = https://github.com/KevInCompile/ZenAbyssal.git
