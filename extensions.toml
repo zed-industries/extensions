@@ -266,6 +266,10 @@ version = "0.0.1"
 submodule = "extensions/cyan-light-theme"
 version = "0.7.0"
 
+[cylc]
+submodule = "extensions/cylc"
+version = "0.2.0"
+
 [d]
 submodule = "extensions/d"
 version = "0.0.8"
@@ -598,7 +602,7 @@ version = "0.1.2"
 
 [kanagawa-themes]
 submodule = "extensions/kanagawa-themes"
-version = "0.0.1"
+version = "0.1.1"
 
 [kdl]
 submodule = "extensions/kdl"
@@ -638,7 +642,7 @@ version = "0.0.1"
 
 [lilypond]
 submodule = "extensions/lilypond"
-version = "0.0.4"
+version = "0.0.5"
 
 [liquid]
 submodule = "extensions/liquid"
@@ -807,7 +811,7 @@ version = "0.0.1"
 
 [nim]
 submodule = "extensions/nim"
-version = "0.0.3"
+version = "0.0.4"
 
 [nix]
 submodule = "extensions/nix"
@@ -852,7 +856,7 @@ version = "0.1.0"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.1.0"
+version = "0.1.1"
 
 [oh-lucy]
 submodule = "extensions/oh-lucy"
@@ -959,6 +963,11 @@ version = "0.1.0"
 submodule = "extensions/zed"
 path = "extensions/prisma"
 version = "0.0.3"
+
+[proto]
+submodule = "extensions/zed"
+path = "extensions/proto"
+version = "0.1.0"
 
 [pug]
 submodule = "extensions/pug"
@@ -1067,7 +1076,7 @@ version = "0.0.4"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "0.0.6"
+version = "0.0.7"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
@@ -1138,6 +1147,10 @@ version = "1.1.2"
 submodule = "extensions/srcery"
 version = "0.0.2"
 
+[stan]
+submodule = "extensions/stan"
+version = "0.0.1"
+
 [starlark]
 submodule = "extensions/starlark"
 version = "0.2.0"
@@ -1157,6 +1170,10 @@ version = "0.0.1"
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
 version = "1.1.0"
+
+[superhtml]
+submodule = "extensions/superhtml"
+version = "0.1.0"
 
 [surrealql]
 submodule = "extensions/surrealql"
@@ -1231,7 +1248,7 @@ version = "0.1.1"
 
 [typos]
 submodule = "extensions/typos"
-version = "0.0.1"
+version = "0.0.2"
 
 [typst]
 submodule = "extensions/typst"
