@@ -158,6 +158,10 @@
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
 
+[submodule "extensions/cargo-appraiser"]
+	path = extensions/cargo-appraiser
+	url = https://github.com/washanhanzi/zed-cargo-appraiser
+
 [submodule "extensions/cargo-tom"]
 	path = extensions/cargo-tom
 	url = https://github.com/frederik-uni/zed-cargotom.git
@@ -245,6 +249,10 @@
 [submodule "extensions/cyan-light-theme"]
 	path = extensions/cyan-light-theme
 	url = https://github.com/biaqat/cyan-light-theme-zed.git
+
+[submodule "extensions/cylc"]
+	path = extensions/cylc
+	url = https://github.com/elliotfontaine/zed-cylc.git
 
 [submodule "extensions/d"]
 	path = extensions/d
@@ -341,6 +349,10 @@
 [submodule "extensions/flat-theme"]
 	path = extensions/flat-theme
 	url = https://github.com/biaqat/flat-theme-zed.git
+
+[submodule "extensions/flatbuffers"]
+	path = extensions/flatbuffers
+	url = https://github.com/smpanaro/zed-flatbuffers.git
 
 [submodule "extensions/fleet-themes"]
 	path = extensions/fleet-themes
@@ -808,7 +820,7 @@
 
 [submodule "extensions/oxc"]
 	path = extensions/oxc
-	url = https://github.com/suxiaoshao/zed-oxc.git
+	url = https://github.com/oxc-project/zed-oxc.git
 
 [submodule "extensions/oxocarbon"]
 	path = extensions/oxocarbon
@@ -1018,6 +1030,10 @@
 	path = extensions/srcery
 	url = https://github.com/srcery-colors/srcery-zed.git
 
+[submodule "extensions/stan"]
+	path = extensions/stan
+	url = https://github.com/WardBrian/zed-stan-extension.git
+
 [submodule "extensions/starlark"]
 	path = extensions/starlark
 	url = https://github.com/zaucy/zed-starlark.git
@@ -1037,6 +1053,10 @@
 [submodule "extensions/sublime-mariana-theme"]
 	path = extensions/sublime-mariana-theme
 	url = https://github.com/hnatiukr/zed-mariana-theme.git
+
+[submodule "extensions/superhtml"]
+	path = extensions/superhtml
+	url = https://github.com/WeetHet/superhtml-zed.git
 
 [submodule "extensions/surrealql"]
 	path = extensions/surrealql
@@ -1237,3 +1257,7 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
+
+[submodule "extensions/zen-abyssal"]
+	path = extensions/zen-abyssal
+	url = https://github.com/KevInCompile/ZenAbyssal.git
