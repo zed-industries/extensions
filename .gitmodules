@@ -1166,6 +1166,10 @@
 	path = extensions/vapor-theme
 	url = https://github.com/felipetesc/vapor-theme.git
 
+[submodule "extensions/vercel-theme"]
+	path = extensions/vercel-theme
+	url = https://github.com/NathanBrodin/zed-vercel-theme
+
 [submodule "extensions/verilog"]
 	path = extensions/verilog
 	url = https://github.com/someone13574/zed-verilog-extension.git
@@ -1273,6 +1277,3 @@
 [submodule "extensions/zen-abyssal"]
 	path = extensions/zen-abyssal
 	url = https://github.com/KevInCompile/ZenAbyssal.git
-[submodule "extensions/vercel-theme"]
-	path = extensions/vercel-theme
-	url = https://github.com/NathanBrodin/zed-vercel-theme
