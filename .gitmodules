@@ -382,6 +382,10 @@
 	path = extensions/fsharp
 	url = https://github.com/nathanjcollins/zed-fsharp.git
 
+[submodule "extensions/fsm"]
+	path = extensions/fsm
+	url = https://codeberg.org/reesericci/zed-extension-fsm.git
+
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
 	url = https://github.com/GDQuest/zed-gdscript.git
@@ -1122,6 +1126,10 @@
 	path = extensions/twig
 	url = https://github.com/YussufSassi/zed-twig.git
 
+[submodule "extensions/twilight"]
+	path = extensions/twilight
+	url = https://github.com/tectiv3/twilight-zed.git
+
 [submodule "extensions/typos"]
 	path = extensions/typos
 	url = https://github.com/BaptisteRoseau/zed-typos.git
@@ -1165,6 +1173,10 @@
 [submodule "extensions/vapor-theme"]
 	path = extensions/vapor-theme
 	url = https://github.com/felipetesc/vapor-theme.git
+
+[submodule "extensions/vercel-theme"]
+	path = extensions/vercel-theme
+	url = https://github.com/NathanBrodin/zed-vercel-theme
 
 [submodule "extensions/verilog"]
 	path = extensions/verilog
