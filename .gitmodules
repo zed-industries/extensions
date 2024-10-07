@@ -226,6 +226,10 @@
 	path = extensions/cpp2
 	url = https://github.com/tsoj/zed-cpp2.git
 
+[submodule "extensions/crystal"]
+	path = extensions/crystal
+	url = https://github.com/crystal-lang-tools/zed-crystal.git
+
 [submodule "extensions/crystal-theme"]
 	path = extensions/crystal-theme
 	url = https://gitlab.com/crystalnetwork-studio/themes/zed-editor.git
@@ -382,6 +386,10 @@
 	path = extensions/fsharp
 	url = https://github.com/nathanjcollins/zed-fsharp.git
 
+[submodule "extensions/fsm"]
+	path = extensions/fsm
+	url = https://codeberg.org/reesericci/zed-extension-fsm.git
+
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
 	url = https://github.com/GDQuest/zed-gdscript.git
@@ -494,6 +502,10 @@
 	path = extensions/iceberg
 	url = https://github.com/EFDos/iceberg-zed-theme.git
 
+[submodule "extensions/iceicebergy"]
+	path = extensions/iceicebergy
+	url = https://github.com/jmsdnns/zed-iceicebergy.git
+
 [submodule "extensions/indigo"]
 	path = extensions/indigo
 	url = https://github.com/p3rception/Indigo-zed.git
@@ -509,6 +521,10 @@
 [submodule "extensions/intellij-newui-theme"]
 	path = extensions/intellij-newui-theme
 	url = https://github.com/kpitt/zed-theme-intellij-newui.git
+
+[submodule "extensions/janet"]
+	path = extensions/janet
+	url = https://github.com/vijaykiran/janet-zed.git
 
 [submodule "extensions/java"]
 	path = extensions/java
@@ -789,6 +805,10 @@
 [submodule "extensions/oh-lucy"]
 	path = extensions/oh-lucy
 	url = https://github.com/abdurrehman0206/Oh-Lucy.git
+
+[submodule "extensions/omnetpp"]
+	path = extensions/omnetpp
+	url = https://github.com/omnetpp/omnetpp-zed.git
 
 [submodule "extensions/one-dark-darkened"]
 	path = extensions/one-dark-darkened
@@ -1114,6 +1134,10 @@
 	path = extensions/twig
 	url = https://github.com/YussufSassi/zed-twig.git
 
+[submodule "extensions/twilight"]
+	path = extensions/twilight
+	url = https://github.com/tectiv3/twilight-zed.git
+
 [submodule "extensions/typos"]
 	path = extensions/typos
 	url = https://github.com/BaptisteRoseau/zed-typos.git
@@ -1157,6 +1181,10 @@
 [submodule "extensions/vapor-theme"]
 	path = extensions/vapor-theme
 	url = https://github.com/felipetesc/vapor-theme.git
+
+[submodule "extensions/vercel-theme"]
+	path = extensions/vercel-theme
+	url = https://github.com/NathanBrodin/zed-vercel-theme
 
 [submodule "extensions/verilog"]
 	path = extensions/verilog
