@@ -302,7 +302,7 @@ version = "0.0.1"
 
 [discord-presence]
 submodule = "extensions/discord-presence"
-version = "0.2.0"
+version = "0.2.1"
 
 [docker-compose]
 submodule = "extensions/docker-compose"
@@ -580,6 +580,10 @@ version = "0.0.2"
 submodule = "extensions/intellij-newui-theme"
 version = "0.1.0"
 
+[janet]
+submodule = "extensions/janet"
+version = "0.0.1"
+
 [java]
 submodule = "extensions/java"
 version = "0.0.4"
@@ -602,7 +606,7 @@ version = "0.1.2"
 
 [just]
 submodule = "extensions/just"
-version = "0.1.2"
+version = "0.1.3"
 
 [kanagawa-themes]
 submodule = "extensions/kanagawa-themes"
@@ -870,6 +874,10 @@ version = "0.1.1"
 submodule = "extensions/oh-lucy"
 version = "0.0.1"
 
+[omnetpp]
+submodule = "extensions/omnetpp"
+version = "0.0.1"
+
 [one-dark-darkened]
 submodule = "extensions/one-dark-darkened"
 version = "0.0.1"
@@ -941,7 +949,7 @@ version = "0.1.0"
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
-version = "0.2.0"
+version = "0.2.1"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -975,7 +983,7 @@ version = "0.0.3"
 [proto]
 submodule = "extensions/zed"
 path = "extensions/proto"
-version = "0.1.0"
+version = "0.2.0"
 
 [pug]
 submodule = "extensions/pug"
@@ -1301,6 +1309,10 @@ version = "0.0.2"
 
 [vapor-theme]
 submodule = "extensions/vapor-theme"
+version = "0.0.1"
+
+[vercel-theme]
+submodule = "extensions/vercel-theme"
 version = "0.0.1"
 
 [verilog]
