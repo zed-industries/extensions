@@ -73,7 +73,7 @@ jobs:
       - name: Enforce sorted `extensions.toml` and `.gitmodules`
         run: |
           if ! git diff --exit-code -- extensions.toml .gitmodules; then
-            echo -e "\nError extensions.toml and .gitmodules are not sorted."
-            echo -e "Fix by running:\n  pnpm sort-extensions"
+            echo -e "\nERROR: extensions.toml and .gitmodules are not sorted."
+            echo -e "Fix by running:\n  pnpm sort-extensions\n"
             exit 1
           fi
