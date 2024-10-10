@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  ZED_EXTENSION_CLI_SHA: 764e2567557da7c6cf1beeba1462e79cf7260f98
+  ZED_EXTENSION_CLI_SHA: ccf6f27b8f1bdfb803b9cc0da0b0cf5c9e136dd9
 
 jobs:
   package:
@@ -25,7 +25,7 @@ jobs:
 
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 9
 
       - uses: actions/setup-node@v3
         with:
@@ -70,8 +70,10 @@ jobs:
           S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
           S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
 
-      - name: Enforce sorted `extensions.toml`
-        run: git diff --exit-code -- extensions.toml
-
-      - name: Enforce sorted `.gitmodules`
-        run: git diff --exit-code -- .gitmodules
+      - name: Enforce sorted `extensions.toml` and `.gitmodules`
+        run: |
+          if ! git diff --exit-code -- extensions.toml .gitmodules; then
+            echo -e "\nERROR: extensions.toml and .gitmodules are not sorted."
+            echo -e "Fix by running:\n  pnpm sort-extensions\n"
+            exit 1
+          fi
