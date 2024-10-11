@@ -430,6 +430,10 @@
 	path = extensions/glazier
 	url = https://github.com/airgap/glazier.git
 
+[submodule "extensions/gleam"]
+	path = extensions/gleam
+	url = https://github.com/gleam-lang/zed-gleam.git
+
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
@@ -713,6 +717,10 @@
 [submodule "extensions/monospace-theme"]
 	path = extensions/monospace-theme
 	url = https://github.com/Abhinav5383/zed-monospace-theme.git
+
+[submodule "extensions/mosel"]
+	path = extensions/mosel
+	url = https://github.com/pierrenel/mosel
 
 [submodule "extensions/msun-dark"]
 	path = extensions/msun-dark

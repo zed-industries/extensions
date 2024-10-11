@@ -477,9 +477,8 @@ submodule = "extensions/glazier"
 version = "0.0.2"
 
 [gleam]
-submodule = "extensions/zed"
-path = "extensions/gleam"
-version = "0.2.0"
+submodule = "extensions/gleam"
+version = "0.2.1"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -536,7 +535,7 @@ version = "1.0.0"
 
 [hacker-night-vision]
 submodule = "extensions/hacker-night-vision"
-version = "1.0.0"
+version = "2.0.0"
 
 [halcyon]
 submodule = "extensions/halcyon"
@@ -780,6 +779,10 @@ version = "0.1.1"
 [monospace-theme]
 submodule = "extensions/monospace-theme"
 version = "0.1.2"
+
+[mosel]
+submodule = "extensions/mosel"
+version = "0.0.2"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
@@ -1099,7 +1102,7 @@ version = "1.0.1"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.0.4"
+version = "0.1.0"
 
 [scheme]
 submodule = "extensions/zed"
@@ -1242,12 +1245,12 @@ version = "0.0.1"
 
 [templ]
 submodule = "extensions/templ"
-version = "0.0.3"
+version = "0.0.4"
 
 [terraform]
 submodule = "extensions/zed"
 path = "extensions/terraform"
-version = "0.1.0"
+version = "0.1.1"
 
 [terrible-theme]
 submodule = "extensions/terrible-theme"
@@ -1394,7 +1397,7 @@ version = "0.1.0"
 
 [wakatime]
 submodule = "extensions/wakatime"
-version = "0.1.3"
+version = "0.1.4"
 
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
