@@ -8,7 +8,7 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
   ZED_EXTENSION_CLI_SHA: ccf6f27b8f1bdfb803b9cc0da0b0cf5c9e136dd9
