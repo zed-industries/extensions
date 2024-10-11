@@ -430,6 +430,10 @@
 	path = extensions/glazier
 	url = https://github.com/airgap/glazier.git
 
+[submodule "extensions/gleam"]
+	path = extensions/gleam
+	url = https://github.com/gleam-lang/zed-gleam.git
+
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
