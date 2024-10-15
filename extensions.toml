@@ -558,6 +558,10 @@ submodule = "extensions/zed"
 path = "extensions/haskell"
 version = "0.1.1"
 
+[helm]
+submodule = "extensions/helm"
+version = "0.0.1"
+
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
 version = "0.0.3"
@@ -578,10 +582,6 @@ version = "0.0.1"
 submodule = "extensions/zed"
 path = "extensions/html"
 version = "0.1.2"
-
-[helm]
-submodule = "extensions/helm"
-version = "0.0.1"
 
 [http]
 submodule = "extensions/http"
