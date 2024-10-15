@@ -90,6 +90,10 @@
 	path = extensions/basher
 	url = https://github.com/d1y/bash.zed
 
+[submodule "extensions/batman"]
+	path = extensions/batman
+	url = https://github.com/devzaidi/batman-theme-zed
+
 [submodule "extensions/beancount"]
 	path = extensions/beancount
 	url = https://github.com/zed-extensions/beancount.git
@@ -350,6 +354,10 @@
 	path = extensions/fiberplane-studio
 	url = https://github.com/keturiosakys/zed-fp-studio.git
 
+[submodule "extensions/firebase-security-rules"]
+	path = extensions/firebase-security-rules
+	url = https://github.com/ChemisTechlabs/zed-firebase-security-rules.git
+
 [submodule "extensions/fish"]
 	path = extensions/fish
 	url = https://github.com/hasit/zed-fish.git
@@ -497,6 +505,10 @@
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
 	url = https://github.com/coghost/light-zed-theme
+
+[submodule "extensions/hivacruz-theme"]
+	path = extensions/hivacruz-theme
+	url = https://github.com/kinoute/zed-hivacruz-theme
 
 [submodule "extensions/hlsl"]
 	path = extensions/hlsl
@@ -993,6 +1005,10 @@
 [submodule "extensions/s-dark-theme"]
 	path = extensions/s-dark-theme
 	url = https://github.com/sinamombeiny/S-DarkTheme.zed.git
+
+[submodule "extensions/sagemath"]
+	path = extensions/sagemath
+	url = https://github.com/rot256/zed-sagemath
 
 [submodule "extensions/scala"]
 	path = extensions/scala
