@@ -35,7 +35,7 @@ jobs:
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@e12d46a63a90f2fae62d114769bbf2a179198b5c # v3
+        uses: actions/cache@3624ceb22c1c5a301c8db4169662070a689d9ea8 # v4
         with:
           path: |
             zed-extension
@@ -57,7 +57,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@e12d46a63a90f2fae62d114769bbf2a179198b5c # v3
+        uses: actions/cache@3624ceb22c1c5a301c8db4169662070a689d9ea8 # v4
         with:
           key: cache-build-dependencies
           path: |
