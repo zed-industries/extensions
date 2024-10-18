@@ -9,7 +9,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "package-extensions": "node src/package-extensions.js",
-    "sort-extensions": "node src/sort-extensions.js"
+    "sort-extensions": "node src/sort-extensions.js",
+    "danger": "danger"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "3.454.0",
@@ -20,6 +21,8 @@
     "@tsconfig/node20": "20.1.2",
     "@tsconfig/strictest": "2.0.3",
     "@types/node": "20.11.30",
+    "danger": "12.3.3",
+    "danger-plugin-pr-hygiene": "0.5.0",
     "prettier": "3.2.5",
     "typescript": "5.3.3",
     "vitest": "1.6.0"
