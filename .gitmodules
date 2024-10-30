@@ -286,6 +286,10 @@
 	path = extensions/dafny
 	url = https://github.com/WeetHet/dafny-zed.git
 
+[submodule "extensions/dart"]
+	path = extensions/dart
+	url = https://github.com/zed-extensions/dart.git
+
 [submodule "extensions/dbml"]
 	path = extensions/dbml
 	url = https://github.com/shuklaayush/zed-dbml.git
@@ -736,7 +740,7 @@
 
 [submodule "extensions/meson"]
 	path = extensions/meson
-	url = https://github.com/hqnna/zed-meson
+	url = https://codeberg.org/hanna/zed-meson
 
 [submodule "extensions/min-theme"]
 	path = extensions/min-theme
@@ -853,6 +857,10 @@
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu.git
+
+[submodule "extensions/nuisance"]
+	path = extensions/nuisance
+	url = https://github.com/xtrasmal/zed-theme-nuisance.git
 
 [submodule "extensions/nvim-nightfox"]
 	path = extensions/nvim-nightfox
@@ -1106,6 +1114,10 @@
 	path = extensions/smithy
 	url = https://github.com/joshrutkowski/zed-smithy.git
 
+[submodule "extensions/sml"]
+	path = extensions/sml
+	url = https://github.com/omarjatoi/zed-sml.git
+
 [submodule "extensions/smooth"]
 	path = extensions/smooth
 	url = https://github.com/segersniels/zed-smooth.git
@@ -1309,6 +1321,10 @@
 [submodule "extensions/vitesse"]
 	path = extensions/vitesse
 	url = https://github.com/d1y/vitesse.zed.git
+
+[submodule "extensions/vrl"]
+	path = extensions/vrl
+	url = https://github.com/belltoy/zed-vrl.git
 
 [submodule "extensions/vscode-classic-theme"]
 	path = extensions/vscode-classic-theme
