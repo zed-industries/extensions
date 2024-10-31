@@ -914,6 +914,10 @@
 	path = extensions/oolong
 	url = https://github.com/jmg-duarte/oolong-zed.git
 
+[submodule "extensions/org"]
+	path = extensions/org
+	url = https://github.com/hron/zed-org
+
 [submodule "extensions/outrun"]
 	path = extensions/outrun
 	url = https://github.com/Acepie/OutrunZedTheme.git
@@ -1393,10 +1397,6 @@
 [submodule "extensions/zed"]
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
-
-[submodule "extensions/zed-org"]
-	path = extensions/zed-org
-	url = https://github.com/hron/zed-org
 
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
