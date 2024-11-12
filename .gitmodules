@@ -498,6 +498,10 @@
 	path = extensions/green-monochrome-monitor-crt-phosphor
 	url = https://github.com/Takk8IS/green-monochrome-monitor-crt-phosphor-theme-for-zed.git
 
+[submodule "extensions/gren"]
+	path = extensions/gren
+	url = https://github.com/johanalkstal/gren-lang-extension
+
 [submodule "extensions/groovy"]
 	path = extensions/groovy
 	url = https://github.com/valentinegb/zed-groovy.git
@@ -529,6 +533,10 @@
 [submodule "extensions/halcyon"]
 	path = extensions/halcyon
 	url = https://github.com/hichemfantar/halcyon-zed.git
+
+[submodule "extensions/hami-melon-theme"]
+	path = extensions/hami-melon-theme
+	url = https://github.com/isunjn/hami-melon-zed.git
 
 [submodule "extensions/haml"]
 	path = extensions/haml
@@ -866,6 +874,10 @@
 	path = extensions/nord
 	url = https://github.com/mikasius/zed-nord-theme.git
 
+[submodule "extensions/nordic-nvim-theme"]
+	path = extensions/nordic-nvim-theme
+	url = https://github.com/kislikjeka/zed-theme-nordic
+
 [submodule "extensions/nordic-theme"]
 	path = extensions/nordic-theme
 	url = https://github.com/biaqat/nordic-theme-zed.git
@@ -901,10 +913,6 @@
 [submodule "extensions/oceanic-next"]
 	path = extensions/oceanic-next
 	url = https://github.com/rkunev/oceanic-next.git
-
-[submodule "extensions/odin"]
-	path = extensions/odin
-	url = https://github.com/clseibold/zed-odin
 
 [submodule "extensions/oh-lucy"]
 	path = extensions/oh-lucy
@@ -1005,6 +1013,10 @@
 [submodule "extensions/playdate-zed-extension"]
 	path = extensions/playdate
 	url = https://github.com/notpeter/playdate-zed-extension.git
+
+[submodule "extensions/po"]
+	path = extensions/po
+	url = https://git.disroot.org/gemmaro/zed-po.git
 
 [submodule "extensions/poimandres"]
 	path = extensions/poimandres
@@ -1249,6 +1261,10 @@
 [submodule "extensions/templ"]
 	path = extensions/templ
 	url = https://github.com/makifdb/zed-templ.git
+
+[submodule "extensions/tera"]
+	path = extensions/tera
+	url = https://github.com/uncenter/zed-tera
 
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
