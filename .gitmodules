@@ -526,6 +526,10 @@
 	path = extensions/halcyon
 	url = https://github.com/hichemfantar/halcyon-zed.git
 
+[submodule "extensions/hami-melon-theme"]
+	path = extensions/hami-melon-theme
+	url = https://github.com/isunjn/hami-melon-zed.git
+
 [submodule "extensions/haml"]
 	path = extensions/haml
 	url = https://github.com/davidcornu/zed-haml.git
@@ -902,10 +906,6 @@
 	path = extensions/oceanic-next
 	url = https://github.com/rkunev/oceanic-next.git
 
-[submodule "extensions/odin"]
-	path = extensions/odin
-	url = https://github.com/clseibold/zed-odin
-
 [submodule "extensions/oh-lucy"]
 	path = extensions/oh-lucy
 	url = https://github.com/abdurrehman0206/Oh-Lucy.git
@@ -1006,6 +1006,10 @@
 	path = extensions/playdate
 	url = https://github.com/notpeter/playdate-zed-extension.git
 
+[submodule "extensions/po"]
+	path = extensions/po
+	url = https://git.disroot.org/gemmaro/zed-po.git
+
 [submodule "extensions/poimandres"]
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
@@ -1085,6 +1089,10 @@
 [submodule "extensions/rose-pine-theme"]
 	path = extensions/rose-pine-theme
 	url = https://github.com/rose-pine/zed
+
+[submodule "extensions/rpmspec"]
+	path = extensions/rpmspec
+	url = https://github.com/mtorromeo/zed-rpmspec-language.git
 
 [submodule "extensions/rst"]
 	path = extensions/rst
@@ -1245,6 +1253,10 @@
 [submodule "extensions/templ"]
 	path = extensions/templ
 	url = https://github.com/makifdb/zed-templ.git
+
+[submodule "extensions/tera"]
+	path = extensions/tera
+	url = https://github.com/uncenter/zed-tera
 
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
