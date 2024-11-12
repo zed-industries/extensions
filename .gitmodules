@@ -526,6 +526,10 @@
 	path = extensions/halcyon
 	url = https://github.com/hichemfantar/halcyon-zed.git
 
+[submodule "extensions/hami-melon-theme"]
+	path = extensions/hami-melon-theme
+	url = https://github.com/isunjn/hami-melon-zed.git
+
 [submodule "extensions/haml"]
 	path = extensions/haml
 	url = https://github.com/davidcornu/zed-haml.git
@@ -898,10 +902,6 @@
 	path = extensions/oceanic-next
 	url = https://github.com/rkunev/oceanic-next.git
 
-[submodule "extensions/odin"]
-	path = extensions/odin
-	url = https://github.com/clseibold/zed-odin
-
 [submodule "extensions/oh-lucy"]
 	path = extensions/oh-lucy
 	url = https://github.com/abdurrehman0206/Oh-Lucy.git
@@ -1249,6 +1249,10 @@
 [submodule "extensions/templ"]
 	path = extensions/templ
 	url = https://github.com/makifdb/zed-templ.git
+
+[submodule "extensions/tera"]
+	path = extensions/tera
+	url = https://github.com/uncenter/zed-tera
 
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
