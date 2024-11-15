@@ -624,7 +624,7 @@ version = "0.0.1"
 [html]
 submodule = "extensions/zed"
 path = "extensions/html"
-version = "0.1.3"
+version = "0.1.4"
 
 [http]
 submodule = "extensions/http"
@@ -814,6 +814,10 @@ version = "0.0.1"
 [mau]
 submodule = "extensions/mau"
 version = "0.0.4"
+
+[maya]
+submodule = "extensions/maya"
+version = "0.4.3"
 
 [melange]
 submodule = "extensions/melange"
@@ -1481,6 +1485,10 @@ version = "0.0.2"
 
 [vapor-theme]
 submodule = "extensions/vapor-theme"
+version = "0.0.1"
+
+[vento]
+submodule = "extensions/vento"
 version = "0.0.1"
 
 [vercel-theme]
