@@ -1,7 +1,7 @@
 {
   "type": "module",
   "volta": {
-    "node": "20.18.0"
+    "node": "20.18.1"
   },
   "scripts": {
     "fmt": "prettier --write .",
@@ -13,7 +13,7 @@
     "danger": "danger"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.691.0",
+    "@aws-sdk/client-s3": "3.697.0",
     "@iarna/toml": "2.2.5",
     "git-submodule-js": "1.0.4"
   },
