@@ -198,7 +198,7 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.13"
+version = "0.2.14"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
@@ -239,7 +239,7 @@ version = "0.1.0"
 
 [code-stats]
 submodule = "extensions/code-stats"
-version = "0.2.2"
+version = "0.2.3"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -716,7 +716,7 @@ version = "1.0.0"
 
 [latex]
 submodule = "extensions/latex"
-version = "0.1.1"
+version = "0.1.2"
 
 [leblackque]
 submodule = "extensions/leblackque"
@@ -925,7 +925,7 @@ version = "0.1.0"
 
 [nix]
 submodule = "extensions/nix"
-version = "0.1.0"
+version = "0.1.1"
 
 [nobin-theme]
 submodule = "extensions/nobin-theme"
@@ -972,9 +972,8 @@ submodule = "extensions/oasis"
 version = "0.0.1"
 
 [ocaml]
-submodule = "extensions/zed"
-path = "extensions/ocaml"
-version = "0.1.0"
+submodule = "extensions/ocaml"
+version = "0.1.2"
 
 [ocean-dark-motifs]
 submodule = "extensions/ocean-dark-motifs"
@@ -983,6 +982,10 @@ version = "0.0.2"
 [oceanic-next]
 submodule = "extensions/oceanic-next"
 version = "0.1.0"
+
+[odin]
+submodule = "extensions/odin"
+version = "0.2.0"
 
 [oh-lucy]
 submodule = "extensions/oh-lucy"
@@ -994,7 +997,7 @@ version = "0.0.1"
 
 [one-black-theme]
 submodule = "extensions/one-black-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [one-dark-darkened]
 submodule = "extensions/one-dark-darkened"
@@ -1058,7 +1061,7 @@ version = "1.0.1"
 
 [penumbra]
 submodule = "extensions/penumbra"
-version = "0.1.0"
+version = "0.1.1"
 
 [perl]
 submodule = "extensions/perl"
@@ -1079,7 +1082,7 @@ version = "0.2.1"
 
 [pica200]
 submodule = "extensions/pica200"
-version = "0.0.1"
+version = "0.0.2"
 
 [pkl]
 submodule = "extensions/pkl"
@@ -1501,7 +1504,7 @@ version = "0.0.1"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.5"
+version = "0.0.6"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -1577,11 +1580,15 @@ version = "2.0.0"
 
 [xml]
 submodule = "extensions/xml"
-version = "0.0.7"
+version = "0.0.8"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
 version = "0.1.1"
+
+[yellowed]
+submodule = "extensions/yellowed"
+version = "0.0.1"
 
 [yogi-amoled]
 submodule = "extensions/yogi-amoled"
