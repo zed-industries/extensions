@@ -51,9 +51,7 @@ jobs:
         run: pnpm install
 
       - name: Check submodule paths
-        run: |
-          git submodule -q foreach 'echo $name $path' | awk '$1 != $2 {print "Git submodule name/path mismatch:", $0}' | grep 'mismatch'
-          test $? -ne 0
+        run: ! git submodule -q foreach 'echo $name $path' | awk '$1 != $2 {print "Git submodule name/path mismatch:", $0}' | grep 'mismatch'
 
       - name: Build
         run: pnpm build
