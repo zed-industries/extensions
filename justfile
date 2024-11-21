@@ -21,10 +21,3 @@ clean-submodules:
 # Resets all of the Git submodules containing extensions.
 reset-submodules: clean-submodules
     git submodule update --init --recursive
-
-# Checks for Git submodule name/path mismatches.
-check-submodule-paths:
-    git submodule -q foreach 'echo $name $path' | \
-        awk '$1 != $2 {print "Git submodule name/path mismatch:", $0}' | \
-        grep 'mismatch'; \
-        test $? -ne 0
