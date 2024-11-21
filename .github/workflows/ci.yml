@@ -50,6 +50,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Check submodule paths
+        run: just check-submodule-paths
+
       - name: Build
         run: pnpm build
 
