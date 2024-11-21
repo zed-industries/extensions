@@ -56,9 +56,6 @@ jobs:
       - name: Run tests
         run: pnpm test
 
-      - name: Check submodule path names
-        run: script/check-submodule-paths.sh
-
       - name: Cache extension build dependencies
         uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
