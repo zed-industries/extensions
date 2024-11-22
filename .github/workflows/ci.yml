@@ -8,17 +8,18 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: ccf6f27b8f1bdfb803b9cc0da0b0cf5c9e136dd9
+  ZED_EXTENSION_CLI_SHA: b5ce8e7aa500d530389fef4cdd26f4790d013682
 
 jobs:
   package:
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'zed-industries'
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           clean: false
           fetch-depth: 0
@@ -27,14 +28,14 @@ jobs:
         with:
           version: 9
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4
         with:
           node-version: "20"
           cache: "pnpm"
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@v3
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
           path: |
             zed-extension
@@ -56,7 +57,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
           key: cache-build-dependencies
           path: |
