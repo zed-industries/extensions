@@ -334,6 +334,10 @@
 	path = extensions/earthfile
 	url = https://github.com/glehmann/earthfile.zed.git
 
+[submodule "extensions/edi"]
+	path = extensions/edi
+	url = https://github.com/hugginsio/zed-edi.git
+
 [submodule "extensions/eiffel-theme"]
 	path = extensions/eiffel-theme
 	url = https://github.com/demiurg/zed-theme-eiffel.git
@@ -1465,10 +1469,6 @@
 [submodule "extensions/wit"]
 	path = extensions/wit
 	url = https://github.com/valentinegb/zed-wit.git
-
-[submodule "extensions/x12"]
-	path = extensions/x12
-	url = https://github.com/hugginsio/zed-x12.git
 
 [submodule "extensions/xcode-themes"]
 	path = extensions/xcode-themes
