@@ -238,6 +238,14 @@
 	path = extensions/colorizer
 	url = https://github.com/tamimhasandev/colorizer.git
 
+[submodule "extensions/conl"]
+	path = extensions/conl
+	url = https://github.com/ConradIrwin/zed-extension-conl
+
+[submodule "extensions/cooklang"]
+	path = extensions/cooklang
+	url = https://github.com/hugginsio/zed-cooklang.git
+
 [submodule "extensions/cosmos"]
 	path = extensions/cosmos
 	url = https://github.com/nauvalazhar/cosmos.git
@@ -333,6 +341,10 @@
 [submodule "extensions/earthfile"]
 	path = extensions/earthfile
 	url = https://github.com/glehmann/earthfile.zed.git
+
+[submodule "extensions/edi"]
+	path = extensions/edi
+	url = https://github.com/hugginsio/zed-edi.git
 
 [submodule "extensions/eiffel-theme"]
 	path = extensions/eiffel-theme
@@ -906,6 +918,10 @@
 	path = extensions/nvim-nightfox
 	url = https://github.com/cange/nightfox.zed.git
 
+[submodule "extensions/nyxvamp-theme"]
+	path = extensions/nyxvamp-theme
+	url = https://github.com/nyxvamp-theme/zed
+
 [submodule "extensions/oasis"]
 	path = extensions/oasis
 	url = https://github.com/aerendem/oasis-zed-theme
@@ -945,6 +961,10 @@
 [submodule "extensions/one-dark-extended"]
 	path = extensions/one-dark-extended
 	url = https://github.com/uonick/zed-one-dark-extended
+
+[submodule "extensions/one-dark-flat"]
+	path = extensions/one-dark-flat
+	url = https://github.com/0PandaDEV/zed-one-dark-flat.git
 
 [submodule "extensions/one-dark-pro"]
 	path = extensions/one-dark-pro
@@ -1018,6 +1038,10 @@
 	path = extensions/pica200
 	url = https://github.com/Squareheron942/zed-pica200.git
 
+[submodule "extensions/pinata-theme"]
+	path = extensions/pinata-theme
+	url = https://github.com/stevedylandev/pinata-theme-zed
+
 [submodule "extensions/pkl"]
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
@@ -1026,7 +1050,7 @@
 	path = extensions/plantuml
 	url = https://github.com/gabeidx/zed-plantuml.git
 
-[submodule "extensions/playdate-zed-extension"]
+[submodule "extensions/playdate"]
 	path = extensions/playdate
 	url = https://github.com/notpeter/playdate-zed-extension.git
 
@@ -1041,6 +1065,10 @@
 [submodule "extensions/polar-theme"]
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
+
+[submodule "extensions/postgres-context-server"]
+	path = extensions/postgres-context-server
+	url = https://github.com/zed-extensions/postgres-context-server.git
 
 [submodule "extensions/powershell"]
 	path = extensions/powershell
@@ -1384,7 +1412,7 @@
 
 [submodule "extensions/vercel-theme"]
 	path = extensions/vercel-theme
-	url = https://github.com/NathanBrodin/zed-vercel-theme
+	url = https://github.com/NathanBrodin/zed-vercel-theme.git
 
 [submodule "extensions/verilog"]
 	path = extensions/verilog
