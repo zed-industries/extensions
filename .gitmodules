@@ -1286,6 +1286,10 @@
 	path = extensions/synthwave
 	url = https://github.com/DanielMSchmidt/zed-synthwave.git
 
+[submodule "extensions/tab-prediction-next-action"]
+	path = extensions/tab-prediction-next-action
+	url = https://github.com/adnanwahab/zed-tab-prediction-next-action.git
+
 [submodule "extensions/tailwind-theme"]
 	path = extensions/tailwind-theme
 	url = https://github.com/biaqat/tailwind-theme-zed.git
@@ -1493,10 +1497,6 @@
 [submodule "extensions/zed"]
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
-
-[submodule "extensions/zed-tab-prediction-next-action"]
-	path = extensions/zed-tab-prediction-next-action
-	url = git@github.com:adnanwahab/zed-tab-prediction-next-action.git
 
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
