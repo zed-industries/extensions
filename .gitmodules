@@ -90,6 +90,10 @@
 	path = extensions/aylin-theme
 	url = https://github.com/biaqat/aylin-theme-zed.git
 
+[submodule "extensions/barbenheimer"]
+	path = extensions/barbenheimer
+	url = https://github.com/jayvicsanantonio/barbenheimer-zed-theme.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -853,6 +857,10 @@
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
+
+[submodule "extensions/neovim-default"]
+	path = extensions/neovim-default
+	url = https://github.com/KimNorgaard/zed-neovim-default.git
 
 [submodule "extensions/new-darcula"]
 	path = extensions/new-darcula

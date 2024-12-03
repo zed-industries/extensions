@@ -96,6 +96,10 @@ version = "0.0.1"
 submodule = "extensions/aylin-theme"
 version = "0.6.0"
 
+[barbenheimer]
+submodule = "extensions/barbenheimer"
+version = "1.0.1"
+
 [base16]
 submodule = "extensions/base16"
 version = "0.1.1"
@@ -202,7 +206,7 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.15"
+version = "0.2.16"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
@@ -413,7 +417,7 @@ version = "0.0.1"
 [erlang]
 submodule = "extensions/zed"
 path = "extensions/erlang"
-version = "0.1.0"
+version = "0.1.1"
 
 [everforest]
 submodule = "extensions/everforest"
@@ -574,7 +578,7 @@ version = "0.0.1"
 
 [gruber-darker]
 submodule = "extensions/gruber-darker"
-version = "0.0.5"
+version = "0.0.6"
 
 [gruber-flavors]
 submodule = "extensions/gruber-flavors"
@@ -615,7 +619,7 @@ version = "0.0.4"
 [haskell]
 submodule = "extensions/zed"
 path = "extensions/haskell"
-version = "0.1.1"
+version = "0.1.2"
 
 [helm]
 submodule = "extensions/helm"
@@ -732,7 +736,7 @@ version = "1.0.0"
 
 [latex]
 submodule = "extensions/latex"
-version = "0.1.2"
+version = "0.1.3"
 
 [leblackque]
 submodule = "extensions/leblackque"
@@ -773,7 +777,7 @@ version = "0.0.3"
 [lua]
 submodule = "extensions/zed"
 path = "extensions/lua"
-version = "0.1.0"
+version = "0.1.1"
 
 [luau]
 submodule = "extensions/luau"
@@ -914,6 +918,10 @@ version = "0.0.1"
 [neosolarized]
 submodule = "extensions/neosolarized"
 version = "0.0.2"
+
+[neovim-default]
+submodule = "extensions/neovim-default"
+version = "0.2.0"
 
 [new-darcula]
 submodule = "extensions/new-darcula"
@@ -1102,7 +1110,7 @@ version = "0.1.0"
 [php]
 submodule = "extensions/zed"
 path = "extensions/php"
-version = "0.2.1"
+version = "0.2.3"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -1147,7 +1155,7 @@ version = "0.1.0"
 [prisma]
 submodule = "extensions/zed"
 path = "extensions/prisma"
-version = "0.0.3"
+version = "0.0.4"
 
 [prolog]
 submodule = "extensions/prolog"
@@ -1156,7 +1164,7 @@ version = "0.0.1"
 [proto]
 submodule = "extensions/zed"
 path = "extensions/proto"
-version = "0.2.0"
+version = "0.2.1"
 
 [pug]
 submodule = "extensions/pug"
@@ -1255,7 +1263,7 @@ version = "0.1.0"
 
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
-version = "1.0.1"
+version = "1.0.3"
 
 [sagemath]
 submodule = "extensions/sagemath"
@@ -1451,7 +1459,7 @@ version = "0.4.0"
 [toml]
 submodule = "extensions/zed"
 path = "extensions/toml"
-version = "0.1.1"
+version = "0.1.2"
 
 [tomorrow-theme]
 submodule = "extensions/tomorrow-theme"
@@ -1572,7 +1580,7 @@ version = "1.0.0"
 
 [vscode-dark-modern]
 submodule = "extensions/vscode-dark-modern"
-version = "0.0.4"
+version = "0.0.5"
 
 [vscode-dark-plus]
 submodule = "extensions/vscode-dark-plus"
@@ -1654,7 +1662,7 @@ version = "0.1.0"
 [zig]
 submodule = "extensions/zed"
 path = "extensions/zig"
-version = "0.3.1"
+version = "0.3.2"
 
 [ziggy]
 submodule = "extensions/ziggy"
