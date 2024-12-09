@@ -314,6 +314,10 @@ version = "0.2.0"
 submodule = "extensions/cypher"
 version = "0.0.1"
 
+[cython]
+submodule = "extensions/cython"
+version = "0.1.0"
+
 [d]
 submodule = "extensions/d"
 version = "0.0.8"

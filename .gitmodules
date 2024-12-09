@@ -298,6 +298,10 @@
 	path = extensions/cypher
 	url = https://github.com/pupli/cypher
 
+[submodule "extensions/cython"]
+	path = extensions/cython
+	url = https://github.com/lgeiger/zed-cython.git
+
 [submodule "extensions/d"]
 	path = extensions/d
 	url = https://github.com/staysail/zed-d.git
