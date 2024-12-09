@@ -499,6 +499,11 @@ version = "0.3.0"
 submodule = "extensions/gdscript"
 version = "0.4.0"
 
+[gem]
+submodule = "extensions/gem"
+path = "crates/zed-plugin-gem"
+version = "0.0.1"
+
 [gemini]
 submodule = "extensions/gemini"
 version = "0.0.1"
