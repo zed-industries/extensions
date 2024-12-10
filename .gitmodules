@@ -530,6 +530,10 @@
 	path = extensions/gren
 	url = https://github.com/johanalkstal/gren-lang-extension
 
+[submodule "extensions/grey-theme"]
+	path = extensions/grey-theme
+	url = https://github.com/mvrcoag/zed-grey-theme
+
 [submodule "extensions/groovy"]
 	path = extensions/groovy
 	url = https://github.com/valentinegb/zed-groovy.git
@@ -1549,10 +1553,6 @@
 [submodule "extensions/zed"]
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
-
-[submodule "extensions/zed-grey-theme"]
-	path = extensions/zed-grey-theme
-	url = https://github.com/mvrcoag/zed-grey-theme
 
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
