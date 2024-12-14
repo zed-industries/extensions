@@ -1,3 +1,5 @@
+const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
+
 /**
  * Exceptions to the rule of extension IDs ending in `-zed`.
  *
@@ -10,6 +12,12 @@ const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed"];
  */
 export function validateExtensionsToml(extensionsToml) {
   for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
+    if (!EXTENSION_ID_PATTERN.test(extensionId)) {
+      throw new Error(
+        `Extension IDs must only consist of lowercase letters, numbers, and hyphens ('-'): "${extensionId}".`,
+      );
+    }
+
     if (extensionId.startsWith("zed-")) {
       throw new Error(
         `Extension IDs should not start with "zed-", as they are all Zed extensions: "${extensionId}".`,
