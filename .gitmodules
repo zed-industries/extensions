@@ -846,6 +846,10 @@
 	path = extensions/mosel
 	url = https://github.com/pierrenel/mosel
 
+[submodule "extensions/move"]
+	path = extensions/move
+	url = https://github.com/Tzal3x/move-zed-extension.git
+
 [submodule "extensions/msun-dark"]
 	path = extensions/msun-dark
 	url = https://github.com/mikesun/msun-dark-zed.git
@@ -1581,10 +1585,6 @@
 [submodule "extensions/zedwaita"]
 	path = extensions/zedwaita
 	url = https://github.com/someone13574/zed-adwaita-theme.git
-
-[submodule "extensions/move-zed-extension"]
-	path = extensions/move-zed-extension
-	url = https://github.com/Tzal3x/move-zed-extension
 
 [submodule "extensions/zen-abyssal"]
 	path = extensions/zen-abyssal
