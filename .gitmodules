@@ -1174,6 +1174,10 @@
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
 
+[submodule "extensions/rhai"]
+	path = extensions/rhai
+	url = https://github.com/elkowar/zed-rhai
+
 [submodule "extensions/roc"]
 	path = extensions/roc
 	url = https://github.com/h2000/zed-roc.git
@@ -1565,10 +1569,6 @@
 [submodule "extensions/zed"]
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
-
-[submodule "extensions/zed-rhai"]
-	path = extensions/zed-rhai
-	url = https://github.com/elkowar/zed-rhai
 
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
