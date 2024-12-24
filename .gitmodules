@@ -646,6 +646,10 @@
 	path = extensions/intellij-newui-theme
 	url = https://github.com/kpitt/zed-theme-intellij-newui.git
 
+[submodule "extensions/iwe"]
+	path = extensions/iwe
+	url = git@github.com:iwe-org/zed-iwe.git
+
 [submodule "extensions/janet"]
 	path = extensions/janet
 	url = https://github.com/vijaykiran/janet-zed.git
