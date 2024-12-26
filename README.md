@@ -2,9 +2,9 @@
 
 This is the central repository containing the extensions available for [Zed](https://zed.dev/).
 
-## Authoring extensions
+## Getting started
 
-See [`AUTHORING_EXTENSIONS.md`](./AUTHORING_EXTENSIONS.md) for how to author your own extension and get it added to the extension registry.
+See the [Developing Extensions](https://zed.dev/docs/extensions/developing-extensions) docs for how to develop and publish your extension
 
 Looking for extension ideas? Check out:
 
