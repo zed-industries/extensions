@@ -250,6 +250,10 @@
 	path = extensions/crystal-theme
 	url = https://gitlab.com/crystalnetwork-studio/themes/zed-editor.git
 
+[submodule "extensions/cspell"]
+	path = extensions/cspell
+	url = https://github.com/mantou132/zed-cspell
+
 [submodule "extensions/csv"]
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
