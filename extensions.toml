@@ -257,7 +257,7 @@ version = "0.0.3"
 
 [code-stats]
 submodule = "extensions/code-stats"
-version = "0.2.3"
+version = "0.2.4"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -295,6 +295,10 @@ version = "0.0.1"
 submodule = "extensions/zed"
 path = "extensions/csharp"
 version = "0.1.0"
+
+[cspell]
+submodule = "extensions/cspell"
+version = "0.0.1"
 
 [csv]
 submodule = "extensions/csv"
@@ -900,7 +904,7 @@ version = "0.1.4"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
-version = "0.0.3"
+version = "0.0.4"
 
 [monokai-reversed]
 submodule = "extensions/monokai-reversed"
@@ -1692,6 +1696,10 @@ version = "0.1.1"
 [wgsl]
 submodule = "extensions/wgsl"
 version = "0.0.1"
+
+[whkd]
+submodule = "extensions/whkd"
+version = "0.1.0"
 
 [wit]
 submodule = "extensions/wit"
