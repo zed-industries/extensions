@@ -274,6 +274,10 @@
 	path = extensions/code-stats
 	url = https://github.com/maxdeviant/zed-code-stats.git
 
+[submodule "extensions/codebook"]
+	path = extensions/codebook
+	url = https://github.com/blopker/codebook-zed.git
+
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
 	url = https://github.com/MartinRybergLaude/zed-theme-codesandbox.git
@@ -1037,6 +1041,10 @@
 [submodule "extensions/oasis"]
 	path = extensions/oasis
 	url = https://github.com/aerendem/oasis-zed-theme
+
+[submodule "extensions/obsidian-sunset"]
+	path = extensions/obsidian-sunset
+	url = https://github.com/lczerniawski/ObsidianSunset-Zed.git
 
 [submodule "extensions/ocaml"]
 	path = extensions/ocaml
