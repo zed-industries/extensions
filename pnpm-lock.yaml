@@ -25,8 +25,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       '@types/node':
-        specifier: 20.17.14
-        version: 20.17.14
+        specifier: 20.17.16
+        version: 20.17.16
       danger:
         specifier: 12.3.3
         version: 12.3.3
@@ -41,7 +41,7 @@ importers:
         version: 5.7.3
       vitest:
         specifier: 1.6.0
-        version: 1.6.0(@types/node@20.17.14)
+        version: 1.6.0(@types/node@20.17.16)
 
 packages:
 
@@ -691,8 +691,8 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
-  '@types/node@20.17.14':
-    resolution: {integrity: sha512-w6qdYetNL5KRBiSClK/KWai+2IMEJuAj+EujKCumalFOwXtvOXaEan9AuwcRID2IcOIAWSIfR495hBtgKlx2zg==}
+  '@types/node@20.17.16':
+    resolution: {integrity: sha512-vOTpLduLkZXePLxHiHsBLp98mHGnl8RptV4YAO3HfKO5UHjDvySGbxKtpYfy8Sx5+WKcgc45qNreJJRVM3L6mw==}
 
   '@vitest/expect@1.6.0':
     resolution: {integrity: sha512-ixEvFVQjycy/oNgHjqsL6AZCDduC+tflRluaHIzKIsdbzkLn2U/iBnVeJwB6HsIjQBdfMR8Z0tRxKUsvFJEeWQ==}
@@ -2400,7 +2400,7 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
-  '@types/node@20.17.14':
+  '@types/node@20.17.16':
     dependencies:
       undici-types: 6.19.8
 
@@ -3028,13 +3028,13 @@ snapshots:
 
   uuid@9.0.1: {}
 
-  vite-node@1.6.0(@types/node@20.17.14):
+  vite-node@1.6.0(@types/node@20.17.16):
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.1.4(@types/node@20.17.14)
+      vite: 5.1.4(@types/node@20.17.16)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3045,16 +3045,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.1.4(@types/node@20.17.14):
+  vite@5.1.4(@types/node@20.17.16):
     dependencies:
       esbuild: 0.19.12
       postcss: 8.4.35
       rollup: 4.12.0
     optionalDependencies:
-      '@types/node': 20.17.14
+      '@types/node': 20.17.16
       fsevents: 2.3.3
 
-  vitest@1.6.0(@types/node@20.17.14):
+  vitest@1.6.0(@types/node@20.17.16):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -3073,11 +3073,11 @@ snapshots:
       strip-literal: 2.0.0
       tinybench: 2.6.0
       tinypool: 0.8.4
-      vite: 5.1.4(@types/node@20.17.14)
-      vite-node: 1.6.0(@types/node@20.17.14)
+      vite: 5.1.4(@types/node@20.17.16)
+      vite-node: 1.6.0(@types/node@20.17.16)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 20.17.14
+      '@types/node': 20.17.16
     transitivePeerDependencies:
       - less
       - lightningcss
