@@ -1410,6 +1410,10 @@
 	path = extensions/sql
 	url = https://github.com/nervenes/zed-sql.git
 
+[submodule "extensions/sqruff"]
+	path = extensions/sqruff
+	url = https://github.com/gvozdvmozgu/sqruff-zed.git
+
 [submodule "extensions/srcery"]
 	path = extensions/srcery
 	url = https://github.com/srcery-colors/srcery-zed.git
