@@ -191,6 +191,10 @@ version = "1.0.0"
 submodule = "extensions/c3"
 version = "0.0.2"
 
+[caddyfile]
+submodule = "extensions/caddyfile"
+version = "0.0.1"
+
 [cadence]
 submodule = "extensions/cadence"
 version = "0.0.2"
@@ -286,6 +290,10 @@ version = "0.0.5"
 [colorizer]
 submodule = "extensions/colorizer"
 version = "0.0.4"
+
+[confluence-context-server]
+submodule = "extensions/confluence-context-server"
+version = "1.0.0"
 
 [conl]
 submodule = "extensions/conl"
@@ -740,6 +748,10 @@ version = "0.0.3"
 submodule = "extensions/intellij-newui-theme"
 version = "0.1.0"
 
+[isle]
+submodule = "extensions/isle"
+version = "0.0.1"
+
 [iwe]
 submodule = "extensions/iwe"
 version = "0.0.1"
@@ -750,7 +762,7 @@ version = "0.0.1"
 
 [java]
 submodule = "extensions/java"
-version = "5.0.2"
+version = "6.0.0"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1750,7 +1762,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.1.2"
+version = "0.1.3"
 
 [wakatime]
 submodule = "extensions/wakatime"
@@ -1763,6 +1775,14 @@ version = "0.1.1"
 [warp-one-dark]
 submodule = "extensions/warp-one-dark"
 version = "0.1.1"
+
+[wat]
+submodule = "extensions/wat"
+version = "0.1.0"
+
+[wdl]
+submodule = "extensions/wdl"
+version = "0.0.1"
 
 [wgsl]
 submodule = "extensions/wgsl"
