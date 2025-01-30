@@ -190,6 +190,10 @@
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
 
+[submodule "extensions/caddyfile"]
+	path = extensions/caddyfile
+	url = https://github.com/nusnewob/caddyfile-zed.git
+
 [submodule "extensions/cadence"]
 	path = extensions/cadence
 	url = https://github.com/janezpodhostnik/cadence.zed.git
@@ -274,6 +278,10 @@
 	path = extensions/code-stats
 	url = https://github.com/maxdeviant/zed-code-stats.git
 
+[submodule "extensions/codebook"]
+	path = extensions/codebook
+	url = https://github.com/blopker/codebook-zed.git
+
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
 	url = https://github.com/MartinRybergLaude/zed-theme-codesandbox.git
@@ -281,6 +289,10 @@
 [submodule "extensions/colorizer"]
 	path = extensions/colorizer
 	url = https://github.com/tamimhasandev/colorizer.git
+
+[submodule "extensions/confluence-context-server"]
+	path = extensions/confluence-context-server
+	url = https://github.com/mouhamadalmounayar/confluence-context-server
 
 [submodule "extensions/conl"]
 	path = extensions/conl
@@ -361,6 +373,10 @@
 [submodule "extensions/dbml"]
 	path = extensions/dbml
 	url = https://github.com/shuklaayush/zed-dbml.git
+
+[submodule "extensions/decorative-stitch"]
+	path = extensions/decorative-stitch
+	url = https://github.com/keithrowell/zed-theme-decorative-stitch.git
 
 [submodule "extensions/denix"]
 	path = extensions/denix
@@ -690,6 +706,10 @@
 	path = extensions/intellij-newui-theme
 	url = https://github.com/kpitt/zed-theme-intellij-newui.git
 
+[submodule "extensions/isle"]
+	path = extensions/isle
+	url = https://github.com/eagr/zed-isle.git
+
 [submodule "extensions/iwe"]
 	path = extensions/iwe
 	url = https://github.com/iwe-org/zed-iwe.git
@@ -721,6 +741,10 @@
 [submodule "extensions/just"]
 	path = extensions/just
 	url = https://github.com/jackTabsCode/zed-just.git
+
+[submodule "extensions/kamui-dark-theme"]
+	path = extensions/kamui-dark-theme
+	url = https://gitlab.com/kamuiqf/zed-kamui-theme
 
 [submodule "extensions/kanagawa-themes"]
 	path = extensions/kanagawa-themes
@@ -886,6 +910,10 @@
 	path = extensions/monokai-reversed
 	url = https://github.com/everdrone/zed-monokai-reversed
 
+[submodule "extensions/monokai-vibrant-amped"]
+	path = extensions/monokai-vibrant-amped
+	url = https://github.com/Ceebox/zed-monokai-vibrant-amped.git
+
 [submodule "extensions/monolith"]
 	path = extensions/monolith
 	url = https://github.com/someone13574/zed-monolith-theme.git
@@ -1030,6 +1058,10 @@
 	path = extensions/oasis
 	url = https://github.com/aerendem/oasis-zed-theme
 
+[submodule "extensions/obsidian-sunset"]
+	path = extensions/obsidian-sunset
+	url = https://github.com/lczerniawski/ObsidianSunset-Zed.git
+
 [submodule "extensions/ocaml"]
 	path = extensions/ocaml
 	url = https://github.com/zed-extensions/ocaml.git
@@ -1081,6 +1113,10 @@
 [submodule "extensions/one-hunter"]
 	path = extensions/one-hunter
 	url = https://github.com/teziovsky/zed-one-hunter-theme.git
+
+[submodule "extensions/onurb"]
+	path = extensions/onurb
+	url = https://github.com/brunoocrv/onurb-zed
 
 [submodule "extensions/oolong"]
 	path = extensions/oolong
@@ -1386,9 +1422,17 @@
 	path = extensions/sql
 	url = https://github.com/nervenes/zed-sql.git
 
+[submodule "extensions/sqruff"]
+	path = extensions/sqruff
+	url = https://github.com/gvozdvmozgu/sqruff-zed.git
+
 [submodule "extensions/srcery"]
 	path = extensions/srcery
 	url = https://github.com/srcery-colors/srcery-zed.git
+
+[submodule "extensions/ssh-config"]
+	path = extensions/ssh-config
+	url = https://github.com/pranavmangal/zed-ssh-config.git
 
 [submodule "extensions/stan"]
 	path = extensions/stan
@@ -1582,6 +1626,10 @@
 	path = extensions/vitesse
 	url = https://github.com/d1y/vitesse.zed.git
 
+[submodule "extensions/vitesse-theme-refined"]
+	path = extensions/vitesse-theme-refined
+	url = https://github.com/colinlienard/zed-vitesse-theme-refined
+
 [submodule "extensions/vrl"]
 	path = extensions/vrl
 	url = https://github.com/belltoy/zed-vrl.git
@@ -1622,6 +1670,10 @@
 	path = extensions/warp-one-dark
 	url = https://github.com/distributed-intelligence/warp-one-dark
 
+[submodule "extensions/wat"]
+	path = extensions/wat
+	url = https://github.com/g-plane/zed-wasm.git
+
 [submodule "extensions/wdl"]
 	path = extensions/wdl
 	url = https://github.com/broadinstitute/zed-wdl
@@ -1649,6 +1701,10 @@
 [submodule "extensions/xy-zed"]
 	path = extensions/xy-zed
 	url = https://github.com/zarifpour/xy-zed.git
+
+[submodule "extensions/yaka"]
+	path = extensions/yaka
+	url = https://github.com/edgarkanyes/yaka.git
 
 [submodule "extensions/yara"]
 	path = extensions/yara
