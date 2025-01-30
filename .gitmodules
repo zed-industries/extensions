@@ -190,6 +190,10 @@
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
 
+[submodule "extensions/caddyfile"]
+	path = extensions/caddyfile
+	url = https://github.com/nusnewob/caddyfile-zed.git
+
 [submodule "extensions/cadence"]
 	path = extensions/cadence
 	url = https://github.com/janezpodhostnik/cadence.zed.git
@@ -285,6 +289,10 @@
 [submodule "extensions/colorizer"]
 	path = extensions/colorizer
 	url = https://github.com/tamimhasandev/colorizer.git
+
+[submodule "extensions/confluence-context-server"]
+	path = extensions/confluence-context-server
+	url = https://github.com/mouhamadalmounayar/confluence-context-server
 
 [submodule "extensions/conl"]
 	path = extensions/conl
@@ -485,6 +493,10 @@
 [submodule "extensions/flexoki-themes"]
 	path = extensions/flexoki-themes
 	url = https://github.com/oddship/zed-flexoki-theme.git
+
+[submodule "extensions/flutter-snippets"]
+	path = extensions/flutter-snippets
+	url = https://github.com/luisdanieldlcg/flutter-snippets
 
 [submodule "extensions/focus-theme"]
 	path = extensions/focus-theme
@@ -697,6 +709,10 @@
 [submodule "extensions/intellij-newui-theme"]
 	path = extensions/intellij-newui-theme
 	url = https://github.com/kpitt/zed-theme-intellij-newui.git
+
+[submodule "extensions/isle"]
+	path = extensions/isle
+	url = https://github.com/eagr/zed-isle.git
 
 [submodule "extensions/iwe"]
 	path = extensions/iwe
@@ -913,6 +929,10 @@
 [submodule "extensions/monospace-theme"]
 	path = extensions/monospace-theme
 	url = https://github.com/Abhinav5383/zed-monospace-theme.git
+
+[submodule "extensions/moonlight"]
+	path = extensions/moonlight
+	url = https://github.com/Rick-VA/moonlight.git
 
 [submodule "extensions/mosel"]
 	path = extensions/mosel
@@ -1213,6 +1233,10 @@
 [submodule "extensions/powershell"]
 	path = extensions/powershell
 	url = https://github.com/wingyplus/zed-powershell.git
+
+[submodule "extensions/prisma"]
+	path = extensions/prisma
+	url = https://github.com/zed-extensions/prisma.git
 
 [submodule "extensions/prolog"]
 	path = extensions/prolog
@@ -1661,6 +1685,14 @@
 [submodule "extensions/warp-one-dark"]
 	path = extensions/warp-one-dark
 	url = https://github.com/distributed-intelligence/warp-one-dark
+
+[submodule "extensions/wat"]
+	path = extensions/wat
+	url = https://github.com/g-plane/zed-wasm.git
+
+[submodule "extensions/wdl"]
+	path = extensions/wdl
+	url = https://github.com/broadinstitute/zed-wdl
 
 [submodule "extensions/wgsl"]
 	path = extensions/wgsl

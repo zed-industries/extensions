@@ -191,6 +191,10 @@ version = "1.0.0"
 submodule = "extensions/c3"
 version = "0.0.2"
 
+[caddyfile]
+submodule = "extensions/caddyfile"
+version = "0.0.1"
+
 [cadence]
 submodule = "extensions/cadence"
 version = "0.0.2"
@@ -261,7 +265,7 @@ version = "0.0.2"
 
 [clojure]
 submodule = "extensions/clojure"
-version = "0.1.1"
+version = "0.2.0"
 
 [cobalt2]
 submodule = "extensions/cobalt2"
@@ -286,6 +290,10 @@ version = "0.0.5"
 [colorizer]
 submodule = "extensions/colorizer"
 version = "0.0.4"
+
+[confluence-context-server]
+submodule = "extensions/confluence-context-server"
+version = "1.0.0"
 
 [conl]
 submodule = "extensions/conl"
@@ -512,6 +520,10 @@ version = "1.1.0"
 submodule = "extensions/flexoki-themes"
 version = "0.0.1"
 
+[flutter-snippets]
+submodule = "extensions/flutter-snippets"
+version = "0.1.0"
+
 [focus-theme]
 submodule = "extensions/focus-theme"
 version = "0.0.1"
@@ -579,7 +591,7 @@ version = "0.0.2"
 
 [gleam]
 submodule = "extensions/gleam"
-version = "0.2.1"
+version = "0.3.0"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -600,7 +612,7 @@ version = "0.0.1"
 
 [graphene]
 submodule = "extensions/graphene"
-version = "0.2.0"
+version = "0.2.1"
 
 [graphql]
 submodule = "extensions/graphql"
@@ -740,6 +752,10 @@ version = "0.0.3"
 submodule = "extensions/intellij-newui-theme"
 version = "0.1.0"
 
+[isle]
+submodule = "extensions/isle"
+version = "0.0.1"
+
 [iwe]
 submodule = "extensions/iwe"
 version = "0.0.1"
@@ -750,7 +766,7 @@ version = "0.0.1"
 
 [java]
 submodule = "extensions/java"
-version = "5.0.2"
+version = "6.0.0"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -960,6 +976,10 @@ version = "0.1.1"
 [monospace-theme]
 submodule = "extensions/monospace-theme"
 version = "0.1.3"
+
+[moonlight]
+submodule = "extensions/moonlight"
+version = "0.0.1"
 
 [mosel]
 submodule = "extensions/mosel"
@@ -1272,9 +1292,8 @@ submodule = "extensions/powershell"
 version = "0.1.0"
 
 [prisma]
-submodule = "extensions/zed"
-path = "extensions/prisma"
-version = "0.0.4"
+submodule = "extensions/prisma"
+version = "0.1.0"
 
 [prolog]
 submodule = "extensions/prolog"
@@ -1722,7 +1741,7 @@ version = "0.0.2"
 
 [vitesse-theme-refined]
 submodule = "extensions/vitesse-theme-refined"
-version = "0.0.1"
+version = "0.0.2"
 
 [vrl]
 submodule = "extensions/vrl"
@@ -1750,7 +1769,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.1.2"
+version = "0.2.0"
 
 [wakatime]
 submodule = "extensions/wakatime"
@@ -1763,6 +1782,14 @@ version = "0.1.1"
 [warp-one-dark]
 submodule = "extensions/warp-one-dark"
 version = "0.1.1"
+
+[wat]
+submodule = "extensions/wat"
+version = "0.1.0"
+
+[wdl]
+submodule = "extensions/wdl"
+version = "0.0.1"
 
 [wgsl]
 submodule = "extensions/wgsl"
