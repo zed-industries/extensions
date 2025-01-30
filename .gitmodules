@@ -190,6 +190,10 @@
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
 
+[submodule "extensions/caddyfile"]
+	path = extensions/caddyfile
+	url = https://github.com/nusnewob/caddyfile-zed.git
+
 [submodule "extensions/cadence"]
 	path = extensions/cadence
 	url = https://github.com/janezpodhostnik/cadence.zed.git
@@ -273,6 +277,10 @@
 [submodule "extensions/code-stats"]
 	path = extensions/code-stats
 	url = https://github.com/maxdeviant/zed-code-stats.git
+
+[submodule "extensions/codebook"]
+	path = extensions/codebook
+	url = https://github.com/blopker/codebook-zed.git
 
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
@@ -730,6 +738,10 @@
 	path = extensions/just
 	url = https://github.com/jackTabsCode/zed-just.git
 
+[submodule "extensions/kamui-dark-theme"]
+	path = extensions/kamui-dark-theme
+	url = https://gitlab.com/kamuiqf/zed-kamui-theme
+
 [submodule "extensions/kanagawa-themes"]
 	path = extensions/kanagawa-themes
 	url = https://github.com/ethangilmore/zed-kanagawa.git
@@ -894,6 +906,10 @@
 	path = extensions/monokai-reversed
 	url = https://github.com/everdrone/zed-monokai-reversed
 
+[submodule "extensions/monokai-vibrant-amped"]
+	path = extensions/monokai-vibrant-amped
+	url = https://github.com/Ceebox/zed-monokai-vibrant-amped.git
+
 [submodule "extensions/monolith"]
 	path = extensions/monolith
 	url = https://github.com/someone13574/zed-monolith-theme.git
@@ -1038,6 +1054,10 @@
 	path = extensions/oasis
 	url = https://github.com/aerendem/oasis-zed-theme
 
+[submodule "extensions/obsidian-sunset"]
+	path = extensions/obsidian-sunset
+	url = https://github.com/lczerniawski/ObsidianSunset-Zed.git
+
 [submodule "extensions/ocaml"]
 	path = extensions/ocaml
 	url = https://github.com/zed-extensions/ocaml.git
@@ -1089,6 +1109,10 @@
 [submodule "extensions/one-hunter"]
 	path = extensions/one-hunter
 	url = https://github.com/teziovsky/zed-one-hunter-theme.git
+
+[submodule "extensions/onurb"]
+	path = extensions/onurb
+	url = https://github.com/brunoocrv/onurb-zed
 
 [submodule "extensions/oolong"]
 	path = extensions/oolong
@@ -1394,9 +1418,17 @@
 	path = extensions/sql
 	url = https://github.com/nervenes/zed-sql.git
 
+[submodule "extensions/sqruff"]
+	path = extensions/sqruff
+	url = https://github.com/gvozdvmozgu/sqruff-zed.git
+
 [submodule "extensions/srcery"]
 	path = extensions/srcery
 	url = https://github.com/srcery-colors/srcery-zed.git
+
+[submodule "extensions/ssh-config"]
+	path = extensions/ssh-config
+	url = https://github.com/pranavmangal/zed-ssh-config.git
 
 [submodule "extensions/stan"]
 	path = extensions/stan
