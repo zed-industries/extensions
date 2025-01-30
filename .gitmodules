@@ -1674,6 +1674,10 @@
 	path = extensions/wat
 	url = https://github.com/g-plane/zed-wasm.git
 
+[submodule "extensions/wdl"]
+	path = extensions/wdl
+	url = https://github.com/broadinstitute/zed-wdl
+
 [submodule "extensions/wgsl"]
 	path = extensions/wgsl
 	url = https://github.com/luan/zed-wgsl.git
