@@ -1354,6 +1354,10 @@
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
 
+[submodule "extensions/scheme"]
+	path = extensions/scheme
+	url = https://github.com/zed-extensions/scheme.git
+
 [submodule "extensions/scls"]
 	path = extensions/scls
 	url = https://github.com/d1y/simple-completion-zed
@@ -1769,6 +1773,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/scheme"]
-	path = extensions/scheme
-	url = https://github.com/zed-extensions/scheme.git
