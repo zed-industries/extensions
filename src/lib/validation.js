@@ -5,7 +5,7 @@ const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
  *
  * Only to be edited by Zed staff.
  */
-const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed"];
+const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed", "zed-legacy-themes"];
 
 /**
  * @param {Record<string, any>} extensionsToml
