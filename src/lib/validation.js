@@ -1,11 +1,18 @@
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
 
 /**
+ * Exceptions to the rule of extension IDs starting in `zed-`.
+ *
+ * Only to be edited by Zed staff.
+ */
+const EXTENSION_ID_STARTS_WITH_EXCEPTIONS = ["zed-legacy-themes"];
+
+/**
  * Exceptions to the rule of extension IDs ending in `-zed`.
  *
  * Only to be edited by Zed staff.
  */
-const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed", "zed-legacy-themes"];
+const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed"];
 
 /**
  * @param {Record<string, any>} extensionsToml
@@ -18,7 +25,10 @@ export function validateExtensionsToml(extensionsToml) {
       );
     }
 
-    if (extensionId.startsWith("zed-")) {
+    if (
+      extensionId.startsWith("zed-") &&
+      !EXTENSION_ID_STARTS_WITH_EXCEPTIONS.includes(extensionId)
+    ) {
       throw new Error(
         `Extension IDs should not start with "zed-", as they are all Zed extensions: "${extensionId}".`,
       );
