@@ -51,7 +51,7 @@ export function validateExtensionsToml(extensionsToml) {
 export function validateManifest(manifest) {
   if (
     manifest["name"].startsWith("Zed ") &&
-    manifest["id"] !== "zed-legacy-themes"
+    manifest["name"] !== "Zed Legacy Themes"
   ) {
     throw new Error(
       `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest["name"]}".`,
