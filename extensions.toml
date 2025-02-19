@@ -307,6 +307,10 @@ version = "0.1.1"
 submodule = "extensions/codesandbox-theme"
 version = "0.0.5"
 
+[colored-zed-icons-theme]
+submodule = "extensions/zed-icons-colored-theme"
+version = "0.2.0"
+
 [colorizer]
 submodule = "extensions/colorizer"
 version = "0.0.4"
@@ -1901,10 +1905,6 @@ version = "1.2.0"
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
 version = "0.0.2"
-
-[zed-icons-colored-theme]
-submodule = "extensions/zed-icons-colored-theme"
-version = "0.2.0"
 
 [zedokai]
 submodule = "extensions/zedokai"
