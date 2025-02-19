@@ -1814,6 +1814,10 @@
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
 
+[submodule "extensions/zed-icons-colored-theme"]
+	path = extensions/zed-icons-colored-theme
+	url = https://github.com/TheRedXD/zed-icons-colored-theme.git
+
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
@@ -1841,6 +1845,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/zed-icons-colored-theme"]
-	path = extensions/zed-icons-colored-theme
-	url = https://github.com/TheRedXD/zed-icons-colored-theme.git
