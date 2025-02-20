@@ -252,7 +252,7 @@
 
 [submodule "extensions/catppuccin-icons"]
 	path = extensions/catppuccin-icons
-	url = https://github.com/tecandrew/catppuccin-zed-icons.git
+	url = https://github.com/catppuccin/zed-icons.git
 
 [submodule "extensions/cedar"]
 	path = extensions/cedar
@@ -277,6 +277,10 @@
 [submodule "extensions/chatgpt"]
 	path = extensions/chatgpt
 	url = https://github.com/Takk8IS/chatgpt-theme-for-zed.git
+
+[submodule "extensions/cisco-theme"]
+	path = extensions/cisco-theme
+	url = https://github.com/thommorais/zed-cisco-theme.git
 
 [submodule "extensions/city-lights"]
 	path = extensions/city-lights
@@ -305,6 +309,10 @@
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
 	url = https://github.com/MartinRybergLaude/zed-theme-codesandbox.git
+
+[submodule "extensions/colored-zed-icons-theme"]
+	path = extensions/colored-zed-icons-theme
+	url = https://github.com/TheRedXD/zed-icons-colored-theme.git
 
 [submodule "extensions/colorizer"]
 	path = extensions/colorizer
@@ -481,10 +489,6 @@
 [submodule "extensions/exquisite"]
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
-
-[submodule "extensions/fennel"]
-	path = extensions/fennel
-	url = https://codeberg.org/mattly/zed-lang-fennel.git
 
 [submodule "extensions/fiberplane-studio"]
 	path = extensions/fiberplane-studio
@@ -932,7 +936,7 @@
 
 [submodule "extensions/meson"]
 	path = extensions/meson
-	url = https://codeberg.org/hanna/zed-meson
+	url = https://github.com/hqnna/zed-meson
 
 [submodule "extensions/min-theme"]
 	path = extensions/min-theme
