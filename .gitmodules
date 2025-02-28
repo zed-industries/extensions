@@ -590,6 +590,10 @@
 	path = extensions/github-theme
 	url = https://github.com/PyaeSoneAungRgn/github-zed-theme.git
 
+[submodule "extensions/gitlab-ci-ls"]
+	path = extensions/gitlab-ci-ls
+	url = https://github.com/tzabbi/zed-gitlab-ci-ls.git
+
 [submodule "extensions/glazier"]
 	path = extensions/glazier
 	url = https://github.com/airgap/glazier.git
@@ -713,6 +717,10 @@
 [submodule "extensions/hurl"]
 	path = extensions/hurl
 	url = https://github.com/tommy/zed-hurl
+
+[submodule "extensions/hyprlang"]
+	path = extensions/hyprlang
+	url = https://github.com/WhySoBad/zed-hyprlang-extension.git
 
 [submodule "extensions/ical"]
 	path = extensions/ical
