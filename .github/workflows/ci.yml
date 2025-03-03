@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: 5a25751521d3f6e9da51eb5d0af34dc25d9b7ce8
+  ZED_EXTENSION_CLI_SHA: d5bc7b9a7909269e649431e7380341b3f9c95138
 
 jobs:
   package:
