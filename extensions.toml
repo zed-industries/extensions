@@ -456,7 +456,7 @@ version = "0.0.1"
 
 [dune-theme]
 submodule = "extensions/dune-theme"
-version = "1.1.0"
+version = "1.2.0"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -1298,6 +1298,10 @@ version = "0.0.1"
 submodule = "extensions/penumbra"
 version = "0.1.1"
 
+[perfect-dusk]
+submodule = "extensions/perfect-dusk"
+version = "1.0.0"
+
 [perl]
 submodule = "extensions/perl"
 version = "0.1.1"
@@ -1429,13 +1433,17 @@ version = "0.0.5"
 submodule = "extensions/racket"
 version = "0.0.3"
 
+[railscast]
+submodule = "extensions/railscast"
+version = "0.1.0"
+
 [rainbow-csv]
 submodule = "extensions/rainbow-csv"
 version = "0.0.3"
 
 [rcl]
 submodule = "extensions/rcl"
-version = "0.5.0"
+version = "0.8.0"
 
 [rego]
 submodule = "extensions/rego"
@@ -1739,7 +1747,7 @@ version = "0.1.0"
 
 [typos]
 submodule = "extensions/typos"
-version = "0.0.4"
+version = "0.0.5"
 
 [typst]
 submodule = "extensions/typst"
