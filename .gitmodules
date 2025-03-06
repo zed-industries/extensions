@@ -350,6 +350,10 @@
 	path = extensions/crystal-theme
 	url = https://gitlab.com/crystalnetwork-studio/themes/zed-editor.git
 
+[submodule "extensions/csharp"]
+	path = extensions/csharp
+	url = https://github.com/zed-extensions/csharp.git
+
 [submodule "extensions/cspell"]
 	path = extensions/cspell
 	url = https://github.com/mantou132/zed-cspell
@@ -417,6 +421,10 @@
 [submodule "extensions/denix"]
 	path = extensions/denix
 	url = https://github.com/denix666/zed-theme.git
+
+[submodule "extensions/deno"]
+	path = extensions/deno
+	url = https://github.com/zed-extensions/deno.git
 
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
@@ -777,6 +785,10 @@
 [submodule "extensions/java-eclipse-jdtls"]
 	path = extensions/java-eclipse-jdtls
 	url = https://github.com/ABckh/zed-java-language-support-jdtls
+
+[submodule "extensions/jetbrains-icons"]
+	path = extensions/jetbrains-icons
+	url = https://github.com/ziishaned/zed-jetbrains-icons.git
 
 [submodule "extensions/jetbrains-new-ui-icons"]
 	path = extensions/jetbrains-new-ui-icons
@@ -1453,6 +1465,10 @@
 [submodule "extensions/scss"]
 	path = extensions/scss
 	url = https://github.com/bajrangCoder/zed-scss.git
+
+[submodule "extensions/sequoia"]
+	path = extensions/sequoia
+	url = https://github.com/HarshNarayanJha/zed-sequoia-theme
 
 [submodule "extensions/serendipity"]
 	path = extensions/serendipity
