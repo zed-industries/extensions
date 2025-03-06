@@ -474,6 +474,10 @@
 	path = extensions/elisp
 	url = https://github.com/JosephTLyons/zed-elisp.git
 
+[submodule "extensions/elixir"]
+	path = extensions/elixir
+	url = https://github.com/zed-extensions/elixir.git
+
 [submodule "extensions/elm"]
 	path = extensions/elm
 	url = https://github.com/zed-extensions/elm.git
@@ -1393,6 +1397,10 @@
 [submodule "extensions/rcl"]
 	path = extensions/rcl
 	url = https://github.com/rcl-lang/zed-rcl.git
+
+[submodule "extensions/redscript"]
+	path = extensions/redscript
+	url = https://github.com/jac3km4/redscript-zed.git
 
 [submodule "extensions/rego"]
 	path = extensions/rego
