@@ -350,6 +350,10 @@
 	path = extensions/crystal-theme
 	url = https://gitlab.com/crystalnetwork-studio/themes/zed-editor.git
 
+[submodule "extensions/csharp"]
+	path = extensions/csharp
+	url = https://github.com/zed-extensions/csharp.git
+
 [submodule "extensions/cspell"]
 	path = extensions/cspell
 	url = https://github.com/mantou132/zed-cspell
@@ -418,6 +422,10 @@
 	path = extensions/denix
 	url = https://github.com/denix666/zed-theme.git
 
+[submodule "extensions/deno"]
+	path = extensions/deno
+	url = https://github.com/zed-extensions/deno.git
+
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
@@ -466,6 +474,10 @@
 	path = extensions/elisp
 	url = https://github.com/JosephTLyons/zed-elisp.git
 
+[submodule "extensions/elixir"]
+	path = extensions/elixir
+	url = https://github.com/zed-extensions/elixir.git
+
 [submodule "extensions/elm"]
 	path = extensions/elm
 	url = https://github.com/zed-extensions/elm.git
@@ -481,6 +493,10 @@
 [submodule "extensions/env"]
 	path = extensions/env
 	url = https://github.com/zarifpour/zed-env
+
+[submodule "extensions/erlang"]
+	path = extensions/erlang
+	url = https://github.com/zed-extensions/erlang.git
 
 [submodule "extensions/everforest"]
 	path = extensions/everforest
@@ -881,6 +897,10 @@
 [submodule "extensions/ltex"]
 	path = extensions/ltex
 	url = https://github.com/vitallium/zed-ltex.git
+
+[submodule "extensions/lua"]
+	path = extensions/lua
+	url = https://github.com/zed-extensions/lua.git
 
 [submodule "extensions/luau"]
 	path = extensions/luau
@@ -1386,6 +1406,10 @@
 	path = extensions/rcl
 	url = https://github.com/rcl-lang/zed-rcl.git
 
+[submodule "extensions/redscript"]
+	path = extensions/redscript
+	url = https://github.com/jac3km4/redscript-zed.git
+
 [submodule "extensions/rego"]
 	path = extensions/rego
 	url = https://github.com/StyraInc/zed-rego.git
@@ -1458,9 +1482,17 @@
 	path = extensions/scss
 	url = https://github.com/bajrangCoder/zed-scss.git
 
+[submodule "extensions/sequoia"]
+	path = extensions/sequoia
+	url = https://github.com/HarshNarayanJha/zed-sequoia-theme
+
 [submodule "extensions/serendipity"]
 	path = extensions/serendipity
 	url = https://github.com/meocoder31099/Serendipity-Theme-Zed
+
+[submodule "extensions/severance"]
+	path = extensions/severance
+	url = https://github.com/Zev18/severance-zed.git
 
 [submodule "extensions/short-giraffe-theme"]
 	path = extensions/short-giraffe-theme
