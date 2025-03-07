@@ -714,6 +714,10 @@
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
 
+[submodule "extensions/html-jinja"]
+	path = extensions/html-jinja
+	url = https://github.com/JaagupAverin/html-jinja.git
+
 [submodule "extensions/http"]
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
@@ -1897,6 +1901,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/html-jinja"]
-	path = extensions/html-jinja
-	url = https://github.com/JaagupAverin/html-jinja.git
