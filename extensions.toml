@@ -126,7 +126,7 @@ version = "0.1.1"
 
 [basedpyright]
 submodule = "extensions/basedpyright"
-version = "0.1.1"
+version = "0.1.2"
 
 [basher]
 submodule = "extensions/basher"
@@ -146,7 +146,7 @@ version = "1.0.0"
 
 [bearded-icon-theme]
 submodule = "extensions/bearded-icon-theme"
-version = "0.3.0"
+version = "0.4.0"
 
 [becker-theme]
 submodule = "extensions/becker-theme"
@@ -318,7 +318,7 @@ version = "0.0.5"
 
 [colored-zed-icons-theme]
 submodule = "extensions/colored-zed-icons-theme"
-version = "0.3.0"
+version = "0.3.1"
 
 [colorizer]
 submodule = "extensions/colorizer"
@@ -353,9 +353,8 @@ submodule = "extensions/crystal-theme"
 version = "0.0.1"
 
 [csharp]
-submodule = "extensions/zed"
-path = "extensions/csharp"
-version = "0.1.1"
+submodule = "extensions/csharp"
+version = "0.1.2"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -426,9 +425,8 @@ submodule = "extensions/denix"
 version = "0.0.9"
 
 [deno]
-submodule = "extensions/zed"
-path = "extensions/deno"
-version = "0.1.0"
+submodule = "extensions/deno"
+version = "0.1.1"
 
 [devicetree]
 submodule = "extensions/devicetree"
@@ -479,9 +477,8 @@ submodule = "extensions/elisp"
 version = "0.0.4"
 
 [elixir]
-submodule = "extensions/zed"
-path = "extensions/elixir"
-version = "0.1.4"
+submodule = "extensions/elixir"
+version = "0.1.5"
 
 [elm]
 submodule = "extensions/elm"
@@ -505,9 +502,8 @@ submodule = "extensions/env"
 version = "0.0.1"
 
 [erlang]
-submodule = "extensions/zed"
-path = "extensions/erlang"
-version = "0.1.1"
+submodule = "extensions/erlang"
+version = "0.1.2"
 
 [everforest]
 submodule = "extensions/everforest"
@@ -724,9 +720,8 @@ submodule = "extensions/harper"
 version = "0.0.4"
 
 [haskell]
-submodule = "extensions/zed"
-path = "extensions/haskell"
-version = "0.1.3"
+submodule = "extensions/haskell"
+version = "0.1.4"
 
 [haxe]
 submodule = "extensions/haxe"
@@ -821,9 +816,13 @@ version = "6.0.0"
 submodule = "extensions/java-eclipse-jdtls"
 version = "0.2.4"
 
+[jetbrains-icons]
+submodule = "extensions/jetbrains-icons"
+version = "0.0.2"
+
 [jetbrains-new-ui-icons]
 submodule = "extensions/jetbrains-new-ui-icons"
-version = "2.0.2"
+version = "2.1.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -871,7 +870,7 @@ version = "0.1.1"
 
 [ktrz-monokai]
 submodule = "extensions/ktrz-monokai"
-version = "0.0.5"
+version = "0.0.6"
 
 [kubesong]
 submodule = "extensions/kubesong"
@@ -903,7 +902,7 @@ version = "0.0.6"
 
 [liquid]
 submodule = "extensions/liquid"
-version = "0.1.0"
+version = "0.2.0"
 
 [live-server]
 submodule = "extensions/live-server"
@@ -922,9 +921,8 @@ submodule = "extensions/ltex"
 version = "0.0.6"
 
 [lua]
-submodule = "extensions/zed"
-path = "extensions/lua"
-version = "0.1.1"
+submodule = "extensions/lua"
+version = "0.1.2"
 
 [luau]
 submodule = "extensions/luau"
@@ -972,7 +970,7 @@ version = "1.0.0"
 
 [material-dark]
 submodule = "extensions/material-dark"
-version = "0.0.1"
+version = "0.0.3"
 
 [material-icon-theme]
 submodule = "extensions/material-icon-theme"
@@ -1012,15 +1010,15 @@ version = "0.3.0"
 
 [min-theme]
 submodule = "extensions/min-theme"
-version = "0.1.9"
+version = "0.1.10"
 
 [modest-dark]
 submodule = "extensions/modest-dark"
-version = "0.1.5"
+version = "0.1.7"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
-version = "0.0.9"
+version = "0.0.10"
 
 [monokai-reversed]
 submodule = "extensions/monokai-reversed"
@@ -1044,7 +1042,7 @@ version = "0.1.3"
 
 [moonlight]
 submodule = "extensions/moonlight"
-version = "0.0.1"
+version = "0.0.3"
 
 [mosel]
 submodule = "extensions/mosel"
@@ -1140,7 +1138,7 @@ version = "0.0.11"
 
 [nordic-nvim-theme]
 submodule = "extensions/nordic-nvim-theme"
-version = "0.0.1"
+version = "0.0.3"
 
 [nordic-theme]
 submodule = "extensions/nordic-theme"
@@ -1427,7 +1425,7 @@ version = "0.2.2"
 
 [r]
 submodule = "extensions/r"
-version = "0.0.5"
+version = "0.0.8"
 
 [racket]
 submodule = "extensions/racket"
@@ -1444,6 +1442,10 @@ version = "0.0.3"
 [rcl]
 submodule = "extensions/rcl"
 version = "0.8.0"
+
+[redscript]
+submodule = "extensions/redscript"
+version = "0.1.0"
 
 [rego]
 submodule = "extensions/rego"
@@ -1467,7 +1469,7 @@ version = "0.0.1"
 
 [rich-vesper]
 submodule = "extensions/rich-vesper"
-version = "0.0.2"
+version = "0.0.3"
 
 [roc]
 submodule = "extensions/roc"
@@ -1521,6 +1523,10 @@ version = "0.0.1"
 [scss]
 submodule = "extensions/scss"
 version = "0.0.4"
+
+[sequoia]
+submodule = "extensions/sequoia"
+version = "1.31.0"
 
 [serendipity]
 submodule = "extensions/serendipity"
@@ -1637,7 +1643,7 @@ version = "0.0.2"
 
 [strace]
 submodule = "extensions/strace"
-version = "0.0.2"
+version = "0.0.3"
 
 [struct-theme]
 submodule = "extensions/struct-theme"
@@ -1669,7 +1675,7 @@ version = "0.3.2"
 
 [symbols]
 submodule = "extensions/symbols"
-version = "0.1.0"
+version = "0.2.0"
 
 [syntax]
 submodule = "extensions/syntax"
@@ -1764,7 +1770,7 @@ version = "0.0.1"
 
 [ultimate-dark-neo]
 submodule = "extensions/ultimate-dark-neo"
-version = "0.0.7"
+version = "0.0.8"
 
 [underground-theme]
 submodule = "extensions/underground-theme"
@@ -1780,7 +1786,7 @@ version = "0.0.5"
 
 [unocss]
 submodule = "extensions/unocss"
-version = "0.0.1"
+version = "0.0.2"
 
 [unoflat]
 submodule = "extensions/unoflat"
@@ -1896,7 +1902,7 @@ version = "0.2.1"
 
 [wakatime]
 submodule = "extensions/wakatime"
-version = "0.1.7"
+version = "0.1.8"
 
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
