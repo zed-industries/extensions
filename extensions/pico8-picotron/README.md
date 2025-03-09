@@ -1,6 +1,6 @@
 # Picotron / Pico8 Theme for Zed Editor!
 ### Turn Zed Editor into Zep Editor! 
-(meant to be used with the pico8 and picotron fonts, [more info below](https://github.com/369px/extensions/edit/main/extensions/pico8-picotron/README.md#how-to-use-this-theme-with-the-right-fonts))
+(meant to be used with the pico8 and picotron fonts, [more info below](https://github.com/369px/extensions/blob/main/extensions/pico8-picotron/README.md#how-to-use-this-theme-with-the-right-fonts)
 
 ## Screenshots
 ### Terminal (Pico8 reversed font)
