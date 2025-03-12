@@ -194,6 +194,10 @@
 	path = extensions/blueprint
 	url = https://github.com/tfuxu/zed-blueprint.git
 
+[submodule "extensions/bluloco-theme"]
+	path = extensions/bluloco-theme
+	url = https://github.com/uloco/bluloco-zed.git
+
 [submodule "extensions/bqn"]
 	path = extensions/bqn
 	url = https://github.com/DavidZwitser/zed-bqn.git
@@ -409,6 +413,10 @@
 [submodule "extensions/dafny"]
 	path = extensions/dafny
 	url = https://github.com/WeetHet/dafny-zed.git
+
+[submodule "extensions/darcula-dark"]
+	path = extensions/darcula-dark
+	url = https://github.com/not-a-cowfr/Darcula-Dark.git
 
 [submodule "extensions/dart"]
 	path = extensions/dart
@@ -1562,6 +1570,10 @@
 	path = extensions/snowflake
 	url = https://github.com/bxxf/snowflake-zed.git
 
+[submodule "extensions/solarized"]
+	path = extensions/solarized
+	url = https://github.com/harmtemolder/Solarized.zed.git
+
 [submodule "extensions/solarized-fp"]
 	path = extensions/solarized-fp
 	url = https://github.com/lohazo/zed-solarized-fp.git
@@ -1665,6 +1677,10 @@
 [submodule "extensions/tera"]
 	path = extensions/tera
 	url = https://github.com/uncenter/zed-tera
+
+[submodule "extensions/terraform"]
+	path = extensions/terraform
+	url = https://github.com/zed-extensions/terraform.git
 
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
