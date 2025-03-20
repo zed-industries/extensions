@@ -50,6 +50,10 @@
 	path = extensions/amber-monochrome-monitor-crt-phosphor
 	url = https://github.com/Takk8IS/amber-monochrome-monitor-crt-phosphor-theme-for-zed.git
 
+[submodule "extensions/angular"]
+	path = extensions/angular
+	url = https://github.com/nathansbradshaw/zed-angular.git
+
 [submodule "extensions/ansible"]
 	path = extensions/ansible
 	url = https://github.com/kartikvashistha/zed-ansible
@@ -209,6 +213,10 @@
 [submodule "extensions/brook-code-theme"]
 	path = extensions/brook-code-theme
 	url = https://github.com/brook-code-theme/zed-theme.git
+
+[submodule "extensions/browser-tools-context-server"]
+	path = extensions/browser-tools-context-server
+	url = https://github.com/mirageN1349/browser-tools-context-server.git
 
 [submodule "extensions/c3"]
 	path = extensions/c3
@@ -609,6 +617,10 @@
 [submodule "extensions/git-firefly"]
 	path = extensions/git-firefly
 	url = https://github.com/d1y/git_firefly.git
+
+[submodule "extensions/github-activity-summarizer"]
+	path = extensions/github-activity-summarizer
+	url = https://github.com/rubiojr/gas.git
 
 [submodule "extensions/github-copilot-theme"]
 	path = extensions/github-copilot-theme
@@ -1097,6 +1109,10 @@
 [submodule "extensions/neovim-default"]
 	path = extensions/neovim-default
 	url = https://github.com/KimNorgaard/zed-neovim-default.git
+
+[submodule "extensions/nestjs-snippets"]
+	path = extensions/nestjs-snippets
+	url = https://github.com/ayberkgezer/nestjs-snippets.git
 
 [submodule "extensions/new-darcula"]
 	path = extensions/new-darcula
