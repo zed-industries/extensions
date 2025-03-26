@@ -718,6 +718,10 @@
 	path = extensions/hacker-night-vision
 	url = https://github.com/Takk8IS/hacker-night-vision-theme-for-zed.git
 
+[submodule "extensions/hacker-theme"]
+	path = extensions/hacker-theme
+	url = https://github.com/N0TZ3R0/zedhacker.git
+
 [submodule "extensions/halcyon"]
 	path = extensions/halcyon
 	url = https://github.com/hichemfantar/halcyon-zed.git
@@ -2001,10 +2005,6 @@
 [submodule "extensions/zed"]
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
-
-[submodule "extensions/zed-hacker"]
-	path = extensions/hacker-theme
-	url = https://github.com/N0TZ3R0/zedhacker.git
 
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
