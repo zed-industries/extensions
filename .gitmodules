@@ -766,6 +766,10 @@
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
 
+[submodule "extensions/html-jinja"]
+	path = extensions/html-jinja
+	url = https://github.com/JaagupAverin/html-jinja.git
+
 [submodule "extensions/http"]
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
@@ -1713,6 +1717,10 @@
 [submodule "extensions/synthwave-alpha-theme"]
 	path = extensions/synthwave-alpha-theme
 	url = https://github.com/vikpe/synthwave-alpha-zed.git
+
+[submodule "extensions/t3-theme"]
+	path = extensions/t3-theme
+	url = https://github.com/stpn48/t3-zed-theme.git
 
 [submodule "extensions/tailwind-theme"]
 	path = extensions/tailwind-theme

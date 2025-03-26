@@ -85,7 +85,7 @@ version = "0.0.1"
 
 [astro]
 submodule = "extensions/astro"
-version = "0.1.4"
+version = "0.1.5"
 
 [atomize]
 submodule = "extensions/atomize"
@@ -138,7 +138,7 @@ version = "0.0.1"
 
 [batman]
 submodule = "extensions/batman"
-version = "0.0.1"
+version = "0.0.3"
 
 [beancount]
 submodule = "extensions/beancount"
@@ -166,7 +166,7 @@ version = "1.0.1"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.1.4"
+version = "0.1.5"
 
 [bitbake]
 submodule = "extensions/bitbake"
@@ -174,7 +174,7 @@ version = "0.0.4"
 
 [blackfox]
 submodule = "extensions/blackfox"
-version = "0.2.0"
+version = "0.3.0"
 
 [blackula]
 submodule = "extensions/blackula"
@@ -182,7 +182,7 @@ version = "0.1.1"
 
 [blade]
 submodule = "extensions/blade"
-version = "0.0.4"
+version = "0.0.5"
 
 [blade-runner-2049]
 submodule = "extensions/blade-runner-2049"
@@ -270,7 +270,7 @@ version = "0.1.1"
 
 [catppuccin-icons]
 submodule = "extensions/catppuccin-icons"
-version = "1.18.0"
+version = "1.19.0"
 
 [cedar]
 submodule = "extensions/cedar"
@@ -326,7 +326,7 @@ version = "0.2.6"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.1.4"
+version = "0.1.5"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -362,7 +362,7 @@ version = "0.1.0"
 
 [crystal]
 submodule = "extensions/crystal"
-version = "0.0.3"
+version = "0.0.4"
 
 [crystal-theme]
 submodule = "extensions/crystal-theme"
@@ -434,7 +434,7 @@ version = "0.0.1"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.1.3"
+version = "0.2.0"
 
 [dbml]
 submodule = "extensions/dbml"
@@ -502,7 +502,7 @@ version = "0.0.4"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.1.5"
+version = "0.1.6"
 
 [elm]
 submodule = "extensions/elm"
@@ -784,6 +784,10 @@ submodule = "extensions/zed"
 path = "extensions/html"
 version = "0.1.5"
 
+[html-jinja]
+submodule = "extensions/html-jinja"
+version = "0.1.0"
+
 [http]
 submodule = "extensions/http"
 version = "0.0.1"
@@ -1054,7 +1058,7 @@ version = "0.3.0"
 
 [min-theme]
 submodule = "extensions/min-theme"
-version = "0.1.10"
+version = "0.1.11"
 
 [modest-dark]
 submodule = "extensions/modest-dark"
@@ -1122,7 +1126,7 @@ version = "0.4.0"
 
 [nebula-pulse]
 submodule = "extensions/nebula-pulse"
-version = "0.0.3"
+version = "0.0.5"
 
 [neocmake]
 submodule = "extensions/neocmake"
@@ -1142,7 +1146,7 @@ version = "0.3.0"
 
 [nestjs-snippets]
 submodule = "extensions/nestjs-snippets"
-version = "0.1.0"
+version = "0.1.4"
 
 [new-darcula]
 submodule = "extensions/new-darcula"
@@ -1375,7 +1379,7 @@ version = "0.0.1"
 
 [phosphor-icons-theme]
 submodule = "extensions/phosphor-icons-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
@@ -1480,7 +1484,7 @@ version = "0.2.2"
 
 [r]
 submodule = "extensions/r"
-version = "0.2.0"
+version = "0.2.1"
 
 [racket]
 submodule = "extensions/racket"
@@ -1581,7 +1585,7 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.0.4"
+version = "0.0.5"
 
 [sequoia]
 submodule = "extensions/sequoia"
@@ -1718,7 +1722,7 @@ version = "0.0.3"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
-version = "1.1.0"
+version = "1.1.1"
 
 [superhtml]
 submodule = "extensions/superhtml"
@@ -1751,6 +1755,10 @@ version = "0.0.1"
 [synthwave-alpha-theme]
 submodule = "extensions/synthwave-alpha-theme"
 version = "0.1.0"
+
+[t3-theme]
+submodule = "extensions/t3-theme"
+version = "0.0.2"
 
 [tailwind-theme]
 submodule = "extensions/tailwind-theme"
