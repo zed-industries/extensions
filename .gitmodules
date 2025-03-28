@@ -938,6 +938,10 @@
 	path = extensions/log
 	url = https://github.com/nervenes/zed-log.git
 
+[submodule "extensions/logstash"]
+	path = extensions/logstash
+	url = https://github.com/StrongTheDev/logstash-for-zed
+
 [submodule "extensions/lox"]
 	path = extensions/lox
 	url = https://github.com/arian81/zed-lox.git
