@@ -1445,6 +1445,10 @@ version = "0.8.1"
 submodule = "extensions/postgres-context-server"
 version = "0.0.2"
 
+[postgres-language-server]
+submodule = "extensions/postgres-language-server"
+version = "0.0.1"
+
 [powershell]
 submodule = "extensions/powershell"
 version = "0.1.0"
