@@ -1204,6 +1204,11 @@ version = "0.1.1"
 submodule = "extensions/nim"
 version = "0.2.0"
 
+[ninja]
+submodule = "extensions/ninja-theme"
+path = "zed"
+version = "1.0.0"
+
 [nix]
 submodule = "extensions/nix"
 version = "0.1.1"
