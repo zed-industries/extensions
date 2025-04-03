@@ -43,6 +43,10 @@ version = "0.1.0"
 submodule = "extensions/alabaster"
 version = "0.0.2"
 
+[alabaster-dark]
+submodule = "extensions/alabaster-dark"
+version = "0.0.1"
+
 [amber]
 submodule = "extensions/amber"
 version = "0.1.2"
@@ -62,6 +66,10 @@ version = "0.1.0"
 [anya]
 submodule = "extensions/anya"
 version = "0.0.2"
+
+[anysphere-theme]
+submodule = "extensions/anysphere-theme"
+version = "0.0.1"
 
 [aquarium-theme]
 submodule = "extensions/aquarium-theme"
@@ -326,7 +334,7 @@ version = "0.2.6"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.1.5"
+version = "0.1.6"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -436,6 +444,10 @@ version = "0.0.1"
 submodule = "extensions/dart"
 version = "0.2.0"
 
+[day-shift]
+submodule = "extensions/day-shift"
+version = "1.0.0"
+
 [dbml]
 submodule = "extensions/dbml"
 version = "0.0.1"
@@ -506,7 +518,7 @@ version = "0.1.7"
 
 [elm]
 submodule = "extensions/elm"
-version = "0.1.0"
+version = "0.2.0"
 
 [ember]
 submodule = "extensions/ember"
@@ -741,7 +753,7 @@ version = "0.0.1"
 
 [halcyon]
 submodule = "extensions/halcyon"
-version = "0.0.5"
+version = "0.2.1"
 
 [hami-melon-theme]
 submodule = "extensions/hami-melon-theme"
@@ -1056,8 +1068,24 @@ version = "0.1.0"
 submodule = "extensions/mcp-server-brave-search"
 version = "0.0.1"
 
+[mcp-server-figma]
+submodule = "extensions/mcp-server-figma"
+version = "0.0.2"
+
+[mcp-server-github]
+submodule = "extensions/mcp-server-github"
+version = "0.0.1"
+
+[mcp-server-linear]
+submodule = "extensions/mcp-server-linear"
+version = "0.0.1"
+
 [mcp-server-puppeteer]
 submodule = "extensions/mcp-server-puppeteer"
+version = "0.0.1"
+
+[mcp-server-shopify-dev]
+submodule = "extensions/mcp-server-shopify-dev"
 version = "0.0.1"
 
 [melange]
@@ -1184,6 +1212,10 @@ version = "0.0.1"
 submodule = "extensions/night-owlz"
 version = "0.0.3"
 
+[night-shift]
+submodule = "extensions/night-shift"
+version = "1.0.0"
+
 [nightfox]
 submodule = "extensions/nightfox"
 version = "0.1.1"
@@ -1191,6 +1223,11 @@ version = "0.1.1"
 [nim]
 submodule = "extensions/nim"
 version = "0.2.0"
+
+[ninja]
+submodule = "extensions/ninja-theme"
+path = "zed"
+version = "1.0.0"
 
 [nix]
 submodule = "extensions/nix"
@@ -1278,7 +1315,7 @@ version = "0.0.1"
 
 [omnetpp]
 submodule = "extensions/omnetpp"
-version = "0.0.2"
+version = "0.0.3"
 
 [one-black-theme]
 submodule = "extensions/one-black-theme"
@@ -1286,7 +1323,7 @@ version = "0.0.3"
 
 [one-dark-darkened]
 submodule = "extensions/one-dark-darkened"
-version = "0.0.1"
+version = "0.0.2"
 
 [one-dark-extended]
 submodule = "extensions/one-dark-extended"
@@ -1572,7 +1609,7 @@ version = "0.0.1"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
-version = "1.3.0"
+version = "1.3.1"
 
 [rpmspec]
 submodule = "extensions/rpmspec"
@@ -1766,7 +1803,7 @@ version = "0.2.6"
 
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
-version = "0.0.1"
+version = "0.0.2"
 
 [swift]
 submodule = "extensions/swift"

@@ -42,6 +42,10 @@
 	path = extensions/alabaster
 	url = https://github.com/tsimoshka/zed-theme-alabaster.git
 
+[submodule "extensions/alabaster-dark"]
+	path = extensions/alabaster-dark
+	url = https://github.com/findrakecil/alabaster-dark-zed-theme.git
+
 [submodule "extensions/amber"]
 	path = extensions/amber
 	url = https://github.com/Ph0enixKM/zed-amber-extension.git
@@ -61,6 +65,10 @@
 [submodule "extensions/anya"]
 	path = extensions/anya
 	url = https://github.com/anya-theme/anya-zed.git
+
+[submodule "extensions/anysphere-theme"]
+	path = extensions/anysphere-theme
+	url = https://github.com/stpn48/anysphere-zed-theme
 
 [submodule "extensions/aquarium-theme"]
 	path = extensions/aquarium-theme
@@ -433,6 +441,10 @@
 [submodule "extensions/dart"]
 	path = extensions/dart
 	url = https://github.com/zed-extensions/dart.git
+
+[submodule "extensions/day-shift"]
+	path = extensions/day-shift
+	url = https://github.com/Jean-Tinland/zed-theme-day-shift.git
 
 [submodule "extensions/dbml"]
 	path = extensions/dbml
@@ -1038,9 +1050,25 @@
 	path = extensions/mcp-server-brave-search
 	url = https://github.com/zed-extensions/mcp-server-brave-search.git
 
+[submodule "extensions/mcp-server-figma"]
+	path = extensions/mcp-server-figma
+	url = https://github.com/LoamStudios/zed-mcp-server-figma.git
+
+[submodule "extensions/mcp-server-github"]
+	path = extensions/mcp-server-github
+	url = https://github.com/LoamStudios/zed-mcp-server-github.git
+
+[submodule "extensions/mcp-server-linear"]
+	path = extensions/mcp-server-linear
+	url = https://github.com/LoamStudios/zed-mcp-server-linear.git
+
 [submodule "extensions/mcp-server-puppeteer"]
 	path = extensions/mcp-server-puppeteer
 	url = https://github.com/zed-extensions/mcp-server-puppeteer.git
+
+[submodule "extensions/mcp-server-shopify-dev"]
+	path = extensions/mcp-server-shopify-dev
+	url = https://github.com/TheBeyondGroup/zed-mcp-server-shopify-dev.git
 
 [submodule "extensions/melange"]
 	path = extensions/melange
@@ -1166,6 +1194,10 @@
 	path = extensions/night-owlz
 	url = https://github.com/elGusto/night-owlz.git
 
+[submodule "extensions/night-shift"]
+	path = extensions/night-shift
+	url = https://github.com/Jean-Tinland/zed-theme-night-shift.git
+
 [submodule "extensions/nightfox"]
 	path = extensions/nightfox
 	url = https://github.com/ssaunderss/zed-nightfox.git
@@ -1173,6 +1205,10 @@
 [submodule "extensions/nim"]
 	path = extensions/nim
 	url = https://github.com/foxoman/zed-nim.git
+
+[submodule "extensions/ninja-theme"]
+	path = extensions/ninja-theme
+	url = https://github.com/c0mpiler/ninja.theme.git
 
 [submodule "extensions/nix"]
 	path = extensions/nix
