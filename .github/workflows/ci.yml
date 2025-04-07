@@ -78,3 +78,13 @@ jobs:
             echo -e "Fix by running:\n  pnpm sort-extensions\n"
             exit 1
           fi
+
+      - name: Enforce no Git LFS or Recursive Submodules
+        run: |
+          ! grep -q "recursive = true\|submodule.*=.*submodule" .gitmodules 2>/dev/null || {
+            echo "Recursive submodules found" >&2; exit 1;
+          }
+          git submodule foreach --quiet \
+            '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
+              echo "LFS detected in $path" >&2 && exit 1
+            }'
