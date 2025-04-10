@@ -1490,6 +1490,10 @@
 	path = extensions/prisma
 	url = https://github.com/zed-extensions/prisma.git
 
+[submodule "extensions/prisma-mcp"]
+	path = extensions/prisma-mcp
+	url = https://github.com/aqrln/prisma-mcp-zed
+
 [submodule "extensions/prolog"]
 	path = extensions/prolog
 	url = https://github.com/Piefayth/zed-prolog
