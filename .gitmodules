@@ -682,6 +682,10 @@
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
 
+[submodule "extensions/go-snippets"]
+	path = extensions/go-snippets
+	url = https://github.com/ayberkgezer/go-zed-snippets
+
 [submodule "extensions/golangci-lint"]
 	path = extensions/golangci-lint
 	url = https://github.com/zed-extensions/golangci-lint.git
