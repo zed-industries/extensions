@@ -86,6 +86,10 @@
 	path = extensions/assembly
 	url = https://github.com/DevBlocky/zed-asm.git
 
+[submodule "extensions/ast-grep"]
+	path = extensions/ast-grep
+	url = https://github.com/mathieulj/ast-grep-zed
+
 [submodule "extensions/asteroid"]
 	path = extensions/asteroid
 	url = https://github.com/webhooked/asteroid-zed
