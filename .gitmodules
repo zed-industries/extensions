@@ -1,7 +1,3 @@
-[submodule "extensions/rust-rover-dark-theme"]
-	path = extensions/rust-rover-dark-theme
-	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
-
 [submodule "extensions/0x96f"]
 	path = extensions/0x96f
 	url = https://github.com/filipjanevski/zed-theme.git
@@ -1637,6 +1633,10 @@
 [submodule "extensions/ruby"]
 	path = extensions/ruby
 	url = https://github.com/zed-extensions/ruby.git
+
+[submodule "extensions/rust-rover-dark-theme"]
+	path = extensions/rust-rover-dark-theme
+	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
 
 [submodule "extensions/s-dark-theme"]
 	path = extensions/s-dark-theme
