@@ -54,6 +54,10 @@
 	path = extensions/amber-monochrome-monitor-crt-phosphor
 	url = https://github.com/Takk8IS/amber-monochrome-monitor-crt-phosphor-theme-for-zed.git
 
+[submodule "extensions/andromeda"]
+	path = extensions/andromeda
+	url = https://github.com/ChocolateNao/andromeda-zed.git
+
 [submodule "extensions/angular"]
 	path = extensions/angular
 	url = https://github.com/nathansbradshaw/zed-angular.git
@@ -85,6 +89,10 @@
 [submodule "extensions/assembly"]
 	path = extensions/assembly
 	url = https://github.com/DevBlocky/zed-asm.git
+
+[submodule "extensions/ast-grep"]
+	path = extensions/ast-grep
+	url = https://github.com/mathieulj/ast-grep-zed
 
 [submodule "extensions/asteroid"]
 	path = extensions/asteroid
@@ -366,9 +374,13 @@
 	path = extensions/cpp2
 	url = https://github.com/tsoj/zed-cpp2.git
 
+[submodule "extensions/cql"]
+	path = extensions/cql
+	url = https://github.com/Akzestia/zed-cql.git
+
 [submodule "extensions/crimson-theme"]
 	path = extensions/crimson-theme
-	url = https://www.github.com/kaem-e/zed-crimson-theme
+	url = https://github.com/kaem-e/zed-crimson-theme.git
 
 [submodule "extensions/crystal"]
 	path = extensions/crystal
@@ -465,10 +477,6 @@
 [submodule "extensions/decorative-stitch"]
 	path = extensions/decorative-stitch
 	url = https://github.com/keithrowell/zed-theme-decorative-stitch.git
-
-[submodule "extensions/denix"]
-	path = extensions/denix
-	url = https://github.com/denix666/zed-theme.git
 
 [submodule "extensions/deno"]
 	path = extensions/deno
@@ -908,7 +916,7 @@
 
 [submodule "extensions/kamui-dark-theme"]
 	path = extensions/kamui-dark-theme
-	url = https://gitlab.com/kamuiqf/zed-kamui-theme
+	url = https://gitlab.com/kamuiqf/zed-kamui-theme.git
 
 [submodule "extensions/kanagawa-themes"]
 	path = extensions/kanagawa-themes
@@ -1073,6 +1081,10 @@
 [submodule "extensions/mcp-server-brave-search"]
 	path = extensions/mcp-server-brave-search
 	url = https://github.com/zed-extensions/mcp-server-brave-search.git
+
+[submodule "extensions/mcp-server-exa-search"]
+	path = extensions/mcp-server-exa-search
+	url = https://github.com/exa-labs/zed-exa-mcp-extension.git
 
 [submodule "extensions/mcp-server-figma"]
 	path = extensions/mcp-server-figma
@@ -1521,6 +1533,10 @@
 [submodule "extensions/pug"]
 	path = extensions/pug
 	url = https://github.com/Baw-Appie/zed-pug
+
+[submodule "extensions/puppet"]
+	path = extensions/puppet
+	url = https://github.com/AlexandarY/zed-puppet.git
 
 [submodule "extensions/purescript"]
 	path = extensions/purescript
