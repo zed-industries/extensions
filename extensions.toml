@@ -198,7 +198,7 @@ version = "0.1.1"
 
 [blade]
 submodule = "extensions/blade"
-version = "0.0.5"
+version = "0.1.0"
 
 [blade-runner-2049]
 submodule = "extensions/blade-runner-2049"
@@ -274,7 +274,7 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.21"
+version = "0.2.22"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
@@ -1387,7 +1387,7 @@ version = "0.0.2"
 
 [one-dark-flat]
 submodule = "extensions/one-dark-flat"
-version = "0.1.1"
+version = "1.0.0"
 
 [one-dark-pro]
 submodule = "extensions/one-dark-pro"
@@ -1427,7 +1427,7 @@ version = "0.0.1"
 
 [oscura]
 submodule = "extensions/oscura"
-version = "0.1.0"
+version = "0.2.0"
 
 [outrun]
 submodule = "extensions/outrun"
@@ -1691,6 +1691,10 @@ version = "0.4.6"
 submodule = "extensions/zed"
 path = "extensions/ruff"
 version = "0.1.0"
+
+[rust-rover-dark-theme]
+submodule = "extensions/rust-rover-dark-theme"
+version = "1.0.3"
 
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
@@ -2144,6 +2148,10 @@ version = "0.0.1"
 
 [wgsl]
 submodule = "extensions/wgsl"
+version = "0.0.1"
+
+[wgsl-wesl]
+submodule = "extensions/wgsl-wesl"
 version = "0.0.1"
 
 [whkd]

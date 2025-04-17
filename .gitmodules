@@ -1654,6 +1654,10 @@
 	path = extensions/ruby
 	url = https://github.com/zed-extensions/ruby.git
 
+[submodule "extensions/rust-rover-dark-theme"]
+	path = extensions/rust-rover-dark-theme
+	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
+
 [submodule "extensions/s-dark-theme"]
 	path = extensions/s-dark-theme
 	url = https://github.com/sinamombeiny/S-DarkTheme.zed.git
@@ -2097,6 +2101,10 @@
 [submodule "extensions/wgsl"]
 	path = extensions/wgsl
 	url = https://github.com/luan/zed-wgsl.git
+
+[submodule "extensions/wgsl-wesl"]
+	path = extensions/wgsl-wesl
+	url = https://github.com/lucascompython/wgsl-wesl-zed
 
 [submodule "extensions/whkd"]
 	path = extensions/whkd
