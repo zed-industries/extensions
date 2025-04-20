@@ -1094,6 +1094,10 @@
 	path = extensions/mcp-server-figma
 	url = https://github.com/LoamStudios/zed-mcp-server-figma.git
 
+[submodule "extensions/mcp-server-firecrawl"]
+	path = extensions/mcp-server-firecrawl
+	url = https://github.com/akbxr/firecrawl-mcp-zed
+
 [submodule "extensions/mcp-server-github"]
 	path = extensions/mcp-server-github
 	url = https://github.com/LoamStudios/zed-mcp-server-github.git
@@ -2193,6 +2197,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/mcp-server-firecrawl"]
-	path = extensions/mcp-server-firecrawl
-	url = https://github.com/akbxr/firecrawl-mcp-zed
