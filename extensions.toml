@@ -631,8 +631,9 @@ submodule = "extensions/fleet-themes"
 version = "1.2.0"
 
 [flexoki-themes]
-submodule = "extensions/flexoki-themes"
-version = "0.0.1"
+submodule = "extensions/flexoki"
+path = "zed"
+version = "2.0.0"
 
 [flow-theme]
 submodule = "extensions/flow-theme"
