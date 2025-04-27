@@ -631,8 +631,9 @@ submodule = "extensions/fleet-themes"
 version = "1.2.0"
 
 [flexoki-themes]
-submodule = "extensions/flexoki-themes"
-version = "0.0.1"
+submodule = "extensions/flexoki"
+path = "zed"
+version = "2.0.0"
 
 [flow-theme]
 submodule = "extensions/flow-theme"
@@ -1678,7 +1679,7 @@ version = "0.0.2"
 
 [relay]
 submodule = "extensions/relay"
-version = "0.0.2"
+version = "0.0.3"
 
 [replicant]
 submodule = "extensions/replicant"
@@ -1771,7 +1772,7 @@ version = "0.1.1"
 
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
@@ -2165,7 +2166,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.2.3"
+version = "0.2.4"
 
 [wakatime]
 submodule = "extensions/wakatime"
