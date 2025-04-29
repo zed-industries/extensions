@@ -486,6 +486,10 @@
 	path = extensions/deno
 	url = https://github.com/zed-extensions/deno.git
 
+[submodule "extensions/design-tokens-language-server"]
+	path = extensions/design-tokens
+	url = https://github.com/bennypowers/design-tokens-language-server
+
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
