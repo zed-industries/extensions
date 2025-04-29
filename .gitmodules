@@ -486,6 +486,10 @@
 	path = extensions/deno
 	url = https://github.com/zed-extensions/deno.git
 
+[submodule "extensions/design-tokens-language-server"]
+	path = extensions/design-tokens
+	url = https://github.com/bennypowers/design-tokens-language-server
+
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
@@ -500,7 +504,7 @@
 
 [submodule "extensions/dockerfile"]
 	path = extensions/dockerfile
-	url = https://github.com/d1y/dockerfile.zed.git
+	url = https://github.com/zed-extensions/dockerfile.git
 
 [submodule "extensions/dracula"]
 	path = extensions/dracula
@@ -938,6 +942,10 @@
 	path = extensions/kanagawa-themes
 	url = https://github.com/ethangilmore/zed-kanagawa.git
 
+[submodule "extensions/kcl"]
+	path = extensions/kcl
+	url = https://github.com/pisarenko91/kcl-zed-extension.git
+
 [submodule "extensions/kconfig"]
 	path = extensions/kconfig
 	url = https://github.com/hubertmis/zed-ext-kconfig.git
@@ -1245,6 +1253,10 @@
 [submodule "extensions/nebula-pulse"]
 	path = extensions/nebula-pulse
 	url = https://github.com/foxoman/nebula-pulse-zed-theme.git
+
+[submodule "extensions/neo-brutalism"]
+	path = extensions/neo-brutalism
+	url = https://github.com/vishnuroshan/zed-neo-brutalism.git
 
 [submodule "extensions/neocmake"]
 	path = extensions/neocmake
@@ -1806,6 +1818,10 @@
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
 
+[submodule "extensions/sonokai"]
+	path = extensions/sonokai
+	url = https://github.com/ciathefed/zed-sonokai.git
+
 [submodule "extensions/sorbet"]
 	path = extensions/sorbet
 	url = https://github.com/notchairmk/zed-sorbet
@@ -1925,6 +1941,10 @@
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
 	url = https://github.com/nooooaaaaah/terrible-zed.git
+
+[submodule "extensions/texpresso"]
+	path = extensions/texpresso
+	url = https://github.com/lnay/zed-texpresso.git
 
 [submodule "extensions/the-best-theme"]
 	path = extensions/the-best-theme
