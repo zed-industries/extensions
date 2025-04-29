@@ -1290,6 +1290,10 @@
 	path = extensions/nickel
 	url = https://github.com/norpadon/zed-nickel-extension
 
+[submodule "extensions/night-m"]
+	path = extensions/night-m
+	url = https://github.com/mpopadic/nightfox_m-zed.git
+
 [submodule "extensions/night-owlz"]
 	path = extensions/night-owlz
 	url = https://github.com/elGusto/night-owlz.git
@@ -1301,10 +1305,6 @@
 [submodule "extensions/nightfox"]
 	path = extensions/nightfox
 	url = https://github.com/ssaunderss/zed-nightfox.git
-
-[submodule "extensions/nightfox_m"]
-	path = extensions/nightfox_m
-	url = https://github.com/mpopadic/nightfox_m-zed.git
 
 [submodule "extensions/nim"]
 	path = extensions/nim
