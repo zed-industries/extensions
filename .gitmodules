@@ -486,6 +486,10 @@
 	path = extensions/deno
 	url = https://github.com/zed-extensions/deno.git
 
+[submodule "extensions/design-tokens-language-server"]
+	path = extensions/design-tokens
+	url = https://github.com/bennypowers/design-tokens-language-server
+
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
@@ -500,7 +504,7 @@
 
 [submodule "extensions/dockerfile"]
 	path = extensions/dockerfile
-	url = https://github.com/d1y/dockerfile.zed.git
+	url = https://github.com/zed-extensions/dockerfile.git
 
 [submodule "extensions/dracula"]
 	path = extensions/dracula
@@ -618,9 +622,13 @@
 	path = extensions/fleet-themes
 	url = https://github.com/skarline/zed-fleet-themes.git
 
-[submodule "extensions/flexoki-themes"]
-	path = extensions/flexoki-themes
-	url = https://github.com/oddship/zed-flexoki-theme.git
+[submodule "extensions/flexoki"]
+	path = extensions/flexoki
+	url = https://github.com/kepano/flexoki.git
+
+[submodule "extensions/flow-theme"]
+	path = extensions/flow-theme
+	url = https://github.com/Rics-Dev/zed-flow-theme.git
 
 [submodule "extensions/flutter-snippets"]
 	path = extensions/flutter-snippets
@@ -934,6 +942,10 @@
 	path = extensions/kanagawa-themes
 	url = https://github.com/ethangilmore/zed-kanagawa.git
 
+[submodule "extensions/kcl"]
+	path = extensions/kcl
+	url = https://github.com/pisarenko91/kcl-zed-extension.git
+
 [submodule "extensions/kconfig"]
 	path = extensions/kconfig
 	url = https://github.com/hubertmis/zed-ext-kconfig.git
@@ -961,6 +973,10 @@
 [submodule "extensions/latex"]
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
+
+[submodule "extensions/lean4"]
+	path = extensions/lean4
+	url = https://github.com/blackbird314/zed-lean4.git
 
 [submodule "extensions/leblackque"]
 	path = extensions/leblackque
@@ -1106,9 +1122,17 @@
 	path = extensions/mcp-server-figma
 	url = https://github.com/LoamStudios/zed-mcp-server-figma.git
 
+[submodule "extensions/mcp-server-firecrawl"]
+	path = extensions/mcp-server-firecrawl
+	url = https://github.com/akbxr/firecrawl-mcp-zed
+
 [submodule "extensions/mcp-server-github"]
 	path = extensions/mcp-server-github
 	url = https://github.com/LoamStudios/zed-mcp-server-github.git
+
+[submodule "extensions/mcp-server-gitlab"]
+	path = extensions/mcp-server-gitlab
+	url = https://github.com/akbxr/gitlab-mcp-zed
 
 [submodule "extensions/mcp-server-linear"]
 	path = extensions/mcp-server-linear
@@ -1158,6 +1182,10 @@
 	path = extensions/modus-themes
 	url = https://github.com/vitallium/zed-modus-themes.git
 
+[submodule "extensions/monokai-night"]
+	path = extensions/monokai-night
+	url = https://github.com/farbodvand/zed-monokai-night.git
+
 [submodule "extensions/monokai-reversed"]
 	path = extensions/monokai-reversed
 	url = https://github.com/everdrone/zed-monokai-reversed
@@ -1173,6 +1201,10 @@
 [submodule "extensions/monosami"]
 	path = extensions/monosami
 	url = https://github.com/borngraced/monosami.git
+
+[submodule "extensions/monospace-icon-theme"]
+	path = extensions/monospace-icon-theme
+	url = https://github.com/irmhonde/monospace-icon-theme
 
 [submodule "extensions/monospace-theme"]
 	path = extensions/monospace-theme
@@ -1222,6 +1254,10 @@
 	path = extensions/nebula-pulse
 	url = https://github.com/foxoman/nebula-pulse-zed-theme.git
 
+[submodule "extensions/neo-brutalism"]
+	path = extensions/neo-brutalism
+	url = https://github.com/vishnuroshan/zed-neo-brutalism.git
+
 [submodule "extensions/neocmake"]
 	path = extensions/neocmake
 	url = https://github.com/k0tran/zed_neocmake.git
@@ -1265,6 +1301,10 @@
 [submodule "extensions/nightfox"]
 	path = extensions/nightfox
 	url = https://github.com/ssaunderss/zed-nightfox.git
+
+[submodule "extensions/nightfox_m"]
+	path = extensions/nightfox_m
+	url = https://github.com/mpopadic/nightfox_m-zed.git
 
 [submodule "extensions/nim"]
 	path = extensions/nim
@@ -1706,6 +1746,10 @@
 	path = extensions/severance
 	url = https://github.com/Zev18/severance-zed.git
 
+[submodule "extensions/shades-of-purple-theme"]
+	path = extensions/shades-of-purple-theme
+	url = https://github.com/irmhonde/shades-of-purple-theme.git
+
 [submodule "extensions/short-giraffe-theme"]
 	path = extensions/short-giraffe-theme
 	url = https://github.com/Mehdi-Hp/Short-Giraffe.git
@@ -1773,6 +1817,10 @@
 [submodule "extensions/solidity"]
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
+
+[submodule "extensions/sonokai"]
+	path = extensions/sonokai
+	url = https://github.com/ciathefed/zed-sonokai.git
 
 [submodule "extensions/sorbet"]
 	path = extensions/sorbet
@@ -1893,6 +1941,10 @@
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
 	url = https://github.com/nooooaaaaah/terrible-zed.git
+
+[submodule "extensions/texpresso"]
+	path = extensions/texpresso
+	url = https://github.com/lnay/zed-texpresso.git
 
 [submodule "extensions/the-best-theme"]
 	path = extensions/the-best-theme
