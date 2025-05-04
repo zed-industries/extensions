@@ -382,6 +382,10 @@
 	path = extensions/cql
 	url = https://github.com/Akzestia/zed-cql.git
 
+[submodule "extensions/crates-lsp"]
+	path = extensions/crates-lsp
+	url = https://github.com/appelgriebsch/zed-crates-lsp
+
 [submodule "extensions/crimson-theme"]
 	path = extensions/crimson-theme
 	url = https://github.com/kaem-e/zed-crimson-theme.git
