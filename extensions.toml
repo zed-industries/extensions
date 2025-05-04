@@ -997,7 +997,7 @@ version = "1.0.0"
 
 [latex]
 submodule = "extensions/latex"
-version = "0.2.0"
+version = "0.2.1"
 
 [lean4]
 submodule = "extensions/lean4"
@@ -1137,7 +1137,7 @@ version = "0.0.1"
 
 [mcp-server-context7]
 submodule = "extensions/mcp-server-context7"
-version = "0.0.1"
+version = "0.0.2"
 
 [mcp-server-exa-search]
 submodule = "extensions/mcp-server-exa-search"
@@ -2008,6 +2008,11 @@ version = "0.0.2"
 submodule = "extensions/tokyo-night"
 version = "0.5.0"
 
+[tombi]
+submodule = "extensions/tombi"
+path = "editors/zed"
+version = "0.1.0"
+
 [toml]
 submodule = "extensions/zed"
 path = "extensions/toml"
@@ -2019,7 +2024,7 @@ version = "1.1.0"
 
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
-version = "0.0.1"
+version = "0.0.2"
 
 [tsar]
 submodule = "extensions/tsar"
