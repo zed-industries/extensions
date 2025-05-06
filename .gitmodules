@@ -258,6 +258,10 @@
 	path = extensions/cairo
 	url = https://github.com/trbutler4/zed-cairo.git
 
+[submodule "extensions/cairo-lang"]
+	path = extensions/cairo-lang
+	url = https://github.com/0xpantera/zed-cairo.git
+
 [submodule "extensions/call-trans-opt-received"]
 	path = extensions/call-trans-opt-received
 	url = https://github.com/takk8is/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed.git
