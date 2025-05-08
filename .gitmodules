@@ -974,6 +974,10 @@
 	path = extensions/kotlin
 	url = https://github.com/zed-extensions/zed-kotlin.git
 
+[submodule "extensions/koto"]
+	path = extensions/koto
+	url = https://github.com/koto-lang/koto-zed.git
+
 [submodule "extensions/ktrz-monokai"]
 	path = extensions/ktrz-monokai
 	url = https://github.com/pcminh0505/ktrz-monokai-zed-theme.git
@@ -2285,6 +2289,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/koto"]
-	path = extensions/koto
-	url = https://github.com/koto-lang/koto-zed.git
