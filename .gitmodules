@@ -1166,6 +1166,10 @@
 	path = extensions/mcp-server-shopify-dev
 	url = https://github.com/TheBeyondGroup/zed-mcp-server-shopify-dev.git
 
+[submodule "extensions/mcp-server-slack"]
+	path = extensions/mcp-server-slack
+	url = https://github.com/semioz/zed-slack-mcp.git
+
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
@@ -2297,6 +2301,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/mcp-server-slack"]
-	path = extensions/mcp-server-slack
-	url = https://github.com/semioz/zed-slack-mcp.git
