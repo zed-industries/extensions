@@ -1,14 +1,22 @@
-# Zed Extensions
+<<<<<<< HEAD
+# neon-pulse-zed-extension
+=======
+# Neon Pulse Theme for Zed
 
-This is the central repository containing the extensions available for [Zed](https://zed.dev/).
+A vibrant pop aesthetic cybercore theme for the Zed editor, inspired by neon-lit cyberpunk vibes.
 
-## Getting started
+## Colors
+- Deep Violet (#1a0d3b): Background
+- Light Lavender (#e0e0ff): Text
+- Neon Pink (#ff3b6b): Accents, keywords
+- Electric Cyan (#00ffcc): Strings, types
+- Bright Yellow (#ffea00): Functions, numbers
 
-See the [Developing Extensions](https://zed.dev/docs/extensions/developing-extensions) docs for how to develop and publish your extension
+## Installation
+1. Copy `neon-pulse.json` to `~/.config/zed/themes/`.
+2. Restart Zed.
+3. Open the Command Palette (`Ctrl + Shift + P`), type `theme selector: toggle`, and select **Neon Pulse Dark**.
 
-Looking for extension ideas? Check out:
-
-- [Top theme requests](https://github.com/zed-industries/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Atheme+sort%3Areactions-%2B1-desc)
-- [Top language requests](https://github.com/zed-industries/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Alanguage+sort%3Areactions-%2B1-desc)
-
-If an issue requesting an extension is tagged with the `needs infrastructure` label, it indicates that the extension cannot currently be developed due to the absence of necessary system infrastructure.
+## License
+MIT License
+>>>>>>> a0c7352 ("Initial commit of Neon Pulse theme extension")
