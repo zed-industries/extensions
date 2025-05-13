@@ -926,6 +926,10 @@
 	path = extensions/jetbrains-new-ui-icons
 	url = https://github.com/ankddev/zed-jetbrains-newui-icons.git
 
+[submodule "extensions/jetbrains-themes"]
+	path = extensions/jetbrains-themes
+	url = https://github.com/artemevsevev/zed-theme-jetbrains.git
+
 [submodule "extensions/jinja2"]
 	path = extensions/jinja2
 	url = https://github.com/ArcherHume/jinja2-support.git
@@ -2005,6 +2009,10 @@
 [submodule "extensions/the-dark-side"]
 	path = extensions/the-dark-side
 	url = https://github.com/Imgkl/the-dark-side.git
+
+[submodule "extensions/thrift"]
+	path = extensions/thrift
+	url = https://github.com/likaihua/zed-thrift.git
 
 [submodule "extensions/tmux"]
 	path = extensions/tmux
