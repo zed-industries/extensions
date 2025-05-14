@@ -1174,6 +1174,10 @@
 	path = extensions/mcp-server-gitlab
 	url = https://github.com/akbxr/gitlab-mcp-zed
 
+[submodule "extensions/mcp-server-grafana"]
+	path = extensions/mcp-server-grafana
+	url = https://github.com/sd2k/zed-mcp-grafana.git
+
 [submodule "extensions/mcp-server-linear"]
 	path = extensions/mcp-server-linear
 	url = https://github.com/LoamStudios/zed-mcp-server-linear.git
