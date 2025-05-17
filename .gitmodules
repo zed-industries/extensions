@@ -1230,6 +1230,10 @@
 	path = extensions/mnemonic
 	url = https://github.com/mnemonic-theme/zed
 
+[submodule "extensions/modern-icons"]
+	path = extensions/modern-icons
+	url = https://github.com/BadRat-in/zed-modern-icons.git
+
 [submodule "extensions/modest-dark"]
 	path = extensions/modest-dark
 	url = https://github.com/timcole/modest-dark.git
@@ -2369,7 +2373,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-
-[submodule "extensions/modern-icons"]
-	path = extensions/modern-icons
-	url = https://github.com/BadRat-in/zed-modern-icons.git
