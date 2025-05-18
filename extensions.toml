@@ -420,6 +420,11 @@ version = "0.1.2"
 submodule = "extensions/cspell"
 version = "0.0.2"
 
+[css-modules-kit]
+submodule = "extensions/css-modules-kit"
+version = "0.0.1"
+path = "crates/zed"
+
 [csv]
 submodule = "extensions/csv"
 version = "0.0.2"
