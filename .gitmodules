@@ -1150,6 +1150,10 @@
 	path = extensions/mcp-server-brave-search
 	url = https://github.com/zed-extensions/mcp-server-brave-search.git
 
+[submodule "extensions/mcp-server-buildkite"]
+	path = extensions/mcp-server-buildkite
+	url = https://github.com/mcncl/zed-mcp-server-buildkite
+
 [submodule "extensions/mcp-server-context7"]
 	path = extensions/mcp-server-context7
 	url = https://github.com/akbxr/zed-mcp-server-context7
@@ -1174,6 +1178,10 @@
 	path = extensions/mcp-server-gitlab
 	url = https://github.com/akbxr/gitlab-mcp-zed
 
+[submodule "extensions/mcp-server-grafana"]
+	path = extensions/mcp-server-grafana
+	url = https://github.com/sd2k/zed-mcp-grafana.git
+
 [submodule "extensions/mcp-server-linear"]
 	path = extensions/mcp-server-linear
 	url = https://github.com/LoamStudios/zed-mcp-server-linear.git
@@ -1189,6 +1197,10 @@
 [submodule "extensions/mcp-server-shopify-dev"]
 	path = extensions/mcp-server-shopify-dev
 	url = https://github.com/TheBeyondGroup/zed-mcp-server-shopify-dev.git
+
+[submodule "extensions/mcp-server-slack"]
+	path = extensions/mcp-server-slack
+	url = https://github.com/semioz/zed-slack-mcp.git
 
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
@@ -1225,6 +1237,10 @@
 [submodule "extensions/modus-themes"]
 	path = extensions/modus-themes
 	url = https://github.com/vitallium/zed-modus-themes.git
+
+[submodule "extensions/monokai-nebula"]
+	path = extensions/monokai-nebula
+	url = https://github.com/JacobCallahan/monokai-nebula-zed.git
 
 [submodule "extensions/monokai-night"]
 	path = extensions/monokai-night
@@ -1606,6 +1622,10 @@
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
 
+[submodule "extensions/polar-context-server"]
+	path = extensions/polar-context-server
+	url = https://github.com/polarsource/zed-polar-context-server.git
+
 [submodule "extensions/polar-theme"]
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
@@ -1657,6 +1677,10 @@
 [submodule "extensions/pylsp"]
 	path = extensions/pylsp
 	url = https://github.com/rgbkrk/python-lsp-zed-extension.git
+
+[submodule "extensions/pyrefly"]
+	path = extensions/pyrefly
+	url = https://github.com/zed-extensions/pyrefly.git
 
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
@@ -2038,6 +2062,10 @@
 	path = extensions/tombi
 	url = https://github.com/tombi-toml/tombi.git
 
+[submodule "extensions/tomorrow-min-theme"]
+	path = extensions/tomorrow-min-theme
+	url = https://github.com/biaqat/tomorrow-min-theme-zed.git
+
 [submodule "extensions/tomorrow-theme"]
 	path = extensions/tomorrow-theme
 	url = https://github.com/biaqat/tomorrow-theme-zed.git
@@ -2061,6 +2089,10 @@
 [submodule "extensions/twilight"]
 	path = extensions/twilight
 	url = https://github.com/tectiv3/twilight-zed.git
+
+[submodule "extensions/ty"]
+	path = extensions/ty
+	url = https://github.com/zed-extensions/ty.git
 
 [submodule "extensions/typos"]
 	path = extensions/typos
@@ -2197,6 +2229,10 @@
 [submodule "extensions/vscode-dark-plus"]
 	path = extensions/vscode-dark-plus
 	url = https://github.com/d1y/vscode_dark_plus.zed.git
+
+[submodule "extensions/vscode-dark-polished"]
+	path = extensions/vscode-dark-polished
+	url = https://github.com/yayashn/vscode-dark-polished.git
 
 [submodule "extensions/vscode-great-icons"]
 	path = extensions/vscode-great-icons
