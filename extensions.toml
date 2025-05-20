@@ -144,6 +144,10 @@ version = "0.0.3"
 submodule = "extensions/ayu-darker"
 version = "1.0.0"
 
+[azutiku-theme]
+submodule = "extensions/azutiku-theme"
+version = "0.1.0"
+
 [barbenheimer]
 submodule = "extensions/barbenheimer"
 version = "1.3.1"
@@ -158,7 +162,7 @@ version = "0.1.2"
 
 [basher]
 submodule = "extensions/basher"
-version = "0.0.1"
+version = "0.0.3"
 
 [batman]
 submodule = "extensions/batman"
@@ -320,6 +324,10 @@ version = "0.0.2"
 submodule = "extensions/chanterelle"
 version = "0.0.1"
 
+[chaos-theory-theme]
+submodule = "extensions/chaos-theory-theme"
+version = "0.0.2"
+
 [charmed-icons]
 submodule = "extensions/charmed-icons"
 version = "0.8.1"
@@ -418,7 +426,12 @@ version = "0.1.2"
 
 [cspell]
 submodule = "extensions/cspell"
-version = "0.0.2"
+version = "0.0.3"
+
+[css-modules-kit]
+submodule = "extensions/css-modules-kit"
+version = "0.0.1"
+path = "crates/zed"
 
 [csv]
 submodule = "extensions/csv"
@@ -563,7 +576,7 @@ version = "0.0.4"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.1.7"
+version = "0.1.8"
 
 [elle]
 submodule = "extensions/elle"
@@ -576,7 +589,7 @@ version = "0.2.0"
 
 [ember]
 submodule = "extensions/ember"
-version = "0.0.1"
+version = "0.1.0"
 
 [ember-theme]
 submodule = "extensions/ember-theme"
@@ -584,7 +597,7 @@ version = "0.9.1"
 
 [emerald-night]
 submodule = "extensions/emerald-night"
-version = "0.0.1"
+version = "0.0.2"
 
 [emmet]
 submodule = "extensions/zed"
@@ -957,7 +970,7 @@ version = "2.1.0"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.0.1"
+version = "0.0.2"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1021,7 +1034,7 @@ version = "0.1.1"
 
 [koto]
 submodule = "extensions/koto"
-version = "0.0.1"
+version = "0.0.2"
 
 [ktrz-monokai]
 submodule = "extensions/ktrz-monokai"
@@ -1215,6 +1228,10 @@ version = "0.1.1"
 submodule = "extensions/mcp-server-linear"
 version = "0.0.1"
 
+[mcp-server-newsnow]
+submodule = "extensions/mcp-server-newsnow"
+version = "0.0.1"
+
 [mcp-server-puppeteer]
 submodule = "extensions/mcp-server-puppeteer"
 version = "0.0.1"
@@ -1253,7 +1270,7 @@ version = "0.4.0"
 
 [min-theme]
 submodule = "extensions/min-theme"
-version = "0.2.0"
+version = "0.2.1"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -1261,11 +1278,11 @@ version = "0.0.1"
 
 [modest-dark]
 submodule = "extensions/modest-dark"
-version = "0.1.7"
+version = "0.1.8"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
-version = "0.0.17"
+version = "0.0.19"
 
 [monokai-nebula]
 submodule = "extensions/monokai-nebula"
@@ -1393,7 +1410,7 @@ version = "0.1.1"
 
 [nightfox-m]
 submodule = "extensions/night-m"
-version = "0.1.0"
+version = "0.2.0"
 
 [nim]
 submodule = "extensions/nim"
@@ -1458,7 +1475,7 @@ version = "0.0.7"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.4.1"
+version = "0.4.2"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -1656,6 +1673,10 @@ version = "0.1.0"
 [poimandres]
 submodule = "extensions/poimandres"
 version = "0.0.4"
+
+[polar-context-server]
+submodule = "extensions/polar-context-server"
+version = "0.0.1"
 
 [polar-theme]
 submodule = "extensions/polar-theme"
@@ -1877,7 +1898,7 @@ version = "0.1.1"
 
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
-version = "0.0.4"
+version = "0.0.5"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
@@ -1905,7 +1926,7 @@ version = "1.0.1"
 
 [slint]
 submodule = "extensions/slint"
-version = "0.0.6"
+version = "0.0.7"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -1990,7 +2011,11 @@ version = "0.0.1"
 
 [starlark]
 submodule = "extensions/starlark"
-version = "0.2.0"
+version = "0.3.0"
+
+[statamic-antlers]
+submodule = "extensions/statamic-antlers"
+version = "0.1.0"
 
 [stimulus]
 submodule = "extensions/stimulus"
@@ -2064,6 +2089,10 @@ version = "0.6.0"
 submodule = "extensions/tanuki"
 version = "0.0.1"
 
+[tcl]
+submodule = "extensions/tcl"
+version = "0.0.1"
+
 [templ]
 submodule = "extensions/templ"
 version = "0.0.7"
@@ -2107,7 +2136,7 @@ version = "0.5.0"
 [tombi]
 submodule = "extensions/tombi"
 path = "editors/zed"
-version = "0.1.2"
+version = "0.1.3"
 
 [toml]
 submodule = "extensions/zed"
@@ -2133,6 +2162,10 @@ version = "0.0.2"
 [tsarcasm]
 submodule = "extensions/tsarcasm"
 version = "0.0.9"
+
+[turtle]
+submodule = "extensions/turtle"
+version = "0.1.0"
 
 [twig]
 submodule = "extensions/twig"
@@ -2284,7 +2317,7 @@ version = "0.0.1"
 
 [vscode-dark-polished]
 submodule = "extensions/vscode-dark-polished"
-version = "0.0.5"
+version = "0.0.9"
 
 [vscode-great-icons]
 submodule = "extensions/vscode-great-icons"
@@ -2328,6 +2361,10 @@ version = "0.1.0"
 
 [wdl]
 submodule = "extensions/wdl"
+version = "0.0.1"
+
+[webidl]
+submodule = "extensions/webidl/"
 version = "0.0.1"
 
 [wgsl]
