@@ -156,7 +156,7 @@
 
 [submodule "extensions/basher"]
 	path = extensions/basher
-	url = https://github.com/d1y/bash.zed
+	url = https://github.com/zed-extensions/bash.git
 
 [submodule "extensions/batman"]
 	path = extensions/batman
@@ -417,6 +417,10 @@
 [submodule "extensions/cspell"]
 	path = extensions/cspell
 	url = https://github.com/mantou132/zed-cspell
+
+[submodule "extensions/css-modules-kit"]
+	path = extensions/css-modules-kit
+	url = https://github.com/mizdra/css-modules-kit.git
 
 [submodule "extensions/csv"]
 	path = extensions/csv
@@ -1038,6 +1042,10 @@
 	path = extensions/liquid
 	url = https://github.com/TheBeyondGroup/zed-shopify-liquid.git
 
+[submodule "extensions/liquid-snippets"]
+	path = extensions/liquid-snippets
+	url = https://github.com/hcmlopes/zed-liquid-snippets.git
+
 [submodule "extensions/live-server"]
 	path = extensions/live-server
 	url = https://github.com/frederik-uni/zed-live-server.git
@@ -1626,6 +1634,10 @@
 	path = extensions/poimandres
 	url = https://github.com/mshaugh/poimandres.zed.git
 
+[submodule "extensions/polar-context-server"]
+	path = extensions/polar-context-server
+	url = https://github.com/polarsource/zed-polar-context-server.git
+
 [submodule "extensions/polar-theme"]
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
@@ -1946,6 +1958,10 @@
 	path = extensions/starlark
 	url = https://github.com/zaucy/zed-starlark.git
 
+[submodule "extensions/statamic-antlers"]
+	path = extensions/statamic-antlers
+	url = https://github.com/mynetx/zed-statamic-antlers.git
+
 [submodule "extensions/stimulus"]
 	path = extensions/stimulus
 	url = https://github.com/vitallium/zed-stimulus
@@ -2018,6 +2034,10 @@
 	path = extensions/tanuki
 	url = https://github.com/dylf/zed-tanuki.git
 
+[submodule "extensions/tcl"]
+	path = extensions/tcl
+	url = https://github.com/richnou/kissb-zed-tcl.git
+
 [submodule "extensions/templ"]
 	path = extensions/templ
 	url = https://github.com/makifdb/zed-templ.git
@@ -2081,6 +2101,10 @@
 [submodule "extensions/tsarcasm"]
 	path = extensions/tsarcasm
 	url = https://github.com/xtrasmal/zed-theme-tsarcasm.git
+
+[submodule "extensions/turtle"]
+	path = extensions/turtle
+	url = https://github.com/MoskitoHero/zed-turtle.git
 
 [submodule "extensions/twig"]
 	path = extensions/twig
@@ -2277,6 +2301,10 @@
 [submodule "extensions/wdl"]
 	path = extensions/wdl
 	url = https://github.com/broadinstitute/zed-wdl
+
+[submodule "extensions/webidl"]
+	path = extensions/webidl
+	url = https://github.com/padenot/zed-webidl.git
 
 [submodule "extensions/wgsl"]
 	path = extensions/wgsl
