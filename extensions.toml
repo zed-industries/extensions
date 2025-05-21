@@ -558,6 +558,10 @@ version = "1.2.0"
 submodule = "extensions/earthfile"
 version = "0.1.0"
 
+[edge]
+submodule = "extension/edge"
+version = "0.0.1"
+
 [edi]
 submodule = "extensions/edi"
 version = "0.0.2"
@@ -2423,10 +2427,6 @@ version = "0.1.0"
 [yue-theme]
 submodule = "extensions/yue-theme"
 version = "1.2.1"
-
-[zed-edge]
-submodule = "extension/zed-edge"
-version = "0.0.1"
 
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
