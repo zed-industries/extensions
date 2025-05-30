@@ -2137,6 +2137,10 @@ version = "0.0.7"
 submodule = "extensions/tera"
 version = "1.1.0"
 
+[termux]
+submodule = "extensions/termux"
+version = "0.1.2"
+
 [terraform]
 submodule = "extensions/terraform"
 version = "0.1.3"
