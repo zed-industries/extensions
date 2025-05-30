@@ -2090,6 +2090,10 @@
 	path = extensions/tera
 	url = https://github.com/uncenter/zed-tera
 
+[submodule "extensions/termux"]
+	path = extensions/termux
+	url = https://gitlab.com/paveloom-g/rust/zed-termux
+
 [submodule "extensions/terraform"]
 	path = extensions/terraform
 	url = https://github.com/zed-extensions/terraform.git
