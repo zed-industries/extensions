@@ -1262,6 +1262,10 @@
 	path = extensions/mcp-server-slack
 	url = https://github.com/semioz/zed-slack-mcp.git
 
+[submodule "extensions/mcp-server-supabase"]
+	path = extensions/mcp-server-supabase
+	url = https://github.com/maximoffua/zed-mcp-server-supabase
+
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
