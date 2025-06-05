@@ -1242,6 +1242,10 @@
 	path = extensions/mcp-server-linear
 	url = https://github.com/LoamStudios/zed-mcp-server-linear.git
 
+[submodule "extensions/mcp-server-miaoduo"]
+	path = extensions/mcp-server-miaoduo
+	url = https://github.com/benmooo/zed-mcp-server-miaoduo.git
+
 [submodule "extensions/mcp-server-newsnow"]
 	path = extensions/mcp-server-newsnow
 	url = https://github.com/benmooo/zed-mcp-server-newsnow.git
@@ -1261,6 +1265,10 @@
 [submodule "extensions/mcp-server-slack"]
 	path = extensions/mcp-server-slack
 	url = https://github.com/semioz/zed-slack-mcp.git
+
+[submodule "extensions/mcp-server-supabase"]
+	path = extensions/mcp-server-supabase
+	url = https://github.com/maximoffua/zed-mcp-server-supabase
 
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
@@ -1301,6 +1309,10 @@
 [submodule "extensions/modus-themes"]
 	path = extensions/modus-themes
 	url = https://github.com/vitallium/zed-modus-themes.git
+
+[submodule "extensions/molten-theme"]
+	path = extensions/molten-theme
+	url = https://github.com/vaqxai/zed-molten-theme.git
 
 [submodule "extensions/monokai-nebula"]
 	path = extensions/monokai-nebula

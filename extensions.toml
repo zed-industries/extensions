@@ -61,7 +61,7 @@ version = "0.1.1"
 
 [angular]
 submodule = "extensions/angular"
-version = "0.0.2"
+version = "0.0.3"
 
 [ansible]
 submodule = "extensions/ansible"
@@ -877,7 +877,7 @@ version = "0.2.0"
 
 [haml]
 submodule = "extensions/haml"
-version = "0.1.0"
+version = "0.1.1"
 
 [hare]
 submodule = "extensions/hare"
@@ -1268,6 +1268,10 @@ version = "0.1.1"
 submodule = "extensions/mcp-server-linear"
 version = "0.0.1"
 
+[mcp-server-miaoduo]
+submodule = "extensions/mcp-server-miaoduo"
+version = "0.0.1"
+
 [mcp-server-newsnow]
 submodule = "extensions/mcp-server-newsnow"
 version = "0.0.1"
@@ -1286,6 +1290,10 @@ version = "0.0.1"
 
 [mcp-server-slack]
 submodule = "extensions/mcp-server-slack"
+version = "0.0.1"
+
+[mcp-server-supabase]
+submodule = "extensions/mcp-server-supabase"
 version = "0.0.1"
 
 [mcp-server-webflow]
@@ -1328,9 +1336,13 @@ version = "0.1.8"
 submodule = "extensions/modus-themes"
 version = "0.0.19"
 
+[molten-theme]
+submodule = "extensions/molten-theme"
+version = "1.0.0"
+
 [monokai-nebula]
 submodule = "extensions/monokai-nebula"
-version = "0.2.1"
+version = "0.2.2"
 
 [monokai-night]
 submodule = "extensions/monokai-night"
@@ -1374,7 +1386,7 @@ version = "0.0.2"
 
 [motoko]
 submodule = "extensions/motoko"
-version = "0.0.1"
+version = "0.0.2"
 
 [move]
 submodule = "extensions/move"
@@ -1954,7 +1966,7 @@ version = "0.1.1"
 
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
-version = "0.0.5"
+version = "0.0.6"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
