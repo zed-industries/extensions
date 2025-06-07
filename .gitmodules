@@ -1262,6 +1262,10 @@
 	path = extensions/mcp-server-puppeteer
 	url = https://github.com/zed-extensions/mcp-server-puppeteer.git
 
+[submodule "extensions/mcp-server-resend"]
+	path = extensions/mcp-server-resend
+	url = https://github.com/danilo-leal/zed-resend-mcp-server.git
+
 [submodule "extensions/mcp-server-sequential-thinking"]
 	path = extensions/mcp-server-sequential-thinking
 	url = https://github.com/LoamStudios/zed-mcp-server-sequential-thinking.git
@@ -2477,10 +2481,6 @@
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
-
-[submodule "extensions/mcp-server-resend"]
-	path = extensions/mcp-server-resend
-	url = https://github.com/danilo-leal/zed-resend-mcp-server.git
 
 [submodule "extensions/zedburn"]
 	path = extensions/zedburn
