@@ -1288,6 +1288,10 @@ version = "0.0.1"
 submodule = "extensions/mcp-server-puppeteer"
 version = "0.0.1"
 
+[mcp-server-resend]
+submodule = "extensions/mcp-server-resend"
+version = "0.0.1"
+
 [mcp-server-sequential-thinking]
 submodule = "extensions/mcp-server-sequential-thinking"
 version = "0.0.2"
@@ -2527,10 +2531,6 @@ version = "0.0.1"
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
 version = "0.0.2"
-
-[zed-resend-mcp-server]
-submodule = "extensions/mcp-server-resend"
-version = "0.0.1"
 
 [zedburn]
 submodule = "extensions/zedburn"
