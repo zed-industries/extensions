@@ -1922,10 +1922,6 @@
 	path = extensions/scheme
 	url = https://github.com/zed-extensions/scheme.git
 
-[submodule "extensions/sqlc-snippets"]
-	path = extension/sqlc-snippets
-	url = https://github.com/NarmadaWeb/sqlc-snippets-zed
-
 [submodule "extensions/scls"]
 	path = extensions/scls
 	url = https://github.com/d1y/simple-completion-zed
@@ -2537,3 +2533,6 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
+[submodule "extensions/sqlc-snippets"]
+	path = extensions/sqlc-snippets
+	url = https://github.com/NarmadaWeb/sqlc-snippets-zed.git
