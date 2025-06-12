@@ -2050,6 +2050,10 @@
 	path = extensions/sql
 	url = https://github.com/nervenes/zed-sql.git
 
+[submodule "extensions/sqlc-snippets"]
+	path = extensions/sqlc-snippets
+	url = https://github.com/NarmadaWeb/sqlc-snippets-zed.git
+
 [submodule "extensions/sqruff"]
 	path = extensions/sqruff
 	url = https://github.com/gvozdvmozgu/sqruff-zed.git
@@ -2533,6 +2537,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/sqlc-snippets"]
-	path = extensions/sqlc-snippets
-	url = https://github.com/NarmadaWeb/sqlc-snippets-zed.git
