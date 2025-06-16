@@ -8,17 +8,18 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: 423c7b999a07d5f5ab82c58ac99f6b0684be50d0
+  ZED_EXTENSION_CLI_SHA: ccf6f27b8f1bdfb803b9cc0da0b0cf5c9e136dd9
 
 jobs:
   package:
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'zed-industries'
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
         with:
           clean: false
           fetch-depth: 0
@@ -27,14 +28,14 @@ jobs:
         with:
           version: 9
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@0a44ba7841725637a19e28fa30b79a866c81b0a6 # v4
         with:
           node-version: "20"
           cache: "pnpm"
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@v3
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
           path: |
             zed-extension
@@ -56,7 +57,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
           key: cache-build-dependencies
           path: |
@@ -70,8 +71,10 @@ jobs:
           S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
           S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
 
-      - name: Enforce sorted `extensions.toml`
-        run: git diff --exit-code -- extensions.toml
-
-      - name: Enforce sorted `.gitmodules`
-        run: git diff --exit-code -- .gitmodules
+      - name: Enforce sorted `extensions.toml` and `.gitmodules`
+        run: |
+          if ! git diff --exit-code -- extensions.toml .gitmodules; then
+            echo -e "\nERROR: extensions.toml and .gitmodules are not sorted."
+            echo -e "Fix by running:\n  pnpm sort-extensions\n"
+            exit 1
+          fi
