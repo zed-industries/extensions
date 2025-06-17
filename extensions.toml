@@ -49,7 +49,7 @@ version = "0.0.2"
 
 [amber]
 submodule = "extensions/amber"
-version = "0.1.2"
+version = "0.2.0"
 
 [amber-monochrome-monitor-crt-phosphor]
 submodule = "extensions/amber-monochrome-monitor-crt-phosphor"
@@ -70,10 +70,6 @@ version = "0.1.2"
 [anthracite-theme]
 submodule = "extensions/anthracite-theme"
 version = "1.0.0"
-
-[anya]
-submodule = "extensions/anya"
-version = "0.0.2"
 
 [anysphere-theme]
 submodule = "extensions/anysphere-theme"
@@ -262,7 +258,7 @@ version = "1.0.0"
 
 [browser-tools-context-server]
 submodule = "extensions/browser-tools-context-server"
-version = "0.0.1"
+version = "0.0.2"
 
 [c3]
 submodule = "extensions/c3"
@@ -278,7 +274,7 @@ version = "0.0.2"
 
 [cairo]
 submodule = "extensions/cairo"
-version = "0.1.0"
+version = "0.1.1"
 
 [call-trans-opt-received]
 submodule = "extensions/call-trans-opt-received"
@@ -568,7 +564,7 @@ version = "0.0.5"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "0.9.3"
+version = "1.0.0"
 
 [duckyscript]
 submodule = "extensions/duckyscript"
@@ -660,6 +656,10 @@ version = "0.1.3"
 submodule = "extensions/ezio-theme"
 version = "0.0.6"
 
+[fastapi-snippets]
+submodule = "extensions/fastapi-snippets"
+version = "0.1.0"
+
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
 version = "0.1.0"
@@ -733,6 +733,10 @@ version = "0.3.0"
 submodule = "extensions/gafelson"
 version = "1.0.1"
 
+[gcode]
+submodule = "extensions/gcode"
+version = "0.0.1"
+
 [gdscript]
 submodule = "extensions/gdscript"
 version = "0.4.0"
@@ -788,7 +792,7 @@ version = "0.0.2"
 
 [gleam]
 submodule = "extensions/gleam"
-version = "0.4.0"
+version = "0.5.0"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -960,10 +964,6 @@ version = "0.2.10"
 submodule = "extensions/iceicebergy"
 version = "0.3.14"
 
-[idris2]
-submodule = "extensions/idris2"
-version = "0.0.1"
-
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
@@ -994,7 +994,7 @@ version = "0.0.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.0.4"
+version = "6.1.0"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1012,9 +1012,13 @@ version = "0.0.3"
 submodule = "extensions/jetbrains-new-ui-icons"
 version = "2.1.0"
 
+[jetbrains-rider]
+submodule = "extensions/jetbrains-rider"
+version = "0.0.1"
+
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.0.3"
+version = "0.0.4"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1362,7 +1366,7 @@ version = "1.0.0"
 
 [monokai-nebula]
 submodule = "extensions/monokai-nebula"
-version = "0.2.2"
+version = "0.2.3"
 
 [monokai-night]
 submodule = "extensions/monokai-night"
@@ -1647,7 +1651,7 @@ version = "0.1.0"
 
 [oolong]
 submodule = "extensions/oolong"
-version = "0.1.0"
+version = "0.1.1"
 
 [openmoji-icons]
 submodule = "extensions/openmoji-icons"
@@ -2272,7 +2276,7 @@ version = "0.5.0"
 [tombi]
 submodule = "extensions/tombi"
 path = "editors/zed"
-version = "0.1.4"
+version = "0.1.5"
 
 [toml]
 submodule = "extensions/zed"
@@ -2469,7 +2473,7 @@ version = "0.2.0"
 
 [vscode-light-plus]
 submodule = "extensions/vscode-light-plus"
-version = "0.0.1"
+version = "0.0.2"
 
 [vscode-monokai-charcoal]
 submodule = "extensions/vscode-monokai-charcoal"
