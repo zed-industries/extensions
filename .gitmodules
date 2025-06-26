@@ -386,6 +386,10 @@
 	path = extensions/codestackr
 	url = https://github.com/Pjort/codestackr-zed.git
 
+[submodule "extensions/color-highlight"]
+	path = extensions/color-highlight
+	url = https://github.com/huacnlee/color-lsp.git
+
 [submodule "extensions/colored-zed-icons-theme"]
 	path = extensions/colored-zed-icons-theme
 	url = https://github.com/TheRedXD/zed-icons-colored-theme.git
@@ -534,6 +538,10 @@
 	path = extensions/deno
 	url = https://github.com/zed-extensions/deno.git
 
+[submodule "extensions/deputy"]
+	path = extensions/deputy
+	url = https://github.com/filiptibell/deputy.git
+
 [submodule "extensions/design-tokens-language-server"]
 	path = extensions/design-tokens
 	url = https://github.com/bennypowers/design-tokens-language-server
@@ -557,6 +565,10 @@
 [submodule "extensions/dracula"]
 	path = extensions/dracula
 	url = https://github.com/dracula/zed.git
+
+[submodule "extensions/dram"]
+	path = extensions/dram
+	url = https://github.com/clamjohnston/dram.git
 
 [submodule "extensions/duckyscript"]
 	path = extensions/duckyscript
@@ -761,6 +773,10 @@
 [submodule "extensions/github-monochrome-theme"]
 	path = extensions/github-monochrome-theme
 	url = https://github.com/Nishantdd/github-monochrome-zed.git
+
+[submodule "extensions/github-plus-theme"]
+	path = extensions/github-plus-theme
+	url = https://github.com/thenikso/github-plus-theme-zed.git
 
 [submodule "extensions/github-theme"]
 	path = extensions/github-theme
@@ -1265,6 +1281,10 @@
 [submodule "extensions/mcp-server-miaoduo"]
 	path = extensions/mcp-server-miaoduo
 	url = https://github.com/benmooo/zed-mcp-server-miaoduo.git
+
+[submodule "extensions/mcp-server-mui"]
+	path = extensions/mcp-server-mui
+	url = https://github.com/danilo-leal/zed-mui-mcp-server.git
 
 [submodule "extensions/mcp-server-newsnow"]
 	path = extensions/mcp-server-newsnow
