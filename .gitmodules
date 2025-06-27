@@ -1526,6 +1526,10 @@
 	path = extensions/nix
 	url = https://github.com/hasit/zed-nix.git
 
+[submodule "extensions/nixdorf-8870"]
+	path = extensions/nixdorf-8870
+	url = https://github.com/Takk8IS/nixdorf-8870-theme-for-zed
+
 [submodule "extensions/nobin-theme"]
 	path = extensions/nobin-theme
 	url = https://github.com/NobinKhan/zed-themes
@@ -1913,6 +1917,10 @@
 [submodule "extensions/rescript"]
 	path = extensions/rescript
 	url = https://github.com/humaans/rescript-zed.git
+
+[submodule "extensions/retrofit-theme"]
+	path = extensions/retrofit-theme
+	url = https://github.com/snapsnapturtle/retrofit-zed.git
 
 [submodule "extensions/rhai"]
 	path = extensions/rhai
