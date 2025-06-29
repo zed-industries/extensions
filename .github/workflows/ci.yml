@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: acf9b22466fc0f1aa26c4a403278bef6a1560aaa
+  ZED_EXTENSION_CLI_SHA: ca3f1d624ae3f1e397bdf9b51f61654785601344
 
 jobs:
   package:
@@ -24,18 +24,18 @@ jobs:
           clean: false
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4
         with:
           version: 9
 
-      - uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: "20"
           cache: "pnpm"
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@d4323d4df104b026a6aa633fdb11d772146be0bf # v4
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
         with:
           path: |
             zed-extension
@@ -57,7 +57,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@d4323d4df104b026a6aa633fdb11d772146be0bf # v4
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
         with:
           key: cache-build-dependencies
           path: |
@@ -78,3 +78,10 @@ jobs:
             echo -e "Fix by running:\n  pnpm sort-extensions\n"
             exit 1
           fi
+
+      - name: Enforce no Git LFS
+        run: |
+          git submodule foreach --quiet \
+            '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
+              echo "LFS detected in $path" >&2 && exit 1
+            }'
