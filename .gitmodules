@@ -346,6 +346,10 @@
 	path = extensions/chawyehsu-vscode-icons
 	url = https://github.com/chawyehsu/zed-vscode-icons-theme.git
 
+[submodule "extensions/circom"]
+	path = extensions/circom
+	url = https://github.com/ThinkingFrog/zed-circom.git
+
 [submodule "extensions/cisco-theme"]
 	path = extensions/cisco-theme
 	url = https://github.com/thommorais/zed-cisco-theme.git
@@ -2613,6 +2617,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/circom"]
-	path = extensions/circom
-	url = https://github.com/ThinkingFrog/zed-circom.git
