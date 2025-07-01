@@ -1212,7 +1212,7 @@
 
 [submodule "extensions/martianized"]
 	path = extensions/martianized
-	url = https://github.com/clamjohnston/martianized
+	url = https://github.com/clamjohnston/martianized.git
 
 [submodule "extensions/material-dark"]
 	path = extensions/material-dark
@@ -1325,6 +1325,10 @@
 [submodule "extensions/mcp-server-supabase"]
 	path = extensions/mcp-server-supabase
 	url = https://github.com/maximoffua/zed-mcp-server-supabase
+
+[submodule "extensions/mcp-server-vercel"]
+	path = extensions/mcp-server-vercel
+	url = https://github.com/Takk8IS/vercel-mcp-server-for-zed
 
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
