@@ -378,7 +378,7 @@ version = "0.2.6"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.1.7"
+version = "0.1.8"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -522,13 +522,17 @@ version = "0.0.2"
 submodule = "extensions/darker-horizon"
 version = "0.0.2"
 
+[darkmatter-theme]
+submodule = "extensions/darkmatter-theme"
+version = "0.0.1"
+
 [dart]
 submodule = "extensions/dart"
 version = "0.2.1"
 
 [day-shift]
 submodule = "extensions/day-shift"
-version = "1.0.2"
+version = "1.0.3"
 
 [dbml]
 submodule = "extensions/dbml"
@@ -927,7 +931,7 @@ version = "0.0.1"
 
 [harper]
 submodule = "extensions/harper"
-version = "0.0.4"
+version = "0.0.5"
 
 [haskell]
 submodule = "extensions/haskell"
@@ -952,6 +956,10 @@ version = "0.1.0"
 [hlsl]
 submodule = "extensions/hlsl"
 version = "0.0.1"
+
+[hocon]
+submodule = "extensions/hocon"
+version = "0.1.0"
 
 [horizon]
 submodule = "extensions/horizon"
@@ -1052,7 +1060,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.0.5"
+version = "0.0.6"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1072,7 +1080,7 @@ version = "0.4.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.6"
+version = "0.1.7"
 
 [just]
 submodule = "extensions/just"
@@ -1088,7 +1096,7 @@ version = "0.0.1"
 
 [kanagawa-themes]
 submodule = "extensions/kanagawa-themes"
-version = "0.1.1"
+version = "0.1.2"
 
 [kanso]
 submodule = "extensions/kanso"
@@ -1196,7 +1204,7 @@ version = "0.1.3"
 
 [luau]
 submodule = "extensions/luau"
-version = "0.2.2"
+version = "0.3.0"
 
 [lusch-theme]
 submodule = "extensions/lusch-theme"
@@ -1540,7 +1548,7 @@ version = "0.0.3"
 
 [night-shift]
 submodule = "extensions/night-shift"
-version = "1.0.2"
+version = "1.0.3"
 
 [nightfox]
 submodule = "extensions/nightfox"
@@ -1776,9 +1784,8 @@ submodule = "extensions/perm"
 version = "0.0.4"
 
 [perplexity]
-submodule = "extensions/zed"
-path = "extensions/perplexity"
-version = "0.1.0"
+submodule = "extensions/perplexity"
+version = "0.2.0"
 
 [pest]
 submodule = "extensions/pest"
@@ -1903,7 +1910,7 @@ version = "0.1.0"
 
 [qml]
 submodule = "extensions/qml"
-version = "0.0.3"
+version = "0.0.4"
 
 [quakec]
 submodule = "extensions/quakec"
@@ -2011,7 +2018,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.10.1"
+version = "0.12.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2213,7 +2220,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "0.0.4"
+version = "1.0.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
