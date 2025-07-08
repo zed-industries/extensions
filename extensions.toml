@@ -41,7 +41,7 @@ version = "0.1.0"
 
 [alabaster]
 submodule = "extensions/alabaster"
-version = "0.0.2"
+version = "0.0.3"
 
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
@@ -236,6 +236,10 @@ version = "0.0.1"
 submodule = "extensions/blankeos-zen"
 version = "0.0.5"
 
+[blinds-theme]
+submodule = "extensions/blinds-theme"
+version = "0.1.0"
+
 [blueprint]
 submodule = "extensions/blueprint"
 version = "0.3.0"
@@ -378,7 +382,7 @@ version = "0.2.6"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.1.7"
+version = "0.1.8"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -480,7 +484,7 @@ version = "0.7.1"
 
 [cyberpunk-2077]
 submodule = "extensions/cyberpunk-2077"
-version = "1.0.0"
+version = "2.0.0"
 
 [cylc]
 submodule = "extensions/cylc"
@@ -520,7 +524,11 @@ version = "0.0.2"
 
 [darker-horizon]
 submodule = "extensions/darker-horizon"
-version = "0.0.2"
+version = "0.0.3"
+
+[darkmatter-theme]
+submodule = "extensions/darkmatter-theme"
+version = "0.0.1"
 
 [dart]
 submodule = "extensions/dart"
@@ -528,7 +536,7 @@ version = "0.2.1"
 
 [day-shift]
 submodule = "extensions/day-shift"
-version = "1.0.2"
+version = "1.0.3"
 
 [dbml]
 submodule = "extensions/dbml"
@@ -732,6 +740,10 @@ version = "0.1.0"
 submodule = "extensions/focus-theme"
 version = "0.0.1"
 
+[forest-night]
+submodule = "extensions/forest-night"
+version = "0.1.0"
+
 [fortran]
 submodule = "extensions/fortran"
 version = "0.0.2"
@@ -775,7 +787,7 @@ version = "0.0.1"
 
 [gentle-dark]
 submodule = "extensions/gentle-dark"
-version = "1.2.0"
+version = "1.2.1"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
@@ -787,7 +799,7 @@ version = "0.5.1"
 
 [github-classic]
 submodule = "extensions/github-classic"
-version = "0.0.1"
+version = "0.0.2"
 
 [github-copilot-theme]
 submodule = "extensions/github-copilot-theme"
@@ -872,7 +884,7 @@ version = "0.1.0"
 
 [groovy]
 submodule = "extensions/groovy"
-version = "1.1.0"
+version = "1.2.0"
 
 [groq]
 submodule = "extensions/groq"
@@ -932,7 +944,7 @@ version = "0.0.1"
 
 [harper]
 submodule = "extensions/harper"
-version = "0.0.4"
+version = "0.0.5"
 
 [haskell]
 submodule = "extensions/haskell"
@@ -957,6 +969,10 @@ version = "0.1.0"
 [hlsl]
 submodule = "extensions/hlsl"
 version = "0.0.1"
+
+[hocon]
+submodule = "extensions/hocon"
+version = "0.1.0"
 
 [horizon]
 submodule = "extensions/horizon"
@@ -1015,6 +1031,10 @@ version = "0.0.5"
 submodule = "extensions/intellij-newui-theme"
 version = "0.1.0"
 
+[ir-black]
+submodule = "extensions/ir-black"
+version = "0.0.1"
+
 [isle]
 submodule = "extensions/isle"
 version = "0.0.1"
@@ -1053,7 +1073,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.0.5"
+version = "0.0.6"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1073,7 +1093,7 @@ version = "0.4.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.6"
+version = "0.1.7"
 
 [just]
 submodule = "extensions/just"
@@ -1089,7 +1109,7 @@ version = "0.0.1"
 
 [kanagawa-themes]
 submodule = "extensions/kanagawa-themes"
-version = "0.1.1"
+version = "0.1.2"
 
 [kanso]
 submodule = "extensions/kanso"
@@ -1193,11 +1213,11 @@ version = "0.0.7"
 
 [lua]
 submodule = "extensions/lua"
-version = "0.1.2"
+version = "0.1.3"
 
 [luau]
 submodule = "extensions/luau"
-version = "0.2.2"
+version = "0.3.0"
 
 [lusch-theme]
 submodule = "extensions/lusch-theme"
@@ -1245,7 +1265,7 @@ version = "0.0.5"
 
 [martianized]
 submodule = "extensions/martianized"
-version = "1.0.0"
+version = "1.0.1"
 
 [material-dark]
 submodule = "extensions/material-dark"
@@ -1359,6 +1379,10 @@ version = "0.0.1"
 submodule = "extensions/mcp-server-supabase"
 version = "0.0.2"
 
+[mcp-server-vercel]
+submodule = "extensions/mcp-server-vercel"
+version = "1.0.1"
+
 [mcp-server-webflow]
 submodule = "extensions/mcp-server-webflow"
 version = "0.0.2"
@@ -1397,7 +1421,7 @@ version = "0.1.8"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
-version = "0.0.20"
+version = "0.1.0"
 
 [molten-theme]
 submodule = "extensions/molten-theme"
@@ -1537,7 +1561,7 @@ version = "0.0.3"
 
 [night-shift]
 submodule = "extensions/night-shift"
-version = "1.0.2"
+version = "1.0.3"
 
 [nightfox]
 submodule = "extensions/nightfox"
@@ -1773,9 +1797,8 @@ submodule = "extensions/perm"
 version = "0.0.4"
 
 [perplexity]
-submodule = "extensions/zed"
-path = "extensions/perplexity"
-version = "0.1.0"
+submodule = "extensions/perplexity"
+version = "0.2.0"
 
 [pest]
 submodule = "extensions/pest"
@@ -1900,7 +1923,7 @@ version = "0.1.0"
 
 [qml]
 submodule = "extensions/qml"
-version = "0.0.3"
+version = "0.0.4"
 
 [quakec]
 submodule = "extensions/quakec"
@@ -2008,7 +2031,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.10.1"
+version = "0.12.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2041,7 +2064,11 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.1.0"
+version = "0.1.1"
+
+[seoul256]
+submodule = "extensions/seoul256"
+version = "0.0.1"
 
 [sequoia]
 submodule = "extensions/sequoia"
@@ -2126,7 +2153,7 @@ version = "0.0.1"
 
 [snowfall]
 submodule = "extensions/snowfall"
-version = "0.2.0"
+version = "0.2.1"
 
 [snowflake]
 submodule = "extensions/snowflake"
@@ -2210,7 +2237,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "0.0.4"
+version = "1.0.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
@@ -2324,6 +2351,10 @@ version = "0.0.1"
 submodule = "extensions/tmux"
 version = "0.0.2"
 
+[todo.txt]
+submodule = "extensions/todo.txt"
+version = "0.2.2"
+
 [tokyo-night]
 submodule = "extensions/tokyo-night"
 version = "0.5.0"
@@ -2381,6 +2412,10 @@ version = "0.1.0"
 [ty]
 submodule = "extensions/ty"
 version = "0.0.2"
+
+[typespec]
+submodule = "extensions/typespec"
+version = "0.0.1"
 
 [typos]
 submodule = "extensions/typos"
@@ -2544,7 +2579,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.2.7"
+version = "0.2.8"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
