@@ -1234,6 +1234,10 @@
 	path = extensions/markdown-oxide
 	url = https://github.com/Feel-ix-343/markdown-oxide-zed.git
 
+[submodule "extensions/markdownlint"]
+	path = extensions/markdownlint
+	url = https://github.com/vitallium/zed-markdownlint.git
+
 [submodule "extensions/marksman"]
 	path = extensions/marksman
 	url = https://github.com/vitallium/zed-marksman.git
@@ -1461,6 +1465,10 @@
 [submodule "extensions/msun-dark"]
 	path = extensions/msun-dark
 	url = https://github.com/mikesun/msun-dark-zed.git
+
+[submodule "extensions/mustache"]
+	path = extensions/mustache
+	url = https://github.com/neoncitylights/zed-mustache
 
 [submodule "extensions/muted"]
 	path = extensions/muted
@@ -2152,7 +2160,7 @@
 
 [submodule "extensions/sql"]
 	path = extensions/sql
-	url = https://github.com/nervenes/zed-sql.git
+	url = https://github.com/zed-extensions/sql.git
 
 [submodule "extensions/sqlc-snippets"]
 	path = extensions/sqlc-snippets
@@ -2362,6 +2370,10 @@
 	path = extensions/twilight
 	url = https://github.com/tectiv3/twilight-zed.git
 
+[submodule "extensions/txtar"]
+	path = extensions/txtar
+	url = https://github.com/FollowTheProcess/zed-txtar.git
+
 [submodule "extensions/ty"]
 	path = extensions/ty
 	url = https://github.com/zed-extensions/ty.git
@@ -2537,6 +2549,10 @@
 [submodule "extensions/vue-snippets"]
 	path = extensions/vue-snippets
 	url = https://github.com/rubjo/zed-vue-snippets
+
+[submodule "extensions/vue-theme"]
+	path = extensions/vue-theme
+	url = https://github.com/ColasssNotMe/vue-theme-zed.git
 
 [submodule "extensions/wakatime"]
 	path = extensions/wakatime
