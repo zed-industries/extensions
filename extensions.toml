@@ -242,7 +242,7 @@ version = "0.1.0"
 
 [blueprint]
 submodule = "extensions/blueprint"
-version = "0.3.0"
+version = "0.3.1"
 
 [bluloco-theme]
 submodule = "extensions/bluloco-theme"
@@ -387,6 +387,10 @@ version = "0.2.6"
 [codebook]
 submodule = "extensions/codebook"
 version = "0.1.8"
+
+[codely-theme]
+submodule = "extensions/codely-theme"
+version = "0.0.1"
 
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
@@ -666,9 +670,9 @@ version = "0.0.1"
 submodule = "extensions/erlang"
 version = "0.1.2"
 
-[everforest]
+[everforest-theme]
 submodule = "extensions/everforest"
-version = "0.0.2"
+version = "0.0.3"
 
 [evil-rabbit-theme]
 submodule = "extensions/evil-rabbit-theme"
@@ -730,7 +734,7 @@ version = "1.2.0"
 [flexoki-themes]
 submodule = "extensions/flexoki"
 path = "zed"
-version = "2.0.0"
+version = "2.0.1"
 
 [flow-theme]
 submodule = "extensions/flow-theme"
@@ -754,7 +758,7 @@ version = "0.0.2"
 
 [fountain]
 submodule = "extensions/fountain"
-version = "0.0.8"
+version = "0.2.0"
 
 [frosted-theme]
 submodule = "extensions/frosted-theme"
@@ -886,6 +890,10 @@ version = "0.1.0"
 submodule = "extensions/grimaces-birthday"
 version = "0.1.0"
 
+[grit]
+submodule = "extensions/grit"
+version = "0.0.1"
+
 [groovy]
 submodule = "extensions/groovy"
 version = "1.2.0"
@@ -948,7 +956,7 @@ version = "0.0.1"
 
 [harper]
 submodule = "extensions/harper"
-version = "0.0.5"
+version = "0.0.6"
 
 [haskell]
 submodule = "extensions/haskell"
@@ -976,7 +984,7 @@ version = "0.0.1"
 
 [hocon]
 submodule = "extensions/hocon"
-version = "0.1.0"
+version = "0.2.0"
 
 [horizon]
 submodule = "extensions/horizon"
@@ -1221,7 +1229,7 @@ version = "0.0.7"
 
 [lua]
 submodule = "extensions/lua"
-version = "0.1.4"
+version = "0.1.5"
 
 [luau]
 submodule = "extensions/luau"
@@ -1266,6 +1274,10 @@ version = "1.0.0"
 [markdown-oxide]
 submodule = "extensions/markdown-oxide"
 version = "0.0.4"
+
+[markdownlint]
+submodule = "extensions/markdownlint"
+version = "0.1.2"
 
 [marksman]
 submodule = "extensions/marksman"
@@ -1421,7 +1433,7 @@ version = "0.0.1"
 
 [modern-icons]
 submodule = "extensions/modern-icons"
-version = "0.3.0"
+version = "0.4.0"
 
 [modest-dark]
 submodule = "extensions/modest-dark"
@@ -1495,6 +1507,10 @@ version = "0.0.1"
 submodule = "extensions/msun-dark"
 version = "0.0.6"
 
+[mustache]
+submodule = "extensions/mustache"
+version = "0.0.1"
+
 [muted]
 submodule = "extensions/muted"
 version = "0.0.1"
@@ -1509,7 +1525,7 @@ version = "0.0.2"
 
 [navi]
 submodule = "extensions/navi"
-version = "0.4.0"
+version = "0.4.1"
 
 [nebula-pulse]
 submodule = "extensions/nebula-pulse"
@@ -1822,7 +1838,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.3.0"
+version = "0.4.0"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -2129,7 +2145,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "0.0.8"
+version = "0.1.0"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -2246,7 +2262,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "1.0.0"
+version = "1.0.1"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
@@ -2302,7 +2318,7 @@ version = "0.1.1"
 
 [t3-theme]
 submodule = "extensions/t3-theme"
-version = "0.0.2"
+version = "0.0.3"
 
 [tact]
 submodule = "extensions/tact"
@@ -2318,7 +2334,7 @@ version = "0.0.1"
 
 [tcl]
 submodule = "extensions/tcl"
-version = "0.0.1"
+version = "0.0.2"
 
 [templ]
 submodule = "extensions/templ"
@@ -2390,6 +2406,10 @@ version = "1.1.0"
 submodule = "extensions/tree-sitter-query"
 version = "0.0.2"
 
+[tron-legacy]
+submodule = "extensions/tron-legacy"
+version = "1.1.3"
+
 [tsar]
 submodule = "extensions/tsar"
 version = "0.0.2"
@@ -2412,6 +2432,10 @@ version = "0.2.0"
 
 [twilight]
 submodule = "extensions/twilight"
+version = "0.1.0"
+
+[txtar]
+submodule = "extensions/txtar"
 version = "0.1.0"
 
 [ty]
@@ -2508,7 +2532,7 @@ version = "0.0.8"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.8"
+version = "0.0.10"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -2588,6 +2612,10 @@ version = "0.2.8"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
+version = "0.0.1"
+
+[vue-theme]
+submodule = "extensions/vue-theme"
 version = "0.0.1"
 
 [wakatime]
