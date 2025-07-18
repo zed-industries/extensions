@@ -12,15 +12,16 @@ on:
 jobs:
   actionlint:
     runs-on: ubuntu-latest
+    env:
+      SHA: 03d0035246f3e81f36aed592ffb4bebf33a03106
+      VERSION: v1.7.7
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Run actionlint
-        uses: reviewdog/action-actionlint@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-review
-          filter_mode: nofilter
-          fail_on_error: true
-          level: error
+      - uses: actions/checkout@v4
+      - name: Download actionlint
+        id: get_actionlint
+        run: |
+          bash <(curl "https://raw.githubusercontent.com/rhysd/actionlint/${{ env.SHA }}/scripts/download-actionlint.bash")
+        shell: bash
+      - name: Check workflow files
+        run: ${{ steps.get_actionlint.outputs.executable }} "${{ env.VERSION }}" -color
+        shell: bash
