@@ -81,6 +81,7 @@ jobs:
 
       - name: Enforce no Git LFS
         run: |
+          # this line should fail
           git submodule foreach --quiet \
             '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
               echo "LFS detected in $path" >&2 && exit 1

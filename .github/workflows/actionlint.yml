@@ -1,0 +1,26 @@
+name: Lint GitHub Actions workflows
+
+on:
+  push:
+    paths:
+      - ".github/**"
+  pull_request:
+    paths:
+      - ".github/**"
+  workflow_dispatch:
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run actionlint
+        uses: reviewdog/action-actionlint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: nofilter
+          fail_on_error: true
+          level: error
