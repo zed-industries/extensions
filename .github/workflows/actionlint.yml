@@ -1,13 +1,10 @@
 name: Lint GitHub Actions workflows
 
 on:
-  push:
-    paths:
-      - ".github/**"
   pull_request:
-    paths:
-      - ".github/**"
-  workflow_dispatch:
+  push:
+    branches:
+      - "main"
 
 jobs:
   actionlint:
@@ -20,8 +17,8 @@ jobs:
       - name: Download actionlint
         id: get_actionlint
         run: |
-          bash <(curl "https://raw.githubusercontent.com/rhysd/actionlint/${{ env.SHA }}/scripts/download-actionlint.bash")
+          bash <(curl "https://raw.githubusercontent.com/rhysd/actionlint/${{ env.SHA }}/scripts/download-actionlint.bash") "${{ env.VERSION }}"
         shell: bash
       - name: Check workflow files
-        run: ${{ steps.get_actionlint.outputs.executable }} "${{ env.VERSION }}" -color
+        run: ${{ steps.get_actionlint.outputs.executable }} -color
         shell: bash
