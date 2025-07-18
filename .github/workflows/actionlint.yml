@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SHA: 03d0035246f3e81f36aed592ffb4bebf33a03106
-      VERSION: v1.7.7
+      VERSION: 1.7.7
     steps:
       - uses: actions/checkout@v4
       - name: Download actionlint
