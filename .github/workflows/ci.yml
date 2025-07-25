@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: 3e8a07f496de79a3ed53b6a221ede554762611bc
+  ZED_EXTENSION_CLI_SHA: f338c46bf79f773ec7a41729270227da8c2660b5
 
 jobs:
   package:
@@ -81,6 +81,7 @@ jobs:
 
       - name: Enforce no Git LFS
         run: |
+          # shellcheck disable=SC2016
           git submodule foreach --quiet \
             '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
               echo "LFS detected in $path" >&2 && exit 1
