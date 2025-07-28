@@ -310,7 +310,7 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.22"
+version = "0.2.23"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
@@ -390,7 +390,7 @@ version = "0.0.3"
 
 [code-stats]
 submodule = "extensions/code-stats"
-version = "0.2.6"
+version = "0.2.7"
 
 [codebook]
 submodule = "extensions/codebook"
@@ -443,7 +443,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.0"
+version = "1.0.1"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -762,7 +762,7 @@ version = "0.1.0"
 
 [fortran]
 submodule = "extensions/fortran"
-version = "0.0.2"
+version = "0.0.3"
 
 [fountain]
 submodule = "extensions/fountain"
@@ -774,7 +774,7 @@ version = "0.0.1"
 
 [fsharp]
 submodule = "extensions/fsharp"
-version = "0.0.6"
+version = "0.0.7"
 
 [fsm]
 submodule = "extensions/fsm"
@@ -807,7 +807,7 @@ version = "1.2.1"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.0.3"
+version = "0.1.1"
 
 [github-activity-summarizer]
 submodule = "extensions/github-activity-summarizer"
@@ -847,7 +847,7 @@ version = "0.0.2"
 
 [gleam]
 submodule = "extensions/gleam"
-version = "0.5.0"
+version = "0.5.1"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -964,7 +964,7 @@ version = "0.0.1"
 
 [harper]
 submodule = "extensions/harper"
-version = "0.0.6"
+version = "0.1.0"
 
 [haskell]
 submodule = "extensions/haskell"
@@ -997,6 +997,10 @@ version = "0.2.0"
 [horizon]
 submodule = "extensions/horizon"
 version = "0.0.1"
+
+[hot-dog-stand]
+submodule = "extensions/hot-dog-stand"
+version = "0.0.2"
 
 [html]
 submodule = "extensions/zed"
@@ -1037,7 +1041,7 @@ version = "0.3.14"
 
 [icons-modern-material]
 submodule = "extensions/icons-modern-material"
-version = "1.0.0"
+version = "1.0.1"
 
 [indigo]
 submodule = "extensions/indigo"
@@ -1053,6 +1057,10 @@ version = "0.0.5"
 
 [intellij-newui-theme]
 submodule = "extensions/intellij-newui-theme"
+version = "0.1.0"
+
+[ion]
+submodule = "extensions/ion"
 version = "0.1.0"
 
 [ir-black]
@@ -1107,6 +1115,10 @@ version = "0.0.1"
 submodule = "extensions/jira-slash-command"
 version = "0.0.1"
 
+[jj-lsp]
+submodule = "extensions/jj-lsp"
+version = "0.1.0"
+
 [json5]
 submodule = "extensions/json5"
 version = "0.0.1"
@@ -1137,7 +1149,7 @@ version = "0.1.2"
 
 [kanso]
 submodule = "extensions/kanso"
-version = "1.0.2"
+version = "1.0.3"
 
 [kcl]
 submodule = "extensions/kcl"
@@ -1177,7 +1189,7 @@ version = "0.2.2"
 
 [lean4]
 submodule = "extensions/lean4"
-version = "0.0.2"
+version = "0.0.3"
 
 [leblackque]
 submodule = "extensions/leblackque"
@@ -1461,11 +1473,15 @@ version = "1.0.0"
 
 [monokai-nebula]
 submodule = "extensions/monokai-nebula"
-version = "0.2.4"
+version = "0.2.5"
 
 [monokai-night]
 submodule = "extensions/monokai-night"
 version = "0.2.2"
+
+[monokai-og]
+submodule = "extensions/monokai-og"
+version = "0.1.0"
 
 [monokai-reversed]
 submodule = "extensions/monokai-reversed"
@@ -1628,6 +1644,10 @@ version = "1.0.0"
 submodule = "extensions/nobin-theme"
 version = "0.0.1"
 
+[noctis-port]
+submodule = "extensions/noctis-port"
+version = "0.1.0"
+
 [noir]
 submodule = "extensions/noir"
 version = "0.0.1"
@@ -1674,7 +1694,7 @@ version = "0.0.7"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.4.2"
+version = "0.5.2"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -1850,7 +1870,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.0"
+version = "0.4.1"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -1979,7 +1999,7 @@ version = "0.2.3"
 
 [racket]
 submodule = "extensions/racket"
-version = "0.0.3"
+version = "0.1.0"
 
 [railscast]
 submodule = "extensions/railscast"
@@ -2067,7 +2087,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.12.0"
+version = "0.13.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2234,7 +2254,7 @@ version = "1.1.4"
 
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
-version = "0.1.0"
+version = "0.2.0"
 
 [sqruff]
 submodule = "extensions/sqruff"
@@ -2262,7 +2282,7 @@ version = "0.1.0"
 
 [stimulus]
 submodule = "extensions/stimulus"
-version = "0.0.2"
+version = "0.0.3"
 
 [strace]
 submodule = "extensions/strace"
@@ -2306,7 +2326,7 @@ version = "0.2.8"
 
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
-version = "0.0.5"
+version = "0.0.6"
 
 [swift]
 submodule = "extensions/swift"
@@ -2370,7 +2390,7 @@ version = "0.0.3"
 
 [texpresso]
 submodule = "extensions/texpresso"
-version = "0.0.1"
+version = "0.0.2"
 
 [the-best-theme]
 submodule = "extensions/the-best-theme"
@@ -2420,7 +2440,7 @@ version = "0.0.2"
 
 [tron-legacy]
 submodule = "extensions/tron-legacy"
-version = "1.1.3"
+version = "1.1.4"
 
 [tsar]
 submodule = "extensions/tsar"
@@ -2576,7 +2596,7 @@ version = "0.0.2"
 
 [vitesse-theme-refined]
 submodule = "extensions/vitesse-theme-refined"
-version = "0.1.0"
+version = "0.2.0"
 
 [vrl]
 submodule = "extensions/vrl"
@@ -2688,7 +2708,7 @@ version = "0.1.1"
 
 [yaka]
 submodule = "extensions/yaka"
-version = "0.0.3"
+version = "0.0.4"
 
 [yara]
 submodule = "extensions/yara"
