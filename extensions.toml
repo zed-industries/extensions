@@ -439,7 +439,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.0"
+version = "1.0.1"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -668,7 +668,7 @@ version = "0.0.2"
 [emmet]
 submodule = "extensions/zed"
 path = "extensions/emmet"
-version = "0.0.3"
+version = "0.0.4"
 
 [env]
 submodule = "extensions/env"
@@ -1041,7 +1041,7 @@ version = "0.3.14"
 
 [icons-modern-material]
 submodule = "extensions/icons-modern-material"
-version = "1.0.0"
+version = "1.0.1"
 
 [indigo]
 submodule = "extensions/indigo"
@@ -1433,7 +1433,7 @@ version = "0.0.2"
 
 [melange]
 submodule = "extensions/melange"
-version = "0.0.8"
+version = "0.0.9"
 
 [mellow]
 submodule = "extensions/mellow"
@@ -1644,6 +1644,10 @@ version = "1.0.0"
 submodule = "extensions/nobin-theme"
 version = "0.0.1"
 
+[noctis-port]
+submodule = "extensions/noctis-port"
+version = "0.1.0"
+
 [noir]
 submodule = "extensions/noir"
 version = "0.0.1"
@@ -1694,7 +1698,7 @@ version = "0.5.2"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
-version = "0.0.1"
+version = "0.1.0"
 
 [oasis]
 submodule = "extensions/oasis"
@@ -2094,6 +2098,10 @@ version = "0.1.0"
 submodule = "extensions/rust-rover-dark-theme"
 version = "1.0.3"
 
+[rust-snippets]
+submodule = "extensions/rust-snippets"
+version = "0.0.1"
+
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
 version = "1.0.3"
@@ -2322,7 +2330,7 @@ version = "0.2.8"
 
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
-version = "0.0.6"
+version = "0.0.7"
 
 [swift]
 submodule = "extensions/swift"
@@ -2343,6 +2351,10 @@ version = "0.0.1"
 [synthwave-alpha-theme]
 submodule = "extensions/synthwave-alpha-theme"
 version = "0.1.1"
+
+[synthwave84]
+submodule = "extensions/synthwave84"
+version = "0.1.0"
 
 [t3-theme]
 submodule = "extensions/t3-theme"
@@ -2378,7 +2390,7 @@ version = "0.1.2"
 
 [terraform]
 submodule = "extensions/terraform"
-version = "0.1.3"
+version = "0.1.4"
 
 [terrible-theme]
 submodule = "extensions/terrible-theme"
@@ -2640,7 +2652,7 @@ version = "0.2.8"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
-version = "0.0.1"
+version = "0.0.2"
 
 [vue-theme]
 submodule = "extensions/vue-theme"
