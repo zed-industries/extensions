@@ -122,9 +122,17 @@
 	path = extensions/aura
 	url = https://github.com/daltonmenezes/aura-theme.git
 
+[submodule "extensions/authzed"]
+	path = extensions/authzed
+	url = https://github.com/mleonidas/authzed-zed.git
+
 [submodule "extensions/autocorrect"]
 	path = extensions/autocorrect
 	url = https://github.com/huacnlee/zed-autocorrect.git
+
+[submodule "extensions/autumnal-marscape-theme"]
+	path = extensions/autumnal-marscape
+	url = https://github.com/lilyyy411/autumnal-marscape-zed.git
 
 [submodule "extensions/awk"]
 	path = extensions/awk
@@ -1886,6 +1894,10 @@
 	path = extensions/polar-theme
 	url = https://github.com/biaqat/polar-theme-zed.git
 
+[submodule "extensions/pollinations-mcp"]
+	path = extensions/pollinations-mcp
+	url = https://github.com/FrancoStino/pollinations-mcp.git
+
 [submodule "extensions/postgres-context-server"]
 	path = extensions/postgres-context-server
 	url = https://github.com/zed-extensions/postgres-context-server.git
@@ -2109,6 +2121,10 @@
 [submodule "extensions/severance"]
 	path = extensions/severance
 	url = https://github.com/Zev18/severance-zed.git
+
+[submodule "extensions/shader-ls"]
+	path = extensions/shader-ls
+	url = https://github.com/cjhowe-us/zed-shader-ls
 
 [submodule "extensions/shades-of-purple-theme"]
 	path = extensions/shades-of-purple-theme
@@ -2402,6 +2418,10 @@
 	path = extensions/tomorrow-theme
 	url = https://github.com/biaqat/tomorrow-theme-zed.git
 
+[submodule "extensions/ton"]
+	path = extensions/ton
+	url = https://github.com/Bionic2113/ton-zed.git
+
 [submodule "extensions/tree-sitter-query"]
 	path = extensions/tree-sitter-query
 	url = https://github.com/vitallium/zed-tree-sitter-query.git
@@ -2678,6 +2698,10 @@
 	path = extensions/yaka
 	url = https://github.com/edgarkanyes/yaka.git
 
+[submodule "extensions/yang"]
+	path = extensions/yang
+	url = https://github.com/olitez/zed-yang
+
 [submodule "extensions/yara"]
 	path = extensions/yara
 	url = https://github.com/egibs/yara.zed
@@ -2733,6 +2757,10 @@
 [submodule "extensions/zen-abyssal"]
 	path = extensions/zen-abyssal
 	url = https://github.com/KevInCompile/ZenAbyssal.git
+
+[submodule "extensions/zero-trust-theme"]
+	path = extensions/zero-trust-theme
+	url = https://github.com/yannickboog/zero-trust-theme.git
 
 [submodule "extensions/zig"]
 	path = extensions/zig
