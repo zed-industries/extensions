@@ -2114,6 +2114,10 @@
 	path = extensions/severance
 	url = https://github.com/Zev18/severance-zed.git
 
+[submodule "extensions/shader-ls"]
+	path = extensions/shader-ls
+	url = https://github.com/cjhowe-us/zed-shader-ls
+
 [submodule "extensions/shades-of-purple-theme"]
 	path = extensions/shades-of-purple-theme
 	url = https://github.com/irmhonde/shades-of-purple-theme.git
@@ -2745,6 +2749,3 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
-[submodule "extensions/shader-ls"]
-	path = extensions/shader-ls
-	url = https://github.com/cjhowe-us/zed-shader-ls
