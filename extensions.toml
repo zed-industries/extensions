@@ -6,10 +6,6 @@ version = "1.3.5"
 submodule = "extensions/actionscript"
 version = "0.0.1"
 
-[nunjucks]
-submodule = "extensions/nunjucks"
-version = "0.0.1"
-
 [activitywatch]
 submodule = "extensions/activitywatch"
 version = "0.1.2"
@@ -1707,6 +1703,10 @@ version = "0.0.6"
 [nuisance]
 submodule = "extensions/nuisance"
 version = "0.0.7"
+
+[nunjucks]
+submodule = "extensions/nunjucks"
+version = "0.0.1"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
