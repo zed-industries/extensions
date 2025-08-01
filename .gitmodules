@@ -558,6 +558,10 @@
 	path = extensions/dart
 	url = https://github.com/zed-extensions/dart.git
 
+[submodule "extensions/datadog-mcp"]
+	path = extensions/datadog-mcp
+	url = https://github.com/robertohuertasm/zed-datadog-mcp.git
+
 [submodule "extensions/day-shift"]
 	path = extensions/day-shift
 	url = https://github.com/Jean-Tinland/zed-theme-day-shift.git
@@ -693,10 +697,6 @@
 [submodule "extensions/exquisite"]
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
-
-[submodule "extensions/extensions/datadog-mcp"]
-	path = extensions/extensions/datadog-mcp
-	url = https://github.com/robertohuertasm/zed-datadog-mcp.git
 
 [submodule "extensions/extensions/fiber-snippets"]
 	path = extensions/fiber-snippets
