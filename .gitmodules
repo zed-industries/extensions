@@ -806,6 +806,10 @@
 	path = extensions/git-firefly
 	url = https://github.com/d1y/git_firefly.git
 
+[submodule "extensions/github-actions"]
+	path = extensions/github-actions
+	url = https://github.com/neoncitylights/zed-github-actions
+
 [submodule "extensions/github-activity-summarizer"]
 	path = extensions/github-activity-summarizer
 	url = https://github.com/rubiojr/gas.git
