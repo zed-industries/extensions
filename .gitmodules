@@ -642,6 +642,10 @@
 	path = extensions/ejs
 	url = https://github.com/dangh/zed-ejs.git
 
+[submodule "extensions/elderberry"]
+	path = extensions/elderberry
+	url = https://github.com/IronGeek/zed-theme-elderberry.git
+
 [submodule "extensions/elisp"]
 	path = extensions/elisp
 	url = https://github.com/JosephTLyons/zed-elisp.git
@@ -806,6 +810,10 @@
 	path = extensions/git-firefly
 	url = https://github.com/d1y/git_firefly.git
 
+[submodule "extensions/github-actions"]
+	path = extensions/github-actions
+	url = https://github.com/neoncitylights/zed-github-actions
+
 [submodule "extensions/github-activity-summarizer"]
 	path = extensions/github-activity-summarizer
 	url = https://github.com/rubiojr/gas.git
@@ -932,7 +940,7 @@
 
 [submodule "extensions/hacker-theme"]
 	path = extensions/hacker-theme
-	url = https://github.com/N0TZ3R0/zedhacker.git
+	url = https://github.com/0xSandiem/zedhacker.git
 
 [submodule "extensions/haku-dark-theme"]
 	path = extensions/haku-dark-theme
@@ -1442,6 +1450,10 @@
 	path = extensions/min-theme
 	url = https://github.com/phibr0/zed-min-theme/
 
+[submodule "extensions/missing-theme"]
+	path = extensions/missing-theme
+	url = https://codeberg.org/dz4k/zed-missing.git
+
 [submodule "extensions/mnemonic"]
 	path = extensions/mnemonic
 	url = https://github.com/mnemonic-theme/zed
@@ -1825,6 +1837,10 @@
 [submodule "extensions/panda-theme"]
 	path = extensions/panda-theme
 	url = https://github.com/biaqat/panda-theme-zed.git
+
+[submodule "extensions/papercolor"]
+	path = extensions/papercolor
+	url = https://github.com/emirror-de/papercolor-zed.git
 
 [submodule "extensions/paraiso"]
 	path = extensions/paraiso
@@ -2449,6 +2465,10 @@
 [submodule "extensions/tron-legacy"]
 	path = extensions/tron-legacy
 	url = https://github.com/bcomnes/zed-theme-tron-legacy.git
+
+[submodule "extensions/ts-macro"]
+	path = extensions/ts-macro
+	url = https://github.com/XiNiHa/ts-macro-zed
 
 [submodule "extensions/tsar"]
 	path = extensions/tsar

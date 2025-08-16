@@ -226,7 +226,7 @@ version = "0.0.4"
 
 [blackfox]
 submodule = "extensions/blackfox"
-version = "0.3.0"
+version = "0.4.0"
 
 [blackrain-theme]
 submodule = "extensions/blackrain-theme"
@@ -238,7 +238,7 @@ version = "0.1.1"
 
 [blade]
 submodule = "extensions/blade"
-version = "0.2.0"
+version = "0.2.1"
 
 [blade-runner-2049]
 submodule = "extensions/blade-runner-2049"
@@ -402,7 +402,7 @@ version = "0.2.7"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.1.8"
+version = "0.1.9"
 
 [codely-theme]
 submodule = "extensions/codely-theme"
@@ -479,7 +479,7 @@ version = "0.0.3"
 
 [css-modules-kit]
 submodule = "extensions/css-modules-kit"
-version = "0.0.1"
+version = "0.1.0"
 path = "crates/zed"
 
 [csv]
@@ -652,6 +652,10 @@ version = "0.1.0"
 submodule = "extensions/ejs"
 version = "0.0.1"
 
+[elderberry]
+submodule = "extensions/elderberry"
+version = "0.1.0"
+
 [elisp]
 submodule = "extensions/elisp"
 version = "0.0.4"
@@ -684,7 +688,7 @@ version = "0.0.2"
 [emmet]
 submodule = "extensions/zed"
 path = "extensions/emmet"
-version = "0.0.4"
+version = "0.0.6"
 
 [env]
 submodule = "extensions/env"
@@ -825,6 +829,10 @@ version = "1.2.1"
 submodule = "extensions/git-firefly"
 version = "0.1.1"
 
+[github-actions]
+submodule = "extensions/github-actions"
+version = "0.0.1"
+
 [github-activity-summarizer]
 submodule = "extensions/github-activity-summarizer"
 version = "0.5.1"
@@ -956,7 +964,7 @@ version = "2.0.0"
 
 [hacker-theme]
 submodule = "extensions/hacker-theme"
-version = "1.0.0"
+version = "1.0.1"
 
 [haku-dark-theme]
 submodule = "extensions/haku-dark-theme"
@@ -1205,7 +1213,7 @@ version = "1.0.0"
 
 [latex]
 submodule = "extensions/latex"
-version = "0.2.2"
+version = "0.2.3"
 
 [lean4]
 submodule = "extensions/lean4"
@@ -1470,6 +1478,10 @@ version = "0.4.0"
 [min-theme]
 submodule = "extensions/min-theme"
 version = "0.2.1"
+
+[missing-theme]
+submodule = "extensions/missing-theme"
+version = "0.0.1"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -1754,7 +1766,7 @@ version = "0.0.1"
 
 [oldbook-theme]
 submodule = "extensions/oldbook-theme"
-version = "1.5.2"
+version = "1.5.4"
 
 [omnetpp]
 submodule = "extensions/omnetpp"
@@ -1855,6 +1867,10 @@ version = "0.0.1"
 [panda-theme]
 submodule = "extensions/panda-theme"
 version = "0.8.1"
+
+[papercolor]
+submodule = "extensions/papercolor"
+version = "0.1.0"
 
 [paraiso]
 submodule = "extensions/paraiso"
@@ -2502,6 +2518,10 @@ version = "0.0.2"
 submodule = "extensions/tron-legacy"
 version = "1.1.7"
 
+[ts-macro]
+submodule = "extensions/ts-macro"
+version = "0.1.0"
+
 [tsar]
 submodule = "extensions/tsar"
 version = "0.0.2"
@@ -2672,7 +2692,7 @@ version = "1.0.0"
 
 [vscode-dark-modern]
 submodule = "extensions/vscode-dark-modern"
-version = "0.0.5"
+version = "0.0.6"
 
 [vscode-dark-plus]
 submodule = "extensions/vscode-dark-plus"
