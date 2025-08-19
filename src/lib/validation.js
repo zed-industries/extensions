@@ -63,6 +63,15 @@ export function validateManifest(manifest) {
       `Extension names should not end with " Zed", as they are all Zed extensions: "${manifest["name"]}".`,
     );
   }
+
+  const schemaVersion = manifest["schema_version"];
+  if (typeof schemaVersion !== "undefined") {
+    if (schemaVersion !== 1) {
+      throw new Error(
+        `Invalid \`schema_version\`. Expected \`1\` but got \`${schemaVersion}\`.`,
+      );
+    }
+  }
 }
 
 /**
