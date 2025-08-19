@@ -496,7 +496,7 @@
 
 [submodule "extensions/cursor"]
 	path = extensions/cursor
-	url = https://github.com/Takk8IS/cursor-theme-for-zed.git
+	url = https://github.com/takk8is/cursor-theme-for-zed.git
 
 [submodule "extensions/cursor-dark-theme"]
 	path = extensions/cursor-dark-theme
@@ -1174,6 +1174,10 @@
 	path = extensions/kdl
 	url = https://github.com/elkowar/zed-kdl.git
 
+[submodule "extensions/kiro"]
+	path = extensions/kiro
+	url = https://github.com/Takk8IS/kiro-theme-for-zed.git
+
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
@@ -1360,7 +1364,7 @@
 
 [submodule "extensions/mcp-server-byterover"]
 	path = extensions/mcp-server-byterover
-	url = https://github.com/ngduyanhece/byterover-zed-extension.git
+	url = https://github.com/campfirein/byterover-zed-extension.git
 
 [submodule "extensions/mcp-server-container-use"]
 	path = extensions/mcp-server-container-use
@@ -2458,6 +2462,10 @@
 	path = extensions/tmux
 	url = https://github.com/dangh/zed-tmux.git
 
+[submodule "extensions/todotxt"]
+	path = extensions/todotxt
+	url = https://github.com/pursvir/zed-todotxt.git
+
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
@@ -2841,3 +2849,7 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
+
+[submodule "extensions/zwirn"]
+	path = extensions/zwirn
+	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
