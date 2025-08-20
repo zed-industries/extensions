@@ -1,0 +1,43 @@
+name: Language Request
+description: Request a language extensions
+title: "<name_of_language>"
+labels: ["language"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Check for existing issues
+      description: Check the backlog of issues to reduce the chances of creating duplicates; if an issue already exists, place a `+1` (👍) on it.
+      options:
+        - label: Completed
+          required: true
+  - type: input
+    attributes:
+      label: Language
+      description: What language do you want support for?
+      placeholder: HTML
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Tree Sitter parser link
+      description: |
+        If applicable, provide a link to the appropriate tree sitter parser.
+        Look here first: https://tree-sitter.github.io/tree-sitter/#available-parsers
+      placeholder: https://github.com/tree-sitter/tree-sitter-html
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Language server link
+      description: |
+        If applicable, provide a link to the appropriate language server.
+        Look here first: https://microsoft.github.io/language-server-protocol/implementors/servers/
+        Note: extensions don't yet support language servers, but include the link for future reference.
+      placeholder: https://github.com/Microsoft/vscode/tree/main/extensions/html-language-features/server
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Misc notes
+    validations:
+      required: false

@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "main"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+env:
+  ZED_EXTENSION_CLI_SHA: 332626e5825564e97afc969292c90d9b0fb40b6d
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'zed-industries'
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
+        with:
+          clean: false
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+
+      - name: Cache zed-extension CLI
+        id: cache-zed-extension
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
+        with:
+          path: |
+            zed-extension
+          key: zed-extension-${{ env.ZED_EXTENSION_CLI_SHA }}
+
+      - name: Download zed-extension CLI if not cached
+        if: steps.cache-zed-extension.outputs.cache-hit != 'true'
+        run: |
+          wget --quiet "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
+          chmod +x zed-extension
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build
+
+      - name: Run tests
+        run: pnpm test
+
+      - name: Cache extension build dependencies
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
+        with:
+          key: cache-build-dependencies
+          path: |
+            ./scratch
+
+      - name: Package extensions
+        run: pnpm package-extensions
+        env:
+          SHOULD_PUBLISH: ${{ github.ref_name == 'main' }}
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
+          S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+          S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
+
+      - name: Enforce sorted `extensions.toml` and `.gitmodules`
+        run: |
+          if ! git diff --exit-code -- extensions.toml .gitmodules; then
+            echo -e "\nERROR: extensions.toml and .gitmodules are not sorted."
+            echo -e "Fix by running:\n  pnpm sort-extensions\n"
+            exit 1
+          fi
+
+      - name: Enforce no Git LFS
+        run: |
+          # shellcheck disable=SC2016
+          git submodule foreach --quiet \
+            '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
+              echo "LFS detected in $path" >&2 && exit 1
+            }'
