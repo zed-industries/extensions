@@ -2430,6 +2430,10 @@
 	path = extensions/terraform
 	url = https://github.com/zed-extensions/terraform.git
 
+[submodule "extensions/terraform-context-server"]
+	path = extensions/terraform-context-server
+	url = https://github.com/oWretch/zed-extension-terraform-mcp.git
+
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
 	url = https://github.com/nooooaaaaah/terrible-zed.git
