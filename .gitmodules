@@ -1174,6 +1174,10 @@
 	path = extensions/kdl
 	url = https://github.com/elkowar/zed-kdl.git
 
+[submodule "extensions/kiro"]
+	path = extensions/kiro
+	url = https://github.com/Takk8IS/kiro-theme-for-zed.git
+
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
@@ -1425,6 +1429,10 @@
 [submodule "extensions/mcp-server-shopify-dev"]
 	path = extensions/mcp-server-shopify-dev
 	url = https://github.com/TheBeyondGroup/zed-mcp-server-shopify-dev.git
+
+[submodule "extensions/mcp-server-shortcut"]
+	path = extensions/mcp-server-shortcut
+	url = https://github.com/useshortcut/zed-extension-mcp-server-shortcut.git
 
 [submodule "extensions/mcp-server-slack"]
 	path = extensions/mcp-server-slack
@@ -2422,6 +2430,10 @@
 	path = extensions/terraform
 	url = https://github.com/zed-extensions/terraform.git
 
+[submodule "extensions/terraform-context-server"]
+	path = extensions/terraform-context-server
+	url = https://github.com/oWretch/zed-extension-terraform-mcp.git
+
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
 	url = https://github.com/nooooaaaaah/terrible-zed.git
@@ -2454,6 +2466,10 @@
 	path = extensions/tmux
 	url = https://github.com/dangh/zed-tmux.git
 
+[submodule "extensions/todotxt"]
+	path = extensions/todotxt
+	url = https://github.com/pursvir/zed-todotxt.git
+  
 [submodule "extensions/tokyo-maple-theme"]
 	path = extensions/tokyo-maple-theme
 	url = https://github.com/Cateds/Tokyo-Maple-Theme.git
@@ -2841,3 +2857,7 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
+
+[submodule "extensions/zwirn"]
+	path = extensions/zwirn
+	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
