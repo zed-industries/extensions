@@ -336,6 +336,11 @@ version = "1.21.0"
 submodule = "extensions/cedar"
 version = "0.0.1"
 
+[cem]
+submodule = "extensions/cem"
+path = "extensions/zed"
+version = "0.4.4"
+
 [cfengine]
 submodule = "extensions/cfengine"
 version = "1.0.1"
