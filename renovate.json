@@ -1,15 +1,59 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+ "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
     ":semanticCommitsDisabled",
     ":separateMultipleMajorReleases",
     "helpers:pinGitHubActionDigests"
   ],
-  "dependencyDashboard": true,
-  "timezone": "America/New_York",
-  "schedule": ["after 3pm on Wednesday"],
-  "major": {
-    "dependencyDashboardApproval": true
+    "git-submodules": {
+      "enabled": false
+    },
+    "customDatasources": {
+      "extension-toml": {
+        "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/{{{packageName}}}/main/extension.toml",
+        "format": "toml",
+        "transformTemplates": [
+          "{\"releases\":[{\"version\": version}]}"
+        ]
+      }
+    },
+    "customManagers": [
+      {
+        "customType": "regex",
+        "description": "Track extension versions from upstream extension.toml files",
+        "fileMatch": ["^extensions\\.toml$"],
+        "matchStrings": [
+          "submodule\\s*=\\s*\\\"extensions(?<repo>[^\\\"]+)\\\"\\n\\s*version\\s*=\\s*\\\"(?<currentValue>[^\\\"]+)\\\"\\n\\s*repository\\s*=\\s*\\\"(?<packageName>[^\\\"]+)\\\""
+
+             ],
+        "datasourceTemplate": "custom.extension-toml",
+        "packageNameTemplate": "{{{packageName}}}",
+        "depTypeTemplate": "extension"
+      }
+    ],
+    "packageRules": [
+      {
+        "description": "Extension version updates",
+        "matchManagers": ["custom.regex"],
+        "matchDepTypes": ["extension"],
+        "commitMessageTopic": "extension {{depName}}",
+        "semanticCommitType": "feat",
+        "semanticCommitScope": "extensions",
+        "prBodyTemplate": "This PR updates the {{depName}} extension from version {{currentVersion}} to {{newVersion}}.\n\n- Repository: {{packageName}}\n- Version change: {{currentVersion}} → {{newVersion}}\n- Submodule will be updated to match the new version"
+      }
+    ],
+    "allowedPostUpgradeCommands": [
+      "^scripts/sync-extension-submodule\\.sh .*$"
+    ],
+    "postUpgradeTasks": {
+      "commands": [
+        "scripts/sync-extension-submodule.sh {{{depName}}} extensions/{{{repo}}} {{{newVersion}}} {{{packageName}}}"
+      ],
+      "fileFilters": [
+        "extensions.toml",
+        ".gitmodules",
+        "extensions/**"
+      ]
+    }
   }
-}
