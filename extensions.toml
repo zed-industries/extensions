@@ -386,7 +386,7 @@ version = "0.0.1"
 
 [clojure]
 submodule = "extensions/clojure"
-version = "0.2.0"
+version = "0.2.1"
 
 [cobalt2]
 submodule = "extensions/cobalt2"
@@ -1454,6 +1454,10 @@ version = "0.0.2"
 submodule = "extensions/mcp-server-shopify-dev"
 version = "0.0.1"
 
+[mcp-server-shortcut]
+submodule = "extensions/mcp-server-shortcut"
+version = "0.0.1"
+
 [mcp-server-slack]
 submodule = "extensions/mcp-server-slack"
 version = "0.0.1"
@@ -2062,7 +2066,7 @@ version = "0.2.2"
 
 [r]
 submodule = "extensions/r"
-version = "0.2.3"
+version = "0.2.4"
 
 [racket]
 submodule = "extensions/racket"
@@ -2880,7 +2884,7 @@ version = "0.0.1"
 
 [zedwaita]
 submodule = "extensions/zedwaita"
-version = "0.0.6"
+version = "0.0.7"
 
 [zen-abyssal]
 submodule = "extensions/zen-abyssal"
