@@ -334,6 +334,10 @@
 	path = extensions/cedar
 	url = https://github.com/chrnorm/zed-cedar.git
 
+[submodule "extensions/cem"]
+	path = extensions/cem
+	url = https://github.com/bennypowers/cem.git
+
 [submodule "extensions/cfengine"]
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
@@ -2761,6 +2765,10 @@
 [submodule "extensions/wit"]
 	path = extensions/wit
 	url = https://github.com/valentinegb/zed-wit.git
+
+[submodule "extensions/wren"]
+	path = extensions/wren
+	url = https://github.com/hgmich/zed-wren.git
 
 [submodule "extensions/wxml"]
 	path = extensions/wxml
