@@ -1910,6 +1910,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/phpcs"]
+	path = extensions/phpcs
+	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
+
 [submodule "extensions/pica200"]
 	path = extensions/pica200
 	url = https://github.com/Squareheron942/zed-pica200.git
