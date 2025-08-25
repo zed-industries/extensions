@@ -2460,6 +2460,11 @@ version = "0.0.3"
 submodule = "extensions/tact"
 version = "0.0.1"
 
+[taiga-theme]
+submodule = "extensions/taiga-theme"
+version = "0.0.1"
+path = "packages/zed"
+
 [tailwind-theme]
 submodule = "extensions/tailwind-theme"
 version = "0.6.0"
