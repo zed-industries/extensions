@@ -334,6 +334,10 @@
 	path = extensions/cedar
 	url = https://github.com/chrnorm/zed-cedar.git
 
+[submodule "extensions/cem"]
+	path = extensions/cem
+	url = https://github.com/bennypowers/cem.git
+
 [submodule "extensions/cfengine"]
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
@@ -1126,6 +1130,10 @@
 	path = extensions/jj-lsp
 	url = https://github.com/nilskch/zed-jj-lsp.git
 
+[submodule "extensions/jq"]
+	path = extensions/jq
+	url = https://github.com/dangh/zed-jq.git
+
 [submodule "extensions/json5"]
 	path = extensions/json5
 	url = https://github.com/ChunzhengLab/json5-zed-extension.git
@@ -1910,6 +1918,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/phpcs"]
+	path = extensions/phpcs
+	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
+
 [submodule "extensions/pica200"]
 	path = extensions/pica200
 	url = https://github.com/Squareheron942/zed-pica200.git
@@ -2402,6 +2414,10 @@
 	path = extensions/tact
 	url = https://github.com/mikalsande/zed-tact
 
+[submodule "extensions/taiga-theme"]
+	path = extensions/taiga-theme
+	url = https://github.com/joshdales/taiga-theme
+
 [submodule "extensions/tailwind-theme"]
 	path = extensions/tailwind-theme
 	url = https://github.com/biaqat/tailwind-theme-zed.git
@@ -2758,6 +2774,10 @@
 	path = extensions/wit
 	url = https://github.com/valentinegb/zed-wit.git
 
+[submodule "extensions/wren"]
+	path = extensions/wren
+	url = https://github.com/hgmich/zed-wren.git
+
 [submodule "extensions/wxml"]
 	path = extensions/wxml
 	url = https://github.com/BlockLune/zed-wxml.git
@@ -2857,6 +2877,10 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
+
+[submodule "extensions/zoegi-theme"]
+	path = extensions/zoegi-theme
+	url = https://github.com/nikitapashinsky/zoegi-theme.git
 
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
