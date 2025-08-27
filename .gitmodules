@@ -334,6 +334,10 @@
 	path = extensions/cedar
 	url = https://github.com/chrnorm/zed-cedar.git
 
+[submodule "extensions/cem"]
+	path = extensions/cem
+	url = https://github.com/bennypowers/cem.git
+
 [submodule "extensions/cfengine"]
 	path = extensions/cfengine
 	url = https://github.com/olehermanse/zed-cfengine.git
@@ -496,7 +500,7 @@
 
 [submodule "extensions/cursor"]
 	path = extensions/cursor
-	url = https://github.com/Takk8IS/cursor-theme-for-zed.git
+	url = https://github.com/takk8is/cursor-theme-for-zed.git
 
 [submodule "extensions/cursor-dark-theme"]
 	path = extensions/cursor-dark-theme
@@ -1126,6 +1130,10 @@
 	path = extensions/jj-lsp
 	url = https://github.com/nilskch/zed-jj-lsp.git
 
+[submodule "extensions/jq"]
+	path = extensions/jq
+	url = https://github.com/dangh/zed-jq.git
+
 [submodule "extensions/json5"]
 	path = extensions/json5
 	url = https://github.com/ChunzhengLab/json5-zed-extension.git
@@ -1173,6 +1181,10 @@
 [submodule "extensions/kdl"]
 	path = extensions/kdl
 	url = https://github.com/elkowar/zed-kdl.git
+
+[submodule "extensions/kiro"]
+	path = extensions/kiro
+	url = https://github.com/Takk8IS/kiro-theme-for-zed.git
 
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
@@ -1360,7 +1372,7 @@
 
 [submodule "extensions/mcp-server-byterover"]
 	path = extensions/mcp-server-byterover
-	url = https://github.com/ngduyanhece/byterover-zed-extension.git
+	url = https://github.com/campfirein/byterover-zed-extension.git
 
 [submodule "extensions/mcp-server-container-use"]
 	path = extensions/mcp-server-container-use
@@ -1425,6 +1437,10 @@
 [submodule "extensions/mcp-server-shopify-dev"]
 	path = extensions/mcp-server-shopify-dev
 	url = https://github.com/TheBeyondGroup/zed-mcp-server-shopify-dev.git
+
+[submodule "extensions/mcp-server-shortcut"]
+	path = extensions/mcp-server-shortcut
+	url = https://github.com/useshortcut/zed-extension-mcp-server-shortcut.git
 
 [submodule "extensions/mcp-server-slack"]
 	path = extensions/mcp-server-slack
@@ -1905,6 +1921,10 @@
 [submodule "extensions/php"]
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
+
+[submodule "extensions/phpcs"]
+	path = extensions/phpcs
+	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
 
 [submodule "extensions/pica200"]
 	path = extensions/pica200
@@ -2398,6 +2418,10 @@
 	path = extensions/tact
 	url = https://github.com/mikalsande/zed-tact
 
+[submodule "extensions/taiga-theme"]
+	path = extensions/taiga-theme
+	url = https://github.com/joshdales/taiga-theme
+
 [submodule "extensions/tailwind-theme"]
 	path = extensions/tailwind-theme
 	url = https://github.com/biaqat/tailwind-theme-zed.git
@@ -2425,6 +2449,10 @@
 [submodule "extensions/terraform"]
 	path = extensions/terraform
 	url = https://github.com/zed-extensions/terraform.git
+
+[submodule "extensions/terraform-context-server"]
+	path = extensions/terraform-context-server
+	url = https://github.com/oWretch/zed-extension-terraform-mcp.git
 
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
@@ -2457,6 +2485,10 @@
 [submodule "extensions/tmux"]
 	path = extensions/tmux
 	url = https://github.com/dangh/zed-tmux.git
+
+[submodule "extensions/todotxt"]
+	path = extensions/todotxt
+	url = https://github.com/pursvir/zed-todotxt.git
 
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
@@ -2742,6 +2774,10 @@
 	path = extensions/wit
 	url = https://github.com/valentinegb/zed-wit.git
 
+[submodule "extensions/wren"]
+	path = extensions/wren
+	url = https://github.com/hgmich/zed-wren.git
+
 [submodule "extensions/wxml"]
 	path = extensions/wxml
 	url = https://github.com/BlockLune/zed-wxml.git
@@ -2841,3 +2877,11 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
+
+[submodule "extensions/zoegi-theme"]
+	path = extensions/zoegi-theme
+	url = https://github.com/nikitapashinsky/zoegi-theme.git
+
+[submodule "extensions/zwirn"]
+	path = extensions/zwirn
+	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
