@@ -2881,6 +2881,11 @@
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
+<<<<<<< HEAD
+[submodule "extensions/alloy-syntax"]
+	path = extensions/alloy-syntax
+	url = git@github.com:gsaudade99/zed-alloy-sintax-extension.git
+=======
 
 [submodule "extensions/zoegi-theme"]
 	path = extensions/zoegi-theme
@@ -2889,3 +2894,4 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
+>>>>>>> origin/main
