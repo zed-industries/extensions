@@ -843,7 +843,7 @@ version = "0.5.1"
 
 [github-classic]
 submodule = "extensions/github-classic"
-version = "0.0.2"
+version = "0.0.3"
 
 [github-copilot-theme]
 submodule = "extensions/github-copilot-theme"
@@ -1475,6 +1475,10 @@ version = "0.0.1"
 submodule = "extensions/mcp-server-supabase"
 version = "0.0.2"
 
+[mcp-server-tavily]
+submodule = "extensions/mcp-server-tavily"
+version = "0.0.1"
+
 [mcp-server-vercel]
 submodule = "extensions/mcp-server-vercel"
 version = "1.0.1"
@@ -1946,7 +1950,7 @@ version = "0.4.1"
 
 [phpcs]
 submodule = "extensions/phpcs"
-version = "0.1.6"
+version = "0.1.7"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -2099,7 +2103,7 @@ version = "1.0.1"
 
 [rcl]
 submodule = "extensions/rcl"
-version = "0.8.0"
+version = "0.10.0"
 
 [react-snippets]
 submodule = "extensions/react-snippets"
@@ -2224,7 +2228,7 @@ version = "1.31.0"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "0.0.8"
+version = "0.0.9"
 
 [seti-icons]
 submodule = "extensions/seti-icons"
@@ -2544,7 +2548,7 @@ version = "0.5.0"
 [tombi]
 submodule = "extensions/tombi"
 path = "editors/zed"
-version = "0.1.8"
+version = "0.1.9"
 
 [toml]
 submodule = "extensions/zed"
