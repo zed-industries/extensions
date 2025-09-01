@@ -1930,6 +1930,10 @@
 	path = extensions/phpcs
 	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
 
+[submodule "extensions/phpmd"]
+	path = extensions/phpmd
+	url = https://github.com/GeneaLabs/zed-phpmd-lsp.git
+
 [submodule "extensions/pica200"]
 	path = extensions/pica200
 	url = https://github.com/Squareheron942/zed-pica200.git
@@ -2897,6 +2901,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/phpmd"]
-	path = extensions/phpmd
-	url = https://github.com/GeneaLabs/zed-phpmd-lsp.git
