@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: d5bc7b9a7909269e649431e7380341b3f9c95138
+  ZED_EXTENSION_CLI_SHA: 332626e5825564e97afc969292c90d9b0fb40b6d
 
 jobs:
   package:
@@ -19,23 +19,23 @@ jobs:
     if: github.repository_owner == 'zed-industries'
     steps:
       - name: Checkout repo
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
         with:
           clean: false
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4
         with:
           version: 9
 
-      - uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: "20"
           cache: "pnpm"
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f # v4
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
         with:
           path: |
             zed-extension
@@ -57,7 +57,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f # v4
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
         with:
           key: cache-build-dependencies
           path: |
@@ -78,3 +78,11 @@ jobs:
             echo -e "Fix by running:\n  pnpm sort-extensions\n"
             exit 1
           fi
+
+      - name: Enforce no Git LFS
+        run: |
+          # shellcheck disable=SC2016
+          git submodule foreach --quiet \
+            '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
+              echo "LFS detected in $path" >&2 && exit 1
+            }'
