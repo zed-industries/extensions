@@ -2394,6 +2394,10 @@
 	path = extensions/svelte-snippets
 	url = https://github.com/bobbymannino/svelte-snippets-for-zed.git
 
+[submodule "extensions/sway"]
+	path = extensions/sway
+	url = https://github.com/FuelLabs/sway-zed-extension.git
+
 [submodule "extensions/swift"]
 	path = extensions/swift
 	url = https://github.com/samuser107/zed-swift-extension.git
@@ -2897,6 +2901,4 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/sway"]
-	path = extensions/sway
-	url = https://github.com/FuelLabs/sway-zed-extension.git
+
