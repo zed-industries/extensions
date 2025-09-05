@@ -134,7 +134,7 @@ version = "0.0.2"
 
 [autocorrect]
 submodule = "extensions/autocorrect"
-version = "0.1.0"
+version = "0.1.2"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -393,6 +393,10 @@ version = "0.0.2"
 submodule = "extensions/clarity"
 version = "0.0.1"
 
+[clice]
+submodule = "extensions/clice"
+version = "0.1.0"
+
 [clojure]
 submodule = "extensions/clojure"
 version = "0.2.1"
@@ -460,7 +464,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.1"
+version = "1.0.2"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -635,7 +639,7 @@ version = "0.0.1"
 
 [dune-theme]
 submodule = "extensions/dune-theme"
-version = "1.2.0"
+version = "1.3.0"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -667,7 +671,7 @@ version = "0.0.4"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.2.1"
+version = "0.2.2"
 
 [elle]
 submodule = "extensions/elle"
@@ -1325,7 +1329,7 @@ version = "0.0.1"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
-version = "0.0.1"
+version = "0.1.6"
 
 [marble]
 submodule = "extensions/marble"
@@ -1934,7 +1938,7 @@ version = "0.2.0"
 
 [pest]
 submodule = "extensions/pest"
-version = "0.1.0"
+version = "0.1.1"
 
 [phine-theme]
 submodule = "extensions/phine-theme"
@@ -2285,7 +2289,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "0.1.0"
+version = "1.13.0"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -2310,7 +2314,7 @@ version = "0.1.0"
 [snippets]
 submodule = "extensions/zed"
 path = "extensions/snippets"
-version = "0.0.5"
+version = "0.0.6"
 
 [snow-fox-theme]
 submodule = "extensions/snow-fox-theme"
@@ -2555,9 +2559,8 @@ path = "editors/zed"
 version = "0.1.9"
 
 [toml]
-submodule = "extensions/zed"
-path = "extensions/toml"
-version = "0.1.4"
+submodule = "extensions/toml"
+version = "1.0.0"
 
 [tomorrow-min-theme]
 submodule = "extensions/tomorrow-min-theme"
