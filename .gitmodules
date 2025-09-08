@@ -390,6 +390,10 @@
 	path = extensions/clarity
 	url = https://github.com/hirosystems/clarity-zed.git
 
+[submodule "extensions/clice"]
+	path = extensions/clice
+	url = https://github.com/clice-project/clice-zed.git
+
 [submodule "extensions/clojure"]
 	path = extensions/clojure
 	url = https://github.com/zed-extensions/clojure.git
@@ -1304,7 +1308,7 @@
 
 [submodule "extensions/maple-theme"]
 	path = extensions/maple-theme
-	url = https://github.com/bushuai/zed-maple
+	url = https://github.com/subframe7536/zed-theme-maple.git
 
 [submodule "extensions/marble"]
 	path = extensions/marble
@@ -2513,6 +2517,10 @@
 [submodule "extensions/tombi"]
 	path = extensions/tombi
 	url = https://github.com/tombi-toml/tombi.git
+
+[submodule "extensions/toml"]
+	path = extensions/toml
+	url = https://github.com/zed-extensions/toml.git
 
 [submodule "extensions/tomorrow-min-theme"]
 	path = extensions/tomorrow-min-theme
