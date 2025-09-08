@@ -24,7 +24,7 @@ version = "2.0.1"
 
 [adwaita]
 submodule = "extensions/adwaita"
-version = "1.0.0"
+version = "1.1.1"
 
 [adwaita-pastel]
 submodule = "extensions/adwaita-pastel"
@@ -50,6 +50,10 @@ version = "0.0.3"
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
 version = "0.0.4"
+
+[alpinejs-snippets]
+submodule = "extensions/alpinejs-snippets"
+version = "0.0.1"
 
 [amber]
 submodule = "extensions/amber"
@@ -130,7 +134,7 @@ version = "0.0.2"
 
 [autocorrect]
 submodule = "extensions/autocorrect"
-version = "0.1.0"
+version = "0.1.2"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -182,7 +186,7 @@ version = "0.1.2"
 
 [basedpyright]
 submodule = "extensions/basedpyright"
-version = "0.1.2"
+version = "0.1.3"
 
 [basher]
 submodule = "extensions/basher"
@@ -389,6 +393,10 @@ version = "0.0.2"
 submodule = "extensions/clarity"
 version = "0.0.1"
 
+[clice]
+submodule = "extensions/clice"
+version = "0.1.0"
+
 [clojure]
 submodule = "extensions/clojure"
 version = "0.2.1"
@@ -399,7 +407,7 @@ version = "0.1.0"
 
 [cobol]
 submodule = "extensions/cobol"
-version = "0.0.3"
+version = "0.0.5"
 
 [code-stats]
 submodule = "extensions/code-stats"
@@ -456,7 +464,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.1"
+version = "1.0.2"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -631,7 +639,7 @@ version = "0.0.1"
 
 [dune-theme]
 submodule = "extensions/dune-theme"
-version = "1.2.0"
+version = "1.3.0"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -663,7 +671,7 @@ version = "0.0.4"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.2.0"
+version = "0.2.2"
 
 [elle]
 submodule = "extensions/elle"
@@ -839,7 +847,7 @@ version = "0.5.1"
 
 [github-classic]
 submodule = "extensions/github-classic"
-version = "0.0.2"
+version = "0.0.3"
 
 [github-copilot-theme]
 submodule = "extensions/github-copilot-theme"
@@ -1321,7 +1329,7 @@ version = "0.0.1"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
-version = "0.0.1"
+version = "0.1.6"
 
 [marble]
 submodule = "extensions/marble"
@@ -1385,7 +1393,7 @@ version = "0.2.0"
 
 [mcp-server-brave-search]
 submodule = "extensions/mcp-server-brave-search"
-version = "0.0.2"
+version = "0.1.0"
 
 [mcp-server-buildkite]
 submodule = "extensions/mcp-server-buildkite"
@@ -1470,6 +1478,10 @@ version = "0.0.1"
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
 version = "0.0.2"
+
+[mcp-server-tavily]
+submodule = "extensions/mcp-server-tavily"
+version = "0.0.1"
 
 [mcp-server-vercel]
 submodule = "extensions/mcp-server-vercel"
@@ -1686,7 +1698,7 @@ version = "1.0.0"
 
 [nix]
 submodule = "extensions/nix"
-version = "0.1.1"
+version = "0.1.2"
 
 [nixdorf-8870]
 submodule = "extensions/nixdorf-8870"
@@ -1738,7 +1750,7 @@ version = "0.0.2"
 
 [nu]
 submodule = "extensions/nu"
-version = "0.0.6"
+version = "0.0.7"
 
 [nuisance]
 submodule = "extensions/nuisance"
@@ -1926,7 +1938,7 @@ version = "0.2.0"
 
 [pest]
 submodule = "extensions/pest"
-version = "0.1.0"
+version = "0.1.1"
 
 [phine-theme]
 submodule = "extensions/phine-theme"
@@ -1938,11 +1950,11 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.1"
+version = "0.4.2"
 
 [phpcs]
 submodule = "extensions/phpcs"
-version = "0.1.5"
+version = "0.1.7"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -2057,6 +2069,10 @@ version = "0.1.1"
 submodule = "extensions/qml"
 version = "0.0.4"
 
+[quadlet]
+submodule = "extensions/quadlet"
+version = "0.1.0"
+
 [quakec]
 submodule = "extensions/quakec"
 version = "0.0.2"
@@ -2091,7 +2107,7 @@ version = "1.0.1"
 
 [rcl]
 submodule = "extensions/rcl"
-version = "0.8.0"
+version = "0.10.0"
 
 [react-snippets]
 submodule = "extensions/react-snippets"
@@ -2216,7 +2232,7 @@ version = "1.31.0"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "0.0.8"
+version = "0.0.9"
 
 [seti-icons]
 submodule = "extensions/seti-icons"
@@ -2254,6 +2270,10 @@ version = "0.0.1"
 submodule = "extensions/siri"
 version = "0.0.11"
 
+[slang]
+submodule = "extensions/slang"
+version = "0.0.1"
+
 [slate]
 submodule = "extensions/slate"
 version = "0.0.3"
@@ -2265,7 +2285,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "0.1.0"
+version = "1.13.0"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -2290,7 +2310,7 @@ version = "0.1.0"
 [snippets]
 submodule = "extensions/zed"
 path = "extensions/snippets"
-version = "0.0.5"
+version = "0.0.6"
 
 [snow-fox-theme]
 submodule = "extensions/snow-fox-theme"
@@ -2532,12 +2552,11 @@ version = "0.5.0"
 [tombi]
 submodule = "extensions/tombi"
 path = "editors/zed"
-version = "0.1.8"
+version = "0.1.9"
 
 [toml]
-submodule = "extensions/zed"
-path = "extensions/toml"
-version = "0.1.4"
+submodule = "extensions/toml"
+version = "1.0.0"
 
 [tomorrow-min-theme]
 submodule = "extensions/tomorrow-min-theme"
@@ -2918,7 +2937,7 @@ version = "0.0.1"
 
 [zoegi-theme]
 submodule = "extensions/zoegi-theme"
-version = "0.4.0"
+version = "0.4.2"
 
 [zwirn]
 submodule = "extensions/zwirn"
