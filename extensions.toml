@@ -134,7 +134,7 @@ version = "0.0.2"
 
 [autocorrect]
 submodule = "extensions/autocorrect"
-version = "0.1.0"
+version = "0.1.2"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -326,7 +326,7 @@ version = "0.2.23"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
-version = "0.3.0"
+version = "0.3.1"
 
 [catppuccin-blur-plus]
 submodule = "extensions/catppuccin-blur-plus"
@@ -392,6 +392,14 @@ version = "0.0.2"
 [clarity]
 submodule = "extensions/clarity"
 version = "0.0.1"
+
+[clean-vscode-icons]
+submodule = "extensions/clean-vscode-icons"
+version = "0.1.0"
+
+[clice]
+submodule = "extensions/clice"
+version = "0.1.0"
 
 [clojure]
 submodule = "extensions/clojure"
@@ -460,7 +468,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.1"
+version = "1.0.2"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -493,7 +501,7 @@ path = "crates/zed"
 
 [csv]
 submodule = "extensions/csv"
-version = "0.0.2"
+version = "0.0.3"
 
 [cucumber]
 submodule = "extensions/cucumber"
@@ -635,7 +643,7 @@ version = "0.0.1"
 
 [dune-theme]
 submodule = "extensions/dune-theme"
-version = "1.2.0"
+version = "1.3.0"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -667,7 +675,7 @@ version = "0.0.4"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.2.1"
+version = "0.2.2"
 
 [elle]
 submodule = "extensions/elle"
@@ -956,7 +964,7 @@ version = "0.0.1"
 
 [gruvbox-crisp-themes]
 submodule = "extensions/gruvbox-crisp-themes"
-version = "0.1.2"
+version = "0.2.0"
 
 [gruvbox-ish]
 submodule = "extensions/gruvbox-ish"
@@ -1325,7 +1333,7 @@ version = "0.0.1"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
-version = "0.0.1"
+version = "0.1.6"
 
 [marble]
 submodule = "extensions/marble"
@@ -1798,7 +1806,7 @@ version = "0.0.1"
 
 [oldbook-theme]
 submodule = "extensions/oldbook-theme"
-version = "1.5.4"
+version = "1.5.5"
 
 [omnetpp]
 submodule = "extensions/omnetpp"
@@ -1934,7 +1942,7 @@ version = "0.2.0"
 
 [pest]
 submodule = "extensions/pest"
-version = "0.1.0"
+version = "0.1.1"
 
 [phine-theme]
 submodule = "extensions/phine-theme"
@@ -1946,7 +1954,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.1"
+version = "0.4.2"
 
 [phpcs]
 submodule = "extensions/phpcs"
@@ -2099,7 +2107,7 @@ version = "1.0.0"
 
 [rainbow-csv]
 submodule = "extensions/rainbow-csv"
-version = "1.0.1"
+version = "1.1.0"
 
 [rcl]
 submodule = "extensions/rcl"
@@ -2131,7 +2139,7 @@ version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.2.0"
+version = "0.3.0"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -2306,7 +2314,7 @@ version = "0.1.0"
 [snippets]
 submodule = "extensions/zed"
 path = "extensions/snippets"
-version = "0.0.5"
+version = "0.0.6"
 
 [snow-fox-theme]
 submodule = "extensions/snow-fox-theme"
@@ -2555,9 +2563,8 @@ path = "editors/zed"
 version = "0.1.9"
 
 [toml]
-submodule = "extensions/zed"
-path = "extensions/toml"
-version = "0.1.4"
+submodule = "extensions/toml"
+version = "1.0.0"
 
 [tomorrow-min-theme]
 submodule = "extensions/tomorrow-min-theme"
@@ -2938,7 +2945,11 @@ version = "0.0.1"
 
 [zoegi-theme]
 submodule = "extensions/zoegi-theme"
-version = "0.4.2"
+version = "0.4.3"
+
+[zuban]
+submodule = "extensions/zuban"
+version = "0.0.1"
 
 [zwirn]
 submodule = "extensions/zwirn"
