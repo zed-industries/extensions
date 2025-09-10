@@ -2862,6 +2862,10 @@
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
 
+[submodule "extensions/zed-grammar-jdl"]
+	path = extensions/jdl
+	url = https://github.com/alessandrobrunoh/zed-grammar-jdl
+
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
@@ -2917,6 +2921,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/zed-grammar-jdl"]
-	path = extensions/zed-grammar-jdl
-	url = https://github.com/alessandrobrunoh/zed-grammar-jdl
