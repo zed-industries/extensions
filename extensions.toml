@@ -49,7 +49,7 @@ version = "0.0.3"
 
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
-version = "0.0.4"
+version = "0.0.5"
 
 [alpinejs-snippets]
 submodule = "extensions/alpinejs-snippets"
@@ -326,7 +326,7 @@ version = "0.2.23"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
-version = "0.3.0"
+version = "0.3.1"
 
 [catppuccin-blur-plus]
 submodule = "extensions/catppuccin-blur-plus"
@@ -393,6 +393,10 @@ version = "0.0.2"
 submodule = "extensions/clarity"
 version = "0.0.1"
 
+[clean-vscode-icons]
+submodule = "extensions/clean-vscode-icons"
+version = "0.1.0"
+
 [clice]
 submodule = "extensions/clice"
 version = "0.1.0"
@@ -431,7 +435,7 @@ version = "0.0.1"
 
 [color-highlight]
 submodule = "extensions/color-highlight"
-version = "0.1.1"
+version = "0.1.2"
 path = "zed-color-highlight"
 
 [colored-zed-icons-theme]
@@ -497,7 +501,7 @@ path = "crates/zed"
 
 [csv]
 submodule = "extensions/csv"
-version = "0.0.2"
+version = "0.0.3"
 
 [cucumber]
 submodule = "extensions/cucumber"
@@ -671,7 +675,7 @@ version = "0.0.4"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.2.2"
+version = "0.2.3"
 
 [elle]
 submodule = "extensions/elle"
@@ -883,7 +887,7 @@ version = "0.0.2"
 
 [gleam]
 submodule = "extensions/gleam"
-version = "0.5.1"
+version = "0.5.2"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -960,7 +964,7 @@ version = "0.0.1"
 
 [gruvbox-crisp-themes]
 submodule = "extensions/gruvbox-crisp-themes"
-version = "0.1.2"
+version = "0.2.0"
 
 [gruvbox-ish]
 submodule = "extensions/gruvbox-ish"
@@ -1177,7 +1181,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.7"
+version = "0.1.8"
 
 [just]
 submodule = "extensions/just"
@@ -1333,7 +1337,7 @@ version = "0.1.6"
 
 [marble]
 submodule = "extensions/marble"
-version = "0.2.0"
+version = "0.3.0"
 
 [mariana-theme]
 submodule = "extensions/mariana-theme"
@@ -1796,13 +1800,17 @@ version = "0.3.0"
 submodule = "extensions/odin"
 version = "0.2.3"
 
+[odoo]
+submodule = "extensions/odoo"
+version = "0.12.1"
+
 [oh-lucy]
 submodule = "extensions/oh-lucy"
 version = "0.0.1"
 
 [oldbook-theme]
 submodule = "extensions/oldbook-theme"
-version = "1.5.4"
+version = "1.5.5"
 
 [omnetpp]
 submodule = "extensions/omnetpp"
@@ -1878,7 +1886,7 @@ version = "0.0.3"
 
 [oxc]
 submodule = "extensions/oxc"
-version = "0.2.0"
+version = "0.3.0"
 
 [oxlint]
 submodule = "extensions/oxlint"
@@ -1950,7 +1958,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.1"
+version = "0.4.2"
 
 [phpcs]
 submodule = "extensions/phpcs"
@@ -2099,11 +2107,11 @@ version = "0.1.0"
 
 [rainbow]
 submodule = "extensions/theme-rainbow"
-version = "1.0.0"
+version = "1.1.0"
 
 [rainbow-csv]
 submodule = "extensions/rainbow-csv"
-version = "1.0.1"
+version = "1.1.0"
 
 [rcl]
 submodule = "extensions/rcl"
@@ -2135,7 +2143,7 @@ version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.2.0"
+version = "0.3.0"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -2937,7 +2945,11 @@ version = "0.0.1"
 
 [zoegi-theme]
 submodule = "extensions/zoegi-theme"
-version = "0.4.2"
+version = "0.4.3"
+
+[zuban]
+submodule = "extensions/zuban"
+version = "0.0.1"
 
 [zwirn]
 submodule = "extensions/zwirn"
