@@ -1358,6 +1358,10 @@
 	path = extensions/matlab
 	url = https://github.com/rzukic/zed-matlab.git
 
+[submodule "extensions/matlab-lsp"]
+	path = extensions/matlab-lsp
+	url = https://github.com/sk-226/zed-matlab-lsp
+
 [submodule "extensions/mau"]
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes.git
