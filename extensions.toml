@@ -242,7 +242,7 @@ version = "0.1.1"
 
 [blade]
 submodule = "extensions/blade"
-version = "0.2.1"
+version = "0.2.2"
 
 [blade-runner-2049]
 submodule = "extensions/blade-runner-2049"
@@ -920,7 +920,7 @@ version = "1.0.2"
 
 [graphviz]
 submodule = "extensions/graphviz"
-version = "0.1.0"
+version = "0.2.1"
 
 [green-monochrome-monitor-crt-phosphor]
 submodule = "extensions/green-monochrome-monitor-crt-phosphor"
@@ -1494,6 +1494,10 @@ version = "1.0.1"
 [mcp-server-webflow]
 submodule = "extensions/mcp-server-webflow"
 version = "0.0.2"
+
+[mdx]
+submodule = "extensions/mdx"
+version = "0.2.0"
 
 [melange]
 submodule = "extensions/melange"
@@ -2293,7 +2297,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.13.0"
+version = "1.13.1"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -2560,7 +2564,7 @@ version = "0.5.0"
 [tombi]
 submodule = "extensions/tombi"
 path = "editors/zed"
-version = "0.1.9"
+version = "0.1.10"
 
 [toml]
 submodule = "extensions/toml"
