@@ -390,6 +390,14 @@
 	path = extensions/clarity
 	url = https://github.com/hirosystems/clarity-zed.git
 
+[submodule "extensions/clean-vscode-icons"]
+	path = extensions/clean-vscode-icons
+	url = https://github.com/jacobtread/clean-vscode-icons.git
+
+[submodule "extensions/clice"]
+	path = extensions/clice
+	url = https://github.com/clice-project/clice-zed.git
+
 [submodule "extensions/clojure"]
 	path = extensions/clojure
 	url = https://github.com/zed-extensions/clojure.git
@@ -1304,7 +1312,7 @@
 
 [submodule "extensions/maple-theme"]
 	path = extensions/maple-theme
-	url = https://github.com/bushuai/zed-maple
+	url = https://github.com/subframe7536/zed-theme-maple.git
 
 [submodule "extensions/marble"]
 	path = extensions/marble
@@ -1465,6 +1473,10 @@
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
+
+[submodule "extensions/mdx"]
+	path = extensions/mdx
+	url = https://github.com/srazzak/zed-mdx.git
 
 [submodule "extensions/melange"]
 	path = extensions/melange
@@ -1769,6 +1781,10 @@
 [submodule "extensions/odin"]
 	path = extensions/odin
 	url = https://github.com/zed-extensions/odin
+
+[submodule "extensions/odoo"]
+	path = extensions/odoo
+	url = https://github.com/odoo/odoo-zed.git
 
 [submodule "extensions/oh-lucy"]
 	path = extensions/oh-lucy
@@ -2510,6 +2526,10 @@
 	path = extensions/tombi
 	url = https://github.com/tombi-toml/tombi.git
 
+[submodule "extensions/toml"]
+	path = extensions/toml
+	url = https://github.com/zed-extensions/toml.git
+
 [submodule "extensions/tomorrow-min-theme"]
 	path = extensions/tomorrow-min-theme
 	url = https://github.com/biaqat/tomorrow-min-theme-zed.git
@@ -2893,6 +2913,10 @@
 [submodule "extensions/zoegi-theme"]
 	path = extensions/zoegi-theme
 	url = https://github.com/nikitapashinsky/zoegi-theme.git
+
+[submodule "extensions/zuban"]
+	path = extensions/zuban
+	url = https://github.com/CMLL/zed_zuban.git
 
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
