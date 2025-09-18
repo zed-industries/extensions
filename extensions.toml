@@ -698,6 +698,10 @@ version = "0.0.2"
 submodule = "extensions/emmet"
 version = "0.0.7"
 
+[emmylua-ls]
+submodule = "extensions/zed-emmylua-ls"
+version = "0.1.0"
+
 [env]
 submodule = "extensions/env"
 version = "0.0.1"
@@ -2902,10 +2906,6 @@ version = "1.2.1"
 [yugen]
 submodule = "extensions/yugen"
 version = "0.0.1"
-
-[zed-emmylua-ls]
-submodule = "extensions/zed-emmylua-ls"
-version = "0.1.0"
 
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
