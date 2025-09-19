@@ -718,14 +718,6 @@
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
 
-[submodule "extensions/extensions/fiber-snippets"]
-	path = extensions/fiber-snippets
-	url = https://github.com/ayberkgezer/fiber-zed-snippets
-
-[submodule "extensions/extensions/textproto"]
-	path = extensions/extensions/textproto
-	url = https://github.com/mikn/zed-textproto.git
-
 [submodule "extensions/ezio-theme"]
 	path = extensions/ezio-theme
 	url = https://github.com/dsantolo/ezio-zed.git
@@ -733,6 +725,10 @@
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
+
+[submodule "extensions/fiber-snippets"]
+	path = extensions/fiber-snippets
+	url = https://github.com/ayberkgezer/fiber-zed-snippets
 
 [submodule "extensions/fiberplane-studio"]
 	path = extensions/fiberplane-studio
@@ -2493,6 +2489,10 @@
 [submodule "extensions/texpresso"]
 	path = extensions/texpresso
 	url = https://github.com/lnay/zed-texpresso.git
+
+[submodule "extensions/textproto"]
+	path = extensions/textproto
+	url = https://github.com/mikn/zed-textproto.git
 
 [submodule "extensions/the-best-theme"]
 	path = extensions/the-best-theme
