@@ -182,10 +182,6 @@
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
 
-[submodule "extensions/basedpyright"]
-	path = extensions/basedpyright
-	url = https://github.com/m1guer/basedpyright-zed.git
-
 [submodule "extensions/basher"]
 	path = extensions/basher
 	url = https://github.com/zed-extensions/bash.git
@@ -1362,6 +1358,10 @@
 	path = extensions/matlab
 	url = https://github.com/rzukic/zed-matlab.git
 
+[submodule "extensions/matte-black"]
+	path = extensions/matte-black
+	url = https://github.com/tahayvr/matte-black-zed
+
 [submodule "extensions/mau"]
 	path = extensions/mau
 	url = https://github.com/mauscoelho/zed-mau-themes.git
@@ -1477,6 +1477,10 @@
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
+
+[submodule "extensions/mdx"]
+	path = extensions/mdx
+	url = https://github.com/srazzak/zed-mdx.git
 
 [submodule "extensions/melange"]
 	path = extensions/melange
@@ -1781,6 +1785,10 @@
 [submodule "extensions/odin"]
 	path = extensions/odin
 	url = https://github.com/zed-extensions/odin
+
+[submodule "extensions/odoo"]
+	path = extensions/odoo
+	url = https://github.com/odoo/odoo-zed.git
 
 [submodule "extensions/oh-lucy"]
 	path = extensions/oh-lucy
