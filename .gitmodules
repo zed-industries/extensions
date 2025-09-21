@@ -182,10 +182,6 @@
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
 
-[submodule "extensions/basedpyright"]
-	path = extensions/basedpyright
-	url = https://github.com/m1guer/basedpyright-zed.git
-
 [submodule "extensions/basher"]
 	path = extensions/basher
 	url = https://github.com/zed-extensions/bash.git
@@ -441,6 +437,10 @@
 [submodule "extensions/colorizer"]
 	path = extensions/colorizer
 	url = https://github.com/tamimhasandev/colorizer.git
+
+[submodule "extensions/comment"]
+	path = extensions/comment
+	url = https://github.com/thedadams/zed-comment.git
 
 [submodule "extensions/confluence-context-server"]
 	path = extensions/confluence-context-server
@@ -1170,6 +1170,10 @@
 	path = extensions/just-ls
 	url = https://github.com/sectore/zed-just-ls.git
 
+[submodule "extensions/kagimcp"]
+	path = extensions/kagimcp
+	url = https://github.com/jmylchreest/kagimcp-zed.git
+
 [submodule "extensions/kamui-dark-theme"]
 	path = extensions/kamui-dark-theme
 	url = https://gitlab.com/kamuiqf/zed-kamui-theme.git
@@ -1274,6 +1278,10 @@
 	path = extensions/logstash
 	url = https://github.com/StrongTheDev/logstash-for-zed
 
+[submodule "extensions/lonely-planet-theme"]
+	path = extensions/lonely-planet-theme
+	url = https://github.com/Jbonez87/lonely-planet-theme.git
+
 [submodule "extensions/lox"]
 	path = extensions/lox
 	url = https://github.com/arian81/zed-lox.git
@@ -1357,6 +1365,10 @@
 [submodule "extensions/matlab"]
 	path = extensions/matlab
 	url = https://github.com/rzukic/zed-matlab.git
+
+[submodule "extensions/matte-black"]
+	path = extensions/matte-black
+	url = https://github.com/tahayvr/matte-black-zed
 
 [submodule "extensions/mau"]
 	path = extensions/mau
@@ -1949,6 +1961,10 @@
 [submodule "extensions/phpcs"]
 	path = extensions/phpcs
 	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
+
+[submodule "extensions/phpmd"]
+	path = extensions/phpmd
+	url = https://github.com/GeneaLabs/zed-phpmd-lsp.git
 
 [submodule "extensions/pica200"]
 	path = extensions/pica200
@@ -2605,6 +2621,10 @@
 [submodule "extensions/typst"]
 	path = extensions/typst
 	url = https://github.com/WeetHet/typst.zed.git
+
+[submodule "extensions/ucode"]
+	path = extensions/ucode
+	url = https://github.com/phwhite/ucode-zed.git
 
 [submodule "extensions/uiua"]
 	path = extensions/uiua
