@@ -2022,6 +2022,10 @@
 	path = extensions/prisma-mcp
 	url = https://github.com/aqrln/prisma-mcp-zed
 
+[submodule "extensions/probe-rs"]
+	path = extensions/probe-rs
+	url = https://github.com/probe-rs/zed-extension
+
 [submodule "extensions/prolog"]
 	path = extensions/prolog
 	url = https://github.com/Piefayth/zed-prolog
@@ -2533,6 +2537,10 @@
 [submodule "extensions/todotxt"]
 	path = extensions/todotxt
 	url = https://github.com/pursvir/zed-todotxt.git
+
+[submodule "extensions/tokyo-maple-theme"]
+	path = extensions/tokyo-maple-theme
+	url = https://github.com/Cateds/Tokyo-Maple-Theme.git
 
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
