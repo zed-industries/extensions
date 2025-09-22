@@ -2570,6 +2570,10 @@
 	path = extensions/ton
 	url = https://github.com/Bionic2113/ton-zed.git
 
+[submodule "extensions/tql"]
+	path = extensions/tql
+	url = https://github.com/tenzir/zed-tql.git
+
 [submodule "extensions/tree-sitter-query"]
 	path = extensions/tree-sitter-query
 	url = https://github.com/vitallium/zed-tree-sitter-query.git
