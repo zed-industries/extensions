@@ -882,10 +882,6 @@
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
 
-[submodule "extensions/gloom-theme"]
-	path = extensions/gloom-theme
-	url = https://github.com/intemperie/gloom-zed
-
 [submodule "extensions/go-snippets"]
 	path = extensions/go-snippets
 	url = https://github.com/ayberkgezer/go-zed-snippets
@@ -2949,3 +2945,6 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
+[submodule "extensions/gloom"]
+	path = extensions/gloom
+	url = https://github.com/intemperie/gloom-zed.git
