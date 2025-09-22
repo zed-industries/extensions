@@ -442,6 +442,10 @@ version = "0.3.1"
 submodule = "extensions/colorizer"
 version = "1.0.6"
 
+[comment]
+submodule = "extensions/comment"
+version = "0.1.0"
+
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
 version = "1.0.0"
@@ -1012,7 +1016,7 @@ version = "0.3.1"
 
 [helm]
 submodule = "extensions/helm"
-version = "0.0.1"
+version = "0.0.2"
 
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
@@ -1145,7 +1149,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.0.8"
+version = "0.1.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1493,7 +1497,7 @@ version = "0.0.2"
 
 [mcp-server-tavily]
 submodule = "extensions/mcp-server-tavily"
-version = "0.0.1"
+version = "0.0.2"
 
 [mcp-server-vercel]
 submodule = "extensions/mcp-server-vercel"
@@ -2044,6 +2048,10 @@ version = "0.1.1"
 submodule = "extensions/prisma-mcp"
 version = "0.1.0"
 
+[probe-rs]
+submodule = "extensions/probe-rs"
+version = "0.0.1"
+
 [prolog]
 submodule = "extensions/prolog"
 version = "0.0.1"
@@ -2382,7 +2390,7 @@ version = "0.0.1"
 
 [spai-zero-theme]
 submodule = "extensions/spai-zero-theme"
-version = "0.1.0"
+version = "0.2.1"
 
 [spiceflow-theme]
 submodule = "extensions/spiceflow-theme"
@@ -2572,6 +2580,11 @@ version = "0.0.2"
 [todotxt]
 submodule = "extensions/todotxt"
 version = "0.2.3"
+
+[tokyo-maple-theme]
+submodule = "extensions/tokyo-maple-theme"
+version = "1.0.0"
+path = "packages/zed"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"

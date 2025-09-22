@@ -438,6 +438,10 @@
 	path = extensions/colorizer
 	url = https://github.com/tamimhasandev/colorizer.git
 
+[submodule "extensions/comment"]
+	path = extensions/comment
+	url = https://github.com/thedadams/zed-comment.git
+
 [submodule "extensions/confluence-context-server"]
 	path = extensions/confluence-context-server
 	url = https://github.com/mouhamadalmounayar/confluence-context-server
@@ -2022,6 +2026,10 @@
 	path = extensions/prisma-mcp
 	url = https://github.com/aqrln/prisma-mcp-zed
 
+[submodule "extensions/probe-rs"]
+	path = extensions/probe-rs
+	url = https://github.com/probe-rs/zed-extension
+
 [submodule "extensions/prolog"]
 	path = extensions/prolog
 	url = https://github.com/Piefayth/zed-prolog
@@ -2533,6 +2541,10 @@
 [submodule "extensions/todotxt"]
 	path = extensions/todotxt
 	url = https://github.com/pursvir/zed-todotxt.git
+
+[submodule "extensions/tokyo-maple-theme"]
+	path = extensions/tokyo-maple-theme
+	url = https://github.com/Cateds/Tokyo-Maple-Theme.git
 
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
