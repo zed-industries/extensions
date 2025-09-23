@@ -4,7 +4,7 @@ version = "1.3.5"
 
 [actionscript]
 submodule = "extensions/actionscript"
-version = "0.0.1"
+version = "0.1.0"
 
 [activitywatch]
 submodule = "extensions/activitywatch"
@@ -49,7 +49,7 @@ version = "0.0.3"
 
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
-version = "0.0.5"
+version = "1.0.0"
 
 [alpinejs-snippets]
 submodule = "extensions/alpinejs-snippets"
@@ -183,10 +183,6 @@ version = "1.3.1"
 [base16]
 submodule = "extensions/base16"
 version = "0.1.2"
-
-[basedpyright]
-submodule = "extensions/basedpyright"
-version = "0.1.3"
 
 [basher]
 submodule = "extensions/basher"
@@ -326,7 +322,7 @@ version = "0.2.23"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
-version = "0.3.1"
+version = "0.3.2"
 
 [catppuccin-blur-plus]
 submodule = "extensions/catppuccin-blur-plus"
@@ -395,7 +391,7 @@ version = "0.0.1"
 
 [clean-vscode-icons]
 submodule = "extensions/clean-vscode-icons"
-version = "0.1.0"
+version = "0.1.1"
 
 [clice]
 submodule = "extensions/clice"
@@ -445,6 +441,10 @@ version = "0.3.1"
 [colorizer]
 submodule = "extensions/colorizer"
 version = "1.0.6"
+
+[comment]
+submodule = "extensions/comment"
+version = "0.1.0"
 
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
@@ -737,7 +737,7 @@ version = "0.0.7"
 
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
-version = "0.1.0"
+version = "0.2.0"
 
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
@@ -1016,7 +1016,7 @@ version = "0.3.1"
 
 [helm]
 submodule = "extensions/helm"
-version = "0.0.1"
+version = "0.0.2"
 
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
@@ -1024,7 +1024,7 @@ version = "0.0.4"
 
 [hivacruz-theme]
 submodule = "extensions/hivacruz-theme"
-version = "0.1.0"
+version = "0.2.0"
 
 [hlsl]
 submodule = "extensions/hlsl"
@@ -1149,7 +1149,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.0.8"
+version = "0.1.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1190,6 +1190,10 @@ version = "0.1.4"
 [just-ls]
 submodule = "extensions/just-ls"
 version = "0.1.2"
+
+[kagimcp]
+submodule = "extensions/kagimcp"
+version = "0.0.26"
 
 [kamui-dark-theme]
 submodule = "extensions/kamui-dark-theme"
@@ -1295,6 +1299,10 @@ version = "0.0.6"
 submodule = "extensions/logstash"
 version = "0.0.1"
 
+[lonely-planet]
+submodule = "extensions/lonely-planet-theme"
+version = "0.0.1"
+
 [lox]
 submodule = "extensions/lox"
 version = "0.0.1"
@@ -1379,6 +1387,10 @@ version = "0.0.1"
 submodule = "extensions/matlab"
 version = "0.0.1"
 
+[matte-black]
+submodule = "extensions/matte-black"
+version = "0.0.1"
+
 [mau]
 submodule = "extensions/mau"
 version = "0.0.4"
@@ -1413,7 +1425,7 @@ version = "0.0.1"
 
 [mcp-server-context7]
 submodule = "extensions/mcp-server-context7"
-version = "0.0.3"
+version = "0.0.4"
 
 [mcp-server-exa-search]
 submodule = "extensions/mcp-server-exa-search"
@@ -1485,7 +1497,7 @@ version = "0.0.2"
 
 [mcp-server-tavily]
 submodule = "extensions/mcp-server-tavily"
-version = "0.0.1"
+version = "0.0.2"
 
 [mcp-server-vercel]
 submodule = "extensions/mcp-server-vercel"
@@ -1601,7 +1613,7 @@ version = "0.0.2"
 
 [move-aptos]
 submodule = "extensions/move-aptos"
-version = "0.0.1"
+version = "0.0.2"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
@@ -1806,7 +1818,7 @@ version = "0.2.3"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "0.12.1"
+version = "1.0.1"
 
 [oh-lucy]
 submodule = "extensions/oh-lucy"
@@ -1966,7 +1978,11 @@ version = "0.4.2"
 
 [phpcs]
 submodule = "extensions/phpcs"
-version = "0.1.7"
+version = "0.1.8"
+
+[phpmd]
+submodule = "extensions/phpmd"
+version = "0.1.0"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -2031,6 +2047,10 @@ version = "0.1.1"
 [prisma-mcp]
 submodule = "extensions/prisma-mcp"
 version = "0.1.0"
+
+[probe-rs]
+submodule = "extensions/probe-rs"
+version = "0.0.1"
 
 [prolog]
 submodule = "extensions/prolog"
@@ -2354,7 +2374,7 @@ version = "0.1.0"
 
 [solidity]
 submodule = "extensions/solidity"
-version = "0.1.3"
+version = "0.1.5"
 
 [sonokai]
 submodule = "extensions/sonokai"
@@ -2370,7 +2390,7 @@ version = "0.0.1"
 
 [spai-zero-theme]
 submodule = "extensions/spai-zero-theme"
-version = "0.1.0"
+version = "0.2.1"
 
 [spiceflow-theme]
 submodule = "extensions/spiceflow-theme"
@@ -2537,6 +2557,10 @@ version = "0.0.3"
 submodule = "extensions/texpresso"
 version = "0.0.2"
 
+[textproto]
+submodule = "extensions/textproto"
+version = "0.1.0"
+
 [the-best-theme]
 submodule = "extensions/the-best-theme"
 version = "0.0.1"
@@ -2560,6 +2584,11 @@ version = "0.0.2"
 [todotxt]
 submodule = "extensions/todotxt"
 version = "0.2.3"
+
+[tokyo-maple-theme]
+submodule = "extensions/tokyo-maple-theme"
+version = "1.0.0"
+path = "packages/zed"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"
@@ -2589,6 +2618,10 @@ version = "1.1.0"
 [ton]
 submodule = "extensions/ton"
 version = "0.3.0"
+
+[tql]
+submodule = "extensions/tql"
+version = "0.1.0"
 
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
@@ -2645,6 +2678,10 @@ version = "0.0.5"
 [typst]
 submodule = "extensions/typst"
 version = "0.1.0"
+
+[ucode]
+submodule = "extensions/ucode"
+version = "0.1.3"
 
 [uiua]
 submodule = "extensions/uiua"
@@ -2772,7 +2809,7 @@ version = "1.0.0"
 
 [vscode-dark-modern]
 submodule = "extensions/vscode-dark-modern"
-version = "0.0.6"
+version = "0.0.7"
 
 [vscode-dark-plus]
 submodule = "extensions/vscode-dark-plus"
@@ -2784,7 +2821,7 @@ version = "0.0.9"
 
 [vscode-great-icons]
 submodule = "extensions/vscode-great-icons"
-version = "0.2.4"
+version = "0.2.5"
 
 [vscode-icons]
 submodule = "extensions/vscode-icons"
