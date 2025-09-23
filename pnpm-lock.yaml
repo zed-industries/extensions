@@ -15,8 +15,8 @@ importers:
         specifier: 2.2.5
         version: 2.2.5
       git-submodule-js:
-        specifier: 1.0.4
-        version: 1.0.4
+        specifier: 1.0.5
+        version: 1.0.5
     devDependencies:
       '@tsconfig/node20':
         specifier: 20.1.6
@@ -898,8 +898,8 @@ packages:
     resolution: {integrity: sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==}
     engines: {node: '>=16'}
 
-  git-submodule-js@1.0.4:
-    resolution: {integrity: sha512-hD/tF9FP/5zYHV9PfcWg/Sj0Da7+Eh9+pJKQxWr1mKhDL02nRSqZ7fOJLZ7mIWftm7yDg38GRO/1oQEjUjMVAA==}
+  git-submodule-js@1.0.5:
+    resolution: {integrity: sha512-hEYml21JvXCJH3qRlskrD6VOM/wI5mSf3yVhZPtAslM49MYHoDfW+vwf/MuILwQJ0Ic6TVzHftX5kJHHOEx4rg==}
 
   gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
@@ -2646,7 +2646,7 @@ snapshots:
 
   get-stream@8.0.1: {}
 
-  git-submodule-js@1.0.4: {}
+  git-submodule-js@1.0.5: {}
 
   gopd@1.0.1:
     dependencies:
