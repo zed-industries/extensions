@@ -602,6 +602,10 @@
 	path = extensions/design-tokens
 	url = https://github.com/bennypowers/design-tokens-language-server
 
+[submodule "extensions/desktop"]
+	path = extensions/desktop
+	url = https://github.com/mikaeladev/zed-desktop-entry.git
+
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
@@ -621,6 +625,10 @@
 [submodule "extensions/dogi"]
 	path = extensions/dogi
 	url = https://github.com/DogukanUrker/DogiZed.git
+
+[submodule "extensions/dprint"]
+	path = extensions/dprint
+	url = https://github.com/panikkastudio/dprint-zed.git
 
 [submodule "extensions/dracula"]
 	path = extensions/dracula
@@ -729,6 +737,10 @@
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
+
+[submodule "extensions/fedaykin-themes"]
+	path = extensions/fedaykin-themes
+	url = https://github.com/btriapitsyn/zed-fedaykin-themes.git
 
 [submodule "extensions/fiber-snippets"]
 	path = extensions/fiber-snippets
@@ -893,6 +905,10 @@
 [submodule "extensions/gosum"]
 	path = extensions/gosum
 	url = https://github.com/kartikvashistha/zed-gosum.git
+
+[submodule "extensions/gotmpl"]
+	path = extensions/gotmpl
+	url = https://github.com/hjr265/zed-gotmpl.git
 
 [submodule "extensions/graphene"]
 	path = extensions/graphene
@@ -1977,6 +1993,10 @@
 [submodule "extensions/plantuml"]
 	path = extensions/plantuml
 	url = https://github.com/gabeidx/zed-plantuml.git
+
+[submodule "extensions/platformio"]
+	path = extensions/platformio
+	url = https://github.com/weirdo-adam/zed-platformio.git
 
 [submodule "extensions/playdate"]
 	path = extensions/playdate

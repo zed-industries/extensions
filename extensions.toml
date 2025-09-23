@@ -609,6 +609,10 @@ submodule = "extensions/design-tokens"
 path = "extensions/zed"
 version = "0.0.17"
 
+[desktop]
+submodule = "extensions/desktop"
+version = "0.1.0"
+
 [devicetree]
 submodule = "extensions/devicetree"
 version = "0.0.1"
@@ -628,6 +632,10 @@ version = "0.0.5"
 [dogi]
 submodule = "extensions/dogi"
 version = "1.0.4"
+
+[dprint]
+submodule = "extensions/dprint"
+version = "0.0.1"
 
 [dracula]
 submodule = "extensions/dracula"
@@ -738,6 +746,10 @@ version = "0.0.7"
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
 version = "0.2.0"
+
+[fedaykin-themes]
+submodule = "extensions/fedaykin-themes"
+version = "0.0.1"
 
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
@@ -909,6 +921,10 @@ version = "0.2.0"
 [gosum]
 submodule = "extensions/gosum"
 version = "0.0.2"
+
+[gotmpl]
+submodule = "extensions/gotmpl"
+version = "0.0.1"
 
 [graphene]
 submodule = "extensions/graphene"
@@ -1173,7 +1189,7 @@ version = "0.0.2"
 
 [json5]
 submodule = "extensions/json5"
-version = "0.0.1"
+version = "0.1.0"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -1653,7 +1669,7 @@ version = "0.1.0"
 
 [neocmake]
 submodule = "extensions/neocmake"
-version = "0.0.6"
+version = "0.1.0"
 
 [neon-cyberpunk]
 submodule = "extensions/neon-cyberpunk"
@@ -2003,6 +2019,10 @@ version = "0.1.0"
 [plantuml]
 submodule = "extensions/plantuml"
 version = "0.1.0"
+
+[platformio]
+submodule = "extensions/platformio"
+version = "v0.0.1"
 
 [playdate]
 submodule = "extensions/playdate"
@@ -2621,7 +2641,7 @@ version = "0.3.0"
 
 [tql]
 submodule = "extensions/tql"
-version = "0.1.0"
+version = "0.2.0"
 
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
@@ -2749,7 +2769,7 @@ version = "0.0.2"
 
 [vcard]
 submodule = "extensions/vcard"
-version = "0.1.1"
+version = "0.2.0"
 
 [vento]
 submodule = "extensions/vento"
