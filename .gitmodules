@@ -722,10 +722,6 @@
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
 
-[submodule "extensions/extensions/fiber-snippets"]
-	path = extensions/fiber-snippets
-	url = https://github.com/ayberkgezer/fiber-zed-snippets
-
 [submodule "extensions/ezio-theme"]
 	path = extensions/ezio-theme
 	url = https://github.com/dsantolo/ezio-zed.git
@@ -733,6 +729,10 @@
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
+
+[submodule "extensions/fiber-snippets"]
+	path = extensions/fiber-snippets
+	url = https://github.com/ayberkgezer/fiber-zed-snippets
 
 [submodule "extensions/fiberplane-studio"]
 	path = extensions/fiberplane-studio
@@ -2510,6 +2510,10 @@
 	path = extensions/texpresso
 	url = https://github.com/lnay/zed-texpresso.git
 
+[submodule "extensions/textproto"]
+	path = extensions/textproto
+	url = https://github.com/mikn/zed-textproto.git
+
 [submodule "extensions/the-best-theme"]
 	path = extensions/the-best-theme
 	url = https://github.com/Nidal-Bakir/zed-the-best-theme.git
@@ -2569,6 +2573,10 @@
 [submodule "extensions/ton"]
 	path = extensions/ton
 	url = https://github.com/Bionic2113/ton-zed.git
+
+[submodule "extensions/tql"]
+	path = extensions/tql
+	url = https://github.com/tenzir/zed-tql.git
 
 [submodule "extensions/tree-sitter-query"]
 	path = extensions/tree-sitter-query
