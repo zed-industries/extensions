@@ -1126,6 +1126,10 @@
 	path = extensions/java-eclipse-jdtls
 	url = https://github.com/ABckh/zed-java-language-support-jdtls
 
+[submodule "extensions/jdl"]
+	path = extensions/jdl
+	url = https://github.com/alessandrobrunoh/zed-grammar-jdl
+
 [submodule "extensions/jellybeans-vim"]
 	path = extensions/jellybeans-vim
 	url = https://github.com/rajerthat1/jellybeans.zed.git
@@ -2921,10 +2925,6 @@
 [submodule "extensions/zed"]
 	path = extensions/zed
 	url = https://github.com/zed-industries/zed.git
-
-[submodule "extensions/zed-grammar-jdl"]
-	path = extensions/zed-grammar-jdl
-	url = https://github.com/alessandrobrunoh/zed-grammar-jdl
 
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
