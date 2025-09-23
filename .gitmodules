@@ -386,6 +386,10 @@
 	path = extensions/clarity
 	url = https://github.com/hirosystems/clarity-zed.git
 
+[submodule "extensions/claude-code-inspired-dark"]
+	path = extensions/claude-code-inspired-dark
+	url = https://github.com/ericbuess/claude-code-inspired-dark.git
+
 [submodule "extensions/clean-vscode-icons"]
 	path = extensions/clean-vscode-icons
 	url = https://github.com/jacobtread/clean-vscode-icons.git
@@ -2985,6 +2989,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/claude-code-inspired-dark"]
-	path = extensions/claude-code-inspired-dark
-	url = https://github.com/ericbuess/claude-code-inspired-dark.git
