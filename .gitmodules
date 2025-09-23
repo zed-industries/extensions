@@ -82,6 +82,10 @@
 	path = extensions/anysphere-theme
 	url = https://github.com/stpn48/anysphere-zed-theme
 
+[submodule "extensions/apisartisan"]
+	path = extensions/apisartisan
+	url = https://github.com/TCeason/zed-theme/
+
 [submodule "extensions/aquarium-theme"]
 	path = extensions/aquarium-theme
 	url = https://github.com/biaqat/aquarium-theme-zed.git
@@ -302,6 +306,10 @@
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
 
+[submodule "extensions/carbonfox"]
+	path = extensions/carbonfox
+	url = https://github.com/harrisonablack/carbonfox-zed.git
+
 [submodule "extensions/cargo-appraiser"]
 	path = extensions/cargo-appraiser
 	url = https://github.com/washanhanzi/zed-cargo-appraiser
@@ -385,6 +393,10 @@
 [submodule "extensions/clarity"]
 	path = extensions/clarity
 	url = https://github.com/hirosystems/clarity-zed.git
+
+[submodule "extensions/claude-code-inspired-dark"]
+	path = extensions/claude-code-inspired-dark
+	url = https://github.com/ericbuess/claude-code-inspired-dark.git
 
 [submodule "extensions/clean-vscode-icons"]
 	path = extensions/clean-vscode-icons
@@ -602,6 +614,10 @@
 	path = extensions/design-tokens
 	url = https://github.com/bennypowers/design-tokens-language-server
 
+[submodule "extensions/desktop"]
+	path = extensions/desktop
+	url = https://github.com/mikaeladev/zed-desktop-entry.git
+
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
@@ -621,6 +637,10 @@
 [submodule "extensions/dogi"]
 	path = extensions/dogi
 	url = https://github.com/DogukanUrker/DogiZed.git
+
+[submodule "extensions/dprint"]
+	path = extensions/dprint
+	url = https://github.com/panikkastudio/dprint-zed.git
 
 [submodule "extensions/dracula"]
 	path = extensions/dracula
@@ -729,6 +749,14 @@
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
+
+[submodule "extensions/fedaykin-themes"]
+	path = extensions/fedaykin-themes
+	url = https://github.com/btriapitsyn/zed-fedaykin-themes.git
+
+[submodule "extensions/fga"]
+	path = extensions/fga
+	url = https://github.com/rosnovsky/zed-extension-fga.git
 
 [submodule "extensions/fiber-snippets"]
 	path = extensions/fiber-snippets
@@ -1114,6 +1142,10 @@
 	path = extensions/java-eclipse-jdtls
 	url = https://github.com/ABckh/zed-java-language-support-jdtls
 
+[submodule "extensions/jdl"]
+	path = extensions/jdl
+	url = https://github.com/alessandrobrunoh/zed-grammar-jdl
+
 [submodule "extensions/jellybeans-vim"]
 	path = extensions/jellybeans-vim
 	url = https://github.com/rajerthat1/jellybeans.zed.git
@@ -1253,6 +1285,10 @@
 [submodule "extensions/libsql-context-server"]
 	path = extensions/libsql-context-server
 	url = https://github.com/nicholasq/libsql-context-server
+
+[submodule "extensions/lights-out"]
+	path = extensions/lights-out
+	url = https://github.com/Ajiva-D/lights-out-theme-zed.git
 
 [submodule "extensions/lilypond"]
 	path = extensions/lilypond
