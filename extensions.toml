@@ -515,6 +515,10 @@ path = "crates/zed"
 submodule = "extensions/csv"
 version = "0.0.3"
 
+[ctags]
+submodule = "extensions/ctags"
+version = "0.0.1"
+
 [cucumber]
 submodule = "extensions/cucumber"
 version = "0.0.2"
