@@ -515,6 +515,10 @@ path = "crates/zed"
 submodule = "extensions/csv"
 version = "0.0.3"
 
+[ctags]
+submodule = "extensions/ctags"
+version = "0.0.1"
+
 [cucumber]
 submodule = "extensions/cucumber"
 version = "0.0.2"
@@ -1207,6 +1211,10 @@ version = "0.0.2"
 submodule = "extensions/json5"
 version = "0.1.0"
 
+[jsonl]
+submodule = "extensions/jsonl"
+version = "0.1.0"
+
 [jsonnet]
 submodule = "extensions/jsonnet"
 version = "0.4.0"
@@ -1493,6 +1501,10 @@ version = "0.1.1"
 
 [mcp-server-linear]
 submodule = "extensions/mcp-server-linear"
+version = "0.0.1"
+
+[mcp-server-markitdown]
+submodule = "extensions/mcp-server-markitdown"
 version = "0.0.1"
 
 [mcp-server-miaoduo]
@@ -2490,7 +2502,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "1.0.1"
+version = "1.0.2"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
