@@ -1186,6 +1186,10 @@
 	path = extensions/json5
 	url = https://github.com/ChunzhengLab/json5-zed-extension.git
 
+[submodule "extensions/jsonl"]
+	path = extensions/jsonl
+	url = https://github.com/vim-zz/jsonl-syntax-zed
+
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
 	url = https://github.com/narqo/zed-jsonnet.git
@@ -1473,6 +1477,10 @@
 [submodule "extensions/mcp-server-linear"]
 	path = extensions/mcp-server-linear
 	url = https://github.com/LoamStudios/zed-mcp-server-linear.git
+
+[submodule "extensions/mcp-server-markitdown"]
+	path = extensions/mcp-server-markitdown
+	url = https://github.com/G36maid/zed-mcp-server-markitdown
 
 [submodule "extensions/mcp-server-miaoduo"]
 	path = extensions/mcp-server-miaoduo
