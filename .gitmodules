@@ -1526,6 +1526,10 @@
 	path = extensions/mcp-server-slack
 	url = https://github.com/semioz/zed-slack-mcp.git
 
+[submodule "extensions/mcp-server-sonarqube"]
+	path = extensions/mcp-server-sonarqube
+	url = https://github.com/SonarSource/sonarqube-mcp-server-zed.git
+
 [submodule "extensions/mcp-server-supabase"]
 	path = extensions/mcp-server-supabase
 	url = https://github.com/maximoffua/zed-mcp-server-supabase
@@ -2865,6 +2869,10 @@
 [submodule "extensions/vue-theme"]
 	path = extensions/vue-theme
 	url = https://github.com/ColasssNotMe/vue-theme-zed.git
+
+[submodule "extensions/vynora"]
+	path = extensions/vynora
+	url = https://github.com/QuarkPixel/Vynora.git
 
 [submodule "extensions/wakatime"]
 	path = extensions/wakatime
