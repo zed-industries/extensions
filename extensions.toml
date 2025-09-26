@@ -488,7 +488,7 @@ version = "0.2.0"
 
 [crimson-theme]
 submodule = "extensions/crimson-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [crystal]
 submodule = "extensions/crystal"
@@ -1185,7 +1185,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.1.0"
+version = "0.1.1"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1538,6 +1538,10 @@ version = "0.0.1"
 [mcp-server-slack]
 submodule = "extensions/mcp-server-slack"
 version = "0.0.1"
+
+[mcp-server-sonarqube]
+submodule = "extensions/mcp-server-sonarqube"
+version = "0.0.8"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -2902,6 +2906,10 @@ version = "0.0.2"
 [vue-theme]
 submodule = "extensions/vue-theme"
 version = "0.0.1"
+
+[vynora]
+submodule = "extensions/vynora"
+version = "0.0.2"
 
 [wakatime]
 submodule = "extensions/wakatime"
