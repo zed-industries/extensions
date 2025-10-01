@@ -2014,6 +2014,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/php-snippets"]
+	path = extensions/php-snippets
+	url = https://github.com/seekode/zed-php-snippets
+
 [submodule "extensions/phpcs"]
 	path = extensions/phpcs
 	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
