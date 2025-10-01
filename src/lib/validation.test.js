@@ -1,6 +1,6 @@
-import { readFileSync } from "fs";
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
+import fs from "fs";
+import url from "url";
+import path from "path";
 import { describe, expect, it } from "vitest";
 import {
   hasLicenseName,
@@ -199,26 +199,26 @@ describe("validateLicense", () => {
   });
 });
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 function readMitLicense() {
-  return readFileSync(
-    join(__dirname, "test_licenses", "test_mit_license"),
+  return fs.readFileSync(
+    path.join(__dirname, "test_licenses", "test_mit_license"),
     "utf-8",
   );
 }
 
 function readApache2License() {
-  return readFileSync(
-    join(__dirname, "test_licenses", "test_apache_2_license"),
+  return fs.readFileSync(
+    path.join(__dirname, "test_licenses", "test_apache_2_license"),
     "utf-8",
   );
 }
 
 function readGplV3License() {
-  return readFileSync(
-    join(__dirname, "test_licenses", "test_gpl_v3_license"),
+  return fs.readFileSync(
+    path.join(__dirname, "test_licenses", "test_gpl_v3_license"),
     "utf-8",
   );
 }
