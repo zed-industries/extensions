@@ -166,7 +166,7 @@ describe("validateLicense", () => {
     );
   });
 
-  it("throws when GPL license is present (not MIT or Apache 2.0)", () => {
+  it("throws when GPL V3 license is present (not MIT or Apache 2.0)", () => {
     const files = [
       { name: "README.md", content: "# My Extension" },
       { name: "Cargo.toml", content: "[package]\nname = 'my-extension'" },
