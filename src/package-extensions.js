@@ -140,9 +140,6 @@ async function packageExtension(
   extensionVersion,
   shouldPublish,
 ) {
-  const extensionFiles = await readExtensionFiles(extensionPath);
-  validateLicense(extensionFiles);
-
   const outputDir = "output";
 
   const SCRATCH_DIR = "./scratch";
@@ -169,6 +166,9 @@ async function packageExtension(
       );
     }
   }
+
+  const extensionFiles = await readExtensionFiles(extensionPath);
+  validateLicense(extensionFiles);
 
   const zedExtensionOutput = await exec(
     "./zed-extension",
