@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import path from "node:path";
 import toml from "@iarna/toml";
 
 /**
@@ -35,4 +36,35 @@ export async function fileExists(path) {
 
     throw err;
   }
+}
+
+/**
+ * Read all files in an extension directory with their content
+ * @param {string} extensionPath
+ * @returns {Promise<Array<{name: string, content: string}>>}
+ */
+export async function readExtensionFiles(extensionPath) {
+  let extensionFiles;
+
+  try {
+    extensionFiles = await fs.readdir(extensionPath);
+  } catch (err) {
+    const errorMessage = err instanceof Error ? err.message : String(err);
+    throw new Error(
+      `Could not read directory at '${extensionPath}': ${errorMessage}`,
+    );
+  }
+
+  const extensionFilesData = [];
+  for (const file of extensionFiles) {
+    const filePath = path.join(extensionPath, file);
+    try {
+      const content = await fs.readFile(filePath, "utf-8");
+      extensionFilesData.push({ name: file, content });
+    } catch (err) {
+      continue;
+    }
+  }
+
+  return extensionFilesData;
 }
