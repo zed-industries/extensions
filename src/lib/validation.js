@@ -131,20 +131,18 @@ export function validateLicense(extensionPath) {
     );
   }
 
-  const licenseFiles = [];
+  const filesData = [];
   for (const file of files) {
-    if (hasLicenseName(file)) {
-      const licensePath = path.join(extensionPath, file);
-      try {
-        const content = fsSync.readFileSync(licensePath, "utf-8");
-        licenseFiles.push({ name: file, content });
-      } catch (err) {
-        continue;
-      }
+    const filePath = path.join(extensionPath, file);
+    try {
+      const content = fsSync.readFileSync(filePath, "utf-8");
+      filesData.push({ name: file, content });
+    } catch (err) {
+      continue;
     }
   }
 
-  if (!hasValidLicense(licenseFiles)) {
+  if (!hasValidLicense(filesData)) {
     throw new Error(
       `Extension at '${extensionPath}' does not contain a valid MIT or Apache 2.0 license.`,
     );
