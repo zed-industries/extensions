@@ -3,7 +3,7 @@ import {
   hasLicenseFileName,
   isApache2License,
   isMitLicense,
-} from "./license-utilities.js";
+} from "./license.js";
 import {
   readApache2License,
   readGplV3License,

@@ -1,4 +1,4 @@
-import { isApache2License, isMitLicense } from "./license-utilities.js";
+import { isApache2License, isMitLicense } from "./license.js";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
 

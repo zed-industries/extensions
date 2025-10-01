@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import toml from "@iarna/toml";
-import { hasLicenseFileName } from "./license-utilities.js";
+import { hasLicenseFileName } from "./license.js";
 
 /**
  * @param {string} path
