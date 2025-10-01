@@ -161,8 +161,8 @@ describe("validateLicense", () => {
       { name: "Cargo.toml", content: "[package]\nname = 'my-extension'" },
     ];
 
-    expect(() => validateLicense(files)).toThrow(
-      "Files do not contain a valid MIT or Apache 2.0 license",
+    expect(() => validateLicense(files)).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Extension repository does not contain a valid MIT or Apache 2.0 license.]`,
     );
   });
 
@@ -173,8 +173,8 @@ describe("validateLicense", () => {
       { name: "LICENSE", content: readGplV3License() },
     ];
 
-    expect(() => validateLicense(files)).toThrow(
-      "Files do not contain a valid MIT or Apache 2.0 license",
+    expect(() => validateLicense(files)).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Extension repository does not contain a valid MIT or Apache 2.0 license.]`,
     );
   });
 

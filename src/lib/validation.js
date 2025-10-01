@@ -111,7 +111,9 @@ export function validateLicense(files) {
     }
   }
 
-  throw new Error(`Files do not contain a valid MIT or Apache 2.0 license.`);
+  throw new Error(
+    `Extension repository does not contain a valid MIT or Apache 2.0 license.`,
+  );
 }
 
 /**
