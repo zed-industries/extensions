@@ -166,7 +166,7 @@ describe("validateLicense", () => {
     );
   });
 
-  it("throws when GPL license is present (not MIT or Apache 2.0)", () => {
+  it("throws when GPL V3 license is present (not MIT or Apache 2.0)", () => {
     const files = [
       { name: "README.md", content: "# My Extension" },
       { name: "Cargo.toml", content: "[package]\nname = 'my-extension'" },
@@ -204,21 +204,21 @@ const __dirname = path.dirname(__filename);
 
 function readMitLicense() {
   return fs.readFileSync(
-    path.join(__dirname, "test_licenses", "test_mit_license"),
+    path.join(__dirname, "test-licenses", "test-mit-license"),
     "utf-8",
   );
 }
 
 function readApache2License() {
   return fs.readFileSync(
-    path.join(__dirname, "test_licenses", "test_apache_2_license"),
+    path.join(__dirname, "test-licenses", "test-apache-2-license"),
     "utf-8",
   );
 }
 
 function readGplV3License() {
   return fs.readFileSync(
-    path.join(__dirname, "test_licenses", "test_gpl_v3_license"),
+    path.join(__dirname, "test-licenses", "test-gpl-v3-license"),
     "utf-8",
   );
 }
