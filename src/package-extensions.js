@@ -15,6 +15,7 @@ import {
   validateExtensionsToml,
   validateGitmodules,
   validateManifest,
+  validateLicense,
 } from "./lib/validation.js";
 
 const {
@@ -139,6 +140,8 @@ async function packageExtension(
   extensionVersion,
   shouldPublish,
 ) {
+  validateLicense(extensionPath);
+
   const outputDir = "output";
 
   const SCRATCH_DIR = "./scratch";
