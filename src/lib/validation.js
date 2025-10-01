@@ -100,12 +100,19 @@ export function validateGitmodules(gitmodules) {
  */
 export function hasValidLicense(files) {
   for (const file of files) {
-    if (hasLicenseName(file.name)) {
-      if (isMitLicense(file.content) || isApache2License(file.content)) {
-        return true;
-      }
+    if (!hasLicenseName(file.name)) {
+      continue;
+    }
+
+    if (isMitLicense(file.content)) {
+      return true;
+    }
+
+    if (isApache2License(file.content)) {
+      return true;
     }
   }
+
   return false;
 }
 
