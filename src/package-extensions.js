@@ -4,7 +4,11 @@ import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { sortExtensionsToml } from "./lib/extensions-toml.js";
-import { fileExists, readTomlFile, readExtensionFiles } from "./lib/fs.js";
+import {
+  fileExists,
+  readTomlFile,
+  retrieveLicenseCandidates,
+} from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
   readGitmodules,
@@ -140,9 +144,6 @@ async function packageExtension(
   extensionVersion,
   shouldPublish,
 ) {
-  const extensionFiles = await readExtensionFiles(extensionPath);
-  validateLicense(extensionFiles);
-
   const outputDir = "output";
 
   const SCRATCH_DIR = "./scratch";
@@ -169,6 +170,9 @@ async function packageExtension(
       );
     }
   }
+
+  const licenseCandidates = await retrieveLicenseCandidates(extensionPath);
+  validateLicense(licenseCandidates);
 
   const zedExtensionOutput = await exec(
     "./zed-extension",
