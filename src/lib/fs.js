@@ -40,7 +40,7 @@ export async function fileExists(path) {
 }
 
 /**
- * Read all files in an extension directory with their content
+ * Retrieve license candidate file data in an extension directory
  * @param {string} extensionPath
  * @returns {Promise<Array<{name: string, content: string}>>}
  */
