@@ -98,7 +98,7 @@ export function validateGitmodules(gitmodules) {
  */
 export function validateLicense(files) {
   for (const file of files) {
-    if (!hasLicenseName(file.name)) {
+    if (!hasLicenseFileName(file.name)) {
       continue;
     }
 
@@ -120,7 +120,7 @@ export function validateLicense(files) {
  * @param {string} fileName
  * @returns {boolean}
  */
-export function hasLicenseName(fileName) {
+export function hasLicenseFileName(fileName) {
   const nameWithoutExt = path.parse(fileName).name.toLowerCase();
 
   if (nameWithoutExt.startsWith("licence")) {

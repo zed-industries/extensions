@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import path from "node:path";
 import toml from "@iarna/toml";
 
 /**
@@ -43,10 +44,10 @@ export async function fileExists(path) {
  * @returns {Promise<Array<{name: string, content: string}>>}
  */
 export async function readExtensionFiles(extensionPath) {
-  let files;
+  let extensionFiles;
 
   try {
-    files = await fs.readdir(extensionPath);
+    extensionFiles = await fs.readdir(extensionPath);
   } catch (err) {
     const errorMessage = err instanceof Error ? err.message : String(err);
     throw new Error(
@@ -54,16 +55,16 @@ export async function readExtensionFiles(extensionPath) {
     );
   }
 
-  const filesData = [];
-  for (const file of files) {
-    const filePath = `${extensionPath}/${file}`;
+  const extensionFilesData = [];
+  for (const file of extensionFiles) {
+    const filePath = path.join(extensionPath, file);
     try {
       const content = await fs.readFile(filePath, "utf-8");
-      filesData.push({ name: file, content });
+      extensionFilesData.push({ name: file, content });
     } catch (err) {
       continue;
     }
   }
 
-  return filesData;
+  return extensionFilesData;
 }

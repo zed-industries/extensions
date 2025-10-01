@@ -3,7 +3,7 @@ import url from "url";
 import path from "path";
 import { describe, expect, it } from "vitest";
 import {
-  hasLicenseName,
+  hasLicenseFileName,
   isApache2License,
   isMitLicense,
   validateExtensionsToml,
@@ -87,42 +87,42 @@ describe("validateGitmodules", () => {
   });
 });
 
-describe("hasLicenseName", () => {
+describe("hasLicenseFileName", () => {
   it("returns true for various license names", () => {
-    expect(hasLicenseName("license")).toBe(true);
-    expect(hasLicenseName("LICENSE")).toBe(true);
+    expect(hasLicenseFileName("license")).toBe(true);
+    expect(hasLicenseFileName("LICENSE")).toBe(true);
 
-    expect(hasLicenseName("license-apache")).toBe(true);
-    expect(hasLicenseName("LICENSE-APACHE")).toBe(true);
+    expect(hasLicenseFileName("license-apache")).toBe(true);
+    expect(hasLicenseFileName("LICENSE-APACHE")).toBe(true);
 
-    expect(hasLicenseName("license-mit")).toBe(true);
-    expect(hasLicenseName("LICENSE-MIT")).toBe(true);
+    expect(hasLicenseFileName("license-mit")).toBe(true);
+    expect(hasLicenseFileName("LICENSE-MIT")).toBe(true);
 
-    expect(hasLicenseName("license.txt")).toBe(true);
-    expect(hasLicenseName("LICENSE.txt")).toBe(true);
+    expect(hasLicenseFileName("license.txt")).toBe(true);
+    expect(hasLicenseFileName("LICENSE.txt")).toBe(true);
 
-    expect(hasLicenseName("license.md")).toBe(true);
-    expect(hasLicenseName("LICENSE.md")).toBe(true);
+    expect(hasLicenseFileName("license.md")).toBe(true);
+    expect(hasLicenseFileName("LICENSE.md")).toBe(true);
 
-    expect(hasLicenseName("licence")).toBe(true);
-    expect(hasLicenseName("LICENCE")).toBe(true);
+    expect(hasLicenseFileName("licence")).toBe(true);
+    expect(hasLicenseFileName("LICENCE")).toBe(true);
 
-    expect(hasLicenseName("licence-apache")).toBe(true);
-    expect(hasLicenseName("LICENCE-APACHE")).toBe(true);
+    expect(hasLicenseFileName("licence-apache")).toBe(true);
+    expect(hasLicenseFileName("LICENCE-APACHE")).toBe(true);
 
-    expect(hasLicenseName("licence-mit")).toBe(true);
-    expect(hasLicenseName("LICENCE-MIT")).toBe(true);
+    expect(hasLicenseFileName("licence-mit")).toBe(true);
+    expect(hasLicenseFileName("LICENCE-MIT")).toBe(true);
 
-    expect(hasLicenseName("licence.txt")).toBe(true);
-    expect(hasLicenseName("LICENCE.txt")).toBe(true);
+    expect(hasLicenseFileName("licence.txt")).toBe(true);
+    expect(hasLicenseFileName("LICENCE.txt")).toBe(true);
 
-    expect(hasLicenseName("licence.md")).toBe(true);
-    expect(hasLicenseName("LICENCE.md")).toBe(true);
+    expect(hasLicenseFileName("licence.md")).toBe(true);
+    expect(hasLicenseFileName("LICENCE.md")).toBe(true);
   });
 
   it("returns false for non-license files", () => {
-    expect(hasLicenseName("README.md")).toBe(false);
-    expect(hasLicenseName("Cargo.toml")).toBe(false);
+    expect(hasLicenseFileName("README.md")).toBe(false);
+    expect(hasLicenseFileName("Cargo.toml")).toBe(false);
   });
 });
 
