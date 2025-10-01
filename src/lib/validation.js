@@ -1,4 +1,3 @@
-import fsSync from "node:fs";
 import path from "node:path";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
@@ -94,59 +93,25 @@ export function validateGitmodules(gitmodules) {
 }
 
 /**
- * Checks if a collection of files contains a valid MIT or Apache 2.0 license
+ * Validates that a collection of files contains a valid MIT or Apache 2.0 license
  * @param {Array<{name: string, content: string}>} files
- * @returns {boolean}
  */
-export function hasValidLicense(files) {
+export function validateLicense(files) {
   for (const file of files) {
     if (!hasLicenseName(file.name)) {
       continue;
     }
 
     if (isMitLicense(file.content)) {
-      return true;
+      return;
     }
 
     if (isApache2License(file.content)) {
-      return true;
+      return;
     }
   }
 
-  return false;
-}
-
-/**
- * @param {string} extensionPath
- */
-export function validateLicense(extensionPath) {
-  let files;
-
-  try {
-    files = fsSync.readdirSync(extensionPath);
-  } catch (err) {
-    const errorMessage = err instanceof Error ? err.message : String(err);
-    throw new Error(
-      `Could not read directory at '${extensionPath}': ${errorMessage}`,
-    );
-  }
-
-  const filesData = [];
-  for (const file of files) {
-    const filePath = path.join(extensionPath, file);
-    try {
-      const content = fsSync.readFileSync(filePath, "utf-8");
-      filesData.push({ name: file, content });
-    } catch (err) {
-      continue;
-    }
-  }
-
-  if (!hasValidLicense(filesData)) {
-    throw new Error(
-      `Extension at '${extensionPath}' does not contain a valid MIT or Apache 2.0 license.`,
-    );
-  }
+  throw new Error(`Files do not contain a valid MIT or Apache 2.0 license.`);
 }
 
 /**

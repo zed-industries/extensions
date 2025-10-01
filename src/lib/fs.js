@@ -36,3 +36,34 @@ export async function fileExists(path) {
     throw err;
   }
 }
+
+/**
+ * Read all files in an extension directory with their content
+ * @param {string} extensionPath
+ * @returns {Promise<Array<{name: string, content: string}>>}
+ */
+export async function readExtensionFiles(extensionPath) {
+  let files;
+
+  try {
+    files = await fs.readdir(extensionPath);
+  } catch (err) {
+    const errorMessage = err instanceof Error ? err.message : String(err);
+    throw new Error(
+      `Could not read directory at '${extensionPath}': ${errorMessage}`,
+    );
+  }
+
+  const filesData = [];
+  for (const file of files) {
+    const filePath = `${extensionPath}/${file}`;
+    try {
+      const content = await fs.readFile(filePath, "utf-8");
+      filesData.push({ name: file, content });
+    } catch (err) {
+      continue;
+    }
+  }
+
+  return filesData;
+}

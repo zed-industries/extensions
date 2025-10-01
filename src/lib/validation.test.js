@@ -4,11 +4,11 @@ import { dirname, join } from "path";
 import { describe, expect, it } from "vitest";
 import {
   hasLicenseName,
-  hasValidLicense,
   isApache2License,
   isMitLicense,
   validateExtensionsToml,
   validateGitmodules,
+  validateLicense,
   validateManifest,
 } from "./validation.js";
 
@@ -154,44 +154,48 @@ describe("isApache2License", () => {
   });
 });
 
-describe("hasValidLicense", () => {
-  it("returns false when no license file is present", () => {
+describe("validateLicense", () => {
+  it("throws when no license file is present", () => {
     const files = [
       { name: "README.md", content: "# My Extension" },
       { name: "Cargo.toml", content: "[package]\nname = 'my-extension'" },
     ];
 
-    expect(hasValidLicense(files)).toBe(false);
+    expect(() => validateLicense(files)).toThrow(
+      "Files do not contain a valid MIT or Apache 2.0 license",
+    );
   });
 
-  it("returns false when GPL license is present (not MIT or Apache 2.0)", () => {
+  it("throws when GPL license is present (not MIT or Apache 2.0)", () => {
     const files = [
       { name: "README.md", content: "# My Extension" },
       { name: "Cargo.toml", content: "[package]\nname = 'my-extension'" },
       { name: "LICENSE", content: readGplV3License() },
     ];
 
-    expect(hasValidLicense(files)).toBe(false);
+    expect(() => validateLicense(files)).toThrow(
+      "Files do not contain a valid MIT or Apache 2.0 license",
+    );
   });
 
-  it("returns true when Apache 2.0 license is present", () => {
+  it("does not throw when Apache 2.0 license is present", () => {
     const files = [
       { name: "README.md", content: "# My Extension" },
       { name: "Cargo.toml", content: "[package]\nname = 'my-extension'" },
       { name: "LICENSE", content: readApache2License() },
     ];
 
-    expect(hasValidLicense(files)).toBe(true);
+    expect(() => validateLicense(files)).not.toThrow();
   });
 
-  it("returns true when MIT license is present", () => {
+  it("does not throw when MIT license is present", () => {
     const files = [
       { name: "README.md", content: "# My Extension" },
       { name: "Cargo.toml", content: "[package]\nname = 'my-extension'" },
       { name: "LICENSE", content: readMitLicense() },
     ];
 
-    expect(hasValidLicense(files)).toBe(true);
+    expect(() => validateLicense(files)).not.toThrow();
   });
 });
 
