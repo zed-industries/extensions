@@ -1,3 +1,5 @@
+import { isApache2License, isMitLicense } from "./license.js";
+
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
 
 /**
@@ -88,4 +90,24 @@ export function validateGitmodules(gitmodules) {
       throw new Error(`Submodules must use "https://" scheme.`);
     }
   }
+}
+
+/**
+ * Validates that a collection of files contains a valid MIT or Apache 2.0 license
+ * @param {Array<{name: string, content: string}>} licenseCandidates
+ */
+export function validateLicense(licenseCandidates) {
+  for (const license_data of licenseCandidates) {
+    if (isMitLicense(license_data.content)) {
+      return;
+    }
+
+    if (isApache2License(license_data.content)) {
+      return;
+    }
+  }
+
+  throw new Error(
+    `Extension repository does not contain a valid MIT or Apache 2.0 license.\nSee https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements`,
+  );
 }
