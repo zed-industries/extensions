@@ -108,6 +108,6 @@ export function validateLicense(licenseCandidates) {
   }
 
   throw new Error(
-    `Extension repository does not contain a valid MIT or Apache 2.0 license.`,
+    `Extension repository does not contain a valid MIT or Apache 2.0 license.\nSee https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements`,
   );
 }
