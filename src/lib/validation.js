@@ -127,7 +127,7 @@ export function validateLicense(licenseCandidates) {
 
   throw new Error(
     [
-      `License file(s) were found (${licenseNames}), but none contained a valid license type.`,
+      `No valid license found in the following files: ${licenseNames}.`,
       `${MISSING_LICENSE_ERROR}`,
     ].join("\n"),
   );

@@ -107,7 +107,7 @@ describe("validateLicense", () => {
 
     expect(() => validateLicense(licenseCandidates))
       .toThrowErrorMatchingInlineSnapshot(`
-        [Error: License file(s) were found ("LICENSE.txt", "LICENSE.md"), but none contained a valid license type.
+        [Error: No valid license found in the following files: "LICENSE.txt", "LICENSE.md".
         Extension repositories must have a valid MIT or Apache 2.0 license.
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
