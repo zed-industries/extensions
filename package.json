@@ -1,7 +1,7 @@
 {
   "type": "module",
   "volta": {
-    "node": "20.19.4"
+    "node": "20.19.5"
   },
   "scripts": {
     "fmt": "prettier --write .",
@@ -13,14 +13,14 @@
     "danger": "danger"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.888.0",
+    "@aws-sdk/client-s3": "3.896.0",
     "@iarna/toml": "2.2.5",
-    "git-submodule-js": "1.0.4"
+    "git-submodule-js": "1.0.5"
   },
   "devDependencies": {
     "@tsconfig/node20": "20.1.6",
-    "@tsconfig/strictest": "2.0.5",
-    "@types/node": "20.19.11",
+    "@tsconfig/strictest": "2.0.6",
+    "@types/node": "20.19.17",
     "danger": "13.0.4",
     "danger-plugin-pr-hygiene": "0.6.1",
     "prettier": "3.6.2",
