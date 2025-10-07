@@ -92,11 +92,25 @@ export function validateGitmodules(gitmodules) {
   }
 }
 
+const LICENSE_REQUIREMENT_TEXT =
+  "Extension repositories must have a valid MIT or Apache 2.0 license.";
+
+const LICENSE_DOCUMENTATION_URL =
+  "https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements";
+
+const MISSING_LICENSE_ERROR = `${LICENSE_REQUIREMENT_TEXT}\nSee: ${LICENSE_DOCUMENTATION_URL}`;
+
 /**
  * Validates that a collection of files contains a valid MIT or Apache 2.0 license
  * @param {Array<{name: string, content: string}>} licenseCandidates
  */
 export function validateLicense(licenseCandidates) {
+  if (licenseCandidates.length === 0) {
+    throw new Error(
+      ["No license was found.", `${MISSING_LICENSE_ERROR}`].join("\n"),
+    );
+  }
+
   for (const license_data of licenseCandidates) {
     if (isMitLicense(license_data.content)) {
       return;
@@ -107,7 +121,14 @@ export function validateLicense(licenseCandidates) {
     }
   }
 
+  const licenseNames = licenseCandidates
+    .map((licenseData) => `"${licenseData.name}"`)
+    .join(", ");
+
   throw new Error(
-    `Extension repository does not contain a valid MIT or Apache 2.0 license.`,
+    [
+      `No valid license found in the following files: ${licenseNames}.`,
+      `${MISSING_LICENSE_ERROR}`,
+    ].join("\n"),
   );
 }

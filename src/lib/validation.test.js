@@ -91,23 +91,26 @@ describe("validateLicense", () => {
     const licenseCandidates =
       /** @type {Array<{name: string, content: string}>} */ ([]);
 
-    expect(() =>
-      validateLicense(licenseCandidates),
-    ).toThrowErrorMatchingInlineSnapshot(
-      `[Error: Extension repository does not contain a valid MIT or Apache 2.0 license.]`,
-    );
+    expect(() => validateLicense(licenseCandidates))
+      .toThrowErrorMatchingInlineSnapshot(`
+        [Error: No license was found.
+        Extension repositories must have a valid MIT or Apache 2.0 license.
+        See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
+      `);
   });
 
-  it("throws when GPL V3 license is present (not MIT or Apache 2.0)", () => {
+  it("throws when incorrect license contents are found (not MIT or Apache 2.0)", () => {
     const licenseCandidates = [
-      { name: "LICENSE", content: readGplV3License() },
+      { name: "LICENSE.txt", content: readGplV3License() },
+      { name: "LICENSE.md", content: readGplV3License() },
     ];
 
-    expect(() =>
-      validateLicense(licenseCandidates),
-    ).toThrowErrorMatchingInlineSnapshot(
-      `[Error: Extension repository does not contain a valid MIT or Apache 2.0 license.]`,
-    );
+    expect(() => validateLicense(licenseCandidates))
+      .toThrowErrorMatchingInlineSnapshot(`
+        [Error: No valid license found in the following files: "LICENSE.txt", "LICENSE.md".
+        Extension repositories must have a valid MIT or Apache 2.0 license.
+        See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
+      `);
   });
 
   it("does not throw when Apache 2.0 license is present", () => {
