@@ -646,6 +646,10 @@
 	path = extensions/discord-presence
 	url = https://github.com/xhyrom/zed-discord-presence
 
+[submodule "extensions/django"]
+	path = extensions/django
+	url = https://github.com/joshuadavidthomas/zed-django.git
+
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
 	url = https://github.com/eth0net/zed-docker-compose.git
