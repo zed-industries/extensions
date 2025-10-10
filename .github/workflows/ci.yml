@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: f338c46bf79f773ec7a41729270227da8c2660b5
+  ZED_EXTENSION_CLI_SHA: 332626e5825564e97afc969292c90d9b0fb40b6d
 
 jobs:
   package:
@@ -19,7 +19,7 @@ jobs:
     if: github.repository_owner == 'zed-industries'
     steps:
       - name: Checkout repo
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
         with:
           clean: false
           fetch-depth: 0
@@ -35,7 +35,7 @@ jobs:
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: |
             zed-extension
@@ -57,7 +57,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           key: cache-build-dependencies
           path: |
@@ -81,6 +81,7 @@ jobs:
 
       - name: Enforce no Git LFS
         run: |
+          # shellcheck disable=SC2016
           git submodule foreach --quiet \
             '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
               echo "LFS detected in $path" >&2 && exit 1
