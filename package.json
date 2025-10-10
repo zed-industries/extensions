@@ -1,7 +1,7 @@
 {
   "type": "module",
   "volta": {
-    "node": "20.11.1"
+    "node": "20.19.5"
   },
   "scripts": {
     "fmt": "prettier --write .",
@@ -9,19 +9,22 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "package-extensions": "node src/package-extensions.js",
-    "sort-extensions": "node src/sort-extensions.js"
+    "sort-extensions": "node src/sort-extensions.js",
+    "danger": "danger"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.454.0",
+    "@aws-sdk/client-s3": "3.896.0",
     "@iarna/toml": "2.2.5",
-    "git-submodule-js": "1.0.4"
+    "git-submodule-js": "1.0.5"
   },
   "devDependencies": {
-    "@tsconfig/node20": "20.1.2",
-    "@tsconfig/strictest": "2.0.3",
-    "@types/node": "20.11.30",
-    "prettier": "3.2.5",
-    "typescript": "5.3.3",
-    "vitest": "1.6.0"
+    "@tsconfig/node20": "20.1.6",
+    "@tsconfig/strictest": "2.0.6",
+    "@types/node": "20.19.17",
+    "danger": "13.0.4",
+    "danger-plugin-pr-hygiene": "0.6.1",
+    "prettier": "3.6.2",
+    "typescript": "5.9.2",
+    "vitest": "1.6.1"
   }
 }
