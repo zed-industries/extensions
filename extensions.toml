@@ -2,6 +2,10 @@
 submodule = "extensions/0x96f"
 version = "1.3.5"
 
+[1984-theme]
+submodule = "extensions/1984"
+version = "0.1.1"
+
 [actionscript]
 submodule = "extensions/actionscript"
 version = "0.1.0"
@@ -83,6 +87,10 @@ version = "1.0.0"
 submodule = "extensions/anysphere-theme"
 version = "0.0.1"
 
+[apache-avro]
+submodule = "extensions/apache-avro"
+version = "0.1.0"
+
 [apisartisan]
 submodule = "extensions/apisartisan"
 version = "0.0.1"
@@ -138,7 +146,7 @@ version = "0.0.2"
 
 [autocorrect]
 submodule = "extensions/autocorrect"
-version = "0.2.0"
+version = "0.2.1"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -456,7 +464,7 @@ version = "1.0.6"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.1.0"
+version = "0.1.1"
 
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
@@ -500,11 +508,11 @@ version = "0.0.1"
 
 [csharp]
 submodule = "extensions/csharp"
-version = "0.1.2"
+version = "0.1.3"
 
 [cspell]
 submodule = "extensions/cspell"
-version = "0.0.5"
+version = "0.0.6"
 
 [css-modules-kit]
 submodule = "extensions/css-modules-kit"
@@ -675,7 +683,7 @@ version = "0.1.0"
 
 [edge]
 submodule = "extensions/edge"
-version = "0.2.0"
+version = "1.0.1"
 
 [edi]
 submodule = "extensions/edi"
@@ -777,7 +785,7 @@ version = "0.1.1"
 
 [firebase-security-rules]
 submodule = "extensions/firebase-security-rules"
-version = "0.1.0"
+version = "0.1.1"
 
 [fish]
 submodule = "extensions/fish"
@@ -798,6 +806,10 @@ version = "0.0.1"
 [fleet-themes]
 submodule = "extensions/fleet-themes"
 version = "1.2.0"
+
+[fleury]
+submodule = "extensions/fleury"
+version = "1.0.0"
 
 [flexoki-themes]
 submodule = "extensions/flexoki"
@@ -850,7 +862,7 @@ version = "0.0.1"
 
 [gdscript]
 submodule = "extensions/gdscript"
-version = "0.5.0"
+version = "0.6.0"
 
 [gem]
 submodule = "extensions/gem"
@@ -1357,7 +1369,7 @@ version = "0.0.1"
 
 [ltex]
 submodule = "extensions/ltex"
-version = "0.0.7"
+version = "0.1.0"
 
 [lua]
 submodule = "extensions/lua"
@@ -1641,7 +1653,7 @@ version = "0.1.3"
 
 [monospace-icon-theme]
 submodule = "extensions/monospace-icon-theme"
-version = "0.1.4"
+version = "0.1.5"
 
 [monospace-theme]
 submodule = "extensions/monospace-theme"
@@ -1713,7 +1725,7 @@ version = "0.0.1"
 
 [neon-pulse-theme]
 submodule = "extensions/neon-pulse-theme"
-version = "1.1.0"
+version = "2.0.0"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -2000,6 +2012,10 @@ version = "0.1.0"
 submodule = "extensions/paraiso"
 version = "1.0.2"
 
+[pascal]
+submodule = "extensions/pascal"
+version = "0.0.1"
+
 [path-of-exile]
 submodule = "extensions/path-of-exile"
 version = "0.0.1"
@@ -2038,7 +2054,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.3"
+version = "0.4.4"
 
 [phpcs]
 submodule = "extensions/phpcs"
@@ -2215,7 +2231,7 @@ version = "1.0.0"
 
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
-version = "0.1.2"
+version = "0.1.3"
 
 [redscript]
 submodule = "extensions/redscript"
@@ -2277,13 +2293,17 @@ version = "0.1.0"
 submodule = "extensions/rpmspec"
 version = "0.0.1"
 
+[rshtml]
+submodule = "extensions/rshtml"
+version = "0.1.3"
+
 [rst]
 submodule = "extensions/rst"
 version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.13.5"
+version = "0.14.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2308,7 +2328,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.1.4"
+version = "0.1.5"
 
 [scheme]
 submodule = "extensions/scheme"
@@ -2502,7 +2522,7 @@ version = "0.1.0"
 
 [stimulus]
 submodule = "extensions/stimulus"
-version = "0.0.3"
+version = "0.1.5"
 
 [strace]
 submodule = "extensions/strace"
@@ -2825,7 +2845,7 @@ version = "0.0.2"
 
 [vcard]
 submodule = "extensions/vcard"
-version = "0.2.0"
+version = "0.3.0"
 
 [vento]
 submodule = "extensions/vento"
@@ -2837,7 +2857,7 @@ version = "0.0.9"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.10"
+version = "0.0.12"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -2897,7 +2917,7 @@ version = "0.0.9"
 
 [vscode-great-icons]
 submodule = "extensions/vscode-great-icons"
-version = "0.2.5"
+version = "0.2.6"
 
 [vscode-icons]
 submodule = "extensions/vscode-icons"
