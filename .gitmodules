@@ -610,6 +610,10 @@
 	path = extensions/dbml
 	url = https://github.com/shuklaayush/zed-dbml.git
 
+[submodule "extensions/dbml-lsp"]
+	path = extensions/dbml-lsp
+	url = https://github.com/kamal-hamza/dbml-zed
+
 [submodule "extensions/decorative-stitch"]
 	path = extensions/decorative-stitch
 	url = https://github.com/keithrowell/zed-theme-decorative-stitch.git
