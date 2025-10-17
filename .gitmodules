@@ -1222,6 +1222,10 @@
 	path = extensions/julia
 	url = https://github.com/JuliaEditorSupport/zed-julia.git
 
+[submodule "extensions/jupyter"]
+	path = extensions/jupyter
+	url = https://github.com/KuaaMU/jupyter-zed.git
+
 [submodule "extensions/just"]
 	path = extensions/just
 	url = https://github.com/jackTabsCode/zed-just.git
