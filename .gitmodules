@@ -290,6 +290,10 @@
 	path = extensions/browser-tools-context-server
 	url = https://github.com/mirageN1349/browser-tools-context-server.git
 
+[submodule "extensions/bsl"]
+	path = extensions/bsl
+	url = https://github.com/dlyubanevich/zed-bsl-extension.git
+
 [submodule "extensions/c3"]
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
@@ -3065,6 +3069,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/bsl"]
-	path = extensions/bsl
-	url = https://github.com/dlyubanevich/zed-bsl-extension.git
