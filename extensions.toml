@@ -302,7 +302,7 @@ version = "0.0.2"
 
 [caddyfile]
 submodule = "extensions/caddyfile"
-version = "0.0.2"
+version = "0.0.3"
 
 [cadence]
 submodule = "extensions/cadence"
@@ -713,6 +713,10 @@ version = "0.0.4"
 submodule = "extensions/elixir"
 version = "0.2.3"
 
+[elixir-snippets]
+submodule = "extensions/elixir-snippets"
+version = "0.1.0"
+
 [elle]
 submodule = "extensions/elle"
 path = "editors/zed"
@@ -767,6 +771,10 @@ version = "0.0.2"
 submodule = "extensions/exquisite"
 version = "0.1.3"
 
+[eyecandy]
+submodule = "extensions/eyecandy"
+version = "0.0.1"
+
 [ezio-theme]
 submodule = "extensions/ezio-theme"
 version = "0.0.7"
@@ -813,7 +821,7 @@ version = "1.2.0"
 
 [fleury]
 submodule = "extensions/fleury"
-version = "1.0.0"
+version = "1.0.1"
 
 [flexoki-themes]
 submodule = "extensions/flexoki"
@@ -903,7 +911,7 @@ version = "0.1.1"
 
 [github-dark-default]
 submodule = "extensions/github-dark-default"
-version = "1.0.9"
+version = "1.0.10"
 
 [github-monochrome-theme]
 submodule = "extensions/github-monochrome-theme"
@@ -1021,6 +1029,10 @@ version = "0.0.1"
 [gruvbox-material]
 submodule = "extensions/gruvbox-material"
 version = "1.0.0"
+
+[gruvchad]
+submodule = "extensions/gruvchad"
+version = "0.1.0"
 
 [hacker-night-vision]
 submodule = "extensions/hacker-night-vision"
@@ -1561,7 +1573,7 @@ version = "0.0.2"
 
 [mcp-server-sonarqube]
 submodule = "extensions/mcp-server-sonarqube"
-version = "0.0.8"
+version = "1.0.1"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -1602,6 +1614,10 @@ version = "0.4.0"
 [min-theme]
 submodule = "extensions/min-theme"
 version = "0.2.1"
+
+[mint-theme]
+submodule = "extensions/mint-theme"
+version = "0.1.1"
 
 [missing-theme]
 submodule = "extensions/missing-theme"
@@ -1826,7 +1842,7 @@ version = "0.5.2"
 
 [norminette]
 submodule = "extensions/norminette"
-version = "0.2.1"
+version = "0.2.2"
 
 [norrsken]
 submodule = "extensions/norrsken"
@@ -2122,7 +2138,7 @@ version = "0.3.0"
 
 [prisma]
 submodule = "extensions/prisma"
-version = "0.1.4"
+version = "0.1.5"
 
 [prisma-mcp]
 submodule = "extensions/prisma-mcp"
@@ -3009,7 +3025,7 @@ version = "0.0.2"
 
 [xml]
 submodule = "extensions/xml"
-version = "0.0.8"
+version = "0.0.9"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
