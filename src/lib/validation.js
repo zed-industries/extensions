@@ -1,4 +1,4 @@
-import { isApache2License, isMitLicense } from "./license.js";
+import { isApache2License, isGplV3License, isMitLicense } from "./license.js";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
 
@@ -93,7 +93,7 @@ export function validateGitmodules(gitmodules) {
 }
 
 const LICENSE_REQUIREMENT_TEXT =
-  "Extension repositories must have a valid MIT or Apache 2.0 license.";
+  "Extension repositories must have a valid Apache 2.0, GPL v3, or MIT license.";
 
 const LICENSE_DOCUMENTATION_URL =
   "https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements";
@@ -112,11 +112,12 @@ export function validateLicense(licenseCandidates) {
   }
 
   for (const license_data of licenseCandidates) {
-    if (isMitLicense(license_data.content)) {
-      return;
-    }
+    const isValidLicense =
+      isApache2License(license_data.content) ||
+      isGplV3License(license_data.content) ||
+      isMitLicense(license_data.content);
 
-    if (isApache2License(license_data.content)) {
+    if (isValidLicense) {
       return;
     }
   }
