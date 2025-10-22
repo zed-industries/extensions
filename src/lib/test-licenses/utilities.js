@@ -14,6 +14,10 @@ export function readGplV3License() {
   return readLicenseFile("test-gpl-v3-license");
 }
 
+export function readOtherLicense() {
+  return readLicenseFile("other-license");
+}
+
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

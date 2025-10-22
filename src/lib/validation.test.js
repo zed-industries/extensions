@@ -9,6 +9,7 @@ import {
   readApache2License,
   readGplV3License,
   readMitLicense,
+  readOtherLicense,
 } from "./test-licenses/utilities.js";
 
 describe("validateManifest", () => {
@@ -94,21 +95,21 @@ describe("validateLicense", () => {
     expect(() => validateLicense(licenseCandidates))
       .toThrowErrorMatchingInlineSnapshot(`
         [Error: No license was found.
-        Extension repositories must have a valid MIT or Apache 2.0 license.
+        Extension repositories must have a valid Apache 2.0, GPL v3, or MIT license.
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
 
-  it("throws when incorrect license contents are found (not MIT or Apache 2.0)", () => {
+  it("throws when incorrect license contents are found (not Apache 2.0, MIT, or GPL v3)", () => {
     const licenseCandidates = [
-      { name: "LICENSE.txt", content: readGplV3License() },
-      { name: "LICENSE.md", content: readGplV3License() },
+      { name: "LICENSE.txt", content: readOtherLicense() },
+      { name: "LICENSE.md", content: readOtherLicense() },
     ];
 
     expect(() => validateLicense(licenseCandidates))
       .toThrowErrorMatchingInlineSnapshot(`
         [Error: No valid license found in the following files: "LICENSE.txt", "LICENSE.md".
-        Extension repositories must have a valid MIT or Apache 2.0 license.
+        Extension repositories must have a valid Apache 2.0, GPL v3, or MIT license.
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
@@ -123,6 +124,14 @@ describe("validateLicense", () => {
 
   it("does not throw when MIT license is present", () => {
     const licenseCandidates = [{ name: "LICENSE", content: readMitLicense() }];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when GPL v3 license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readGplV3License() },
+    ];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
