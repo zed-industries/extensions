@@ -40,7 +40,7 @@ export function isApache2License(licenseContent) {
 
 const BSD_3_CLAUSE_REQUIRED_PATTERNS = [
   /BSD 3-Clause License/i,
-  /Copyright \(c\)/i,
+  /Copyright/i,
   /Redistribution and use in source and binary forms, with or without/i,
   /modification, are permitted provided that the following conditions are met:/i,
   /1\. Redistributions of source code must retain the above copyright notice/i,
@@ -96,7 +96,7 @@ export function isGplV3License(licenseContent) {
 
 const MIT_REQUIRED_PATTERNS = [
   /MIT License/i,
-  /Copyright \(c\)/i,
+  /Copyright/i,
   /Permission is hereby granted, free of charge, to any person obtaining a copy/i,
   /The above copyright notice and this permission notice shall be included in all/i,
   /THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
