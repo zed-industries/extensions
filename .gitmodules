@@ -1442,6 +1442,10 @@
 	path = extensions/maya
 	url = https://github.com/sbowman/maya.zed
 
+[submodule "extensions/maybe-material"]
+	path = extensions/maybe-material
+	url = https://github.com/iamawatermelo/maybe-material
+
 [submodule "extensions/mcp-planetscale"]
 	path = extensions/mcp-planetscale
 	url = https://github.com/hunterjsb/zed-planetscale-mcp.git
@@ -1813,10 +1817,6 @@
 [submodule "extensions/not-material-theme"]
 	path = extensions/not-material-theme
 	url = https://github.com/iamawatermelo/zed-hct-theme-maker
-
-[submodule "extensions/not-material-theme-v2"]
-	path = extensions/not-material-theme-v2
-	url = https://github.com/iamawatermelo/maybe-material
 
 [submodule "extensions/nstlgy-dark"]
 	path = extensions/nstlgy-dark

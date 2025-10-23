@@ -1459,6 +1459,11 @@ version = "0.0.4"
 submodule = "extensions/maya"
 version = "0.4.5"
 
+[maybe-material]
+submodule = "extensions/maybe-material"
+path = "extension/"
+version = "0.1.0"
+
 [mcp-planetscale]
 submodule = "extensions/mcp-planetscale"
 version = "0.0.1"
@@ -1831,11 +1836,6 @@ version = "3.0.1"
 [not-material-theme]
 submodule = "extensions/not-material-theme"
 version = "0.0.1"
-
-[not-material-theme-v2]
-submodule = "extensions/not-material-theme-v2"
-path = "extension/"
-version = "0.1.0"
 
 [nstlgy-dark]
 submodule = "extensions/nstlgy-dark"
