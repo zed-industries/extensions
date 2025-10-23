@@ -7,31 +7,9 @@ import path from "node:path";
 export function hasLicenseFileName(fileName) {
   const nameWithoutExt = path.parse(fileName).name.toLowerCase();
 
-  if (nameWithoutExt.startsWith("licence")) {
-    return true;
-  }
-
-  if (nameWithoutExt.startsWith("license")) {
-    return true;
-  }
-
-  return false;
-}
-
-const MIT_REQUIRED_PATTERNS = [
-  /MIT License/i,
-  /Copyright \(c\)/i,
-  /Permission is hereby granted, free of charge, to any person obtaining a copy/i,
-  /The above copyright notice and this permission notice shall be included in all/i,
-  /THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
-];
-
-/**
- * @param {string} licenseContent
- * @returns {boolean}
- */
-export function isMitLicense(licenseContent) {
-  return MIT_REQUIRED_PATTERNS.every((pattern) => pattern.test(licenseContent));
+  return (
+    nameWithoutExt.startsWith("licence") || nameWithoutExt.startsWith("license")
+  );
 }
 
 const APACHE_2_REQUIRED_PATTERNS = [
@@ -56,6 +34,30 @@ const APACHE_2_REQUIRED_PATTERNS = [
  */
 export function isApache2License(licenseContent) {
   return APACHE_2_REQUIRED_PATTERNS.every((pattern) =>
+    pattern.test(licenseContent),
+  );
+}
+
+const BSD_3_CLAUSE_REQUIRED_PATTERNS = [
+  /BSD 3-Clause License/i,
+  /Copyright/i,
+  /Redistribution and use in source and binary forms, with or without/i,
+  /modification, are permitted provided that the following conditions are met:/i,
+  /1\. Redistributions of source code must retain the above copyright notice/i,
+  /2\. Redistributions in binary form must reproduce the above copyright notice/i,
+  /3\. Neither the name of the copyright holder nor the names of its/i,
+  /contributors may be used to endorse or promote products derived from/i,
+  /THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"/i,
+  /IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE/i,
+  /DISCLAIMED\. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE/i,
+];
+
+/**
+ * @param {string} licenseContent
+ * @returns {boolean}
+ */
+export function isBsd3ClauseLicense(licenseContent) {
+  return BSD_3_CLAUSE_REQUIRED_PATTERNS.every((pattern) =>
     pattern.test(licenseContent),
   );
 }
@@ -90,4 +92,20 @@ export function isGplV3License(licenseContent) {
   return GPL_V3_REQUIRED_PATTERNS.every((pattern) =>
     pattern.test(licenseContent),
   );
+}
+
+const MIT_REQUIRED_PATTERNS = [
+  /MIT License/i,
+  /Copyright/i,
+  /Permission is hereby granted, free of charge, to any person obtaining a copy/i,
+  /The above copyright notice and this permission notice shall be included in all/i,
+  /THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
+];
+
+/**
+ * @param {string} licenseContent
+ * @returns {boolean}
+ */
+export function isMitLicense(licenseContent) {
+  return MIT_REQUIRED_PATTERNS.every((pattern) => pattern.test(licenseContent));
 }

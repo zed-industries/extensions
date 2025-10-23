@@ -7,6 +7,7 @@ import {
 } from "./validation.js";
 import {
   readApache2License,
+  readBsd3ClauseLicense,
   readGplV3License,
   readMitLicense,
   readOtherLicense,
@@ -95,12 +96,16 @@ describe("validateLicense", () => {
     expect(() => validateLicense(licenseCandidates))
       .toThrowErrorMatchingInlineSnapshot(`
         [Error: No license was found.
-        Extension repositories must have a valid Apache 2.0, GPL v3, or MIT license.
+        Extension repositories must have a valid license:
+          - Apache 2.0
+          - BSD 3-Clause
+          - GNU GPLv3
+          - MIT
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
 
-  it("throws when incorrect license contents are found (not Apache 2.0, MIT, or GPL v3)", () => {
+  it("throws when incorrect license contents are found (not Apache 2.0, BSD 3-Clause, MIT, or GNU GPLv3)", () => {
     const licenseCandidates = [
       { name: "LICENSE.txt", content: readOtherLicense() },
       { name: "LICENSE.md", content: readOtherLicense() },
@@ -109,7 +114,11 @@ describe("validateLicense", () => {
     expect(() => validateLicense(licenseCandidates))
       .toThrowErrorMatchingInlineSnapshot(`
         [Error: No valid license found in the following files: "LICENSE.txt", "LICENSE.md".
-        Extension repositories must have a valid Apache 2.0, GPL v3, or MIT license.
+        Extension repositories must have a valid license:
+          - Apache 2.0
+          - BSD 3-Clause
+          - GNU GPLv3
+          - MIT
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
@@ -122,8 +131,10 @@ describe("validateLicense", () => {
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
 
-  it("does not throw when MIT license is present", () => {
-    const licenseCandidates = [{ name: "LICENSE", content: readMitLicense() }];
+  it("does not throw when BSD 3-Clause license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readBsd3ClauseLicense() },
+    ];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
@@ -132,6 +143,12 @@ describe("validateLicense", () => {
     const licenseCandidates = [
       { name: "LICENSE", content: readGplV3License() },
     ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when MIT license is present", () => {
+    const licenseCandidates = [{ name: "LICENSE", content: readMitLicense() }];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
