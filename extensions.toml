@@ -585,7 +585,7 @@ version = "0.1.1"
 
 [darcula-dark-okkano]
 submodule = "extensions/darcula-dark-okkano"
-version = "0.1.3"
+version = "0.1.4"
 
 [dark-discord]
 submodule = "extensions/dark-discord"
@@ -605,7 +605,7 @@ version = "0.0.3"
 
 [darkmatter-theme]
 submodule = "extensions/darkmatter-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
@@ -823,6 +823,10 @@ version = "0.0.2"
 submodule = "extensions/fleet-themes"
 version = "1.2.0"
 
+[fleeting-theme]
+submodule = "extensions/fleeting-theme"
+version = "0.0.1"
+
 [fleury]
 submodule = "extensions/fleury"
 version = "1.0.1"
@@ -831,6 +835,10 @@ version = "1.0.1"
 submodule = "extensions/flexoki"
 path = "zed"
 version = "2.0.1"
+
+[flow]
+submodule = "extensions/flow"
+version = "0.0.1"
 
 [flow-theme]
 submodule = "extensions/flow-theme"
@@ -878,7 +886,7 @@ version = "0.0.1"
 
 [gdscript]
 submodule = "extensions/gdscript"
-version = "0.6.0"
+version = "0.7.0"
 
 [gem]
 submodule = "extensions/gem"
@@ -1102,6 +1110,10 @@ version = "0.2.0"
 submodule = "extensions/horizon"
 version = "0.0.1"
 
+[horizon-extended]
+submodule = "extensions/horizon-extended"
+version = "0.0.1"
+
 [hot-dog-stand]
 submodule = "extensions/hot-dog-stand"
 version = "0.0.2"
@@ -1129,7 +1141,7 @@ version = "0.1.0"
 
 [hyprlang]
 submodule = "extensions/hyprlang"
-version = "0.0.1"
+version = "0.0.2"
 
 [ibm-5151]
 submodule = "extensions/ibm-5151"
@@ -1479,6 +1491,11 @@ version = "0.0.4"
 submodule = "extensions/maya"
 version = "0.4.5"
 
+[maybe-material]
+submodule = "extensions/maybe-material"
+path = "extension/"
+version = "0.1.0"
+
 [mcp-planetscale]
 submodule = "extensions/mcp-planetscale"
 version = "0.0.1"
@@ -1537,6 +1554,10 @@ version = "0.1.0"
 
 [mcp-server-markitdown]
 submodule = "extensions/mcp-server-markitdown"
+version = "0.0.1"
+
+[mcp-server-master-go]
+submodule = "extensions/mcp-server-master-go"
 version = "0.0.1"
 
 [mcp-server-miaoduo]
@@ -2253,6 +2274,10 @@ version = "0.10.0"
 submodule = "extensions/react-snippets"
 version = "1.0.0"
 
+[react-type-kit-snippets]
+submodule = "extensions/react-type-kit-snippets"
+version = "2.0.0"
+
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
 version = "0.1.3"
@@ -2441,7 +2466,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.13.1"
+version = "1.14.1"
 
 [smithy]
 submodule = "extensions/smithy"

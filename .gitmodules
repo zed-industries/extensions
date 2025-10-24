@@ -818,6 +818,10 @@
 	path = extensions/fleet-themes
 	url = https://github.com/skarline/zed-fleet-themes.git
 
+[submodule "extensions/fleeting-theme"]
+	path = extensions/fleeting-theme
+	url = https://github.com/FleetingEcho/zed-fleeting-theme.git
+
 [submodule "extensions/fleury"]
 	path = extensions/fleury
 	url = https://github.com/1ay1/fleury-zed-theme.git
@@ -825,6 +829,10 @@
 [submodule "extensions/flexoki"]
 	path = extensions/flexoki
 	url = https://github.com/kepano/flexoki.git
+
+[submodule "extensions/flow"]
+	path = extensions/flow
+	url = https://github.com/jthomaschewski/zed-flow.git
 
 [submodule "extensions/flow-theme"]
 	path = extensions/flow-theme
@@ -1089,6 +1097,10 @@
 [submodule "extensions/horizon"]
 	path = extensions/horizon
 	url = https://github.com/ayn2op/zed-horizon.git
+
+[submodule "extensions/horizon-extended"]
+	path = extensions/horizon-extended
+	url = https://github.com/lancewilhelm/horizon-extended.zed.git
 
 [submodule "extensions/hot-dog-stand"]
 	path = extensions/hot-dog-stand
@@ -1462,6 +1474,10 @@
 	path = extensions/maya
 	url = https://github.com/sbowman/maya.zed
 
+[submodule "extensions/maybe-material"]
+	path = extensions/maybe-material
+	url = https://github.com/iamawatermelo/maybe-material
+
 [submodule "extensions/mcp-planetscale"]
 	path = extensions/mcp-planetscale
 	url = https://github.com/hunterjsb/zed-planetscale-mcp.git
@@ -1521,6 +1537,10 @@
 [submodule "extensions/mcp-server-markitdown"]
 	path = extensions/mcp-server-markitdown
 	url = https://github.com/G36maid/zed-mcp-server-markitdown
+
+[submodule "extensions/mcp-server-master-go"]
+	path = extensions/mcp-server-master-go
+	url = https://github.com/aizigao/zed-mcp-server-master-go.git
 
 [submodule "extensions/mcp-server-miaoduo"]
 	path = extensions/mcp-server-miaoduo
@@ -2221,6 +2241,10 @@
 [submodule "extensions/react-snippets"]
 	path = extensions/react-snippets
 	url = https://github.com/tamimhasandev/react-snippets
+
+[submodule "extensions/react-type-kit-snippets"]
+	path = extensions/react-type-kit-snippets
+	url = https://github.com/MiguelMachado-dev/ReactTypeKit.git
 
 [submodule "extensions/react-typescript-snippets"]
 	path = extensions/react-typescript-snippets
