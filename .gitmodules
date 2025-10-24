@@ -578,9 +578,17 @@
 	path = extensions/darcula-dark
 	url = https://github.com/not-a-cowfr/Darcula-Dark.git
 
+[submodule "extensions/darcula-dark-okkano"]
+	path = extensions/darcula-dark-okkano
+	url = https://github.com/okkan/zed-darcula-dark-okkano.git
+
 [submodule "extensions/dark-discord"]
 	path = extensions/dark-discord
 	url = https://github.com/zangetsu02/zed-dark-discord-theme.git
+
+[submodule "extensions/dark-material-dracula"]
+	path = extensions/dark-material-dracula
+	url = https://github.com/wladpaiva/zed-dark-material-dracula.git
 
 [submodule "extensions/dark-pop-ui"]
 	path = extensions/dark-pop-ui
@@ -702,6 +710,10 @@
 	path = extensions/elixir
 	url = https://github.com/zed-extensions/elixir.git
 
+[submodule "extensions/elixir-snippets"]
+	path = extensions/elixir-snippets
+	url = https://github.com/FeedMyCat54/elixir-zed-snippets.git
+
 [submodule "extensions/elle"]
 	path = extensions/elle
 	url = https://github.com/acquitelol/elle.git
@@ -754,6 +766,10 @@
 	path = extensions/exquisite
 	url = https://github.com/xqsit94/zed-xqsit-theme.git
 
+[submodule "extensions/eyecandy"]
+	path = extensions/eyecandy
+	url = https://github.com/MSH-01/eyecandy.git
+
 [submodule "extensions/ezio-theme"]
 	path = extensions/ezio-theme
 	url = https://github.com/dsantolo/ezio-zed.git
@@ -801,6 +817,10 @@
 [submodule "extensions/fleet-themes"]
 	path = extensions/fleet-themes
 	url = https://github.com/skarline/zed-fleet-themes.git
+
+[submodule "extensions/fleeting-theme"]
+	path = extensions/fleeting-theme
+	url = https://github.com/FleetingEcho/zed-fleeting-theme.git
 
 [submodule "extensions/fleury"]
 	path = extensions/fleury
@@ -1005,6 +1025,10 @@
 [submodule "extensions/gruvbox-material"]
 	path = extensions/gruvbox-material
 	url = https://github.com/tokiory/zed-gruvbox-material.git
+
+[submodule "extensions/gruvchad"]
+	path = extensions/gruvchad
+	url = https://github.com/hey-ewan/zed-gruvchad.git
 
 [submodule "extensions/hacker-night-vision"]
 	path = extensions/hacker-night-vision
@@ -1585,6 +1609,10 @@
 [submodule "extensions/min-theme"]
 	path = extensions/min-theme
 	url = https://github.com/phibr0/zed-min-theme/
+
+[submodule "extensions/mint-theme"]
+	path = extensions/mint-theme
+	url = https://github.com/Ivanopulo124/zed-theme-mint.git
 
 [submodule "extensions/missing-theme"]
 	path = extensions/missing-theme
