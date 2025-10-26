@@ -294,12 +294,13 @@
 	path = extensions/browser-tools-context-server
 	url = https://github.com/mirageN1349/browser-tools-context-server.git
 
-[submodule "extensions/bubblegum"]
-	path = extensions/bubblegum
-	url = https://github.com/koalefant/zed-bubblegum
 [submodule "extensions/bsl"]
 	path = extensions/bsl
 	url = https://github.com/dlyubanevich/zed-bsl-extension.git
+
+[submodule "extensions/bubblegum"]
+	path = extensions/bubblegum
+	url = https://github.com/koalefant/zed-bubblegum
 
 [submodule "extensions/c3"]
 	path = extensions/c3
