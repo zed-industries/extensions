@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import toml from "@iarna/toml";
+import { hasLicenseFileName } from "./license.js";
 
 /**
  * @param {string} path
@@ -39,11 +40,11 @@ export async function fileExists(path) {
 }
 
 /**
- * Read all files in an extension directory with their content
+ * Retrieve license candidate file data in an extension directory
  * @param {string} extensionPath
  * @returns {Promise<Array<{name: string, content: string}>>}
  */
-export async function readExtensionFiles(extensionPath) {
+export async function retrieveLicenseCandidates(extensionPath) {
   let extensionFiles;
 
   try {
@@ -55,16 +56,20 @@ export async function readExtensionFiles(extensionPath) {
     );
   }
 
-  const extensionFilesData = [];
+  const licenseCandidates = [];
   for (const file of extensionFiles) {
+    if (!hasLicenseFileName(file)) {
+      continue;
+    }
+
     const filePath = path.join(extensionPath, file);
     try {
       const content = await fs.readFile(filePath, "utf-8");
-      extensionFilesData.push({ name: file, content });
+      licenseCandidates.push({ name: file, content });
     } catch (err) {
       continue;
     }
   }
 
-  return extensionFilesData;
+  return licenseCandidates;
 }
