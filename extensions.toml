@@ -230,7 +230,7 @@ version = "1.2.1"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.2.0"
+version = "0.2.2"
 
 [bitbake]
 submodule = "extensions/bitbake"
@@ -291,6 +291,10 @@ version = "1.0.0"
 [browser-tools-context-server]
 submodule = "extensions/browser-tools-context-server"
 version = "0.0.2"
+
+[bsl]
+submodule = "extensions/bsl"
+version = "0.0.1"
 
 [c3]
 submodule = "extensions/c3"
@@ -488,7 +492,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.2"
+version = "1.0.3"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -653,6 +657,10 @@ version = "0.0.1"
 submodule = "extensions/discord-presence"
 version = "0.2.3"
 
+[django]
+submodule = "extensions/django"
+version = "0.1.1"
+
 [docker-compose]
 submodule = "extensions/docker-compose"
 version = "0.1.0"
@@ -749,6 +757,10 @@ version = "0.0.8"
 [env]
 submodule = "extensions/env"
 version = "0.0.1"
+
+[erb-snippets]
+submodule = "extensions/erb-snippets"
+version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
@@ -1199,6 +1211,10 @@ version = "0.0.1"
 submodule = "extensions/iwe"
 version = "0.0.2"
 
+[jai]
+submodule = "extensions/jai"
+version = "0.1.3"
+
 [janet]
 submodule = "extensions/janet"
 version = "0.0.1"
@@ -1210,6 +1226,10 @@ version = "6.5.0"
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
 version = "0.2.5"
+
+[javascript-snippets]
+submodule = "extensions/javascript-snippets"
+version = "0.1.0"
 
 [jdl]
 submodule = "extensions/jdl"
@@ -1233,7 +1253,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.1.2"
+version = "0.2.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1335,6 +1355,10 @@ version = "1.0.0"
 submodule = "extensions/latex"
 version = "0.2.3"
 
+[latte]
+submodule = "extensions/latte"
+version = "0.1.0"
+
 [lean4]
 submodule = "extensions/lean4"
 version = "0.0.3"
@@ -1395,6 +1419,15 @@ version = "0.0.1"
 submodule = "extensions/lonely-planet-theme"
 version = "0.0.1"
 
+[looped-themes]
+submodule = "extensions/looped-themes"
+version = "1.0.4"
+path = "zed"
+
+[lotus-theme]
+submodule = "extensions/lotus-theme"
+version = "0.1.0"
+
 [lox]
 submodule = "extensions/lox"
 version = "0.0.1"
@@ -1449,7 +1482,7 @@ version = "1.0.0"
 
 [markdown-oxide]
 submodule = "extensions/markdown-oxide"
-version = "0.0.4"
+version = "0.0.5"
 
 [markdownlint]
 submodule = "extensions/markdownlint"
@@ -1714,7 +1747,7 @@ version = "0.1.1"
 
 [moonlight]
 submodule = "extensions/moonlight"
-version = "0.0.3"
+version = "0.0.4"
 
 [mosel]
 submodule = "extensions/mosel"
@@ -1722,7 +1755,7 @@ version = "0.0.2"
 
 [motoko]
 submodule = "extensions/motoko"
-version = "0.0.3"
+version = "0.0.4"
 
 [move]
 submodule = "extensions/move"
@@ -2101,6 +2134,10 @@ version = "0.0.2"
 submodule = "extensions/php"
 version = "0.4.4"
 
+[php-snippets]
+submodule = "extensions/php-snippets"
+version = "0.1.0"
+
 [phpcs]
 submodule = "extensions/phpcs"
 version = "0.1.8"
@@ -2276,7 +2313,7 @@ version = "1.0.0"
 
 [react-type-kit-snippets]
 submodule = "extensions/react-type-kit-snippets"
-version = "2.0.0"
+version = "2.1.0"
 
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
@@ -2393,7 +2430,7 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.1.3"
+version = "0.1.4"
 
 [seoul256]
 submodule = "extensions/seoul256"
@@ -2450,6 +2487,10 @@ version = "0.0.11"
 [sitruuna]
 submodule = "extensions/sitruuna"
 version = "0.1.0"
+
+[sl4y-theme]
+submodule = "extensions/sl4y-theme"
+version = "0.0.1"
 
 [slang]
 submodule = "extensions/slang"
@@ -2597,6 +2638,10 @@ version = "1.1.3"
 submodule = "extensions/sumi-light"
 version = "0.0.1"
 
+[sunset-drive]
+submodule = "extensions/sunset-drive"
+version = "1.0.0"
+
 [supaglass]
 submodule = "extensions/supaglass"
 version = "0.1.0"
@@ -2713,6 +2758,10 @@ version = "0.0.1"
 [the-dark-side]
 submodule = "extensions/the-dark-side"
 version = "0.3.0"
+
+[theme-lince]
+submodule = "extensions/theme-lince"
+version = "0.0.1"
 
 [thrift]
 submodule = "extensions/thrift"
@@ -3067,6 +3116,10 @@ version = "0.1.1"
 [yaka]
 submodule = "extensions/yaka"
 version = "0.0.4"
+
+[yamura]
+submodule = "extensions/yamura"
+version = "0.0.1"
 
 [yang]
 submodule = "extensions/yang"
