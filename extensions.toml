@@ -230,7 +230,7 @@ version = "1.2.1"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.2.0"
+version = "0.2.2"
 
 [bitbake]
 submodule = "extensions/bitbake"
@@ -291,6 +291,10 @@ version = "1.0.0"
 [browser-tools-context-server]
 submodule = "extensions/browser-tools-context-server"
 version = "0.0.2"
+
+[bsl]
+submodule = "extensions/bsl"
+version = "0.0.1"
 
 [c3]
 submodule = "extensions/c3"
@@ -488,7 +492,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.2"
+version = "1.0.3"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -1203,6 +1207,10 @@ version = "0.0.1"
 submodule = "extensions/iwe"
 version = "0.0.2"
 
+[jai]
+submodule = "extensions/jai"
+version = "0.1.3"
+
 [janet]
 submodule = "extensions/janet"
 version = "0.0.1"
@@ -1576,6 +1584,10 @@ version = "0.3.0"
 submodule = "extensions/mcp-server-newsnow"
 version = "0.0.10"
 
+[mcp-server-nextjs]
+submodule = "extensions/mcp-server-nextjs"
+version = "0.1.0"
+
 [mcp-server-puppeteer]
 submodule = "extensions/mcp-server-puppeteer"
 version = "0.0.1"
@@ -1710,11 +1722,11 @@ version = "0.2.0"
 
 [moonbit]
 submodule = "extensions/moonbit"
-version = "0.1.0"
+version = "0.1.1"
 
 [moonlight]
 submodule = "extensions/moonlight"
-version = "0.0.3"
+version = "0.0.4"
 
 [mosel]
 submodule = "extensions/mosel"
@@ -1722,7 +1734,7 @@ version = "0.0.2"
 
 [motoko]
 submodule = "extensions/motoko"
-version = "0.0.3"
+version = "0.0.4"
 
 [move]
 submodule = "extensions/move"
@@ -2276,7 +2288,7 @@ version = "1.0.0"
 
 [react-type-kit-snippets]
 submodule = "extensions/react-type-kit-snippets"
-version = "2.0.0"
+version = "2.1.0"
 
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
@@ -2597,6 +2609,10 @@ version = "1.1.3"
 submodule = "extensions/sumi-light"
 version = "0.0.1"
 
+[sunset-drive]
+submodule = "extensions/sunset-drive"
+version = "1.0.0"
+
 [supaglass]
 submodule = "extensions/supaglass"
 version = "0.1.0"
@@ -2713,6 +2729,10 @@ version = "0.0.1"
 [the-dark-side]
 submodule = "extensions/the-dark-side"
 version = "0.3.0"
+
+[theme-lince]
+submodule = "extensions/theme-lince"
+version = "0.0.1"
 
 [thrift]
 submodule = "extensions/thrift"
