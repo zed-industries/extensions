@@ -1609,6 +1609,10 @@ version = "0.0.10"
 submodule = "extensions/mcp-server-nextjs"
 version = "0.1.0"
 
+[mcp-server-postcrawl]
+submodule = "extensions/mcp-server-postcrawl"
+version = "0.0.1"
+
 [mcp-server-puppeteer]
 submodule = "extensions/mcp-server-puppeteer"
 version = "0.0.1"
@@ -2189,10 +2193,6 @@ version = "0.8.1"
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
 version = "1.0.4"
-
-[postcrawl-mcp]
-submodule = "extensions/postcrawl-mcp"
-version = "0.0.1"
 
 [postgres-context-server]
 submodule = "extensions/postgres-context-server"
