@@ -10,6 +10,7 @@ import {
   readApache2License,
   readBsd3ClauseLicense,
   readGplV3License,
+  readLicenseFile,
   readMitLicense,
   readOtherLicense,
 } from "./test-licenses/utilities.js";
@@ -134,6 +135,12 @@ describe("isGPLv3License", () => {
 describe("isMitLicense", () => {
   it("returns true for valid MIT license text", () => {
     expect(isMitLicense(readMitLicense())).toBe(true);
+  });
+
+  it("returns true for valid MIT license text using smart quotes", () => {
+    expect(
+      isMitLicense(readLicenseFile("test-mit-license-with-smart-quotes")),
+    ).toBe(true);
   });
 
   it("returns false for Apache 2.0 license text", () => {
