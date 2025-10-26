@@ -114,6 +114,10 @@
 	path = extensions/asciidoc
 	url = https://github.com/andreicek/zed-asciidoc.git
 
+[submodule "extensions/asn1"]
+	path = extensions/asn1
+	url = https://github.com/tdanner/zed-asn1.git
+
 [submodule "extensions/ass"]
 	path = extensions/ass
 	url = https://github.com/huaium/zed-ass.git
@@ -754,6 +758,10 @@
 	path = extensions/env
 	url = https://github.com/zarifpour/zed-env
 
+[submodule "extensions/erb-snippets"]
+	path = extensions/erb-snippets
+	url = https://github.com/enderahmetyurt/zed-erb-snippets
+
 [submodule "extensions/erlang"]
 	path = extensions/erlang
 	url = https://github.com/zed-extensions/erlang.git
@@ -1210,6 +1218,10 @@
 	path = extensions/java-eclipse-jdtls
 	url = https://github.com/ABckh/zed-java-language-support-jdtls
 
+[submodule "extensions/javascript-snippets"]
+	path = extensions/javascript-snippets
+	url = https://github.com/seekode/zed-js-snippets
+
 [submodule "extensions/jdl"]
 	path = extensions/jdl
 	url = https://github.com/alessandrobrunoh/zed-grammar-jdl
@@ -1334,6 +1346,10 @@
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
 
+[submodule "extensions/latte"]
+	path = extensions/latte
+	url = https://github.com/josbeir/zed-latte.git
+
 [submodule "extensions/lean4"]
 	path = extensions/lean4
 	url = https://github.com/blackbird314/zed-lean4.git
@@ -1393,6 +1409,14 @@
 [submodule "extensions/lonely-planet-theme"]
 	path = extensions/lonely-planet-theme
 	url = https://github.com/Jbonez87/lonely-planet-theme.git
+
+[submodule "extensions/looped-themes"]
+	path = extensions/looped-themes
+	url = https://github.com/loopedautomation/editor-themes.git
+
+[submodule "extensions/lotus-theme"]
+	path = extensions/lotus-theme
+	url = https://github.com/skylissh/lotus-theme-zed.git
 
 [submodule "extensions/lox"]
 	path = extensions/lox
@@ -2094,6 +2118,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/php-snippets"]
+	path = extensions/php-snippets
+	url = https://github.com/seekode/zed-php-snippets
+
 [submodule "extensions/phpcs"]
 	path = extensions/phpcs
 	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
@@ -2429,6 +2457,10 @@
 [submodule "extensions/sitruuna"]
 	path = extensions/sitruuna
 	url = https://github.com/menduz/sitruuna-zed.git
+
+[submodule "extensions/sl4y-theme"]
+	path = extensions/sl4y-theme
+	url = https://github.com/berkantay/zed-theme-sl4y.git
 
 [submodule "extensions/slang"]
 	path = extensions/slang
@@ -3049,6 +3081,10 @@
 [submodule "extensions/yaka"]
 	path = extensions/yaka
 	url = https://github.com/edgarkanyes/yaka.git
+
+[submodule "extensions/yamura"]
+	path = extensions/yamura
+	url = https://github.com/Yxmura/yamura-zed-theme.git
 
 [submodule "extensions/yang"]
 	path = extensions/yang
