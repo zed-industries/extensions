@@ -170,7 +170,7 @@ version = "0.0.3"
 
 [ayu-darker]
 submodule = "extensions/ayu-darker"
-version = "1.0.0"
+version = "1.1.0"
 
 [azure-context-server]
 submodule = "extensions/azure-context-server"
@@ -488,7 +488,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.2"
+version = "1.0.3"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -583,6 +583,10 @@ version = "0.0.1"
 submodule = "extensions/darcula-dark"
 version = "0.1.1"
 
+[darcula-dark-okkano]
+submodule = "extensions/darcula-dark-okkano"
+version = "0.1.4"
+
 [dark-discord]
 submodule = "extensions/dark-discord"
 version = "1.0.0"
@@ -601,7 +605,7 @@ version = "0.0.3"
 
 [darkmatter-theme]
 submodule = "extensions/darkmatter-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
@@ -819,6 +823,10 @@ version = "0.0.2"
 submodule = "extensions/fleet-themes"
 version = "1.2.0"
 
+[fleeting-theme]
+submodule = "extensions/fleeting-theme"
+version = "0.0.1"
+
 [fleury]
 submodule = "extensions/fleury"
 version = "1.0.1"
@@ -827,6 +835,10 @@ version = "1.0.1"
 submodule = "extensions/flexoki"
 path = "zed"
 version = "2.0.1"
+
+[flow]
+submodule = "extensions/flow"
+version = "0.0.1"
 
 [flow-theme]
 submodule = "extensions/flow-theme"
@@ -874,7 +886,7 @@ version = "0.0.1"
 
 [gdscript]
 submodule = "extensions/gdscript"
-version = "0.6.0"
+version = "0.7.0"
 
 [gem]
 submodule = "extensions/gem"
@@ -1098,6 +1110,10 @@ version = "0.2.0"
 submodule = "extensions/horizon"
 version = "0.0.1"
 
+[horizon-extended]
+submodule = "extensions/horizon-extended"
+version = "0.0.1"
+
 [hot-dog-stand]
 submodule = "extensions/hot-dog-stand"
 version = "0.0.2"
@@ -1125,7 +1141,7 @@ version = "0.1.0"
 
 [hyprlang]
 submodule = "extensions/hyprlang"
-version = "0.0.1"
+version = "0.0.2"
 
 [ibm-5151]
 submodule = "extensions/ibm-5151"
@@ -1475,6 +1491,11 @@ version = "0.0.4"
 submodule = "extensions/maya"
 version = "0.4.5"
 
+[maybe-material]
+submodule = "extensions/maybe-material"
+path = "extension/"
+version = "0.1.0"
+
 [mcp-planetscale]
 submodule = "extensions/mcp-planetscale"
 version = "0.0.1"
@@ -1535,6 +1556,10 @@ version = "0.1.0"
 submodule = "extensions/mcp-server-markitdown"
 version = "0.0.1"
 
+[mcp-server-master-go]
+submodule = "extensions/mcp-server-master-go"
+version = "0.0.1"
+
 [mcp-server-miaoduo]
 submodule = "extensions/mcp-server-miaoduo"
 version = "0.0.1"
@@ -1546,6 +1571,10 @@ version = "0.3.0"
 [mcp-server-newsnow]
 submodule = "extensions/mcp-server-newsnow"
 version = "0.0.10"
+
+[mcp-server-nextjs]
+submodule = "extensions/mcp-server-nextjs"
+version = "0.1.0"
 
 [mcp-server-puppeteer]
 submodule = "extensions/mcp-server-puppeteer"
@@ -1681,11 +1710,11 @@ version = "0.2.0"
 
 [moonbit]
 submodule = "extensions/moonbit"
-version = "0.1.0"
+version = "0.1.1"
 
 [moonlight]
 submodule = "extensions/moonlight"
-version = "0.0.3"
+version = "0.0.4"
 
 [mosel]
 submodule = "extensions/mosel"
@@ -1693,7 +1722,7 @@ version = "0.0.2"
 
 [motoko]
 submodule = "extensions/motoko"
-version = "0.0.3"
+version = "0.0.4"
 
 [move]
 submodule = "extensions/move"
@@ -1906,7 +1935,7 @@ version = "0.2.3"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "1.0.1"
+version = "1.0.3"
 
 [oh-lucy]
 submodule = "extensions/oh-lucy"
@@ -2245,6 +2274,10 @@ version = "0.10.0"
 submodule = "extensions/react-snippets"
 version = "1.0.0"
 
+[react-type-kit-snippets]
+submodule = "extensions/react-type-kit-snippets"
+version = "2.1.0"
+
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
 version = "0.1.3"
@@ -2433,7 +2466,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.13.1"
+version = "1.14.1"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -2490,7 +2523,7 @@ version = "0.1.6"
 
 [sonokai]
 submodule = "extensions/sonokai"
-version = "0.0.6"
+version = "0.0.7"
 
 [sorbet]
 submodule = "extensions/sorbet"
@@ -2563,6 +2596,10 @@ version = "1.1.3"
 [sumi-light]
 submodule = "extensions/sumi-light"
 version = "0.0.1"
+
+[sunset-drive]
+submodule = "extensions/sunset-drive"
+version = "1.0.0"
 
 [supaglass]
 submodule = "extensions/supaglass"
@@ -2680,6 +2717,10 @@ version = "0.0.1"
 [the-dark-side]
 submodule = "extensions/the-dark-side"
 version = "0.3.0"
+
+[theme-lince]
+submodule = "extensions/theme-lince"
+version = "0.0.1"
 
 [thrift]
 submodule = "extensions/thrift"
