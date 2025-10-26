@@ -758,6 +758,10 @@ version = "0.0.8"
 submodule = "extensions/env"
 version = "0.0.1"
 
+[erb-snippets]
+submodule = "extensions/erb-snippets"
+version = "0.1.0"
+
 [erlang]
 submodule = "extensions/erlang"
 version = "0.1.2"
@@ -790,10 +794,6 @@ version = "0.0.1"
 [ezio-theme]
 submodule = "extensions/ezio-theme"
 version = "0.0.7"
-
-[erb-snippets]
-submodule = "extensions/erb-snippets"
-version = "0.1.0"
 
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
