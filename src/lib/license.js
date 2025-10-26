@@ -95,11 +95,10 @@ export function isGplV3License(licenseContent) {
 }
 
 const MIT_REQUIRED_PATTERNS = [
-  /MIT License/i,
   /Copyright/i,
   /Permission is hereby granted, free of charge, to any person obtaining a copy/i,
   /The above copyright notice and this permission notice shall be included in all/i,
-  /THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
+  /THE SOFTWARE IS PROVIDED ["“]AS IS["”], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
 ];
 
 /**
