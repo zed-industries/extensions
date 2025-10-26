@@ -34,6 +34,10 @@ version = "1.1.1"
 submodule = "extensions/adwaita-pastel"
 version = "0.0.2"
 
+[aesthetic-theme]
+submodule = "extensions/aesthetic-theme"
+version = "1.0.0"
+
 [agda]
 submodule = "extensions/agda"
 version = "0.1.0"
@@ -109,6 +113,10 @@ version = "0.0.1"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
+version = "0.0.1"
+
+[asn1]
+submodule = "extensions/asn1"
 version = "0.0.1"
 
 [ass]
@@ -295,6 +303,10 @@ version = "0.0.2"
 [bsl]
 submodule = "extensions/bsl"
 version = "0.0.1"
+
+[bubblegum]
+submodule = "extensions/bubblegum"
+version = "0.1.0"
 
 [c3]
 submodule = "extensions/c3"
@@ -689,6 +701,10 @@ version = "1.1.0"
 submodule = "extensions/dram"
 version = "1.0.0"
 
+[dream]
+submodule = "extensions/dream"
+version = "1.0.0"
+
 [duckyscript]
 submodule = "extensions/duckyscript"
 version = "0.0.1"
@@ -761,6 +777,10 @@ version = "0.0.8"
 [env]
 submodule = "extensions/env"
 version = "0.0.1"
+
+[erb-snippets]
+submodule = "extensions/erb-snippets"
+version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
@@ -1227,6 +1247,10 @@ version = "6.5.0"
 submodule = "extensions/java-eclipse-jdtls"
 version = "0.2.5"
 
+[javascript-snippets]
+submodule = "extensions/javascript-snippets"
+version = "0.1.0"
+
 [jdl]
 submodule = "extensions/jdl"
 version = "0.0.1"
@@ -1351,6 +1375,10 @@ version = "1.0.0"
 submodule = "extensions/latex"
 version = "0.2.3"
 
+[latte]
+submodule = "extensions/latte"
+version = "0.1.0"
+
 [lean4]
 submodule = "extensions/lean4"
 version = "0.0.3"
@@ -1411,6 +1439,11 @@ version = "0.0.1"
 submodule = "extensions/lonely-planet-theme"
 version = "0.0.1"
 
+[looped-themes]
+submodule = "extensions/looped-themes"
+version = "1.0.4"
+path = "zed"
+
 [lotus-theme]
 submodule = "extensions/lotus-theme"
 version = "0.1.0"
@@ -1469,7 +1502,7 @@ version = "1.0.0"
 
 [markdown-oxide]
 submodule = "extensions/markdown-oxide"
-version = "0.0.4"
+version = "0.0.5"
 
 [markdownlint]
 submodule = "extensions/markdownlint"
@@ -1515,6 +1548,10 @@ version = "0.4.5"
 submodule = "extensions/maybe-material"
 path = "extension/"
 version = "0.1.0"
+
+[mcfunction]
+submodule = "extensions/mcfunction"
+version = "0.0.1"
 
 [mcp-planetscale]
 submodule = "extensions/mcp-planetscale"
@@ -1775,6 +1812,10 @@ version = "0.0.2"
 [navi]
 submodule = "extensions/navi"
 version = "0.4.1"
+
+[naysayer-theme]
+submodule = "extensions/naysayer-theme"
+version = "1.0.1"
 
 [nebula-pulse]
 submodule = "extensions/nebula-pulse"
@@ -2121,6 +2162,10 @@ version = "0.0.2"
 submodule = "extensions/php"
 version = "0.4.4"
 
+[php-snippets]
+submodule = "extensions/php-snippets"
+version = "0.1.0"
+
 [phpcs]
 submodule = "extensions/phpcs"
 version = "0.1.8"
@@ -2413,7 +2458,7 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.1.3"
+version = "0.1.4"
 
 [seoul256]
 submodule = "extensions/seoul256"
@@ -2470,6 +2515,10 @@ version = "0.0.11"
 [sitruuna]
 submodule = "extensions/sitruuna"
 version = "0.1.0"
+
+[sl4y-theme]
+submodule = "extensions/sl4y-theme"
+version = "0.0.1"
 
 [slang]
 submodule = "extensions/slang"
@@ -3096,6 +3145,10 @@ version = "0.1.1"
 submodule = "extensions/yaka"
 version = "0.0.4"
 
+[yamura]
+submodule = "extensions/yamura"
+version = "0.0.1"
+
 [yang]
 submodule = "extensions/yang"
 version = "0.0.1"
@@ -3123,6 +3176,10 @@ version = "1.2.1"
 
 [yugen]
 submodule = "extensions/yugen"
+version = "0.0.1"
+
+[zabby]
+submodule = "extensions/zabby"
 version = "0.0.1"
 
 [zed-legacy-themes]
