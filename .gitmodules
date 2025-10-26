@@ -2174,9 +2174,13 @@
 	path = extensions/pollinations-mcp
 	url = https://github.com/FrancoStino/pollinations-mcp.git
 
+[submodule "extensions/popping-and-locking"]
+	path = extensions/popping-and-locking
+	url = https://github.com/randoneering/popping-and-locking-zed-theme.git
+
 [submodule "extensions/popping-and-locking-theme"]
-    path = extensions/popping-and-locking-theme
-    url = https://github.com/randoneering/popping-and-locking-zed-theme.git
+	path = extensions/popping-and-locking-theme
+	url = https://github.com/randoneering/popping-and-locking-zed-theme.git
 
 [submodule "extensions/postgres-language-server"]
 	path = extensions/postgres-language-server
