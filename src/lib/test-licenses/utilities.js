@@ -33,7 +33,7 @@ const licenseCache = new Map();
  * @param {string} fileName - The name of the license file to read
  * @returns {string} The content of the license file
  */
-function readLicenseFile(fileName) {
+export function readLicenseFile(fileName) {
   let content = licenseCache.get(fileName);
 
   if (content) {
