@@ -290,6 +290,10 @@
 	path = extensions/browser-tools-context-server
 	url = https://github.com/mirageN1349/browser-tools-context-server.git
 
+[submodule "extensions/bsl"]
+	path = extensions/bsl
+	url = https://github.com/dlyubanevich/zed-bsl-extension.git
+
 [submodule "extensions/c3"]
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
@@ -645,6 +649,10 @@
 [submodule "extensions/discord-presence"]
 	path = extensions/discord-presence
 	url = https://github.com/xhyrom/zed-discord-presence
+
+[submodule "extensions/django"]
+	path = extensions/django
+	url = https://github.com/joshuadavidthomas/zed-django.git
 
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
@@ -1182,6 +1190,10 @@
 	path = extensions/iwe
 	url = https://github.com/iwe-org/zed-iwe.git
 
+[submodule "extensions/jai"]
+	path = extensions/jai
+	url = https://github.com/seg4lt/zed-jai.git
+
 [submodule "extensions/janet"]
 	path = extensions/janet
 	url = https://github.com/vijaykiran/janet-zed.git
@@ -1377,6 +1389,10 @@
 [submodule "extensions/lonely-planet-theme"]
 	path = extensions/lonely-planet-theme
 	url = https://github.com/Jbonez87/lonely-planet-theme.git
+
+[submodule "extensions/lotus-theme"]
+	path = extensions/lotus-theme
+	url = https://github.com/skylissh/lotus-theme-zed.git
 
 [submodule "extensions/lox"]
 	path = extensions/lox
@@ -2554,6 +2570,10 @@
 	path = extensions/sumi-light
 	url = https://github.com/LogicSatinn/sumi-light-zed.git
 
+[submodule "extensions/sunset-drive"]
+	path = extensions/sunset-drive
+	url = https://github.com/tahayvr/sunset-drive-zed
+
 [submodule "extensions/supaglass"]
 	path = extensions/supaglass
 	url = https://github.com/piyush-kacha/zed-supaglass.git
@@ -2669,6 +2689,10 @@
 [submodule "extensions/the-dark-side"]
 	path = extensions/the-dark-side
 	url = https://github.com/Imgkl/the-dark-side.git
+
+[submodule "extensions/theme-lince"]
+	path = extensions/theme-lince
+	url = https://github.com/xaviduds/theme-lince.git
 
 [submodule "extensions/theme-rainbow"]
 	path = extensions/theme-rainbow
