@@ -2,6 +2,10 @@
 submodule = "extensions/0x96f"
 version = "1.3.5"
 
+[0xtz]
+submodule = "extensions/0xtz"
+version = "0.0.1"
+
 [1984-theme]
 submodule = "extensions/1984"
 version = "0.1.2"
@@ -480,7 +484,7 @@ version = "1.0.6"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.2.0"
+version = "0.3.0"
 
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
@@ -643,6 +647,10 @@ version = "0.0.1"
 submodule = "extensions/decorative-stitch"
 version = "1.0.0"
 
+[defold]
+submodule = "extensions/defold"
+version = "0.1.4"
+
 [deno]
 submodule = "extensions/deno"
 version = "0.1.1"
@@ -671,7 +679,7 @@ version = "0.2.3"
 
 [django]
 submodule = "extensions/django"
-version = "0.1.1"
+version = "0.1.2"
 
 [docker-compose]
 submodule = "extensions/docker-compose"
@@ -695,6 +703,10 @@ version = "1.1.0"
 
 [dram]
 submodule = "extensions/dram"
+version = "1.0.0"
+
+[dream]
+submodule = "extensions/dream"
 version = "1.0.0"
 
 [duckyscript]
@@ -728,6 +740,10 @@ version = "0.0.1"
 [elderberry]
 submodule = "extensions/elderberry"
 version = "0.1.0"
+
+[electron-vue-theme]
+submodule = "extensions/electron-vue-theme"
+version = "0.0.1"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -1809,6 +1825,10 @@ version = "0.0.2"
 submodule = "extensions/navi"
 version = "0.4.1"
 
+[naysayer-theme]
+submodule = "extensions/naysayer-theme"
+version = "1.0.1"
+
 [nebula-pulse]
 submodule = "extensions/nebula-pulse"
 version = "0.0.6"
@@ -2209,6 +2229,10 @@ version = "0.8.1"
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
 version = "1.0.4"
+
+[popping-and-locking]
+submodule = "extensions/popping-and-locking"
+version = "0.0.1"
 
 [postgres-context-server]
 submodule = "extensions/postgres-context-server"
