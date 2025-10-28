@@ -1530,10 +1530,6 @@
 	path = extensions/material-theme
 	url = https://github.com/Codextor/zed-material-theme.git
 
-[submodule "extensions/matlab"]
-	path = extensions/matlab
-	url = https://github.com/rzukic/zed-matlab.git
-
 [submodule "extensions/matte-black"]
 	path = extensions/matte-black
 	url = https://github.com/tahayvr/matte-black-zed
@@ -3233,3 +3229,6 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
+[submodule "extensions/matlab"]
+	path = extensions/matlab
+	url = https://github.com/watermarkhu/zed-matlab
