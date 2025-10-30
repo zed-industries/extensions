@@ -1,0 +1,644 @@
+{
+  "Model": {
+    "prefix": "djmodel",
+    "body": [
+      "class ${1:ModelName}(models.Model):",
+      "    ${2:name} = models.CharField(max_length=${3:255})",
+      "    created_at = models.DateTimeField(auto_now_add=True)",
+      "    updated_at = models.DateTimeField(auto_now=True)",
+      "",
+      "    class Meta:",
+      "        verbose_name = \"${4:$1}\"",
+      "        verbose_name_plural = \"${5:$1s}\"",
+      "        ordering = [\"-created_at\"]",
+      "",
+      "    def __str__(self):",
+      "        return self.${6:name}",
+      "",
+      "    $0"
+    ],
+    "description": "Model with timestamps"
+  },
+  "CharField": {
+    "prefix": "djchar",
+    "body": [
+      "${1:field_name} = models.CharField(max_length=${2:255}${3:, blank=True})$0"
+    ],
+    "description": "CharField"
+  },
+  "TextField": {
+    "prefix": "djtext",
+    "body": ["${1:field_name} = models.TextField(${2:blank=True})$0"],
+    "description": "TextField"
+  },
+  "IntegerField": {
+    "prefix": "djint",
+    "body": ["${1:field_name} = models.IntegerField(${2:default=0})$0"],
+    "description": "IntegerField"
+  },
+  "DecimalField": {
+    "prefix": "djdecimal",
+    "body": [
+      "${1:field_name} = models.DecimalField(max_digits=${2:10}, decimal_places=${3:2})$0"
+    ],
+    "description": "DecimalField"
+  },
+  "BooleanField": {
+    "prefix": "djbool",
+    "body": ["${1:field_name} = models.BooleanField(default=${2:False})$0"],
+    "description": "BooleanField"
+  },
+  "DateField": {
+    "prefix": "djdate",
+    "body": ["${1:field_name} = models.DateField(${2:auto_now_add=True})$0"],
+    "description": "DateField"
+  },
+  "DateTimeField": {
+    "prefix": "djdatetime",
+    "body": [
+      "${1:field_name} = models.DateTimeField(${2:auto_now_add=True})$0"
+    ],
+    "description": "DateTimeField"
+  },
+  "EmailField": {
+    "prefix": "djemail",
+    "body": ["${1:field_name} = models.EmailField(${2:max_length=254})$0"],
+    "description": "EmailField"
+  },
+  "URLField": {
+    "prefix": "djurl",
+    "body": ["${1:field_name} = models.URLField(${2:max_length=200})$0"],
+    "description": "URLField"
+  },
+  "SlugField": {
+    "prefix": "djslug",
+    "body": [
+      "${1:slug} = models.SlugField(max_length=${2:255}, unique=${3:True})$0"
+    ],
+    "description": "SlugField"
+  },
+  "ImageField": {
+    "prefix": "djimage",
+    "body": ["${1:image} = models.ImageField(upload_to=\"${2:images/}\")$0"],
+    "description": "ImageField"
+  },
+  "FileField": {
+    "prefix": "djfile",
+    "body": ["${1:file} = models.FileField(upload_to=\"${2:files/}\")$0"],
+    "description": "FileField"
+  },
+  "ForeignKey": {
+    "prefix": "djfk",
+    "body": [
+      "${1:field_name} = models.ForeignKey(",
+      "    ${2:Model},",
+      "    on_delete=models.${3|CASCADE,PROTECT,SET_NULL,SET_DEFAULT,DO_NOTHING|},",
+      "    related_name=\"${4:related_name}\"$5",
+      ")$0"
+    ],
+    "description": "ForeignKey field"
+  },
+  "OneToOneField": {
+    "prefix": "djo2o",
+    "body": [
+      "${1:field_name} = models.OneToOneField(",
+      "    ${2:Model},",
+      "    on_delete=models.${3|CASCADE,PROTECT,SET_NULL|},",
+      "    related_name=\"${4:related_name}\"$5",
+      ")$0"
+    ],
+    "description": "OneToOneField"
+  },
+  "ManyToManyField": {
+    "prefix": "djm2m",
+    "body": [
+      "${1:field_name} = models.ManyToManyField(",
+      "    ${2:Model},",
+      "    related_name=\"${3:related_name}\",",
+      "    ${4:blank=True}",
+      ")$0"
+    ],
+    "description": "ManyToManyField"
+  },
+  "JSONField": {
+    "prefix": "djjson",
+    "body": ["${1:field_name} = models.JSONField(${2:default=dict})$0"],
+    "description": "JSONField"
+  },
+  "Model Meta": {
+    "prefix": "djmeta",
+    "body": [
+      "class Meta:",
+      "    verbose_name = \"${1:name}\"",
+      "    verbose_name_plural = \"${2:names}\"",
+      "    ordering = [${3:\"-created_at\"}]",
+      "    ${4:db_table = \"${5:table_name}\"}",
+      "    $0"
+    ],
+    "description": "Model Meta class"
+  },
+  "Model __str__": {
+    "prefix": "djstr",
+    "body": ["def __str__(self):", "    return ${1:self.name}$0"],
+    "description": "Model __str__ method"
+  },
+  "Model get_absolute_url": {
+    "prefix": "djgeturl",
+    "body": [
+      "def get_absolute_url(self):",
+      "    return reverse(\"${1:app_name:model-detail}\", kwargs={\"pk\": self.pk})$0"
+    ],
+    "description": "Model get_absolute_url method"
+  },
+  "Model save": {
+    "prefix": "djsave",
+    "body": [
+      "def save(self, *args, **kwargs):",
+      "    ${1:# Custom save logic}",
+      "    super().save(*args, **kwargs)$0"
+    ],
+    "description": "Model save method override"
+  },
+  "Model Manager": {
+    "prefix": "djmanager",
+    "body": [
+      "class ${1:ModelName}Manager(models.Manager):",
+      "    def ${2:method_name}(self):",
+      "        return self.filter(${3:condition})$0"
+    ],
+    "description": "Custom model manager"
+  },
+  "Model QuerySet": {
+    "prefix": "djqueryset",
+    "body": [
+      "class ${1:ModelName}QuerySet(models.QuerySet):",
+      "    def ${2:method_name}(self):",
+      "        return self.filter(${3:condition})$0"
+    ],
+    "description": "Custom QuerySet"
+  },
+  "Abstract Model": {
+    "prefix": "djabstract",
+    "body": [
+      "class ${1:ModelName}(models.Model):",
+      "    ${2:field} = models.${3:CharField}(${4:max_length=255})",
+      "",
+      "    class Meta:",
+      "        abstract = True",
+      "    $0"
+    ],
+    "description": "Abstract base model"
+  },
+  "Model Property": {
+    "prefix": "djproperty",
+    "body": [
+      "@property",
+      "def ${1:property_name}(self):",
+      "    return ${2:self.field}$0"
+    ],
+    "description": "Model property"
+  },
+  "Model Choices": {
+    "prefix": "djchoices",
+    "body": [
+      "class ${1:Status}(models.TextChoices):",
+      "    ${2:DRAFT} = \"${3:draft}\", \"${4:Draft}\"",
+      "    ${5:PUBLISHED} = \"${6:published}\", \"${7:Published}\"$0"
+    ],
+    "description": "Model choices class"
+  },
+  "ListView": {
+    "prefix": "djlistview",
+    "body": [
+      "class ${1:ModelName}ListView(ListView):",
+      "    model = ${2:$1}",
+      "    template_name = \"${3:app_name/$1_list.html}\"",
+      "    context_object_name = \"${4:${1/(.*)/${1:/downcase}/}_list}\"",
+      "    paginate_by = ${5:10}",
+      "    $0"
+    ],
+    "description": "ListView"
+  },
+  "DetailView": {
+    "prefix": "djdetailview",
+    "body": [
+      "class ${1:ModelName}DetailView(DetailView):",
+      "    model = ${2:$1}",
+      "    template_name = \"${3:app_name/$1_detail.html}\"",
+      "    context_object_name = \"${4:${1/(.*)/${1:/downcase}/}}\"",
+      "    $0"
+    ],
+    "description": "DetailView"
+  },
+  "CreateView": {
+    "prefix": "djcreateview",
+    "body": [
+      "class ${1:ModelName}CreateView(CreateView):",
+      "    model = ${2:$1}",
+      "    form_class = ${3:$1Form}",
+      "    template_name = \"${4:app_name/$1_form.html}\"",
+      "    success_url = reverse_lazy(\"${5:app_name:$1-list}\")$0"
+    ],
+    "description": "CreateView"
+  },
+  "UpdateView": {
+    "prefix": "djupdateview",
+    "body": [
+      "class ${1:ModelName}UpdateView(UpdateView):",
+      "    model = ${2:$1}",
+      "    form_class = ${3:$1Form}",
+      "    template_name = \"${4:app_name/$1_form.html}\"",
+      "    success_url = reverse_lazy(\"${5:app_name:$1-detail}\")$0"
+    ],
+    "description": "UpdateView"
+  },
+  "DeleteView": {
+    "prefix": "djdeleteview",
+    "body": [
+      "class ${1:ModelName}DeleteView(DeleteView):",
+      "    model = ${2:$1}",
+      "    template_name = \"${3:app_name/$1_confirm_delete.html}\"",
+      "    success_url = reverse_lazy(\"${4:app_name:$1-list}\")$0"
+    ],
+    "description": "DeleteView"
+  },
+  "TemplateView": {
+    "prefix": "djtemplateview",
+    "body": [
+      "class ${1:ViewName}(TemplateView):",
+      "    template_name = \"${2:app_name/template.html}\"",
+      "",
+      "    def get_context_data(self, **kwargs):",
+      "        context = super().get_context_data(**kwargs)",
+      "        ${3:# Add context}",
+      "        return context$0"
+    ],
+    "description": "TemplateView"
+  },
+  "FormView": {
+    "prefix": "djformview",
+    "body": [
+      "class ${1:ViewName}(FormView):",
+      "    template_name = \"${2:app_name/form.html}\"",
+      "    form_class = ${3:FormName}",
+      "    success_url = reverse_lazy(\"${4:success_url}\")",
+      "",
+      "    def form_valid(self, form):",
+      "        ${5:# Process form}",
+      "        return super().form_valid(form)$0"
+    ],
+    "description": "FormView"
+  },
+  "Function View": {
+    "prefix": "djfbv",
+    "body": [
+      "def ${1:view_name}(request${2:, ${3:pk}}):",
+      "    ${4:# View logic}",
+      "    context = {",
+      "        $5",
+      "    }",
+      "    return render(request, \"${6:template.html}\", context)$0"
+    ],
+    "description": "Function-based view"
+  },
+  "View with POST": {
+    "prefix": "djfbvpost",
+    "body": [
+      "def ${1:view_name}(request):",
+      "    if request.method == \"POST\":",
+      "        ${2:# Handle POST}",
+      "        return redirect(\"${3:redirect_url}\")",
+      "    ",
+      "    context = {",
+      "        $4",
+      "    }",
+      "    return render(request, \"${5:template.html}\", context)$0"
+    ],
+    "description": "Function view with POST handling"
+  },
+  "get_context_data": {
+    "prefix": "djgetcontext",
+    "body": [
+      "def get_context_data(self, **kwargs):",
+      "    context = super().get_context_data(**kwargs)",
+      "    ${1:# Add context}",
+      "    return context$0"
+    ],
+    "description": "get_context_data override"
+  },
+  "get_queryset": {
+    "prefix": "djgetqueryset",
+    "body": [
+      "def get_queryset(self):",
+      "    queryset = super().get_queryset()",
+      "    ${1:# Filter queryset}",
+      "    return queryset$0"
+    ],
+    "description": "get_queryset override"
+  },
+  "form_valid": {
+    "prefix": "djformvalid",
+    "body": [
+      "def form_valid(self, form):",
+      "    ${1:# Process form}",
+      "    return super().form_valid(form)$0"
+    ],
+    "description": "form_valid override"
+  },
+  "dispatch": {
+    "prefix": "djdispatch",
+    "body": [
+      "def dispatch(self, request, *args, **kwargs):",
+      "    ${1:# Custom dispatch logic}",
+      "    return super().dispatch(request, *args, **kwargs)$0"
+    ],
+    "description": "dispatch override"
+  },
+  "LoginRequiredMixin": {
+    "prefix": "djloginrequired",
+    "body": [
+      "class ${1:ViewName}(LoginRequiredMixin, ${2:ListView}):",
+      "    login_url = \"${3:/login/}\"",
+      "    redirect_field_name = \"${4:redirect_to}\"",
+      "    $0"
+    ],
+    "description": "View with LoginRequiredMixin"
+  },
+  "PermissionRequiredMixin": {
+    "prefix": "djpermission",
+    "body": [
+      "class ${1:ViewName}(PermissionRequiredMixin, ${2:ListView}):",
+      "    permission_required = \"${3:app_name.permission}\"",
+      "    $0"
+    ],
+    "description": "View with PermissionRequiredMixin"
+  },
+  "RedirectView": {
+    "prefix": "djredirectview",
+    "body": [
+      "class ${1:ViewName}(RedirectView):",
+      "    pattern_name = \"${2:url_name}\"",
+      "    permanent = ${3:False}",
+      "    query_string = ${4:True}$0"
+    ],
+    "description": "RedirectView"
+  },
+  "@require_http_methods": {
+    "prefix": "djrequirehttp",
+    "body": [
+      "@require_http_methods([${1:\"GET\", \"POST\"}])",
+      "def ${2:view_name}(request):",
+      "    $0"
+    ],
+    "description": "require_http_methods decorator"
+  },
+  "@login_required": {
+    "prefix": "djlogin",
+    "body": ["@login_required(login_url=\"${1:/login/}\")", "$0"],
+    "description": "login_required decorator"
+  },
+  "@permission_required": {
+    "prefix": "djperm",
+    "body": [
+      "@permission_required(\"${1:app_name.permission}\", raise_exception=${2:True})",
+      "$0"
+    ],
+    "description": "permission_required decorator"
+  },
+  "URL Pattern": {
+    "prefix": "djpath",
+    "body": [
+      "path(\"${1:route}/\", ${2:views}.${3:view_name}, name=\"${4:name}\"),$0"
+    ],
+    "description": "URL path"
+  },
+  "URL with pk": {
+    "prefix": "djpathpk",
+    "body": [
+      "path(\"${1:route}/<int:pk>/\", ${2:views}.${3:view_name}, name=\"${4:name}\"),$0"
+    ],
+    "description": "URL path with pk"
+  },
+  "URL with slug": {
+    "prefix": "djpathslug",
+    "body": [
+      "path(\"${1:route}/<slug:slug>/\", ${2:views}.${3:view_name}, name=\"${4:name}\"),$0"
+    ],
+    "description": "URL path with slug"
+  },
+  "re_path": {
+    "prefix": "djrepath",
+    "body": [
+      "re_path(r\"^${1:pattern}$\", ${2:views}.${3:view_name}, name=\"${4:name}\"),$0"
+    ],
+    "description": "Regex URL path"
+  },
+  "URL Include": {
+    "prefix": "djinclude",
+    "body": ["path(\"${1:prefix}/\", include(\"${2:app_name}.urls\")),$0"],
+    "description": "URL include"
+  },
+  "URL Patterns List": {
+    "prefix": "djurlpatterns",
+    "body": [
+      "from django.urls import path",
+      "from . import views",
+      "",
+      "app_name = \"${1:app_name}\"",
+      "",
+      "urlpatterns = [",
+      "    path(\"\", views.${2:index}, name=\"index\"),",
+      "    $0",
+      "]"
+    ],
+    "description": "urlpatterns boilerplate"
+  },
+  "CRUD URL Pattern": {
+    "prefix": "djcrudurls",
+    "body": [
+      "path(\"\", views.${1:Model}ListView.as_view(), name=\"${2:$1}-list\"),",
+      "path(\"<int:pk>/\", views.${1:Model}DetailView.as_view(), name=\"${2:$1}-detail\"),",
+      "path(\"create/\", views.${1:Model}CreateView.as_view(), name=\"${2:$1}-create\"),",
+      "path(\"<int:pk>/update/\", views.${1:Model}UpdateView.as_view(), name=\"${2:$1}-update\"),",
+      "path(\"<int:pk>/delete/\", views.${1:Model}DeleteView.as_view(), name=\"${2:$1}-delete\"),$0"
+    ],
+    "description": "CRUD URL patterns"
+  },
+  "API URL Pattern": {
+    "prefix": "djapipath",
+    "body": [
+      "path(\"api/${1:endpoint}/\", ${2:views}.${3:view_name}, name=\"api-${4:name}\"),$0"
+    ],
+    "description": "API URL path"
+  },
+  "namespace URLs": {
+    "prefix": "djnamespace",
+    "body": [
+      "path(\"${1:prefix}/\", include((\"${2:app_name}.urls\", \"${2:app_name}\"), namespace=\"${3:namespace}\")),$0"
+    ],
+    "description": "URL with namespace"
+  },
+  "ModelForm": {
+    "prefix": "djmodelform",
+    "body": [
+      "class ${1:ModelName}Form(forms.ModelForm):",
+      "    class Meta:",
+      "        model = ${2:$1}",
+      "        fields = [${3:\"__all__\"}]",
+      "        ${4:exclude = []}",
+      "        ${5:widgets = {}}",
+      "    $0"
+    ],
+    "description": "ModelForm"
+  },
+  "ModelForm with widgets": {
+    "prefix": "djmodelformwidgets",
+    "body": [
+      "class ${1:ModelName}Form(forms.ModelForm):",
+      "    class Meta:",
+      "        model = ${2:$1}",
+      "        fields = [${3:\"__all__\"}]",
+      "        widgets = {",
+      "            \"${4:field_name}\": forms.${5:TextInput}(attrs={",
+      "                \"class\": \"${6:form-control}\",",
+      "                ${7:\"placeholder\": \"${8:placeholder}\"}",
+      "            }),",
+      "        }",
+      "    $0"
+    ],
+    "description": "ModelForm with custom widgets"
+  },
+  "Form": {
+    "prefix": "djform",
+    "body": [
+      "class ${1:FormName}(forms.Form):",
+      "    ${2:field_name} = forms.${3|CharField,EmailField,IntegerField,BooleanField|}(${4:required=True})$0"
+    ],
+    "description": "Form"
+  },
+  "Form CharField": {
+    "prefix": "djfchar",
+    "body": [
+      "${1:field_name} = forms.CharField(${2:max_length=${3:255}, required=${4:True}})$0"
+    ],
+    "description": "Form CharField"
+  },
+  "Form EmailField": {
+    "prefix": "djfemail",
+    "body": ["${1:email} = forms.EmailField(${2:required=True})$0"],
+    "description": "Form EmailField"
+  },
+  "Form IntegerField": {
+    "prefix": "djfint",
+    "body": ["${1:field_name} = forms.IntegerField(${2:required=True})$0"],
+    "description": "Form IntegerField"
+  },
+  "Form BooleanField": {
+    "prefix": "djfbool",
+    "body": ["${1:field_name} = forms.BooleanField(${2:required=False})$0"],
+    "description": "Form BooleanField"
+  },
+  "Form ChoiceField": {
+    "prefix": "djfchoice",
+    "body": ["${1:field_name} = forms.ChoiceField(choices=${2:CHOICES})$0"],
+    "description": "Form ChoiceField"
+  },
+  "Form DateField": {
+    "prefix": "djfdate",
+    "body": [
+      "${1:date} = forms.DateField(widget=forms.DateInput(attrs={\"type\": \"date\"}))$0"
+    ],
+    "description": "Form DateField"
+  },
+  "Form FileField": {
+    "prefix": "djffile",
+    "body": ["${1:file} = forms.FileField(${2:required=True})$0"],
+    "description": "Form FileField"
+  },
+  "Form ImageField": {
+    "prefix": "djfimage",
+    "body": ["${1:image} = forms.ImageField(${2:required=True})$0"],
+    "description": "Form ImageField"
+  },
+  "Form ModelChoiceField": {
+    "prefix": "djfmodelchoice",
+    "body": [
+      "${1:field_name} = forms.ModelChoiceField(queryset=${2:Model}.objects.all())$0"
+    ],
+    "description": "Form ModelChoiceField"
+  },
+  "Form ModelMultipleChoiceField": {
+    "prefix": "djfmodelmultiple",
+    "body": [
+      "${1:field_name} = forms.ModelMultipleChoiceField(queryset=${2:Model}.objects.all())$0"
+    ],
+    "description": "Form ModelMultipleChoiceField"
+  },
+  "Form Clean Method": {
+    "prefix": "djclean",
+    "body": [
+      "def clean_${1:field_name}(self):",
+      "    ${1:field_name} = self.cleaned_data.get(\"${1:field_name}\")",
+      "    ${2:# Validation logic}",
+      "    return ${1:field_name}$0"
+    ],
+    "description": "Form field clean method"
+  },
+  "Form Clean": {
+    "prefix": "djcleanall",
+    "body": [
+      "def clean(self):",
+      "    cleaned_data = super().clean()",
+      "    ${1:# Cross-field validation}",
+      "    return cleaned_data$0"
+    ],
+    "description": "Form clean method"
+  },
+  "Form __init__": {
+    "prefix": "djforminit",
+    "body": [
+      "def __init__(self, *args, **kwargs):",
+      "    ${1:# Extract custom kwargs}",
+      "    super().__init__(*args, **kwargs)",
+      "    ${2:# Custom initialization}$0"
+    ],
+    "description": "Form __init__ override"
+  },
+  "Form save": {
+    "prefix": "djformsave",
+    "body": [
+      "def save(self, commit=True):",
+      "    instance = super().save(commit=False)",
+      "    ${1:# Modify instance}",
+      "    if commit:",
+      "        instance.save()",
+      "    return instance$0"
+    ],
+    "description": "Form save method override"
+  },
+  "Formset": {
+    "prefix": "djformset",
+    "body": [
+      "${1:FormSet} = forms.modelformset_factory(",
+      "    ${2:Model},",
+      "    form=${3:ModelForm},",
+      "    extra=${4:1},",
+      "    can_delete=${5:True}",
+      ")$0"
+    ],
+    "description": "modelformset_factory"
+  },
+  "Inline Formset": {
+    "prefix": "djinlineformset",
+    "body": [
+      "${1:FormSet} = forms.inlineformset_factory(",
+      "    ${2:ParentModel},",
+      "    ${3:ChildModel},",
+      "    form=${4:ChildForm},",
+      "    extra=${5:1},",
+      "    can_delete=${6:True}",
+      ")$0"
+    ],
+    "description": "inlineformset_factory"
+  }
+}
