@@ -2,6 +2,10 @@
 submodule = "extensions/0x96f"
 version = "1.3.5"
 
+[0xtz]
+submodule = "extensions/0xtz"
+version = "0.0.1"
+
 [1984-theme]
 submodule = "extensions/1984"
 version = "0.1.2"
@@ -33,6 +37,10 @@ version = "1.1.1"
 [adwaita-pastel]
 submodule = "extensions/adwaita-pastel"
 version = "0.0.2"
+
+[aesthetic-theme]
+submodule = "extensions/aesthetic-theme"
+version = "1.0.0"
 
 [agda]
 submodule = "extensions/agda"
@@ -109,6 +117,10 @@ version = "0.0.1"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
+version = "0.0.1"
+
+[asn1]
+submodule = "extensions/asn1"
 version = "0.0.1"
 
 [ass]
@@ -296,6 +308,10 @@ version = "0.0.2"
 submodule = "extensions/bsl"
 version = "0.0.1"
 
+[bubblegum]
+submodule = "extensions/bubblegum"
+version = "0.1.0"
+
 [c3]
 submodule = "extensions/c3"
 version = "0.0.2"
@@ -445,6 +461,10 @@ version = "0.2.2"
 submodule = "extensions/codely-theme"
 version = "0.0.1"
 
+[codeowners]
+submodule = "extensions/codeowners"
+version = "0.1.0"
+
 [codesandbox-theme]
 submodule = "extensions/codesandbox-theme"
 version = "0.0.5"
@@ -468,7 +488,7 @@ version = "1.0.6"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.2.0"
+version = "0.3.0"
 
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
@@ -529,7 +549,7 @@ version = "0.0.3"
 
 [ctags]
 submodule = "extensions/ctags"
-version = "0.0.1"
+version = "0.0.2"
 
 [cucumber]
 submodule = "extensions/cucumber"
@@ -631,6 +651,10 @@ version = "0.0.1"
 submodule = "extensions/decorative-stitch"
 version = "1.0.0"
 
+[defold]
+submodule = "extensions/defold"
+version = "0.1.4"
+
 [deno]
 submodule = "extensions/deno"
 version = "0.1.1"
@@ -659,7 +683,7 @@ version = "0.2.3"
 
 [django]
 submodule = "extensions/django"
-version = "0.1.1"
+version = "0.2.0"
 
 [docker-compose]
 submodule = "extensions/docker-compose"
@@ -683,6 +707,10 @@ version = "1.1.0"
 
 [dram]
 submodule = "extensions/dram"
+version = "1.0.0"
+
+[dream]
+submodule = "extensions/dream"
 version = "1.0.0"
 
 [duckyscript]
@@ -716,6 +744,10 @@ version = "0.0.1"
 [elderberry]
 submodule = "extensions/elderberry"
 version = "0.1.0"
+
+[electron-vue-theme]
+submodule = "extensions/electron-vue-theme"
+version = "0.0.1"
 
 [elisp]
 submodule = "extensions/elisp"
@@ -753,6 +785,10 @@ version = "0.0.2"
 [emmet]
 submodule = "extensions/emmet"
 version = "0.0.8"
+
+[emmylua]
+submodule = "extensions/emmylua"
+version = "0.17.0"
 
 [env]
 submodule = "extensions/env"
@@ -1239,6 +1275,10 @@ version = "0.0.1"
 submodule = "extensions/jellybeans-vim"
 version = "0.0.2"
 
+[jetbrains-darcula-theme-by-bronya0]
+submodule = "extensions/jetbrains-darcula-theme-by-bronya0"
+version = "0.1.3"
+
 [jetbrains-icons]
 submodule = "extensions/jetbrains-icons"
 version = "0.0.3"
@@ -1419,6 +1459,11 @@ version = "0.0.1"
 submodule = "extensions/lonely-planet-theme"
 version = "0.0.1"
 
+[looped-themes]
+submodule = "extensions/looped-themes"
+version = "1.0.4"
+path = "zed"
+
 [lotus-theme]
 submodule = "extensions/lotus-theme"
 version = "0.1.0"
@@ -1481,7 +1526,7 @@ version = "0.0.5"
 
 [markdownlint]
 submodule = "extensions/markdownlint"
-version = "0.3.0"
+version = "0.4.0"
 
 [marksman]
 submodule = "extensions/marksman"
@@ -1524,6 +1569,10 @@ submodule = "extensions/maybe-material"
 path = "extension/"
 version = "0.1.0"
 
+[mcfunction]
+submodule = "extensions/mcfunction"
+version = "0.0.1"
+
 [mcp-planetscale]
 submodule = "extensions/mcp-planetscale"
 version = "0.0.1"
@@ -1554,7 +1603,7 @@ version = "0.0.5"
 
 [mcp-server-exa-search]
 submodule = "extensions/mcp-server-exa-search"
-version = "0.0.3"
+version = "0.1.0"
 
 [mcp-server-figma]
 submodule = "extensions/mcp-server-figma"
@@ -1672,6 +1721,10 @@ version = "0.4.0"
 submodule = "extensions/min-theme"
 version = "0.2.1"
 
+[min-theme-plus]
+submodule = "extensions/min-theme-plus"
+version = "1.0.0"
+
 [mint-theme]
 submodule = "extensions/mint-theme"
 version = "0.1.1"
@@ -1762,7 +1815,7 @@ version = "0.0.2"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
-version = "0.0.6"
+version = "1.0.1"
 
 [mustache]
 submodule = "extensions/mustache"
@@ -1783,6 +1836,10 @@ version = "0.0.2"
 [navi]
 submodule = "extensions/navi"
 version = "0.4.1"
+
+[naysayer-theme]
+submodule = "extensions/naysayer-theme"
+version = "1.0.1"
 
 [nebula-pulse]
 submodule = "extensions/nebula-pulse"
@@ -1887,7 +1944,7 @@ version = "0.1.1"
 
 [nord]
 submodule = "extensions/nord"
-version = "0.1.2"
+version = "0.1.4"
 
 [nordic-nvim-theme]
 submodule = "extensions/nordic-nvim-theme"
@@ -1927,7 +1984,7 @@ version = "0.0.1"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.6.0"
+version = "0.6.1"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -1959,7 +2016,7 @@ version = "0.3.0"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.2.3"
+version = "0.2.4"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -2020,6 +2077,10 @@ version = "0.1.0"
 [oolong]
 submodule = "extensions/oolong"
 version = "0.1.1"
+
+[opencode]
+submodule = "extensions/opencode"
+version = "0.1.0"
 
 [openfga]
 submodule = "extensions/fga"
@@ -2185,6 +2246,10 @@ version = "0.8.1"
 submodule = "extensions/pollinations-mcp"
 version = "1.0.4"
 
+[popping-and-locking]
+submodule = "extensions/popping-and-locking"
+version = "0.0.1"
+
 [postgres-context-server]
 submodule = "extensions/postgres-context-server"
 version = "0.0.5"
@@ -2304,11 +2369,11 @@ version = "0.10.0"
 
 [react-snippets]
 submodule = "extensions/react-snippets"
-version = "1.0.0"
+version = "1.0.6"
 
 [react-type-kit-snippets]
 submodule = "extensions/react-type-kit-snippets"
-version = "2.1.0"
+version = "2.1.2"
 
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
@@ -2388,7 +2453,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.14.0"
+version = "0.14.1"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2623,7 +2688,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "1.0.2"
+version = "1.1.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
@@ -2667,7 +2732,7 @@ version = "0.4.3"
 
 [symbols]
 submodule = "extensions/symbols"
-version = "0.2.3"
+version = "1.0.0"
 
 [syntax]
 submodule = "extensions/syntax"
@@ -3022,7 +3087,7 @@ version = "0.2.6"
 
 [vscode-icons]
 submodule = "extensions/vscode-icons"
-version = "0.2.0"
+version = "12.15.0"
 
 [vscode-light-plus]
 submodule = "extensions/vscode-light-plus"
@@ -3088,6 +3153,10 @@ version = "0.1.0"
 submodule = "extensions/wit"
 version = "0.4.0"
 
+[wow-toc]
+submodule = "extensions/wow-toc"
+version = "0.0.1"
+
 [wren]
 submodule = "extensions/wren"
 version = "0.0.1"
@@ -3116,6 +3185,10 @@ version = "0.1.1"
 submodule = "extensions/yaka"
 version = "0.0.4"
 
+[yamura]
+submodule = "extensions/yamura"
+version = "0.0.1"
+
 [yang]
 submodule = "extensions/yang"
 version = "0.0.1"
@@ -3143,6 +3216,10 @@ version = "1.2.1"
 
 [yugen]
 submodule = "extensions/yugen"
+version = "0.0.1"
+
+[zabby]
+submodule = "extensions/zabby"
 version = "0.0.1"
 
 [zed-legacy-themes]
