@@ -678,6 +678,10 @@
 	path = extensions/django
 	url = https://github.com/joshuadavidthomas/zed-django.git
 
+[submodule "extensions/django-snippets"]
+	path = extensions/django-snippets
+	url = https://github.com/bencres/zed-django-snippets.git
+
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
 	url = https://github.com/eth0net/zed-docker-compose.git
