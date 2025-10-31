@@ -2210,6 +2210,10 @@
 	path = extensions/platformio
 	url = https://github.com/weirdo-adam/zed-platformio.git
 
+[submodule "extensions/plato"]
+	path = extensions/plato
+	url = https://github.com/mishankov/plato
+
 [submodule "extensions/playdate"]
 	path = extensions/playdate
 	url = https://github.com/notpeter/playdate-zed-extension.git
@@ -3257,6 +3261,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/plato"]
-	path = extensions/plato
-	url = https://github.com/mishankov/plato
