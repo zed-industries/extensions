@@ -3298,11 +3298,7 @@ version = "0.0.1"
 submodule = "extensions/zwirn"
 version = "0.1.0"
 
-[[extensions]]
-id = "subliminal-nightfall"
-name = "Subliminal Nightfall"
-description = "Dark Subliminal-based theme with Rosé Pine-inspired accents for Rust, TypeScript, Go, Swift, and Python."
-repository = "https://github.com/mhamrah/subliminal-nightfall"
-authors = ["Mike Hamrah"]
+
+[subliminal-nightfall]
+submodule = "extensions/subliminal-nightfall"
 version = "0.1.0"
-category = "themes"
