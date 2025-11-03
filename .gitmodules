@@ -310,6 +310,10 @@
 	path = extensions/bubblegum
 	url = https://github.com/koalefant/zed-bubblegum
 
+[submodule "extensions/bun-docs-mcp"]
+	path = extensions/bun-docs-mcp
+	url = https://github.com/kjanat/bun-docs-mcp-zed.git
+
 [submodule "extensions/c3"]
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
@@ -1248,7 +1252,7 @@
 
 [submodule "extensions/java"]
 	path = extensions/java
-	url = https://github.com/samuser107/zed-java-extension.git
+	url = https://github.com/zed-extensions/java.git
 
 [submodule "extensions/java-eclipse-jdtls"]
 	path = extensions/java-eclipse-jdtls
@@ -1982,6 +1986,10 @@
 	path = extensions/oasis
 	url = https://github.com/aerendem/oasis-zed-theme
 
+[submodule "extensions/oat"]
+	path = extensions/oat
+	url = https://github.com/WhySoBad/zed-oat-extension.git
+
 [submodule "extensions/objectscript"]
 	path = extensions/objectscript
 	url = https://github.com/intersystems/zed-objectscript.git
@@ -2494,6 +2502,10 @@
 	path = extensions/severance
 	url = https://github.com/Zev18/severance-zed.git
 
+[submodule "extensions/shadcn-mcp"]
+	path = extensions/shadcn-mcp
+	url = https://github.com/MrUprizing/zed-mcp-server-shadcn.git
+
 [submodule "extensions/shader-ls"]
 	path = extensions/shader-ls
 	url = https://github.com/cjhowe-us/zed-shader-ls
@@ -2669,6 +2681,10 @@
 [submodule "extensions/sublime-mariana-theme"]
 	path = extensions/sublime-mariana-theme
 	url = https://github.com/hnatiukr/zed-mariana-theme.git
+
+[submodule "extensions/subliminal-nightfall"]
+	path = extensions/subliminal-nightfall
+	url = https://github.com/mhamrah/subliminal-nightfall
 
 [submodule "extensions/sumi-light"]
 	path = extensions/sumi-light
@@ -2973,6 +2989,10 @@
 [submodule "extensions/vacuum"]
 	path = extensions/vacuum
 	url = https://github.com/kovapatrik/zed-vacuum.git
+
+[submodule "extensions/vague"]
+	path = extensions/vague
+	url = https://github.com/vague-theme/vague-zed.git
 
 [submodule "extensions/vala"]
 	path = extensions/vala
