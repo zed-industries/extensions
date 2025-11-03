@@ -182,7 +182,7 @@ version = "0.0.3"
 
 [ayu-darker]
 submodule = "extensions/ayu-darker"
-version = "1.1.0"
+version = "1.1.1"
 
 [azure-context-server]
 submodule = "extensions/azure-context-server"
@@ -311,6 +311,10 @@ version = "0.0.1"
 [bubblegum]
 submodule = "extensions/bubblegum"
 version = "0.1.0"
+
+[bun-docs-mcp]
+submodule = "extensions/bun-docs-mcp"
+version = "0.1.1"
 
 [c3]
 submodule = "extensions/c3"
@@ -488,7 +492,7 @@ version = "1.0.6"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.3.0"
+version = "0.3.1"
 
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
@@ -667,7 +671,7 @@ version = "1.0.0"
 [design-tokens]
 submodule = "extensions/design-tokens"
 path = "extensions/zed"
-version = "0.0.17"
+version = "0.1.17"
 
 [desktop]
 submodule = "extensions/desktop"
@@ -685,13 +689,17 @@ version = "0.2.3"
 submodule = "extensions/django"
 version = "0.2.0"
 
+[django-snippets]
+submodule = "extensions/django-snippets"
+version = "0.0.1"
+
 [docker-compose]
 submodule = "extensions/docker-compose"
 version = "0.1.0"
 
 [dockerfile]
 submodule = "extensions/dockerfile"
-version = "0.0.6"
+version = "0.1.0"
 
 [dogi]
 submodule = "extensions/dogi"
@@ -936,6 +944,10 @@ version = "0.0.1"
 submodule = "extensions/gdscript"
 version = "0.7.0"
 
+[gdscript-snippets]
+submodule = "extensions/gdscript-snippets"
+version = "0.0.2"
+
 [gem]
 submodule = "extensions/gem"
 path = "crates/zed-plugin-gem"
@@ -947,7 +959,7 @@ version = "0.0.1"
 
 [gentle-dark]
 submodule = "extensions/gentle-dark"
-version = "1.2.1"
+version = "1.2.2"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
@@ -1116,7 +1128,7 @@ version = "0.3.0"
 
 [haml]
 submodule = "extensions/haml"
-version = "0.1.3"
+version = "0.2.0"
 
 [hare]
 submodule = "extensions/hare"
@@ -1257,7 +1269,7 @@ version = "0.0.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.5.0"
+version = "6.6.0"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1417,7 +1429,7 @@ version = "0.1.0"
 
 [less]
 submodule = "extensions/less"
-version = "0.0.1"
+version = "0.1.0"
 
 [libsql-context-server]
 submodule = "extensions/libsql-context-server"
@@ -1506,7 +1518,7 @@ version = "0.0.1"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
-version = "0.1.7"
+version = "0.1.8"
 
 [marble]
 submodule = "extensions/marble"
@@ -1679,7 +1691,7 @@ version = "0.0.2"
 
 [mcp-server-sonarqube]
 submodule = "extensions/mcp-server-sonarqube"
-version = "1.0.1"
+version = "1.1.0"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -1984,7 +1996,7 @@ version = "0.0.1"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.6.0"
+version = "0.6.1"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -1994,9 +2006,13 @@ version = "0.1.0"
 submodule = "extensions/oasis"
 version = "0.0.1"
 
+[oat]
+submodule = "extensions/oat"
+version = "0.0.1"
+
 [objectscript]
 submodule = "extensions/objectscript"
-version = "1.0.1"
+version = "1.1.0"
 
 [obsidian-sunset]
 submodule = "extensions/obsidian-sunset"
@@ -2020,7 +2036,7 @@ version = "0.2.4"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "1.0.3"
+version = "1.0.4"
 
 [oh-lucy]
 submodule = "extensions/oh-lucy"
@@ -2077,6 +2093,10 @@ version = "0.1.0"
 [oolong]
 submodule = "extensions/oolong"
 version = "0.1.1"
+
+[opencode]
+submodule = "extensions/opencode"
+version = "0.1.0"
 
 [openfga]
 submodule = "extensions/fga"
@@ -2153,6 +2173,10 @@ version = "0.0.1"
 [penumbra]
 submodule = "extensions/penumbra"
 version = "0.1.1"
+
+[penumbra-plus]
+submodule = "extensions/penumbra-plus"
+version = "0.0.3"
 
 [perfect-dusk]
 submodule = "extensions/perfect-dusk"
@@ -2313,7 +2337,7 @@ version = "0.0.3"
 
 [python-requirements]
 submodule = "extensions/python-requirements"
-version = "0.0.2"
+version = "0.0.3"
 
 [python-snippets]
 submodule = "extensions/python-snippets"
@@ -2449,12 +2473,16 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.14.0"
+version = "0.15.0"
 
 [ruff]
 submodule = "extensions/zed"
 path = "extensions/ruff"
 version = "0.1.1"
+
+[rumdl]
+submodule = "extensions/rumdl"
+version = "0.0.1"
 
 [rust-rover-dark-theme]
 submodule = "extensions/rust-rover-dark-theme"
@@ -2511,6 +2539,10 @@ version = "0.0.1"
 [severance-theme]
 submodule = "extensions/severance"
 version = "0.1.1"
+
+[shadcn-mcp]
+submodule = "extensions/shadcn-mcp"
+version = "0.1.0"
 
 [shader-ls]
 submodule = "extensions/shader-ls"
@@ -2583,7 +2615,7 @@ version = "0.1.0"
 
 [snazzy]
 submodule = "extensions/snazzy"
-version = "0.1.0"
+version = "0.1.1"
 
 [snippets]
 submodule = "extensions/zed"
@@ -2616,7 +2648,7 @@ version = "0.1.0"
 
 [solidity]
 submodule = "extensions/solidity"
-version = "0.1.6"
+version = "0.1.8"
 
 [sonokai]
 submodule = "extensions/sonokai"
@@ -2684,11 +2716,15 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "1.0.2"
+version = "1.1.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
 version = "1.1.3"
+
+[subliminal-nightfall]
+submodule = "extensions/subliminal-nightfall"
+version = "0.1.0"
 
 [sumi-light]
 submodule = "extensions/sumi-light"
@@ -2718,13 +2754,17 @@ version = "0.0.2"
 submodule = "extensions/svelte"
 version = "0.2.10"
 
+[svelte-mcp]
+submodule = "extensions/svelte-mcp"
+version = "0.1.0"
+
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
 version = "0.0.7"
 
 [swift]
 submodule = "extensions/swift"
-version = "0.4.3"
+version = "0.4.4"
 
 [symbols]
 submodule = "extensions/symbols"
@@ -2989,6 +3029,10 @@ version = "0.6.0"
 submodule = "extensions/vacuum"
 version = "0.1.0"
 
+[vague]
+submodule = "extensions/vague"
+version = "0.1.0"
+
 [vala]
 submodule = "extensions/vala"
 version = "0.2.0"
@@ -3015,7 +3059,7 @@ version = "0.0.9"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.13"
+version = "0.0.14"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -3079,7 +3123,7 @@ version = "0.2.6"
 
 [vscode-icons]
 submodule = "extensions/vscode-icons"
-version = "0.2.0"
+version = "12.15.0"
 
 [vscode-light-plus]
 submodule = "extensions/vscode-light-plus"
