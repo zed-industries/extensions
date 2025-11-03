@@ -1248,7 +1248,7 @@
 
 [submodule "extensions/java"]
 	path = extensions/java
-	url = https://github.com/samuser107/zed-java-extension.git
+	url = https://github.com/zed-extensions/java.git
 
 [submodule "extensions/java-eclipse-jdtls"]
 	path = extensions/java-eclipse-jdtls
@@ -2493,6 +2493,10 @@
 [submodule "extensions/severance"]
 	path = extensions/severance
 	url = https://github.com/Zev18/severance-zed.git
+
+[submodule "extensions/shadcn-mcp"]
+	path = extensions/shadcn-mcp
+	url = https://github.com/MrUprizing/zed-mcp-server-shadcn.git
 
 [submodule "extensions/shader-ls"]
 	path = extensions/shader-ls
