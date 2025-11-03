@@ -312,6 +312,10 @@ version = "0.0.1"
 submodule = "extensions/bubblegum"
 version = "0.1.0"
 
+[bun-docs-mcp]
+submodule = "extensions/bun-docs-mcp"
+version = "0.1.1"
+
 [c3]
 submodule = "extensions/c3"
 version = "0.0.2"
@@ -667,7 +671,7 @@ version = "1.0.0"
 [design-tokens]
 submodule = "extensions/design-tokens"
 path = "extensions/zed"
-version = "0.1.16"
+version = "0.1.17"
 
 [desktop]
 submodule = "extensions/desktop"
@@ -695,7 +699,7 @@ version = "0.1.0"
 
 [dockerfile]
 submodule = "extensions/dockerfile"
-version = "0.0.6"
+version = "0.1.0"
 
 [dogi]
 submodule = "extensions/dogi"
@@ -942,7 +946,7 @@ version = "0.7.0"
 
 [gdscript-snippets]
 submodule = "extensions/gdscript-snippets"
-version = "0.0.1"
+version = "0.0.2"
 
 [gem]
 submodule = "extensions/gem"
@@ -1124,7 +1128,7 @@ version = "0.3.0"
 
 [haml]
 submodule = "extensions/haml"
-version = "0.1.3"
+version = "0.2.0"
 
 [hare]
 submodule = "extensions/hare"
@@ -1265,7 +1269,7 @@ version = "0.0.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.5.0"
+version = "6.6.0"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1425,7 +1429,7 @@ version = "0.1.0"
 
 [less]
 submodule = "extensions/less"
-version = "0.0.1"
+version = "0.1.0"
 
 [libsql-context-server]
 submodule = "extensions/libsql-context-server"
@@ -2002,6 +2006,10 @@ version = "0.1.0"
 submodule = "extensions/oasis"
 version = "0.0.1"
 
+[oat]
+submodule = "extensions/oat"
+version = "0.0.1"
+
 [objectscript]
 submodule = "extensions/objectscript"
 version = "1.1.0"
@@ -2092,7 +2100,7 @@ version = "0.1.1"
 
 [opencode]
 submodule = "extensions/opencode"
-version = "0.1.0"
+version = "0.1.1"
 
 [openfga]
 submodule = "extensions/fga"
@@ -2469,7 +2477,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.14.1"
+version = "0.15.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2535,6 +2543,10 @@ version = "0.0.1"
 [severance-theme]
 submodule = "extensions/severance"
 version = "0.1.1"
+
+[shadcn-mcp]
+submodule = "extensions/shadcn-mcp"
+version = "0.1.0"
 
 [shader-ls]
 submodule = "extensions/shader-ls"
@@ -2714,6 +2726,10 @@ version = "1.1.0"
 submodule = "extensions/sublime-mariana-theme"
 version = "1.1.3"
 
+[subliminal-nightfall]
+submodule = "extensions/subliminal-nightfall"
+version = "0.1.0"
+
 [sumi-light]
 submodule = "extensions/sumi-light"
 version = "0.0.1"
@@ -2752,7 +2768,7 @@ version = "0.0.7"
 
 [swift]
 submodule = "extensions/swift"
-version = "0.4.3"
+version = "0.4.4"
 
 [symbols]
 submodule = "extensions/symbols"
@@ -3016,6 +3032,10 @@ version = "0.6.0"
 [vacuum]
 submodule = "extensions/vacuum"
 version = "0.1.0"
+
+[vague]
+submodule = "extensions/vague"
+version = "0.1.1"
 
 [vala]
 submodule = "extensions/vala"
