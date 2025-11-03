@@ -678,6 +678,10 @@
 	path = extensions/django
 	url = https://github.com/joshuadavidthomas/zed-django.git
 
+[submodule "extensions/django-snippets"]
+	path = extensions/django-snippets
+	url = https://github.com/bencres/zed-django-snippets.git
+
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
 	url = https://github.com/eth0net/zed-docker-compose.git
@@ -929,6 +933,10 @@
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
 	url = https://github.com/GDQuest/zed-gdscript.git
+
+[submodule "extensions/gdscript-snippets"]
+	path = extensions/gdscript-snippets
+	url = https://github.com/loyal-disloyal/gdscript-zed-snippets.git
 
 [submodule "extensions/gem"]
 	path = extensions/gem
@@ -2134,6 +2142,10 @@
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
 
+[submodule "extensions/penumbra-plus"]
+	path = extensions/penumbra-plus
+	url = https://github.com/everdrone/zed-penumbra-plus.git
+
 [submodule "extensions/perfect-dusk"]
 	path = extensions/perfect-dusk
 	url = https://github.com/Bikossor/Perfect-Dusk-Zed.git
@@ -2421,6 +2433,10 @@
 [submodule "extensions/ruby"]
 	path = extensions/ruby
 	url = https://github.com/zed-extensions/ruby.git
+
+[submodule "extensions/rumdl"]
+	path = extensions/rumdl
+	url = https://github.com/inflation/zed-rumdl.git
 
 [submodule "extensions/rust-rover-dark-theme"]
 	path = extensions/rust-rover-dark-theme
