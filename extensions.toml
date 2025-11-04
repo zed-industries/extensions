@@ -3133,9 +3133,14 @@ version = "0.0.2"
 submodule = "extensions/vscode-monokai-charcoal"
 version = "0.0.2"
 
-[vtcode.agent-server]
+[vtcode]
 submodule = "extensions/vtcode"
+path = "zed-extension"
 version = "0.37.1"
+
+  [vtcode.agent-server]
+  submodule = "extensions/vtcode"
+  version = "0.37.1"
 
 [vue]
 submodule = "extensions/vue"
