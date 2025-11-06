@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: 332626e5825564e97afc969292c90d9b0fb40b6d
+  ZED_EXTENSION_CLI_SHA: 7cfce605704d41ca247e3f84804bf323f6c6caaf
 
 jobs:
   package:
@@ -24,7 +24,7 @@ jobs:
           clean: false
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4
+      - uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4
         with:
           version: 9
 
@@ -35,7 +35,7 @@ jobs:
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: |
             zed-extension
@@ -57,7 +57,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           key: cache-build-dependencies
           path: |
