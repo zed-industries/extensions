@@ -147,6 +147,10 @@ version = "0.1.8"
 submodule = "extensions/atomize"
 version = "0.0.1"
 
+[auggie]
+submodule = "extensions/auggie"
+version = "0.1.0"
+
 [aura-theme]
 submodule = "extensions/aura"
 path = "packages/zed"
@@ -459,7 +463,7 @@ version = "0.2.7"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.2.2"
+version = "0.2.4"
 
 [codely-theme]
 submodule = "extensions/codely-theme"
@@ -2180,7 +2184,7 @@ version = "0.1.1"
 
 [penumbra-plus]
 submodule = "extensions/penumbra-plus"
-version = "0.0.3"
+version = "0.0.6"
 
 [perfect-dusk]
 submodule = "extensions/perfect-dusk"
@@ -2272,7 +2276,7 @@ version = "0.8.1"
 
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
-version = "1.0.5"
+version = "1.0.7"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -2697,6 +2701,10 @@ version = "0.0.3"
 [ssh-config]
 submodule = "extensions/ssh-config"
 version = "0.1.0"
+
+[stakpak]
+submodule = "extensions/stakpak-agent"
+version = "0.1.6"
 
 [stan]
 submodule = "extensions/stan"
@@ -3159,7 +3167,7 @@ version = "0.0.3"
 
 [wakatime]
 submodule = "extensions/wakatime"
-version = "0.1.9"
+version = "0.1.10"
 
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
