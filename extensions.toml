@@ -2100,7 +2100,8 @@ version = "0.1.1"
 
 [opencode]
 submodule = "extensions/opencode"
-version = "0.1.1"
+path = "packages/extensions/zed"
+version = "1.0.44"
 
 [openfga]
 submodule = "extensions/fga"
