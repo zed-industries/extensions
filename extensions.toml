@@ -147,6 +147,10 @@ version = "0.1.8"
 submodule = "extensions/atomize"
 version = "0.0.1"
 
+[auggie]
+submodule = "extensions/auggie"
+version = "0.1.0"
+
 [aura-theme]
 submodule = "extensions/aura"
 path = "packages/zed"
@@ -459,7 +463,7 @@ version = "0.2.7"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.2.2"
+version = "0.2.4"
 
 [codely-theme]
 submodule = "extensions/codely-theme"
@@ -516,7 +520,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.3"
+version = "2.0.0"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -1711,7 +1715,7 @@ version = "0.1.0"
 
 [mdx]
 submodule = "extensions/mdx"
-version = "0.2.0"
+version = "0.3.0"
 
 [melange]
 submodule = "extensions/melange"
@@ -2052,7 +2056,7 @@ version = "1.5.5"
 
 [omnetpp]
 submodule = "extensions/omnetpp"
-version = "0.0.4"
+version = "0.0.5"
 
 [one-black-theme]
 submodule = "extensions/one-black-theme"
@@ -2100,7 +2104,8 @@ version = "0.1.1"
 
 [opencode]
 submodule = "extensions/opencode"
-version = "0.1.1"
+path = "packages/extensions/zed"
+version = "1.0.44"
 
 [openfga]
 submodule = "extensions/fga"
@@ -2180,7 +2185,7 @@ version = "0.1.1"
 
 [penumbra-plus]
 submodule = "extensions/penumbra-plus"
-version = "0.0.3"
+version = "0.0.6"
 
 [perfect-dusk]
 submodule = "extensions/perfect-dusk"
@@ -2272,7 +2277,7 @@ version = "0.8.1"
 
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
-version = "1.0.5"
+version = "1.0.7"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -2473,7 +2478,7 @@ version = "0.0.1"
 
 [rshtml]
 submodule = "extensions/rshtml"
-version = "0.1.3"
+version = "0.1.4"
 
 [rst]
 submodule = "extensions/rst"
@@ -2697,6 +2702,10 @@ version = "0.0.3"
 [ssh-config]
 submodule = "extensions/ssh-config"
 version = "0.1.0"
+
+[stakpak]
+submodule = "extensions/stakpak"
+version = "0.1.6"
 
 [stan]
 submodule = "extensions/stan"
@@ -3023,7 +3032,7 @@ version = "0.1.4"
 
 [v]
 submodule = "extensions/v"
-version = "0.4.2"
+version = "0.5.0"
 
 [v-theme]
 submodule = "extensions/v-theme"
@@ -3159,7 +3168,7 @@ version = "0.0.3"
 
 [wakatime]
 submodule = "extensions/wakatime"
-version = "0.1.9"
+version = "0.1.10"
 
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
