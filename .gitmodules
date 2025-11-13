@@ -414,6 +414,10 @@
 	path = extensions/chawyehsu-vscode-icons
 	url = https://github.com/chawyehsu/zed-vscode-icons-theme.git
 
+[submodule "extensions/chocolate"]
+	path = extensions/chocolate
+	url = https://github.com/brunozalc/zed-chocolate
+
 [submodule "extensions/circom"]
 	path = extensions/circom
 	url = https://github.com/ThinkingFrog/zed-circom.git
@@ -2080,7 +2084,7 @@
 
 [submodule "extensions/opencode"]
 	path = extensions/opencode
-	url = https://github.com/sst/opencode-zed-extension.git
+	url = https://github.com/sst/opencode.git
 
 [submodule "extensions/openmoji-icons"]
 	path = extensions/openmoji-icons
@@ -2614,6 +2618,10 @@
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
 
+[submodule "extensions/soma"]
+	path = extensions/soma
+	url = https://github.com/SrGaabriel/zed-soma.git
+
 [submodule "extensions/sonokai"]
 	path = extensions/sonokai
 	url = https://github.com/ciathefed/zed-sonokai.git
@@ -2654,8 +2662,8 @@
 	path = extensions/ssh-config
 	url = https://github.com/pranavmangal/zed-ssh-config.git
 
-[submodule "extensions/stakpak-agent"]
-	path = extensions/stakpak-agent
+[submodule "extensions/stakpak"]
+	path = extensions/stakpak
 	url = https://github.com/stakpak/zed-stakpak-agent-server.git
 
 [submodule "extensions/stan"]
@@ -3049,6 +3057,10 @@
 [submodule "extensions/viewtree"]
 	path = extensions/viewtree
 	url = https://github.com/Dev-cmyser/zed-view.tree-mol-support.git
+
+[submodule "extensions/vim-theme"]
+	path = extensions/vim-theme
+	url = https://github.com/daniel-thompson/vim-theme-for-zed.git
 
 [submodule "extensions/vintergata"]
 	path = extensions/vintergata
