@@ -26,6 +26,10 @@
 	path = extensions/adaltas-theme
 	url = https://github.com/adaltas/zed-adaltas-theme.git
 
+[submodule "extensions/adaptify"]
+	path = extensions/adaptify
+	url = https://github.com/lodev09/adaptify-zed.git
+
 [submodule "extensions/adech"]
 	path = extensions/adech
 	url = https://github.com/adechlien/adech-theme-zed.git
@@ -413,6 +417,10 @@
 [submodule "extensions/chawyehsu-vscode-icons"]
 	path = extensions/chawyehsu-vscode-icons
 	url = https://github.com/chawyehsu/zed-vscode-icons-theme.git
+
+[submodule "extensions/chocolate"]
+	path = extensions/chocolate
+	url = https://github.com/brunozalc/zed-chocolate
 
 [submodule "extensions/circom"]
 	path = extensions/circom
@@ -2084,7 +2092,7 @@
 
 [submodule "extensions/opencode"]
 	path = extensions/opencode
-	url = https://github.com/sst/opencode-zed-extension.git
+	url = https://github.com/sst/opencode.git
 
 [submodule "extensions/openmoji-icons"]
 	path = extensions/openmoji-icons
@@ -2284,7 +2292,7 @@
 
 [submodule "extensions/prolog"]
 	path = extensions/prolog
-	url = https://github.com/Piefayth/zed-prolog
+	url = https://github.com/Gaspartcho/zed-prolog
 
 [submodule "extensions/psalm"]
 	path = extensions/psalm
@@ -2618,6 +2626,10 @@
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
 
+[submodule "extensions/soma"]
+	path = extensions/soma
+	url = https://github.com/SrGaabriel/zed-soma.git
+
 [submodule "extensions/sonokai"]
 	path = extensions/sonokai
 	url = https://github.com/ciathefed/zed-sonokai.git
@@ -2658,8 +2670,8 @@
 	path = extensions/ssh-config
 	url = https://github.com/pranavmangal/zed-ssh-config.git
 
-[submodule "extensions/stakpak-agent"]
-	path = extensions/stakpak-agent
+[submodule "extensions/stakpak"]
+	path = extensions/stakpak
 	url = https://github.com/stakpak/zed-stakpak-agent-server.git
 
 [submodule "extensions/stan"]
@@ -2817,6 +2829,10 @@
 [submodule "extensions/textproto"]
 	path = extensions/textproto
 	url = https://github.com/mikn/zed-textproto.git
+
+[submodule "extensions/tflint"]
+	path = extensions/tflint
+	url = https://github.com/mgrubb/zed-tflint.git
 
 [submodule "extensions/the-best-theme"]
 	path = extensions/the-best-theme
@@ -3049,6 +3065,10 @@
 [submodule "extensions/viewtree"]
 	path = extensions/viewtree
 	url = https://github.com/Dev-cmyser/zed-view.tree-mol-support.git
+
+[submodule "extensions/vim-theme"]
+	path = extensions/vim-theme
+	url = https://github.com/daniel-thompson/vim-theme-for-zed.git
 
 [submodule "extensions/vintergata"]
 	path = extensions/vintergata
