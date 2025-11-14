@@ -26,6 +26,10 @@ version = "0.3.0"
 submodule = "extensions/adaltas-theme"
 version = "0.0.2"
 
+[adaptify]
+submodule = "extensions/adaptify"
+version = "0.1.0"
+
 [adech]
 submodule = "extensions/adech"
 version = "2.0.1"
@@ -114,6 +118,10 @@ version = "1.0.0"
 [ariake]
 submodule = "extensions/ariake"
 version = "0.0.1"
+
+[arkts]
+submodule = "extensions/arkts"
+version = "0.1.0"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
@@ -362,11 +370,11 @@ version = "0.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.23"
+version = "0.2.24"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
-version = "0.3.2"
+version = "0.3.3"
 
 [catppuccin-blur-plus]
 submodule = "extensions/catppuccin-blur-plus"
@@ -374,7 +382,7 @@ version = "0.1.1"
 
 [catppuccin-icons]
 submodule = "extensions/catppuccin-icons"
-version = "1.22.0"
+version = "1.23.1"
 
 [cedar]
 submodule = "extensions/cedar"
@@ -416,6 +424,10 @@ version = "0.1.3"
 [chawyehsu-vscode-icons]
 submodule = "extensions/chawyehsu-vscode-icons"
 version = "0.5.0"
+
+[chocolate]
+submodule = "extensions/chocolate"
+version = "0.0.2"
 
 [circom]
 submodule = "extensions/circom"
@@ -496,7 +508,7 @@ version = "1.0.6"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.3.2"
+version = "0.4.0"
 
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
@@ -520,7 +532,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "1.0.3"
+version = "2.0.0"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -641,7 +653,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.0"
+version = "0.3.1"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -800,7 +812,7 @@ version = "0.0.8"
 
 [emmylua]
 submodule = "extensions/emmylua"
-version = "0.17.0"
+version = "0.18.0"
 
 [env]
 submodule = "extensions/env"
@@ -930,7 +942,7 @@ version = "0.0.1"
 
 [fsharp]
 submodule = "extensions/fsharp"
-version = "0.0.7"
+version = "0.0.9"
 
 [fsm]
 submodule = "extensions/fsm"
@@ -1273,7 +1285,7 @@ version = "0.0.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.6.0"
+version = "6.7.1"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1397,7 +1409,7 @@ version = "0.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.1.4"
+version = "0.1.5"
 
 [koto]
 submodule = "extensions/koto"
@@ -1699,7 +1711,7 @@ version = "0.0.2"
 
 [mcp-server-sonarqube]
 submodule = "extensions/mcp-server-sonarqube"
-version = "1.1.0"
+version = "1.2.0"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -1719,7 +1731,7 @@ version = "0.1.0"
 
 [mdx]
 submodule = "extensions/mdx"
-version = "0.2.0"
+version = "0.3.0"
 
 [melange]
 submodule = "extensions/melange"
@@ -2016,7 +2028,7 @@ version = "0.0.1"
 
 [oat]
 submodule = "extensions/oat"
-version = "0.0.1"
+version = "0.0.2"
 
 [objectscript]
 submodule = "extensions/objectscript"
@@ -2040,7 +2052,7 @@ version = "0.3.0"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.2.4"
+version = "0.3.1"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -2056,7 +2068,7 @@ version = "1.5.5"
 
 [omnetpp]
 submodule = "extensions/omnetpp"
-version = "0.0.4"
+version = "0.0.5"
 
 [one-black-theme]
 submodule = "extensions/one-black-theme"
@@ -2077,6 +2089,10 @@ version = "1.0.0"
 [one-dark-pro]
 submodule = "extensions/one-dark-pro"
 version = "0.0.10"
+
+[one-dark-pro-enhanced]
+submodule = "extensions/one-dark-pro-enhanced"
+version = "0.0.12"
 
 [one-dark-pro-max]
 submodule = "extensions/one-dark-pro-max"
@@ -2104,7 +2120,8 @@ version = "0.1.1"
 
 [opencode]
 submodule = "extensions/opencode"
-version = "0.1.1"
+path = "packages/extensions/zed"
+version = "1.0.61"
 
 [openfga]
 submodule = "extensions/fga"
@@ -2308,7 +2325,7 @@ version = "0.0.1"
 
 [prolog]
 submodule = "extensions/prolog"
-version = "0.0.1"
+version = "0.0.2"
 
 [proto]
 submodule = "extensions/zed"
@@ -2366,6 +2383,10 @@ version = "0.2.0"
 [quakec]
 submodule = "extensions/quakec"
 version = "0.0.2"
+
+[quasi-monochrome]
+submodule = "extensions/quasi-monochrome"
+version = "0.0.1"
 
 [quiet-light-theme]
 submodule = "extensions/quiet-light-theme"
@@ -2477,7 +2498,7 @@ version = "0.0.1"
 
 [rshtml]
 submodule = "extensions/rshtml"
-version = "0.1.3"
+version = "0.1.4"
 
 [rst]
 submodule = "extensions/rst"
@@ -2485,7 +2506,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.15.0"
+version = "0.16.0"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2582,7 +2603,7 @@ version = "0.0.1"
 
 [siri]
 submodule = "extensions/siri"
-version = "0.0.11"
+version = "0.0.12"
 
 [sitruuna]
 submodule = "extensions/sitruuna"
@@ -2640,7 +2661,7 @@ version = "0.0.1"
 
 [snowfall]
 submodule = "extensions/snowfall"
-version = "0.2.1"
+version = "0.2.2"
 
 [snowflake]
 submodule = "extensions/snowflake"
@@ -2660,7 +2681,11 @@ version = "0.1.0"
 
 [solidity]
 submodule = "extensions/solidity"
-version = "0.1.8"
+version = "0.1.9"
+
+[soma]
+submodule = "extensions/soma"
+version = "0.2.0"
 
 [sonokai]
 submodule = "extensions/sonokai"
@@ -2703,7 +2728,7 @@ submodule = "extensions/ssh-config"
 version = "0.1.0"
 
 [stakpak]
-submodule = "extensions/stakpak-agent"
+submodule = "extensions/stakpak"
 version = "0.1.6"
 
 [stan]
@@ -2863,6 +2888,10 @@ version = "0.0.3"
 submodule = "extensions/textproto"
 version = "0.1.0"
 
+[tflint]
+submodule = "extensions/tflint"
+version = "0.1.0"
+
 [the-best-theme]
 submodule = "extensions/the-best-theme"
 version = "0.0.1"
@@ -2898,7 +2927,7 @@ path = "packages/zed"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"
-version = "0.6.0"
+version = "0.7.0"
 
 [tombi]
 submodule = "extensions/tombi"
@@ -2951,7 +2980,7 @@ version = "0.0.9"
 
 [tsgo]
 submodule = "extensions/tsgo"
-version = "0.0.3"
+version = "0.0.4"
 
 [turtle]
 submodule = "extensions/turtle"
@@ -3031,7 +3060,7 @@ version = "0.1.4"
 
 [v]
 submodule = "extensions/v"
-version = "0.4.2"
+version = "0.5.0"
 
 [v-theme]
 submodule = "extensions/v-theme"
@@ -3092,6 +3121,10 @@ version = "0.1.0"
 [viewtree]
 submodule = "extensions/viewtree"
 version = "1.0.6"
+
+[vim-theme]
+submodule = "extensions/vim-theme"
+version = "0.5.1"
 
 [vintergata]
 submodule = "extensions/vintergata"
@@ -3239,7 +3272,7 @@ version = "0.0.4"
 
 [yamura]
 submodule = "extensions/yamura"
-version = "0.0.1"
+version = "0.0.2"
 
 [yang]
 submodule = "extensions/yang"
