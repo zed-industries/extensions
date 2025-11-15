@@ -310,6 +310,10 @@
 	path = extensions/bubblegum
 	url = https://github.com/koalefant/zed-bubblegum
 
+[submodule "extensions/bun-docs-mcp"]
+	path = extensions/bun-docs-mcp
+	url = https://github.com/kjanat/bun-docs-mcp-zed.git
+
 [submodule "extensions/c3"]
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
@@ -678,6 +682,10 @@
 	path = extensions/django
 	url = https://github.com/joshuadavidthomas/zed-django.git
 
+[submodule "extensions/django-snippets"]
+	path = extensions/django-snippets
+	url = https://github.com/bencres/zed-django-snippets.git
+
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
 	url = https://github.com/eth0net/zed-docker-compose.git
@@ -929,6 +937,10 @@
 [submodule "extensions/gdscript"]
 	path = extensions/gdscript
 	url = https://github.com/GDQuest/zed-gdscript.git
+
+[submodule "extensions/gdscript-snippets"]
+	path = extensions/gdscript-snippets
+	url = https://github.com/loyal-disloyal/gdscript-zed-snippets.git
 
 [submodule "extensions/gem"]
 	path = extensions/gem
@@ -1240,7 +1252,7 @@
 
 [submodule "extensions/java"]
 	path = extensions/java
-	url = https://github.com/samuser107/zed-java-extension.git
+	url = https://github.com/zed-extensions/java.git
 
 [submodule "extensions/java-eclipse-jdtls"]
 	path = extensions/java-eclipse-jdtls
@@ -1974,6 +1986,10 @@
 	path = extensions/oasis
 	url = https://github.com/aerendem/oasis-zed-theme
 
+[submodule "extensions/oat"]
+	path = extensions/oat
+	url = https://github.com/WhySoBad/zed-oat-extension.git
+
 [submodule "extensions/objectscript"]
 	path = extensions/objectscript
 	url = https://github.com/intersystems/zed-objectscript.git
@@ -2058,6 +2074,10 @@
 	path = extensions/oolong
 	url = https://github.com/jmg-duarte/oolong-zed.git
 
+[submodule "extensions/opencode"]
+	path = extensions/opencode
+	url = https://github.com/sst/opencode-zed-extension.git
+
 [submodule "extensions/openmoji-icons"]
 	path = extensions/openmoji-icons
 	url = https://github.com/cotyhamilton/zed-emoji-icon-theme.git
@@ -2129,6 +2149,10 @@
 [submodule "extensions/penumbra"]
 	path = extensions/penumbra
 	url = https://github.com/jbisits/penumbra-zed.git
+
+[submodule "extensions/penumbra-plus"]
+	path = extensions/penumbra-plus
+	url = https://github.com/everdrone/zed-penumbra-plus.git
 
 [submodule "extensions/perfect-dusk"]
 	path = extensions/perfect-dusk
@@ -2418,6 +2442,10 @@
 	path = extensions/ruby
 	url = https://github.com/zed-extensions/ruby.git
 
+[submodule "extensions/rumdl"]
+	path = extensions/rumdl
+	url = https://github.com/inflation/zed-rumdl.git
+
 [submodule "extensions/rust-rover-dark-theme"]
 	path = extensions/rust-rover-dark-theme
 	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
@@ -2473,6 +2501,10 @@
 [submodule "extensions/severance"]
 	path = extensions/severance
 	url = https://github.com/Zev18/severance-zed.git
+
+[submodule "extensions/shadcn-mcp"]
+	path = extensions/shadcn-mcp
+	url = https://github.com/MrUprizing/zed-mcp-server-shadcn.git
 
 [submodule "extensions/shader-ls"]
 	path = extensions/shader-ls
@@ -2646,6 +2678,10 @@
 	path = extensions/sublime-mariana-theme
 	url = https://github.com/hnatiukr/zed-mariana-theme.git
 
+[submodule "extensions/subliminal-nightfall"]
+	path = extensions/subliminal-nightfall
+	url = https://github.com/mhamrah/subliminal-nightfall
+
 [submodule "extensions/sumi-light"]
 	path = extensions/sumi-light
 	url = https://github.com/LogicSatinn/sumi-light-zed.git
@@ -2673,6 +2709,10 @@
 [submodule "extensions/svelte"]
 	path = extensions/svelte
 	url = https://github.com/zed-extensions/svelte.git
+
+[submodule "extensions/svelte-mcp"]
+	path = extensions/svelte-mcp
+	url = https://github.com/ghostdevv/zed-svelte-mcp.git
 
 [submodule "extensions/svelte-snippets"]
 	path = extensions/svelte-snippets
@@ -2946,6 +2986,10 @@
 	path = extensions/vacuum
 	url = https://github.com/kovapatrik/zed-vacuum.git
 
+[submodule "extensions/vague"]
+	path = extensions/vague
+	url = https://github.com/vague-theme/vague-zed.git
+
 [submodule "extensions/vala"]
 	path = extensions/vala
 	url = https://github.com/FyraLabs/zed-vala.git
@@ -3036,7 +3080,7 @@
 
 [submodule "extensions/vscode-icons"]
 	path = extensions/vscode-icons
-	url = https://github.com/pranavmangal/zed-vscode-icons
+	url = https://github.com/vscode-icons/vscode-icons-zed.git
 
 [submodule "extensions/vscode-light-plus"]
 	path = extensions/vscode-light-plus
