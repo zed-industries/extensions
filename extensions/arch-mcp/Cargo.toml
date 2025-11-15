@@ -1,0 +1,15 @@
+[package]
+name = "arch_mcp"
+version = "1.0.0"
+edition = "2021"
+publish = false
+license = "MIT OR GPL-3.0-only"
+
+[lib]
+path = "src/arch_mcp.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+schemars = "0.8"
+zed_extension_api = "0.7.0"
