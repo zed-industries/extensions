@@ -563,6 +563,10 @@ submodule = "extensions/css-modules-kit"
 version = "0.1.0"
 path = "crates/zed"
 
+[css-variables]
+submodule = "extensions/css-variables-zed"
+version = "0.0.1"
+
 [csv]
 submodule = "extensions/csv"
 version = "0.0.3"
