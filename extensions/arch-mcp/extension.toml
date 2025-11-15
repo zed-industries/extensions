@@ -1,0 +1,10 @@
+id = "arch-mcp"
+name = "Arch Linux MCP Server"
+description = "Model Context Protocol Server for Arch Linux (Wiki, AUR, official repos)"
+version = "1.0.0"
+schema_version = 1
+authors = ["Nihal Kumar <2tv8xupqg@mozmail.com>"]
+repository = "https://github.com/nihalxkumar/arch-mcp"
+
+[context_servers.arch-ops-server]
+name = "Arch Linux Operations Server"

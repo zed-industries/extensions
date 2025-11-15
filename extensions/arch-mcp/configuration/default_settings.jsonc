@@ -1,0 +1,20 @@
+{
+  // Arch Linux MCP Server settings
+  // By default, uses local STDIO: 'uvx arch-ops-server'
+  
+  // === Local STDIO Options ===
+  
+  // Optional: Custom path to the arch-ops-server binary/script
+  // "server_path": "/path/to/arch-ops-server",
+  
+  // Optional: Use local development path (for development only)
+  // "use_local_path": false,
+  // "local_path": "/home/user/dev/arch-mcp",
+  
+  // === Smithery HTTP Option ===
+  
+  // Alternative: Use Smithery hosted server (requires internet)
+  // This will limit the available tools, because it is not on a local Arch Linux machine.
+  // "server_path": "npx",
+  // "args": ["-y", "@smithery/cli", "run", "@nihalxkumar/arch-mcp"]
+}
