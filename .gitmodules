@@ -1666,6 +1666,10 @@
 	path = extensions/mcp-server-nextjs
 	url = https://github.com/MrUprizing/zed-mcp-server-nextjs.git
 
+[submodule "extensions/mcp-server-powerdrill"]
+	path = extensions/mcp-server-powerdrill
+	url = https://github.com/javainthinking/zed-powerdrill-mcp-server.git
+
 [submodule "extensions/mcp-server-puppeteer"]
 	path = extensions/mcp-server-puppeteer
 	url = https://github.com/zed-extensions/mcp-server-puppeteer.git
@@ -1921,6 +1925,10 @@
 [submodule "extensions/nightfox"]
 	path = extensions/nightfox
 	url = https://github.com/ssaunderss/zed-nightfox.git
+
+[submodule "extensions/nightingale"]
+	path = extensions/nightingale
+	url = https://github.com/xeind/nightingale-zed.git
 
 [submodule "extensions/nim"]
 	path = extensions/nim
