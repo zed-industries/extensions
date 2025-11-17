@@ -134,8 +134,8 @@
 	path = extensions/asciidoc
 	url = https://github.com/andreicek/zed-asciidoc.git
 
-[submodule "extensions/ask-starknet-mcp-server"]
-	path = extensions/ask-starknet-mcp-server
+[submodule "extensions/ask-starknet-mcp"]
+	path = extensions/ask-starknet-mcp
 	url = https://github.com/0xpantera/ask-starknet-mcp-server.git
 
 [submodule "extensions/asn1"]
@@ -2745,6 +2745,10 @@
 [submodule "extensions/struct-theme"]
 	path = extensions/struct-theme
 	url = https://gitlab.com/Fake.User/struct-zed-theme.git
+
+[submodule "extensions/structured-text"]
+	path = extensions/structured-text
+	url = https://github.com/Blake-Haydon/zed-structured-text.git
 
 [submodule "extensions/stylelint"]
 	path = extensions/stylelint

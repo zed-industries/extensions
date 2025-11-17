@@ -28,7 +28,7 @@ version = "0.0.2"
 
 [adaptify]
 submodule = "extensions/adaptify"
-version = "0.2.1"
+version = "0.2.3"
 
 [adech]
 submodule = "extensions/adech"
@@ -136,7 +136,7 @@ submodule = "extensions/asciidoc"
 version = "0.0.1"
 
 [ask-starknet-mcp]
-submodule = "extensions/ask-starknet-mcp-server"
+submodule = "extensions/ask-starknet-mcp"
 version = "0.0.1"
 
 [asn1]
@@ -2791,6 +2791,10 @@ version = "0.0.3"
 submodule = "extensions/struct-theme"
 version = "0.0.1"
 
+[structured-text]
+submodule = "extensions/structured-text"
+version = "0.0.1"
+
 [stylelint]
 submodule = "extensions/stylelint"
 version = "1.1.0"
@@ -2996,7 +3000,7 @@ version = "0.2.0"
 
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
-version = "0.0.2"
+version = "0.0.3"
 
 [tron-legacy]
 submodule = "extensions/tron-legacy"
