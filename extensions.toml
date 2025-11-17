@@ -2400,6 +2400,11 @@ version = "0.0.1"
 submodule = "extensions/pyrefly"
 version = "0.0.1"
 
+[pytest-language-server]
+submodule = "extensions/pytest-language-server"
+path = "extensions/zed-extension"
+version = "0.6.0"
+
 [python-refactoring]
 submodule = "extensions/python-refactoring"
 version = "0.0.3"
