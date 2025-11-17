@@ -78,6 +78,10 @@
 	path = extensions/amber-monochrome-monitor-crt-phosphor
 	url = https://github.com/Takk8IS/amber-monochrome-monitor-crt-phosphor-theme-for-zed.git
 
+[submodule "extensions/amp-theme"]
+	path = extensions/amp-theme
+	url = https://codeberg.org/hanna/amp-theme
+
 [submodule "extensions/andromeda"]
 	path = extensions/andromeda
 	url = https://github.com/ChocolateNao/andromeda-zed.git
@@ -110,6 +114,10 @@
 	path = extensions/aquarium-theme
 	url = https://github.com/biaqat/aquarium-theme-zed.git
 
+[submodule "extensions/arc-dark-theme"]
+	path = extensions/arc-dark-theme
+	url = https://github.com/wcygan/zed-arc-dark-theme
+
 [submodule "extensions/arctic-depth"]
 	path = extensions/arctic-depth
 	url = https://github.com/MarvellinusVincent/Arctic-Depth-Zed.git
@@ -125,6 +133,10 @@
 [submodule "extensions/asciidoc"]
 	path = extensions/asciidoc
 	url = https://github.com/andreicek/zed-asciidoc.git
+
+[submodule "extensions/ask-starknet-mcp"]
+	path = extensions/ask-starknet-mcp
+	url = https://github.com/0xpantera/ask-starknet-mcp-server.git
 
 [submodule "extensions/asn1"]
 	path = extensions/asn1
@@ -754,6 +766,10 @@
 	path = extensions/edi
 	url = https://github.com/hugginsio/zed-edi.git
 
+[submodule "extensions/editorconfig"]
+	path = extensions/editorconfig
+	url = https://github.com/notpeter/editorconfig-zed.git
+
 [submodule "extensions/eiffel-theme"]
 	path = extensions/eiffel-theme
 	url = https://github.com/demiurg/zed-theme-eiffel.git
@@ -885,6 +901,10 @@
 [submodule "extensions/flat-theme"]
 	path = extensions/flat-theme
 	url = https://github.com/biaqat/flat-theme-zed.git
+
+[submodule "extensions/flat-themes"]
+	path = extensions/flat-themes
+	url = https://github.com/Aatricks/zed-flat-theme.git
 
 [submodule "extensions/flatbuffers"]
 	path = extensions/flatbuffers
@@ -2729,6 +2749,10 @@
 [submodule "extensions/struct-theme"]
 	path = extensions/struct-theme
 	url = https://gitlab.com/Fake.User/struct-zed-theme.git
+
+[submodule "extensions/structured-text"]
+	path = extensions/structured-text
+	url = https://github.com/Blake-Haydon/zed-structured-text.git
 
 [submodule "extensions/stylelint"]
 	path = extensions/stylelint
