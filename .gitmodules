@@ -138,6 +138,10 @@
 	path = extensions/asciidoc
 	url = https://github.com/andreicek/zed-asciidoc.git
 
+[submodule "extensions/ask-starknet-mcp-server"]
+	path = extensions/ask-starknet-mcp-server
+	url = https://github.com/0xpantera/ask-starknet-mcp-server.git
+
 [submodule "extensions/asn1"]
 	path = extensions/asn1
 	url = https://github.com/tdanner/zed-asn1.git
@@ -765,6 +769,10 @@
 [submodule "extensions/edi"]
 	path = extensions/edi
 	url = https://github.com/hugginsio/zed-edi.git
+
+[submodule "extensions/editorconfig"]
+	path = extensions/editorconfig
+	url = https://github.com/notpeter/editorconfig-zed.git
 
 [submodule "extensions/eiffel-theme"]
 	path = extensions/eiffel-theme
