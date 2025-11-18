@@ -138,8 +138,8 @@
 	path = extensions/asciidoc
 	url = https://github.com/andreicek/zed-asciidoc.git
 
-[submodule "extensions/ask-starknet-mcp-server"]
-	path = extensions/ask-starknet-mcp-server
+[submodule "extensions/ask-starknet-mcp"]
+	path = extensions/ask-starknet-mcp
 	url = https://github.com/0xpantera/ask-starknet-mcp-server.git
 
 [submodule "extensions/asn1"]
@@ -1298,6 +1298,10 @@
 	path = extensions/janet
 	url = https://github.com/vijaykiran/janet-zed.git
 
+[submodule "extensions/jarl"]
+	path = extensions/jarl
+	url = https://github.com/etiennebacher/jarl.git
+
 [submodule "extensions/java"]
 	path = extensions/java
 	url = https://github.com/zed-extensions/java.git
@@ -2030,6 +2034,10 @@
 	path = extensions/nuisance
 	url = https://github.com/xtrasmal/zed-theme-nuisance.git
 
+[submodule "extensions/numscript"]
+	path = extensions/numscript
+	url = https://github.com/bamorim/zed-numscript.git
+
 [submodule "extensions/nunjucks"]
 	path = extensions/nunjucks
 	url = https://github.com/stormwarning/zed-nunjucks.git
@@ -2369,6 +2377,10 @@
 [submodule "extensions/pyrefly"]
 	path = extensions/pyrefly
 	url = https://github.com/zed-extensions/pyrefly.git
+
+[submodule "extensions/pytest-language-server"]
+	path = extensions/pytest-language-server
+	url = https://github.com/bellini666/pytest-language-server.git
 
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
@@ -2750,6 +2762,10 @@
 	path = extensions/struct-theme
 	url = https://gitlab.com/Fake.User/struct-zed-theme.git
 
+[submodule "extensions/structured-text"]
+	path = extensions/structured-text
+	url = https://github.com/Blake-Haydon/zed-structured-text.git
+
 [submodule "extensions/stylelint"]
 	path = extensions/stylelint
 	url = https://github.com/florian-sanders/zed-stylelint.git
@@ -2949,6 +2965,10 @@
 [submodule "extensions/ton"]
 	path = extensions/ton
 	url = https://github.com/Bionic2113/ton-zed.git
+
+[submodule "extensions/toon"]
+	path = extensions/toon
+	url = https://github.com/3swordman/zed-toon.git
 
 [submodule "extensions/tql"]
 	path = extensions/tql
