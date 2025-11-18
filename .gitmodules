@@ -78,6 +78,10 @@
 	path = extensions/amber-monochrome-monitor-crt-phosphor
 	url = https://github.com/Takk8IS/amber-monochrome-monitor-crt-phosphor-theme-for-zed.git
 
+[submodule "extensions/amp-theme"]
+	path = extensions/amp-theme
+	url = https://codeberg.org/hanna/amp-theme
+
 [submodule "extensions/andromeda"]
 	path = extensions/andromeda
 	url = https://github.com/ChocolateNao/andromeda-zed.git
@@ -114,6 +118,10 @@
 	path = extensions/arch-mcp
 	url = https://github.com/nihalxkumar/arch-mcp-zed-extension.git
 
+[submodule "extensions/arc-dark-theme"]
+	path = extensions/arc-dark-theme
+	url = https://github.com/wcygan/zed-arc-dark-theme
+
 [submodule "extensions/arctic-depth"]
 	path = extensions/arctic-depth
 	url = https://github.com/MarvellinusVincent/Arctic-Depth-Zed.git
@@ -129,6 +137,10 @@
 [submodule "extensions/asciidoc"]
 	path = extensions/asciidoc
 	url = https://github.com/andreicek/zed-asciidoc.git
+
+[submodule "extensions/ask-starknet-mcp"]
+	path = extensions/ask-starknet-mcp
+	url = https://github.com/0xpantera/ask-starknet-mcp-server.git
 
 [submodule "extensions/asn1"]
 	path = extensions/asn1
@@ -425,6 +437,10 @@
 [submodule "extensions/chawyehsu-vscode-icons"]
 	path = extensions/chawyehsu-vscode-icons
 	url = https://github.com/chawyehsu/zed-vscode-icons-theme.git
+
+[submodule "extensions/cherri"]
+	path = extensions/cherri
+	url = https://github.com/videah/zed-cherri.git
 
 [submodule "extensions/chocolate"]
 	path = extensions/chocolate
@@ -754,6 +770,10 @@
 	path = extensions/edi
 	url = https://github.com/hugginsio/zed-edi.git
 
+[submodule "extensions/editorconfig"]
+	path = extensions/editorconfig
+	url = https://github.com/notpeter/editorconfig-zed.git
+
 [submodule "extensions/eiffel-theme"]
 	path = extensions/eiffel-theme
 	url = https://github.com/demiurg/zed-theme-eiffel.git
@@ -885,6 +905,10 @@
 [submodule "extensions/flat-theme"]
 	path = extensions/flat-theme
 	url = https://github.com/biaqat/flat-theme-zed.git
+
+[submodule "extensions/flat-themes"]
+	path = extensions/flat-themes
+	url = https://github.com/Aatricks/zed-flat-theme.git
 
 [submodule "extensions/flatbuffers"]
 	path = extensions/flatbuffers
@@ -1186,6 +1210,10 @@
 	path = extensions/hot-dog-stand
 	url = https://github.com/CoasterFan5/hotdog-stand-zed.git
 
+[submodule "extensions/hql"]
+	path = extensions/hql
+	url = https://github.com/el-yawd/hql-zed.git
+
 [submodule "extensions/html-jinja"]
 	path = extensions/html-jinja
 	url = https://github.com/JaagupAverin/html-jinja.git
@@ -1269,6 +1297,10 @@
 [submodule "extensions/janet"]
 	path = extensions/janet
 	url = https://github.com/vijaykiran/janet-zed.git
+
+[submodule "extensions/jarl"]
+	path = extensions/jarl
+	url = https://github.com/etiennebacher/jarl.git
 
 [submodule "extensions/java"]
 	path = extensions/java
@@ -1590,6 +1622,10 @@
 	path = extensions/mcp-planetscale
 	url = https://github.com/hunterjsb/zed-planetscale-mcp.git
 
+[submodule "extensions/mcp-server-2slides"]
+	path = extensions/mcp-server-2slides
+	url = https://github.com/2slides/zed-mcp-server-2slides.git
+
 [submodule "extensions/mcp-server-axiom"]
 	path = extensions/mcp-server-axiom
 	url = https://github.com/zed-extensions/mcp-server-axiom.git
@@ -1665,6 +1701,10 @@
 [submodule "extensions/mcp-server-nextjs"]
 	path = extensions/mcp-server-nextjs
 	url = https://github.com/MrUprizing/zed-mcp-server-nextjs.git
+
+[submodule "extensions/mcp-server-powerdrill"]
+	path = extensions/mcp-server-powerdrill
+	url = https://github.com/javainthinking/zed-powerdrill-mcp-server.git
 
 [submodule "extensions/mcp-server-puppeteer"]
 	path = extensions/mcp-server-puppeteer
@@ -1922,6 +1962,10 @@
 	path = extensions/nightfox
 	url = https://github.com/ssaunderss/zed-nightfox.git
 
+[submodule "extensions/nightingale"]
+	path = extensions/nightingale
+	url = https://github.com/xeind/nightingale-zed.git
+
 [submodule "extensions/nim"]
 	path = extensions/nim
 	url = https://github.com/foxoman/zed-nim.git
@@ -1989,6 +2033,10 @@
 [submodule "extensions/nuisance"]
 	path = extensions/nuisance
 	url = https://github.com/xtrasmal/zed-theme-nuisance.git
+
+[submodule "extensions/numscript"]
+	path = extensions/numscript
+	url = https://github.com/bamorim/zed-numscript.git
 
 [submodule "extensions/nunjucks"]
 	path = extensions/nunjucks
@@ -2329,6 +2377,10 @@
 [submodule "extensions/pyrefly"]
 	path = extensions/pyrefly
 	url = https://github.com/zed-extensions/pyrefly.git
+
+[submodule "extensions/pytest-language-server"]
+	path = extensions/pytest-language-server
+	url = https://github.com/bellini666/pytest-language-server.git
 
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
@@ -2710,6 +2762,10 @@
 	path = extensions/struct-theme
 	url = https://gitlab.com/Fake.User/struct-zed-theme.git
 
+[submodule "extensions/structured-text"]
+	path = extensions/structured-text
+	url = https://github.com/Blake-Haydon/zed-structured-text.git
+
 [submodule "extensions/stylelint"]
 	path = extensions/stylelint
 	url = https://github.com/florian-sanders/zed-stylelint.git
@@ -2910,6 +2966,10 @@
 	path = extensions/ton
 	url = https://github.com/Bionic2113/ton-zed.git
 
+[submodule "extensions/toon"]
+	path = extensions/toon
+	url = https://github.com/3swordman/zed-toon.git
+
 [submodule "extensions/tql"]
 	path = extensions/tql
 	url = https://github.com/tenzir/zed-tql.git
@@ -3041,6 +3101,10 @@
 [submodule "extensions/vale"]
 	path = extensions/vale
 	url = https://github.com/koozz/zed-vale.git
+
+[submodule "extensions/valt"]
+	path = extensions/valt
+	url = https://github.com/valtism/valt.git
 
 [submodule "extensions/vapor-theme"]
 	path = extensions/vapor-theme
