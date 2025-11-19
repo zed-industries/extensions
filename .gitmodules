@@ -994,6 +994,10 @@
 	path = extensions/gentle-dark
 	url = https://github.com/gentlelionstudios/gentle-dark-zed.git
 
+[submodule "extensions/ghostty"]
+	path = extensions/ghostty
+	url = https://github.com/Else00/ghostty-zed-extension.git
+
 [submodule "extensions/git-firefly"]
 	path = extensions/git-firefly
 	url = https://github.com/d1y/git_firefly.git
@@ -3385,6 +3389,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/ghostty"]
-	path = extensions/ghostty
-	url = https://github.com/Else00/ghostty-zed-extension.git
