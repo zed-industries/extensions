@@ -314,6 +314,10 @@
 	path = extensions/blueprint
 	url = https://github.com/tfuxu/zed-blueprint.git
 
+[submodule "extensions/bluespec-systemverilog"]
+	path = extensions/bluespec-systemverilog
+	url = https://github.com/sandytruant/zed-bsv
+
 [submodule "extensions/bluloco-theme"]
 	path = extensions/bluloco-theme
 	url = https://github.com/uloco/bluloco-zed.git
@@ -808,7 +812,7 @@
 
 [submodule "extensions/elle"]
 	path = extensions/elle
-	url = https://github.com/tnixc/elle.git
+	url = https://github.com/acquitelol/elle.git
 
 [submodule "extensions/elm"]
 	path = extensions/elm

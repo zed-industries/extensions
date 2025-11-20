@@ -316,6 +316,10 @@ version = "0.1.0"
 submodule = "extensions/blueprint"
 version = "0.3.1"
 
+[bluespec-systemverilog]
+submodule = "extensions/bluespec-systemverilog"
+version = "0.1.0"
+
 [bluloco-theme]
 submodule = "extensions/bluloco-theme"
 version = "1.0.0"
@@ -681,7 +685,7 @@ version = "0.3.1"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
-version = "0.2.0"
+version = "0.2.1"
 
 [day-shift]
 submodule = "extensions/day-shift"
@@ -1740,7 +1744,7 @@ version = "0.0.1"
 
 [mcp-server-relytone]
 submodule = "extensions/mcp-server-relytone"
-version = "0.1.0"
+version = "0.2.0"
 
 [mcp-server-resend]
 submodule = "extensions/mcp-server-resend"
@@ -2432,7 +2436,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.7.2"
+version = "0.9.0"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
