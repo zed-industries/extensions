@@ -123,6 +123,10 @@ version = "0.7.1"
 submodule = "extensions/arc-dark-theme"
 version = "0.1.0"
 
+[arch-mcp]
+submodule = "extensions/arch-mcp"
+version = "1.0.0"
+
 [arctic-depth]
 submodule = "extensions/arctic-depth"
 version = "1.0.0"
@@ -1009,6 +1013,10 @@ version = "0.0.1"
 submodule = "extensions/gentle-dark"
 version = "1.2.2"
 
+[ghostty]
+submodule = "extensions/ghostty"
+version = "0.1.0"
+
 [git-firefly]
 submodule = "extensions/git-firefly"
 version = "0.1.1"
@@ -1322,7 +1330,7 @@ version = "0.0.1"
 [jarl]
 submodule = "extensions/jarl"
 path = "editors/zed"
-version = "0.1.0"
+version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
@@ -1648,7 +1656,7 @@ version = "0.0.1"
 
 [mcp-server-2slides]
 submodule = "extensions/mcp-server-2slides"
-version = "0.0.1"
+version = "0.0.2"
 
 [mcp-server-axiom]
 submodule = "extensions/mcp-server-axiom"
@@ -1733,6 +1741,10 @@ version = "0.0.1"
 [mcp-server-puppeteer]
 submodule = "extensions/mcp-server-puppeteer"
 version = "0.0.1"
+
+[mcp-server-relytone]
+submodule = "extensions/mcp-server-relytone"
+version = "0.1.0"
 
 [mcp-server-resend]
 submodule = "extensions/mcp-server-resend"
@@ -2081,7 +2093,7 @@ version = "0.0.1"
 
 [oat]
 submodule = "extensions/oat"
-version = "0.0.3"
+version = "0.0.4"
 
 [objectscript]
 submodule = "extensions/objectscript"
@@ -2420,7 +2432,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.6.0"
+version = "0.7.2"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -2440,7 +2452,7 @@ version = "0.0.4"
 
 [quadlet]
 submodule = "extensions/quadlet"
-version = "0.2.0"
+version = "0.2.1"
 
 [quakec]
 submodule = "extensions/quakec"
@@ -2597,7 +2609,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.1.5"
+version = "0.1.6"
 
 [scheme]
 submodule = "extensions/scheme"
