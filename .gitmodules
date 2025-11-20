@@ -314,6 +314,10 @@
 	path = extensions/blueprint
 	url = https://github.com/tfuxu/zed-blueprint.git
 
+[submodule "extensions/bluespec-systemverilog"]
+	path = extensions/bluespec-systemverilog
+	url = https://github.com/sandytruant/zed-bsv
+
 [submodule "extensions/bluloco-theme"]
 	path = extensions/bluloco-theme
 	url = https://github.com/uloco/bluloco-zed.git
