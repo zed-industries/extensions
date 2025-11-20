@@ -59,6 +59,10 @@ submodule = "extensions/air"
 path = "editors/zed"
 version = "0.1.0"
 
+[aira]
+submodule = "extensions/aira"
+version = "0.0.2"
+
 [alabaster]
 submodule = "extensions/alabaster"
 version = "0.0.3"
@@ -118,6 +122,10 @@ version = "0.7.1"
 [arc-dark-theme]
 submodule = "extensions/arc-dark-theme"
 version = "0.1.0"
+
+[arch-mcp]
+submodule = "extensions/arch-mcp"
+version = "1.0.0"
 
 [arctic-depth]
 submodule = "extensions/arctic-depth"
@@ -307,6 +315,10 @@ version = "0.1.0"
 [blueprint]
 submodule = "extensions/blueprint"
 version = "0.3.1"
+
+[bluespec-systemverilog]
+submodule = "extensions/bluespec-systemverilog"
+version = "0.1.0"
 
 [bluloco-theme]
 submodule = "extensions/bluloco-theme"
@@ -673,7 +685,7 @@ version = "0.3.1"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
-version = "0.2.0"
+version = "0.2.1"
 
 [day-shift]
 submodule = "extensions/day-shift"
@@ -808,7 +820,7 @@ version = "0.1.0"
 [elle]
 submodule = "extensions/elle"
 path = "editors/zed"
-version = "0.3.0"
+version = "0.3.6"
 
 [elm]
 submodule = "extensions/elm"
@@ -1004,6 +1016,10 @@ version = "0.0.1"
 [gentle-dark]
 submodule = "extensions/gentle-dark"
 version = "1.2.2"
+
+[ghostty]
+submodule = "extensions/ghostty"
+version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
@@ -1318,7 +1334,7 @@ version = "0.0.1"
 [jarl]
 submodule = "extensions/jarl"
 path = "editors/zed"
-version = "0.1.0"
+version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
@@ -1644,7 +1660,7 @@ version = "0.0.1"
 
 [mcp-server-2slides]
 submodule = "extensions/mcp-server-2slides"
-version = "0.0.1"
+version = "0.0.2"
 
 [mcp-server-axiom]
 submodule = "extensions/mcp-server-axiom"
@@ -1729,6 +1745,10 @@ version = "0.0.1"
 [mcp-server-puppeteer]
 submodule = "extensions/mcp-server-puppeteer"
 version = "0.0.1"
+
+[mcp-server-relytone]
+submodule = "extensions/mcp-server-relytone"
+version = "0.2.0"
 
 [mcp-server-resend]
 submodule = "extensions/mcp-server-resend"
@@ -2077,7 +2097,7 @@ version = "0.0.1"
 
 [oat]
 submodule = "extensions/oat"
-version = "0.0.3"
+version = "0.0.4"
 
 [objectscript]
 submodule = "extensions/objectscript"
@@ -2243,6 +2263,10 @@ version = "0.0.1"
 [path-of-exile]
 submodule = "extensions/path-of-exile"
 version = "0.0.1"
+
+[pbxproj]
+submodule = "extensions/pbxproj"
+version = "0.2.0"
 
 [penumbra]
 submodule = "extensions/penumbra"
@@ -2412,7 +2436,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.6.0"
+version = "0.9.0"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -2432,7 +2456,7 @@ version = "0.0.4"
 
 [quadlet]
 submodule = "extensions/quadlet"
-version = "0.2.0"
+version = "0.2.1"
 
 [quakec]
 submodule = "extensions/quakec"
@@ -2589,7 +2613,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.1.5"
+version = "0.1.6"
 
 [scheme]
 submodule = "extensions/scheme"
