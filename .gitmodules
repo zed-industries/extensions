@@ -406,6 +406,10 @@
 	path = extensions/catppuccin-icons
 	url = https://github.com/catppuccin/zed-icons.git
 
+[submodule "extensions/cds-lsp"]
+	path = extensions/cds-lsp
+	url = https://github.com/doxblek/zed-cds-lsp
+
 [submodule "extensions/cedar"]
 	path = extensions/cedar
 	url = https://github.com/chrnorm/zed-cedar.git
@@ -577,6 +581,10 @@
 [submodule "extensions/csharp"]
 	path = extensions/csharp
 	url = https://github.com/zed-extensions/csharp.git
+
+[submodule "extensions/csharp-snippets"]
+	path = extensions/csharp-snippets
+	url = https://github.com/kenBinary/csharp-zed-snippets.git
 
 [submodule "extensions/cspell"]
 	path = extensions/cspell
@@ -838,6 +846,10 @@
 	path = extensions/emmylua
 	url = https://github.com/EmmyLuaLs/Zed-EmmyLua.git
 
+[submodule "extensions/emoji-completions"]
+	path = extensions/emoji-completions
+	url = https://github.com/ahockersten/emoji-completions-zed.git
+
 [submodule "extensions/env"]
 	path = extensions/env
 	url = https://github.com/zarifpour/zed-env
@@ -877,6 +889,10 @@
 [submodule "extensions/ezio-theme"]
 	path = extensions/ezio-theme
 	url = https://github.com/dsantolo/ezio-zed.git
+
+[submodule "extensions/fantasticons-icons-theme"]
+	path = extensions/fantasticons-icons-theme
+	url = https://github.com/caiolandgraf/fantasticons-zed.git
 
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
@@ -1005,6 +1021,10 @@
 [submodule "extensions/gentle-dark"]
 	path = extensions/gentle-dark
 	url = https://github.com/gentlelionstudios/gentle-dark-zed.git
+
+[submodule "extensions/ghost-in-the-shell-theme"]
+	path = extensions/ghost-in-the-shell-theme
+	url = https://github.com/ddoemonn/ghost-in-the-shell-theme.git
 
 [submodule "extensions/ghostty"]
 	path = extensions/ghostty
@@ -1814,6 +1834,10 @@
 	path = extensions/modern-icons
 	url = https://github.com/BadRat-in/zed-modern-icons.git
 
+[submodule "extensions/modern-vesper"]
+	path = extensions/modern-vesper
+	url = https://github.com/caiolandgraf/modern-vesper-zed.git
+
 [submodule "extensions/modest-dark"]
 	path = extensions/modest-dark
 	url = https://github.com/timcole/modest-dark.git
@@ -2477,6 +2501,10 @@
 [submodule "extensions/redscript"]
 	path = extensions/redscript
 	url = https://github.com/jac3km4/redscript-zed.git
+
+[submodule "extensions/regedit"]
+	path = extensions/regedit
+	url = https://github.com/JasonGH17/regedit
 
 [submodule "extensions/rego"]
 	path = extensions/rego
