@@ -1238,6 +1238,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/http-client"]
+	path = extensions/http-client
+	url = https://github.com/Davidferl/zed-http-client.git
+
 [submodule "extensions/hurl"]
 	path = extensions/hurl
 	url = https://github.com/tommy/zed-hurl
