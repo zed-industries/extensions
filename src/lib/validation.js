@@ -22,6 +22,11 @@ const EXTENSION_ID_STARTS_WITH_EXCEPTIONS = ["zed-legacy-themes"];
 const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed"];
 
 /**
+ * Exceptions to the rule that extension submodules should match the extension ID.
+ */
+const SUBMODULE_LOCATION_EXCEPTIONS = ["extensions/zed"];
+
+/**
  * @param {Record<string, any>} extensionsToml
  */
 export function validateExtensionsToml(extensionsToml) {
@@ -102,8 +107,6 @@ export function validateGitmodules(gitmodules) {
  * @param {import('git-submodule-js').Submodule} gitmodules
  */
 export function validateGitmodulesLocations(extensionsToml, gitmodules) {
-  const ZED_SUBMODULE = "extensions/zed";
-
   for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
     let submoduleName = extensionInfo["submodule"];
     let submodule = gitmodules[submoduleName];
@@ -115,7 +118,7 @@ export function validateGitmodulesLocations(extensionsToml, gitmodules) {
       );
     }
 
-    if (submoduleName === ZED_SUBMODULE) {
+    if (SUBMODULE_LOCATION_EXCEPTIONS.includes(submoduleName)) {
       continue;
     }
 
