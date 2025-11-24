@@ -97,6 +97,50 @@ export function validateGitmodules(gitmodules) {
   }
 }
 
+/**
+ * @param {Record<string, any>} extensionsToml
+ * @param {import('git-submodule-js').Submodule} gitmodules
+ */
+export function validateGitmodulesLocations(extensionsToml, gitmodules) {
+  const ZED_SUBMODULE = "extensions/zed";
+
+  for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
+    let submoduleName = extensionInfo["submodule"];
+    let submodule = gitmodules[submoduleName];
+    let expectedSubmoduleName = `extensions/${extensionId}`;
+
+    if (!submodule) {
+      throw new Error(
+        `Could not find submodule "${submoduleName}" for extension ID "${extensionId}".`,
+      );
+    }
+
+    if (submoduleName === ZED_SUBMODULE) {
+      continue;
+    }
+
+    let submodulePath = submodule["path"];
+
+    if (submoduleName !== expectedSubmoduleName) {
+      throw new Error(
+        `Submodule name ${submoduleName} does not match expected name. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+
+    if (submoduleName !== submodulePath) {
+      throw new Error(
+        `Name and path do not match for submodule ${expectedSubmoduleName}. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+
+    if (submoduleName !== expectedSubmoduleName) {
+      throw new Error(
+        `Extension with ID "${extensionId}" does not use the proper submodule. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+  }
+}
+
 const LICENSE_REQUIREMENT_TEXT = `Extension repositories must have a valid license:
   - Apache 2.0
   - BSD 3-Clause
