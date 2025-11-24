@@ -22,6 +22,11 @@ const EXTENSION_ID_STARTS_WITH_EXCEPTIONS = ["zed-legacy-themes"];
 const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed"];
 
 /**
+ * Exceptions to the rule that extension submodules should match the extension ID.
+ */
+const SUBMODULE_LOCATION_EXCEPTIONS = ["extensions/zed"];
+
+/**
  * @param {Record<string, any>} extensionsToml
  */
 export function validateExtensionsToml(extensionsToml) {
@@ -93,6 +98,48 @@ export function validateGitmodules(gitmodules) {
 
     if (!url.startsWith("https://")) {
       throw new Error(`Submodules must use "https://" scheme.`);
+    }
+  }
+}
+
+/**
+ * @param {Record<string, any>} extensionsToml
+ * @param {import('git-submodule-js').Submodule} gitmodules
+ */
+export function validateGitmodulesLocations(extensionsToml, gitmodules) {
+  for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
+    let submoduleName = extensionInfo["submodule"];
+    let submodule = gitmodules[submoduleName];
+    let expectedSubmoduleName = `extensions/${extensionId}`;
+
+    if (!submodule) {
+      throw new Error(
+        `Could not find submodule "${submoduleName}" for extension ID "${extensionId}".`,
+      );
+    }
+
+    if (SUBMODULE_LOCATION_EXCEPTIONS.includes(submoduleName)) {
+      continue;
+    }
+
+    let submodulePath = submodule["path"];
+
+    if (submoduleName !== expectedSubmoduleName) {
+      throw new Error(
+        `Submodule name ${submoduleName} does not match expected name. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+
+    if (submoduleName !== submodulePath) {
+      throw new Error(
+        `Name and path do not match for submodule ${expectedSubmoduleName}. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+
+    if (submoduleName !== expectedSubmoduleName) {
+      throw new Error(
+        `Extension with ID "${extensionId}" does not use the proper submodule. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
     }
   }
 }
