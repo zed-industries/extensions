@@ -890,10 +890,6 @@
 	path = extensions/fedaykin-themes
 	url = https://github.com/btriapitsyn/zed-fedaykin-themes.git
 
-[submodule "extensions/openfga"]
-	path = extensions/openfga
-	url = https://github.com/rosnovsky/zed-extension-fga.git
-
 [submodule "extensions/fiber-snippets"]
 	path = extensions/fiber-snippets
 	url = https://github.com/ayberkgezer/fiber-zed-snippets
@@ -1970,10 +1966,6 @@
 	path = extensions/nickel
 	url = https://github.com/norpadon/zed-nickel-extension
 
-[submodule "extensions/nightfox-m"]
-	path = extensions/nightfox-m
-	url = https://github.com/mpopadic/nightfox_m-zed.git
-
 [submodule "extensions/night-owlz"]
 	path = extensions/night-owlz
 	url = https://github.com/elGusto/night-owlz.git
@@ -1985,6 +1977,10 @@
 [submodule "extensions/nightfox"]
 	path = extensions/nightfox
 	url = https://github.com/ssaunderss/zed-nightfox.git
+
+[submodule "extensions/nightfox-m"]
+	path = extensions/nightfox-m
+	url = https://github.com/mpopadic/nightfox_m-zed.git
 
 [submodule "extensions/nightingale"]
 	path = extensions/nightingale
@@ -2173,6 +2169,10 @@
 [submodule "extensions/opencode"]
 	path = extensions/opencode
 	url = https://github.com/sst/opencode.git
+
+[submodule "extensions/openfga"]
+	path = extensions/openfga
+	url = https://github.com/rosnovsky/zed-extension-fga.git
 
 [submodule "extensions/openmoji-icons"]
 	path = extensions/openmoji-icons
@@ -2457,6 +2457,10 @@
 [submodule "extensions/railscast"]
 	path = extensions/railscast
 	url = https://github.com/pbsds/railscast-zed.git
+
+[submodule "extensions/rainbow"]
+	path = extensions/rainbow
+	url = https://github.com/athxx/zed-theme-rainbow.git
 
 [submodule "extensions/rainbow-csv"]
 	path = extensions/rainbow-csv
@@ -2945,10 +2949,6 @@
 [submodule "extensions/theme-lince"]
 	path = extensions/theme-lince
 	url = https://github.com/xaviduds/theme-lince.git
-
-[submodule "extensions/rainbow"]
-	path = extensions/rainbow
-	url = https://github.com/athxx/zed-theme-rainbow.git
 
 [submodule "extensions/thrift"]
 	path = extensions/thrift
