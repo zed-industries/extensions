@@ -7,12 +7,12 @@ submodule = "extensions/0xtz"
 version = "0.0.1"
 
 [1984-theme]
-submodule = "extensions/1984"
+submodule = "extensions/1984-theme"
 version = "0.1.2"
 
 [actionscript]
 submodule = "extensions/actionscript"
-version = "0.1.0"
+version = "0.1.1"
 
 [activitywatch]
 submodule = "extensions/activitywatch"
@@ -115,6 +115,10 @@ version = "0.1.0"
 submodule = "extensions/apisartisan"
 version = "0.0.1"
 
+[aquaflow-theme]
+submodule = "extensions/aquaflow-theme"
+version = "1.0.0"
+
 [aquarium-theme]
 submodule = "extensions/aquarium-theme"
 version = "0.7.1"
@@ -180,7 +184,7 @@ submodule = "extensions/auggie"
 version = "0.1.0"
 
 [aura-theme]
-submodule = "extensions/aura"
+submodule = "extensions/aura-theme"
 path = "packages/zed"
 version = "1.0.0"
 
@@ -410,7 +414,7 @@ version = "1.23.1"
 
 [cds-lsp]
 submodule = "extensions/cds-lsp"
-version = "0.0.1"
+version = "0.0.2"
 
 [cedar]
 submodule = "extensions/cedar"
@@ -523,6 +527,10 @@ version = "0.0.5"
 
 [codestackr]
 submodule = "extensions/codestackr"
+version = "0.0.1"
+
+[coffeescript]
+submodule = "extensions/coffeescript"
 version = "0.0.1"
 
 [color-highlight]
@@ -856,7 +864,7 @@ version = "0.19.0"
 
 [emoji-completions]
 submodule = "extensions/emoji-completions"
-version = "1.0.3"
+version = "1.0.4"
 
 [env]
 submodule = "extensions/env"
@@ -871,7 +879,7 @@ submodule = "extensions/erlang"
 version = "0.1.2"
 
 [everforest-theme]
-submodule = "extensions/everforest"
+submodule = "extensions/everforest-theme"
 version = "0.0.3"
 
 [evil-rabbit-theme]
@@ -956,7 +964,7 @@ submodule = "extensions/fleury"
 version = "1.0.1"
 
 [flexoki-themes]
-submodule = "extensions/flexoki"
+submodule = "extensions/flexoki-themes"
 path = "zed"
 version = "2.0.1"
 
@@ -1176,6 +1184,10 @@ version = "0.0.1"
 
 [gruvbox-material]
 submodule = "extensions/gruvbox-material"
+version = "1.0.0"
+
+[gruvbox-material-mix]
+submodule = "extensions/gruvbox-material-mix"
 version = "1.0.0"
 
 [gruvchad]
@@ -1553,7 +1565,7 @@ submodule = "extensions/logstash"
 version = "0.0.1"
 
 [lonely-planet]
-submodule = "extensions/lonely-planet-theme"
+submodule = "extensions/lonely-planet"
 version = "0.0.1"
 
 [looped-themes]
@@ -1920,7 +1932,7 @@ version = "0.0.4"
 
 [move]
 submodule = "extensions/move"
-version = "0.0.3"
+version = "0.0.4"
 
 [move-aptos]
 submodule = "extensions/move-aptos"
@@ -2019,7 +2031,7 @@ submodule = "extensions/nightfox"
 version = "0.1.1"
 
 [nightfox-m]
-submodule = "extensions/night-m"
+submodule = "extensions/nightfox-m"
 version = "0.2.0"
 
 [nightingale]
@@ -2031,7 +2043,7 @@ submodule = "extensions/nim"
 version = "0.2.0"
 
 [ninja]
-submodule = "extensions/ninja-theme"
+submodule = "extensions/ninja"
 path = "zed"
 version = "1.0.0"
 
@@ -2213,7 +2225,7 @@ path = "packages/extensions/zed"
 version = "1.0.61"
 
 [openfga]
-submodule = "extensions/fga"
+submodule = "extensions/openfga"
 version = "0.2.0"
 
 [openmoji-icons]
@@ -2361,7 +2373,7 @@ submodule = "extensions/platformio"
 version = "v0.0.1"
 
 [plato-themes]
-submodule = "extensions/plato"
+submodule = "extensions/plato-themes"
 version = "0.0.1"
 
 [playdate]
@@ -2507,7 +2519,7 @@ submodule = "extensions/railscast"
 version = "0.1.0"
 
 [rainbow]
-submodule = "extensions/theme-rainbow"
+submodule = "extensions/rainbow"
 version = "1.1.0"
 
 [rainbow-csv]
@@ -2676,7 +2688,7 @@ submodule = "extensions/seti-icons"
 version = "0.0.1"
 
 [severance-theme]
-submodule = "extensions/severance"
+submodule = "extensions/severance-theme"
 version = "0.1.1"
 
 [shadcn-mcp]
@@ -3337,7 +3349,7 @@ submodule = "extensions/wdl"
 version = "0.0.1"
 
 [webidl]
-submodule = "extensions/webidl/"
+submodule = "extensions/webidl"
 version = "0.0.2"
 
 [wgsl]
@@ -3351,6 +3363,10 @@ version = "0.0.2"
 [whkd]
 submodule = "extensions/whkd"
 version = "0.1.0"
+
+[wikitext]
+submodule = "extensions/wikitext"
+version = "0.0.1"
 
 [wit]
 submodule = "extensions/wit"
