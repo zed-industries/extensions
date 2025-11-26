@@ -20,6 +20,7 @@ import {
   validateGitmodules,
   validateManifest,
   validateLicense,
+  validateGitmodulesLocations,
 } from "./lib/validation.js";
 
 const {
@@ -96,6 +97,7 @@ try {
 
   validateExtensionsToml(extensionsToml);
   validateGitmodules(gitModules);
+  validateGitmodulesLocations(extensionsToml, gitModules);
 
   await sortExtensionsToml("extensions.toml");
   await sortGitmodules(".gitmodules");
