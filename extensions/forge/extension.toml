@@ -1,0 +1,15 @@
+[package]
+name = "forge"
+description = "Language support for Forge YAML formula files - deterministic financial modeling with 60+ Excel functions"
+version = "0.1.0"
+authors = ["RoyalBit Inc. <admin@royalbit.ca>"]
+repository = "https://github.com/royalbit/forge"
+schema_version = 1
+
+[language_servers.forge-lsp]
+name = "Forge Language Server"
+languages = ["Forge YAML"]
+
+[grammars.yaml]
+repository = "https://github.com/zed-industries/tree-sitter-yaml"
+rev = "baff0b51c64ef6a1fb1f8390f3ad6015b83ec13a"
