@@ -550,6 +550,11 @@ version = "1.0.6"
 submodule = "extensions/comment"
 version = "0.4.1"
 
+[compline]
+submodule = "extensions/compline"
+path = "zed"
+version = "0.1.0"
+
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
 version = "1.0.0"
