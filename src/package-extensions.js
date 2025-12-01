@@ -4,7 +4,11 @@ import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { sortExtensionsToml } from "./lib/extensions-toml.js";
-import { fileExists, readTomlFile } from "./lib/fs.js";
+import {
+  fileExists,
+  readTomlFile,
+  retrieveLicenseCandidates,
+} from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
   readGitmodules,
@@ -15,9 +19,12 @@ import {
   validateExtensionsToml,
   validateGitmodules,
   validateManifest,
+  validateLicense,
+  validateGitmodulesLocations,
 } from "./lib/validation.js";
 
 const {
+  BRANCH_HEAD_SHA,
   S3_ACCESS_KEY,
   S3_SECRET_KEY,
   S3_BUCKET,
@@ -43,6 +50,10 @@ ENVIRONMENT VARIABLES
   S3_BUCKET         Name of the bucket where extensions are published
   SHOULD_PUBLISH    Whether to publish packages to the blob store.
                     Set this to "true" to publish the packages.
+  BRANCH_HEAD_SHA   SHA of the branch head commit. This is used to
+                    determine the changed extensions. If this is not
+                    set, the changes will be determined based on the
+                    extensions.toml of the main branch.
 `;
 
 let selectedExtensionId;
@@ -86,13 +97,14 @@ try {
 
   validateExtensionsToml(extensionsToml);
   validateGitmodules(gitModules);
+  validateGitmodulesLocations(extensionsToml, gitModules);
 
   await sortExtensionsToml("extensions.toml");
   await sortGitmodules(".gitmodules");
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
-    : await changedExtensionIds(extensionsToml);
+    : await changedExtensionIds(extensionsToml, BRANCH_HEAD_SHA);
 
   for (const extensionId of extensionIds) {
     if (selectedExtensionId && extensionId !== selectedExtensionId) {
@@ -165,6 +177,9 @@ async function packageExtension(
       );
     }
   }
+
+  const licenseCandidates = await retrieveLicenseCandidates(extensionPath);
+  validateLicense(licenseCandidates);
 
   const zedExtensionOutput = await exec(
     "./zed-extension",
@@ -288,11 +303,14 @@ async function unpublishedExtensionIds(extensionsToml) {
 
 /**
  * @param {Record<string, any>} extensionsToml
+ * @param {string | undefined} compareSha
  */
-async function changedExtensionIds(extensionsToml) {
+async function changedExtensionIds(extensionsToml, compareSha) {
   const { stdout: extensionsContents } = await exec("git", [
     "show",
-    "origin/main:extensions.toml",
+    compareSha
+      ? `${compareSha}:extensions.toml`
+      : "origin/main:extensions.toml",
   ]);
   /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
