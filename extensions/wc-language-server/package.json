@@ -1,0 +1,18 @@
+{
+  "name": "@wc-toolkit/zed",
+  "version": "0.0.2",
+  "description": "Zed extension for the Web Components Language Server",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "node ./scripts/bundle-language-server.mjs",
+    "build": "node ./scripts/build-extension.mjs",
+    "dev": "node ./scripts/dev.mjs"
+  },
+  "keywords": [
+    "zed",
+    "language-server",
+    "web-components"
+  ]
+}

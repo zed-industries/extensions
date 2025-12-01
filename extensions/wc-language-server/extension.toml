@@ -1,0 +1,49 @@
+id = "wc-language-server"
+name = "Web Components Language Server"
+version = "0.0.2"
+schema_version = 1
+authors = ["WC Tools <burton@breakstuff.io>"]
+description = "Language server extension providing diagnostics, completion, and validation for Web Components and custom elements"
+assets = ["server/**"]
+
+[language_servers.wc-language-server]
+name = "Web Components Language Server"
+language = "HTML"
+languages = [
+  "Go",
+  "HTML",
+  "JavaScript",
+  "JSON",
+  "Markdown",
+  "Python",
+  "Rust",
+  "TypeScript",
+  "YAML",
+  "Ansible",
+  "AsciiDoc",
+  "Astro",
+  "C#",
+  "Clojure",
+  "Dart",
+  "Deno",
+  "Elixir",
+  "Elm",
+  "Erlang",
+  "Gleam",
+  "GLSL",
+  "Helm",
+  "Java",
+  "Julia",
+  "Jsonnet",
+  "Kotlin",
+  "PHP",
+  "Ruby",
+  "Scala",
+  "Svelte",
+  "Swift",
+  "Vue",
+  "EJS",
+  "Elisp",
+  "Liquid",
+  "Twig",
+]

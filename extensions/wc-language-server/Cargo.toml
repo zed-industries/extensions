@@ -1,0 +1,11 @@
+[package]
+name = "zed-web-components"
+version = "0.0.1"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+zed_extension_api = "0.6.0"
