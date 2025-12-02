@@ -77,7 +77,7 @@ version = "0.0.1"
 
 [amber]
 submodule = "extensions/amber"
-version = "0.2.0"
+version = "0.3.0"
 
 [amber-monochrome-monitor-crt-phosphor]
 submodule = "extensions/amber-monochrome-monitor-crt-phosphor"
@@ -94,6 +94,10 @@ version = "0.1.1"
 [angular]
 submodule = "extensions/angular"
 version = "0.0.4"
+
+[angular-snippets]
+submodule = "extensions/angular-snippets"
+version = "21.0.0"
 
 [ansible]
 submodule = "extensions/ansible"
@@ -181,7 +185,7 @@ version = "0.0.1"
 
 [auggie]
 submodule = "extensions/auggie"
-version = "0.1.0"
+version = "0.2.0"
 
 [aura-theme]
 submodule = "extensions/aura-theme"
@@ -550,6 +554,11 @@ version = "1.0.6"
 submodule = "extensions/comment"
 version = "0.4.1"
 
+[compline]
+submodule = "extensions/compline"
+path = "zed"
+version = "0.1.0"
+
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
 version = "1.0.0"
@@ -721,7 +730,7 @@ version = "0.1.4"
 
 [demotape]
 submodule = "extensions/demotape"
-version = "0.0.1"
+version = "0.0.2"
 
 [deno]
 submodule = "extensions/deno"
@@ -868,7 +877,7 @@ version = "0.19.0"
 
 [emoji-completions]
 submodule = "extensions/emoji-completions"
-version = "1.1.0"
+version = "1.1.1"
 
 [env]
 submodule = "extensions/env"
@@ -921,7 +930,7 @@ version = "0.2.0"
 
 [fedaykin-themes]
 submodule = "extensions/fedaykin-themes"
-version = "0.0.1"
+version = "1.0.0"
 
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
@@ -1051,7 +1060,7 @@ version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.1"
+version = "0.1.2"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -1192,7 +1201,7 @@ version = "1.0.0"
 
 [gruvbox-material-mix]
 submodule = "extensions/gruvbox-material-mix"
-version = "1.0.0"
+version = "1.0.1"
 
 [gruvchad]
 submodule = "extensions/gruvchad"
@@ -1504,6 +1513,10 @@ version = "0.0.6"
 submodule = "extensions/kubesong"
 version = "1.0.0"
 
+[kvs-cyberpunk-2077]
+submodule = "extensions/kvs-cyberpunk-2077"
+version = "0.0.2"
+
 [latex]
 submodule = "extensions/latex"
 version = "0.2.3"
@@ -1587,11 +1600,11 @@ version = "0.0.1"
 
 [ltex]
 submodule = "extensions/ltex"
-version = "0.1.0"
+version = "0.1.1"
 
 [lua]
 submodule = "extensions/lua"
-version = "0.1.6"
+version = "0.1.7"
 
 [luau]
 submodule = "extensions/luau"
@@ -2109,7 +2122,7 @@ version = "0.0.2"
 
 [nu]
 submodule = "extensions/nu"
-version = "0.0.7"
+version = "0.0.8"
 
 [nuisance]
 submodule = "extensions/nuisance"
@@ -2161,7 +2174,7 @@ version = "0.3.0"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.1"
+version = "0.3.2"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -2283,6 +2296,10 @@ version = "0.0.3"
 [palenight]
 submodule = "extensions/palenight"
 version = "0.0.1"
+
+[panda-plus-theme]
+submodule = "extensions/panda-plus-theme"
+version = "0.1.0"
 
 [panda-theme]
 submodule = "extensions/panda-theme"
@@ -2406,7 +2423,7 @@ version = "0.8.1"
 
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
-version = "1.0.7"
+version = "1.0.8"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -2632,7 +2649,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.0"
+version = "0.16.1"
 
 [ruff]
 submodule = "extensions/zed"
@@ -2845,6 +2862,10 @@ version = "0.2.0"
 submodule = "extensions/sqruff"
 version = "0.1.0"
 
+[squirrel]
+submodule = "extensions/squirrel"
+version = "0.1.0"
+
 [srcery]
 submodule = "extensions/srcery"
 version = "0.0.3"
@@ -2895,7 +2916,7 @@ version = "1.1.3"
 
 [subliminal-nightfall]
 submodule = "extensions/subliminal-nightfall"
-version = "0.1.9"
+version = "0.1.12"
 
 [sumi-light]
 submodule = "extensions/sumi-light"
@@ -3052,7 +3073,7 @@ version = "0.2.3"
 
 [tokyo-maple-theme]
 submodule = "extensions/tokyo-maple-theme"
-version = "1.0.0"
+version = "1.1.0"
 path = "packages/zed"
 
 [tokyo-night]
@@ -3094,7 +3115,7 @@ version = "0.2.0"
 
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
-version = "0.0.3"
+version = "0.1.0"
 
 [tron-legacy]
 submodule = "extensions/tron-legacy"
@@ -3278,7 +3299,7 @@ version = "0.0.2"
 
 [vitesse-theme-refined]
 submodule = "extensions/vitesse-theme-refined"
-version = "0.2.0"
+version = "0.3.1"
 
 [vrl]
 submodule = "extensions/vrl"
@@ -3456,6 +3477,10 @@ version = "0.0.1"
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
 version = "0.0.3"
+
+[zedbox]
+submodule = "extensions/zedbox"
+version = "0.0.1"
 
 [zedburn]
 submodule = "extensions/zedburn"
