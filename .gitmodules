@@ -94,6 +94,10 @@
 	path = extensions/angular
 	url = https://github.com/nathansbradshaw/zed-angular.git
 
+[submodule "extensions/angular-snippets"]
+	path = extensions/angular-snippets
+	url = https://github.com/hudson-newey/angular-snippets-for-zed.git
+
 [submodule "extensions/ansible"]
 	path = extensions/ansible
 	url = https://github.com/kartikvashistha/zed-ansible
@@ -545,6 +549,10 @@
 [submodule "extensions/comment"]
 	path = extensions/comment
 	url = https://github.com/thedadams/zed-comment.git
+
+[submodule "extensions/compline"]
+	path = extensions/compline
+	url = https://github.com/jblais493/compline.git
 
 [submodule "extensions/confluence-context-server"]
 	path = extensions/confluence-context-server
@@ -1481,6 +1489,10 @@
 [submodule "extensions/kubesong"]
 	path = extensions/kubesong
 	url = https://github.com/helgelol/kubesong-zed-theme.git
+
+[submodule "extensions/kvs-cyberpunk-2077"]
+	path = extensions/kvs-cyberpunk-2077
+	url = https://github.com/notKvS/2077-zed.git
 
 [submodule "extensions/latex"]
 	path = extensions/latex
@@ -3413,6 +3425,10 @@
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
+
+[submodule "extensions/zedbox"]
+	path = extensions/zedbox
+	url = https://github.com/isaiah-hamilton/zedbox.git
 
 [submodule "extensions/zedburn"]
 	path = extensions/zedburn
