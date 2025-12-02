@@ -63,25 +63,25 @@ export function isBsd3ClauseLicense(licenseContent) {
 }
 
 const GPL_V3_REQUIRED_PATTERNS = [
-  /GNU GENERAL PUBLIC LICENSE/i,
+  /GNU G[eE][nN][eE][rR][aA][lL] P[uU][bB][lL][iI][cC] L[iI][cC][eE][nN][sS][eE]/i,
   /Version 3, 29 June 2007/i,
   /Free Software Foundation/i,
   /TERMS AND CONDITIONS/i,
-  /0\. Definitions\./i,
-  /1\. Source Code\./i,
-  /2\. Basic Permissions\./i,
-  /3\. Protecting Users' Legal Rights From Anti-Circumvention Law\./i,
-  /4\. Conveying Verbatim Copies\./i,
-  /5\. Conveying Modified Source Versions\./i,
-  /6\. Conveying Non-Source Forms\./i,
-  /7\. Additional Terms\./i,
-  /8\. Termination\./i,
-  /9\. Acceptance Not Required for Having Copies\./i,
-  /10\. Automatic Licensing of Downstream Recipients\./i,
-  /11\. Patents\./i,
-  /12\. No Surrender of Others' Freedom\./i,
-  /15\. Disclaimer of Warranty\./i,
-  /16\. Limitation of Liability\./i,
+  /0\. Definitions/i,
+  /1\. Source Code/i,
+  /2\. Basic Permissions/i,
+  /3\. Protecting Users' Legal Rights From Anti-Circumvention Law/i,
+  /4\. Conveying Verbatim Copies/i,
+  /5\. Conveying Modified Source Versions/i,
+  /6\. Conveying Non-Source Forms/i,
+  /7\. Additional Terms/i,
+  /8\. Termination/i,
+  /9\. Acceptance Not Required for Having Copies/i,
+  /10\. Automatic Licensing of Downstream Recipients/i,
+  /11\. Patents/i,
+  /12\. No Surrender of Others' Freedom/i,
+  /15\. Disclaimer of Warranty/i,
+  /16\. Limitation of Liability/i,
 ];
 
 /**
@@ -96,9 +96,9 @@ export function isGplV3License(licenseContent) {
 
 const MIT_REQUIRED_PATTERNS = [
   /Copyright/i,
-  /Permission is hereby granted, free of charge, to any person obtaining a copy/i,
-  /The above copyright notice and this permission notice shall be included in[ \n]all/i,
-  /THE SOFTWARE IS PROVIDED ["“]AS IS["”], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
+  /Permission is hereby granted, free of charge, to any[ \n]person obtaining a copy/i,
+  /The above copyright notice and this permission notice[ \n]shall be included in[ \n]all/i,
+  /THE SOFTWARE IS PROVIDED ["“]AS IS["”], WITHOUT WARRANTY OF[ \n]ANY KIND, EXPRESS OR/i,
 ];
 
 /**
