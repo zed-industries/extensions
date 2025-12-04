@@ -3122,6 +3122,10 @@
 	path = extensions/typespec
 	url = https://github.com/rhodee/zed-typespec
 
+[submodule "extensions/typing-sounds"]
+	path = extensions/typing-sounds
+	url = https://github.com/wakefulblock262/typing-sounds.git
+
 [submodule "extensions/typos"]
 	path = extensions/typos
 	url = https://github.com/BaptisteRoseau/zed-typos.git
@@ -3497,6 +3501,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/typing-sounds"]
-	path = extensions/typing-sounds
-	url = https://github.com/wakefulblock262/typing-sounds.git
