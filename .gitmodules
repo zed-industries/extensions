@@ -2430,6 +2430,10 @@
 	path = extensions/probe-rs
 	url = https://github.com/probe-rs/zed-extension
 
+[submodule "extensions/processing"]
+	path = extensions/processing
+	url = https://github.com/Robot-Inventor/processing-zed-extension.git
+
 [submodule "extensions/prolog"]
 	path = extensions/prolog
 	url = https://github.com/Gaspartcho/zed-prolog
