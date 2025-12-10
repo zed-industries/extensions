@@ -121,7 +121,7 @@ version = "0.0.1"
 
 [aquaflow-theme]
 submodule = "extensions/aquaflow-theme"
-version = "1.0.0"
+version = "1.0.1"
 
 [aquarium-theme]
 submodule = "extensions/aquarium-theme"
@@ -710,7 +710,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.1"
+version = "0.3.2"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -1821,7 +1821,7 @@ version = "0.0.2"
 
 [mcp-server-sonarqube]
 submodule = "extensions/mcp-server-sonarqube"
-version = "1.3.0"
+version = "1.4.0"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -1830,10 +1830,6 @@ version = "0.0.3"
 [mcp-server-tavily]
 submodule = "extensions/mcp-server-tavily"
 version = "0.0.2"
-
-[mcp-server-vercel]
-submodule = "extensions/mcp-server-vercel"
-version = "1.0.1"
 
 [mcp-server-webflow]
 submodule = "extensions/mcp-server-webflow"
@@ -1874,6 +1870,11 @@ version = "0.1.1"
 [missing-theme]
 submodule = "extensions/missing-theme"
 version = "0.0.1"
+
+[mistral-vibe]
+submodule = "extensions/mistral-vibe"
+version = "1.0.4"
+path = "distribution/zed"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -2411,7 +2412,7 @@ version = "0.0.1"
 
 [playdate]
 submodule = "extensions/playdate"
-version = "0.1.1"
+version = "0.1.2"
 
 [po]
 submodule = "extensions/po"
@@ -2501,7 +2502,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.10.0"
+version = "0.14.1"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
