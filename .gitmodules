@@ -492,7 +492,7 @@
 
 [submodule "extensions/clice"]
 	path = extensions/clice
-	url = https://github.com/clice-project/clice-zed.git
+	url = https://github.com/clice-io/clice
 
 [submodule "extensions/clojure"]
 	path = extensions/clojure
@@ -2245,6 +2245,10 @@
 [submodule "extensions/org"]
 	path = extensions/org
 	url = https://github.com/hron/zed-org
+
+[submodule "extensions/orng"]
+	path = extensions/orng
+	url = https://github.com/elithrar/orng-zed.git
 
 [submodule "extensions/oscura"]
 	path = extensions/oscura
