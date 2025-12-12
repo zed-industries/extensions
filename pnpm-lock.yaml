@@ -17,6 +17,9 @@ importers:
       git-submodule-js:
         specifier: 1.0.5
         version: 1.0.5
+      pnpm:
+        specifier: ^10.25.0
+        version: 10.25.0
     devDependencies:
       '@tsconfig/node20':
         specifier: 20.1.8
@@ -1131,6 +1134,11 @@ packages:
 
   pinpoint@1.1.0:
     resolution: {integrity: sha512-+04FTD9x7Cls2rihLlo57QDCcHoLBGn5Dk51SwtFBWkUWLxZaBXyNVpCw1S+atvE7GmnFjeaRZ0WLq3UYuqAdg==}
+
+  pnpm@10.25.0:
+    resolution: {integrity: sha512-XoJjkCevN8+DIGG8xtY5whljRIjg8rrr54UCink957Ul/80/f/V09emGBlTgmP6FK6isXdXO/hdn0joCCpL1AQ==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   postcss@8.5.6:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
@@ -2778,6 +2786,8 @@ snapshots:
   picomatch@4.0.3: {}
 
   pinpoint@1.1.0: {}
+
+  pnpm@10.25.0: {}
 
   postcss@8.5.6:
     dependencies:
