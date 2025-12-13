@@ -492,7 +492,7 @@
 
 [submodule "extensions/clice"]
 	path = extensions/clice
-	url = https://github.com/clice-project/clice-zed.git
+	url = https://github.com/clice-io/clice
 
 [submodule "extensions/clojure"]
 	path = extensions/clojure
@@ -513,6 +513,10 @@
 [submodule "extensions/codebook"]
 	path = extensions/codebook
 	url = https://github.com/blopker/codebook-zed.git
+
+[submodule "extensions/codebuddy"]
+	path = extensions/codebuddy
+	url = https://github.com/jasonwang82/codebuddy-code-zed.git
 
 [submodule "extensions/codely-theme"]
 	path = extensions/codely-theme
@@ -1802,10 +1806,6 @@
 	path = extensions/mcp-server-tavily
 	url = https://github.com/chlorodose/zed-mcp-server-tavily.git
 
-[submodule "extensions/mcp-server-vercel"]
-	path = extensions/mcp-server-vercel
-	url = https://github.com/Takk8IS/vercel-mcp-server-for-zed
-
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
@@ -1845,6 +1845,10 @@
 [submodule "extensions/missing-theme"]
 	path = extensions/missing-theme
 	url = https://codeberg.org/dz4k/zed-missing.git
+
+[submodule "extensions/mistral-vibe"]
+	path = extensions/mistral-vibe
+	url = https://github.com/mistralai/mistral-vibe.git
 
 [submodule "extensions/mnemonic"]
 	path = extensions/mnemonic
@@ -2066,6 +2070,10 @@
 	path = extensions/noir-and-blanc-theme
 	url = https://github.com/chaseweaver/noir-and-blanc.git
 
+[submodule "extensions/nomad"]
+	path = extensions/nomad
+	url = https://github.com/loczek/zed-nomad-extension.git
+
 [submodule "extensions/nord"]
 	path = extensions/nord
 	url = https://github.com/mikasius/zed-nord-theme.git
@@ -2237,6 +2245,10 @@
 [submodule "extensions/org"]
 	path = extensions/org
 	url = https://github.com/hron/zed-org
+
+[submodule "extensions/orng"]
+	path = extensions/orng
+	url = https://github.com/elithrar/orng-zed.git
 
 [submodule "extensions/oscura"]
 	path = extensions/oscura
@@ -2485,6 +2497,10 @@
 [submodule "extensions/quakec"]
 	path = extensions/quakec
 	url = https://github.com/schraf/zed-quakec.git
+
+[submodule "extensions/quarto"]
+	path = extensions/quarto
+	url = https://github.com/prefrontal-systems/zed-quarto-plugin.git
 
 [submodule "extensions/quasi-monochrome"]
 	path = extensions/quasi-monochrome
