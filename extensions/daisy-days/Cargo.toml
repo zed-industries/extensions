@@ -1,0 +1,12 @@
+[package]
+name = "daisy_days"
+version = "0.2.0"
+edition = "2021"
+authors = ["Ahmad Hamdi"]
+description = "Zed extension for DaisyUI"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"

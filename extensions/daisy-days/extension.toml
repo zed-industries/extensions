@@ -1,10 +1,10 @@
 id = "daisy-days"
 name = "Daisy Days"
-description = "A high-performance MCP server for DaisyUI that generates production-ready UI layouts."
-authors = ["Ahmad Hamdi"]
-repository = "https://github.com/theHamdiz/daisy-days"
-schema_version = 1
 version = "0.2.0"
+schema_version = 1
+authors = ["Ahmad Hamdi"]
+description = "A high-performance MCP server for DaisyUI with 15 tools that generates production-ready UI layouts."
+repository = "https://github.com/theHamdiz/daisy-days"
 
 [server]
 binary = "daisy_days"
