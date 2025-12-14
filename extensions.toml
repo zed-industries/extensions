@@ -121,7 +121,7 @@ version = "0.0.1"
 
 [aquaflow-theme]
 submodule = "extensions/aquaflow-theme"
-version = "1.0.0"
+version = "1.0.1"
 
 [aquarium-theme]
 submodule = "extensions/aquarium-theme"
@@ -149,7 +149,7 @@ version = "0.2.0"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.0.1"
+version = "0.1.3"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -202,7 +202,7 @@ version = "0.0.2"
 
 [autocorrect]
 submodule = "extensions/autocorrect"
-version = "0.2.1"
+version = "0.2.2"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -394,7 +394,7 @@ version = "1.0.0"
 
 [cargo-appraiser]
 submodule = "extensions/cargo-appraiser"
-version = "0.0.1"
+version = "0.1.0"
 
 [cargo-tom]
 submodule = "extensions/cargo-tom"
@@ -431,7 +431,7 @@ version = "0.0.1"
 [cem]
 submodule = "extensions/cem"
 path = "extensions/zed"
-version = "0.4.4"
+version = "0.7.1"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -500,6 +500,7 @@ version = "0.1.1"
 [clice]
 submodule = "extensions/clice"
 version = "0.1.0"
+path = "editors/zed"
 
 [clojure]
 submodule = "extensions/clojure"
@@ -609,7 +610,7 @@ version = "0.0.1"
 
 [csharp]
 submodule = "extensions/csharp"
-version = "0.1.3"
+version = "1.0.0"
 
 [csharp-snippets]
 submodule = "extensions/csharp-snippets"
@@ -714,7 +715,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.1"
+version = "0.3.2"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -1825,7 +1826,7 @@ version = "0.0.2"
 
 [mcp-server-sonarqube]
 submodule = "extensions/mcp-server-sonarqube"
-version = "1.3.0"
+version = "1.4.0"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -1834,10 +1835,6 @@ version = "0.0.3"
 [mcp-server-tavily]
 submodule = "extensions/mcp-server-tavily"
 version = "0.0.2"
-
-[mcp-server-vercel]
-submodule = "extensions/mcp-server-vercel"
-version = "1.0.1"
 
 [mcp-server-webflow]
 submodule = "extensions/mcp-server-webflow"
@@ -1878,6 +1875,11 @@ version = "0.1.1"
 [missing-theme]
 submodule = "extensions/missing-theme"
 version = "0.0.1"
+
+[mistral-vibe]
+submodule = "extensions/mistral-vibe"
+version = "1.1.2"
+path = "distribution/zed"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -2277,6 +2279,10 @@ version = "0.2.0"
 submodule = "extensions/org"
 version = "0.0.1"
 
+[orng]
+submodule = "extensions/orng"
+version = "0.0.2"
+
 [oscura]
 submodule = "extensions/oscura"
 version = "0.2.0"
@@ -2415,7 +2421,7 @@ version = "0.0.1"
 
 [playdate]
 submodule = "extensions/playdate"
-version = "0.1.1"
+version = "0.1.2"
 
 [po]
 submodule = "extensions/po"
@@ -2505,7 +2511,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.10.0"
+version = "0.14.1"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
