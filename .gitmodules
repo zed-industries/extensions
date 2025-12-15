@@ -2050,6 +2050,10 @@
 	path = extensions/one-dark-flat
 	url = https://github.com/0PandaDEV/zed-one-dark-flat.git
 
+[submodule "extensions/one-dark-ocean"]
+	path = extensions/one-dark-ocean
+	url = https://github.com/george-aidonidis/zed-one-dark-ocean.git
+
 [submodule "extensions/one-dark-pro"]
 	path = extensions/one-dark-pro
 	url = https://github.com/MordFustang21/zed-one-dark-pro.git
@@ -2654,8 +2658,8 @@
 	path = extensions/ssh-config
 	url = https://github.com/pranavmangal/zed-ssh-config.git
 
-[submodule "extensions/stakpak-agent"]
-	path = extensions/stakpak-agent
+[submodule "extensions/stakpak"]
+	path = extensions/stakpak
 	url = https://github.com/stakpak/zed-stakpak-agent-server.git
 
 [submodule "extensions/stan"]
@@ -3289,3 +3293,7 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
+
+[submodule "zed-one-dark-ocean"]
+	path = zed-one-dark-ocean
+	url = https://@github.com/george-aidonidis/zed-one-dark-ocean.git
