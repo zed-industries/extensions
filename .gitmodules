@@ -492,7 +492,7 @@
 
 [submodule "extensions/clice"]
 	path = extensions/clice
-	url = https://github.com/clice-project/clice-zed.git
+	url = https://github.com/clice-io/clice
 
 [submodule "extensions/clojure"]
 	path = extensions/clojure
@@ -1806,10 +1806,6 @@
 	path = extensions/mcp-server-tavily
 	url = https://github.com/chlorodose/zed-mcp-server-tavily.git
 
-[submodule "extensions/mcp-server-vercel"]
-	path = extensions/mcp-server-vercel
-	url = https://github.com/Takk8IS/vercel-mcp-server-for-zed
-
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
@@ -1849,6 +1845,10 @@
 [submodule "extensions/missing-theme"]
 	path = extensions/missing-theme
 	url = https://codeberg.org/dz4k/zed-missing.git
+
+[submodule "extensions/mistral-vibe"]
+	path = extensions/mistral-vibe
+	url = https://github.com/mistralai/mistral-vibe.git
 
 [submodule "extensions/mnemonic"]
 	path = extensions/mnemonic
@@ -2246,6 +2246,10 @@
 	path = extensions/org
 	url = https://github.com/hron/zed-org
 
+[submodule "extensions/orng"]
+	path = extensions/orng
+	url = https://github.com/elithrar/orng-zed.git
+
 [submodule "extensions/oscura"]
 	path = extensions/oscura
 	url = https://github.com/webhooked/oscura-zed.git
@@ -2541,6 +2545,10 @@
 [submodule "extensions/react-snippets"]
 	path = extensions/react-snippets
 	url = https://github.com/tamimhasandev/react-snippets
+
+[submodule "extensions/react-snippets-es7"]
+	path = extensions/react-snippets-es7
+	url = https://github.com/shonebinu/zed-react-snippets.git
 
 [submodule "extensions/react-type-kit-snippets"]
 	path = extensions/react-type-kit-snippets
@@ -3021,6 +3029,10 @@
 [submodule "extensions/theme-lince"]
 	path = extensions/theme-lince
 	url = https://github.com/xaviduds/theme-lince.git
+
+[submodule "extensions/thorn-theme"]
+	path = extensions/thorn-theme
+	url = https://github.com/celioreyes/thorn-zed-theme.git
 
 [submodule "extensions/thrift"]
 	path = extensions/thrift
