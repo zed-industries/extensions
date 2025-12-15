@@ -2194,6 +2194,11 @@ version = "0.3.2"
 submodule = "extensions/odoo"
 version = "1.0.4"
 
+[odoo-lsp]
+submodule = "extensions/odoo-lsp"
+version = "1.0.0"
+path = "crates/extension-zed"
+
 [oh-lucy]
 submodule = "extensions/oh-lucy"
 version = "0.0.1"
