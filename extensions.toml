@@ -2474,7 +2474,7 @@ version = "0.0.2"
 [proto]
 submodule = "extensions/zed"
 path = "extensions/proto"
-version = "0.2.2"
+version = "0.2.3"
 
 [psalm]
 submodule = "extensions/psalm"
@@ -2665,11 +2665,6 @@ version = "0.0.2"
 submodule = "extensions/ruby"
 version = "0.16.2"
 
-[ruff]
-submodule = "extensions/zed"
-path = "extensions/ruff"
-version = "0.1.1"
-
 [rumdl]
 submodule = "extensions/rumdl"
 version = "0.0.1"
@@ -2806,11 +2801,6 @@ version = "0.1.0"
 [snazzy]
 submodule = "extensions/snazzy"
 version = "0.1.1"
-
-[snippets]
-submodule = "extensions/zed"
-path = "extensions/snippets"
-version = "0.0.6"
 
 [snow-fox-theme]
 submodule = "extensions/snow-fox-theme"
