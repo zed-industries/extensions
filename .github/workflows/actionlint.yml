@@ -17,7 +17,7 @@ jobs:
       SHA: 03d0035246f3e81f36aed592ffb4bebf33a03106
       VERSION: 1.7.7
     steps:
-      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Download actionlint
         id: get_actionlint
         run: |
