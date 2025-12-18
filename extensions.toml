@@ -3406,6 +3406,11 @@ version = "0.1.1"
 submodule = "extensions/wat"
 version = "0.1.0"
 
+[wc-language-server]
+submodule = "extensions/wc-language-server"
+path = "packages/zed"
+version = "0.0.5"
+
 [wdl]
 submodule = "extensions/wdl"
 version = "0.0.1"
