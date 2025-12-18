@@ -759,6 +759,10 @@ version = "0.1.17"
 submodule = "extensions/desktop"
 version = "0.1.0"
 
+[dev-magic]
+submodule = "extensions/dev-magic"
+version = "0.0.1"
+
 [devicetree]
 submodule = "extensions/devicetree"
 version = "0.0.1"
@@ -2491,7 +2495,7 @@ version = "0.0.2"
 [proto]
 submodule = "extensions/zed"
 path = "extensions/proto"
-version = "0.2.3"
+version = "0.3.0"
 
 [psalm]
 submodule = "extensions/psalm"
@@ -2524,7 +2528,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.16.1"
+version = "0.16.2"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -2588,7 +2592,7 @@ version = "1.1.0"
 
 [rcl]
 submodule = "extensions/rcl"
-version = "0.11.0"
+version = "0.12.0"
 
 [react-snippets]
 submodule = "extensions/react-snippets"
@@ -2628,7 +2632,7 @@ version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.3.0"
+version = "0.4.1"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -2760,7 +2764,7 @@ version = "0.0.6"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
-version = "2.0.0"
+version = "2.2.0"
 
 [sieve]
 submodule = "extensions/sieve"
@@ -2788,7 +2792,7 @@ version = "0.0.1"
 
 [slang]
 submodule = "extensions/slang"
-version = "0.0.1"
+version = "0.1.1"
 
 [slate]
 submodule = "extensions/slate"
@@ -2813,7 +2817,7 @@ version = "0.1.0"
 
 [smooth]
 submodule = "extensions/smooth"
-version = "1.1.0"
+version = "1.1.1"
 
 [snakemake]
 submodule = "extensions/snakemake"
@@ -2821,7 +2825,7 @@ version = "0.1.0"
 
 [snazzy]
 submodule = "extensions/snazzy"
-version = "0.1.1"
+version = "0.1.2"
 
 [snow-fox-theme]
 submodule = "extensions/snow-fox-theme"
