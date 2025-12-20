@@ -222,6 +222,10 @@
 	path = extensions/ayu-darker
 	url = https://github.com/k4yt3x/zed-theme-ayu-darker.git
 
+[submodule "extensions/ayu-themes-glass"]
+	path = extensions/ayu-themes-glass
+	url = https://github.com/jansol/zed-ayu-glass.git
+
 [submodule "extensions/azure-context-server"]
 	path = extensions/azure-context-server
 	url = https://github.com/oWretch/zed-extension-azure-mcp
@@ -492,7 +496,7 @@
 
 [submodule "extensions/clice"]
 	path = extensions/clice
-	url = https://github.com/clice-project/clice-zed.git
+	url = https://github.com/clice-io/clice
 
 [submodule "extensions/clojure"]
 	path = extensions/clojure
@@ -513,6 +517,10 @@
 [submodule "extensions/codebook"]
 	path = extensions/codebook
 	url = https://github.com/blopker/codebook-zed.git
+
+[submodule "extensions/codebuddy"]
+	path = extensions/codebuddy
+	url = https://github.com/jasonwang82/codebuddy-code-zed.git
 
 [submodule "extensions/codely-theme"]
 	path = extensions/codely-theme
@@ -741,6 +749,10 @@
 [submodule "extensions/desktop"]
 	path = extensions/desktop
 	url = https://github.com/mikaeladev/zed-desktop-entry.git
+
+[submodule "extensions/dev-magic"]
+	path = extensions/dev-magic
+	url = https://github.com/susanta96/dev-magic.git
 
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
@@ -1802,10 +1814,6 @@
 	path = extensions/mcp-server-tavily
 	url = https://github.com/chlorodose/zed-mcp-server-tavily.git
 
-[submodule "extensions/mcp-server-vercel"]
-	path = extensions/mcp-server-vercel
-	url = https://github.com/Takk8IS/vercel-mcp-server-for-zed
-
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
@@ -1845,6 +1853,10 @@
 [submodule "extensions/missing-theme"]
 	path = extensions/missing-theme
 	url = https://codeberg.org/dz4k/zed-missing.git
+
+[submodule "extensions/mistral-vibe"]
+	path = extensions/mistral-vibe
+	url = https://github.com/mistralai/mistral-vibe.git
 
 [submodule "extensions/mnemonic"]
 	path = extensions/mnemonic
@@ -2158,6 +2170,10 @@
 	path = extensions/odoo
 	url = https://github.com/odoo/odoo-zed.git
 
+[submodule "extensions/odoo-lsp"]
+	path = extensions/odoo-lsp
+	url = https://github.com/Desdaemon/odoo-lsp.git
+
 [submodule "extensions/oh-lucy"]
 	path = extensions/oh-lucy
 	url = https://github.com/abdurrehman0206/Oh-Lucy.git
@@ -2242,6 +2258,10 @@
 	path = extensions/org
 	url = https://github.com/hron/zed-org
 
+[submodule "extensions/orng"]
+	path = extensions/orng
+	url = https://github.com/elithrar/orng-zed.git
+
 [submodule "extensions/oscura"]
 	path = extensions/oscura
 	url = https://github.com/webhooked/oscura-zed.git
@@ -2281,6 +2301,10 @@
 [submodule "extensions/panda-theme"]
 	path = extensions/panda-theme
 	url = https://github.com/biaqat/panda-theme-zed.git
+
+[submodule "extensions/pandora"]
+	path = extensions/pandora
+	url = https://github.com/edneyosf/pandora-zed
 
 [submodule "extensions/papercolor"]
 	path = extensions/papercolor
@@ -2357,6 +2381,10 @@
 [submodule "extensions/pica200"]
 	path = extensions/pica200
 	url = https://github.com/Squareheron942/zed-pica200.git
+
+[submodule "extensions/pigs-in-space"]
+	path = extensions/pigs-in-space
+	url = https://github.com/kreek/pigs-in-space-zed.git
 
 [submodule "extensions/pinata-theme"]
 	path = extensions/pinata-theme
@@ -2533,6 +2561,10 @@
 [submodule "extensions/react-snippets"]
 	path = extensions/react-snippets
 	url = https://github.com/tamimhasandev/react-snippets
+
+[submodule "extensions/react-snippets-es7"]
+	path = extensions/react-snippets-es7
+	url = https://github.com/shonebinu/zed-react-snippets.git
 
 [submodule "extensions/react-type-kit-snippets"]
 	path = extensions/react-type-kit-snippets
@@ -3013,6 +3045,10 @@
 [submodule "extensions/theme-lince"]
 	path = extensions/theme-lince
 	url = https://github.com/xaviduds/theme-lince.git
+
+[submodule "extensions/thorn-theme"]
+	path = extensions/thorn-theme
+	url = https://github.com/celioreyes/thorn-zed-theme.git
 
 [submodule "extensions/thrift"]
 	path = extensions/thrift
