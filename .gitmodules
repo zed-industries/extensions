@@ -3366,6 +3366,10 @@
 	path = extensions/wat
 	url = https://github.com/g-plane/zed-wasm.git
 
+[submodule "extensions/wc-language-server"]
+	path = extensions/wc-language-server
+	url = https://github.com/wc-toolkit/wc-language-server.git
+
 [submodule "extensions/wdl"]
 	path = extensions/wdl
 	url = https://github.com/broadinstitute/zed-wdl
