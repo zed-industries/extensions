@@ -524,7 +524,7 @@ version = "0.2.5"
 
 [codebuddy]
 submodule = "extensions/codebuddy"
-version = "2.9.0"
+version = "2.19.1"
 
 [codely-theme]
 submodule = "extensions/codely-theme"
@@ -758,6 +758,10 @@ version = "0.1.17"
 [desktop]
 submodule = "extensions/desktop"
 version = "0.1.0"
+
+[dev-magic]
+submodule = "extensions/dev-magic"
+version = "0.0.1"
 
 [devicetree]
 submodule = "extensions/devicetree"
@@ -1388,7 +1392,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.0"
+version = "6.8.3"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1424,7 +1428,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.2.0"
+version = "0.2.1"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1508,7 +1512,7 @@ version = "0.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.1.5"
+version = "0.1.6"
 
 [koto]
 submodule = "extensions/koto"
@@ -1878,7 +1882,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "1.1.3"
+version = "1.2.1"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2454,7 +2458,11 @@ version = "0.8.1"
 
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
-version = "1.0.8"
+version = "1.0.9"
+
+[pony]
+submodule = "extensions/pony"
+version = "0.1.0"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -2474,7 +2482,7 @@ version = "0.3.0"
 
 [prisma]
 submodule = "extensions/prisma"
-version = "0.1.6"
+version = "0.1.8"
 
 [prisma-mcp]
 submodule = "extensions/prisma-mcp"
@@ -2524,7 +2532,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.16.1"
+version = "0.16.2"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -2588,7 +2596,7 @@ version = "1.1.0"
 
 [rcl]
 submodule = "extensions/rcl"
-version = "0.11.0"
+version = "0.12.0"
 
 [react-snippets]
 submodule = "extensions/react-snippets"
@@ -2760,7 +2768,7 @@ version = "0.0.6"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
-version = "2.0.0"
+version = "2.2.0"
 
 [sieve]
 submodule = "extensions/sieve"
@@ -2813,7 +2821,7 @@ version = "0.1.0"
 
 [smooth]
 submodule = "extensions/smooth"
-version = "1.1.0"
+version = "1.1.1"
 
 [snakemake]
 submodule = "extensions/snakemake"
@@ -2821,7 +2829,7 @@ version = "0.1.0"
 
 [snazzy]
 submodule = "extensions/snazzy"
-version = "0.1.1"
+version = "0.1.2"
 
 [snow-fox-theme]
 submodule = "extensions/snow-fox-theme"
@@ -2877,7 +2885,7 @@ version = "0.0.0"
 
 [sql]
 submodule = "extensions/sql"
-version = "1.1.4"
+version = "1.1.6"
 
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
@@ -3405,6 +3413,11 @@ version = "0.1.1"
 [wat]
 submodule = "extensions/wat"
 version = "0.1.0"
+
+[wc-language-server]
+submodule = "extensions/wc-language-server"
+path = "packages/zed"
+version = "0.0.6"
 
 [wdl]
 submodule = "extensions/wdl"
