@@ -2434,6 +2434,10 @@
 	path = extensions/pollinations-mcp
 	url = https://github.com/FrancoStino/pollinations-mcp.git
 
+[submodule "extensions/pony"]
+	path = extensions/pony
+	url = https://github.com/orien/pony-zed.git
+
 [submodule "extensions/popping-and-locking"]
 	path = extensions/popping-and-locking
 	url = https://github.com/randoneering/popping-and-locking-zed-theme.git
@@ -3369,6 +3373,10 @@
 [submodule "extensions/wat"]
 	path = extensions/wat
 	url = https://github.com/g-plane/zed-wasm.git
+
+[submodule "extensions/wc-language-server"]
+	path = extensions/wc-language-server
+	url = https://github.com/wc-toolkit/wc-language-server.git
 
 [submodule "extensions/wdl"]
 	path = extensions/wdl

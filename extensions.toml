@@ -715,7 +715,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.2"
+version = "0.3.3"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -1396,7 +1396,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.1"
+version = "6.8.3"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1432,7 +1432,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.2.0"
+version = "0.2.1"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1516,7 +1516,7 @@ version = "0.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.1.6"
+version = "0.1.7"
 
 [koto]
 submodule = "extensions/koto"
@@ -1886,7 +1886,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "1.1.3"
+version = "1.2.1"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2463,6 +2463,10 @@ version = "0.8.1"
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
 version = "1.0.9"
+
+[pony]
+submodule = "extensions/pony"
+version = "0.1.0"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -3124,7 +3128,7 @@ version = "0.2.0"
 
 [toml]
 submodule = "extensions/toml"
-version = "1.0.0"
+version = "1.0.1"
 
 [tomorrow-min-theme]
 submodule = "extensions/tomorrow-min-theme"
@@ -3409,6 +3413,11 @@ version = "0.1.1"
 [wat]
 submodule = "extensions/wat"
 version = "0.1.0"
+
+[wc-language-server]
+submodule = "extensions/wc-language-server"
+path = "packages/zed"
+version = "0.0.6"
 
 [wdl]
 submodule = "extensions/wdl"
