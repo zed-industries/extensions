@@ -101,7 +101,7 @@ try {
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
-    : await changedExtensionIds(extensionsToml, REF_NAME);
+    : await changedExtensionIds(extensionsToml, REF_NAME !== "main");
 
   for (const extensionId of extensionIds) {
     if (selectedExtensionId && extensionId !== selectedExtensionId) {
@@ -300,19 +300,19 @@ async function unpublishedExtensionIds(extensionsToml) {
 
 /**
  * @param {Record<string, any>} extensionsToml
- * @param {string | undefined} refName
+ * @param {boolean} useMergeBase
  */
-async function changedExtensionIds(extensionsToml, refName) {
+async function changedExtensionIds(extensionsToml, useMergeBase) {
   let compareTarget;
-  if (refName === undefined || refName === "main") {
-    compareTarget = "origin/main";
-  } else {
+  if (useMergeBase) {
     const { stdout: forkPoint } = await exec("git", [
       "merge-base",
-      "--fork-point",
-      refName,
+      "HEAD",
+      "origin/main",
     ]);
     compareTarget = forkPoint;
+  } else {
+    compareTarget = "origin/main";
   }
 
   const { stdout: extensionsContents } = await exec("git", [
