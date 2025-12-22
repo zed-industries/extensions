@@ -745,6 +745,10 @@ version = "0.0.2"
 submodule = "extensions/deno"
 version = "0.1.1"
 
+[deps]
+submodule = "extensions/deps"
+version = "0.1.0"
+
 [deputy]
 submodule = "extensions/deputy"
 path = "editors/zed"
