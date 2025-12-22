@@ -306,6 +306,7 @@ async function unpublishedExtensionIds(extensionsToml) {
  * @param {string | undefined} compareSha
  */
 async function changedExtensionIds(extensionsToml, compareSha) {
+  console.log(compareSha);
   const { stdout: extensionsContents } = await exec("git", [
     "show",
     compareSha
