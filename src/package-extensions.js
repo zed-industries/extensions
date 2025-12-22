@@ -330,6 +330,9 @@ async function changedExtensionIds(extensionsToml, useMergeBase) {
     result.push(extensionId);
   }
 
-  console.log("Extensions changed from main:", result.join(", "));
+  console.log(
+    "Extensions changed from main:",
+    result.length !== 0 ? result.join(", ") : "No changed extensions detected.",
+  );
   return result;
 }
