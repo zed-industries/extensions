@@ -310,7 +310,7 @@ async function changedExtensionIds(extensionsToml, useMergeBase) {
       "HEAD",
       "origin/main",
     ]);
-    compareTarget = forkPoint;
+    compareTarget = forkPoint.trim();
   } else {
     compareTarget = "origin/main";
   }
