@@ -15,9 +15,8 @@ env:
 
 jobs:
   package:
-    runs-on: namespace-profile-8x32-ubuntu-2404
+    runs-on: ubuntu-latest
     if: github.repository_owner == 'zed-industries'
-    timeout-minutes: 10
     steps:
       - name: Checkout repo
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
