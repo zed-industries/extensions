@@ -15,7 +15,7 @@ env:
 
 jobs:
   package:
-    runs-on: namespace-profile-16x32-ubuntu-2204
+    runs-on: namespace-profile-2x4-ubuntu-2404
     if: github.repository_owner == 'zed-industries'
     timeout-minutes: 10
     steps:
