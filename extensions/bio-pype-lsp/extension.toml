@@ -1,0 +1,11 @@
+id = "bio-pype-lsp"
+name = "Bio Pype LSP"
+version = "0.1.0"
+schema_version = 1
+description = "Language Server Protocol support for Bio Pype in Markdown and YAML files"
+authors = ["Francesco Favero"]
+repository = "https://github.com/compute-bio/zed-pype-lsp"
+homepage = "https://github.com/compute-bio/zed-pype-lsp"
+
+[language_servers.bio-pype]
+languages = ["Markdown", "YAML"]
