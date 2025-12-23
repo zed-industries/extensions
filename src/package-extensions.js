@@ -4,7 +4,11 @@ import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { sortExtensionsToml } from "./lib/extensions-toml.js";
-import { fileExists, readTomlFile } from "./lib/fs.js";
+import {
+  fileExists,
+  readTomlFile,
+  retrieveLicenseCandidates,
+} from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
   readGitmodules,
@@ -15,9 +19,12 @@ import {
   validateExtensionsToml,
   validateGitmodules,
   validateManifest,
+  validateLicense,
+  validateGitmodulesLocations,
 } from "./lib/validation.js";
 
 const {
+  REF_NAME,
   S3_ACCESS_KEY,
   S3_SECRET_KEY,
   S3_BUCKET,
@@ -43,6 +50,7 @@ ENVIRONMENT VARIABLES
   S3_BUCKET         Name of the bucket where extensions are published
   SHOULD_PUBLISH    Whether to publish packages to the blob store.
                     Set this to "true" to publish the packages.
+  REF_NAME          Name of the branch or tag being built.
 `;
 
 let selectedExtensionId;
@@ -86,13 +94,14 @@ try {
 
   validateExtensionsToml(extensionsToml);
   validateGitmodules(gitModules);
+  validateGitmodulesLocations(extensionsToml, gitModules);
 
   await sortExtensionsToml("extensions.toml");
   await sortGitmodules(".gitmodules");
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
-    : await changedExtensionIds(extensionsToml);
+    : await changedExtensionIds(extensionsToml, REF_NAME !== "main");
 
   for (const extensionId of extensionIds) {
     if (selectedExtensionId && extensionId !== selectedExtensionId) {
@@ -165,6 +174,9 @@ async function packageExtension(
       );
     }
   }
+
+  const licenseCandidates = await retrieveLicenseCandidates(extensionPath);
+  validateLicense(licenseCandidates);
 
   const zedExtensionOutput = await exec(
     "./zed-extension",
@@ -288,11 +300,24 @@ async function unpublishedExtensionIds(extensionsToml) {
 
 /**
  * @param {Record<string, any>} extensionsToml
+ * @param {boolean} useMergeBase
  */
-async function changedExtensionIds(extensionsToml) {
+async function changedExtensionIds(extensionsToml, useMergeBase) {
+  let compareTarget;
+  if (useMergeBase) {
+    const { stdout: forkPoint } = await exec("git", [
+      "merge-base",
+      "HEAD",
+      "origin/main",
+    ]);
+    compareTarget = forkPoint.trim();
+  } else {
+    compareTarget = "origin/main";
+  }
+
   const { stdout: extensionsContents } = await exec("git", [
     "show",
-    "origin/main:extensions.toml",
+    `${compareTarget}:extensions.toml`,
   ]);
   /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
@@ -305,6 +330,9 @@ async function changedExtensionIds(extensionsToml) {
     result.push(extensionId);
   }
 
-  console.log("Extensions changed from main:", result.join(", "));
+  console.log(
+    "Extensions changed from main:",
+    result.length !== 0 ? result.join(", ") : "No changed extensions detected.",
+  );
   return result;
 }
