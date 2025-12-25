@@ -342,6 +342,10 @@
 	path = extensions/bluloco-theme
 	url = https://github.com/uloco/bluloco-zed.git
 
+[submodule "extensions/bookmark"]
+	path = extensions/bookmark
+	url = https://github.com/A-23187/zed-bookmark.git
+
 [submodule "extensions/bqn"]
 	path = extensions/bqn
 	url = https://github.com/DavidZwitser/zed-bqn.git
@@ -1725,6 +1729,10 @@
 [submodule "extensions/mcp-server-2slides"]
 	path = extensions/mcp-server-2slides
 	url = https://github.com/2slides/zed-mcp-server-2slides.git
+
+[submodule "extensions/mcp-server-atexplore"]
+	path = extensions/mcp-server-atexplore
+	url = https://github.com/moshyfawn/zed-mcp-server-atexplore.git
 
 [submodule "extensions/mcp-server-axiom"]
 	path = extensions/mcp-server-axiom
