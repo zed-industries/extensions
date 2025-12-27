@@ -344,6 +344,10 @@ version = "0.1.0"
 submodule = "extensions/bluloco-theme"
 version = "1.0.0"
 
+[bookmark]
+submodule = "extensions/bookmark"
+version = "0.1.0"
+
 [bqn]
 submodule = "extensions/bqn"
 version = "0.0.1"
@@ -1752,6 +1756,10 @@ version = "0.0.1"
 submodule = "extensions/mcp-server-2slides"
 version = "0.0.2"
 
+[mcp-server-atexplore]
+submodule = "extensions/mcp-server-atexplore"
+version = "0.1.0"
+
 [mcp-server-axiom]
 submodule = "extensions/mcp-server-axiom"
 version = "0.2.0"
@@ -1914,7 +1922,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "1.2.2"
+version = "1.3.2"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2302,7 +2310,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.0.153"
+version = "1.0.193"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2338,7 +2346,7 @@ version = "0.0.3"
 
 [oxc]
 submodule = "extensions/oxc"
-version = "0.3.3"
+version = "0.4.1"
 
 [oxlint]
 submodule = "extensions/oxlint"
@@ -2572,7 +2580,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.16.2"
+version = "0.17.1"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -2652,7 +2660,7 @@ version = "2.1.2"
 
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
-version = "0.1.3"
+version = "0.1.4"
 
 [redscript]
 submodule = "extensions/redscript"
@@ -3428,7 +3436,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.2.9"
+version = "0.2.10"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
