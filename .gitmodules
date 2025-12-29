@@ -342,6 +342,10 @@
 	path = extensions/bluloco-theme
 	url = https://github.com/uloco/bluloco-zed.git
 
+[submodule "extensions/bookmark"]
+	path = extensions/bookmark
+	url = https://github.com/A-23187/zed-bookmark.git
+
 [submodule "extensions/bqn"]
 	path = extensions/bqn
 	url = https://github.com/DavidZwitser/zed-bqn.git
@@ -630,6 +634,10 @@
 	path = extensions/css-modules-kit
 	url = https://github.com/mizdra/css-modules-kit.git
 
+[submodule "extensions/css-variables"]
+	path = extensions/css-variables
+	url = https://github.com/lmn451/css-variables-zed.git
+
 [submodule "extensions/csv"]
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
@@ -704,7 +712,7 @@
 
 [submodule "extensions/dark-discord"]
 	path = extensions/dark-discord
-	url = https://github.com/zangetsu02/zed-dark-discord-theme.git
+	url = https://github.com/zangetsu02/zed-discord-theme.git
 
 [submodule "extensions/dark-material-dracula"]
 	path = extensions/dark-material-dracula
@@ -1726,6 +1734,10 @@
 	path = extensions/mcp-server-2slides
 	url = https://github.com/2slides/zed-mcp-server-2slides.git
 
+[submodule "extensions/mcp-server-atexplore"]
+	path = extensions/mcp-server-atexplore
+	url = https://github.com/moshyfawn/zed-mcp-server-atexplore.git
+
 [submodule "extensions/mcp-server-axiom"]
 	path = extensions/mcp-server-axiom
 	url = https://github.com/zed-extensions/mcp-server-axiom.git
@@ -2308,7 +2320,7 @@
 
 [submodule "extensions/oxc"]
 	path = extensions/oxc
-	url = https://github.com/oxc-project/zed-oxc.git
+	url = https://github.com/oxc-project/oxc-zed.git
 
 [submodule "extensions/oxlint"]
 	path = extensions/oxlint
@@ -2636,7 +2648,7 @@
 
 [submodule "extensions/rescript"]
 	path = extensions/rescript
-	url = https://github.com/humaans/rescript-zed.git
+	url = https://github.com/rescript-lang/rescript-zed.git
 
 [submodule "extensions/retrofit-theme"]
 	path = extensions/retrofit-theme
@@ -3082,6 +3094,10 @@
 	path = extensions/the-dark-side
 	url = https://github.com/Imgkl/the-dark-side.git
 
+[submodule "extensions/the-pure-tone"]
+	path = extensions/the-pure-tone
+	url = https://github.com/hupeh/the-pure-tone.git
+
 [submodule "extensions/theme-lince"]
 	path = extensions/theme-lince
 	url = https://github.com/xaviduds/theme-lince.git
@@ -3238,6 +3254,10 @@
 	path = extensions/unison
 	url = https://github.com/zetashift/unison-zed
 
+[submodule "extensions/unity-snippets"]
+	path = extensions/unity-snippets
+	url = https://github.com/Abdallah-Alwarawreh/unity-zed-snippets.git
+
 [submodule "extensions/unocss"]
 	path = extensions/unocss
 	url = https://github.com/bajrangCoder/zed-unocss.git
@@ -3333,6 +3353,10 @@
 [submodule "extensions/vitesse-theme-refined"]
 	path = extensions/vitesse-theme-refined
 	url = https://github.com/colinlienard/zed-vitesse-theme-refined
+
+[submodule "extensions/vitest-snippets"]
+	path = extensions/vitest-snippets
+	url = https://github.com/jwerre/vitest-snippets
 
 [submodule "extensions/vrl"]
 	path = extensions/vrl
@@ -3569,6 +3593,10 @@
 [submodule "extensions/zoegi-theme"]
 	path = extensions/zoegi-theme
 	url = https://github.com/nikitapashinsky/zoegi-theme.git
+
+[submodule "extensions/zokrates"]
+	path = extensions/zokrates
+	url = https://github.com/threonyl/zed-zokrates.git
 
 [submodule "extensions/zuban"]
 	path = extensions/zuban

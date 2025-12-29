@@ -322,7 +322,7 @@ version = "0.0.1"
 
 [blank-theme]
 submodule = "extensions/blank-theme"
-version = "1.0.3"
+version = "1.0.4"
 
 [blankeos-zen]
 submodule = "extensions/blankeos-zen"
@@ -343,6 +343,10 @@ version = "0.1.0"
 [bluloco-theme]
 submodule = "extensions/bluloco-theme"
 version = "1.0.0"
+
+[bookmark]
+submodule = "extensions/bookmark"
+version = "0.1.0"
 
 [bqn]
 submodule = "extensions/bqn"
@@ -439,7 +443,7 @@ version = "0.0.1"
 [cem]
 submodule = "extensions/cem"
 path = "extensions/zed"
-version = "0.7.3"
+version = "0.7.5"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -447,7 +451,7 @@ version = "1.0.1"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.1.5"
+version = "0.1.9"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -602,7 +606,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "2.0.0"
+version = "2.0.1"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -636,6 +640,10 @@ version = "0.0.6"
 submodule = "extensions/css-modules-kit"
 version = "0.1.1"
 path = "crates/zed"
+
+[css-variables]
+submodule = "extensions/css-variables"
+version = "0.0.3"
 
 [csv]
 submodule = "extensions/csv"
@@ -711,7 +719,7 @@ version = "0.1.4"
 
 [dark-discord]
 submodule = "extensions/dark-discord"
-version = "1.0.0"
+version = "2.0.0"
 
 [dark-material-dracula]
 submodule = "extensions/dark-material-dracula"
@@ -1424,7 +1432,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.3"
+version = "6.8.4"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1544,7 +1552,7 @@ version = "0.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.1.7"
+version = "0.2.0"
 
 [koto]
 submodule = "extensions/koto"
@@ -1653,7 +1661,7 @@ version = "0.1.7"
 
 [luau]
 submodule = "extensions/luau"
-version = "0.3.3"
+version = "0.3.4"
 
 [lusch-theme]
 submodule = "extensions/lusch-theme"
@@ -1751,6 +1759,10 @@ version = "0.0.1"
 [mcp-server-2slides]
 submodule = "extensions/mcp-server-2slides"
 version = "0.0.2"
+
+[mcp-server-atexplore]
+submodule = "extensions/mcp-server-atexplore"
+version = "0.2.0"
 
 [mcp-server-axiom]
 submodule = "extensions/mcp-server-axiom"
@@ -1898,7 +1910,7 @@ version = "0.4.0"
 
 [min-theme]
 submodule = "extensions/min-theme"
-version = "0.2.1"
+version = "0.2.2"
 
 [min-theme-plus]
 submodule = "extensions/min-theme-plus"
@@ -1914,7 +1926,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "1.2.2"
+version = "1.3.3"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2003,7 +2015,7 @@ version = "0.0.2"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
-version = "1.0.1"
+version = "1.0.2"
 
 [mustache]
 submodule = "extensions/mustache"
@@ -2228,7 +2240,7 @@ version = "0.3.0"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.2"
+version = "0.3.7"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -2302,7 +2314,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.0.153"
+version = "1.0.203"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2338,7 +2350,7 @@ version = "0.0.3"
 
 [oxc]
 submodule = "extensions/oxc"
-version = "0.3.3"
+version = "0.4.1"
 
 [oxlint]
 submodule = "extensions/oxlint"
@@ -2568,7 +2580,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.16.2"
+version = "0.17.1"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -2648,7 +2660,7 @@ version = "2.1.2"
 
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
-version = "0.1.3"
+version = "0.1.4"
 
 [redscript]
 submodule = "extensions/redscript"
@@ -2672,7 +2684,7 @@ version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.4.1"
+version = "0.4.2"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -2720,7 +2732,7 @@ version = "0.0.1"
 
 [rshtml]
 submodule = "extensions/rshtml"
-version = "0.1.4"
+version = "0.1.5"
 
 [rst]
 submodule = "extensions/rst"
@@ -3025,7 +3037,7 @@ version = "0.0.7"
 
 [swift]
 submodule = "extensions/swift"
-version = "0.4.5"
+version = "0.4.6"
 
 [symbols]
 submodule = "extensions/symbols"
@@ -3119,6 +3131,10 @@ version = "0.0.1"
 [the-dark-side]
 submodule = "extensions/the-dark-side"
 version = "0.3.0"
+
+[the-pure-tone]
+submodule = "extensions/the-pure-tone"
+version = "0.0.1"
 
 [theme-lince]
 submodule = "extensions/theme-lince"
@@ -3278,6 +3294,10 @@ version = "0.1.5"
 submodule = "extensions/unison"
 version = "0.0.6"
 
+[unity-snippets]
+submodule = "extensions/unity-snippets"
+version = "0.0.1"
+
 [unocss]
 submodule = "extensions/unocss"
 version = "0.0.4"
@@ -3374,6 +3394,10 @@ version = "0.0.2"
 submodule = "extensions/vitesse-theme-refined"
 version = "0.4.0"
 
+[vitest-snippets]
+submodule = "extensions/vitest-snippets"
+version = "1.0.0"
+
 [vrl]
 submodule = "extensions/vrl"
 version = "0.1.0"
@@ -3416,7 +3440,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.2.9"
+version = "0.2.10"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
@@ -3501,7 +3525,7 @@ version = "0.0.2"
 
 [xml]
 submodule = "extensions/xml"
-version = "0.0.9"
+version = "0.1.0"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
@@ -3607,6 +3631,10 @@ version = "0.0.1"
 [zoegi-theme]
 submodule = "extensions/zoegi-theme"
 version = "0.4.3"
+
+[zokrates]
+submodule = "extensions/zokrates"
+version = "0.1.0"
 
 [zuban]
 submodule = "extensions/zuban"
