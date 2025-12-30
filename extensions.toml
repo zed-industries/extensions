@@ -606,7 +606,7 @@ version = "0.1.0"
 
 [cql]
 submodule = "extensions/cql"
-version = "2.0.0"
+version = "2.0.1"
 
 [crates-lsp]
 submodule = "extensions/crates-lsp"
@@ -640,6 +640,10 @@ version = "0.0.6"
 submodule = "extensions/css-modules-kit"
 version = "0.1.1"
 path = "crates/zed"
+
+[css-variables]
+submodule = "extensions/css-variables"
+version = "0.0.3"
 
 [csv]
 submodule = "extensions/csv"
@@ -1657,7 +1661,7 @@ version = "0.1.7"
 
 [luau]
 submodule = "extensions/luau"
-version = "0.3.3"
+version = "0.3.4"
 
 [lusch-theme]
 submodule = "extensions/lusch-theme"
@@ -1758,7 +1762,7 @@ version = "0.0.2"
 
 [mcp-server-atexplore]
 submodule = "extensions/mcp-server-atexplore"
-version = "0.1.0"
+version = "0.2.0"
 
 [mcp-server-atproto-docs]
 submodule = "extensions/mcp-server-atproto-docs"
@@ -1910,7 +1914,7 @@ version = "0.4.0"
 
 [min-theme]
 submodule = "extensions/min-theme"
-version = "0.2.1"
+version = "0.2.2"
 
 [min-theme-plus]
 submodule = "extensions/min-theme-plus"
@@ -2240,7 +2244,7 @@ version = "0.3.0"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.6"
+version = "0.3.7"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -2732,7 +2736,7 @@ version = "0.0.1"
 
 [rshtml]
 submodule = "extensions/rshtml"
-version = "0.1.4"
+version = "0.1.5"
 
 [rst]
 submodule = "extensions/rst"
@@ -3294,6 +3298,10 @@ version = "0.1.5"
 submodule = "extensions/unison"
 version = "0.0.6"
 
+[unity-snippets]
+submodule = "extensions/unity-snippets"
+version = "0.0.1"
+
 [unocss]
 submodule = "extensions/unocss"
 version = "0.0.4"
@@ -3627,6 +3635,10 @@ version = "0.0.1"
 [zoegi-theme]
 submodule = "extensions/zoegi-theme"
 version = "0.4.3"
+
+[zokrates]
+submodule = "extensions/zokrates"
+version = "0.1.0"
 
 [zuban]
 submodule = "extensions/zuban"
