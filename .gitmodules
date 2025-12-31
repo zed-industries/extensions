@@ -198,6 +198,10 @@
 	path = extensions/authzed
 	url = https://github.com/mleonidas/authzed-zed.git
 
+[submodule "extensions/auto-file-header"]
+	path = extensions/auto-file-header
+	url = https://github.com/MrAMS/zed-auto-file-header
+
 [submodule "extensions/autocorrect"]
 	path = extensions/autocorrect
 	url = https://github.com/huacnlee/zed-autocorrect.git
@@ -633,6 +637,10 @@
 [submodule "extensions/css-modules-kit"]
 	path = extensions/css-modules-kit
 	url = https://github.com/mizdra/css-modules-kit.git
+
+[submodule "extensions/css-variables"]
+	path = extensions/css-variables
+	url = https://github.com/lmn451/css-variables-zed.git
 
 [submodule "extensions/csv"]
 	path = extensions/csv
@@ -1233,6 +1241,10 @@
 [submodule "extensions/gruvchad"]
 	path = extensions/gruvchad
 	url = https://github.com/hey-ewan/zed-gruvchad.git
+
+[submodule "extensions/hackatime"]
+	path = extensions/hackatime
+	url = https://github.com/espcaa/zed-hackatime.git
 
 [submodule "extensions/hacker-night-vision"]
 	path = extensions/hacker-night-vision
@@ -2320,7 +2332,7 @@
 
 [submodule "extensions/oxc"]
 	path = extensions/oxc
-	url = https://github.com/oxc-project/zed-oxc.git
+	url = https://github.com/oxc-project/oxc-zed.git
 
 [submodule "extensions/oxlint"]
 	path = extensions/oxlint
@@ -2496,7 +2508,7 @@
 
 [submodule "extensions/powershell"]
 	path = extensions/powershell
-	url = https://github.com/wingyplus/zed-powershell.git
+	url = https://github.com/zed-extensions/powershell
 
 [submodule "extensions/prisma"]
 	path = extensions/prisma
@@ -2648,7 +2660,7 @@
 
 [submodule "extensions/rescript"]
 	path = extensions/rescript
-	url = https://github.com/humaans/rescript-zed.git
+	url = https://github.com/rescript-lang/rescript-zed.git
 
 [submodule "extensions/retrofit-theme"]
 	path = extensions/retrofit-theme
@@ -3254,6 +3266,10 @@
 	path = extensions/unison
 	url = https://github.com/zetashift/unison-zed
 
+[submodule "extensions/unity-snippets"]
+	path = extensions/unity-snippets
+	url = https://github.com/Abdallah-Alwarawreh/unity-zed-snippets.git
+
 [submodule "extensions/unocss"]
 	path = extensions/unocss
 	url = https://github.com/bajrangCoder/zed-unocss.git
@@ -3589,6 +3605,10 @@
 [submodule "extensions/zoegi-theme"]
 	path = extensions/zoegi-theme
 	url = https://github.com/nikitapashinsky/zoegi-theme.git
+
+[submodule "extensions/zokrates"]
+	path = extensions/zokrates
+	url = https://github.com/threonyl/zed-zokrates.git
 
 [submodule "extensions/zuban"]
 	path = extensions/zuban
