@@ -31,8 +31,8 @@ importers:
         specifier: 13.0.5
         version: 13.0.5
       danger-plugin-pr-hygiene:
-        specifier: 0.6.1
-        version: 0.6.1
+        specifier: 0.7.1
+        version: 0.7.1
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -866,8 +866,8 @@ packages:
   core-js@3.38.1:
     resolution: {integrity: sha512-OP35aUorbU3Zvlx7pjsFdu1rGNnD4pgw/CWoYzRY3t2EzoVT7shKHY1dlAy3f41cGIO7ZDPQimhGFTlEYkG/Hw==}
 
-  danger-plugin-pr-hygiene@0.6.1:
-    resolution: {integrity: sha512-nb+iUQvirE3BlKXI1WoOND6sujyGzHar590mJm5tt4RLi65HXFaU5hqONxgDoWFujJNHYnXse9yaZdxnxEi4QA==}
+  danger-plugin-pr-hygiene@0.7.1:
+    resolution: {integrity: sha512-ll070nNaL3OeO2nooYWflPE/CRKLeq8GiH2C68u5zM3gW4gepH89GhVv0sYNNGLx4cYwa1zZ/TuiYYhC49z06Q==}
 
   danger@13.0.5:
     resolution: {integrity: sha512-XTaUxdKA4JICqt2lnl58jSxl2k9GpX6RrjuI4UOK6lJSiexX1Fmh39aBB/FnAwBCIUEbc5DVz7C8Yr5xoU57Jw==}
@@ -2499,7 +2499,7 @@ snapshots:
 
   core-js@3.38.1: {}
 
-  danger-plugin-pr-hygiene@0.6.1: {}
+  danger-plugin-pr-hygiene@0.7.1: {}
 
   danger@13.0.5:
     dependencies:
