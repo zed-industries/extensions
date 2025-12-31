@@ -200,9 +200,17 @@ version = "1.0.0"
 submodule = "extensions/authzed"
 version = "0.0.2"
 
+[auto-file-header]
+submodule = "extensions/auto-file-header"
+version = "0.2.7"
+
 [autocorrect]
 submodule = "extensions/autocorrect"
 version = "0.2.2"
+
+[autohotkey]
+submodule = "extensions/autohotkey"
+version = "0.1.0"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -590,7 +598,7 @@ version = "1.0.0"
 
 [conl]
 submodule = "extensions/conl"
-version = "2.0.0"
+version = "2.0.1"
 
 [cooklang]
 submodule = "extensions/cooklang"
@@ -1256,6 +1264,10 @@ version = "1.0.1"
 submodule = "extensions/gruvchad"
 version = "0.1.0"
 
+[hackatime]
+submodule = "extensions/hackatime"
+version = "0.1.10"
+
 [hacker-night-vision]
 submodule = "extensions/hacker-night-vision"
 version = "2.0.0"
@@ -1468,7 +1480,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.2.1"
+version = "0.3.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -1517,6 +1529,10 @@ version = "0.1.2"
 [kagimcp]
 submodule = "extensions/kagimcp"
 version = "0.0.30"
+
+[kaimandres]
+submodule = "extensions/kaimandres"
+version = "1.0.1"
 
 [kamui-dark-theme]
 submodule = "extensions/kamui-dark-theme"
@@ -1568,7 +1584,7 @@ version = "1.0.0"
 
 [kvs-cyberpunk-2077]
 submodule = "extensions/kvs-cyberpunk-2077"
-version = "0.0.2"
+version = "1.0.2"
 
 [latex]
 submodule = "extensions/latex"
@@ -1661,7 +1677,7 @@ version = "0.1.7"
 
 [luau]
 submodule = "extensions/luau"
-version = "0.3.4"
+version = "0.3.5"
 
 [lusch-theme]
 submodule = "extensions/lusch-theme"
@@ -1762,6 +1778,10 @@ version = "0.0.2"
 
 [mcp-server-atexplore]
 submodule = "extensions/mcp-server-atexplore"
+version = "0.2.0"
+
+[mcp-server-atproto-docs]
+submodule = "extensions/mcp-server-atproto-docs"
 version = "0.2.0"
 
 [mcp-server-axiom]
@@ -1894,7 +1914,7 @@ version = "0.3.0"
 
 [melange]
 submodule = "extensions/melange"
-version = "0.0.11"
+version = "0.0.12"
 
 [mellow]
 submodule = "extensions/mellow"
@@ -2240,7 +2260,7 @@ version = "0.3.0"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.7"
+version = "0.3.9"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -2314,7 +2334,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.0.203"
+version = "1.0.219"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2442,7 +2462,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.5"
+version = "0.4.6"
 
 [php-snippets]
 submodule = "extensions/php-snippets"
@@ -2450,7 +2470,7 @@ version = "0.1.0"
 
 [phpcs]
 submodule = "extensions/phpcs"
-version = "0.1.8"
+version = "0.2.0"
 
 [phpmd]
 submodule = "extensions/phpmd"
@@ -2510,7 +2530,7 @@ version = "1.0.9"
 
 [pony]
 submodule = "extensions/pony"
-version = "0.2.1"
+version = "0.5.0"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -2526,7 +2546,7 @@ version = "0.1.0"
 
 [powershell]
 submodule = "extensions/powershell"
-version = "0.3.0"
+version = "0.4.0"
 
 [prisma]
 submodule = "extensions/prisma"
@@ -3029,7 +3049,7 @@ version = "0.0.2"
 
 [svelte]
 submodule = "extensions/svelte"
-version = "0.2.10"
+version = "0.2.11"
 
 [svelte-mcp]
 submodule = "extensions/svelte-mcp"
@@ -3360,7 +3380,7 @@ version = "0.0.9"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.14"
+version = "0.0.15"
 
 [vesper]
 submodule = "extensions/vesper"
@@ -3444,7 +3464,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.2.10"
+version = "0.3.0"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
