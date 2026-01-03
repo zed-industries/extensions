@@ -198,9 +198,17 @@
 	path = extensions/authzed
 	url = https://github.com/mleonidas/authzed-zed.git
 
+[submodule "extensions/auto-file-header"]
+	path = extensions/auto-file-header
+	url = https://github.com/MrAMS/zed-auto-file-header
+
 [submodule "extensions/autocorrect"]
 	path = extensions/autocorrect
 	url = https://github.com/huacnlee/zed-autocorrect.git
+
+[submodule "extensions/autohotkey"]
+	path = extensions/autohotkey
+	url = https://github.com/alfredomtx/tree-sitter-autohotkey.git
 
 [submodule "extensions/autumnal-marscape"]
 	path = extensions/autumnal-marscape
@@ -1242,6 +1250,10 @@
 	path = extensions/gruvchad
 	url = https://github.com/hey-ewan/zed-gruvchad.git
 
+[submodule "extensions/hackatime"]
+	path = extensions/hackatime
+	url = https://github.com/espcaa/zed-hackatime.git
+
 [submodule "extensions/hacker-night-vision"]
 	path = extensions/hacker-night-vision
 	url = https://github.com/Takk8IS/hacker-night-vision-theme-for-zed.git
@@ -1498,6 +1510,10 @@
 	path = extensions/kagimcp
 	url = https://github.com/jmylchreest/kagimcp-zed.git
 
+[submodule "extensions/kaimandres"]
+	path = extensions/kaimandres
+	url = https://github.com/MartelleV/kaimandres-zed.git
+
 [submodule "extensions/kamui-dark-theme"]
 	path = extensions/kamui-dark-theme
 	url = https://gitlab.com/kamuiqf/zed-kamui-theme.git
@@ -1741,6 +1757,10 @@
 [submodule "extensions/mcp-server-atexplore"]
 	path = extensions/mcp-server-atexplore
 	url = https://github.com/moshyfawn/zed-mcp-server-atexplore.git
+
+[submodule "extensions/mcp-server-atproto-docs"]
+	path = extensions/mcp-server-atproto-docs
+	url = https://github.com/moshyfawn/zed-mcp-server-atproto-docs.git
 
 [submodule "extensions/mcp-server-axiom"]
 	path = extensions/mcp-server-axiom
@@ -2500,7 +2520,7 @@
 
 [submodule "extensions/powershell"]
 	path = extensions/powershell
-	url = https://github.com/wingyplus/zed-powershell.git
+	url = https://github.com/zed-extensions/powershell
 
 [submodule "extensions/prisma"]
 	path = extensions/prisma
