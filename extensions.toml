@@ -208,6 +208,10 @@ version = "0.2.7"
 submodule = "extensions/autocorrect"
 version = "0.2.2"
 
+[autohotkey]
+submodule = "extensions/autohotkey"
+version = "0.1.0"
+
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
 version = "0.0.1"
@@ -270,7 +274,7 @@ version = "0.0.3"
 
 [beancount]
 submodule = "extensions/beancount"
-version = "0.0.5"
+version = "0.1.0"
 
 [beanseeds-pro]
 submodule = "extensions/beanseeds-pro"
@@ -447,7 +451,7 @@ version = "0.0.1"
 [cem]
 submodule = "extensions/cem"
 path = "extensions/zed"
-version = "0.7.5"
+version = "0.8.0"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -581,7 +585,7 @@ version = "1.0.6"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.4.1"
+version = "0.5.0"
 
 [compline]
 submodule = "extensions/compline"
@@ -647,7 +651,7 @@ path = "crates/zed"
 
 [css-variables]
 submodule = "extensions/css-variables"
-version = "0.0.3"
+version = "0.0.4"
 
 [csv]
 submodule = "extensions/csv"
@@ -1260,6 +1264,10 @@ version = "1.0.1"
 submodule = "extensions/gruvchad"
 version = "0.1.0"
 
+[hackatime]
+submodule = "extensions/hackatime"
+version = "0.1.10"
+
 [hacker-night-vision]
 submodule = "extensions/hacker-night-vision"
 version = "2.0.0"
@@ -1522,6 +1530,10 @@ version = "0.1.2"
 submodule = "extensions/kagimcp"
 version = "0.0.30"
 
+[kaimandres]
+submodule = "extensions/kaimandres"
+version = "1.0.1"
+
 [kamui-dark-theme]
 submodule = "extensions/kamui-dark-theme"
 version = "0.0.1"
@@ -1766,6 +1778,10 @@ version = "0.0.2"
 
 [mcp-server-atexplore]
 submodule = "extensions/mcp-server-atexplore"
+version = "0.2.0"
+
+[mcp-server-atproto-docs]
+submodule = "extensions/mcp-server-atproto-docs"
 version = "0.2.0"
 
 [mcp-server-axiom]
@@ -2293,7 +2309,7 @@ version = "0.0.12"
 
 [one-dark-pro-max]
 submodule = "extensions/one-dark-pro-max"
-version = "0.0.1"
+version = "0.0.2"
 
 [one-dark-pro-monokai-darker]
 submodule = "extensions/one-dark-pro-monokai-darker"
@@ -2318,7 +2334,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.0.218"
+version = "1.0.223"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2567,7 +2583,7 @@ version = "0.2.0"
 
 [purescript]
 submodule = "extensions/purescript"
-version = "0.1.2"
+version = "0.1.3"
 
 [purr]
 submodule = "extensions/purr"
