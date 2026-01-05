@@ -24,7 +24,7 @@ import {
 } from "./lib/validation.js";
 
 const {
-  BRANCH_HEAD_SHA,
+  REF_NAME,
   S3_ACCESS_KEY,
   S3_SECRET_KEY,
   S3_BUCKET,
@@ -50,10 +50,7 @@ ENVIRONMENT VARIABLES
   S3_BUCKET         Name of the bucket where extensions are published
   SHOULD_PUBLISH    Whether to publish packages to the blob store.
                     Set this to "true" to publish the packages.
-  BRANCH_HEAD_SHA   SHA of the branch head commit. This is used to
-                    determine the changed extensions. If this is not
-                    set, the changes will be determined based on the
-                    extensions.toml of the main branch.
+  REF_NAME          Name of the branch or tag being built.
 `;
 
 let selectedExtensionId;
@@ -104,7 +101,7 @@ try {
 
   const extensionIds = shouldPublish
     ? await unpublishedExtensionIds(extensionsToml)
-    : await changedExtensionIds(extensionsToml, BRANCH_HEAD_SHA);
+    : await changedExtensionIds(extensionsToml, REF_NAME !== "main");
 
   for (const extensionId of extensionIds) {
     if (selectedExtensionId && extensionId !== selectedExtensionId) {
@@ -303,14 +300,24 @@ async function unpublishedExtensionIds(extensionsToml) {
 
 /**
  * @param {Record<string, any>} extensionsToml
- * @param {string | undefined} compareSha
+ * @param {boolean} useMergeBase
  */
-async function changedExtensionIds(extensionsToml, compareSha) {
+async function changedExtensionIds(extensionsToml, useMergeBase) {
+  let compareTarget;
+  if (useMergeBase) {
+    const { stdout: forkPoint } = await exec("git", [
+      "merge-base",
+      "HEAD",
+      "origin/main",
+    ]);
+    compareTarget = forkPoint.trim();
+  } else {
+    compareTarget = "origin/main";
+  }
+
   const { stdout: extensionsContents } = await exec("git", [
     "show",
-    compareSha
-      ? `${compareSha}:extensions.toml`
-      : "origin/main:extensions.toml",
+    `${compareTarget}:extensions.toml`,
   ]);
   /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
@@ -323,6 +330,9 @@ async function changedExtensionIds(extensionsToml, compareSha) {
     result.push(extensionId);
   }
 
-  console.log("Extensions changed from main:", result.join(", "));
+  console.log(
+    "Extensions changed from main:",
+    result.length !== 0 ? result.join(", ") : "No changed extensions detected.",
+  );
   return result;
 }
