@@ -63,6 +63,10 @@ version = "0.1.0"
 submodule = "extensions/aira"
 version = "0.0.2"
 
+[aizen-theme]
+submodule = "extensions/aizen-theme"
+version = "0.1.0"
+
 [alabaster]
 submodule = "extensions/alabaster"
 version = "0.0.3"
@@ -585,7 +589,7 @@ version = "1.0.6"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.5.0"
+version = "0.6.0"
 
 [compline]
 submodule = "extensions/compline"
@@ -640,6 +644,10 @@ version = "1.0.1"
 submodule = "extensions/csharp-snippets"
 version = "0.1.0"
 
+[csound]
+submodule = "extensions/csound"
+version = "1.0.0"
+
 [cspell]
 submodule = "extensions/cspell"
 version = "0.0.6"
@@ -691,7 +699,7 @@ version = "2.0.0"
 
 [cyberpunk-scarlet]
 submodule = "extensions/cyberpunk-scarlet"
-version = "0.0.1"
+version = "0.0.2"
 
 [cylc]
 submodule = "extensions/cylc"
@@ -851,12 +859,21 @@ version = "0.0.1"
 submodule = "extensions/dune-theme"
 version = "1.3.0"
 
+[duper]
+submodule = "extensions/duper"
+path = "duper_zed"
+version = "0.0.1"
+
 [dwp]
 submodule = "extensions/dwp"
-version = "0.0.1"
+version = "0.0.2"
 
 [earthfile]
 submodule = "extensions/earthfile"
+version = "0.1.0"
+
+[eclat]
+submodule = "extensions/eclat"
 version = "0.1.0"
 
 [edge]
@@ -985,6 +1002,10 @@ version = "0.2.0"
 submodule = "extensions/fedaykin-themes"
 version = "1.0.0"
 
+[ferret]
+submodule = "extensions/ferret"
+version = "0.0.1"
+
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
 version = "0.1.0"
@@ -992,6 +1013,10 @@ version = "0.1.0"
 [fiberplane-studio]
 submodule = "extensions/fiberplane-studio"
 version = "0.1.1"
+
+[findrakecil-alabaster]
+submodule = "extensions/findrakecil-alabaster"
+version = "1.0.0"
 
 [firebase-security-rules]
 submodule = "extensions/firebase-security-rules"
@@ -1266,7 +1291,7 @@ version = "0.1.0"
 
 [hackatime]
 submodule = "extensions/hackatime"
-version = "0.1.10"
+version = "0.3.1"
 
 [hacker-night-vision]
 submodule = "extensions/hacker-night-vision"
@@ -1444,7 +1469,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.4"
+version = "6.8.5"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1626,6 +1651,10 @@ version = "0.0.1"
 submodule = "extensions/lilypond"
 version = "0.0.9"
 
+[linkerscript]
+submodule = "extensions/linkerscript"
+version = "0.1.0"
+
 [liquid]
 submodule = "extensions/liquid"
 version = "0.5.0"
@@ -1698,6 +1727,10 @@ version = "1.1.1"
 [malibu]
 submodule = "extensions/malibu"
 version = "0.0.1"
+
+[mangoes]
+submodule = "extensions/mangoes"
+version = "0.1.1"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
@@ -1808,6 +1841,10 @@ version = "0.0.1"
 submodule = "extensions/mcp-server-context7"
 version = "0.0.5"
 
+[mcp-server-digitalocean]
+submodule = "extensions/mcp-server-digitalocean"
+version = "0.1.0"
+
 [mcp-server-exa-search]
 submodule = "extensions/mcp-server-exa-search"
 version = "0.1.0"
@@ -1871,6 +1908,10 @@ version = "0.0.1"
 [mcp-server-relytone]
 submodule = "extensions/mcp-server-relytone"
 version = "0.2.0"
+
+[mcp-server-repomix]
+submodule = "extensions/mcp-server-repomix"
+version = "0.1.0"
 
 [mcp-server-resend]
 submodule = "extensions/mcp-server-resend"
@@ -1988,6 +2029,10 @@ version = "0.1.0"
 [monokai-reversed]
 submodule = "extensions/monokai-reversed"
 version = "0.0.2"
+
+[monokai-sharp]
+submodule = "extensions/monokai-sharp"
+version = "1.0.0"
 
 [monokai-vibrant-amped]
 submodule = "extensions/monokai-vibrant-amped"
@@ -2152,7 +2197,7 @@ version = "1.0.0"
 
 [nix]
 submodule = "extensions/nix"
-version = "0.1.2"
+version = "0.1.3"
 
 [nixdorf-8870]
 submodule = "extensions/nixdorf-8870"
@@ -2298,6 +2343,10 @@ version = "0.0.2"
 [one-dark-flat]
 submodule = "extensions/one-dark-flat"
 version = "1.0.0"
+
+[one-dark-ocean]
+submodule = "extensions/one-dark-ocean"
+version = "0.1.0"
 
 [one-dark-pro]
 submodule = "extensions/one-dark-pro"
@@ -2494,7 +2543,7 @@ version = "0.0.1"
 
 [pkl]
 submodule = "extensions/pkl"
-version = "0.1.0"
+version = "0.3.0"
 
 [plantuml]
 submodule = "extensions/plantuml"
@@ -2564,6 +2613,10 @@ version = "0.2.0"
 submodule = "extensions/probe-rs"
 version = "0.0.1"
 
+[processing]
+submodule = "extensions/processing"
+version = "0.1.1"
+
 [prolog]
 submodule = "extensions/prolog"
 version = "0.0.2"
@@ -2622,6 +2675,11 @@ version = "0.1.1"
 submodule = "extensions/qml"
 version = "0.0.4"
 
+[qqcode]
+submodule = "extensions/qqcode"
+version = "1.2.0"
+path = "distribution/zed"
+
 [quadlet]
 submodule = "extensions/quadlet"
 version = "0.2.1"
@@ -2638,6 +2696,10 @@ version = "0.0.1"
 submodule = "extensions/quasi-monochrome"
 version = "0.0.1"
 
+[qubik-theme]
+submodule = "extensions/qubik-theme"
+version = "0.1.0"
+
 [quiet-light-theme]
 submodule = "extensions/quiet-light-theme"
 version = "0.7.2"
@@ -2648,7 +2710,7 @@ version = "0.2.2"
 
 [r]
 submodule = "extensions/r"
-version = "0.2.4"
+version = "0.2.5"
 
 [racket]
 submodule = "extensions/racket"
@@ -2685,6 +2747,10 @@ version = "2.1.2"
 [react-typescript-snippets]
 submodule = "extensions/react-typescript-snippets"
 version = "0.1.4"
+
+[red]
+submodule = "extensions/red"
+version = "0.1.1"
 
 [redscript]
 submodule = "extensions/redscript"
@@ -2809,6 +2875,10 @@ version = "0.0.1"
 [sequoia]
 submodule = "extensions/sequoia"
 version = "1.31.0"
+
+[sercali]
+submodule = "extensions/sercali"
+version = "0.0.1"
 
 [serena-context-server]
 submodule = "extensions/serena-context-server"
@@ -3306,6 +3376,10 @@ version = "0.0.2"
 submodule = "extensions/umbralkai"
 version = "0.1.0"
 
+[umka]
+submodule = "extensions/umka"
+version = "0.0.1"
+
 [underground-theme]
 submodule = "extensions/underground-theme"
 version = "1.0.0"
@@ -3659,6 +3733,10 @@ version = "0.4.3"
 [zokrates]
 submodule = "extensions/zokrates"
 version = "0.1.0"
+
+[zomorrod-theme]
+submodule = "extensions/zomorrod-theme"
+version = "0.0.1"
 
 [zuban]
 submodule = "extensions/zuban"
