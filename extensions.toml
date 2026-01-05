@@ -640,6 +640,10 @@ version = "1.0.1"
 submodule = "extensions/csharp-snippets"
 version = "0.1.0"
 
+[csound]
+submodule = "extensions/csound"
+version = "1.0.0"
+
 [cspell]
 submodule = "extensions/cspell"
 version = "0.0.6"
@@ -2649,6 +2653,11 @@ version = "0.1.1"
 [qml]
 submodule = "extensions/qml"
 version = "0.0.4"
+
+[qqcode]
+submodule = "extensions/qqcode"
+version = "1.2.0"
+path = "distribution/zed"
 
 [quadlet]
 submodule = "extensions/quadlet"
