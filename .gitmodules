@@ -198,9 +198,17 @@
 	path = extensions/authzed
 	url = https://github.com/mleonidas/authzed-zed.git
 
+[submodule "extensions/auto-file-header"]
+	path = extensions/auto-file-header
+	url = https://github.com/MrAMS/zed-auto-file-header
+
 [submodule "extensions/autocorrect"]
 	path = extensions/autocorrect
 	url = https://github.com/huacnlee/zed-autocorrect.git
+
+[submodule "extensions/autohotkey"]
+	path = extensions/autohotkey
+	url = https://github.com/alfredomtx/tree-sitter-autohotkey.git
 
 [submodule "extensions/autumnal-marscape"]
 	path = extensions/autumnal-marscape
@@ -634,6 +642,10 @@
 	path = extensions/css-modules-kit
 	url = https://github.com/mizdra/css-modules-kit.git
 
+[submodule "extensions/css-variables"]
+	path = extensions/css-variables
+	url = https://github.com/lmn451/css-variables-zed.git
+
 [submodule "extensions/csv"]
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
@@ -974,6 +986,10 @@
 	path = extensions/fiberplane-studio
 	url = https://github.com/keturiosakys/zed-fp-studio.git
 
+[submodule "extensions/findrakecil-alabaster"]
+	path = extensions/findrakecil-alabaster
+	url = https://github.com/findrakecil/alabaster-zed-theme.git
+
 [submodule "extensions/firebase-security-rules"]
 	path = extensions/firebase-security-rules
 	url = https://github.com/ChemisTechlabs/zed-firebase-security-rules.git
@@ -1238,6 +1254,10 @@
 	path = extensions/gruvchad
 	url = https://github.com/hey-ewan/zed-gruvchad.git
 
+[submodule "extensions/hackatime"]
+	path = extensions/hackatime
+	url = https://github.com/espcaa/zed-hackatime.git
+
 [submodule "extensions/hacker-night-vision"]
 	path = extensions/hacker-night-vision
 	url = https://github.com/Takk8IS/hacker-night-vision-theme-for-zed.git
@@ -1494,6 +1514,10 @@
 	path = extensions/kagimcp
 	url = https://github.com/jmylchreest/kagimcp-zed.git
 
+[submodule "extensions/kaimandres"]
+	path = extensions/kaimandres
+	url = https://github.com/MartelleV/kaimandres-zed.git
+
 [submodule "extensions/kamui-dark-theme"]
 	path = extensions/kamui-dark-theme
 	url = https://gitlab.com/kamuiqf/zed-kamui-theme.git
@@ -1585,6 +1609,10 @@
 [submodule "extensions/lilypond"]
 	path = extensions/lilypond
 	url = https://github.com/nwhetsell/lilypond-zed-extension
+
+[submodule "extensions/linkerscript"]
+	path = extensions/linkerscript
+	url = https://github.com/notpeter/linkerscript-zed.git
 
 [submodule "extensions/liquid"]
 	path = extensions/liquid
@@ -1738,6 +1766,10 @@
 	path = extensions/mcp-server-atexplore
 	url = https://github.com/moshyfawn/zed-mcp-server-atexplore.git
 
+[submodule "extensions/mcp-server-atproto-docs"]
+	path = extensions/mcp-server-atproto-docs
+	url = https://github.com/moshyfawn/zed-mcp-server-atproto-docs.git
+
 [submodule "extensions/mcp-server-axiom"]
 	path = extensions/mcp-server-axiom
 	url = https://github.com/zed-extensions/mcp-server-axiom.git
@@ -1825,6 +1857,10 @@
 [submodule "extensions/mcp-server-relytone"]
 	path = extensions/mcp-server-relytone
 	url = https://github.com/YuweiXiao/zed-mcp-server-relytone.git
+
+[submodule "extensions/mcp-server-repomix"]
+	path = extensions/mcp-server-repomix
+	url = https://github.com/mlopezgez/mcp-server-repomix.git
 
 [submodule "extensions/mcp-server-resend"]
 	path = extensions/mcp-server-resend
@@ -1941,6 +1977,10 @@
 [submodule "extensions/monokai-reversed"]
 	path = extensions/monokai-reversed
 	url = https://github.com/everdrone/zed-monokai-reversed
+
+[submodule "extensions/monokai-sharp"]
+	path = extensions/monokai-sharp
+	url = https://github.com/probablykasper/monokai-sharp-zed-theme.git
 
 [submodule "extensions/monokai-vibrant-amped"]
 	path = extensions/monokai-vibrant-amped
@@ -2496,7 +2536,7 @@
 
 [submodule "extensions/powershell"]
 	path = extensions/powershell
-	url = https://github.com/wingyplus/zed-powershell.git
+	url = https://github.com/zed-extensions/powershell
 
 [submodule "extensions/prisma"]
 	path = extensions/prisma
@@ -2509,6 +2549,10 @@
 [submodule "extensions/probe-rs"]
 	path = extensions/probe-rs
 	url = https://github.com/probe-rs/zed-extension
+
+[submodule "extensions/processing"]
+	path = extensions/processing
+	url = https://github.com/Robot-Inventor/processing-zed-extension.git
 
 [submodule "extensions/prolog"]
 	path = extensions/prolog
@@ -2577,6 +2621,10 @@
 [submodule "extensions/quasi-monochrome"]
 	path = extensions/quasi-monochrome
 	url = https://github.com/codeadict/zed_quasi_monochrome.git
+
+[submodule "extensions/qubik-theme"]
+	path = extensions/qubik-theme
+	url = https://github.com/qnbhd/qubik-zed-theme.git
 
 [submodule "extensions/quiet-light-theme"]
 	path = extensions/quiet-light-theme
@@ -2648,7 +2696,7 @@
 
 [submodule "extensions/rescript"]
 	path = extensions/rescript
-	url = https://github.com/humaans/rescript-zed.git
+	url = https://github.com/rescript-lang/rescript-zed.git
 
 [submodule "extensions/retrofit-theme"]
 	path = extensions/retrofit-theme
@@ -3242,6 +3290,10 @@
 	path = extensions/umbralkai
 	url = https://github.com/platformer/zed-umbralkai
 
+[submodule "extensions/umka"]
+	path = extensions/umka
+	url = https://github.com/michabay05/zed-umka.git
+
 [submodule "extensions/underground-theme"]
 	path = extensions/underground-theme
 	url = https://github.com/i-amdroid/zed-underground-theme.git
@@ -3253,6 +3305,10 @@
 [submodule "extensions/unison"]
 	path = extensions/unison
 	url = https://github.com/zetashift/unison-zed
+
+[submodule "extensions/unity-snippets"]
+	path = extensions/unity-snippets
+	url = https://github.com/Abdallah-Alwarawreh/unity-zed-snippets.git
 
 [submodule "extensions/unocss"]
 	path = extensions/unocss
@@ -3589,6 +3645,10 @@
 [submodule "extensions/zoegi-theme"]
 	path = extensions/zoegi-theme
 	url = https://github.com/nikitapashinsky/zoegi-theme.git
+
+[submodule "extensions/zokrates"]
+	path = extensions/zokrates
+	url = https://github.com/threonyl/zed-zokrates.git
 
 [submodule "extensions/zuban"]
 	path = extensions/zuban
