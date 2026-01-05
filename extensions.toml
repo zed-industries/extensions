@@ -63,6 +63,10 @@ version = "0.1.0"
 submodule = "extensions/aira"
 version = "0.0.2"
 
+[aizen-theme]
+submodule = "extensions/aizen-theme"
+version = "0.1.0"
+
 [alabaster]
 submodule = "extensions/alabaster"
 version = "0.0.3"
@@ -207,6 +211,10 @@ version = "0.2.7"
 [autocorrect]
 submodule = "extensions/autocorrect"
 version = "0.2.2"
+
+[autohand-acp]
+submodule = "extensions/autohand-acp"
+version = "0.1.3"
 
 [autohotkey]
 submodule = "extensions/autohotkey"
@@ -542,6 +550,10 @@ version = "0.0.5"
 submodule = "extensions/code-stats"
 version = "0.2.7"
 
+[codebabel-ztheme-dark]
+submodule = "extensions/codebabel-ztheme-dark"
+version = "0.0.5"
+
 [codebook]
 submodule = "extensions/codebook"
 version = "0.2.5"
@@ -855,12 +867,21 @@ version = "0.0.1"
 submodule = "extensions/dune-theme"
 version = "1.3.0"
 
+[duper]
+submodule = "extensions/duper"
+path = "duper_zed"
+version = "0.0.1"
+
 [dwp]
 submodule = "extensions/dwp"
-version = "0.0.1"
+version = "0.0.2"
 
 [earthfile]
 submodule = "extensions/earthfile"
+version = "0.1.0"
+
+[eclat]
+submodule = "extensions/eclat"
 version = "0.1.0"
 
 [edge]
@@ -1709,11 +1730,15 @@ version = "0.3.0"
 
 [make]
 submodule = "extensions/make"
-version = "1.1.1"
+version = "1.1.2"
 
 [malibu]
 submodule = "extensions/malibu"
 version = "0.0.1"
+
+[mangoes]
+submodule = "extensions/mangoes"
+version = "0.1.1"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
@@ -1823,6 +1848,10 @@ version = "0.0.1"
 [mcp-server-context7]
 submodule = "extensions/mcp-server-context7"
 version = "0.0.5"
+
+[mcp-server-digitalocean]
+submodule = "extensions/mcp-server-digitalocean"
+version = "0.1.0"
 
 [mcp-server-exa-search]
 submodule = "extensions/mcp-server-exa-search"
@@ -2384,6 +2413,10 @@ version = "0.0.1"
 submodule = "extensions/opentofu"
 version = "0.2.0"
 
+[optima-theme]
+submodule = "extensions/optima-theme"
+version = "0.0.1"
+
 [org]
 submodule = "extensions/org"
 version = "0.0.1"
@@ -2886,6 +2919,10 @@ version = "0.1.0"
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
 version = "0.0.6"
+
+[shapels]
+submodule = "extensions/shapels"
+version = "0.0.1"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
@@ -3712,6 +3749,10 @@ version = "0.4.3"
 [zokrates]
 submodule = "extensions/zokrates"
 version = "0.1.0"
+
+[zomorrod-theme]
+submodule = "extensions/zomorrod-theme"
+version = "0.0.1"
 
 [zuban]
 submodule = "extensions/zuban"
