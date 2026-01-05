@@ -39,7 +39,6 @@ export function isApache2License(licenseContent) {
 }
 
 const BSD_3_CLAUSE_REQUIRED_PATTERNS = [
-  /BSD 3-Clause License/i,
   /Copyright/i,
   /Redistribution and use in source and binary forms, with or without/i,
   /modification, are permitted provided that the following conditions are met:/i,
