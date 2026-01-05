@@ -934,6 +934,10 @@
 	path = extensions/erlang
 	url = https://github.com/zed-extensions/erlang.git
 
+[submodule "extensions/everforest-blurred"]
+	path = extensions/everforest-blurred
+	url = https://github.com/illescasDaniel/everforest-blurred-zed.git
+
 [submodule "extensions/everforest-theme"]
 	path = extensions/everforest-theme
 	url = https://github.com/ThomasAlban/everforest-zed.git
@@ -3625,6 +3629,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/everforest-blurred"]
-	path = extensions/everforest-blurred
-	url = https://github.com/illescasDaniel/everforest-blurred-zed.git
