@@ -1,3 +1,10 @@
+import {
+  isApache2License,
+  isBsd3ClauseLicense,
+  isGplV3License,
+  isMitLicense,
+} from "./license.js";
+
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
 
 /**
@@ -13,6 +20,11 @@ const EXTENSION_ID_STARTS_WITH_EXCEPTIONS = ["zed-legacy-themes"];
  * Only to be edited by Zed staff.
  */
 const EXTENSION_ID_ENDS_WITH_EXCEPTIONS = ["xy-zed"];
+
+/**
+ * Exceptions to the rule that extension submodules should match the extension ID.
+ */
+const SUBMODULE_LOCATION_EXCEPTIONS = ["extensions/zed"];
 
 /**
  * @param {Record<string, any>} extensionsToml
@@ -88,4 +100,92 @@ export function validateGitmodules(gitmodules) {
       throw new Error(`Submodules must use "https://" scheme.`);
     }
   }
+}
+
+/**
+ * @param {Record<string, any>} extensionsToml
+ * @param {import('git-submodule-js').Submodule} gitmodules
+ */
+export function validateGitmodulesLocations(extensionsToml, gitmodules) {
+  for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
+    let submoduleName = extensionInfo["submodule"];
+    let submodule = gitmodules[submoduleName];
+    let expectedSubmoduleName = `extensions/${extensionId}`;
+
+    if (!submodule) {
+      throw new Error(
+        `Could not find submodule "${submoduleName}" for extension ID "${extensionId}".`,
+      );
+    }
+
+    if (SUBMODULE_LOCATION_EXCEPTIONS.includes(submoduleName)) {
+      continue;
+    }
+
+    let submodulePath = submodule["path"];
+
+    if (submoduleName !== expectedSubmoduleName) {
+      throw new Error(
+        `Submodule name ${submoduleName} does not match expected name. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+
+    if (submoduleName !== submodulePath) {
+      throw new Error(
+        `Name and path do not match for submodule ${expectedSubmoduleName}. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+
+    if (submoduleName !== expectedSubmoduleName) {
+      throw new Error(
+        `Extension with ID "${extensionId}" does not use the proper submodule. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
+      );
+    }
+  }
+}
+
+const LICENSE_REQUIREMENT_TEXT = `Extension repositories must have a valid license:
+  - Apache 2.0
+  - BSD 3-Clause
+  - GNU GPLv3
+  - MIT`;
+
+const LICENSE_DOCUMENTATION_URL =
+  "https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements";
+
+const MISSING_LICENSE_ERROR = `${LICENSE_REQUIREMENT_TEXT}\nSee: ${LICENSE_DOCUMENTATION_URL}`;
+
+/**
+ * Validates that a collection of files contains a valid MIT or Apache 2.0 license
+ * @param {Array<{name: string, content: string}>} licenseCandidates
+ */
+export function validateLicense(licenseCandidates) {
+  if (licenseCandidates.length === 0) {
+    throw new Error(
+      ["No license was found.", `${MISSING_LICENSE_ERROR}`].join("\n"),
+    );
+  }
+
+  for (const license_data of licenseCandidates) {
+    const isValidLicense =
+      isApache2License(license_data.content) ||
+      isBsd3ClauseLicense(license_data.content) ||
+      isGplV3License(license_data.content) ||
+      isMitLicense(license_data.content);
+
+    if (isValidLicense) {
+      return;
+    }
+  }
+
+  const licenseNames = licenseCandidates
+    .map((licenseData) => `"${licenseData.name}"`)
+    .join(", ");
+
+  throw new Error(
+    [
+      `No valid license found in the following files: ${licenseNames}.`,
+      `${MISSING_LICENSE_ERROR}`,
+    ].join("\n"),
+  );
 }
