@@ -114,6 +114,10 @@
 	path = extensions/anthracite-theme
 	url = https://github.com/boycsuk/anthracite-theme.git
 
+[submodule "extensions/anticuus"]
+	path = extensions/anticuus
+	url = https://codeberg.org/juanmilkah/anticuus.git
+
 [submodule "extensions/anysphere-theme"]
 	path = extensions/anysphere-theme
 	url = https://github.com/stpn48/anysphere-zed-theme
@@ -786,6 +790,10 @@
 	path = extensions/deno
 	url = https://github.com/zed-extensions/deno.git
 
+[submodule "extensions/dependi"]
+	path = extensions/dependi
+	url = https://github.com/mpiton/zed-dependi.git
+
 [submodule "extensions/deputy"]
 	path = extensions/deputy
 	url = https://github.com/filiptibell/deputy.git
@@ -1000,7 +1008,7 @@
 
 [submodule "extensions/ferret"]
 	path = extensions/ferret
-	url = https://github.com/itsfuad/ferret-language-support.git
+	url = https://github.com/Ferret-Language/ferret-language-support.git
 
 [submodule "extensions/fiber-snippets"]
 	path = extensions/fiber-snippets
