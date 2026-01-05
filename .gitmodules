@@ -778,6 +778,10 @@
 	path = extensions/deno
 	url = https://github.com/zed-extensions/deno.git
 
+[submodule "extensions/dependi"]
+	path = extensions/dependi
+	url = https://github.com/mpiton/zed-dependi.git
+
 [submodule "extensions/deputy"]
 	path = extensions/deputy
 	url = https://github.com/filiptibell/deputy.git
@@ -3701,6 +3705,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/dependi"]
-	path = extensions/dependi
-	url = https://github.com/mpiton/zed-dependi.git
