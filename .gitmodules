@@ -142,10 +142,6 @@
 	path = extensions/asn1
 	url = https://github.com/tdanner/zed-asn1.git
 
-[submodule "extensions/ason-mcp"]
-	path = extensions/mcp-ason
-	url = https://github.com/ason-format/zed-extension
-
 [submodule "extensions/ass"]
 	path = extensions/ass
 	url = https://github.com/huaium/zed-ass.git
@@ -1609,6 +1605,10 @@
 [submodule "extensions/mcfunction"]
 	path = extensions/mcfunction
 	url = https://github.com/bcheidemann/zed-mcfunction.git
+
+[submodule "extensions/mcp-ason"]
+	path = extensions/mcp-ason
+	url = https://github.com/ason-format/zed-extension
 
 [submodule "extensions/mcp-planetscale"]
 	path = extensions/mcp-planetscale
