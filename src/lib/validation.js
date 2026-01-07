@@ -2,7 +2,9 @@ import {
   isApache2License,
   isBsd3ClauseLicense,
   isGplV3License,
+  isLgplV3License,
   isMitLicense,
+  isZlibLicense,
 } from "./license.js";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
@@ -148,7 +150,9 @@ const LICENSE_REQUIREMENT_TEXT = `Extension repositories must have a valid licen
   - Apache 2.0
   - BSD 3-Clause
   - GNU GPLv3
-  - MIT`;
+  - GNU LGPLv3
+  - MIT
+  - zlib`;
 
 const LICENSE_DOCUMENTATION_URL =
   "https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements";
@@ -171,7 +175,9 @@ export function validateLicense(licenseCandidates) {
       isApache2License(license_data.content) ||
       isBsd3ClauseLicense(license_data.content) ||
       isGplV3License(license_data.content) ||
-      isMitLicense(license_data.content);
+      isLgplV3License(license_data.content) ||
+      isMitLicense(license_data.content) ||
+      isZlibLicense(license_data.content);
 
     if (isValidLicense) {
       return;
