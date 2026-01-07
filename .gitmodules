@@ -142,6 +142,10 @@
 	path = extensions/asn1
 	url = https://github.com/tdanner/zed-asn1.git
 
+[submodule "extensions/ason-mcp"]
+	path = extensions/mcp-ason
+	url = https://github.com/ason-format/zed-extension
+
 [submodule "extensions/ass"]
 	path = extensions/ass
 	url = https://github.com/huaium/zed-ass.git
@@ -3361,6 +3365,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/ason-mcp"]
-	path = extensions/ason-mcp
-	url = https://github.com/ason-format/zed-extension
