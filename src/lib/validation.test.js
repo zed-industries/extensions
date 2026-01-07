@@ -9,8 +9,10 @@ import {
   readApache2License,
   readBsd3ClauseLicense,
   readGplV3License,
+  readLgplV3License,
   readMitLicense,
   readOtherLicense,
+  readZlibLicense,
 } from "./test-licenses/utilities.js";
 
 describe("validateManifest", () => {
@@ -100,12 +102,14 @@ describe("validateLicense", () => {
           - Apache 2.0
           - BSD 3-Clause
           - GNU GPLv3
+          - GNU LGPLv3
           - MIT
+          - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
 
-  it("throws when incorrect license contents are found (not Apache 2.0, BSD 3-Clause, MIT, or GNU GPLv3)", () => {
+  it("throws when incorrect license contents are found (not Apache 2.0, BSD 3-Clause, MIT, GNU GPLv3, GNU LGPLv3 or zlib)", () => {
     const licenseCandidates = [
       { name: "LICENSE.txt", content: readOtherLicense() },
       { name: "LICENSE.md", content: readOtherLicense() },
@@ -118,7 +122,9 @@ describe("validateLicense", () => {
           - Apache 2.0
           - BSD 3-Clause
           - GNU GPLv3
+          - GNU LGPLv3
           - MIT
+          - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
@@ -147,8 +153,22 @@ describe("validateLicense", () => {
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
 
+  it("does not throw when LGPL v3 license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readLgplV3License() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
   it("does not throw when MIT license is present", () => {
     const licenseCandidates = [{ name: "LICENSE", content: readMitLicense() }];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when zlib license is present", () => {
+    const licenseCandidates = [{ name: "LICENSE", content: readZlibLicense() }];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
