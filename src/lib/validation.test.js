@@ -4,6 +4,7 @@ import {
   validateGitmodules,
   validateLicense,
   validateManifest,
+  validateExtensionIdsNotChanged,
 } from "./validation.js";
 import {
   readApache2License,
@@ -171,5 +172,193 @@ describe("validateLicense", () => {
     const licenseCandidates = [{ name: "LICENSE", content: readZlibLicense() }];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+});
+
+describe("validateExtensionIdsNotChanged", () => {
+  describe("when only additions or only removals occur", () => {
+    it("does not throw when extensions are identical", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+
+    it("does not throw when only adding extensions", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "new-extension": {
+          submodule: "extensions/new-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+
+    it("does not throw when only removing extensions", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "removed-extension": {
+          submodule: "extensions/removed-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+
+    it("does not throw when versions change but IDs remain the same", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "2.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+  });
+
+  describe("when both additions and removals occur", () => {
+    it("throws when IDs are both added and removed", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "new-extension": {
+          submodule: "extensions/new-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "old-extension": {
+          submodule: "extensions/old-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).toThrowErrorMatchingInlineSnapshot(`
+        [Error: Extension IDs must not change between versions.
+        1 ID(s) were removed: old-extension
+        1 ID(s) were added: new-extension
+
+        If you need to rename an extension, update the display name in the extension's manifest instead.]
+      `);
+    });
+
+    it("throws when multiple IDs are both added and removed", () => {
+      const currentExtensionsToml = {
+        "unchanged-extension": {
+          submodule: "extensions/unchanged-extension",
+          version: "1.0.0",
+        },
+        "new-extension-1": {
+          submodule: "extensions/new-extension-1",
+          version: "1.0.0",
+        },
+        "new-extension-2": {
+          submodule: "extensions/new-extension-2",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "unchanged-extension": {
+          submodule: "extensions/unchanged-extension",
+          version: "1.0.0",
+        },
+        "old-extension-1": {
+          submodule: "extensions/old-extension-1",
+          version: "1.0.0",
+        },
+        "old-extension-2": {
+          submodule: "extensions/old-extension-2",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).toThrowErrorMatchingInlineSnapshot(`
+        [Error: Extension IDs must not change between versions.
+        2 ID(s) were removed: old-extension-1, old-extension-2
+        2 ID(s) were added: new-extension-1, new-extension-2
+
+        If you need to rename an extension, update the display name in the extension's manifest instead.]
+      `);
+    });
   });
 });

@@ -195,3 +195,33 @@ export function validateLicense(licenseCandidates) {
     ].join("\n"),
   );
 }
+
+/**
+ * Validates that extension IDs have not changed between two versions of extensions.toml.
+ *
+ * @param {Record<string, any>} currentExtensionsToml - The current extensions.toml
+ * @param {Record<string, any>} previousExtensionsToml - The previous extensions.toml to compare against
+ * @throws {Error} If extension IDs were both added and removed (indicating renames)
+ */
+export function validateExtensionIdsNotChanged(
+  currentExtensionsToml,
+  previousExtensionsToml,
+) {
+  const currentIds = new Set(Object.keys(currentExtensionsToml));
+  const previousIds = new Set(Object.keys(previousExtensionsToml));
+
+  const addedIds = [...currentIds].filter((id) => !previousIds.has(id));
+  const removedIds = [...previousIds].filter((id) => !currentIds.has(id));
+
+  if (addedIds.length > 0 && removedIds.length > 0) {
+    throw new Error(
+      [
+        "Extension IDs must not change between versions.",
+        `${removedIds.length} ID(s) were removed: ${removedIds.join(", ")}`,
+        `${addedIds.length} ID(s) were added: ${addedIds.join(", ")}`,
+        "",
+        "If you need to rename an extension, update the display name in the extension's manifest instead.",
+      ].join("\n"),
+    );
+  }
+}
