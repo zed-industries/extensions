@@ -163,6 +163,10 @@ version = "0.2.0"
 submodule = "extensions/asciidoc"
 version = "0.2.0"
 
+[ashen]
+submodule = "extensions/ashen"
+version = "1.0.0"
+
 [ask-starknet-mcp]
 submodule = "extensions/ask-starknet-mcp"
 version = "0.0.1"
@@ -197,7 +201,7 @@ version = "0.0.1"
 
 [auggie]
 submodule = "extensions/auggie"
-version = "0.2.0"
+version = "0.13.0"
 
 [aura-theme]
 submodule = "extensions/aura-theme"
@@ -222,7 +226,7 @@ version = "0.1.3"
 
 [autohotkey]
 submodule = "extensions/autohotkey"
-version = "1.0.0"
+version = "2.0.0"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -286,7 +290,7 @@ version = "0.0.3"
 
 [beancount]
 submodule = "extensions/beancount"
-version = "0.1.0"
+version = "0.1.1"
 
 [beanseeds-pro]
 submodule = "extensions/beanseeds-pro"
@@ -311,6 +315,10 @@ version = "1.2.1"
 [biome]
 submodule = "extensions/biome"
 version = "0.2.2"
+
+[bison]
+submodule = "extensions/bison"
+version = "0.1.0"
 
 [bitbake]
 submodule = "extensions/bitbake"
@@ -666,7 +674,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.0.2"
+version = "1.0.3"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -775,7 +783,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.3"
+version = "0.3.4"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -808,7 +816,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.0.0"
+version = "1.1.0"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -986,6 +994,10 @@ version = "0.1.0"
 submodule = "extensions/erlang"
 version = "0.1.2"
 
+[everforest]
+submodule = "extensions/everforest"
+version = "0.1.0"
+
 [everforest-blurred]
 submodule = "extensions/everforest-blurred"
 version = "0.1.0"
@@ -1033,7 +1045,7 @@ version = "1.0.0"
 
 [ferret]
 submodule = "extensions/ferret"
-version = "0.0.2"
+version = "0.0.3"
 
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
@@ -1360,7 +1372,7 @@ version = "0.0.1"
 
 [harper]
 submodule = "extensions/harper"
-version = "0.1.0"
+version = "0.1.1"
 
 [haskell]
 submodule = "extensions/haskell"
@@ -1478,6 +1490,11 @@ version = "0.0.2"
 [intellij-newui-theme]
 submodule = "extensions/intellij-newui-theme"
 version = "0.1.0"
+
+[intl-lens]
+submodule = "extensions/intl-lens"
+path = "crates/intl-lens-extension"
+version = "0.1.2"
 
 [ion]
 submodule = "extensions/ion"
@@ -1811,7 +1828,7 @@ version = "0.0.3"
 
 [material-icon-theme]
 submodule = "extensions/material-icon-theme"
-version = "1.3.0"
+version = "1.3.1"
 
 [material-theme]
 submodule = "extensions/material-theme"
@@ -1824,6 +1841,10 @@ version = "0.1.0"
 [matte-black]
 submodule = "extensions/matte-black"
 version = "1.0.0"
+
+[matte-black-theme]
+submodule = "extensions/matte-black-theme"
+version = "0.1.1"
 
 [mau]
 submodule = "extensions/mau"
@@ -2014,6 +2035,10 @@ version = "0.1.0"
 submodule = "extensions/meson"
 version = "0.4.0"
 
+[microscript]
+submodule = "extensions/microscript"
+version = "0.1.0"
+
 [min-theme]
 submodule = "extensions/min-theme"
 version = "0.2.2"
@@ -2117,7 +2142,7 @@ version = "0.0.2"
 
 [motoko]
 submodule = "extensions/motoko"
-version = "0.1.0"
+version = "0.1.1"
 
 [move]
 submodule = "extensions/move"
@@ -2205,7 +2230,7 @@ version = "0.0.1"
 
 [new-darcula]
 submodule = "extensions/new-darcula"
-version = "1.0.7"
+version = "1.0.8"
 
 [nextjs-react-snippets]
 submodule = "extensions/nextjs-react-snippets"
@@ -2299,6 +2324,10 @@ version = "3.0.1"
 [not-material-theme]
 submodule = "extensions/not-material-theme"
 version = "0.0.1"
+
+[npm-package-json-checker]
+submodule = "extensions/npm-package-json-checker"
+version = "1.0.1"
 
 [nstlgy-dark]
 submodule = "extensions/nstlgy-dark"
@@ -2525,6 +2554,10 @@ version = "0.0.1"
 [path-of-exile]
 submodule = "extensions/path-of-exile"
 version = "0.0.1"
+
+[pathy]
+submodule = "extensions/pathy"
+version = "0.1.0"
 
 [pbxproj]
 submodule = "extensions/pbxproj"
@@ -2769,6 +2802,10 @@ version = "0.2.5"
 submodule = "extensions/racket"
 version = "0.1.1"
 
+[railgun]
+submodule = "extensions/railgun"
+version = "1.0.0"
+
 [railscast]
 submodule = "extensions/railscast"
 version = "0.1.0"
@@ -2812,6 +2849,10 @@ version = "0.2.0"
 [regedit]
 submodule = "extensions/regedit"
 version = "0.0.1"
+
+[regex-theme]
+submodule = "extensions/regex-theme"
+version = "0.11.11"
 
 [rego]
 submodule = "extensions/rego"
@@ -2920,6 +2961,10 @@ version = "0.0.1"
 [scss]
 submodule = "extensions/scss"
 version = "0.1.4"
+
+[semgrep]
+submodule = "extensions/semgrep"
+version = "0.0.2"
 
 [seoul256]
 submodule = "extensions/seoul256"
@@ -3174,6 +3219,10 @@ version = "0.1.0"
 submodule = "extensions/surrealql"
 version = "0.0.2"
 
+[sushi-theme]
+submodule = "extensions/sushi-theme"
+version = "0.0.1"
+
 [svelte]
 submodule = "extensions/svelte"
 version = "0.2.11"
@@ -3185,6 +3234,10 @@ version = "0.1.1"
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
 version = "0.0.7"
+
+[sweet-dracula]
+submodule = "extensions/sweet-dracula"
+version = "0.1.0"
 
 [swift]
 submodule = "extensions/swift"
@@ -3230,6 +3283,10 @@ path = "packages/zed"
 [tailwind-theme]
 submodule = "extensions/tailwind-theme"
 version = "0.6.0"
+
+[tamarin]
+submodule = "extensions/tamarin"
+version = "0.1.0"
 
 [tanuki]
 submodule = "extensions/tanuki"
@@ -3513,6 +3570,11 @@ version = "0.0.9"
 submodule = "extensions/verilog"
 version = "0.0.15"
 
+[veryl]
+submodule = "extensions/veryl"
+path = "support/zed"
+version = "0.0.1"
+
 [vesper]
 submodule = "extensions/vesper"
 version = "0.0.2"
@@ -3524,6 +3586,10 @@ version = "0.0.2"
 [vhs]
 submodule = "extensions/vhs"
 version = "0.1.0"
+
+[vibrant-abyss]
+submodule = "extensions/vibrant-abyss"
+version = "0.4.14"
 
 [viewtree]
 submodule = "extensions/viewtree"
@@ -3616,6 +3682,10 @@ version = "0.1.10"
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
 version = "0.1.1"
+
+[warm-light]
+submodule = "extensions/warm-light"
+version = "0.0.1"
 
 [warp-one-dark]
 submodule = "extensions/warp-one-dark"
