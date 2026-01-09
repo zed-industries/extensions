@@ -1706,6 +1706,10 @@
 	path = extensions/log
 	url = https://github.com/nervenes/zed-log.git
 
+[submodule "extensions/logcat-highlighter"]
+	path = extensions/logcat-highlighter
+	url = https://github.com/vinnom/logcat-highlighter.git
+
 [submodule "extensions/logstash"]
 	path = extensions/logstash
 	url = https://github.com/StrongTheDev/logstash-for-zed
