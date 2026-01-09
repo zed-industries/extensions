@@ -1702,6 +1702,10 @@
 	path = extensions/live-template
 	url = https://github.com/jekst/zed-snippets.git
 
+[submodule "extensions/llvm-ir"]
+	path = extensions/llvm-ir
+	url = https://github.com/kdkasad/zed-llvm-ir-extension
+
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/nervenes/zed-log.git
