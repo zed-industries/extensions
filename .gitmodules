@@ -806,6 +806,10 @@
 	path = extensions/dependi
 	url = https://github.com/mpiton/zed-dependi.git
 
+[submodule "extensions/deps-language-server"]
+	path = extensions/deps-language-server
+	url = https://github.com/bug-ops/deps-zed.git
+
 [submodule "extensions/deputy"]
 	path = extensions/deputy
 	url = https://github.com/filiptibell/deputy.git
