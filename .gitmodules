@@ -386,10 +386,6 @@
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck.git
 
-[submodule "extensions/brook-code-theme"]
-	path = extensions/brook-code-theme
-	url = https://github.com/brook-code-theme/zed-theme.git
-
 [submodule "extensions/browser-tools-context-server"]
 	path = extensions/browser-tools-context-server
 	url = https://github.com/mirageN1349/browser-tools-context-server.git
@@ -813,6 +809,10 @@
 [submodule "extensions/dependi"]
 	path = extensions/dependi
 	url = https://github.com/mpiton/zed-dependi.git
+
+[submodule "extensions/deps-language-server"]
+	path = extensions/deps-language-server
+	url = https://github.com/bug-ops/deps-zed.git
 
 [submodule "extensions/deputy"]
 	path = extensions/deputy
@@ -1706,6 +1706,10 @@
 	path = extensions/live-template
 	url = https://github.com/jekst/zed-snippets.git
 
+[submodule "extensions/llvm-ir"]
+	path = extensions/llvm-ir
+	url = https://github.com/kdkasad/zed-llvm-ir-extension
+
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/nervenes/zed-log.git
@@ -2421,10 +2425,6 @@
 [submodule "extensions/one-hunter"]
 	path = extensions/one-hunter
 	url = https://github.com/teziovsky/zed-one-hunter-theme.git
-
-[submodule "extensions/one-thing-theme"]
-	path = extensions/one-thing-theme
-	url = https://github.com/one-thing-theme/zed.git
 
 [submodule "extensions/onurb"]
 	path = extensions/onurb
@@ -3337,6 +3337,10 @@
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
+
+[submodule "extensions/tokyo-night-dark"]
+	path = extensions/tokyo-night-dark
+	url = https://github.com/pyncz/zed-tokyo-night-dark-theme.git
 
 [submodule "extensions/tombi"]
 	path = extensions/tombi
