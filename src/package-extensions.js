@@ -21,6 +21,7 @@ import {
   validateManifest,
   validateLicense,
   validateGitmodulesLocations,
+  validateExtensionIdsNotChanged,
 } from "./lib/validation.js";
 
 const {
@@ -321,6 +322,8 @@ async function changedExtensionIds(extensionsToml, useMergeBase) {
   ]);
   /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
+
+  validateExtensionIdsNotChanged(extensionsToml, mainExtensionsToml);
 
   const result = [];
   for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
