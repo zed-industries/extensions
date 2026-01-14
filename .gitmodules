@@ -90,10 +90,6 @@
 	path = extensions/amber-monochrome-monitor-crt-phosphor
 	url = https://github.com/Takk8IS/amber-monochrome-monitor-crt-phosphor-theme-for-zed.git
 
-[submodule "extensions/amp-theme"]
-	path = extensions/amp-theme
-	url = https://codeberg.org/hanna/amp-theme
-
 [submodule "extensions/andromeda"]
 	path = extensions/andromeda
 	url = https://github.com/ChocolateNao/andromeda-zed.git
@@ -385,10 +381,6 @@
 [submodule "extensions/brainfuck"]
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck.git
-
-[submodule "extensions/brook-code-theme"]
-	path = extensions/brook-code-theme
-	url = https://github.com/brook-code-theme/zed-theme.git
 
 [submodule "extensions/browser-tools-context-server"]
 	path = extensions/browser-tools-context-server
@@ -814,6 +806,10 @@
 	path = extensions/dependi
 	url = https://github.com/mpiton/zed-dependi.git
 
+[submodule "extensions/deps-language-server"]
+	path = extensions/deps-language-server
+	url = https://github.com/bug-ops/deps-zed.git
+
 [submodule "extensions/deputy"]
 	path = extensions/deputy
 	url = https://github.com/filiptibell/deputy.git
@@ -1110,6 +1106,10 @@
 	path = extensions/forest-night
 	url = https://github.com/jarith/forest-night-zed.git
 
+[submodule "extensions/formosa-theme"]
+	path = extensions/formosa-theme
+	url = https://github.com/takeshiyu/formosa-zed-theme.git
+
 [submodule "extensions/fortran"]
 	path = extensions/fortran
 	url = https://github.com/Xavier-Maruff/zed-fortran.git
@@ -1233,6 +1233,10 @@
 [submodule "extensions/go-snippets"]
 	path = extensions/go-snippets
 	url = https://github.com/ayberkgezer/go-zed-snippets
+
+[submodule "extensions/godot-theme"]
+	path = extensions/godot-theme
+	url = https://github.com/D4r3NPo/zed-godot-theme.git
 
 [submodule "extensions/golangci-lint"]
 	path = extensions/golangci-lint
@@ -1705,6 +1709,10 @@
 [submodule "extensions/live-template"]
 	path = extensions/live-template
 	url = https://github.com/jekst/zed-snippets.git
+
+[submodule "extensions/llvm-ir"]
+	path = extensions/llvm-ir
+	url = https://github.com/kdkasad/zed-llvm-ir-extension
 
 [submodule "extensions/log"]
 	path = extensions/log
@@ -2422,10 +2430,6 @@
 	path = extensions/one-hunter
 	url = https://github.com/teziovsky/zed-one-hunter-theme.git
 
-[submodule "extensions/one-thing-theme"]
-	path = extensions/one-thing-theme
-	url = https://github.com/one-thing-theme/zed.git
-
 [submodule "extensions/onurb"]
 	path = extensions/onurb
 	url = https://github.com/brunoocrv/onurb-zed
@@ -2561,6 +2565,10 @@
 [submodule "extensions/pest"]
 	path = extensions/pest
 	url = https://github.com/pest-parser/zed-pest.git
+
+[submodule "extensions/phasmid-theme"]
+	path = extensions/phasmid-theme
+	url = https://github.com/t-lander/phasmid-zed.git
 
 [submodule "extensions/phine-theme"]
 	path = extensions/phine-theme
@@ -3038,6 +3046,10 @@
 	path = extensions/snazzy
 	url = https://github.com/Eivs/zed-snazzy
 
+[submodule "extensions/snazzy-light"]
+	path = extensions/snazzy-light
+	url = https://github.com/seyhajin/zed-snazzy-light.git
+
 [submodule "extensions/snow-fox-theme"]
 	path = extensions/snow-fox-theme
 	url = https://github.com/ProPrak01/zed-SnowFox-theme.git
@@ -3337,6 +3349,10 @@
 [submodule "extensions/tokyo-night"]
 	path = extensions/tokyo-night
 	url = https://github.com/ssaunderss/zed-tokyo-night.git
+
+[submodule "extensions/tokyo-night-dark"]
+	path = extensions/tokyo-night-dark
+	url = https://github.com/pyncz/zed-tokyo-night-dark-theme.git
 
 [submodule "extensions/tombi"]
 	path = extensions/tombi
