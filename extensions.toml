@@ -91,10 +91,6 @@ version = "0.3.0"
 submodule = "extensions/amber-monochrome-monitor-crt-phosphor"
 version = "0.1.3"
 
-[amp-theme]
-submodule = "extensions/amp-theme"
-version = "0.1.0"
-
 [andromeda]
 submodule = "extensions/andromeda"
 version = "0.1.1"
@@ -126,6 +122,11 @@ version = "0.0.1"
 [apache-avro]
 submodule = "extensions/apache-avro"
 version = "0.1.0"
+
+[apathy-theme]
+submodule = "extensions/apathy-theme"
+version = "0.1.0"
+path = "packages/zed"
 
 [apisartisan]
 submodule = "extensions/apisartisan"
@@ -438,7 +439,7 @@ version = "1.0.0"
 
 [cargo-appraiser]
 submodule = "extensions/cargo-appraiser"
-version = "0.1.0"
+version = "0.2.0"
 
 [cargo-tom]
 submodule = "extensions/cargo-tom"
@@ -636,6 +637,10 @@ version = "2.0.1"
 submodule = "extensions/cooklang"
 version = "1.3.3"
 
+[corust-agent]
+submodule = "extensions/corust-agent"
+version = "0.0.1"
+
 [cosmos]
 submodule = "extensions/cosmos"
 version = "0.0.1"
@@ -674,7 +679,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.1.0"
+version = "1.1.1"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -687,7 +692,7 @@ path = "crates/zed"
 
 [css-variables]
 submodule = "extensions/css-variables"
-version = "0.0.7"
+version = "0.0.8"
 
 [csv]
 submodule = "extensions/csv"
@@ -1124,6 +1129,10 @@ version = "0.0.1"
 submodule = "extensions/forest-night"
 version = "0.1.0"
 
+[formosa-theme]
+submodule = "extensions/formosa-theme"
+version = "1.0.0"
+
 [fortran]
 submodule = "extensions/fortran"
 version = "0.0.3"
@@ -1253,6 +1262,10 @@ version = "0.1.0"
 [go-snippets]
 submodule = "extensions/go-snippets"
 version = "0.1.1"
+
+[godot-theme]
+submodule = "extensions/godot-theme"
+version = "1.0.0"
 
 [golangci-lint]
 submodule = "extensions/golangci-lint"
@@ -1485,7 +1498,7 @@ version = "1.0.0"
 
 [ini]
 submodule = "extensions/ini"
-version = "0.0.6"
+version = "0.0.7"
 
 [ink]
 submodule = "extensions/ink"
@@ -1740,6 +1753,10 @@ version = "0.1.1"
 [log]
 submodule = "extensions/log"
 version = "0.0.6"
+
+[logcat]
+submodule = "extensions/logcat"
+version = "0.0.1"
 
 [logstash]
 submodule = "extensions/logstash"
@@ -2065,7 +2082,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "1.3.4"
+version = "1.3.5"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2595,6 +2612,10 @@ version = "0.2.0"
 submodule = "extensions/pest"
 version = "0.1.1"
 
+[phasmid-theme]
+submodule = "extensions/phasmid-theme"
+version = "1.0.0"
+
 [phine-theme]
 submodule = "extensions/phine-theme"
 version = "0.0.1"
@@ -2808,7 +2829,7 @@ version = "0.1.1"
 
 [railgun]
 submodule = "extensions/railgun"
-version = "1.0.0"
+version = "1.0.1"
 
 [railscast]
 submodule = "extensions/railscast"
@@ -2872,7 +2893,7 @@ version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.4.2"
+version = "0.4.3"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -3014,6 +3035,10 @@ version = "0.0.6"
 submodule = "extensions/shapels"
 version = "0.0.1"
 
+[sharp-solarized-theme]
+submodule = "extensions/sharp-solarized-theme"
+version = "0.0.1"
+
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
 version = "2.2.0"
@@ -3078,6 +3103,10 @@ version = "0.1.0"
 [snazzy]
 submodule = "extensions/snazzy"
 version = "0.1.2"
+
+[snazzy-light]
+submodule = "extensions/snazzy-light"
+version = "0.1.0"
 
 [snow-fox-theme]
 submodule = "extensions/snow-fox-theme"
@@ -3659,6 +3688,10 @@ version = "0.2.6"
 submodule = "extensions/vscode-icons"
 version = "12.16.0"
 
+[vscode-light-modern]
+submodule = "extensions/vscode-light-modern"
+version = "0.1.1"
+
 [vscode-light-plus]
 submodule = "extensions/vscode-light-plus"
 version = "0.0.2"
@@ -3701,7 +3734,7 @@ version = "0.1.1"
 
 [wat]
 submodule = "extensions/wat"
-version = "0.2.0"
+version = "0.2.1"
 
 [wc-language-server]
 submodule = "extensions/wc-language-server"
