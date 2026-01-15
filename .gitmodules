@@ -2314,6 +2314,14 @@
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu.git
 
+[submodule "extensions/nube-icons"]
+	path = extensions/nube-icons
+	url = https://github.com/meastblue/nube-icons.git
+
+[submodule "extensions/nube-theme"]
+	path = extensions/nube-theme
+	url = https://github.com/meastblue/nube-zed
+
 [submodule "extensions/nuisance"]
 	path = extensions/nuisance
 	url = https://github.com/xtrasmal/zed-theme-nuisance.git
@@ -3845,9 +3853,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/nube"]
-	path = extensions/nube
-	url = https://github.com/meastblue/nube-zed.git
-[submodule "extensions/nube-icons"]
-	path = extensions/nube-icons
-	url = https://github.com/meastblue/nube-icons.git
