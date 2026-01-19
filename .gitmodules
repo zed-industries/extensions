@@ -758,6 +758,10 @@
 	path = extensions/dark-discord
 	url = https://github.com/zangetsu02/zed-discord-theme.git
 
+[submodule "extensions/dark-glass-theme"]
+	path = extensions/dark-glass-theme
+	url = https://github.com/MagnusPladsen/dark-glass-theme.git
+
 [submodule "extensions/dark-material-dracula"]
 	path = extensions/dark-material-dracula
 	url = https://github.com/wladpaiva/zed-dark-material-dracula.git
@@ -3869,6 +3873,6 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/dark-glass-theme"]
-	path = extensions/dark-glass-theme
-	url = https://github.com/MagnusPladsen/dark-glass-theme.git
+[submodule "extensions/transparent-dark-glass-theme"]
+	path = extensions/transparent-dark-glass-theme
+	url = https://github.com/MagnusPladsen/transparent-dark-glass-theme
