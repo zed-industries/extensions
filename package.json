@@ -13,7 +13,7 @@
     "danger": "danger"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.940.0",
+    "@aws-sdk/client-s3": "3.962.0",
     "@iarna/toml": "2.2.5",
     "git-submodule-js": "1.0.5"
   },
@@ -23,8 +23,8 @@
     "@types/node": "20.19.27",
     "danger": "13.0.5",
     "danger-plugin-pr-hygiene": "0.7.1",
-    "prettier": "3.6.2",
+    "prettier": "3.7.4",
     "typescript": "5.9.3",
-    "vitest": "4.0.14"
+    "vitest": "4.0.16"
   }
 }
