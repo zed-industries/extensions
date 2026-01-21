@@ -3266,6 +3266,11 @@ version = "0.0.3"
 submodule = "extensions/struct-theme"
 version = "0.0.1"
 
+[styx]
+submodule = "extensions/styx"
+path = "editors/zed-styx"
+version = "0.1.0"
+
 [structured-text]
 submodule = "extensions/structured-text"
 version = "0.0.1"
