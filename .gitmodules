@@ -1022,6 +1022,10 @@
 	path = extensions/ezio-theme
 	url = https://github.com/dsantolo/ezio-zed.git
 
+[submodule "extensions/factory-droid"]
+	path = extensions/factory-droid
+	url = https://github.com/Factory-AI/factory-zed-extension.git
+
 [submodule "extensions/fantasticons-icons-theme"]
 	path = extensions/fantasticons-icons-theme
 	url = https://github.com/caiolandgraf/fantasticons-zed.git
@@ -1572,7 +1576,7 @@
 
 [submodule "extensions/jsonl"]
 	path = extensions/jsonl
-	url = https://github.com/vim-zz/jsonl-syntax-zed
+	url = https://github.com/vim-zz/jsonl-syntax-zed.git
 
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
@@ -2329,6 +2333,14 @@
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu.git
+
+[submodule "extensions/nube-icons"]
+	path = extensions/nube-icons
+	url = https://github.com/meastblue/nube-icons.git
+
+[submodule "extensions/nube-theme"]
+	path = extensions/nube-theme
+	url = https://github.com/meastblue/nube-zed
 
 [submodule "extensions/nuisance"]
 	path = extensions/nuisance
