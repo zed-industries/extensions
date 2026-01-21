@@ -11,12 +11,12 @@ on:
 
 jobs:
   danger:
-    runs-on: ubuntu-latest
+    runs-on: namespace-profile-2x4-ubuntu-2404
     if: github.repository_owner == 'zed-industries'
     steps:
-      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
-      - uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4
+      - uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4
         with:
           version: 9
 
@@ -35,7 +35,7 @@ jobs:
           # This GitHub token is not used, but the value needs to be here to prevent
           # Danger from throwing an error.
           GITHUB_TOKEN: "not_a_real_token"
-          # All requests are instead proxied through an instance of
-          # https://github.com/maxdeviant/danger-proxy that allows Danger to securely
-          # authenticate with GitHub while still being able to run on PRs from forks.
-          DANGER_GITHUB_API_BASE_URL: "https://danger-proxy.fly.dev/github"
+          # All requests are instead proxied through a proxy that allows Danger
+          # to securely authenticate with GitHub while still being able to run
+          # on PRs from forks.
+          DANGER_GITHUB_API_BASE_URL: "https://danger-proxy.zed.dev/github"

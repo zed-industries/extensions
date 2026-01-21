@@ -4,11 +4,16 @@ import {
   validateGitmodules,
   validateLicense,
   validateManifest,
+  validateExtensionIdsNotChanged,
 } from "./validation.js";
 import {
   readApache2License,
+  readBsd3ClauseLicense,
   readGplV3License,
+  readLgplV3License,
   readMitLicense,
+  readOtherLicense,
+  readZlibLicense,
 } from "./test-licenses/utilities.js";
 
 describe("validateManifest", () => {
@@ -91,23 +96,38 @@ describe("validateLicense", () => {
     const licenseCandidates =
       /** @type {Array<{name: string, content: string}>} */ ([]);
 
-    expect(() =>
-      validateLicense(licenseCandidates),
-    ).toThrowErrorMatchingInlineSnapshot(
-      `[Error: Extension repository does not contain a valid MIT or Apache 2.0 license.]`,
-    );
+    expect(() => validateLicense(licenseCandidates))
+      .toThrowErrorMatchingInlineSnapshot(`
+        [Error: No license was found.
+        Extension repositories must have a valid license:
+          - Apache 2.0
+          - BSD 3-Clause
+          - GNU GPLv3
+          - GNU LGPLv3
+          - MIT
+          - zlib
+        See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
+      `);
   });
 
-  it("throws when GPL V3 license is present (not MIT or Apache 2.0)", () => {
+  it("throws when incorrect license contents are found (not Apache 2.0, BSD 3-Clause, MIT, GNU GPLv3, GNU LGPLv3 or zlib)", () => {
     const licenseCandidates = [
-      { name: "LICENSE", content: readGplV3License() },
+      { name: "LICENSE.txt", content: readOtherLicense() },
+      { name: "LICENSE.md", content: readOtherLicense() },
     ];
 
-    expect(() =>
-      validateLicense(licenseCandidates),
-    ).toThrowErrorMatchingInlineSnapshot(
-      `[Error: Extension repository does not contain a valid MIT or Apache 2.0 license.]`,
-    );
+    expect(() => validateLicense(licenseCandidates))
+      .toThrowErrorMatchingInlineSnapshot(`
+        [Error: No valid license found in the following files: "LICENSE.txt", "LICENSE.md".
+        Extension repositories must have a valid license:
+          - Apache 2.0
+          - BSD 3-Clause
+          - GNU GPLv3
+          - GNU LGPLv3
+          - MIT
+          - zlib
+        See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
+      `);
   });
 
   it("does not throw when Apache 2.0 license is present", () => {
@@ -118,9 +138,227 @@ describe("validateLicense", () => {
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
 
+  it("does not throw when BSD 3-Clause license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readBsd3ClauseLicense() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when GPL v3 license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readGplV3License() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when LGPL v3 license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readLgplV3License() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
   it("does not throw when MIT license is present", () => {
     const licenseCandidates = [{ name: "LICENSE", content: readMitLicense() }];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when zlib license is present", () => {
+    const licenseCandidates = [{ name: "LICENSE", content: readZlibLicense() }];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+});
+
+describe("validateExtensionIdsNotChanged", () => {
+  describe("when only additions or only removals occur", () => {
+    it("does not throw when extensions are identical", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+
+    it("does not throw when only adding extensions", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "new-extension": {
+          submodule: "extensions/new-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+
+    it("does not throw when only removing extensions", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "removed-extension": {
+          submodule: "extensions/removed-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+
+    it("does not throw when versions change but IDs remain the same", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "2.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).not.toThrow();
+    });
+  });
+
+  describe("when both additions and removals occur", () => {
+    it("throws when IDs are both added and removed", () => {
+      const currentExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "new-extension": {
+          submodule: "extensions/new-extension",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "my-extension": {
+          submodule: "extensions/my-extension",
+          version: "1.0.0",
+        },
+        "old-extension": {
+          submodule: "extensions/old-extension",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).toThrowErrorMatchingInlineSnapshot(`
+        [Error: Extension IDs must not change between versions.
+        1 ID(s) were removed: old-extension
+        1 ID(s) were added: new-extension
+
+        If you need to rename an extension, update the display name in the extension's manifest instead.]
+      `);
+    });
+
+    it("throws when multiple IDs are both added and removed", () => {
+      const currentExtensionsToml = {
+        "unchanged-extension": {
+          submodule: "extensions/unchanged-extension",
+          version: "1.0.0",
+        },
+        "new-extension-1": {
+          submodule: "extensions/new-extension-1",
+          version: "1.0.0",
+        },
+        "new-extension-2": {
+          submodule: "extensions/new-extension-2",
+          version: "1.0.0",
+        },
+      };
+
+      const previousExtensionsToml = {
+        "unchanged-extension": {
+          submodule: "extensions/unchanged-extension",
+          version: "1.0.0",
+        },
+        "old-extension-1": {
+          submodule: "extensions/old-extension-1",
+          version: "1.0.0",
+        },
+        "old-extension-2": {
+          submodule: "extensions/old-extension-2",
+          version: "1.0.0",
+        },
+      };
+
+      expect(() =>
+        validateExtensionIdsNotChanged(
+          currentExtensionsToml,
+          previousExtensionsToml,
+        ),
+      ).toThrowErrorMatchingInlineSnapshot(`
+        [Error: Extension IDs must not change between versions.
+        2 ID(s) were removed: old-extension-1, old-extension-2
+        2 ID(s) were added: new-extension-1, new-extension-2
+
+        If you need to rename an extension, update the display name in the extension's manifest instead.]
+      `);
+    });
   });
 });
