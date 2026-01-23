@@ -1130,6 +1130,10 @@
 	path = extensions/fozzy
 	url = https://github.com/juxta-tad/fozzy-zed.git
 
+[submodule "extensions/freezed-snippets"]
+	path = extensions/freezed-snippets
+	url = https://github.com/OppositeDragon/freezed-snippets.git
+
 [submodule "extensions/frosted-theme"]
 	path = extensions/frosted-theme
 	url = https://github.com/daviiiL/frosted-theme
@@ -2878,6 +2882,10 @@
 	path = extensions/risor
 	url = https://github.com/rubiojr/zed-risor
 
+[submodule "extensions/riverpod-snippets"]
+	path = extensions/riverpod-snippets
+	url = https://github.com/OppositeDragon/riverpod-snippets
+
 [submodule "extensions/roc"]
 	path = extensions/roc
 	url = https://github.com/h2000/zed-roc.git
@@ -3877,7 +3885,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-
-[submodule "extensions/riverpod-snippets"]
-	path = extensions/riverpod-snippets
-	url = https://github.com/OppositeDragon/riverpod-snippets
