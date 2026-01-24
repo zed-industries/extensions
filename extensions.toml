@@ -959,6 +959,10 @@ submodule = "extensions/elle"
 path = "editors/zed"
 version = "0.3.6"
 
+[ellsp]
+submodule = "elisp-lsp/zed-ellsp"
+version = "0.1.0"
+
 [elm]
 submodule = "extensions/elm"
 version = "0.2.2"
