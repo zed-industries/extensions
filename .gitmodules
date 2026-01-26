@@ -2706,6 +2706,10 @@
 	path = extensions/prolog
 	url = https://github.com/Gaspartcho/zed-prolog
 
+[submodule "extensions/properties"]
+	path = extensions/properties
+	url = https://github.com/rpietzsch/zed-properties-lang.git
+
 [submodule "extensions/psalm"]
 	path = extensions/psalm
 	url = https://github.com/sebcode/psalm-zed.git
@@ -3881,6 +3885,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/properties"]
-	path = extensions/properties
-	url = https://github.com/rpietzsch/zed-properties-lang.git
