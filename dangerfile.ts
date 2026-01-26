@@ -1,4 +1,4 @@
-import { danger, warn } from "danger";
+import { danger, fail } from "danger";
 const { prHygiene } = require("danger-plugin-pr-hygiene");
 
 prHygiene({
@@ -12,8 +12,15 @@ const wasExtensionsTomlModified = danger.git.modified_files.some((file) =>
   file.includes("extensions.toml"),
 );
 
-if (!wasExtensionsTomlModified) {
-  warn(
+// Label to use when a PR does not update an extension.
+const ALLOW_NO_EXTENSION_CHANGES_LABEL_NAME = "other";
+
+const hasNoExtensionChangesLabel = danger.github.issue.labels.some(
+  (label) => label.name === ALLOW_NO_EXTENSION_CHANGES_LABEL_NAME,
+);
+
+if (!wasExtensionsTomlModified && !hasNoExtensionChangesLabel) {
+  fail(
     [
       "This PR doesn't include changes to `extensions.toml`.",
       "",
