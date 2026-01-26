@@ -27,6 +27,8 @@ if (!wasExtensionsTomlModified && !hasNoExtensionChangesLabel) {
       "If you are creating a new extension, add a new entry to it.",
       "",
       "If you are updating an existing extension, update the version number in the corresponding entry.",
+      "",
+      "If your PR is not supposed to update or add an extension, state it explicitly and wait for a maintainer to add the `other` label.",
     ].join("\n"),
   );
 }
