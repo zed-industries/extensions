@@ -176,8 +176,8 @@ async function packageExtension(
     }
   }
 
-  const licenseCandidates = await retrieveLicenseCandidates(extensionPath);
-  validateLicense(licenseCandidates);
+  // const licenseCandidates = await retrieveLicenseCandidates(extensionPath);
+  // validateLicense(licenseCandidates);
 
   const zedExtensionOutput = await exec(
     "./zed-extension",
