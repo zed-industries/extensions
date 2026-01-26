@@ -1,0 +1,11 @@
+id = "augment-context-engine"
+name = "Context Engine by Augment Code"
+description = "Easily index and query your codebase with the Augment Context Engine MCP. This extension can support millions of lines of code for easy retrieval."
+version = "0.0.1"
+schema_version = 1
+authors = ["Augmentcode.com <support@augmentcode.com>"]
+repository = "https://github.com/AugmentCode/zed-augment-extensions/extensions/augment-context-engine"
+
+[context_servers.augment-context-engine]
+name = "Augment Context Engine"
+

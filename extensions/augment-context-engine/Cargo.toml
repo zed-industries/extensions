@@ -1,0 +1,16 @@
+[package]
+name = "augment_context_engine"
+version = "0.0.1"
+edition = "2021"
+publish = false
+license = "MIT"
+
+[lib]
+path = "src/augment_context_engine.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+serde = "1.0"
+schemars = "0.8"
+zed_extension_api = "0.7.0"
+
