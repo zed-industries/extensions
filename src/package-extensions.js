@@ -7,7 +7,7 @@ import { sortExtensionsToml } from "./lib/extensions-toml.js";
 import {
   fileExists,
   readTomlFile,
-  // retrieveLicenseCandidates,
+  retrieveLicenseCandidates,
 } from "./lib/fs.js";
 import {
   checkoutGitSubmodule,
@@ -19,7 +19,7 @@ import {
   validateExtensionsToml,
   validateGitmodules,
   validateManifest,
-  // validateLicense,
+  validateLicense,
   validateGitmodulesLocations,
   validateExtensionIdsNotChanged,
 } from "./lib/validation.js";
@@ -176,8 +176,8 @@ async function packageExtension(
     }
   }
 
-  // const licenseCandidates = await retrieveLicenseCandidates(extensionPath);
-  // validateLicense(licenseCandidates);
+  const licenseCandidates = await retrieveLicenseCandidates(extensionPath);
+  validateLicense(licenseCandidates);
 
   const zedExtensionOutput = await exec(
     "./zed-extension",
