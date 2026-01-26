@@ -13,7 +13,7 @@ const wasExtensionsTomlModified = danger.git.modified_files.some((file) =>
 );
 
 // Label to use when a PR does not update an extension.
-const ALLOW_NO_EXTENSION_CHANGES_LABEL_NAME = "other";
+const ALLOW_NO_EXTENSION_CHANGES_LABEL_NAME = "allow-no-extension";
 
 const hasNoExtensionChangesLabel = danger.github.issue.labels.some(
   (label) => label.name === ALLOW_NO_EXTENSION_CHANGES_LABEL_NAME,
