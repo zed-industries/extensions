@@ -302,6 +302,10 @@
 	path = extensions/bearded-icon-theme
 	url = https://github.com/sethstha/bearded-icons-theme.git
 
+[submodule "extensions/bearded-theme"]
+	path = extensions/bearded-theme
+	url = https://github.com/BeardedBear/bearded-theme-zed.git
+
 [submodule "extensions/bend"]
 	path = extensions/bend
 	url = https://github.com/mrpedrobraga/zed-bend.git
@@ -1378,6 +1382,10 @@
 	path = extensions/haxe
 	url = https://github.com/Frixuu/Zed-Haxe
 
+[submodule "extensions/hbuilderx-push-light"]
+	path = extensions/hbuilderx-push-light
+	url = https://github.com/yuanzhhh/hbuilderx-theme-zed.git
+
 [submodule "extensions/helm"]
 	path = extensions/helm
 	url = https://github.com/cabrinha/helm.zed.git
@@ -1593,10 +1601,6 @@
 [submodule "extensions/just"]
 	path = extensions/just
 	url = https://github.com/jackTabsCode/zed-just.git
-
-[submodule "extensions/just-ls"]
-	path = extensions/just-ls
-	url = https://github.com/sectore/zed-just-ls.git
 
 [submodule "extensions/kagimcp"]
 	path = extensions/kagimcp
@@ -2317,6 +2321,10 @@
 [submodule "extensions/not-material-theme"]
 	path = extensions/not-material-theme
 	url = https://github.com/iamawatermelo/zed-hct-theme-maker
+
+[submodule "extensions/not-too-shabby"]
+	path = extensions/not-too-shabby
+	url = https://github.com/staleo/zed-nottooshabby-theme.git
 
 [submodule "extensions/npm-package-json-checker"]
 	path = extensions/npm-package-json-checker
@@ -3297,6 +3305,10 @@
 [submodule "extensions/templ"]
 	path = extensions/templ
 	url = https://github.com/makifdb/zed-templ.git
+
+[submodule "extensions/templeos-theme"]
+	path = extensions/templeos-theme
+	url = https://github.com/b6k-dev/zed-templeos-theme.git
 
 [submodule "extensions/tera"]
 	path = extensions/tera
