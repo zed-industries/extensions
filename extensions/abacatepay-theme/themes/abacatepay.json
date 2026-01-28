@@ -1,0 +1,243 @@
+{
+  "name": "AbacatePay",
+  "author": "AbacatePay",
+  "themes": [
+    {
+      "name": "AbacatePay Dark",
+      "appearance": "dark",
+      "style": {
+        "background": "#101213",
+        "foreground": "#ECF0F1",
+        "accent": "#C6EF9D",
+        "syntax": {
+          "comment": {
+            "foreground": "#94A3B8",
+            "font_style": "italic"
+          },
+          "string": {
+            "foreground": "#BFA58A"
+          },
+          "keyword": {
+            "foreground": "#7A916E"
+          },
+          "function": {
+            "foreground": "#D4A373"
+          },
+          "type": {
+            "foreground": "#FAF4C8"
+          },
+          "variable": {
+            "foreground": "#D9F2C7"
+          },
+          "number": {
+            "foreground": "#C6EF9D"
+          },
+          "boolean": {
+            "foreground": "#C6EF9D"
+          },
+          "operator": {
+            "foreground": "#ECF0F1"
+          },
+          "punctuation": {
+            "foreground": "#ECF0F1"
+          }
+        },
+        "ui": {
+          "element.background": "#161819",
+          "element.hover": "#263238",
+          "element.active": "#263238",
+          "element.selected": "#263238",
+          "border": "#1B1B22",
+          "text": "#ECF0F1"
+        },
+        "editor": {
+          "background": "#101213",
+          "gutter.background": "#101213",
+          "line_number": "#3D5F61",
+          "line_number.active": "#C6EF9D",
+          "active_line.background": "#161819",
+          "selection.background": "#263238",
+          "cursor.foreground": "#C6EF9D"
+        },
+        "terminal": {
+          "background": "#101213",
+          "foreground": "#ECF0F1",
+          "black": "#101213",
+          "red": "#E67E22",
+          "green": "#C6EF9D",
+          "yellow": "#FAF4C8",
+          "blue": "#7A916E",
+          "magenta": "#D4A373",
+          "cyan": "#3D5F61",
+          "white": "#ECF0F1",
+          "bright_black": "#94A3B8",
+          "bright_red": "#E67E22",
+          "bright_green": "#D9F2C7",
+          "bright_yellow": "#FAF4C8",
+          "bright_blue": "#7A916E",
+          "bright_magenta": "#D4A373",
+          "bright_cyan": "#3D5F61",
+          "bright_white": "#ECF0F1"
+        }
+      }
+    },
+    {
+      "name": "AbacatePay Light",
+      "appearance": "light",
+      "style": {
+        "background": "#F1F1F0",
+        "foreground": "#3F4E4F",
+        "accent": "#4C7A2E",
+        "syntax": {
+          "comment": {
+            "foreground": "#708090",
+            "font_style": "italic"
+          },
+          "string": {
+            "foreground": "#8B4513"
+          },
+          "keyword": {
+            "foreground": "#556B2F"
+          },
+          "function": {
+            "foreground": "#A0522D"
+          },
+          "type": {
+            "foreground": "#B58900"
+          },
+          "variable": {
+            "foreground": "#3F4E4F"
+          },
+          "number": {
+            "foreground": "#4C7A2E"
+          },
+          "boolean": {
+            "foreground": "#4C7A2E"
+          },
+          "operator": {
+            "foreground": "#3F4E4F"
+          },
+          "punctuation": {
+            "foreground": "#3F4E4F"
+          }
+        },
+        "ui": {
+          "element.background": "#F0F0EF",
+          "element.hover": "#E5E5E166",
+          "element.active": "#E5E5E1",
+          "element.selected": "#E5E5E1",
+          "border": "#E5E5E1",
+          "text": "#3F4E4F"
+        },
+        "editor": {
+          "background": "#F1F1F0",
+          "gutter.background": "#F1F1F0",
+          "line_number": "#708090",
+          "line_number.active": "#3F4E4F",
+          "active_line.background": "#E5E5E166",
+          "selection.background": "#E5E5E1",
+          "cursor.foreground": "#3F4E4F"
+        },
+        "terminal": {
+          "background": "#F1F1F0",
+          "foreground": "#3F4E4F",
+          "black": "#3F4E4F",
+          "red": "#B22222",
+          "green": "#4C7A2E",
+          "yellow": "#B58900",
+          "blue": "#2F4F4F",
+          "magenta": "#A0522D",
+          "cyan": "#2F4F4F",
+          "white": "#F1F1F0",
+          "bright_black": "#708090",
+          "bright_red": "#B22222",
+          "bright_green": "#6A994E",
+          "bright_yellow": "#B8860B",
+          "bright_blue": "#2F4F4F",
+          "bright_magenta": "#A0522D",
+          "bright_cyan": "#2F4F4F",
+          "bright_white": "#F1F1F0"
+        }
+      }
+    },
+    {
+      "name": "AbacatePay Soft",
+      "appearance": "dark",
+      "style": {
+        "background": "#222526",
+        "foreground": "#ECF0F1",
+        "accent": "#C6EF9D",
+        "syntax": {
+          "comment": {
+            "foreground": "#94A3B8",
+            "font_style": "italic"
+          },
+          "string": {
+            "foreground": "#BFA58A"
+          },
+          "keyword": {
+            "foreground": "#7A916E"
+          },
+          "function": {
+            "foreground": "#D4A373"
+          },
+          "type": {
+            "foreground": "#FAF4C8"
+          },
+          "variable": {
+            "foreground": "#D9F2C7"
+          },
+          "number": {
+            "foreground": "#C6EF9D"
+          },
+          "boolean": {
+            "foreground": "#C6EF9D"
+          },
+          "operator": {
+            "foreground": "#ECF0F1"
+          },
+          "punctuation": {
+            "foreground": "#ECF0F1"
+          }
+        },
+        "ui": {
+          "element.background": "#292C2D",
+          "element.hover": "#35393B",
+          "element.active": "#35393B",
+          "element.selected": "#35393B",
+          "border": "#2E3132",
+          "text": "#ECF0F1"
+        },
+        "editor": {
+          "background": "#222526",
+          "gutter.background": "#222526",
+          "line_number": "#3D5F61",
+          "line_number.active": "#C6EF9D",
+          "active_line.background": "#292C2D",
+          "selection.background": "#35393B",
+          "cursor.foreground": "#C6EF9D"
+        },
+        "terminal": {
+          "background": "#222526",
+          "foreground": "#ECF0F1",
+          "black": "#222526",
+          "red": "#E67E22",
+          "green": "#C6EF9D",
+          "yellow": "#FAF4C8",
+          "blue": "#7A916E",
+          "magenta": "#D4A373",
+          "cyan": "#3D5F61",
+          "white": "#ECF0F1",
+          "bright_black": "#94A3B8",
+          "bright_red": "#E67E22",
+          "bright_green": "#D9F2C7",
+          "bright_yellow": "#FAF4C8",
+          "bright_blue": "#7A916E",
+          "bright_magenta": "#D4A373",
+          "bright_cyan": "#3D5F61",
+          "bright_white": "#ECF0F1"
+        }
+      }
+    }
+  ]
+}
