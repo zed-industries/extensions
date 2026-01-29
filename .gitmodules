@@ -1930,6 +1930,10 @@
 	path = extensions/mcp-server-grafana
 	url = https://github.com/sd2k/zed-mcp-grafana.git
 
+[submodule "extensions/mcp-server-kubernetes"]
+	path = extensions/mcp-server-kubernetes
+	url = https://github.com/GGORG0/zed-mcp-server-kubernetes
+
 [submodule "extensions/mcp-server-linear"]
 	path = extensions/mcp-server-linear
 	url = https://github.com/LoamStudios/zed-mcp-server-linear.git
