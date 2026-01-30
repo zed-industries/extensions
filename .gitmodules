@@ -1418,6 +1418,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/http-client"]
+	path = extensions/http-client
+	url = https://github.com/cramhead/http-client
+
 [submodule "extensions/huff"]
 	path = extensions/huff
 	url = https://github.com/Niraj-Kamdar/zed-huff.git
@@ -3845,6 +3849,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/http-client"]
-	path = extensions/http-client
-	url = https://github.com/cramhead/http-client
