@@ -2374,6 +2374,10 @@
 	path = extensions/oat
 	url = https://github.com/WhySoBad/zed-oat-extension.git
 
+[submodule "extensions/objcpp"]
+	path = extensions/objcpp
+	url = https://github.com/Akzestia/objcpp.git
+
 [submodule "extensions/objectscript"]
 	path = extensions/objectscript
 	url = https://github.com/intersystems/zed-objectscript.git
@@ -3889,6 +3893,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/objcpp"]
-	path = extensions/objcpp
-	url = https://github.com/Akzestia/objcpp.git
