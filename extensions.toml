@@ -1411,6 +1411,11 @@ version = "0.1.0"
 submodule = "extensions/helm"
 version = "0.0.2"
 
+[herzha-theme]
+submodule = "extensions/herzha-theme"
+version = "0.0.1"
+path = "packages/zed"
+
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
 version = "0.0.4"
