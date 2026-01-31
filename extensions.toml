@@ -577,7 +577,7 @@ version = "0.0.5"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.2.8"
+version = "0.2.9"
 
 [codebuddy]
 submodule = "extensions/codebuddy"
@@ -1552,7 +1552,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.7"
+version = "6.8.8"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2502,7 +2502,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.1.39"
+version = "1.1.48"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2536,6 +2536,10 @@ version = "0.0.2"
 submodule = "extensions/oscura"
 version = "0.2.0"
 
+[oso]
+submodule = "extensions/oso"
+version = "0.0.1"
+
 [outrun]
 submodule = "extensions/outrun"
 version = "0.0.3"
@@ -2543,10 +2547,6 @@ version = "0.0.3"
 [oxc]
 submodule = "extensions/oxc"
 version = "0.4.3"
-
-[oxlint]
-submodule = "extensions/oxlint"
-version = "0.0.2"
 
 [oxocarbon]
 submodule = "extensions/oxocarbon"
@@ -2642,7 +2642,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.6"
+version = "0.4.7"
 
 [php-snippets]
 submodule = "extensions/php-snippets"
@@ -3295,6 +3295,11 @@ version = "0.4.6"
 [symbols]
 submodule = "extensions/symbols"
 version = "1.0.0"
+
+[symposium]
+submodule = "extensions/symposium"
+path = "zed-extension/prod"
+version = "1.3"
 
 [syntax]
 submodule = "extensions/syntax"
