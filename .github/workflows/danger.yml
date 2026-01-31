@@ -8,6 +8,8 @@ on:
       - synchronize
       - reopened
       - edited
+      - labeled
+      - unlabeled
 
 jobs:
   danger:
