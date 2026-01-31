@@ -302,6 +302,10 @@
 	path = extensions/bearded-icon-theme
 	url = https://github.com/sethstha/bearded-icons-theme.git
 
+[submodule "extensions/bearded-icons"]
+	path = extensions/bearded-icons
+	url = https://github.com/BeardedBear/bearded-icons-zed.git
+
 [submodule "extensions/bearded-theme"]
 	path = extensions/bearded-theme
 	url = https://github.com/BeardedBear/bearded-theme-zed.git
@@ -2338,6 +2342,10 @@
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu.git
 
+[submodule "extensions/nu-lint"]
+	path = extensions/nu-lint
+	url = https://codeberg.org/vmeurisse/nu-lint-zed.git
+
 [submodule "extensions/nube-icons"]
 	path = extensions/nube-icons
 	url = https://github.com/meastblue/nube-icons.git
@@ -2502,6 +2510,10 @@
 	path = extensions/oscura
 	url = https://github.com/webhooked/oscura-zed.git
 
+[submodule "extensions/oso"]
+	path = extensions/oso
+	url = https://github.com/osohq/oso-zed.git
+
 [submodule "extensions/outrun"]
 	path = extensions/outrun
 	url = https://github.com/Acepie/OutrunZedTheme.git
@@ -2509,10 +2521,6 @@
 [submodule "extensions/oxc"]
 	path = extensions/oxc
 	url = https://github.com/oxc-project/oxc-zed.git
-
-[submodule "extensions/oxlint"]
-	path = extensions/oxlint
-	url = https://github.com/rchatrath7/zed-oxlint.git
 
 [submodule "extensions/oxocarbon"]
 	path = extensions/oxocarbon
@@ -3062,6 +3070,10 @@
 	path = extensions/slint
 	url = https://github.com/slint-ui/slint.git
 
+[submodule "extensions/smalisp"]
+	path = extensions/smalisp
+	url = https://github.com/AbhiTheModder/smalisp.git
+
 [submodule "extensions/smithy"]
 	path = extensions/smithy
 	url = https://github.com/joshrutkowski/zed-smithy.git
@@ -3257,6 +3269,10 @@
 [submodule "extensions/symbols"]
 	path = extensions/symbols
 	url = https://github.com/sebastiandotdev/zed-symbols.git
+
+[submodule "extensions/symposium"]
+	path = extensions/symposium
+	url = https://github.com/symposium-dev/symposium.git
 
 [submodule "extensions/syntax"]
 	path = extensions/syntax
