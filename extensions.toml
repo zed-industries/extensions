@@ -271,7 +271,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.218.0"
+version = "0.218.1"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -304,6 +304,10 @@ version = "1.0.0"
 [bearded-icon-theme]
 submodule = "extensions/bearded-icon-theme"
 version = "0.4.0"
+
+[bearded-icons]
+submodule = "extensions/bearded-icons"
+version = "1.0.0"
 
 [bearded-theme]
 submodule = "extensions/bearded-theme"
@@ -577,7 +581,7 @@ version = "0.0.5"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.2.8"
+version = "0.2.9"
 
 [codebuddy]
 submodule = "extensions/codebuddy"
@@ -679,7 +683,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.1.4"
+version = "1.2.0"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -1058,7 +1062,7 @@ version = "1.0.0"
 
 [ferret]
 submodule = "extensions/ferret"
-version = "0.0.5"
+version = "0.0.6"
 
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
@@ -1557,7 +1561,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.7"
+version = "6.8.8"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2091,7 +2095,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.0.0"
+version = "2.0.1"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2375,6 +2379,10 @@ version = "0.0.2"
 submodule = "extensions/nu"
 version = "0.0.8"
 
+[nu-lint]
+submodule = "extensions/nu-lint"
+version = "1.0.0"
+
 [nube-icons]
 submodule = "extensions/nube-icons"
 version = "1.0.0"
@@ -2397,7 +2405,7 @@ version = "0.0.1"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.6.1"
+version = "0.7.0"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -2507,7 +2515,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.1.39"
+version = "1.1.48"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2540,6 +2548,10 @@ version = "0.0.2"
 [oscura]
 submodule = "extensions/oscura"
 version = "0.2.0"
+
+[oso]
+submodule = "extensions/oso"
+version = "0.0.1"
 
 [outrun]
 submodule = "extensions/outrun"
@@ -2715,7 +2727,7 @@ version = "0.5.0"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
-version = "1.0.2"
+version = "1.0.3"
 
 [postgres-context-server]
 submodule = "extensions/postgres-context-server"
@@ -2990,7 +3002,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.1.6"
+version = "0.2.0"
 
 [scheme]
 submodule = "extensions/scheme"
@@ -3002,7 +3014,7 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.1.4"
+version = "0.1.5"
 
 [semgrep]
 submodule = "extensions/semgrep"
@@ -3100,6 +3112,11 @@ version = "1.0.1"
 submodule = "extensions/slint"
 path = "editors/zed"
 version = "1.14.1"
+
+[smalisp]
+submodule = "extensions/smalisp"
+version = "0.1.0"
+path = "extensions/zed"
 
 [smithy]
 submodule = "extensions/smithy"
@@ -3203,7 +3220,7 @@ version = "0.1.0"
 
 [stakpak]
 submodule = "extensions/stakpak"
-version = "0.1.6"
+version = "0.1.9"
 
 [stan]
 submodule = "extensions/stan"
@@ -3611,7 +3628,7 @@ version = "0.0.2"
 
 [valt]
 submodule = "extensions/valt"
-version = "0.0.1"
+version = "1.0.0"
 
 [vapor-theme]
 submodule = "extensions/vapor-theme"
@@ -3732,7 +3749,7 @@ version = "0.3.0"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
-version = "0.0.2"
+version = "0.0.3"
 
 [vue-theme]
 submodule = "extensions/vue-theme"
@@ -3821,7 +3838,7 @@ version = "0.1.0"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
-version = "0.1.2"
+version = "0.1.4"
 
 [yaka]
 submodule = "extensions/yaka"
@@ -3866,7 +3883,7 @@ version = "0.0.1"
 
 [zabby]
 submodule = "extensions/zabby"
-version = "0.0.1"
+version = "0.0.3"
 
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
