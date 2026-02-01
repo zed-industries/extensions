@@ -2330,6 +2330,10 @@
 	path = extensions/not-too-shabby
 	url = https://github.com/staleo/zed-nottooshabby-theme.git
 
+[submodule "extensions/nova"]
+	path = extensions/nova
+	url = https://github.com/overstarry/zed-nova.git
+
 [submodule "extensions/npm-package-json-checker"]
 	path = extensions/npm-package-json-checker
 	url = https://github.com/e-simpson/zed-npm-update-checker.git
@@ -3837,10 +3841,6 @@
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
-
-[submodule "extensions/zed-nova"]
-	path = extensions/zed-nova
-	url = https://github.com/overstarry/zed-nova.git
 
 [submodule "extensions/zedbox"]
 	path = extensions/zedbox
