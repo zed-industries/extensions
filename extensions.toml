@@ -305,6 +305,10 @@ version = "1.0.0"
 submodule = "extensions/bearded-icon-theme"
 version = "0.4.0"
 
+[bearded-icons]
+submodule = "extensions/bearded-icons"
+version = "1.0.0"
+
 [bearded-theme]
 submodule = "extensions/bearded-theme"
 version = "1.0.0"
@@ -679,7 +683,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.1.4"
+version = "1.2.0"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -1058,7 +1062,7 @@ version = "1.0.0"
 
 [ferret]
 submodule = "extensions/ferret"
-version = "0.0.5"
+version = "0.0.6"
 
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
@@ -2370,6 +2374,10 @@ version = "0.0.2"
 submodule = "extensions/nu"
 version = "0.0.8"
 
+[nu-lint]
+submodule = "extensions/nu-lint"
+version = "1.0.0"
+
 [nube-icons]
 submodule = "extensions/nube-icons"
 version = "1.0.0"
@@ -3104,6 +3112,11 @@ submodule = "extensions/slint"
 path = "editors/zed"
 version = "1.14.1"
 
+[smalisp]
+submodule = "extensions/smalisp"
+version = "0.1.0"
+path = "extensions/zed"
+
 [smithy]
 submodule = "extensions/smithy"
 version = "0.0.1"
@@ -3614,7 +3627,7 @@ version = "0.0.2"
 
 [valt]
 submodule = "extensions/valt"
-version = "0.0.1"
+version = "1.0.0"
 
 [vapor-theme]
 submodule = "extensions/vapor-theme"
@@ -3735,7 +3748,7 @@ version = "0.3.0"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
-version = "0.0.2"
+version = "0.0.3"
 
 [vue-theme]
 submodule = "extensions/vue-theme"
