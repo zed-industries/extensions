@@ -3266,11 +3266,6 @@ version = "0.0.3"
 submodule = "extensions/struct-theme"
 version = "0.0.1"
 
-[styx]
-submodule = "extensions/styx"
-path = "editors/zed-styx"
-version = "0.1.0"
-
 [structured-text]
 submodule = "extensions/structured-text"
 version = "0.0.1"
@@ -3278,6 +3273,11 @@ version = "0.0.1"
 [stylelint]
 submodule = "extensions/stylelint"
 version = "2.0.0"
+
+[styx]
+submodule = "extensions/styx"
+path = "editors/zed-styx"
+version = "0.1.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
