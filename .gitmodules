@@ -958,6 +958,10 @@
 	path = extensions/elle
 	url = https://github.com/acquitelol/elle.git
 
+[submodule "extensions/ellsp"]
+	path = extensions/ellsp
+	url = https://github.com/elisp-lsp/zed-ellsp
+
 [submodule "extensions/elm"]
 	path = extensions/elm
 	url = https://github.com/zed-extensions/elm.git
@@ -1405,6 +1409,10 @@
 [submodule "extensions/helm"]
 	path = extensions/helm
 	url = https://github.com/cabrinha/helm.zed.git
+
+[submodule "extensions/herzha-theme"]
+	path = extensions/herzha-theme
+	url = https://github.com/madhanmaaz/herzha-theme.git
 
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
@@ -1977,6 +1985,10 @@
 [submodule "extensions/mcp-server-notion"]
 	path = extensions/mcp-server-notion
 	url = https://github.com/f1729/zed-notion-mcp.git
+
+[submodule "extensions/mcp-server-playwright"]
+	path = extensions/mcp-server-playwright
+	url = https://github.com/karlomedallo/zed-playwright-mcp.git
 
 [submodule "extensions/mcp-server-powerdrill"]
 	path = extensions/mcp-server-powerdrill
@@ -2954,6 +2966,10 @@
 	path = extensions/rumdl
 	url = https://github.com/inflation/zed-rumdl.git
 
+[submodule "extensions/rust-and-brown"]
+	path = extensions/rust-and-brown
+	url = https://github.com/LukianovII/rust-and-brown-zed.git
+
 [submodule "extensions/rust-rover-dark-theme"]
 	path = extensions/rust-rover-dark-theme
 	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
@@ -3553,6 +3569,10 @@
 [submodule "extensions/unison"]
 	path = extensions/unison
 	url = https://github.com/zetashift/unison-zed
+
+[submodule "extensions/united-gnome"]
+	path = extensions/united-gnome
+	url = https://github.com/Smyrnis/united-gnome-theme.git
 
 [submodule "extensions/unity-snippets"]
 	path = extensions/unity-snippets
