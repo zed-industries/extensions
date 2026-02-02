@@ -227,7 +227,7 @@ version = "0.2.1"
 
 [autohotkey]
 submodule = "extensions/autohotkey"
-version = "2.0.0"
+version = "2.0.1"
 
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
@@ -607,6 +607,10 @@ version = "0.0.1"
 submodule = "extensions/coffeescript"
 version = "0.0.1"
 
+[coi]
+submodule = "extensions/coi"
+version = "0.1.0"
+
 [color-highlight]
 submodule = "extensions/color-highlight"
 version = "0.2.2"
@@ -825,7 +829,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.3.1"
+version = "1.3.2"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -966,6 +970,10 @@ version = "0.1.0"
 submodule = "extensions/elle"
 path = "editors/zed"
 version = "0.3.6"
+
+[ellsp]
+submodule = "extensions/ellsp"
+version = "0.1.0"
 
 [elm]
 submodule = "extensions/elm"
@@ -1152,6 +1160,10 @@ version = "0.2.0"
 [fozzy]
 submodule = "extensions/fozzy"
 version = "0.0.1"
+
+[freemarker]
+submodule = "extensions/freemarker"
+version = "0.1.0"
 
 [frosted-theme]
 submodule = "extensions/frosted-theme"
@@ -1415,6 +1427,11 @@ version = "0.1.0"
 submodule = "extensions/helm"
 version = "0.0.2"
 
+[herzha-theme]
+submodule = "extensions/herzha-theme"
+version = "0.0.1"
+path = "packages/zed"
+
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
 version = "0.0.4"
@@ -1616,7 +1633,7 @@ version = "0.1.0"
 
 [jsonl]
 submodule = "extensions/jsonl"
-version = "0.1.0"
+version = "0.1.1"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -1821,7 +1838,7 @@ version = "0.0.1"
 
 [mangoes]
 submodule = "extensions/mangoes"
-version = "0.1.1"
+version = "0.1.2"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
@@ -1996,6 +2013,10 @@ version = "0.1.0"
 submodule = "extensions/mcp-server-notion"
 version = "0.1.0"
 
+[mcp-server-playwright]
+submodule = "extensions/mcp-server-playwright"
+version = "0.0.1"
+
 [mcp-server-powerdrill]
 submodule = "extensions/mcp-server-powerdrill"
 version = "0.0.1"
@@ -2070,7 +2091,7 @@ version = "0.4.0"
 
 [microscript]
 submodule = "extensions/microscript"
-version = "0.1.0"
+version = "0.2.0"
 
 [min-theme]
 submodule = "extensions/min-theme"
@@ -3395,6 +3416,10 @@ version = "1.0.0"
 submodule = "extensions/terrible-theme"
 version = "0.0.3"
 
+[tex-japanese-formatter]
+submodule = "extensions/tex-japanese-formatter"
+version = "1.0.0"
+
 [texpresso]
 submodule = "extensions/texpresso"
 version = "0.0.3"
@@ -3584,6 +3609,10 @@ version = "0.1.5"
 [unison]
 submodule = "extensions/unison"
 version = "0.0.6"
+
+[united-gnome]
+submodule = "extensions/united-gnome"
+version = "0.1.0"
 
 [unity-snippets]
 submodule = "extensions/unity-snippets"
@@ -3862,11 +3891,6 @@ version = "0.0.9"
 [yellowed]
 submodule = "extensions/yellowed"
 version = "0.0.3"
-
-[yogi-amoled]
-submodule = "extensions/yogi-amoled"
-path = "Zed/yogi-amoled"
-version = "0.1.0"
 
 [your-name-theme]
 submodule = "extensions/your-name-theme"
