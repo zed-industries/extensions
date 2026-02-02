@@ -302,6 +302,14 @@
 	path = extensions/bearded-icon-theme
 	url = https://github.com/sethstha/bearded-icons-theme.git
 
+[submodule "extensions/bearded-icons"]
+	path = extensions/bearded-icons
+	url = https://github.com/BeardedBear/bearded-icons-zed.git
+
+[submodule "extensions/bearded-theme"]
+	path = extensions/bearded-theme
+	url = https://github.com/BeardedBear/bearded-theme-zed.git
+
 [submodule "extensions/bend"]
 	path = extensions/bend
 	url = https://github.com/mrpedrobraga/zed-bend.git
@@ -593,6 +601,10 @@
 [submodule "extensions/coffeescript"]
 	path = extensions/coffeescript
 	url = https://github.com/svkozak/coffeescript-zed
+
+[submodule "extensions/coi"]
+	path = extensions/coi
+	url = https://github.com/jturner/zed-coi.git
 
 [submodule "extensions/color-highlight"]
 	path = extensions/color-highlight
@@ -946,6 +958,10 @@
 	path = extensions/elle
 	url = https://github.com/acquitelol/elle.git
 
+[submodule "extensions/ellsp"]
+	path = extensions/ellsp
+	url = https://github.com/elisp-lsp/zed-ellsp
+
 [submodule "extensions/elm"]
 	path = extensions/elm
 	url = https://github.com/zed-extensions/elm.git
@@ -1129,6 +1145,10 @@
 [submodule "extensions/fozzy"]
 	path = extensions/fozzy
 	url = https://github.com/juxta-tad/fozzy-zed.git
+
+[submodule "extensions/freemarker"]
+	path = extensions/freemarker
+	url = https://github.com/debba/zed-freemarker.git
 
 [submodule "extensions/frosted-theme"]
 	path = extensions/frosted-theme
@@ -1378,9 +1398,17 @@
 	path = extensions/haxe
 	url = https://github.com/Frixuu/Zed-Haxe
 
+[submodule "extensions/hbuilderx-push-light"]
+	path = extensions/hbuilderx-push-light
+	url = https://github.com/yuanzhhh/hbuilderx-theme-zed.git
+
 [submodule "extensions/helm"]
 	path = extensions/helm
 	url = https://github.com/cabrinha/helm.zed.git
+
+[submodule "extensions/herzha-theme"]
+	path = extensions/herzha-theme
+	url = https://github.com/madhanmaaz/herzha-theme.git
 
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
@@ -1954,6 +1982,10 @@
 	path = extensions/mcp-server-notion
 	url = https://github.com/f1729/zed-notion-mcp.git
 
+[submodule "extensions/mcp-server-playwright"]
+	path = extensions/mcp-server-playwright
+	url = https://github.com/karlomedallo/zed-playwright-mcp.git
+
 [submodule "extensions/mcp-server-powerdrill"]
 	path = extensions/mcp-server-powerdrill
 	url = https://github.com/javainthinking/zed-powerdrill-mcp-server.git
@@ -2314,6 +2346,10 @@
 	path = extensions/not-material-theme
 	url = https://github.com/iamawatermelo/zed-hct-theme-maker
 
+[submodule "extensions/not-too-shabby"]
+	path = extensions/not-too-shabby
+	url = https://github.com/staleo/zed-nottooshabby-theme.git
+
 [submodule "extensions/npm-package-json-checker"]
 	path = extensions/npm-package-json-checker
 	url = https://github.com/e-simpson/zed-npm-update-checker.git
@@ -2325,6 +2361,10 @@
 [submodule "extensions/nu"]
 	path = extensions/nu
 	url = https://github.com/zed-extensions/nu.git
+
+[submodule "extensions/nu-lint"]
+	path = extensions/nu-lint
+	url = https://codeberg.org/vmeurisse/nu-lint-zed.git
 
 [submodule "extensions/nube-icons"]
 	path = extensions/nube-icons
@@ -2490,6 +2530,10 @@
 	path = extensions/oscura
 	url = https://github.com/webhooked/oscura-zed.git
 
+[submodule "extensions/oso"]
+	path = extensions/oso
+	url = https://github.com/osohq/oso-zed.git
+
 [submodule "extensions/outrun"]
 	path = extensions/outrun
 	url = https://github.com/Acepie/OutrunZedTheme.git
@@ -2497,10 +2541,6 @@
 [submodule "extensions/oxc"]
 	path = extensions/oxc
 	url = https://github.com/oxc-project/oxc-zed.git
-
-[submodule "extensions/oxlint"]
-	path = extensions/oxlint
-	url = https://github.com/rchatrath7/zed-oxlint.git
 
 [submodule "extensions/oxocarbon"]
 	path = extensions/oxocarbon
@@ -2918,6 +2958,10 @@
 	path = extensions/rumdl
 	url = https://github.com/inflation/zed-rumdl.git
 
+[submodule "extensions/rust-and-brown"]
+	path = extensions/rust-and-brown
+	url = https://github.com/LukianovII/rust-and-brown-zed.git
+
 [submodule "extensions/rust-rover-dark-theme"]
 	path = extensions/rust-rover-dark-theme
 	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
@@ -3045,6 +3089,10 @@
 [submodule "extensions/slint"]
 	path = extensions/slint
 	url = https://github.com/slint-ui/slint.git
+
+[submodule "extensions/smalisp"]
+	path = extensions/smalisp
+	url = https://github.com/AbhiTheModder/smalisp.git
 
 [submodule "extensions/smithy"]
 	path = extensions/smithy
@@ -3242,6 +3290,10 @@
 	path = extensions/symbols
 	url = https://github.com/sebastiandotdev/zed-symbols.git
 
+[submodule "extensions/symposium"]
+	path = extensions/symposium
+	url = https://github.com/symposium-dev/symposium.git
+
 [submodule "extensions/syntax"]
 	path = extensions/syntax
 	url = https://github.com/syntaxfm/syntax-zed-theme.git
@@ -3294,6 +3346,10 @@
 	path = extensions/templ
 	url = https://github.com/makifdb/zed-templ.git
 
+[submodule "extensions/templeos-theme"]
+	path = extensions/templeos-theme
+	url = https://github.com/b6k-dev/zed-templeos-theme.git
+
 [submodule "extensions/tera"]
 	path = extensions/tera
 	url = https://github.com/uncenter/zed-tera
@@ -3313,6 +3369,10 @@
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
 	url = https://github.com/nooooaaaaah/terrible-zed.git
+
+[submodule "extensions/tex-japanese-formatter"]
+	path = extensions/tex-japanese-formatter
+	url = https://github.com/keufcp/tex-japanese-formatter-for-zed
 
 [submodule "extensions/texpresso"]
 	path = extensions/texpresso
@@ -3505,6 +3565,10 @@
 [submodule "extensions/unison"]
 	path = extensions/unison
 	url = https://github.com/zetashift/unison-zed
+
+[submodule "extensions/united-gnome"]
+	path = extensions/united-gnome
+	url = https://github.com/Smyrnis/united-gnome-theme.git
 
 [submodule "extensions/unity-snippets"]
 	path = extensions/unity-snippets
@@ -3781,10 +3845,6 @@
 [submodule "extensions/yellowed"]
 	path = extensions/yellowed
 	url = https://github.com/Gael-Lopes-Da-Silva/YellowedZed
-
-[submodule "extensions/yogi-amoled"]
-	path = extensions/yogi-amoled
-	url = https://github.com/euyogi/Tema-YogiAmoled.git
 
 [submodule "extensions/your-name-theme"]
 	path = extensions/your-name-theme
