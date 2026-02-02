@@ -602,6 +602,10 @@
 	path = extensions/coffeescript
 	url = https://github.com/svkozak/coffeescript-zed
 
+[submodule "extensions/coi"]
+	path = extensions/coi
+	url = https://github.com/jturner/zed-coi.git
+
 [submodule "extensions/color-highlight"]
 	path = extensions/color-highlight
 	url = https://github.com/huacnlee/color-lsp.git
@@ -1137,6 +1141,10 @@
 [submodule "extensions/fozzy"]
 	path = extensions/fozzy
 	url = https://github.com/juxta-tad/fozzy-zed.git
+
+[submodule "extensions/freemarker"]
+	path = extensions/freemarker
+	url = https://github.com/debba/zed-freemarker.git
 
 [submodule "extensions/freezed-snippets"]
 	path = extensions/freezed-snippets
