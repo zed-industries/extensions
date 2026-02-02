@@ -971,6 +971,10 @@ submodule = "extensions/elle"
 path = "editors/zed"
 version = "0.3.6"
 
+[ellsp]
+submodule = "extensions/ellsp"
+version = "0.1.0"
+
 [elm]
 submodule = "extensions/elm"
 version = "0.2.2"
@@ -1422,6 +1426,11 @@ version = "0.1.0"
 [helm]
 submodule = "extensions/helm"
 version = "0.0.2"
+
+[herzha-theme]
+submodule = "extensions/herzha-theme"
+version = "0.0.1"
+path = "packages/zed"
 
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
@@ -2003,6 +2012,10 @@ version = "0.1.0"
 [mcp-server-notion]
 submodule = "extensions/mcp-server-notion"
 version = "0.1.0"
+
+[mcp-server-playwright]
+submodule = "extensions/mcp-server-playwright"
+version = "0.0.1"
 
 [mcp-server-powerdrill]
 submodule = "extensions/mcp-server-powerdrill"
@@ -2987,6 +3000,10 @@ version = "0.16.5"
 submodule = "extensions/rumdl"
 version = "0.0.1"
 
+[rust-and-brown]
+submodule = "extensions/rust-and-brown"
+version = "1.0.0"
+
 [rust-rover-dark-theme]
 submodule = "extensions/rust-rover-dark-theme"
 version = "1.0.3"
@@ -3596,6 +3613,10 @@ version = "0.1.5"
 [unison]
 submodule = "extensions/unison"
 version = "0.0.6"
+
+[united-gnome]
+submodule = "extensions/united-gnome"
+version = "0.1.0"
 
 [unity-snippets]
 submodule = "extensions/unity-snippets"
