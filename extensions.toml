@@ -3274,6 +3274,11 @@ version = "0.0.1"
 submodule = "extensions/stylelint"
 version = "2.0.0"
 
+[styx]
+submodule = "extensions/styx"
+path = "editors/zed-styx"
+version = "0.1.0"
+
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
 version = "1.1.3"
