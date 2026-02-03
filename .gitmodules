@@ -958,6 +958,10 @@
 	path = extensions/elle
 	url = https://github.com/acquitelol/elle.git
 
+[submodule "extensions/ellsp"]
+	path = extensions/ellsp
+	url = https://github.com/elisp-lsp/zed-ellsp
+
 [submodule "extensions/elm"]
 	path = extensions/elm
 	url = https://github.com/zed-extensions/elm.git
@@ -1978,6 +1982,10 @@
 	path = extensions/mcp-server-notion
 	url = https://github.com/f1729/zed-notion-mcp.git
 
+[submodule "extensions/mcp-server-playwright"]
+	path = extensions/mcp-server-playwright
+	url = https://github.com/karlomedallo/zed-playwright-mcp.git
+
 [submodule "extensions/mcp-server-powerdrill"]
 	path = extensions/mcp-server-powerdrill
 	url = https://github.com/javainthinking/zed-powerdrill-mcp-server.git
@@ -2950,6 +2958,10 @@
 	path = extensions/rumdl
 	url = https://github.com/inflation/zed-rumdl.git
 
+[submodule "extensions/rust-and-brown"]
+	path = extensions/rust-and-brown
+	url = https://github.com/LukianovII/rust-and-brown-zed.git
+
 [submodule "extensions/rust-rover-dark-theme"]
 	path = extensions/rust-rover-dark-theme
 	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
@@ -3217,6 +3229,10 @@
 [submodule "extensions/stylelint"]
 	path = extensions/stylelint
 	url = https://github.com/florian-sanders/zed-stylelint.git
+
+[submodule "extensions/styx"]
+	path = extensions/styx
+	url = https://github.com/bearcove/styx.git
 
 [submodule "extensions/sublime-mariana-theme"]
 	path = extensions/sublime-mariana-theme
