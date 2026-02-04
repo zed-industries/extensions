@@ -602,6 +602,10 @@
 	path = extensions/coffeescript
 	url = https://github.com/svkozak/coffeescript-zed
 
+[submodule "extensions/coi"]
+	path = extensions/coi
+	url = https://github.com/jturner/zed-coi.git
+
 [submodule "extensions/color-highlight"]
 	path = extensions/color-highlight
 	url = https://github.com/huacnlee/color-lsp.git
@@ -954,6 +958,10 @@
 	path = extensions/elle
 	url = https://github.com/acquitelol/elle.git
 
+[submodule "extensions/ellsp"]
+	path = extensions/ellsp
+	url = https://github.com/elisp-lsp/zed-ellsp
+
 [submodule "extensions/elm"]
 	path = extensions/elm
 	url = https://github.com/zed-extensions/elm.git
@@ -1137,6 +1145,10 @@
 [submodule "extensions/fozzy"]
 	path = extensions/fozzy
 	url = https://github.com/juxta-tad/fozzy-zed.git
+
+[submodule "extensions/freemarker"]
+	path = extensions/freemarker
+	url = https://github.com/debba/zed-freemarker.git
 
 [submodule "extensions/frosted-theme"]
 	path = extensions/frosted-theme
@@ -1394,6 +1406,10 @@
 	path = extensions/helm
 	url = https://github.com/cabrinha/helm.zed.git
 
+[submodule "extensions/herzha-theme"]
+	path = extensions/herzha-theme
+	url = https://github.com/madhanmaaz/herzha-theme.git
+
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
 	url = https://github.com/coghost/light-zed-theme
@@ -1637,6 +1653,10 @@
 [submodule "extensions/kdl"]
 	path = extensions/kdl
 	url = https://github.com/elkowar/zed-kdl.git
+
+[submodule "extensions/keepcalm"]
+	path = extensions/keepcalm
+	url = https://github.com/sgmonda/keepcalm-zed.git
 
 [submodule "extensions/kiro"]
 	path = extensions/kiro
@@ -1965,6 +1985,10 @@
 [submodule "extensions/mcp-server-notion"]
 	path = extensions/mcp-server-notion
 	url = https://github.com/f1729/zed-notion-mcp.git
+
+[submodule "extensions/mcp-server-playwright"]
+	path = extensions/mcp-server-playwright
+	url = https://github.com/karlomedallo/zed-playwright-mcp.git
 
 [submodule "extensions/mcp-server-powerdrill"]
 	path = extensions/mcp-server-powerdrill
@@ -2938,6 +2962,10 @@
 	path = extensions/rumdl
 	url = https://github.com/inflation/zed-rumdl.git
 
+[submodule "extensions/rust-and-brown"]
+	path = extensions/rust-and-brown
+	url = https://github.com/LukianovII/rust-and-brown-zed.git
+
 [submodule "extensions/rust-rover-dark-theme"]
 	path = extensions/rust-rover-dark-theme
 	url = https://github.com/blkmlk/RustRover-Zed-Theme.git
@@ -3130,6 +3158,10 @@
 	path = extensions/soma
 	url = https://github.com/SrGaabriel/zed-soma.git
 
+[submodule "extensions/sonder-theme"]
+	path = extensions/sonder-theme
+	url = https://github.com/jmg-duarte/sonder-zed.git
+
 [submodule "extensions/sonokai"]
 	path = extensions/sonokai
 	url = https://github.com/ciathefed/zed-sonokai.git
@@ -3157,6 +3189,10 @@
 [submodule "extensions/sqlc-snippets"]
 	path = extensions/sqlc-snippets
 	url = https://github.com/NarmadaWeb/sqlc-snippets-zed.git
+
+[submodule "extensions/sqlmesh"]
+	path = extensions/sqlmesh
+	url = https://github.com/GitToby/zed-sqlmesh.git
 
 [submodule "extensions/sqruff"]
 	path = extensions/sqruff
@@ -3209,6 +3245,10 @@
 [submodule "extensions/stylelint"]
 	path = extensions/stylelint
 	url = https://github.com/florian-sanders/zed-stylelint.git
+
+[submodule "extensions/styx"]
+	path = extensions/styx
+	url = https://github.com/bearcove/styx.git
 
 [submodule "extensions/sublime-mariana-theme"]
 	path = extensions/sublime-mariana-theme
@@ -3349,6 +3389,10 @@
 [submodule "extensions/terrible-theme"]
 	path = extensions/terrible-theme
 	url = https://github.com/nooooaaaaah/terrible-zed.git
+
+[submodule "extensions/tex-japanese-formatter"]
+	path = extensions/tex-japanese-formatter
+	url = https://github.com/keufcp/tex-japanese-formatter-for-zed
 
 [submodule "extensions/texpresso"]
 	path = extensions/texpresso
@@ -3537,6 +3581,10 @@
 [submodule "extensions/unison"]
 	path = extensions/unison
 	url = https://github.com/zetashift/unison-zed
+
+[submodule "extensions/united-gnome"]
+	path = extensions/united-gnome
+	url = https://github.com/Smyrnis/united-gnome-theme.git
 
 [submodule "extensions/unity-snippets"]
 	path = extensions/unity-snippets
@@ -3813,10 +3861,6 @@
 [submodule "extensions/yellowed"]
 	path = extensions/yellowed
 	url = https://github.com/Gael-Lopes-Da-Silva/YellowedZed
-
-[submodule "extensions/yogi-amoled"]
-	path = extensions/yogi-amoled
-	url = https://github.com/euyogi/Tema-YogiAmoled.git
 
 [submodule "extensions/your-name-theme"]
 	path = extensions/your-name-theme
