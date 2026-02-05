@@ -1289,7 +1289,7 @@ version = "0.1.1"
 
 [godot-theme]
 submodule = "extensions/godot-theme"
-version = "1.1.0"
+version = "1.2.0"
 
 [golangci-lint]
 submodule = "extensions/golangci-lint"
@@ -1521,6 +1521,10 @@ version = "0.3.14"
 submodule = "extensions/icons-modern-material"
 version = "1.2.0"
 
+[idris2]
+submodule = "extensions/idris2"
+version = "0.0.1"
+
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
@@ -1687,6 +1691,10 @@ version = "0.1.0"
 submodule = "extensions/kdl"
 version = "0.0.1"
 
+[keepcalm]
+submodule = "extensions/keepcalm"
+version = "1.0.1"
+
 [kiro]
 submodule = "extensions/kiro"
 version = "1.0.0"
@@ -1830,7 +1838,7 @@ version = "0.0.4"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
-version = "0.3.0"
+version = "0.4.0"
 
 [make]
 submodule = "extensions/make"
@@ -3135,7 +3143,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.14.1"
+version = "1.15.0"
 
 [smalisp]
 submodule = "extensions/smalisp"
@@ -3198,6 +3206,10 @@ version = "0.1.9"
 submodule = "extensions/soma"
 version = "0.5.0"
 
+[sonder-theme]
+submodule = "extensions/sonder-theme"
+version = "0.1.0"
+
 [sonokai]
 submodule = "extensions/sonokai"
 version = "0.0.7"
@@ -3225,6 +3237,10 @@ version = "1.1.7"
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
+
+[sqlmesh]
+submodule = "extensions/sqlmesh"
+version = "0.1.4"
 
 [sqruff]
 submodule = "extensions/sqruff"
