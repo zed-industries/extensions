@@ -1,6 +1,7 @@
 name: Danger
 
 on:
+  merge_group:
   pull_request:
     branches: [main]
     types:
