@@ -1,6 +1,7 @@
 name: Danger
 
 on:
+  merge_group:
   pull_request:
     branches: [main]
     types:
@@ -8,6 +9,8 @@ on:
       - synchronize
       - reopened
       - edited
+      - labeled
+      - unlabeled
 
 jobs:
   danger:
