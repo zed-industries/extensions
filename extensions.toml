@@ -162,7 +162,7 @@ version = "0.2.0"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.3.0"
+version = "0.4.0"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -283,7 +283,7 @@ version = "0.1.2"
 
 [basher]
 submodule = "extensions/basher"
-version = "0.0.4"
+version = "0.0.5"
 
 [batman]
 submodule = "extensions/batman"
@@ -829,11 +829,11 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.3.2"
+version = "1.3.3"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
-version = "0.1.1"
+version = "0.1.2"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -1149,6 +1149,10 @@ version = "0.1.0"
 submodule = "extensions/formosa-theme"
 version = "1.0.0"
 
+[fortitude]
+submodule = "extensions/fortitude"
+version = "0.0.1"
+
 [fortran]
 submodule = "extensions/fortran"
 version = "0.0.3"
@@ -1285,7 +1289,7 @@ version = "0.1.1"
 
 [godot-theme]
 submodule = "extensions/godot-theme"
-version = "1.0.0"
+version = "1.2.0"
 
 [golangci-lint]
 submodule = "extensions/golangci-lint"
@@ -1413,7 +1417,7 @@ version = "0.1.2"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "0.1.6"
+version = "0.2.0"
 
 [haxe]
 submodule = "extensions/haxe"
@@ -1517,6 +1521,10 @@ version = "0.3.14"
 submodule = "extensions/icons-modern-material"
 version = "1.2.0"
 
+[idris2]
+submodule = "extensions/idris2"
+version = "0.0.1"
+
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
@@ -1573,7 +1581,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.8"
+version = "6.8.9"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -1682,6 +1690,10 @@ version = "0.1.0"
 [kdl]
 submodule = "extensions/kdl"
 version = "0.0.1"
+
+[keepcalm]
+submodule = "extensions/keepcalm"
+version = "1.0.1"
 
 [kiro]
 submodule = "extensions/kiro"
@@ -1826,7 +1838,7 @@ version = "0.0.4"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
-version = "0.3.0"
+version = "0.4.0"
 
 [make]
 submodule = "extensions/make"
@@ -2671,7 +2683,7 @@ version = "0.0.2"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.8"
+version = "0.4.9"
 
 [php-snippets]
 submodule = "extensions/php-snippets"
@@ -3026,7 +3038,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.2.0"
+version = "0.2.1"
 
 [scheme]
 submodule = "extensions/scheme"
@@ -3135,7 +3147,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.14.1"
+version = "1.15.0"
 
 [smalisp]
 submodule = "extensions/smalisp"
@@ -3198,6 +3210,10 @@ version = "0.1.9"
 submodule = "extensions/soma"
 version = "0.5.0"
 
+[sonder-theme]
+submodule = "extensions/sonder-theme"
+version = "0.1.0"
+
 [sonokai]
 submodule = "extensions/sonokai"
 version = "0.0.7"
@@ -3225,6 +3241,10 @@ version = "1.1.7"
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
+
+[sqlmesh]
+submodule = "extensions/sqlmesh"
+version = "0.1.4"
 
 [sqruff]
 submodule = "extensions/sqruff"
@@ -3330,6 +3350,10 @@ version = "0.1.1"
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
 version = "0.0.8"
+
+[sway]
+submodule = "extensions/sway"
+version = "0.1.0"
 
 [sweet-dracula]
 submodule = "extensions/sweet-dracula"
