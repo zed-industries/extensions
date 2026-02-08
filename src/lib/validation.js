@@ -1,5 +1,6 @@
 import {
   isApache2License,
+  isBsd2ClauseLicense,
   isBsd3ClauseLicense,
   isGplV3License,
   isLgplV3License,
@@ -148,6 +149,7 @@ export function validateGitmodulesLocations(extensionsToml, gitmodules) {
 
 const LICENSE_REQUIREMENT_TEXT = `Extension repositories must have a valid license:
   - Apache 2.0
+  - BSD 2-Clause
   - BSD 3-Clause
   - GNU GPLv3
   - GNU LGPLv3
@@ -173,6 +175,7 @@ export function validateLicense(licenseCandidates) {
   for (const license_data of licenseCandidates) {
     const isValidLicense =
       isApache2License(license_data.content) ||
+      isBsd2ClauseLicense(license_data.content) ||
       isBsd3ClauseLicense(license_data.content) ||
       isGplV3License(license_data.content) ||
       isLgplV3License(license_data.content) ||
