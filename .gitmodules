@@ -2094,6 +2094,10 @@
 	path = extensions/mistral-vibe
 	url = https://github.com/mistralai/mistral-vibe.git
 
+[submodule "extensions/mlir-tablegen"]
+	path = extensions/mlir-tablegen
+	url = https://github.com/zeroy0410/zed-mlir.git
+
 [submodule "extensions/mnemonic"]
 	path = extensions/mnemonic
 	url = https://github.com/mnemonic-theme/zed
