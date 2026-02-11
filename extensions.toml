@@ -2113,6 +2113,11 @@ version = "0.1.0"
 submodule = "extensions/meson"
 version = "0.4.0"
 
+[metal]
+submodule = "extensions/metal"
+path = "crates/metal-zed"
+version = "0.1.1"
+
 [microscript]
 submodule = "extensions/microscript"
 version = "0.2.0"
