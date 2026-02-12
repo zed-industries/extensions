@@ -1,0 +1,20 @@
+id = "ayla"
+name = "ayla"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ziad Skafi"]
+description = "Language support for the ayla programming language"
+repository = "https://github.com/z-sk1/zed-ayla.git"
+
+[language]
+name = "ayla"
+scope = "source.ayla"
+file_extensions = ["ayla", "ayl"]
+
+[language_servers.elen]
+name = "elen"
+command = "elen"
+args = []
+
+[languages.ayla]
+language_servers = ["elen"]
