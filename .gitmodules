@@ -3530,6 +3530,10 @@
 	path = extensions/tree-sitter-query
 	url = https://github.com/vitallium/zed-tree-sitter-query.git
 
+[submodule "extensions/tree-sitter-test"]
+	path = extensions/tree-sitter-test
+	url = https://github.com/kylegoetz/tree-sitter-tests-zed.git
+
 [submodule "extensions/tron-legacy"]
 	path = extensions/tron-legacy
 	url = https://github.com/bcomnes/zed-theme-tron-legacy.git
