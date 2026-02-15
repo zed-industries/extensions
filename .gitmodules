@@ -274,6 +274,10 @@
 	path = extensions/barbenheimer
 	url = https://github.com/jayvicsanantonio/barbenheimer-zed-theme.git
 
+[submodule "extensions/basilisk-qcc"]
+	path = extensions/basilisk-qcc
+	url = https://github.com/VatsalSy/zed-qcc.git
+
 [submodule "extensions/base16"]
 	path = extensions/base16
 	url = https://github.com/bswinnerton/base16-zed.git
@@ -3917,10 +3921,6 @@
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
-
-[submodule "extensions/zed-qcc"]
-	path = extensions/zed-qcc
-	url = https://github.com/VatsalSy/zed-qcc.git
 
 [submodule "extensions/zedbox"]
 	path = extensions/zedbox
