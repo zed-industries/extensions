@@ -558,6 +558,10 @@
 	path = extensions/clojure
 	url = https://github.com/zed-extensions/clojure.git
 
+[submodule "extensions/cmake"]
+	path = extensions/cmake
+	url = https://github.com/NikitolProject/zed-cmake.git
+
 [submodule "extensions/cobalt2"]
 	path = extensions/cobalt2
 	url = https://github.com/wesbos/cobalt2-zed.git
