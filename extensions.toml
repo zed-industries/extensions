@@ -1331,6 +1331,10 @@ version = "0.1.0"
 submodule = "extensions/grey-theme"
 version = "0.1.0"
 
+[greycat]
+submodule = "extensions/greycat"
+version = "0.1.0"
+
 [grimaces-birthday]
 submodule = "extensions/grimaces-birthday"
 version = "0.1.0"
@@ -2841,7 +2845,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.18.0"
+version = "0.19.3"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -3654,6 +3658,10 @@ version = "0.0.1"
 [underground-theme]
 submodule = "extensions/underground-theme"
 version = "1.0.0"
+
+[ungrammar]
+submodule = "extensions/ungrammar"
+version = "0.0.1"
 
 [unicode]
 submodule = "extensions/unicode"
