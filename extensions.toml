@@ -1017,7 +1017,7 @@ version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
-version = "0.1.3"
+version = "0.2.0"
 
 [everforest]
 submodule = "extensions/everforest"
@@ -1852,6 +1852,10 @@ version = "0.6.1"
 submodule = "extensions/lydia"
 version = "0.0.4"
 
+[mach]
+submodule = "extensions/mach"
+version = "0.1.0"
+
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.4.0"
@@ -1914,7 +1918,7 @@ version = "0.0.1"
 
 [matlab]
 submodule = "extensions/matlab"
-version = "0.1.0"
+version = "0.1.1"
 
 [matte-black]
 submodule = "extensions/matte-black"
@@ -2791,7 +2795,7 @@ version = "0.1.0"
 
 [powershell]
 submodule = "extensions/powershell"
-version = "0.4.0"
+version = "0.4.1"
 
 [prisma]
 submodule = "extensions/prisma"
@@ -2991,6 +2995,10 @@ version = "0.0.5"
 [risor]
 submodule = "extensions/risor"
 version = "0.0.2"
+
+[robot-framework]
+submodule = "extensions/robot-framework"
+version = "0.0.1"
 
 [roc]
 submodule = "extensions/roc"
