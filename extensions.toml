@@ -271,7 +271,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.218.1"
+version = "0.219.0"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -1017,7 +1017,7 @@ version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
-version = "0.1.3"
+version = "0.2.0"
 
 [everforest]
 submodule = "extensions/everforest"
@@ -1276,7 +1276,7 @@ version = "0.0.2"
 
 [gleam]
 submodule = "extensions/gleam"
-version = "0.5.2"
+version = "0.6.0"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -1580,7 +1580,7 @@ version = "0.0.1"
 
 [iwe]
 submodule = "extensions/iwe"
-version = "0.0.2"
+version = "0.0.3"
 
 [jai]
 submodule = "extensions/jai"
@@ -1852,6 +1852,10 @@ version = "0.6.1"
 submodule = "extensions/lydia"
 version = "0.0.4"
 
+[mach]
+submodule = "extensions/mach"
+version = "0.1.0"
+
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.4.0"
@@ -1914,11 +1918,11 @@ version = "0.0.1"
 
 [matlab]
 submodule = "extensions/matlab"
-version = "0.1.0"
+version = "0.1.1"
 
 [matte-black]
 submodule = "extensions/matte-black"
-version = "1.1.0"
+version = "1.1.2"
 
 [matte-black-theme]
 submodule = "extensions/matte-black-theme"
@@ -2139,7 +2143,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.0.2"
+version = "2.2.0"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2563,7 +2567,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.1.48"
+version = "1.2.6"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2612,6 +2616,10 @@ version = "0.4.4"
 [oxocarbon]
 submodule = "extensions/oxocarbon"
 version = "0.1.3"
+
+[p4]
+submodule = "extensions/p4"
+version = "0.0.1"
 
 [package-swift-lsp]
 submodule = "extensions/package-swift-lsp"
@@ -2771,7 +2779,7 @@ version = "1.0.10"
 
 [pony]
 submodule = "extensions/pony"
-version = "0.5.0"
+version = "0.5.1"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -2787,7 +2795,7 @@ version = "0.1.0"
 
 [powershell]
 submodule = "extensions/powershell"
-version = "0.4.0"
+version = "0.4.1"
 
 [prisma]
 submodule = "extensions/prisma"
@@ -2988,6 +2996,10 @@ version = "0.0.5"
 submodule = "extensions/risor"
 version = "0.0.2"
 
+[robot-framework]
+submodule = "extensions/robot-framework"
+version = "0.0.1"
+
 [roc]
 submodule = "extensions/roc"
 version = "0.0.6"
@@ -3163,7 +3175,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.15.0"
+version = "1.15.1"
 
 [smalisp]
 submodule = "extensions/smalisp"
@@ -3871,7 +3883,7 @@ version = "0.2.2"
 [wc-language-server]
 submodule = "extensions/wc-language-server"
 path = "packages/zed"
-version = "0.0.6"
+version = "0.0.7"
 
 [wdl]
 submodule = "extensions/wdl"
@@ -3901,6 +3913,10 @@ version = "0.0.1"
 submodule = "extensions/wit"
 version = "0.4.0"
 
+[witchesbrew-theme]
+submodule = "extensions/witchesbrew-theme"
+version = "1.0.0"
+
 [wow-toc]
 submodule = "extensions/wow-toc"
 version = "0.0.1"
@@ -3924,6 +3940,10 @@ version = "0.0.2"
 [xml]
 submodule = "extensions/xml"
 version = "0.1.0"
+
+[xonsh]
+submodule = "extensions/xonsh"
+version = "0.2.0"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
