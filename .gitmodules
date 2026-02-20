@@ -2782,6 +2782,10 @@
 	path = extensions/prolog
 	url = https://github.com/Gaspartcho/zed-prolog
 
+[submodule "extensions/properties"]
+	path = extensions/properties
+	url = https://github.com/rpietzsch/zed-properties-lang.git
+
 [submodule "extensions/psalm"]
 	path = extensions/psalm
 	url = https://github.com/sebcode/psalm-zed.git
@@ -2889,6 +2893,10 @@
 [submodule "extensions/rcl"]
 	path = extensions/rcl
 	url = https://github.com/rcl-lang/zed-rcl.git
+
+[submodule "extensions/rdf"]
+	path = extensions/rdf
+	url = https://github.com/rpietzsch/zed-rdf-lsp.git
 
 [submodule "extensions/react-snippets"]
 	path = extensions/react-snippets
