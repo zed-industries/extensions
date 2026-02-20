@@ -35,6 +35,11 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
+      - uses: actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c # v1
+        with:
+          toolchain: "1.90"
+          target: "wasm32-wasip2"
+
       - name: Cache zed-extension CLI
         id: cache-zed-extension
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
