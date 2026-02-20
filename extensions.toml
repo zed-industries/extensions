@@ -2146,6 +2146,10 @@ submodule = "extensions/mistral-vibe"
 version = "2.2.0"
 path = "distribution/zed"
 
+[mlir-tablegen]
+submodule = "extensions/mlir-tablegen"
+version = "0.1.0"
+
 [mnemonic]
 submodule = "extensions/mnemonic"
 version = "0.0.1"
