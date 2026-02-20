@@ -542,6 +542,10 @@
 	path = extensions/clarity
 	url = https://github.com/hirosystems/clarity-zed.git
 
+[submodule "extensions/claude-code-cli-ide"]
+	path = extensions/claude-code-cli-ide
+	url = https://github.com/beregcamlost/claude-code-cli-ide.git
+
 [submodule "extensions/claude-code-inspired-dark"]
 	path = extensions/claude-code-inspired-dark
 	url = https://github.com/ericbuess/claude-code-inspired-dark.git
