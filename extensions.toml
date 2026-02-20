@@ -1017,7 +1017,7 @@ version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
-version = "0.1.3"
+version = "0.2.0"
 
 [everforest]
 submodule = "extensions/everforest"
@@ -1276,7 +1276,7 @@ version = "0.0.2"
 
 [gleam]
 submodule = "extensions/gleam"
-version = "0.5.2"
+version = "0.6.0"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -1852,6 +1852,10 @@ version = "0.6.1"
 submodule = "extensions/lydia"
 version = "0.0.4"
 
+[mach]
+submodule = "extensions/mach"
+version = "0.1.0"
+
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.4.0"
@@ -1914,7 +1918,7 @@ version = "0.0.1"
 
 [matlab]
 submodule = "extensions/matlab"
-version = "0.1.0"
+version = "0.1.1"
 
 [matte-black]
 submodule = "extensions/matte-black"
@@ -2139,7 +2143,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.0.2"
+version = "2.2.0"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2563,7 +2567,7 @@ version = "0.1.1"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.1.48"
+version = "1.2.6"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2612,6 +2616,10 @@ version = "0.4.4"
 [oxocarbon]
 submodule = "extensions/oxocarbon"
 version = "0.1.3"
+
+[p4]
+submodule = "extensions/p4"
+version = "0.0.1"
 
 [package-swift-lsp]
 submodule = "extensions/package-swift-lsp"
@@ -2787,7 +2795,7 @@ version = "0.1.0"
 
 [powershell]
 submodule = "extensions/powershell"
-version = "0.4.0"
+version = "0.4.1"
 
 [prisma]
 submodule = "extensions/prisma"
@@ -2987,6 +2995,10 @@ version = "0.0.5"
 [risor]
 submodule = "extensions/risor"
 version = "0.0.2"
+
+[robot-framework]
+submodule = "extensions/robot-framework"
+version = "0.0.1"
 
 [roc]
 submodule = "extensions/roc"
@@ -3875,7 +3887,7 @@ version = "0.2.2"
 [wc-language-server]
 submodule = "extensions/wc-language-server"
 path = "packages/zed"
-version = "0.0.6"
+version = "0.0.7"
 
 [wdl]
 submodule = "extensions/wdl"
@@ -3904,6 +3916,10 @@ version = "0.0.1"
 [wit]
 submodule = "extensions/wit"
 version = "0.4.0"
+
+[witchesbrew-theme]
+submodule = "extensions/witchesbrew-theme"
+version = "1.0.0"
 
 [wow-toc]
 submodule = "extensions/wow-toc"
