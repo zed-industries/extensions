@@ -590,6 +590,10 @@
 	path = extensions/codeowners
 	url = https://github.com/lukasmalkmus/codeowners-zed.git
 
+[submodule "extensions/codeowners-lsp"]
+	path = extensions/codeowners-lsp
+	url = https://github.com/radiosilence/codeowners-zed.git
+
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
 	url = https://github.com/MartinRybergLaude/zed-theme-codesandbox.git
