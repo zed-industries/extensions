@@ -567,6 +567,10 @@ path = "editors/zed"
 submodule = "extensions/clojure"
 version = "0.2.2"
 
+[cmake]
+submodule = "extensions/cmake"
+version = "0.2.0"
+
 [cobalt2]
 submodule = "extensions/cobalt2"
 version = "0.1.0"
