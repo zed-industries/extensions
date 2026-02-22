@@ -1,6 +1,7 @@
 name: Danger
 
 on:
+  merge_group:
   pull_request:
     branches: [main]
     types:
@@ -8,10 +9,12 @@ on:
       - synchronize
       - reopened
       - edited
+      - labeled
+      - unlabeled
 
 jobs:
   danger:
-    runs-on: ubuntu-latest
+    runs-on: namespace-profile-2x4-ubuntu-2404
     if: github.repository_owner == 'zed-industries'
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
@@ -35,7 +38,7 @@ jobs:
           # This GitHub token is not used, but the value needs to be here to prevent
           # Danger from throwing an error.
           GITHUB_TOKEN: "not_a_real_token"
-          # All requests are instead proxied through an instance of
-          # https://github.com/maxdeviant/danger-proxy that allows Danger to securely
-          # authenticate with GitHub while still being able to run on PRs from forks.
-          DANGER_GITHUB_API_BASE_URL: "https://danger-proxy.fly.dev/github"
+          # All requests are instead proxied through a proxy that allows Danger
+          # to securely authenticate with GitHub while still being able to run
+          # on PRs from forks.
+          DANGER_GITHUB_API_BASE_URL: "https://danger-proxy.zed.dev/github"
