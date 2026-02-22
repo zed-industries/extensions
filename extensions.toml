@@ -1578,6 +1578,11 @@ version = "0.1.2"
 submodule = "extensions/ir-black"
 version = "0.0.1"
 
+[isabelle]
+submodule = "extensions/isabelle"
+path = "zed-extension"
+version = "0.2.0"
+
 [isle]
 submodule = "extensions/isle"
 version = "0.0.1"
