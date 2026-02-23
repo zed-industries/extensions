@@ -202,7 +202,7 @@ version = "0.0.1"
 
 [auggie]
 submodule = "extensions/auggie"
-version = "0.13.0"
+version = "0.16.0"
 
 [aura-theme]
 submodule = "extensions/aura-theme"
@@ -781,6 +781,10 @@ version = "0.1.1"
 [darcula-dark-okkano]
 submodule = "extensions/darcula-dark-okkano"
 version = "0.1.4"
+
+[dark-castle-theme]
+submodule = "extensions/dark-castle-theme"
+version = "0.0.4"
 
 [dark-discord]
 submodule = "extensions/dark-discord"
@@ -1673,7 +1677,7 @@ version = "0.3.2"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.8"
+version = "0.1.9"
 
 [just]
 submodule = "extensions/just"
@@ -1681,7 +1685,7 @@ version = "0.2.0"
 
 [kagimcp]
 submodule = "extensions/kagimcp"
-version = "0.0.30"
+version = "0.0.31"
 
 [kaimandres]
 submodule = "extensions/kaimandres"
@@ -2105,6 +2109,10 @@ version = "0.0.3"
 submodule = "extensions/mcp-server-tavily"
 version = "0.0.2"
 
+[mcp-server-threadbridge]
+submodule = "extensions/mcp-server-threadbridge"
+version = "0.1.0"
+
 [mcp-server-webflow]
 submodule = "extensions/mcp-server-webflow"
 version = "0.1.0"
@@ -2151,7 +2159,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.2.0"
+version = "2.2.1"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2495,6 +2503,10 @@ version = "0.1.7"
 submodule = "extensions/ocean-dark-motifs"
 version = "0.0.2"
 
+[ocean-green]
+submodule = "extensions/ocean-green"
+version = "0.0.1"
+
 [oceanic-next]
 submodule = "extensions/oceanic-next"
 version = "0.3.0"
@@ -2505,7 +2517,7 @@ version = "0.3.11"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "1.0.4"
+version = "1.2.0"
 
 [odoo-lsp]
 submodule = "extensions/odoo-lsp"
@@ -2869,7 +2881,7 @@ version = "0.0.3"
 
 [python-requirements]
 submodule = "extensions/python-requirements"
-version = "0.0.3"
+version = "0.0.4"
 
 [python-snippets]
 submodule = "extensions/python-snippets"
@@ -3240,7 +3252,7 @@ version = "0.1.0"
 
 [solidity]
 submodule = "extensions/solidity"
-version = "0.1.9"
+version = "0.2.0"
 
 [soma]
 submodule = "extensions/soma"
