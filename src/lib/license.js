@@ -123,7 +123,7 @@ export function isMitLicense(licenseContent) {
 
 const ZLIB_REQUIRED_PATTERNS = [
   /(?:Copyright|\(C\))/i,
-  /This software is provided ['']as-is[''], without any express or implied/i,
+  /This software is provided [\u2018\u2019']as-is[\u2018\u2019'], without any express or implied/i,
   /warranty\.\s+In no event will the authors be held liable for any damages/i,
   /arising from the use of this software/i,
   /Permission is granted to anyone to use this software for any purpose/i,
@@ -131,7 +131,7 @@ const ZLIB_REQUIRED_PATTERNS = [
   /freely, subject to the following restrictions:/i,
   /1\. The origin of this software must not be misrepresented/i,
   /2\. Altered source versions must be plainly marked as such/i,
-  /3\. This notice may not be removed or altered from any source distribution/i,
+  /3\. This notice may not be removed or altered from any source\s+distribution/i,
 ];
 
 /**
