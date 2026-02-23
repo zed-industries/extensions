@@ -366,6 +366,10 @@
 	path = extensions/blinds-theme
 	url = https://github.com/orbulant/zed-blinds-theme.git
 
+[submodule "extensions/blk-theme"]
+	path = extensions/blk-theme
+	url = https://github.com/leetdavid/blk-zed
+
 [submodule "extensions/blueprint"]
 	path = extensions/blueprint
 	url = https://github.com/tfuxu/zed-blueprint.git
@@ -769,6 +773,10 @@
 [submodule "extensions/darcula-dark-okkano"]
 	path = extensions/darcula-dark-okkano
 	url = https://github.com/okkan/zed-darcula-dark-okkano.git
+
+[submodule "extensions/dark-castle-theme"]
+	path = extensions/dark-castle-theme
+	url = https://github.com/malucard/dark-castle-theme-zed
 
 [submodule "extensions/dark-discord"]
 	path = extensions/dark-discord
@@ -1762,6 +1770,10 @@
 	path = extensions/liquid-snippets
 	url = https://github.com/hcmlopes/zed-liquid-snippets.git
 
+[submodule "extensions/liquidsoap"]
+	path = extensions/liquidsoap
+	url = https://github.com/LooFifteen/liquidsoap-zed.git
+
 [submodule "extensions/live-server"]
 	path = extensions/live-server
 	url = https://github.com/frederik-uni/zed-live-server.git
@@ -2065,6 +2077,10 @@
 [submodule "extensions/mcp-server-tavily"]
 	path = extensions/mcp-server-tavily
 	url = https://github.com/chlorodose/zed-mcp-server-tavily.git
+
+[submodule "extensions/mcp-server-threadbridge"]
+	path = extensions/mcp-server-threadbridge
+	url = https://github.com/dereklei12/zed-mcp-server-threadbridge.git
 
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
@@ -2457,6 +2473,10 @@
 [submodule "extensions/ocean-dark-motifs"]
 	path = extensions/ocean-dark-motifs
 	url = https://github.com/kirqe/zed-ocean-dark-motifs-theme.git
+
+[submodule "extensions/ocean-green"]
+	path = extensions/ocean-green
+	url = https://github.com/tracepanic/zed-ocean-green.git
 
 [submodule "extensions/oceanic-next"]
 	path = extensions/oceanic-next
