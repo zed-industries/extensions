@@ -200,6 +200,10 @@ version = "0.1.9"
 submodule = "extensions/atomize"
 version = "0.0.1"
 
+[atomizer-theme]
+submodule = "extensions/atomizer-theme"
+version = "0.1.0"
+
 [auggie]
 submodule = "extensions/auggie"
 version = "0.16.0"
@@ -208,6 +212,10 @@ version = "0.16.0"
 submodule = "extensions/aura-theme"
 path = "packages/zed"
 version = "1.0.0"
+
+[aurora-theme]
+submodule = "extensions/aurora-theme"
+version = "0.0.1"
 
 [authzed]
 submodule = "extensions/authzed"
@@ -484,7 +492,7 @@ version = "0.0.1"
 [cem]
 submodule = "extensions/cem"
 path = "extensions/zed"
-version = "0.9.7"
+version = "0.9.8"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -841,7 +849,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.4.1"
+version = "1.4.2"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -960,6 +968,10 @@ version = "0.0.1"
 
 [elderberry]
 submodule = "extensions/elderberry"
+version = "0.1.0"
+
+[eldritch-theme]
+submodule = "extensions/eldritch-theme"
 version = "0.1.0"
 
 [electron-vue-theme]
@@ -2025,10 +2037,6 @@ version = "0.0.5"
 submodule = "extensions/mcp-server-grafana"
 version = "0.1.2"
 
-[mcp-server-linear]
-submodule = "extensions/mcp-server-linear"
-version = "0.1.0"
-
 [mcp-server-markitdown]
 submodule = "extensions/mcp-server-markitdown"
 version = "0.0.1"
@@ -2133,13 +2141,13 @@ version = "0.0.1"
 submodule = "extensions/mermaid"
 version = "0.1.0"
 
-[meson]
-submodule = "extensions/meson"
-version = "0.4.0"
-
 [microscript]
 submodule = "extensions/microscript"
 version = "0.2.0"
+
+[midnight-marina]
+submodule = "extensions/midnight-marina"
+version = "0.0.1"
 
 [min-theme]
 submodule = "extensions/min-theme"
@@ -2451,14 +2459,6 @@ version = "0.0.8"
 submodule = "extensions/nu-lint"
 version = "1.0.0"
 
-[nube-icons]
-submodule = "extensions/nube-icons"
-version = "1.0.0"
-
-[nube-theme]
-submodule = "extensions/nube-theme"
-version = "1.1.0"
-
 [nuisance]
 submodule = "extensions/nuisance"
 version = "0.0.7"
@@ -2497,7 +2497,7 @@ version = "1.1.0"
 
 [ocaml]
 submodule = "extensions/ocaml"
-version = "0.1.7"
+version = "0.2.0"
 
 [ocean-dark-motifs]
 submodule = "extensions/ocean-dark-motifs"
@@ -2583,6 +2583,10 @@ version = "0.1.0"
 [oolong]
 submodule = "extensions/oolong"
 version = "0.1.1"
+
+[opaline-theme]
+submodule = "extensions/opaline-theme"
+version = "0.1.0"
 
 [opencode]
 submodule = "extensions/opencode"
@@ -2817,6 +2821,10 @@ version = "0.1.0"
 submodule = "extensions/powershell"
 version = "0.4.1"
 
+[prime-dark-theme]
+submodule = "extensions/prime-dark-theme"
+version = "0.0.1"
+
 [prisma]
 submodule = "extensions/prisma"
 version = "0.1.8"
@@ -2873,7 +2881,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.20.0"
+version = "0.21.0"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
@@ -3104,6 +3112,10 @@ version = "0.1.5"
 submodule = "extensions/semgrep"
 version = "0.0.2"
 
+[sentry-mcp]
+submodule = "extensions/sentry-mcp"
+version = "0.1.0"
+
 [seoul256]
 submodule = "extensions/seoul256"
 version = "0.0.1"
@@ -3150,6 +3162,10 @@ version = "0.0.1"
 
 [sharp-solarized-theme]
 submodule = "extensions/sharp-solarized-theme"
+version = "0.0.1"
+
+[shizukajapan-theme]
+submodule = "extensions/shizukajapan-theme"
 version = "0.0.1"
 
 [short-giraffe-theme]
@@ -3721,6 +3737,9 @@ version = "0.1.4"
 
 [usd]
 submodule = "extensions/usd"
+
+[utl]
+submodule = "extensions/utl"
 version = "0.1.0"
 
 [v]
