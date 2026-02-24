@@ -663,7 +663,7 @@ version = "1.3.3"
 
 [corust-agent]
 submodule = "extensions/corust-agent"
-version = "0.3.2"
+version = "0.3.3"
 
 [cosmos]
 submodule = "extensions/cosmos"
@@ -857,7 +857,7 @@ version = "1.4.2"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
-version = "0.1.4"
+version = "0.1.5"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -1196,6 +1196,10 @@ version = "0.0.1"
 [freemarker]
 submodule = "extensions/freemarker"
 version = "0.1.0"
+
+[freezed-dart-flutter-snippets]
+submodule = "extensions/freezed-dart-flutter-snippets"
+version = "0.0.1"
 
 [frosted-theme]
 submodule = "extensions/frosted-theme"
@@ -2188,7 +2192,7 @@ version = "1.0.3"
 
 [modest-dark]
 submodule = "extensions/modest-dark"
-version = "0.1.8"
+version = "0.1.9"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
@@ -3028,6 +3032,10 @@ version = "0.0.5"
 submodule = "extensions/risor"
 version = "0.0.2"
 
+[riverpod-dart-flutter-snippets]
+submodule = "extensions/riverpod-dart-flutter-snippets"
+version = "0.0.1"
+
 [robot-framework]
 submodule = "extensions/robot-framework"
 version = "0.0.1"
@@ -3738,6 +3746,10 @@ version = "0.0.4"
 [unoflat]
 submodule = "extensions/unoflat"
 version = "0.1.4"
+
+[usd]
+submodule = "extensions/usd"
+version = "0.1.0"
 
 [utl]
 submodule = "extensions/utl"
