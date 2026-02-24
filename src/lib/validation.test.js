@@ -49,7 +49,10 @@ describe("validateExtensionsToml", () => {
       'does not throw for "%s"',
       (extensionId) => {
         const extensionsToml = {
-          [extensionId]: {},
+          [extensionId]: {
+            submodule: "https://github.com/zed-extensions/my-extension",
+            version: "0.1.0",
+          },
         };
 
         expect(() => validateExtensionsToml(extensionsToml)).not.toThrow();
