@@ -591,6 +591,10 @@ path = "editors/zed"
 submodule = "extensions/clojure"
 version = "0.2.2"
 
+[cloudformation-language-server]
+submodule = "extensions/cloudformation-language-server"
+version = "0.1.0"
+
 [cobalt2]
 submodule = "extensions/cobalt2"
 version = "0.1.0"

@@ -586,6 +586,10 @@
 	path = extensions/clojure
 	url = https://github.com/zed-extensions/clojure.git
 
+[submodule "extensions/cloudformation-language-server"]
+	path = extensions/cloudformation-language-server
+	url = https://github.com/Ben-Wormald/cloudformation-language-server-zed.git
+
 [submodule "extensions/cobalt2"]
 	path = extensions/cobalt2
 	url = https://github.com/wesbos/cobalt2-zed.git
