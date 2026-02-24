@@ -421,6 +421,10 @@ version = "0.0.2"
 submodule = "extensions/bsl"
 version = "0.0.1"
 
+[bubble-lsp]
+submodule = "extensions/bubble-lsp"
+version = "0.0.1"
+
 [bubblegum]
 submodule = "extensions/bubblegum"
 version = "0.1.0"
@@ -587,6 +591,10 @@ path = "editors/zed"
 submodule = "extensions/clojure"
 version = "0.2.2"
 
+[cloudformation-language-server]
+submodule = "extensions/cloudformation-language-server"
+version = "0.1.0"
+
 [cobalt2]
 submodule = "extensions/cobalt2"
 version = "0.1.0"
@@ -652,6 +660,10 @@ version = "1.0.6"
 submodule = "extensions/comment"
 version = "0.6.3"
 
+[comphy-crisp-themes]
+submodule = "extensions/comphy-crisp-themes"
+version = "0.5.0"
+
 [compline]
 submodule = "extensions/compline"
 path = "zed"
@@ -711,7 +723,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.2.0"
+version = "1.2.1"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -724,7 +736,7 @@ path = "crates/zed"
 
 [css-variables]
 submodule = "extensions/css-variables"
-version = "0.0.9"
+version = "0.1.0"
 
 [csv]
 submodule = "extensions/csv"
@@ -814,6 +826,10 @@ version = "2.0.0"
 submodule = "extensions/dark-material-dracula"
 version = "0.0.1"
 
+[dark-oled]
+submodule = "extensions/dark-oled"
+version = "0.1.0"
+
 [dark-pop-ui]
 submodule = "extensions/dark-pop-ui"
 version = "0.0.2"
@@ -874,7 +890,7 @@ version = "0.1.5"
 [deputy]
 submodule = "extensions/deputy"
 path = "editors/zed"
-version = "1.0.0"
+version = "1.0.1"
 
 [design-tokens]
 submodule = "extensions/design-tokens"
@@ -1589,6 +1605,10 @@ version = "1.2.0"
 submodule = "extensions/idris2"
 version = "0.0.1"
 
+[immigrant]
+submodule = "extensions/immigrant"
+version = "0.1.2"
+
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
@@ -1964,6 +1984,10 @@ version = "0.3.1"
 submodule = "extensions/martianized"
 version = "1.0.1"
 
+[mashu-theme]
+submodule = "extensions/mashu-theme"
+version = "0.0.1"
+
 [material-dark]
 submodule = "extensions/material-dark"
 version = "0.0.3"
@@ -2181,6 +2205,11 @@ version = "0.0.1"
 submodule = "extensions/mermaid"
 version = "0.1.0"
 
+[metal]
+submodule = "extensions/metal"
+path = "editors/zed"
+version = "0.1.14"
+
 [microscript]
 submodule = "extensions/microscript"
 version = "0.2.0"
@@ -2317,6 +2346,10 @@ version = "0.0.1"
 [muted]
 submodule = "extensions/muted"
 version = "0.0.1"
+
+[naive-ui-intellisense]
+submodule = "extensions/naive-ui-intellisense"
+version = "0.1.2"
 
 [nanowise]
 submodule = "extensions/nanowise"
@@ -3839,6 +3872,10 @@ version = "0.3.0"
 submodule = "extensions/vento"
 version = "0.0.1"
 
+[vercel-carbon-theme]
+submodule = "extensions/vercel-carbon-theme"
+version = "0.1.0"
+
 [vercel-theme]
 submodule = "extensions/vercel-theme"
 version = "1.0.0"
@@ -4128,6 +4165,10 @@ version = "0.0.1"
 [zedwaita]
 submodule = "extensions/zedwaita"
 version = "0.0.7"
+
+[zeek]
+submodule = "extensions/zeek"
+version = "0.0.1"
 
 [zen]
 submodule = "extensions/zen"
