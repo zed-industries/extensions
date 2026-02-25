@@ -6,6 +6,10 @@ export function readApache2License() {
   return readLicenseFile("test-apache-2-license");
 }
 
+export function readBsd2ClauseLicense() {
+  return readLicenseFile("test-bsd-2-clause");
+}
+
 export function readBsd3ClauseLicense() {
   return readLicenseFile("test-bsd-3-clause");
 }

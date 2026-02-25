@@ -8,6 +8,7 @@ import {
 } from "./validation.js";
 import {
   readApache2License,
+  readBsd2ClauseLicense,
   readBsd3ClauseLicense,
   readGplV3License,
   readLgplV3License,
@@ -43,12 +44,15 @@ describe("validateManifest", () => {
 });
 
 describe("validateExtensionsToml", () => {
-  describe("when `extensions.toml` only contains extensions with valid IDs", () => {
+  describe("when `extensions.toml` only contains extensions with valid IDs and entries", () => {
     it.each(["my-cool-extension", "base16"])(
       'does not throw for "%s"',
       (extensionId) => {
         const extensionsToml = {
-          [extensionId]: {},
+          [extensionId]: {
+            submodule: "https://github.com/zed-extensions/my-extension",
+            version: "0.1.0",
+          },
         };
 
         expect(() => validateExtensionsToml(extensionsToml)).not.toThrow();
@@ -69,6 +73,34 @@ describe("validateExtensionsToml", () => {
         );
       },
     );
+  });
+
+  describe("when `extensions.toml` contains an entry with missing submodule", () => {
+    it.each(["my-cool-extension"])('does not throw for "%s"', (extensionId) => {
+      const extensionsToml = {
+        [extensionId]: {
+          version: "0.1.0",
+        },
+      };
+
+      expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
+        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+      );
+    });
+  });
+
+  describe("when `extensions.toml` contains an entry with missing version", () => {
+    it.each(["my-cool-extension"])('does not throw for "%s"', (extensionId) => {
+      const extensionsToml = {
+        [extensionId]: {
+          submodule: "https://github.com/zed-extensions/my-extension",
+        },
+      };
+
+      expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
+        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+      );
+    });
   });
 });
 
@@ -101,6 +133,7 @@ describe("validateLicense", () => {
         [Error: No license was found.
         Extension repositories must have a valid license:
           - Apache 2.0
+          - BSD 2-Clause
           - BSD 3-Clause
           - GNU GPLv3
           - GNU LGPLv3
@@ -110,7 +143,7 @@ describe("validateLicense", () => {
       `);
   });
 
-  it("throws when incorrect license contents are found (not Apache 2.0, BSD 3-Clause, MIT, GNU GPLv3, GNU LGPLv3 or zlib)", () => {
+  it("throws when incorrect license contents are found (not Apache 2.0, BSD 2-Clause, BSD 3-Clause, MIT, GNU GPLv3, GNU LGPLv3 or zlib)", () => {
     const licenseCandidates = [
       { name: "LICENSE.txt", content: readOtherLicense() },
       { name: "LICENSE.md", content: readOtherLicense() },
@@ -121,6 +154,7 @@ describe("validateLicense", () => {
         [Error: No valid license found in the following files: "LICENSE.txt", "LICENSE.md".
         Extension repositories must have a valid license:
           - Apache 2.0
+          - BSD 2-Clause
           - BSD 3-Clause
           - GNU GPLv3
           - GNU LGPLv3
@@ -133,6 +167,14 @@ describe("validateLicense", () => {
   it("does not throw when Apache 2.0 license is present", () => {
     const licenseCandidates = [
       { name: "LICENSE", content: readApache2License() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when BSD 2-Clause license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readBsd2ClauseLicense() },
     ];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
