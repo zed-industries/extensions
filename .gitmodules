@@ -54,6 +54,10 @@
 	path = extensions/agda
 	url = https://github.com/haohanyang/agda-zed.git
 
+[submodule "extensions/agnix"]
+	path = extensions/agnix
+	url = https://github.com/avifenesh/agnix.git
+
 [submodule "extensions/aiken"]
 	path = extensions/aiken
 	url = https://github.com/aiken-lang/zed-aiken.git
@@ -1130,6 +1134,10 @@
 	path = extensions/firebase-security-rules
 	url = https://github.com/ChemisTechlabs/zed-firebase-security-rules.git
 
+[submodule "extensions/firrtl-source-locator"]
+	path = extensions/firrtl-source-locator
+	url = https://github.com/MrAMS/zed-firrtl-source-locator.git
+
 [submodule "extensions/fish"]
 	path = extensions/fish
 	url = https://github.com/hasit/zed-fish.git
@@ -1598,6 +1606,10 @@
 	path = extensions/ink
 	url = https://github.com/yuna0x0/zed-ink.git
 
+[submodule "extensions/intellij-light-theme"]
+	path = extensions/intellij-light-theme
+	url = https://github.com/chandruscm/intellij-light-theme-zed.git
+
 [submodule "extensions/intellij-newui-theme"]
 	path = extensions/intellij-newui-theme
 	url = https://github.com/kpitt/zed-theme-intellij-newui.git
@@ -1617,6 +1629,10 @@
 [submodule "extensions/isle"]
 	path = extensions/isle
 	url = https://github.com/eagr/zed-isle.git
+
+[submodule "extensions/iterm2-default-theme"]
+	path = extensions/iterm2-default-theme
+	url = https://github.com/EtanHey/zed-iterm-default-theme.git
 
 [submodule "extensions/iwe"]
 	path = extensions/iwe
@@ -1649,6 +1665,10 @@
 [submodule "extensions/jdl"]
 	path = extensions/jdl
 	url = https://github.com/alessandrobrunoh/zed-grammar-jdl
+
+[submodule "extensions/jellybeans-theme"]
+	path = extensions/jellybeans-theme
+	url = https://github.com/sdawn29/jellybeans-theme.git
 
 [submodule "extensions/jellybeans-vim"]
 	path = extensions/jellybeans-vim
@@ -1942,6 +1962,10 @@
 	path = extensions/markdown-oxide
 	url = https://github.com/Feel-ix-343/markdown-oxide-zed.git
 
+[submodule "extensions/markdown-snippets"]
+	path = extensions/markdown-snippets
+	url = https://github.com/bobbymannino/markdown-snippets-for-zed.git
+
 [submodule "extensions/markdownlint"]
 	path = extensions/markdownlint
 	url = https://github.com/vitallium/zed-markdownlint.git
@@ -2153,6 +2177,10 @@
 [submodule "extensions/mcp-server-threadbridge"]
 	path = extensions/mcp-server-threadbridge
 	url = https://github.com/dereklei12/zed-mcp-server-threadbridge.git
+
+[submodule "extensions/mcp-server-weave"]
+	path = extensions/mcp-server-weave
+	url = https://github.com/Ataraxy-Labs/weave-zed.git
 
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
@@ -2806,6 +2834,10 @@
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
 
+[submodule "extensions/plaintasks"]
+	path = extensions/plaintasks
+	url = https://github.com/cseelus/plaintasks-zed.git
+
 [submodule "extensions/plantuml"]
 	path = extensions/plantuml
 	url = https://github.com/gabeidx/zed-plantuml.git
@@ -2897,6 +2929,10 @@
 [submodule "extensions/puppet"]
 	path = extensions/puppet
 	url = https://github.com/AlexandarY/zed-puppet.git
+
+[submodule "extensions/puppydog-theme"]
+	path = extensions/puppydog-theme
+	url = https://github.com/lillianrubyrose/puppydog-theme-zed.git
 
 [submodule "extensions/purescript"]
 	path = extensions/purescript
@@ -3438,6 +3474,10 @@
 	path = extensions/superhtml
 	url = https://github.com/WeetHet/superhtml-zed.git
 
+[submodule "extensions/supertheme4"]
+	path = extensions/supertheme4
+	url = https://github.com/superkacper4/supertheme4
+
 [submodule "extensions/surrealql"]
 	path = extensions/surrealql
 	url = https://github.com/siteforge-io/surql-zed
@@ -3930,6 +3970,10 @@
 	path = extensions/vscode-light-plus
 	url = https://github.com/MadLittleMods/zed-theme-vscode-light-plus.git
 
+[submodule "extensions/vscode-modern"]
+	path = extensions/vscode-modern
+	url = https://github.com/fabrialberio/zed-vscode-modern-theme.git
+
 [submodule "extensions/vscode-monokai-charcoal"]
 	path = extensions/vscode-monokai-charcoal
 	url = https://github.com/d1y/vscode-monokaicharcoal.zed.git
@@ -3965,6 +4009,10 @@
 [submodule "extensions/warp-one-dark"]
 	path = extensions/warp-one-dark
 	url = https://github.com/distributed-intelligence/warp-one-dark
+
+[submodule "extensions/warplabs"]
+	path = extensions/warplabs
+	url = https://github.com/wp-labs/zed-warplabs.git
 
 [submodule "extensions/wat"]
 	path = extensions/wat
