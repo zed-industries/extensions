@@ -1062,6 +1062,10 @@
 	path = extensions/erlang
 	url = https://github.com/zed-extensions/erlang.git
 
+[submodule "extensions/esmerald-theme"]
+	path = extensions/esmerald-theme
+	url = https://github.com/esthorace/esmerald-zed
+
 [submodule "extensions/everforest"]
 	path = extensions/everforest
 	url = https://github.com/albertsko/zed-everforest.git
@@ -4201,6 +4205,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/esmerald"]
-	path = extensions/esmerald
-	url = https://github.com/esthorace/esmerald-zed
