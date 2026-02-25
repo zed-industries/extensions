@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: bb591f1e653a492c2d6c85353181e5151dbf8ac7
+  ZED_EXTENSION_CLI_SHA: 03d8e9aee95ea6117d75a48bcac2e19241f6e667
 
 jobs:
   package:
@@ -34,6 +34,11 @@ jobs:
         with:
           node-version: "20"
           cache: "pnpm"
+
+      - uses: actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c # v1
+        with:
+          toolchain: "1.90"
+          target: "wasm32-wasip2"
 
       - name: Cache zed-extension CLI
         id: cache-zed-extension
