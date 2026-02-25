@@ -2074,6 +2074,10 @@
 	path = extensions/mcp-server-byterover
 	url = https://github.com/campfirein/byterover-zed-extension.git
 
+[submodule "extensions/mcp-server-code-runner"]
+	path = extensions/mcp-server-code-runner
+	url = https://github.com/formulahendry/zed-code-runner-mcp-server.git
+
 [submodule "extensions/mcp-server-container-use"]
 	path = extensions/mcp-server-container-use
 	url = https://github.com/danilo-leal/zed-container-use-mcp.git
