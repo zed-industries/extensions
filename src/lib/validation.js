@@ -33,7 +33,7 @@ const SUBMODULE_LOCATION_EXCEPTIONS = ["extensions/zed"];
  * @param {Record<string, any>} extensionsToml
  */
 export function validateExtensionsToml(extensionsToml) {
-  for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
+  for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
     if (!EXTENSION_ID_PATTERN.test(extensionId)) {
       throw new Error(
         `Extension IDs must only consist of lowercase letters, numbers, and hyphens ('-'): "${extensionId}".`,
@@ -55,6 +55,12 @@ export function validateExtensionsToml(extensionsToml) {
     ) {
       throw new Error(
         `Extension IDs should not end with "-zed", as they are all Zed extensions: "${extensionId}".`,
+      );
+    }
+
+    if (!extensionInfo.submodule || !extensionInfo.version) {
+      throw new Error(
+        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
       );
     }
   }
