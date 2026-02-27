@@ -1,8 +1,11 @@
 import {
   isApache2License,
+  isBsd2ClauseLicense,
   isBsd3ClauseLicense,
   isGplV3License,
+  isLgplV3License,
   isMitLicense,
+  isZlibLicense,
 } from "./license.js";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
@@ -30,7 +33,7 @@ const SUBMODULE_LOCATION_EXCEPTIONS = ["extensions/zed"];
  * @param {Record<string, any>} extensionsToml
  */
 export function validateExtensionsToml(extensionsToml) {
-  for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
+  for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
     if (!EXTENSION_ID_PATTERN.test(extensionId)) {
       throw new Error(
         `Extension IDs must only consist of lowercase letters, numbers, and hyphens ('-'): "${extensionId}".`,
@@ -52,6 +55,12 @@ export function validateExtensionsToml(extensionsToml) {
     ) {
       throw new Error(
         `Extension IDs should not end with "-zed", as they are all Zed extensions: "${extensionId}".`,
+      );
+    }
+
+    if (!extensionInfo.submodule || !extensionInfo.version) {
+      throw new Error(
+        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
       );
     }
   }
@@ -146,9 +155,12 @@ export function validateGitmodulesLocations(extensionsToml, gitmodules) {
 
 const LICENSE_REQUIREMENT_TEXT = `Extension repositories must have a valid license:
   - Apache 2.0
+  - BSD 2-Clause
   - BSD 3-Clause
   - GNU GPLv3
-  - MIT`;
+  - GNU LGPLv3
+  - MIT
+  - zlib`;
 
 const LICENSE_DOCUMENTATION_URL =
   "https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements";
@@ -169,9 +181,12 @@ export function validateLicense(licenseCandidates) {
   for (const license_data of licenseCandidates) {
     const isValidLicense =
       isApache2License(license_data.content) ||
+      isBsd2ClauseLicense(license_data.content) ||
       isBsd3ClauseLicense(license_data.content) ||
       isGplV3License(license_data.content) ||
-      isMitLicense(license_data.content);
+      isLgplV3License(license_data.content) ||
+      isMitLicense(license_data.content) ||
+      isZlibLicense(license_data.content);
 
     if (isValidLicense) {
       return;
@@ -188,4 +203,34 @@ export function validateLicense(licenseCandidates) {
       `${MISSING_LICENSE_ERROR}`,
     ].join("\n"),
   );
+}
+
+/**
+ * Validates that extension IDs have not changed between two versions of extensions.toml.
+ *
+ * @param {Record<string, any>} currentExtensionsToml - The current extensions.toml
+ * @param {Record<string, any>} previousExtensionsToml - The previous extensions.toml to compare against
+ * @throws {Error} If extension IDs were both added and removed (indicating renames)
+ */
+export function validateExtensionIdsNotChanged(
+  currentExtensionsToml,
+  previousExtensionsToml,
+) {
+  const currentIds = new Set(Object.keys(currentExtensionsToml));
+  const previousIds = new Set(Object.keys(previousExtensionsToml));
+
+  const addedIds = [...currentIds].filter((id) => !previousIds.has(id));
+  const removedIds = [...previousIds].filter((id) => !currentIds.has(id));
+
+  if (addedIds.length > 0 && removedIds.length > 0) {
+    throw new Error(
+      [
+        "Extension IDs must not change between versions.",
+        `${removedIds.length} ID(s) were removed: ${removedIds.join(", ")}`,
+        `${addedIds.length} ID(s) were added: ${addedIds.join(", ")}`,
+        "",
+        "If you need to rename an extension, update the display name in the extension's manifest instead.",
+      ].join("\n"),
+    );
+  }
 }
