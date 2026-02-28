@@ -54,6 +54,10 @@ version = "1.0.0"
 submodule = "extensions/agda"
 version = "0.1.0"
 
+[agda-lsp]
+submodule = "extensions/agda-lsp"
+version = "0.0.1"
+
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
