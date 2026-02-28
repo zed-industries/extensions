@@ -4126,6 +4126,10 @@
 	path = extensions/wren
 	url = https://github.com/hgmich/zed-wren.git
 
+[submodule "extensions/wren-lsp"]
+	path = extensions/wren-lsp
+	url = https://github.com/jossephus/wren-lsp
+
 [submodule "extensions/wxml"]
 	path = extensions/wxml
 	url = https://github.com/BlockLune/zed-wxml.git
