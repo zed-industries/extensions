@@ -3542,6 +3542,10 @@
 	path = extensions/surrealql
 	url = https://github.com/siteforge-io/surql-zed
 
+[submodule "extensions/surround"]
+	path = extensions/surround
+	url = https://github.com/mrmartineau/zed-surround.git
+
 [submodule "extensions/sushi-theme"]
 	path = extensions/sushi-theme
 	url = https://github.com/tomopumipumi/sushi-theme.git
@@ -4277,6 +4281,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/surround"]
-	path = extensions/surround
-	url = https://github.com/mrmartineau/zed-surround.git
