@@ -3086,6 +3086,10 @@
 	path = extensions/rapture-theme
 	url = https://github.com/gabors0/rapture-zed.git
 
+[submodule "extensions/razor"]
+	path = extensions/razor
+	url = https://github.com/dsbraz/zed-razor.git
+
 [submodule "extensions/rcl"]
 	path = extensions/rcl
 	url = https://github.com/rcl-lang/zed-rcl.git
@@ -4277,6 +4281,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/razor"]
-	path = extensions/razor
-	url = https://github.com/dsbraz/zed-razor.git
