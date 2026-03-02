@@ -2209,6 +2209,10 @@ version = "0.0.1"
 submodule = "extensions/mermaid"
 version = "0.1.0"
 
+[meson]
+submodule = "extensions/meson"
+version = "0.5.0"
+
 [metal]
 submodule = "extensions/metal"
 path = "editors/zed"
