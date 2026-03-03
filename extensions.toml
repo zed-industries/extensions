@@ -1033,7 +1033,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.3.2"
+version = "0.3.3"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -1086,7 +1086,7 @@ version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
-version = "0.2.0"
+version = "0.2.1"
 
 [esmerald-theme]
 submodule = "extensions/esmerald-theme"
@@ -2541,6 +2541,10 @@ submodule = "extensions/ninja"
 path = "zed"
 version = "1.0.0"
 
+[niva]
+submodule = "extensions/niva"
+version = "0.0.2"
+
 [nix]
 submodule = "extensions/nix"
 version = "0.1.4"
@@ -2733,6 +2737,10 @@ version = "0.0.2"
 [one-dark-pro-monokai-darker]
 submodule = "extensions/one-dark-pro-monokai-darker"
 version = "0.1.1"
+
+[one-dark-pro-vivid-theme]
+submodule = "extensions/one-dark-pro-vivid-theme"
+version = "0.1.0"
 
 [one-hunter]
 submodule = "extensions/one-hunter"
@@ -3763,6 +3771,10 @@ version = "0.0.1"
 submodule = "extensions/tiniri"
 version = "0.0.2"
 
+[tla-plus]
+submodule = "extensions/tla-plus"
+version = "0.2.0"
+
 [tm-twilight]
 submodule = "extensions/tm-twilight"
 version = "0.0.2"
@@ -4318,7 +4330,7 @@ version = "0.2.1"
 
 [zig]
 submodule = "extensions/zig"
-version = "0.4.1"
+version = "0.4.2"
 
 [ziggy]
 submodule = "extensions/ziggy"
