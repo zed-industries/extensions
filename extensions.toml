@@ -1033,7 +1033,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.3.2"
+version = "0.3.3"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -1086,7 +1086,7 @@ version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
-version = "0.2.0"
+version = "0.2.1"
 
 [esmerald-theme]
 submodule = "extensions/esmerald-theme"
@@ -1221,6 +1221,10 @@ version = "0.2.0"
 [focus-theme]
 submodule = "extensions/focus-theme"
 version = "0.0.1"
+
+[forest-cottage-theme]
+submodule = "extensions/forest-cottage-theme"
+version = "1.0.0"
 
 [forest-night]
 submodule = "extensions/forest-night"
@@ -1860,6 +1864,10 @@ version = "0.0.6"
 submodule = "extensions/kubesong"
 version = "1.0.0"
 
+[kulala-http]
+submodule = "extensions/kulala-http"
+version = "0.0.1"
+
 [kvs-cyberpunk-2077]
 submodule = "extensions/kvs-cyberpunk-2077"
 version = "1.0.2"
@@ -2278,6 +2286,10 @@ version = "0.0.1"
 submodule = "extensions/mermaid"
 version = "0.1.0"
 
+[meson]
+submodule = "extensions/meson"
+version = "0.5.0"
+
 [metal]
 submodule = "extensions/metal"
 path = "editors/zed"
@@ -2533,6 +2545,10 @@ submodule = "extensions/ninja"
 path = "zed"
 version = "1.0.0"
 
+[niva]
+submodule = "extensions/niva"
+version = "0.0.2"
+
 [nix]
 submodule = "extensions/nix"
 version = "0.1.4"
@@ -2725,6 +2741,10 @@ version = "0.0.2"
 [one-dark-pro-monokai-darker]
 submodule = "extensions/one-dark-pro-monokai-darker"
 version = "0.1.1"
+
+[one-dark-pro-vivid-theme]
+submodule = "extensions/one-dark-pro-vivid-theme"
+version = "0.1.0"
 
 [one-hunter]
 submodule = "extensions/one-hunter"
@@ -2969,7 +2989,7 @@ version = "1.0.10"
 
 [pony]
 submodule = "extensions/pony"
-version = "0.5.1"
+version = "0.6.0"
 
 [popping-and-locking]
 submodule = "extensions/popping-and-locking"
@@ -3252,7 +3272,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.7"
+version = "0.16.8"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -3280,7 +3300,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.2.1"
+version = "0.2.2"
 
 [scheme]
 submodule = "extensions/scheme"
@@ -3352,7 +3372,7 @@ version = "0.0.1"
 
 [shizukajapan-theme]
 submodule = "extensions/shizukajapan-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
@@ -3755,6 +3775,10 @@ version = "0.0.1"
 submodule = "extensions/tiniri"
 version = "0.0.2"
 
+[tla-plus]
+submodule = "extensions/tla-plus"
+version = "0.2.0"
+
 [tm-twilight]
 submodule = "extensions/tm-twilight"
 version = "0.0.2"
@@ -4068,7 +4092,7 @@ version = "1.0.0"
 
 [vscode-dark-modern]
 submodule = "extensions/vscode-dark-modern"
-version = "0.1.1"
+version = "0.1.2"
 
 [vscode-dark-plus]
 submodule = "extensions/vscode-dark-plus"
@@ -4185,6 +4209,11 @@ version = "0.0.1"
 
 [wren]
 submodule = "extensions/wren"
+version = "0.0.1"
+
+[wren-lsp]
+submodule = "extensions/wren-lsp"
+path = "editors/zed"
 version = "0.0.1"
 
 [wxml]
@@ -4305,7 +4334,7 @@ version = "0.2.1"
 
 [zig]
 submodule = "extensions/zig"
-version = "0.4.1"
+version = "0.4.2"
 
 [ziggy]
 submodule = "extensions/ziggy"
