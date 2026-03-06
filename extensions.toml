@@ -410,6 +410,11 @@ version = "0.1.0"
 submodule = "extensions/blk-theme"
 version = "0.1.0"
 
+[bloc]
+submodule = "extensions/bloc"
+version = "0.1.0"
+path = "extensions/zed"
+
 [blueprint]
 submodule = "extensions/blueprint"
 version = "0.4.0"
@@ -744,7 +749,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.2.3"
+version = "1.2.4"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -906,7 +911,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.4.3"
+version = "1.4.4"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -1147,7 +1152,7 @@ version = "0.0.8"
 
 [factory-droid]
 submodule = "extensions/factory-droid"
-version = "0.56.3"
+version = "0.68.1"
 
 [fantasticons-icons-theme]
 submodule = "extensions/fantasticons-icons-theme"
