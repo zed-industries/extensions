@@ -1502,13 +1502,13 @@
 	path = extensions/hbuilderx-push-light
 	url = https://github.com/yuanzhhh/hbuilderx-theme-zed.git
 
-[submodule "extensions/helm"]
-	path = extensions/helm
-	url = https://github.com/cabrinha/helm.zed.git
-
 [submodule "extensions/helios-zed-theme"]
 	path = extensions/helios-zed-theme
 	url = https://github.com/heliosgraphics/helios-zed.git
+
+[submodule "extensions/helm"]
+	path = extensions/helm
+	url = https://github.com/cabrinha/helm.zed.git
 
 [submodule "extensions/herzha-theme"]
 	path = extensions/herzha-theme
