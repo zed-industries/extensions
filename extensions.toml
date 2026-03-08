@@ -711,6 +711,11 @@ version = "0.3.7"
 submodule = "extensions/cosmos"
 version = "0.0.1"
 
+[coverage-lsp]
+submodule = "extensions/coverage-lsp"
+version = "1.0.1"
+path = "zed-coverage-lsp"
+
 [cpp2]
 submodule = "extensions/cpp2"
 version = "0.1.0"
