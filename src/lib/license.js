@@ -177,7 +177,7 @@ const UNLICENSE_REQUIRED_PATTERNS = [
   /dedicate any and all copyright interest/i,
   /relinquishment in perpetuity of all present and future rights/i,
   /THE SOFTWARE IS PROVIDED .AS IS., WITHOUT WARRANTY OF ANY KIND/i,
-  /For more information, please refer to/i,
+  /For more information, please refer to\s+<?https?:\/\/unlicense\.org\/?>?/i,
 ];
 
 /**
