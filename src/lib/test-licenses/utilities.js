@@ -19,9 +19,7 @@ export function readBsd3ClauseAlternativeLicense() {
 }
 
 export function readCcBy4License() {
-  return readLicenseFile(
-    "test-creative-commons-attributions-4-international-license",
-  );
+  return readLicenseFile("test-cc-by-4.0-international-license");
 }
 
 export function readGplV3License() {
