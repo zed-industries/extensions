@@ -168,3 +168,50 @@ export function isLgplV3License(licenseContent) {
     pattern.test(licenseContent),
   );
 }
+
+const UNLICENSE_REQUIRED_PATTERNS = [
+  /free and unencumbered software released into the public domain/i,
+  /Anyone is free to copy, modify, publish, use, compile, sell, or/i,
+  /distribute this software/i,
+  /In jurisdictions that recognize copyright laws/i,
+  /dedicate any and all copyright interest/i,
+  /relinquishment in perpetuity of all present and future rights/i,
+  /THE SOFTWARE IS PROVIDED .AS IS., WITHOUT WARRANTY OF ANY KIND/i,
+  /For more information, please refer to/i,
+];
+
+/**
+ * @param {string} licenseContent
+ * @returns {boolean}
+ */
+export function isUnlicense(licenseContent) {
+  return UNLICENSE_REQUIRED_PATTERNS.every((pattern) =>
+    pattern.test(licenseContent),
+  );
+}
+
+const CC_BY_4_REQUIRED_PATTERNS = [
+  /Attribution 4\.0 International/i,
+  /Creative Commons Corporation/i,
+  /Creative Commons Attribution 4\.0 International Public License/i,
+  /Section 1 -- Definitions/i,
+  /Section 2 -- Scope/i,
+  /Section 3 -- License Conditions/i,
+  /Section 4 -- Sui Generis Database Rights/i,
+  /Section 5 -- Disclaimer of Warranties and Limitation of Liability/i,
+  /Section 6 -- Term and Termination/i,
+  /Section 7 -- Other Terms and Conditions/i,
+  /Section 8 -- Interpretation/i,
+  /Licensed Rights/i,
+  /Adapted Material/i,
+];
+
+/**
+ * @param {string} licenseContent
+ * @returns {boolean}
+ */
+export function isCcBy4License(licenseContent) {
+  return CC_BY_4_REQUIRED_PATTERNS.every((pattern) =>
+    pattern.test(licenseContent),
+  );
+}
