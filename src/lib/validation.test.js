@@ -10,10 +10,12 @@ import {
   readApache2License,
   readBsd2ClauseLicense,
   readBsd3ClauseLicense,
+  readCcBy4License,
   readGplV3License,
   readLgplV3License,
   readMitLicense,
   readOtherLicense,
+  readUnlicense,
   readZlibLicense,
 } from "./test-licenses/utilities.js";
 
@@ -135,15 +137,17 @@ describe("validateLicense", () => {
           - Apache 2.0
           - BSD 2-Clause
           - BSD 3-Clause
+          - CC BY 4.0
           - GNU GPLv3
           - GNU LGPLv3
           - MIT
+          - Unlicense
           - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
 
-  it("throws when incorrect license contents are found (not Apache 2.0, BSD 2-Clause, BSD 3-Clause, MIT, GNU GPLv3, GNU LGPLv3 or zlib)", () => {
+  it("throws when incorrect license contents are found (not a recognized license)", () => {
     const licenseCandidates = [
       { name: "LICENSE.txt", content: readOtherLicense() },
       { name: "LICENSE.md", content: readOtherLicense() },
@@ -156,9 +160,11 @@ describe("validateLicense", () => {
           - Apache 2.0
           - BSD 2-Clause
           - BSD 3-Clause
+          - CC BY 4.0
           - GNU GPLv3
           - GNU LGPLv3
           - MIT
+          - Unlicense
           - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
@@ -212,6 +218,20 @@ describe("validateLicense", () => {
 
   it("does not throw when zlib license is present", () => {
     const licenseCandidates = [{ name: "LICENSE", content: readZlibLicense() }];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when Unlicense is present", () => {
+    const licenseCandidates = [{ name: "LICENSE", content: readUnlicense() }];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when CC BY 4.0 license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readCcBy4License() },
+    ];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
   });
