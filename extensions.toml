@@ -169,6 +169,10 @@ version = "1.0.0"
 submodule = "extensions/arctic-depth"
 version = "1.0.0"
 
+[arduino]
+submodule = "extensions/arduino"
+version = "0.1.0"
+
 [ariake]
 submodule = "extensions/ariake"
 version = "0.0.1"
@@ -713,7 +717,7 @@ version = "1.3.3"
 
 [corust-agent]
 submodule = "extensions/corust-agent"
-version = "0.3.7"
+version = "0.3.8"
 
 [cosmos]
 submodule = "extensions/cosmos"
@@ -2354,7 +2358,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.4.0"
+version = "2.4.1"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2625,6 +2629,10 @@ version = "0.2.2"
 [norrsken]
 submodule = "extensions/norrsken"
 version = "3.0.1"
+
+[nostromo-ui-theme]
+submodule = "extensions/nostromo-ui-theme"
+version = "0.0.1"
 
 [not-material-theme]
 submodule = "extensions/not-material-theme"
@@ -3406,7 +3414,7 @@ version = "0.0.1"
 
 [shhhed-theme]
 submodule = "extensions/shhhed-theme"
-version = "1.1.1"
+version = "1.33.7"
 
 [shizukajapan-theme]
 submodule = "extensions/shizukajapan-theme"
