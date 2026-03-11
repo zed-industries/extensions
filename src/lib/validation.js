@@ -2,9 +2,11 @@ import {
   isApache2License,
   isBsd2ClauseLicense,
   isBsd3ClauseLicense,
+  isCcBy4License,
   isGplV3License,
   isLgplV3License,
   isMitLicense,
+  isUnlicense,
   isZlibLicense,
 } from "./license.js";
 
@@ -33,7 +35,7 @@ const SUBMODULE_LOCATION_EXCEPTIONS = ["extensions/zed"];
  * @param {Record<string, any>} extensionsToml
  */
 export function validateExtensionsToml(extensionsToml) {
-  for (const [extensionId, _extensionInfo] of Object.entries(extensionsToml)) {
+  for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
     if (!EXTENSION_ID_PATTERN.test(extensionId)) {
       throw new Error(
         `Extension IDs must only consist of lowercase letters, numbers, and hyphens ('-'): "${extensionId}".`,
@@ -55,6 +57,12 @@ export function validateExtensionsToml(extensionsToml) {
     ) {
       throw new Error(
         `Extension IDs should not end with "-zed", as they are all Zed extensions: "${extensionId}".`,
+      );
+    }
+
+    if (!extensionInfo.submodule || !extensionInfo.version) {
+      throw new Error(
+        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
       );
     }
   }
@@ -151,9 +159,11 @@ const LICENSE_REQUIREMENT_TEXT = `Extension repositories must have a valid licen
   - Apache 2.0
   - BSD 2-Clause
   - BSD 3-Clause
+  - CC BY 4.0
   - GNU GPLv3
   - GNU LGPLv3
   - MIT
+  - Unlicense
   - zlib`;
 
 const LICENSE_DOCUMENTATION_URL =
@@ -177,9 +187,11 @@ export function validateLicense(licenseCandidates) {
       isApache2License(license_data.content) ||
       isBsd2ClauseLicense(license_data.content) ||
       isBsd3ClauseLicense(license_data.content) ||
+      isCcBy4License(license_data.content) ||
       isGplV3License(license_data.content) ||
       isLgplV3License(license_data.content) ||
       isMitLicense(license_data.content) ||
+      isUnlicense(license_data.content) ||
       isZlibLicense(license_data.content);
 
     if (isValidLicense) {
