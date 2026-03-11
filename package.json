@@ -1,7 +1,7 @@
 {
   "type": "module",
   "volta": {
-    "node": "20.20.0"
+    "node": "20.20.1"
   },
   "scripts": {
     "fmt": "prettier --write .",
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@tsconfig/node22": "22.0.5",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "20.19.35",
+    "@types/node": "20.19.37",
     "danger": "13.0.5",
     "danger-plugin-pr-hygiene": "0.7.1",
     "prettier": "3.8.1",
