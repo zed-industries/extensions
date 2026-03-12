@@ -1382,6 +1382,10 @@
 	path = extensions/gleam
 	url = https://github.com/gleam-lang/zed-gleam.git
 
+[submodule "extensions/gleam-snippets"]
+	path = extensions/gleam-snippets
+	url = https://github.com/BlueBlizzardd/gleam-zed-snippets.git
+
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
