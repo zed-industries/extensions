@@ -18,6 +18,10 @@ export function readBsd3ClauseAlternativeLicense() {
   return readLicenseFile("test-bsd-3-clause-alternative");
 }
 
+export function readCcBy4License() {
+  return readLicenseFile("test-cc-by-4.0-international-license");
+}
+
 export function readGplV3License() {
   return readLicenseFile("test-gpl-v3-license");
 }
@@ -28,6 +32,10 @@ export function readLgplV3License() {
 
 export function readMitLicense() {
   return readLicenseFile("test-mit-license");
+}
+
+export function readUnlicense() {
+  return readLicenseFile("test-unlicense");
 }
 
 export function readZlibLicense() {
