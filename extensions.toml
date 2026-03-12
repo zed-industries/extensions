@@ -3264,6 +3264,11 @@ version = "0.4.3"
 submodule = "extensions/retrofit-theme"
 version = "0.0.1"
 
+[rewrite-theme]
+submodule = "extensions/rewrite-theme"
+path = "zed"
+version = "0.1.0"
+
 [rhai]
 submodule = "extensions/rhai"
 version = "0.0.1"
