@@ -1014,7 +1014,7 @@ version = "0.1.0"
 
 [dwp]
 submodule = "extensions/dwp"
-version = "0.0.3"
+version = "0.0.4"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -1399,6 +1399,10 @@ version = "0.0.2"
 [gleam]
 submodule = "extensions/gleam"
 version = "0.6.0"
+
+[gleam-snippets]
+submodule = "extensions/gleam-snippets"
+version = "0.1.0"
 
 [gleam-theme]
 submodule = "extensions/gleam-theme"
@@ -2366,7 +2370,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.4.1"
+version = "2.4.2"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2810,7 +2814,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.2.6"
+version = "1.2.24"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2890,7 +2894,7 @@ version = "0.9.0"
 
 [pandora]
 submodule = "extensions/pandora"
-version = "0.0.1"
+version = "1.0.0"
 
 [papercolor]
 submodule = "extensions/papercolor"
@@ -3055,7 +3059,7 @@ version = "0.1.0"
 
 [powershell]
 submodule = "extensions/powershell"
-version = "0.4.1"
+version = "0.4.2"
 
 [prime-dark-theme]
 submodule = "extensions/prime-dark-theme"
@@ -3263,6 +3267,11 @@ version = "0.4.3"
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
 version = "0.0.1"
+
+[rewrite-theme]
+submodule = "extensions/rewrite-theme"
+path = "zed"
+version = "0.1.0"
 
 [rhai]
 submodule = "extensions/rhai"
