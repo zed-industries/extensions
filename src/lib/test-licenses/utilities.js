@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import url from "node:url";
+import { normalizeWhitespace } from "../license.js";
 
 export function readApache2License() {
   return readLicenseFile("test-apache-2-license");
@@ -64,7 +65,9 @@ export function readLicenseFile(fileName) {
     return content;
   }
 
-  content = fs.readFileSync(path.join(__dirname, fileName), "utf-8");
+  content = normalizeWhitespace(
+    fs.readFileSync(path.join(__dirname, fileName), "utf-8"),
+  );
   licenseCache.set(fileName, content);
 
   return content;

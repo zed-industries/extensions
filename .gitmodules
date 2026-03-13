@@ -1386,6 +1386,10 @@
 	path = extensions/gleam
 	url = https://github.com/gleam-lang/zed-gleam.git
 
+[submodule "extensions/gleam-snippets"]
+	path = extensions/gleam-snippets
+	url = https://github.com/BlueBlizzardd/gleam-zed-snippets.git
+
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
@@ -1614,6 +1618,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/hubl"]
+	path = extensions/hubl
+	url = https://github.com/blueambr/zed-hubl.git
+
 [submodule "extensions/huff"]
 	path = extensions/huff
 	url = https://github.com/Niraj-Kamdar/zed-huff.git
@@ -1689,6 +1697,10 @@
 [submodule "extensions/ir-black"]
 	path = extensions/ir-black
 	url = https://github.com/sametaylak/ir-black-zed-theme
+
+[submodule "extensions/irodori-theme"]
+	path = extensions/irodori-theme
+	url = https://github.com/agrahamlincoln/irodori.git
 
 [submodule "extensions/islands-theme"]
 	path = extensions/islands-theme
@@ -1849,6 +1861,10 @@
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
+
+[submodule "extensions/kokedera-theme"]
+	path = extensions/kokedera-theme
+	url = https://github.com/7th-Layer/kokedera-theme-extension-zed.git
 
 [submodule "extensions/kotlin"]
 	path = extensions/kotlin
@@ -3214,6 +3230,10 @@
 	path = extensions/retrofit-theme
 	url = https://github.com/snapsnapturtle/retrofit-zed.git
 
+[submodule "extensions/rewrite-theme"]
+	path = extensions/rewrite-theme
+	url = https://github.com/RewriteToday/theme.git
+
 [submodule "extensions/rhai"]
 	path = extensions/rhai
 	url = https://github.com/elkowar/zed-rhai
@@ -3513,6 +3533,10 @@
 [submodule "extensions/spicy"]
 	path = extensions/spicy
 	url = https://github.com/0xORB/spicy-zed
+
+[submodule "extensions/spinel-theme"]
+	path = extensions/spinel-theme
+	url = https://github.com/a-lavis/zed-spinel
 
 [submodule "extensions/sql"]
 	path = extensions/sql

@@ -94,7 +94,7 @@ version = "2.0.1"
 
 [alpental-theme]
 submodule = "extensions/alpental-theme"
-version = "0.0.6"
+version = "0.0.7"
 
 [alpinejs-snippets]
 submodule = "extensions/alpinejs-snippets"
@@ -937,7 +937,7 @@ version = "1.0.1"
 [design-tokens]
 submodule = "extensions/design-tokens"
 path = "extensions/zed"
-version = "0.1.22"
+version = "0.1.23"
 
 [desktop]
 submodule = "extensions/desktop"
@@ -1018,7 +1018,7 @@ version = "0.1.0"
 
 [dwp]
 submodule = "extensions/dwp"
-version = "0.0.3"
+version = "0.0.4"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -1404,6 +1404,10 @@ version = "0.0.2"
 submodule = "extensions/gleam"
 version = "0.6.0"
 
+[gleam-snippets]
+submodule = "extensions/gleam-snippets"
+version = "0.1.0"
+
 [gleam-theme]
 submodule = "extensions/gleam-theme"
 version = "0.2.1"
@@ -1643,6 +1647,10 @@ version = "1.0.1"
 submodule = "extensions/http"
 version = "0.0.1"
 
+[hubl]
+submodule = "extensions/hubl"
+version = "1.0.0"
+
 [huff]
 submodule = "extensions/huff"
 version = "0.0.1"
@@ -1653,7 +1661,7 @@ version = "0.1.0"
 
 [hyprlang]
 submodule = "extensions/hyprlang"
-version = "0.0.4"
+version = "0.0.5"
 
 [ibm-5151]
 submodule = "extensions/ibm-5151"
@@ -1719,6 +1727,10 @@ version = "0.1.2"
 [ir-black]
 submodule = "extensions/ir-black"
 version = "0.0.1"
+
+[irodori-theme]
+submodule = "extensions/irodori-theme"
+version = "1.0.0"
 
 [islands-theme]
 submodule = "extensions/islands-theme"
@@ -1880,6 +1892,10 @@ version = "1.0.0"
 [kiselevka]
 submodule = "extensions/kiselevka"
 version = "0.0.1"
+
+[kokedera-theme]
+submodule = "extensions/kokedera-theme"
+version = "1.0.0"
 
 [kotlin]
 submodule = "extensions/kotlin"
@@ -2048,7 +2064,7 @@ version = "0.1.2"
 
 [mantle-theme]
 submodule = "extensions/mantle-theme"
-version = "0.1.0"
+version = "0.2.0"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
@@ -2362,7 +2378,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.4.1"
+version = "2.4.2"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2708,7 +2724,7 @@ version = "1.1.0"
 
 [ocaml]
 submodule = "extensions/ocaml"
-version = "0.3.0"
+version = "0.3.1"
 
 [ocean-dark-motifs]
 submodule = "extensions/ocean-dark-motifs"
@@ -2806,7 +2822,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.2.6"
+version = "1.2.25"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2886,7 +2902,7 @@ version = "0.9.0"
 
 [pandora]
 submodule = "extensions/pandora"
-version = "0.0.1"
+version = "1.0.0"
 
 [papercolor]
 submodule = "extensions/papercolor"
@@ -3051,7 +3067,7 @@ version = "0.1.0"
 
 [powershell]
 submodule = "extensions/powershell"
-version = "0.4.1"
+version = "0.4.2"
 
 [prime-dark-theme]
 submodule = "extensions/prime-dark-theme"
@@ -3260,6 +3276,11 @@ version = "0.4.3"
 submodule = "extensions/retrofit-theme"
 version = "0.0.1"
 
+[rewrite-theme]
+submodule = "extensions/rewrite-theme"
+path = "zed"
+version = "0.1.0"
+
 [rhai]
 submodule = "extensions/rhai"
 version = "0.0.1"
@@ -3418,7 +3439,7 @@ version = "0.0.1"
 
 [shhhed-theme]
 submodule = "extensions/shhhed-theme"
-version = "1.33.7"
+version = "1.52.0"
 
 [shizukajapan-theme]
 submodule = "extensions/shizukajapan-theme"
@@ -3561,6 +3582,10 @@ version = "0.0.0"
 [spicy]
 submodule = "extensions/spicy"
 version = "0.0.1"
+
+[spinel-theme]
+submodule = "extensions/spinel-theme"
+version = "0.1.0"
 
 [sql]
 submodule = "extensions/sql"
@@ -3843,7 +3868,7 @@ version = "0.2.3"
 
 [tokyo-maple-theme]
 submodule = "extensions/tokyo-maple-theme"
-version = "1.1.0"
+version = "1.2.0"
 path = "packages/zed"
 
 [tokyo-night]
