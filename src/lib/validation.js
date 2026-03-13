@@ -9,6 +9,7 @@ import {
   isMitLicense,
   isUnlicense,
   isZlibLicense,
+  normalizeWhitespace,
 } from "./license.js";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
@@ -184,16 +185,17 @@ export function validateLicense(licenseCandidates) {
   }
 
   for (const license_data of licenseCandidates) {
+    const content = normalizeWhitespace(license_data.content);
     const isValidLicense =
-      isApache2License(license_data.content) ||
-      isBsd2ClauseLicense(license_data.content) ||
-      isBsd3ClauseLicense(license_data.content) ||
-      isCcBy4License(license_data.content) ||
-      isGplV3License(license_data.content) ||
-      isLgplV3License(license_data.content) ||
-      isMitLicense(license_data.content) ||
-      isUnlicense(license_data.content) ||
-      isZlibLicense(license_data.content);
+      isApache2License(content) ||
+      isBsd2ClauseLicense(content) ||
+      isBsd3ClauseLicense(content) ||
+      isCcBy4License(content) ||
+      isGplV3License(content) ||
+      isLgplV3License(content) ||
+      isMitLicense(content) ||
+      isUnlicense(content) ||
+      isZlibLicense(content);
 
     if (isValidLicense) {
       return;
