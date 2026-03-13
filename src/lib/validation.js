@@ -1,3 +1,4 @@
+import semver from "semver";
 import {
   isApache2License,
   isBsd2ClauseLicense,
@@ -209,6 +210,26 @@ export function validateLicense(licenseCandidates) {
       `${MISSING_LICENSE_ERROR}`,
     ].join("\n"),
   );
+}
+
+/**
+ * Asserts that a version update for an extension does not decrease the version.
+ *
+ * @param {string} extensionId - The extension ID (used in the error message)
+ * @param {string} currentVersion - The new version
+ * @param {string} previousVersion - The old version
+ * @throws {Error} If the current version is less than the previous version
+ */
+export function assertVersionNotDecreased(
+  extensionId,
+  currentVersion,
+  previousVersion,
+) {
+  if (semver.lt(currentVersion, previousVersion)) {
+    throw new Error(
+      `Version for extension "${extensionId}" must not decrease: ${previousVersion} -> ${currentVersion}`,
+    );
+  }
 }
 
 /**
