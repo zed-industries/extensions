@@ -1846,6 +1846,10 @@
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
 
+[submodule "extensions/kokedera-theme"]
+	path = extensions/kokedera-theme
+	url = https://github.com/7th-Layer/kokedera-theme-extension-zed.git
+
 [submodule "extensions/kotlin"]
 	path = extensions/kotlin
 	url = https://github.com/zed-extensions/zed-kotlin.git
@@ -4365,6 +4369,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/kokedera-theme"]
-	path = extensions/kokedera-theme
-	url = https://github.com/7th-Layer/kokedera-theme-extension-zed.git
