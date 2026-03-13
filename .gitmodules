@@ -166,6 +166,10 @@
 	path = extensions/arctic-depth
 	url = https://github.com/MarvellinusVincent/Arctic-Depth-Zed.git
 
+[submodule "extensions/arduino"]
+	path = extensions/arduino
+	url = https://github.com/mambucodev/zed-arduino.git
+
 [submodule "extensions/ariake"]
 	path = extensions/ariake
 	url = https://github.com/artivilla/zed-ariake-theme
@@ -1378,6 +1382,10 @@
 	path = extensions/gleam
 	url = https://github.com/gleam-lang/zed-gleam.git
 
+[submodule "extensions/gleam-snippets"]
+	path = extensions/gleam-snippets
+	url = https://github.com/BlueBlizzardd/gleam-zed-snippets.git
+
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
@@ -1606,6 +1614,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/hubl"]
+	path = extensions/hubl
+	url = https://github.com/blueambr/zed-hubl.git
+
 [submodule "extensions/huff"]
 	path = extensions/huff
 	url = https://github.com/Niraj-Kamdar/zed-huff.git
@@ -1681,6 +1693,10 @@
 [submodule "extensions/ir-black"]
 	path = extensions/ir-black
 	url = https://github.com/sametaylak/ir-black-zed-theme
+
+[submodule "extensions/irodori-theme"]
+	path = extensions/irodori-theme
+	url = https://github.com/agrahamlincoln/irodori.git
 
 [submodule "extensions/islands-theme"]
 	path = extensions/islands-theme
@@ -2590,6 +2606,10 @@
 	path = extensions/norrsken
 	url = https://github.com/webhooked/norrsken-zed.git
 
+[submodule "extensions/nostromo-ui-theme"]
+	path = extensions/nostromo-ui-theme
+	url = https://github.com/tscritch/nostromo-ui-theme.git
+
 [submodule "extensions/not-material-theme"]
 	path = extensions/not-material-theme
 	url = https://github.com/iamawatermelo/zed-hct-theme-maker
@@ -3201,6 +3221,10 @@
 [submodule "extensions/retrofit-theme"]
 	path = extensions/retrofit-theme
 	url = https://github.com/snapsnapturtle/retrofit-zed.git
+
+[submodule "extensions/rewrite-theme"]
+	path = extensions/rewrite-theme
+	url = https://github.com/RewriteToday/theme.git
 
 [submodule "extensions/rhai"]
 	path = extensions/rhai
