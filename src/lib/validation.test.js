@@ -5,6 +5,7 @@ import {
   validateLicense,
   validateManifest,
   validateExtensionIdsNotChanged,
+  assertVersionNotDecreased,
 } from "./validation.js";
 import {
   readApache2License,
@@ -234,6 +235,76 @@ describe("validateLicense", () => {
     ];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+});
+
+describe("assertVersionNotDecreased", () => {
+  it("does not throw when versions are equal", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when patch is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.1", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when minor is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.1.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when major is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "2.0.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when major is bumped and minor/patch reset", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "2.0.0", "1.5.3"),
+    ).not.toThrow();
+  });
+
+  it("throws when patch version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.0.1"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.0.1 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when minor version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.1.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.1.0 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when major version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "2.0.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 2.0.0 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when minor decreases even if patch is higher", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.9", "1.1.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.1.0 -> 1.0.9]`,
+    );
+  });
+
+  it("includes the extension ID in the error message", () => {
+    expect(() =>
+      assertVersionNotDecreased("cool-theme", "0.1.0", "0.2.0"),
+    ).toThrowError('"cool-theme"');
   });
 });
 
