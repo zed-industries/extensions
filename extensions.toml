@@ -60,7 +60,7 @@ version = "1.0.0"
 
 [agda]
 submodule = "extensions/agda"
-version = "0.2.0"
+version = "0.2.1"
 
 [agnix]
 submodule = "extensions/agnix"
@@ -392,7 +392,7 @@ version = "0.1.1"
 
 [blade]
 submodule = "extensions/blade"
-version = "0.2.4"
+version = "0.2.5"
 
 [blade-runner-2049]
 submodule = "extensions/blade-runner-2049"
@@ -741,7 +741,7 @@ version = "0.2.0"
 
 [crimson-theme]
 submodule = "extensions/crimson-theme"
-version = "0.0.3"
+version = "0.0.4"
 
 [crystal]
 submodule = "extensions/crystal"
@@ -923,7 +923,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.4.4"
+version = "1.5.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -1423,7 +1423,7 @@ version = "0.2.1"
 [glsl]
 submodule = "extensions/zed"
 path = "extensions/glsl"
-version = "0.2.1"
+version = "0.2.2"
 
 [go-snippets]
 submodule = "extensions/go-snippets"
@@ -1637,7 +1637,7 @@ version = "0.0.1"
 [html]
 submodule = "extensions/zed"
 path = "extensions/html"
-version = "0.3.0"
+version = "0.3.1"
 
 [html-jinja]
 submodule = "extensions/html-jinja"
@@ -2407,7 +2407,7 @@ version = "0.1.9"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
-version = "0.1.5"
+version = "0.1.6"
 
 [molten-theme]
 submodule = "extensions/molten-theme"
@@ -2830,7 +2830,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.2.25"
+version = "1.2.26"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2986,7 +2986,7 @@ version = "0.1.0"
 
 [phpcs]
 submodule = "extensions/phpcs"
-version = "0.3.0"
+version = "0.4.1"
 
 [phpmd]
 submodule = "extensions/phpmd"
@@ -3391,7 +3391,7 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.1.7"
+version = "0.1.8"
 
 [semgrep]
 submodule = "extensions/semgrep"
@@ -3695,6 +3695,10 @@ version = "0.0.3"
 [superhtml]
 submodule = "extensions/superhtml"
 version = "0.1.0"
+
+[superior-green-theme]
+submodule = "extensions/superior-green-theme"
+version = "0.0.10"
 
 [supertheme4]
 submodule = "extensions/supertheme4"
@@ -4236,6 +4240,11 @@ version = "0.1.10"
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
 version = "0.1.1"
+
+[warm-burnout-theme]
+submodule = "extensions/warm-burnout-theme"
+version = "0.1.0"
+path = "zed"
 
 [warm-light]
 submodule = "extensions/warm-light"
