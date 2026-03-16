@@ -2,21 +2,27 @@ import { describe, expect, it } from "vitest";
 import {
   hasLicenseFileName,
   isApache2License,
+  isBsd2ClauseLicense,
   isBsd3ClauseLicense,
+  isCcBy4License,
   isGplV3License,
   isLgplV3License,
   isMitLicense,
+  isUnlicense,
   isZlibLicense,
 } from "./license.js";
 import {
   readApache2License,
+  readBsd2ClauseLicense,
   readBsd3ClauseAlternativeLicense,
   readBsd3ClauseLicense,
+  readCcBy4License,
   readGplV3License,
   readLgplV3License,
   readLicenseFile,
   readMitLicense,
   readOtherLicense,
+  readUnlicense,
   readZlibLicense,
 } from "./test-licenses/utilities.js";
 
@@ -76,6 +82,10 @@ describe("isApache2License", () => {
     expect(isApache2License(readApache2License())).toBe(true);
   });
 
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isApache2License(readBsd2ClauseLicense())).toBe(false);
+  });
+
   it("returns false for BSD 3-Clause license text", () => {
     expect(isApache2License(readBsd3ClauseLicense())).toBe(false);
   });
@@ -93,6 +103,36 @@ describe("isApache2License", () => {
   });
 });
 
+describe("isBsd2ClauseLicense", () => {
+  it("returns true for valid BSD 2-Clause license text", () => {
+    expect(isBsd2ClauseLicense(readBsd2ClauseLicense())).toBe(true);
+  });
+
+  it("returns false for Apache 2.0 license text", () => {
+    expect(isBsd2ClauseLicense(readApache2License())).toBe(false);
+  });
+
+  it("returns false for BSD 3-Clause license text", () => {
+    expect(isBsd2ClauseLicense(readBsd3ClauseLicense())).toBe(false);
+  });
+
+  it("returns false for BSD 3-Clause alternative license text", () => {
+    expect(isBsd2ClauseLicense(readBsd3ClauseAlternativeLicense())).toBe(false);
+  });
+
+  it("returns false for GPL V3 license text", () => {
+    expect(isBsd2ClauseLicense(readGplV3License())).toBe(false);
+  });
+
+  it("returns false for MIT license text", () => {
+    expect(isBsd2ClauseLicense(readMitLicense())).toBe(false);
+  });
+
+  it("returns false for other license text", () => {
+    expect(isBsd2ClauseLicense(readOtherLicense())).toBe(false);
+  });
+});
+
 describe("isBsd3ClauseLicense", () => {
   it("returns true for valid BSD 3-Clause license text", () => {
     expect(isBsd3ClauseLicense(readBsd3ClauseLicense())).toBe(true);
@@ -100,6 +140,10 @@ describe("isBsd3ClauseLicense", () => {
 
   it("returns true for valid BSD 3-Clause alternative license text", () => {
     expect(isBsd3ClauseLicense(readBsd3ClauseAlternativeLicense())).toBe(true);
+  });
+
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isBsd3ClauseLicense(readBsd2ClauseLicense())).toBe(false);
   });
 
   it("returns false for Apache 2.0 license text", () => {
@@ -126,6 +170,10 @@ describe("isGPLv3License", () => {
 
   it("returns false for Apache 2.0 license text", () => {
     expect(isGplV3License(readApache2License())).toBe(false);
+  });
+
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isGplV3License(readBsd2ClauseLicense())).toBe(false);
   });
 
   it("returns false for BSD 3-Clause license text", () => {
@@ -156,6 +204,10 @@ describe("isMitLicense", () => {
     expect(isMitLicense(readApache2License())).toBe(false);
   });
 
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isMitLicense(readBsd2ClauseLicense())).toBe(false);
+  });
+
   it("returns false for BSD 3-Clause license text", () => {
     expect(isMitLicense(readBsd3ClauseLicense())).toBe(false);
   });
@@ -176,6 +228,10 @@ describe("isZlibLicense", () => {
 
   it("returns false for Apache 2.0 license text", () => {
     expect(isZlibLicense(readApache2License())).toBe(false);
+  });
+
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isZlibLicense(readBsd2ClauseLicense())).toBe(false);
   });
 
   it("returns false for BSD 3-Clause license text", () => {
@@ -208,6 +264,10 @@ describe("isLgplV3License", () => {
     expect(isLgplV3License(readApache2License())).toBe(false);
   });
 
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isLgplV3License(readBsd2ClauseLicense())).toBe(false);
+  });
+
   it("returns false for BSD 3-Clause license text", () => {
     expect(isLgplV3License(readBsd3ClauseLicense())).toBe(false);
   });
@@ -226,5 +286,89 @@ describe("isLgplV3License", () => {
 
   it("returns false for other license text", () => {
     expect(isLgplV3License(readOtherLicense())).toBe(false);
+  });
+});
+
+describe("isUnlicense", () => {
+  it("returns true for valid Unlicense text", () => {
+    expect(isUnlicense(readUnlicense())).toBe(true);
+  });
+
+  it("returns false for Apache 2.0 license text", () => {
+    expect(isUnlicense(readApache2License())).toBe(false);
+  });
+
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isUnlicense(readBsd2ClauseLicense())).toBe(false);
+  });
+
+  it("returns false for BSD 3-Clause license text", () => {
+    expect(isUnlicense(readBsd3ClauseLicense())).toBe(false);
+  });
+
+  it("returns false for CC BY 4.0 license text", () => {
+    expect(isUnlicense(readCcBy4License())).toBe(false);
+  });
+
+  it("returns false for GPL V3 license text", () => {
+    expect(isUnlicense(readGplV3License())).toBe(false);
+  });
+
+  it("returns false for LGPL V3 license text", () => {
+    expect(isUnlicense(readLgplV3License())).toBe(false);
+  });
+
+  it("returns false for MIT license text", () => {
+    expect(isUnlicense(readMitLicense())).toBe(false);
+  });
+
+  it("returns false for zlib license text", () => {
+    expect(isUnlicense(readZlibLicense())).toBe(false);
+  });
+
+  it("returns false for other license text", () => {
+    expect(isUnlicense(readOtherLicense())).toBe(false);
+  });
+});
+
+describe("isCcBy4License", () => {
+  it("returns true for valid CC BY 4.0 license text", () => {
+    expect(isCcBy4License(readCcBy4License())).toBe(true);
+  });
+
+  it("returns false for Apache 2.0 license text", () => {
+    expect(isCcBy4License(readApache2License())).toBe(false);
+  });
+
+  it("returns false for BSD 2-Clause license text", () => {
+    expect(isCcBy4License(readBsd2ClauseLicense())).toBe(false);
+  });
+
+  it("returns false for BSD 3-Clause license text", () => {
+    expect(isCcBy4License(readBsd3ClauseLicense())).toBe(false);
+  });
+
+  it("returns false for GPL V3 license text", () => {
+    expect(isCcBy4License(readGplV3License())).toBe(false);
+  });
+
+  it("returns false for LGPL V3 license text", () => {
+    expect(isCcBy4License(readLgplV3License())).toBe(false);
+  });
+
+  it("returns false for MIT license text", () => {
+    expect(isCcBy4License(readMitLicense())).toBe(false);
+  });
+
+  it("returns false for Unlicense text", () => {
+    expect(isCcBy4License(readUnlicense())).toBe(false);
+  });
+
+  it("returns false for zlib license text", () => {
+    expect(isCcBy4License(readZlibLicense())).toBe(false);
+  });
+
+  it("returns false for other license text", () => {
+    expect(isCcBy4License(readOtherLicense())).toBe(false);
   });
 });

@@ -5,14 +5,18 @@ import {
   validateLicense,
   validateManifest,
   validateExtensionIdsNotChanged,
+  assertVersionNotDecreased,
 } from "./validation.js";
 import {
   readApache2License,
+  readBsd2ClauseLicense,
   readBsd3ClauseLicense,
+  readCcBy4License,
   readGplV3License,
   readLgplV3License,
   readMitLicense,
   readOtherLicense,
+  readUnlicense,
   readZlibLicense,
 } from "./test-licenses/utilities.js";
 
@@ -43,12 +47,15 @@ describe("validateManifest", () => {
 });
 
 describe("validateExtensionsToml", () => {
-  describe("when `extensions.toml` only contains extensions with valid IDs", () => {
+  describe("when `extensions.toml` only contains extensions with valid IDs and entries", () => {
     it.each(["my-cool-extension", "base16"])(
       'does not throw for "%s"',
       (extensionId) => {
         const extensionsToml = {
-          [extensionId]: {},
+          [extensionId]: {
+            submodule: "https://github.com/zed-extensions/my-extension",
+            version: "0.1.0",
+          },
         };
 
         expect(() => validateExtensionsToml(extensionsToml)).not.toThrow();
@@ -69,6 +76,34 @@ describe("validateExtensionsToml", () => {
         );
       },
     );
+  });
+
+  describe("when `extensions.toml` contains an entry with missing submodule", () => {
+    it.each(["my-cool-extension"])('does not throw for "%s"', (extensionId) => {
+      const extensionsToml = {
+        [extensionId]: {
+          version: "0.1.0",
+        },
+      };
+
+      expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
+        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+      );
+    });
+  });
+
+  describe("when `extensions.toml` contains an entry with missing version", () => {
+    it.each(["my-cool-extension"])('does not throw for "%s"', (extensionId) => {
+      const extensionsToml = {
+        [extensionId]: {
+          submodule: "https://github.com/zed-extensions/my-extension",
+        },
+      };
+
+      expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
+        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+      );
+    });
   });
 });
 
@@ -101,16 +136,19 @@ describe("validateLicense", () => {
         [Error: No license was found.
         Extension repositories must have a valid license:
           - Apache 2.0
+          - BSD 2-Clause
           - BSD 3-Clause
+          - CC BY 4.0
           - GNU GPLv3
           - GNU LGPLv3
           - MIT
+          - Unlicense
           - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
 
-  it("throws when incorrect license contents are found (not Apache 2.0, BSD 3-Clause, MIT, GNU GPLv3, GNU LGPLv3 or zlib)", () => {
+  it("throws when incorrect license contents are found (not a recognized license)", () => {
     const licenseCandidates = [
       { name: "LICENSE.txt", content: readOtherLicense() },
       { name: "LICENSE.md", content: readOtherLicense() },
@@ -121,10 +159,13 @@ describe("validateLicense", () => {
         [Error: No valid license found in the following files: "LICENSE.txt", "LICENSE.md".
         Extension repositories must have a valid license:
           - Apache 2.0
+          - BSD 2-Clause
           - BSD 3-Clause
+          - CC BY 4.0
           - GNU GPLv3
           - GNU LGPLv3
           - MIT
+          - Unlicense
           - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
@@ -133,6 +174,14 @@ describe("validateLicense", () => {
   it("does not throw when Apache 2.0 license is present", () => {
     const licenseCandidates = [
       { name: "LICENSE", content: readApache2License() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when BSD 2-Clause license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readBsd2ClauseLicense() },
     ];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
@@ -172,6 +221,90 @@ describe("validateLicense", () => {
     const licenseCandidates = [{ name: "LICENSE", content: readZlibLicense() }];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when Unlicense is present", () => {
+    const licenseCandidates = [{ name: "LICENSE", content: readUnlicense() }];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when CC BY 4.0 license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readCcBy4License() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+});
+
+describe("assertVersionNotDecreased", () => {
+  it("does not throw when versions are equal", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when patch is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.1", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when minor is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.1.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when major is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "2.0.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when major is bumped and minor/patch reset", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "2.0.0", "1.5.3"),
+    ).not.toThrow();
+  });
+
+  it("throws when patch version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.0.1"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.0.1 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when minor version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.1.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.1.0 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when major version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "2.0.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 2.0.0 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when minor decreases even if patch is higher", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.9", "1.1.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.1.0 -> 1.0.9]`,
+    );
+  });
+
+  it("includes the extension ID in the error message", () => {
+    expect(() =>
+      assertVersionNotDecreased("cool-theme", "0.1.0", "0.2.0"),
+    ).toThrowError('"cool-theme"');
   });
 });
 
