@@ -1421,6 +1421,11 @@ submodule = "extensions/zed"
 path = "extensions/glsl"
 version = "0.2.2"
 
+[go-profile]
+submodule = "extensions/go-profile"
+path = "extension"
+version = "0.0.1"
+
 [go-snippets]
 submodule = "extensions/go-snippets"
 version = "0.1.1"
