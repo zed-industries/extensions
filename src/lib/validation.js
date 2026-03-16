@@ -62,6 +62,15 @@ export function validateExtensionsToml(extensionsToml) {
       );
     }
 
+    if (
+      extensionId.includes("extension") &&
+      !EXTENSION_ID_ENDS_WITH_EXCEPTIONS.includes(extensionId)
+    ) {
+      throw new Error(
+        `Extension IDs should not include "extension", as they are all Zed extensions: "${extensionId}".`,
+      );
+    }
+
     if (!extensionInfo.submodule || !extensionInfo.version) {
       throw new Error(
         `Missing required field "submodule" or "version" for extension "${extensionId}"`,

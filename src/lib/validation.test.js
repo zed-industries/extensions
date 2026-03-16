@@ -78,30 +78,45 @@ describe("validateExtensionsToml", () => {
     );
   });
 
+  describe("when `extensions.toml` contains an extension ID containing `extension`", () => {
+    it.each(["bad-extension", "zed-extension-theme"])(
+      'throws a validation error for "%s"',
+      (extensionId) => {
+        const extensionsToml = {
+          [extensionId]: {},
+        };
+
+        expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
+          `Extension IDs should not include "extension", as they are all Zed extensions: "${extensionId}".`,
+        );
+      },
+    );
+  });
+
   describe("when `extensions.toml` contains an entry with missing submodule", () => {
-    it.each(["my-cool-extension"])('does not throw for "%s"', (extensionId) => {
+    it('does not throw for "%s"', () => {
       const extensionsToml = {
-        [extensionId]: {
+        "my-cool-extension": {
           version: "0.1.0",
         },
       };
 
       expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
-        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+        `Missing required field "submodule" or "version" for extension "my-cool-extension"`,
       );
     });
   });
 
   describe("when `extensions.toml` contains an entry with missing version", () => {
-    it.each(["my-cool-extension"])('does not throw for "%s"', (extensionId) => {
+    it('does not throw for "%s"', () => {
       const extensionsToml = {
-        [extensionId]: {
+        "my-cool-extension": {
           submodule: "https://github.com/zed-extensions/my-extension",
         },
       };
 
       expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
-        `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+        `Missing required field "submodule" or "version" for extension "my-cool-extension"`,
       );
     });
   });
