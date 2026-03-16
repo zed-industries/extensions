@@ -68,7 +68,7 @@ describe("validateManifest", () => {
 
 describe("validateExtensionsToml", () => {
   describe("when `extensions.toml` only contains extensions with valid IDs and entries", () => {
-    it.each(["my-cool-extension", "base16"])(
+    it.each(["my-cool-language", "base16"])(
       'does not throw for "%s"',
       (extensionId) => {
         const extensionsToml = {
@@ -99,7 +99,7 @@ describe("validateExtensionsToml", () => {
   });
 
   describe("when `extensions.toml` contains an extension ID containing `extension`", () => {
-    it.each(["bad-extension", "zed-extension-theme"])(
+    it.each(["bad-extension", "rusty-extension-theme"])(
       'throws a validation error for "%s"',
       (extensionId) => {
         const extensionsToml = {
@@ -116,13 +116,13 @@ describe("validateExtensionsToml", () => {
   describe("when `extensions.toml` contains an entry with missing submodule", () => {
     it('does not throw for "%s"', () => {
       const extensionsToml = {
-        "my-cool-extension": {
+        "my-cool-language": {
           version: "0.1.0",
         },
       };
 
       expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
-        `Missing required field "submodule" or "version" for extension "my-cool-extension"`,
+        `Missing required field "submodule" or "version" for extension "my-cool-language"`,
       );
     });
   });
@@ -130,13 +130,13 @@ describe("validateExtensionsToml", () => {
   describe("when `extensions.toml` contains an entry with missing version", () => {
     it('does not throw for "%s"', () => {
       const extensionsToml = {
-        "my-cool-extension": {
+        "my-cool-language": {
           submodule: "https://github.com/zed-extensions/my-extension",
         },
       };
 
       expect(() => validateExtensionsToml(extensionsToml)).toThrowError(
-        `Missing required field "submodule" or "version" for extension "my-cool-extension"`,
+        `Missing required field "submodule" or "version" for extension "my-cool-language"`,
       );
     });
   });
