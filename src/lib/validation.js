@@ -83,18 +83,27 @@ export function validateExtensionsToml(extensionsToml) {
  * @param {Record<string, any>} manifest
  */
 export function validateManifest(manifest) {
+  /** @type string */
+  let extensionName = manifest["name"];
+
   if (
-    manifest["name"].startsWith("Zed ") &&
-    manifest["name"] !== "Zed Legacy Themes"
+    extensionName.startsWith("Zed ") &&
+    extensionName !== "Zed Legacy Themes"
   ) {
     throw new Error(
-      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest["name"]}".`,
+      `Extension names should not start with "Zed ", as they are all Zed extensions: "${extensionName}".`,
     );
   }
 
-  if (manifest["name"].endsWith(" Zed")) {
+  if (extensionName.endsWith(" Zed")) {
     throw new Error(
-      `Extension names should not end with " Zed", as they are all Zed extensions: "${manifest["name"]}".`,
+      `Extension names should not end with " Zed", as they are all Zed extensions: "${extensionName}".`,
+    );
+  }
+
+  if (extensionName.toLowerCase().includes("extension")) {
+    throw new Error(
+      `Extension names should not include the word "extension", as they are all Zed extensions: "${extensionName}".`,
     );
   }
 

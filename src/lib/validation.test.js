@@ -24,7 +24,7 @@ describe("validateManifest", () => {
   describe("given a valid manifest", () => {
     it("does not throw", () => {
       const validManifest = {
-        name: "My Valid Extension",
+        name: "My Cool Language Server",
         version: "1.0.0",
         authors: ["Me <me@example.com>"],
         description: "This extension is very cool",
@@ -41,6 +41,26 @@ describe("validateManifest", () => {
         validateManifest({ name: "Zed Something" }),
       ).toThrowErrorMatchingInlineSnapshot(
         `[Error: Extension names should not start with "Zed ", as they are all Zed extensions: "Zed Something".]`,
+      );
+    });
+  });
+
+  describe('when the name ends with " Zed"', () => {
+    it("throws a validation error", () => {
+      expect(() =>
+        validateManifest({ name: "Something Zed" }),
+      ).toThrowErrorMatchingInlineSnapshot(
+        `[Error: Extension names should not end with " Zed", as they are all Zed extensions: "Something Zed".]`,
+      );
+    });
+  });
+
+  describe('when the name contains the word "extension"', () => {
+    it("throws a validation error", () => {
+      expect(() =>
+        validateManifest({ name: "Something Extension" }),
+      ).toThrowErrorMatchingInlineSnapshot(
+        `[Error: Extension names should not include the word "extension", as they are all Zed extensions: "Something Extension".]`,
       );
     });
   });
