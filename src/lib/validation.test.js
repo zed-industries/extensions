@@ -5,15 +5,18 @@ import {
   validateLicense,
   validateManifest,
   validateExtensionIdsNotChanged,
+  assertVersionNotDecreased,
 } from "./validation.js";
 import {
   readApache2License,
   readBsd2ClauseLicense,
   readBsd3ClauseLicense,
+  readCcBy4License,
   readGplV3License,
   readLgplV3License,
   readMitLicense,
   readOtherLicense,
+  readUnlicense,
   readZlibLicense,
 } from "./test-licenses/utilities.js";
 
@@ -135,15 +138,17 @@ describe("validateLicense", () => {
           - Apache 2.0
           - BSD 2-Clause
           - BSD 3-Clause
+          - CC BY 4.0
           - GNU GPLv3
           - GNU LGPLv3
           - MIT
+          - Unlicense
           - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
   });
 
-  it("throws when incorrect license contents are found (not Apache 2.0, BSD 2-Clause, BSD 3-Clause, MIT, GNU GPLv3, GNU LGPLv3 or zlib)", () => {
+  it("throws when incorrect license contents are found (not a recognized license)", () => {
     const licenseCandidates = [
       { name: "LICENSE.txt", content: readOtherLicense() },
       { name: "LICENSE.md", content: readOtherLicense() },
@@ -156,9 +161,11 @@ describe("validateLicense", () => {
           - Apache 2.0
           - BSD 2-Clause
           - BSD 3-Clause
+          - CC BY 4.0
           - GNU GPLv3
           - GNU LGPLv3
           - MIT
+          - Unlicense
           - zlib
         See: https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements]
       `);
@@ -214,6 +221,90 @@ describe("validateLicense", () => {
     const licenseCandidates = [{ name: "LICENSE", content: readZlibLicense() }];
 
     expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when Unlicense is present", () => {
+    const licenseCandidates = [{ name: "LICENSE", content: readUnlicense() }];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+
+  it("does not throw when CC BY 4.0 license is present", () => {
+    const licenseCandidates = [
+      { name: "LICENSE", content: readCcBy4License() },
+    ];
+
+    expect(() => validateLicense(licenseCandidates)).not.toThrow();
+  });
+});
+
+describe("assertVersionNotDecreased", () => {
+  it("does not throw when versions are equal", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when patch is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.1", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when minor is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.1.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when major is bumped", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "2.0.0", "1.0.0"),
+    ).not.toThrow();
+  });
+
+  it("does not throw when major is bumped and minor/patch reset", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "2.0.0", "1.5.3"),
+    ).not.toThrow();
+  });
+
+  it("throws when patch version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.0.1"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.0.1 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when minor version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "1.1.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.1.0 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when major version decreases", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.0", "2.0.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 2.0.0 -> 1.0.0]`,
+    );
+  });
+
+  it("throws when minor decreases even if patch is higher", () => {
+    expect(() =>
+      assertVersionNotDecreased("my-ext", "1.0.9", "1.1.0"),
+    ).toThrowErrorMatchingInlineSnapshot(
+      `[Error: Version for extension "my-ext" must not decrease: 1.1.0 -> 1.0.9]`,
+    );
+  });
+
+  it("includes the extension ID in the error message", () => {
+    expect(() =>
+      assertVersionNotDecreased("cool-theme", "0.1.0", "0.2.0"),
+    ).toThrowError('"cool-theme"');
   });
 });
 
