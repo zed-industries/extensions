@@ -923,7 +923,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.4.4"
+version = "1.5.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -1358,7 +1358,7 @@ version = "0.3.2"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.3"
+version = "0.1.4"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -1419,7 +1419,7 @@ version = "0.2.1"
 [glsl]
 submodule = "extensions/zed"
 path = "extensions/glsl"
-version = "0.2.1"
+version = "0.2.2"
 
 [go-snippets]
 submodule = "extensions/go-snippets"
@@ -1559,7 +1559,7 @@ version = "0.1.3"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "0.2.0"
+version = "0.2.1"
 
 [haxe]
 submodule = "extensions/haxe"
@@ -1633,7 +1633,7 @@ version = "0.0.1"
 [html]
 submodule = "extensions/zed"
 path = "extensions/html"
-version = "0.3.0"
+version = "0.3.1"
 
 [html-jinja]
 submodule = "extensions/html-jinja"
@@ -3692,6 +3692,10 @@ version = "0.0.3"
 submodule = "extensions/superhtml"
 version = "0.1.0"
 
+[superior-green-theme]
+submodule = "extensions/superior-green-theme"
+version = "0.0.10"
+
 [supertheme4]
 submodule = "extensions/supertheme4"
 version = "0.0.3"
@@ -4232,6 +4236,11 @@ version = "0.1.10"
 [wakfu-theme]
 submodule = "extensions/wakfu-theme"
 version = "0.1.1"
+
+[warm-burnout-theme]
+submodule = "extensions/warm-burnout-theme"
+version = "0.1.0"
+path = "zed"
 
 [warm-light]
 submodule = "extensions/warm-light"
