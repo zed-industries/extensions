@@ -3745,6 +3745,11 @@ version = "1.3"
 submodule = "extensions/syntax"
 version = "0.0.1"
 
+[syntaqlite]
+submodule = "extensions/syntaqlite"
+path = "integrations/zed"
+version = "0.2.15"
+
 [synthwave]
 submodule = "extensions/synthwave"
 version = "0.0.1"
