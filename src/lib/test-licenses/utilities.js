@@ -6,16 +6,32 @@ export function readApache2License() {
   return readLicenseFile("test-apache-2-license");
 }
 
+export function readBsd2ClauseLicense() {
+  return readLicenseFile("test-bsd-2-clause");
+}
+
 export function readBsd3ClauseLicense() {
   return readLicenseFile("test-bsd-3-clause");
+}
+
+export function readBsd3ClauseAlternativeLicense() {
+  return readLicenseFile("test-bsd-3-clause-alternative");
 }
 
 export function readGplV3License() {
   return readLicenseFile("test-gpl-v3-license");
 }
 
+export function readLgplV3License() {
+  return readLicenseFile("test-lgpl-v3-license");
+}
+
 export function readMitLicense() {
   return readLicenseFile("test-mit-license");
+}
+
+export function readZlibLicense() {
+  return readLicenseFile("test-zlib-license");
 }
 
 export function readOtherLicense() {
