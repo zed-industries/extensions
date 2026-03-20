@@ -26,6 +26,10 @@
 	path = extensions/activitywatch
 	url = https://github.com/sachk/aw-watcher-zed.git
 
+[submodule "extensions/ad-astra-theme"]
+	path = extensions/ad-astra-theme
+	url = https://github.com/ugi-dev/ad-astra-zed.git
+
 [submodule "extensions/ada"]
 	path = extensions/ada
 	url = https://github.com/wisn/zed-ada-language.git
@@ -600,7 +604,7 @@
 
 [submodule "extensions/clarity"]
 	path = extensions/clarity
-	url = https://github.com/hirosystems/clarity-zed.git
+	url = https://github.com/stx-labs/clarity-zed.git
 
 [submodule "extensions/claude-code-inspired-dark"]
 	path = extensions/claude-code-inspired-dark
@@ -961,6 +965,10 @@
 [submodule "extensions/dogxi-theme"]
 	path = extensions/dogxi-theme
 	url = https://github.com/dogxii/dogxi-theme-zed.git
+
+[submodule "extensions/doxygen"]
+	path = extensions/doxygen
+	url = https://github.com/ozacod/zed-doxygen.git
 
 [submodule "extensions/dprint"]
 	path = extensions/dprint
@@ -1386,6 +1394,10 @@
 	path = extensions/gleam
 	url = https://github.com/gleam-lang/zed-gleam.git
 
+[submodule "extensions/gleam-snippets"]
+	path = extensions/gleam-snippets
+	url = https://github.com/BlueBlizzardd/gleam-zed-snippets.git
+
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
@@ -1614,6 +1626,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/hubl"]
+	path = extensions/hubl
+	url = https://github.com/blueambr/zed-hubl.git
+
 [submodule "extensions/huff"]
 	path = extensions/huff
 	url = https://github.com/Niraj-Kamdar/zed-huff.git
@@ -1689,6 +1705,10 @@
 [submodule "extensions/ir-black"]
 	path = extensions/ir-black
 	url = https://github.com/sametaylak/ir-black-zed-theme
+
+[submodule "extensions/irodori-theme"]
+	path = extensions/irodori-theme
+	url = https://github.com/agrahamlincoln/irodori.git
 
 [submodule "extensions/islands-theme"]
 	path = extensions/islands-theme
@@ -1849,6 +1869,14 @@
 [submodule "extensions/kiselevka"]
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
+
+[submodule "extensions/kokedera-icons"]
+	path = extensions/kokedera-icons
+	url = https://github.com/7th-Layer/kokedera-icons-extension-zed.git
+
+[submodule "extensions/kokedera-theme"]
+	path = extensions/kokedera-theme
+	url = https://github.com/7th-Layer/kokedera-theme-extension-zed.git
 
 [submodule "extensions/kotlin"]
 	path = extensions/kotlin
@@ -2946,6 +2974,10 @@
 	path = extensions/pinata-theme
 	url = https://github.com/stevedylandev/pinata-theme-zed
 
+[submodule "extensions/pink-cat-boo-theme"]
+	path = extensions/pink-cat-boo-theme
+	url = https://github.com/jjsalinas/PinkCatBooZed.git
+
 [submodule "extensions/pkl"]
 	path = extensions/pkl
 	url = https://github.com/Moshyfawn/pkl-zed.git
@@ -3213,6 +3245,10 @@
 [submodule "extensions/retrofit-theme"]
 	path = extensions/retrofit-theme
 	url = https://github.com/snapsnapturtle/retrofit-zed.git
+
+[submodule "extensions/rewrite-theme"]
+	path = extensions/rewrite-theme
+	url = https://github.com/RewriteToday/theme.git
 
 [submodule "extensions/rhai"]
 	path = extensions/rhai
@@ -3514,6 +3550,10 @@
 	path = extensions/spicy
 	url = https://github.com/0xORB/spicy-zed
 
+[submodule "extensions/spinel-theme"]
+	path = extensions/spinel-theme
+	url = https://github.com/a-lavis/zed-spinel
+
 [submodule "extensions/sql"]
 	path = extensions/sql
 	url = https://github.com/zed-extensions/sql.git
@@ -3609,6 +3649,10 @@
 [submodule "extensions/superhtml"]
 	path = extensions/superhtml
 	url = https://github.com/WeetHet/superhtml-zed.git
+
+[submodule "extensions/superior-green-theme"]
+	path = extensions/superior-green-theme
+	url = https://github.com/rm-reins/Superior-Green.git
 
 [submodule "extensions/supertheme4"]
 	path = extensions/supertheme4
@@ -4145,6 +4189,10 @@
 [submodule "extensions/wakfu-theme"]
 	path = extensions/wakfu-theme
 	url = https://github.com/JulesSorensen/zed-wakfu-theme
+
+[submodule "extensions/warm-burnout-theme"]
+	path = extensions/warm-burnout-theme
+	url = https://github.com/felipefdl/warm-burnout.git
 
 [submodule "extensions/warm-light"]
 	path = extensions/warm-light
