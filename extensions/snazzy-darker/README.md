@@ -26,7 +26,7 @@ A darker, high-contrast variant of the popular Snazzy color scheme, optimized fo
 5. Select the theme from the theme selector
 
 ## Screenshot
-(https://github.com/jnwellsdev/extensions/blob/add-snazzy-darker-theme/extensions/snazzy-darker/preview.png)
+<img src='https://github.com/jnwellsdev/extensions/blob/add-snazzy-darker-theme/extensions/snazzy-darker/preview.png'/>
 
 ## License
 MIT
