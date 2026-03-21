@@ -1810,6 +1810,10 @@
 	path = extensions/jsp
 	url = https://github.com/tartarughina/zed-jsp.git
 
+[submodule "extensions/jubby-theme"]
+	path = extensions/jubby-theme
+	url = https://github.com/zeke-john/jubby-theme.git
+
 [submodule "extensions/julia"]
 	path = extensions/julia
 	url = https://github.com/JuliaEditorSupport/zed-julia.git
@@ -4413,6 +4417,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/jubby-theme"]
-	path = extensions/jubby-theme
-	url = https://github.com/zeke-john/jubby-theme.git
