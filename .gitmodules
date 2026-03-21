@@ -1934,6 +1934,10 @@
 	path = extensions/liquidsoap
 	url = https://github.com/LooFifteen/liquidsoap-zed.git
 
+[submodule "extensions/lisette"]
+	path = extensions/lisette
+	url = https://github.com/ivov/lisette.git
+
 [submodule "extensions/live-server"]
 	path = extensions/live-server
 	url = https://github.com/frederik-uni/zed-live-server.git
@@ -4373,6 +4377,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/lisette"]
-	path = extensions/lisette
-	url = https://github.com/ivov/lisette.git
