@@ -4,7 +4,7 @@ version = "0.0.2"
 
 [0x96f]
 submodule = "extensions/0x96f"
-version = "1.3.5"
+version = "1.3.6"
 
 [0xtz]
 submodule = "extensions/0xtz"
@@ -118,7 +118,7 @@ version = "0.1.1"
 
 [angular]
 submodule = "extensions/angular"
-version = "0.0.4"
+version = "0.0.5"
 
 [angular-snippets]
 submodule = "extensions/angular-snippets"
@@ -336,7 +336,7 @@ version = "0.0.3"
 
 [beancount]
 submodule = "extensions/beancount"
-version = "0.1.1"
+version = "0.1.2"
 
 [beanseeds-pro]
 submodule = "extensions/beanseeds-pro"
@@ -368,7 +368,7 @@ version = "0.0.1"
 
 [bicep]
 submodule = "extensions/bicep"
-version = "1.2.1"
+version = "1.2.2"
 
 [biome]
 submodule = "extensions/biome"
@@ -550,7 +550,7 @@ version = "0.9.9"
 
 [cfengine]
 submodule = "extensions/cfengine"
-version = "1.0.1"
+version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
@@ -594,7 +594,7 @@ version = "0.0.2"
 
 [chrome-devtools-mcp]
 submodule = "extensions/chrome-devtools-mcp"
-version = "1.0.0"
+version = "1.0.2"
 
 [cinnamonwine-theme]
 submodule = "extensions/cinnamonwine-theme"
@@ -614,7 +614,7 @@ version = "0.0.2"
 
 [clarity]
 submodule = "extensions/clarity"
-version = "0.0.1"
+version = "0.1.0"
 
 [claude-code-inspired-dark]
 submodule = "extensions/claude-code-inspired-dark"
@@ -725,7 +725,7 @@ version = "1.3.3"
 
 [corust-agent]
 submodule = "extensions/corust-agent"
-version = "0.3.8"
+version = "0.4.0"
 
 [cosmos]
 submodule = "extensions/cosmos"
@@ -769,7 +769,7 @@ version = "1.2.4"
 
 [cspell]
 submodule = "extensions/cspell"
-version = "0.0.6"
+version = "0.0.7"
 
 [css-modules-kit]
 submodule = "extensions/css-modules-kit"
@@ -1032,6 +1032,10 @@ version = "0.0.4"
 submodule = "extensions/earthfile"
 version = "0.1.0"
 
+[earthsong-theme]
+submodule = "extensions/earthsong-theme"
+version = "1.0.0"
+
 [eclat]
 submodule = "extensions/eclat"
 version = "0.1.0"
@@ -1074,7 +1078,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.3.4"
+version = "0.3.5"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -1107,7 +1111,7 @@ version = "0.0.2"
 
 [emmet]
 submodule = "extensions/emmet"
-version = "0.0.9"
+version = "0.0.10"
 
 [emmylua]
 submodule = "extensions/emmylua"
@@ -1427,7 +1431,7 @@ version = "0.2.2"
 
 [go-snippets]
 submodule = "extensions/go-snippets"
-version = "0.1.1"
+version = "0.1.5"
 
 [godot-theme]
 submodule = "extensions/godot-theme"
@@ -1901,9 +1905,13 @@ version = "1.0.0"
 submodule = "extensions/kiselevka"
 version = "0.0.1"
 
+[kokedera-icons]
+submodule = "extensions/kokedera-icons"
+version = "1.0.0"
+
 [kokedera-theme]
 submodule = "extensions/kokedera-theme"
-version = "1.0.0"
+version = "1.0.1"
 
 [kotlin]
 submodule = "extensions/kotlin"
@@ -2032,7 +2040,7 @@ version = "0.1.1"
 
 [lua]
 submodule = "extensions/lua"
-version = "0.1.8"
+version = "0.1.9"
 
 [luau]
 submodule = "extensions/luau"
@@ -2386,7 +2394,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.4.2"
+version = "2.5.0"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2427,7 +2435,7 @@ version = "0.1.0"
 
 [monokai-pro-ce]
 submodule = "extensions/monokai-pro-ce"
-version = "1.0.0"
+version = "1.0.1"
 
 [monokai-reversed]
 submodule = "extensions/monokai-reversed"
@@ -2628,7 +2636,7 @@ version = "0.1.0"
 
 [noir]
 submodule = "extensions/noir"
-version = "0.0.1"
+version = "0.0.2"
 
 [noir-and-blanc-theme]
 submodule = "extensions/noir-and-blanc-theme"
@@ -2752,7 +2760,7 @@ version = "0.3.11"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "1.2.0"
+version = "1.2.1"
 
 [odoo-lsp]
 submodule = "extensions/odoo-lsp"
@@ -2777,7 +2785,7 @@ version = "0.0.4"
 
 [one-dark-darkened]
 submodule = "extensions/one-dark-darkened"
-version = "1.0.1"
+version = "1.0.2"
 
 [one-dark-extended]
 submodule = "extensions/one-dark-extended"
@@ -2830,7 +2838,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.2.26"
+version = "1.3.0"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2866,7 +2874,7 @@ version = "0.2.0"
 
 [oso]
 submodule = "extensions/oso"
-version = "0.0.1"
+version = "0.1.1"
 
 [outrun]
 submodule = "extensions/outrun"
@@ -2950,7 +2958,7 @@ version = "1.0.1"
 
 [perl]
 submodule = "extensions/perl"
-version = "0.1.1"
+version = "0.2.0"
 
 [perm]
 submodule = "extensions/perm"
@@ -3254,7 +3262,7 @@ version = "0.1.4"
 
 [red]
 submodule = "extensions/red"
-version = "0.1.2"
+version = "0.2.0"
 
 [redscript]
 submodule = "extensions/redscript"
@@ -3351,7 +3359,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.9"
+version = "0.16.10"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -3391,7 +3399,7 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.1.8"
+version = "0.1.9"
 
 [semgrep]
 submodule = "extensions/semgrep"
@@ -3633,7 +3641,7 @@ version = "0.1.9"
 
 [stan]
 submodule = "extensions/stan"
-version = "1.0.0"
+version = "1.1.0"
 
 [starlark]
 submodule = "extensions/starlark"
@@ -3690,7 +3698,7 @@ version = "0.1.0"
 
 [supergreatmonokai]
 submodule = "extensions/supergreatmonokai"
-version = "0.0.3"
+version = "0.0.4"
 
 [superhtml]
 submodule = "extensions/superhtml"
@@ -3796,7 +3804,7 @@ version = "0.0.2"
 
 [templ]
 submodule = "extensions/templ"
-version = "0.0.7"
+version = "0.0.9"
 
 [templeos-theme]
 submodule = "extensions/templeos-theme"
@@ -4219,7 +4227,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.3.1"
+version = "0.3.2"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
