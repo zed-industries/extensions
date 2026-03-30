@@ -65,7 +65,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.14.0"
+version = "0.17.0"
 
 [aiken]
 submodule = "extensions/aiken"
@@ -694,6 +694,10 @@ version = "0.3.1"
 submodule = "extensions/colorizer"
 version = "1.0.6"
 
+[commander-gold-theme]
+submodule = "extensions/commander-gold-theme"
+version = "0.0.1"
+
 [comment]
 submodule = "extensions/comment"
 version = "0.6.3"
@@ -1074,7 +1078,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.4.0"
+version = "0.4.1"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -1188,7 +1192,7 @@ version = "1.0.0"
 
 [ferret]
 submodule = "extensions/ferret"
-version = "0.0.10"
+version = "0.0.11"
 
 [fiber-snippets]
 submodule = "extensions/fiber-snippets"
@@ -2712,7 +2716,7 @@ version = "0.0.1"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.7.0"
+version = "0.8.0"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -3419,7 +3423,7 @@ version = "1.31.0"
 
 [sercali]
 submodule = "extensions/sercali"
-version = "0.0.1"
+version = "0.0.2"
 
 [serena-context-server]
 submodule = "extensions/serena-context-server"
@@ -3427,7 +3431,11 @@ version = "0.0.1"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "0.0.9"
+version = "1.0.0"
+
+[serendipity-icons]
+submodule = "extensions/serendipity-icons"
+version = "0.0.1"
 
 [seti-icons]
 submodule = "extensions/seti-icons"
@@ -3678,7 +3686,7 @@ version = "0.1.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
-version = "1.1.3"
+version = "1.1.4"
 
 [subliminal-nightfall]
 submodule = "extensions/subliminal-nightfall"
