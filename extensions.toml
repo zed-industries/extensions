@@ -1074,7 +1074,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.4.0"
+version = "0.4.1"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -2390,7 +2390,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.6.2"
+version = "2.7.0"
 path = "distribution/zed"
 
 [mnemonic]
@@ -3423,7 +3423,11 @@ version = "0.0.1"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "0.0.9"
+version = "1.0.0"
+
+[serendipity-icons]
+submodule = "extensions/serendipity-icons"
+version = "0.0.1"
 
 [seti-icons]
 submodule = "extensions/seti-icons"
@@ -4251,7 +4255,7 @@ version = "0.1.1"
 
 [warm-burnout-theme]
 submodule = "extensions/warm-burnout-theme"
-version = "0.1.0"
+version = "1.4.2"
 path = "zed"
 
 [warm-light]
