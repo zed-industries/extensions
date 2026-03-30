@@ -16,11 +16,13 @@ import {
 } from "./lib/git.js";
 import { exec } from "./lib/process.js";
 import {
+  assertVersionNotDecreased,
   validateExtensionsToml,
   validateGitmodules,
   validateManifest,
   validateLicense,
   validateGitmodulesLocations,
+  validateExtensionIdsNotChanged,
 } from "./lib/validation.js";
 
 const {
@@ -322,11 +324,21 @@ async function changedExtensionIds(extensionsToml, useMergeBase) {
   /** @type {any} */
   const mainExtensionsToml = toml.parse(extensionsContents);
 
+  validateExtensionIdsNotChanged(extensionsToml, mainExtensionsToml);
+
   const result = [];
   for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {
-    if (mainExtensionsToml[extensionId]?.version === extensionInfo.version) {
+    const previousVersion = mainExtensionsToml[extensionId]?.version;
+    const currentVersion = extensionInfo.version;
+
+    if (previousVersion === currentVersion) {
       continue;
     }
+
+    if (previousVersion && currentVersion) {
+      assertVersionNotDecreased(extensionId, currentVersion, previousVersion);
+    }
+
     result.push(extensionId);
   }
 
