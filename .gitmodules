@@ -2314,6 +2314,10 @@
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
 
+[submodule "extensions/mcp-server-zuraffa"]
+	path = extensions/mcp-server-zuraffa
+	url = https://github.com/arrrrny/zuraffa-zed.git
+
 [submodule "extensions/mdx"]
 	path = extensions/mdx
 	url = https://github.com/srazzak/zed-mdx.git
@@ -4445,10 +4449,6 @@
 [submodule "extensions/zuban"]
 	path = extensions/zuban
 	url = https://github.com/CMLL/zed_zuban.git
-
-[submodule "extensions/zuraffa"]
-	path = extensions/zuraffa
-	url = https://github.com/arrrrny/zuraffa-zed.git
 
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
