@@ -3050,6 +3050,10 @@
 	path = extensions/popping-and-locking
 	url = https://github.com/randoneering/popping-and-locking-zed-theme.git
 
+[submodule "extensions/popping-and-locking-black"]
+	path = extensions/popping-and-locking-black
+	url = https://github.com/rgomids/popping-and-locking-black-zed-theme.git
+
 [submodule "extensions/postgres-context-server"]
 	path = extensions/postgres-context-server
 	url = https://github.com/zed-extensions/postgres-context-server.git
@@ -4449,7 +4453,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-
-[submodule "extensions/popping-and-locking-black"]
-	path = extensions/popping-and-locking-black
-	url = git@github.com:rgomids/popping-and-locking-black-zed-theme.git
