@@ -443,6 +443,10 @@ version = "1.0.0"
 submodule = "extensions/bookmark"
 version = "0.1.0"
 
+[borderless-minimal-theme]
+submodule = "extensions/borderless-minimal-theme"
+version = "0.1.0"
+
 [bqn]
 submodule = "extensions/bqn"
 version = "0.0.1"
@@ -1351,6 +1355,10 @@ version = "0.0.3"
 [gemini]
 submodule = "extensions/gemini"
 version = "0.0.1"
+
+[genexpr]
+submodule = "extensions/genexpr"
+version = "0.1.0"
 
 [gentle-dark]
 submodule = "extensions/gentle-dark"
@@ -2535,7 +2543,7 @@ version = "0.1.0"
 
 [neocmake]
 submodule = "extensions/neocmake"
-version = "0.1.1"
+version = "1.0.0"
 
 [neon-comfy-soft-themes]
 submodule = "extensions/neon-comfy-soft-themes"
@@ -2943,6 +2951,10 @@ version = "0.1.0"
 [pbxproj]
 submodule = "extensions/pbxproj"
 version = "0.2.0"
+
+[pearish-theme]
+submodule = "extensions/pearish-theme"
+version = "0.0.1"
 
 [penumbra]
 submodule = "extensions/penumbra"
@@ -3787,7 +3799,7 @@ version = "0.0.1"
 
 [taiga-theme]
 submodule = "extensions/taiga-theme"
-version = "0.0.2"
+version = "0.0.3"
 path = "packages/zed"
 
 [tailwind-theme]
@@ -3802,9 +3814,18 @@ version = "0.1.0"
 submodule = "extensions/tanuki"
 version = "0.0.1"
 
+[taskfile]
+submodule = "extensions/taskfile"
+version = "0.1.0"
+
 [tcl]
 submodule = "extensions/tcl"
 version = "0.0.2"
+
+[technicolor-theme]
+submodule = "extensions/technicolor-theme"
+version = "0.0.1"
+path = "zed"
 
 [templ]
 submodule = "extensions/templ"
@@ -3999,6 +4020,10 @@ version = "0.0.5"
 [typst]
 submodule = "extensions/typst"
 version = "0.1.1"
+
+[tyranoscript]
+submodule = "extensions/tyranoscript"
+version = "0.1.0"
 
 [ucode]
 submodule = "extensions/ucode"
