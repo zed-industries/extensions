@@ -2984,6 +2984,11 @@ version = "0.2.0"
 submodule = "extensions/pest"
 version = "0.1.1"
 
+[pgfmt]
+submodule = "extensions/pgfmt"
+path = "zed-pgfmt"
+version = "0.3.1"
+
 [phasmid-theme]
 submodule = "extensions/phasmid-theme"
 version = "1.0.0"
