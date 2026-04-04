@@ -4126,6 +4126,10 @@
 	path = extensions/viewtree
 	url = https://github.com/Dev-cmyser/zed-view.tree-mol-support.git
 
+[submodule "extensions/viewtree-icon-theme"]
+	path = extensions/viewtree-icon-theme
+	url = https://github.com/b-on-g/zed-viewtree-icon-theme.git
+
 [submodule "extensions/vim-theme"]
 	path = extensions/vim-theme
 	url = https://github.com/daniel-thompson/vim-theme-for-zed.git
@@ -4449,6 +4453,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/viewtree-icon-theme"]
-	path = extensions/viewtree-icon-theme
-	url = https://github.com/b-on-g/zed-viewtree-icon-theme.git
