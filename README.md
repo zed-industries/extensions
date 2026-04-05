@@ -38,4 +38,4 @@ This extension brings the next-generation default dark theme from VS Code (2026 
 
 ## 📜 License
 
-This project is released under the **MIT License**. Original theme design by **Microsoft**. Ported for Zed by **[chrocy](https://github.com/lxhzz)**.
+This project is released under the **MIT License**. Original theme design by **Microsoft**. Ported for Zed by **[chrocy](https://github.com/chrocy)**.

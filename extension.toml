@@ -3,9 +3,7 @@ name = "2026 Dark"
 description = "A meticulous port of Microsoft’s official VS Code 2026 Dark theme."
 version = "0.1.0"
 schema_version = 1
-authors = ["chrocy <https://github.com/lxhzz>"]
-repository = "https://github.com/lxhzz/zed-2026-dark"
+authors = ["chrocy <https://github.com/chrocy>"]
+repository = "https://github.com/chrocy/zed-2026-dark"
 
-themes = [
-    "themes/2026-dark.json",
-]
+themes = ["themes/2026-dark.json"]
