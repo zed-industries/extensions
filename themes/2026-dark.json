@@ -41,7 +41,7 @@
         "ghost_element.active": "#FFFFFF18",
         "ghost_element.selected": "#3994BC26",
         "ghost_element.disabled": "#444444",
-        "text": "#BBBEBF",
+        "text": "#bfbfbf",
         "text.muted": "#8C8C8C",
         "text.placeholder": "#555555",
         "text.disabled": "#555555",
@@ -53,11 +53,11 @@
         "icon.accent": "#3994BC",
         "link_text.hover": "#53A5CA",
         "editor.background": "#121314",
-        "editor.foreground": "#BBBEBF",
+        "editor.foreground": "#bfbfbf",
         "editor.active_line.background": "#242526",
         "editor.highlighted_line.background": "#242526",
         "editor.line_number": "#858889",
-        "editor.active_line_number": "#BBBEBF",
+        "editor.active_line_number": "#bfbfbf",
         "editor.gutter.background": "#121314",
         "editor.subheader.background": "#242526",
         "editor.indent_guide": "#8384854D",
@@ -75,7 +75,7 @@
         "scrollbar.track.background": "#121314",
         "scrollbar.track.border": "#2A2B2C",
         "terminal.background": "#191A1B",
-        "terminal.foreground": "#BBBEBF",
+        "terminal.foreground": "#bfbfbf",
         "terminal.bright_foreground": "#FFFFFF",
         "terminal.dim_foreground": "#8C8C8C",
         "terminal.ansi.background": "#191A1B",
@@ -93,8 +93,16 @@
         "terminal.ansi.bright_magenta": "#d2a8ff",
         "terminal.ansi.cyan": "#a5d6ff",
         "terminal.ansi.bright_cyan": "#a5d6ff",
-        "terminal.ansi.white": "#BBBEBF",
+        "terminal.ansi.white": "#bfbfbf",
         "terminal.ansi.bright_white": "#FFFFFF",
+        "terminal.ansi.dim_black": "#1e1e1e",
+        "terminal.ansi.dim_red": "#f48771",
+        "terminal.ansi.dim_green": "#73c991",
+        "terminal.ansi.dim_yellow": "#e5ba7d",
+        "terminal.ansi.dim_blue": "#3994BC",
+        "terminal.ansi.dim_magenta": "#d2a8ff",
+        "terminal.ansi.dim_cyan": "#a5d6ff",
+        "terminal.ansi.dim_white": "#bfbfbf",
         "created": "#73c991",
         "created.background": "#347d3926",
         "created.border": "#57ab5a4d",
@@ -104,15 +112,42 @@
         "deleted": "#f48771",
         "deleted.background": "#c93c3726",
         "deleted.border": "#f470674d",
-        "conflict": "#F4B87A",
+        "conflict": "#f48771",
+        "conflict.background": "#f487711a",
+        "conflict.border": "#f487714d",
+        "ignored": "#8C8C8C",
+        "ignored.background": "#8C8C8C1a",
+        "ignored.border": "#8C8C8C4d",
         "renamed": "#79c0ff",
-        "error": "#f48771",
-        "warning": "#e5ba7d",
-        "info": "#3a94bc",
+        "renamed.background": "#79c0ff1a",
+        "renamed.border": "#79c0ff4d",
+        "predictive": "#8C8C8C",
+        "predictive.background": "#8C8C8C1a",
+        "predictive.border": "#8C8C8C4d",
+        "unreachable": "#8C8C8C",
+        "unreachable.background": "#8C8C8C1a",
+        "unreachable.border": "#8C8C8C4d",
+        "hidden": "#8C8C8C",
+        "hidden.background": "#8C8C8C1a",
+        "hidden.border": "#8C8C8C4d",
+        "error": "#f14c4c",
+        "error.background": "#202122",
+        "error.border": "#f14c4c4d",
+        "warning": "#cca700",
+        "warning.background": "#202122",
+        "warning.border": "#cca7004d",
+        "info": "#3794ff",
+        "info.background": "#202122",
+        "info.border": "#3794ff4d",
         "success": "#73c991",
+        "success.background": "#73c9911a",
+        "success.border": "#73c9914d",
+        "hint": "#8C8C8C",
+        "hint.background": "#8C8C8C1a",
+        "hint.border": "#8C8C8C4d",
         "players": [
           {
-            "cursor": "#BBBEBF",
+            "cursor": "#bfbfbf",
             "background": "#3994BC26",
             "selection": "#276782dd"
           },
@@ -166,7 +201,7 @@
             "color": "#ff7b72"
           },
           "operator": {
-            "color": "#BBBEBF"
+            "color": "#bfbfbf"
           },
           "type": {
             "color": "#ff7b72"
@@ -239,13 +274,13 @@
             "color": "#c9d1d9"
           },
           "punctuation": {
-            "color": "#BBBEBF"
+            "color": "#bfbfbf"
           },
           "punctuation.bracket": {
             "color": "#8b949e"
           },
           "punctuation.delimiter": {
-            "color": "#BBBEBF"
+            "color": "#bfbfbf"
           },
           "punctuation.list_marker": {
             "color": "#ffa657"
