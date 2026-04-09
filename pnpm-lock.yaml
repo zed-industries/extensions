@@ -31,8 +31,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/node':
-        specifier: 20.19.37
-        version: 20.19.37
+        specifier: 20.19.39
+        version: 20.19.39
       danger:
         specifier: 13.0.7
         version: 13.0.7
@@ -47,7 +47,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: 4.1.2
-        version: 4.1.2(@types/node@20.19.37)(vite@7.1.12(@types/node@20.19.37))
+        version: 4.1.2(@types/node@20.19.39)(vite@7.1.12(@types/node@20.19.39))
 
 packages:
 
@@ -787,8 +787,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@20.19.37':
-    resolution: {integrity: sha512-8kzdPJ3FsNsVIurqBs7oodNnCEVbni9yUEkaHbgptDACOPW04jimGagZ51E6+lXUwJjgnBw+hyko/lkFWCldqw==}
+  '@types/node@20.19.39':
+    resolution: {integrity: sha512-orrrD74MBUyK8jOAD/r0+lfa1I2MO6I+vAkmAWzMYbCcgrN4lCrmK52gRFQq/JRxfYPfonkr4b0jcY7Olqdqbw==}
 
   '@types/semver@7.7.1':
     resolution: {integrity: sha512-FmgJfu+MOcQ370SD0ev7EI8TlCAfKYU+B4m5T3yXc1CiRN94g/SZPtsCkk506aUDtlMnFZvasDwHHUcZUEaYuA==}
@@ -2376,7 +2376,7 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@20.19.37':
+  '@types/node@20.19.39':
     dependencies:
       undici-types: 6.21.0
 
@@ -2391,13 +2391,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.2(vite@7.1.12(@types/node@20.19.37))':
+  '@vitest/mocker@4.1.2(vite@7.1.12(@types/node@20.19.39))':
     dependencies:
       '@vitest/spy': 4.1.2
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.1.12(@types/node@20.19.37)
+      vite: 7.1.12(@types/node@20.19.39)
 
   '@vitest/pretty-format@4.1.2':
     dependencies:
@@ -2871,7 +2871,7 @@ snapshots:
 
   universal-user-agent@6.0.1: {}
 
-  vite@7.1.12(@types/node@20.19.37):
+  vite@7.1.12(@types/node@20.19.39):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2880,13 +2880,13 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 20.19.37
+      '@types/node': 20.19.39
       fsevents: 2.3.3
 
-  vitest@4.1.2(@types/node@20.19.37)(vite@7.1.12(@types/node@20.19.37)):
+  vitest@4.1.2(@types/node@20.19.39)(vite@7.1.12(@types/node@20.19.39)):
     dependencies:
       '@vitest/expect': 4.1.2
-      '@vitest/mocker': 4.1.2(vite@7.1.12(@types/node@20.19.37))
+      '@vitest/mocker': 4.1.2(vite@7.1.12(@types/node@20.19.39))
       '@vitest/pretty-format': 4.1.2
       '@vitest/runner': 4.1.2
       '@vitest/snapshot': 4.1.2
@@ -2903,10 +2903,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.1.0
-      vite: 7.1.12(@types/node@20.19.37)
+      vite: 7.1.12(@types/node@20.19.39)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.19.37
+      '@types/node': 20.19.39
     transitivePeerDependencies:
       - msw
 
