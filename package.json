@@ -13,7 +13,7 @@
     "danger": "danger"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.1017.0",
+    "@aws-sdk/client-s3": "3.1027.0",
     "@iarna/toml": "2.2.5",
     "@types/semver": "^7.7.1",
     "git-submodule-js": "1.0.5",
@@ -22,11 +22,11 @@
   "devDependencies": {
     "@tsconfig/node22": "22.0.5",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "20.19.37",
+    "@types/node": "20.19.39",
     "danger": "13.0.7",
     "danger-plugin-pr-hygiene": "0.7.1",
     "prettier": "3.8.1",
     "typescript": "5.9.3",
-    "vitest": "4.1.1"
+    "vitest": "4.1.4"
   }
 }
