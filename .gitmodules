@@ -3318,6 +3318,10 @@
 	path = extensions/rover
 	url = https://github.com/rover-app/zed-extension.git
 
+[submodule "extensions/rovo-lsp"]
+	path = extensions/rovo-lsp
+	url = https://github.com/Arthurdw/rovo.git
+
 [submodule "extensions/rpmspec"]
 	path = extensions/rpmspec
 	url = https://github.com/mtorromeo/zed-rpmspec-language.git
