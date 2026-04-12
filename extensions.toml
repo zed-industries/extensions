@@ -256,7 +256,7 @@ version = "0.0.2"
 
 [auto-file-header]
 submodule = "extensions/auto-file-header"
-version = "0.2.7"
+version = "0.3.0"
 
 [autocorrect]
 submodule = "extensions/autocorrect"
@@ -546,7 +546,7 @@ version = "0.0.1"
 [cem]
 submodule = "extensions/cem"
 path = "extensions/zed"
-version = "0.9.17"
+version = "0.9.18"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -655,7 +655,7 @@ version = "0.0.5"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.2.9"
+version = "0.2.11"
 
 [codebuddy]
 submodule = "extensions/codebuddy"
@@ -820,6 +820,10 @@ version = "0.7.1"
 submodule = "extensions/cyberpunk-2077"
 version = "2.0.0"
 
+[cyberpunk-2077-theme]
+submodule = "extensions/cyberpunk-2077-theme"
+version = "0.0.2"
+
 [cyberpunk-scarlet]
 submodule = "extensions/cyberpunk-scarlet"
 version = "0.0.2"
@@ -945,7 +949,7 @@ version = "1.0.1"
 [design-tokens]
 submodule = "extensions/design-tokens"
 path = "extensions/zed"
-version = "0.1.24"
+version = "0.3.0"
 
 [desktop]
 submodule = "extensions/desktop"
@@ -1341,7 +1345,7 @@ version = "0.0.1"
 
 [gdscript]
 submodule = "extensions/gdscript"
-version = "0.7.0"
+version = "0.8.0"
 
 [gdscript-snippets]
 submodule = "extensions/gdscript-snippets"
@@ -1711,6 +1715,10 @@ version = "0.0.1"
 submodule = "extensions/immigrant"
 version = "0.1.2"
 
+[import-cost-lsp]
+submodule = "extensions/import-cost-lsp"
+version = "0.0.2"
+
 [indigo]
 submodule = "extensions/indigo"
 version = "0.1.2"
@@ -1915,7 +1923,7 @@ version = "0.0.1"
 
 [kokedera-icons]
 submodule = "extensions/kokedera-icons"
-version = "1.0.0"
+version = "1.0.1"
 
 [kokedera-theme]
 submodule = "extensions/kokedera-theme"
@@ -2053,6 +2061,10 @@ version = "0.1.9"
 [luau]
 submodule = "extensions/luau"
 version = "0.3.7"
+
+[lume-theme]
+submodule = "extensions/lume-theme"
+version = "0.1.0"
 
 [lumina-theme]
 submodule = "extensions/lumina-theme"
@@ -2402,7 +2414,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.7.3"
+version = "2.7.4"
 path = "distribution/zed"
 
 [mnemonic]
@@ -2740,7 +2752,7 @@ version = "1.0.1"
 
 [objectscript]
 submodule = "extensions/objectscript"
-version = "1.2.0"
+version = "1.3.0"
 
 [obsidian-sunset]
 submodule = "extensions/obsidian-sunset"
@@ -3079,7 +3091,7 @@ version = "0.8.1"
 
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
-version = "1.0.10"
+version = "1.0.12"
 
 [pony]
 submodule = "extensions/pony"
@@ -3300,6 +3312,10 @@ version = "0.0.2"
 submodule = "extensions/relay"
 version = "0.0.5"
 
+[remedy-theme]
+submodule = "extensions/remedy-theme"
+version = "0.1.0"
+
 [replicant]
 submodule = "extensions/replicant"
 version = "0.0.2"
@@ -3365,13 +3381,18 @@ version = "0.1.0"
 submodule = "extensions/rover"
 version = "0.1.0"
 
+[rovo-lsp]
+submodule = "extensions/rovo-lsp"
+path = "zed-rovo"
+version = "0.0.1"
+
 [rpmspec]
 submodule = "extensions/rpmspec"
 version = "0.0.1"
 
 [rshtml]
 submodule = "extensions/rshtml"
-version = "0.1.5"
+version = "0.1.6"
 
 [rst]
 submodule = "extensions/rst"
@@ -3606,6 +3627,10 @@ version = "0.1.1"
 [sonokai]
 submodule = "extensions/sonokai"
 version = "0.0.7"
+
+[sora-theme]
+submodule = "extensions/sora-theme"
+version = "0.1.0"
 
 [sorbet]
 submodule = "extensions/sorbet"
@@ -3936,6 +3961,10 @@ version = "0.7.0"
 submodule = "extensions/tokyo-night-dark"
 version = "0.1.0"
 
+[tokyoppuccin-theme]
+submodule = "extensions/tokyoppuccin-theme"
+version = "0.1.0"
+
 [tombi]
 submodule = "extensions/tombi"
 path = "editors/zed"
@@ -4049,6 +4078,10 @@ version = "0.1.0"
 submodule = "extensions/ultralytics-snippets"
 version = "0.0.2"
 
+[ultraviolet-theme]
+submodule = "extensions/ultraviolet-theme"
+version = "0.1.1"
+
 [umbralkai]
 submodule = "extensions/umbralkai"
 version = "0.1.0"
@@ -4056,6 +4089,10 @@ version = "0.1.0"
 [umka]
 submodule = "extensions/umka"
 version = "0.0.1"
+
+[umple]
+submodule = "extensions/umple"
+version = "0.1.0"
 
 [underground-theme]
 submodule = "extensions/underground-theme"
@@ -4240,7 +4277,7 @@ version = "0.0.9"
 
 [vscode-great-icons]
 submodule = "extensions/vscode-great-icons"
-version = "0.2.7"
+version = "0.2.8"
 
 [vscode-icons]
 submodule = "extensions/vscode-icons"
@@ -4256,7 +4293,7 @@ version = "0.0.2"
 
 [vscode-modern]
 submodule = "extensions/vscode-modern"
-version = "0.1.1"
+version = "0.1.2"
 
 [vscode-monokai-charcoal]
 submodule = "extensions/vscode-monokai-charcoal"
