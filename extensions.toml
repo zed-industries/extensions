@@ -2114,6 +2114,10 @@ version = "1.0.0"
 submodule = "extensions/markdown-oxide"
 version = "0.0.5"
 
+[markdown-pdf]
+submodule = "extensions/markdown-pdf"
+version = "0.1.2"
+
 [markdown-snippets]
 submodule = "extensions/markdown-snippets"
 version = "0.0.7"
@@ -4508,7 +4512,3 @@ version = "0.0.1"
 [zwirn]
 submodule = "extensions/zwirn"
 version = "0.2.0"
-
-[markdown-pdf]
-submodule = "extensions/markdown-pdf"
-version = "0.1.2"
