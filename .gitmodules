@@ -1902,6 +1902,10 @@
 	path = extensions/ktrz-monokai
 	url = https://github.com/pcminh0505/ktrz-monokai-zed-theme.git
 
+[submodule "extensions/kubernetes-snippets"]
+	path = extensions/kubernetes-snippets
+	url = https://github.com/zed-kubernetes/kubernetes-snippets
+
 [submodule "extensions/kubesong"]
 	path = extensions/kubesong
 	url = https://github.com/helgelol/kubesong-zed-theme.git
@@ -4449,6 +4453,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/kubernetes-snippets"]
-	path = extensions/kubernetes-snippets
-	url = https://github.com/zed-kubernetes/kubernetes-snippets
