@@ -2051,6 +2051,11 @@ submodule = "extensions/lisette"
 path = "editors/zed"
 version = "0.1.0"
 
+[little-league-theme]
+submodule = "extensions/little-league-theme"
+path = "targets/zed"
+version = "1.4.1"
+
 [live-server]
 submodule = "extensions/live-server"
 version = "0.3.1"
@@ -2127,6 +2132,10 @@ version = "0.1.0"
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.4.0"
+
+[mainframe-theme]
+submodule = "extensions/mainframe-theme"
+version = "0.1.0"
 
 [make]
 submodule = "extensions/make"
