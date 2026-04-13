@@ -779,11 +779,6 @@ version = "1.2.4"
 submodule = "extensions/cspell"
 version = "0.0.7"
 
-[csskit-lsp]
-submodule = "extensions/csskit-lsp"
-version = "0.0.1"
-path = "packages/csskit_zed"
-
 [css-modules-kit]
 submodule = "extensions/css-modules-kit"
 version = "0.1.1"
@@ -792,6 +787,11 @@ path = "crates/zed"
 [css-variables]
 submodule = "extensions/css-variables"
 version = "0.1.0"
+
+[csskit-lsp]
+submodule = "extensions/csskit-lsp"
+version = "0.0.1"
+path = "packages/csskit_zed"
 
 [csv]
 submodule = "extensions/csv"
