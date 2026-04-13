@@ -788,6 +788,11 @@ path = "crates/zed"
 submodule = "extensions/css-variables"
 version = "0.1.0"
 
+[csskit-lsp]
+submodule = "extensions/csskit-lsp"
+version = "0.0.1"
+path = "packages/csskit_zed"
+
 [csv]
 submodule = "extensions/csv"
 version = "0.0.3"
@@ -1039,6 +1044,10 @@ version = "0.1.0"
 [dwp]
 submodule = "extensions/dwp"
 version = "0.0.4"
+
+[earo-theme]
+submodule = "extensions/earo-theme"
+version = "0.2.0"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -1307,6 +1316,10 @@ version = "0.2.0"
 submodule = "extensions/fozzy"
 version = "0.0.1"
 
+[framer-dark-theme]
+submodule = "extensions/framer-dark-theme"
+version = "1.0.0"
+
 [freemarker]
 submodule = "extensions/freemarker"
 version = "0.1.0"
@@ -1379,6 +1392,10 @@ version = "0.1.0"
 [ghostty]
 submodule = "extensions/ghostty"
 version = "0.3.2"
+
+[ghostty-dark-theme]
+submodule = "extensions/ghostty-dark-theme"
+version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
@@ -1480,6 +1497,10 @@ version = "0.2.1"
 [green-monochrome-monitor-crt-phosphor]
 submodule = "extensions/green-monochrome-monitor-crt-phosphor"
 version = "0.1.3"
+
+[green-theme]
+submodule = "extensions/green-theme"
+version = "0.0.3"
 
 [gren]
 submodule = "extensions/gren"
@@ -1953,6 +1974,10 @@ version = "0.0.2"
 submodule = "extensions/ktrz-monokai"
 version = "0.0.6"
 
+[kubernetes-snippets]
+version = "0.0.1"
+submodule = "extensions/kubernetes-snippets"
+
 [kubesong]
 submodule = "extensions/kubesong"
 version = "1.0.0"
@@ -2025,6 +2050,11 @@ version = "0.1.0"
 submodule = "extensions/lisette"
 path = "editors/zed"
 version = "0.1.0"
+
+[little-league-theme]
+submodule = "extensions/little-league-theme"
+path = "targets/zed"
+version = "1.4.1"
 
 [live-server]
 submodule = "extensions/live-server"
@@ -2102,6 +2132,10 @@ version = "0.1.0"
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.4.0"
+
+[mainframe-theme]
+submodule = "extensions/mainframe-theme"
+version = "0.1.0"
 
 [make]
 submodule = "extensions/make"
@@ -2795,6 +2829,10 @@ version = "0.0.1"
 submodule = "extensions/oceanic-next"
 version = "1.0.0"
 
+[oceans-of-andromeda-theme]
+submodule = "extensions/oceans-of-andromeda-theme"
+version = "1.0.0"
+
 [odin]
 submodule = "extensions/odin"
 version = "0.3.11"
@@ -3106,6 +3144,10 @@ version = "0.1.0"
 submodule = "extensions/poimandres"
 version = "0.0.4"
 
+[pointer-theme]
+submodule = "extensions/pointer-theme"
+version = "1.0.0"
+
 [polar-context-server]
 submodule = "extensions/polar-context-server"
 version = "0.0.1"
@@ -3332,6 +3374,10 @@ version = "0.11.11"
 [rego]
 submodule = "extensions/rego"
 version = "0.0.2"
+
+[relaxed-theme]
+submodule = "extensions/relaxed-theme"
+version = "0.1.0"
 
 [relay]
 submodule = "extensions/relay"
@@ -3762,6 +3808,10 @@ version = "0.1.15"
 submodule = "extensions/sumi-light"
 version = "0.0.2"
 
+[sunrise-bloom-theme]
+submodule = "extensions/sunrise-bloom-theme"
+version = "0.0.1"
+
 [sunset-drive]
 submodule = "extensions/sunset-drive"
 version = "1.0.1"
@@ -4106,6 +4156,10 @@ version = "0.0.2"
 [ultraviolet-theme]
 submodule = "extensions/ultraviolet-theme"
 version = "0.1.1"
+
+[umbra-theme]
+submodule = "extensions/umbra-theme"
+version = "0.1.0"
 
 [umbralkai]
 submodule = "extensions/umbralkai"
