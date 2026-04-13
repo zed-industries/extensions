@@ -788,6 +788,11 @@ path = "crates/zed"
 submodule = "extensions/css-variables"
 version = "0.1.0"
 
+[csskit-lsp]
+submodule = "extensions/csskit-lsp"
+version = "0.0.1"
+path = "packages/csskit_zed"
+
 [csv]
 submodule = "extensions/csv"
 version = "0.0.3"
