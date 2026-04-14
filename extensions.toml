@@ -330,6 +330,10 @@ version = "0.0.5"
 submodule = "extensions/batman"
 version = "0.0.3"
 
+[batsignal-theme]
+submodule = "extensions/batsignal-theme"
+version = "0.0.1"
+
 [beancount]
 submodule = "extensions/beancount"
 version = "0.1.2"
@@ -784,6 +788,11 @@ path = "crates/zed"
 submodule = "extensions/css-variables"
 version = "0.1.0"
 
+[csskit-lsp]
+submodule = "extensions/csskit-lsp"
+version = "0.0.1"
+path = "packages/csskit_zed"
+
 [csv]
 submodule = "extensions/csv"
 version = "0.0.3"
@@ -1035,6 +1044,10 @@ version = "0.1.0"
 [dwp]
 submodule = "extensions/dwp"
 version = "0.0.4"
+
+[earo-theme]
+submodule = "extensions/earo-theme"
+version = "0.2.0"
 
 [earthfile]
 submodule = "extensions/earthfile"
@@ -1303,6 +1316,10 @@ version = "0.2.0"
 submodule = "extensions/fozzy"
 version = "0.0.1"
 
+[framer-dark-theme]
+submodule = "extensions/framer-dark-theme"
+version = "1.0.0"
+
 [freemarker]
 submodule = "extensions/freemarker"
 version = "0.1.0"
@@ -1376,6 +1393,10 @@ version = "0.1.0"
 submodule = "extensions/ghostty"
 version = "0.3.2"
 
+[ghostty-dark-theme]
+submodule = "extensions/ghostty-dark-theme"
+version = "0.1.0"
+
 [git-firefly]
 submodule = "extensions/git-firefly"
 version = "0.1.4"
@@ -1447,7 +1468,7 @@ version = "0.1.5"
 
 [godot-theme]
 submodule = "extensions/godot-theme"
-version = "1.2.0"
+version = "1.3.0"
 
 [golangci-lint]
 submodule = "extensions/golangci-lint"
@@ -1477,6 +1498,10 @@ version = "0.2.1"
 submodule = "extensions/green-monochrome-monitor-crt-phosphor"
 version = "0.1.3"
 
+[green-theme]
+submodule = "extensions/green-theme"
+version = "0.0.3"
+
 [gren]
 submodule = "extensions/gren"
 version = "0.1.0"
@@ -1503,6 +1528,10 @@ version = "1.3.0"
 
 [groq]
 submodule = "extensions/groq"
+version = "0.0.1"
+
+[grove-theme]
+submodule = "extensions/grove-theme"
 version = "0.0.1"
 
 [gruber-darker]
@@ -1553,6 +1582,10 @@ version = "2.0.0"
 submodule = "extensions/hacker-theme"
 version = "1.0.1"
 
+[hackthebox-theme]
+submodule = "extensions/hackthebox-theme"
+version = "0.1.0"
+
 [haku-dark-theme]
 submodule = "extensions/haku-dark-theme"
 version = "0.0.1"
@@ -1588,6 +1621,10 @@ version = "0.3.1"
 [hbuilderx-push-light]
 submodule = "extensions/hbuilderx-push-light"
 version = "0.1.0"
+
+[helios-theme]
+submodule = "extensions/helios-theme"
+version = "0.0.8"
 
 [helm]
 submodule = "extensions/helm"
@@ -1867,7 +1904,7 @@ version = "0.3.2"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.9"
+version = "0.1.10"
 
 [just]
 submodule = "extensions/just"
@@ -1941,6 +1978,10 @@ version = "0.0.2"
 submodule = "extensions/ktrz-monokai"
 version = "0.0.6"
 
+[kubernetes-snippets]
+version = "0.0.1"
+submodule = "extensions/kubernetes-snippets"
+
 [kubesong]
 submodule = "extensions/kubesong"
 version = "1.0.0"
@@ -2013,6 +2054,11 @@ version = "0.1.0"
 submodule = "extensions/lisette"
 path = "editors/zed"
 version = "0.1.0"
+
+[little-league-theme]
+submodule = "extensions/little-league-theme"
+path = "targets/zed"
+version = "1.4.1"
 
 [live-server]
 submodule = "extensions/live-server"
@@ -2090,6 +2136,10 @@ version = "0.1.0"
 [macos-classic]
 submodule = "extensions/macos-classic"
 version = "0.4.0"
+
+[mainframe-theme]
+submodule = "extensions/mainframe-theme"
+version = "0.1.0"
 
 [make]
 submodule = "extensions/make"
@@ -2419,8 +2469,12 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.7.4"
+version = "2.7.5"
 path = "distribution/zed"
+
+[mlir-tablegen]
+submodule = "extensions/mlir-tablegen"
+version = "0.2.1"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -2440,7 +2494,7 @@ version = "0.1.9"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
-version = "0.1.7"
+version = "0.1.8"
 
 [molten-theme]
 submodule = "extensions/molten-theme"
@@ -2783,6 +2837,10 @@ version = "0.0.1"
 submodule = "extensions/oceanic-next"
 version = "1.0.0"
 
+[oceans-of-andromeda-theme]
+submodule = "extensions/oceans-of-andromeda-theme"
+version = "1.0.0"
+
 [odin]
 submodule = "extensions/odin"
 version = "0.3.11"
@@ -3050,6 +3108,10 @@ version = "0.1.0"
 submodule = "extensions/pinata-theme"
 version = "0.0.1"
 
+[pink-candy-theme]
+submodule = "extensions/pink-candy-theme"
+version = "0.1.0"
+
 [pink-cat-boo-theme]
 submodule = "extensions/pink-cat-boo-theme"
 version = "1.3.0"
@@ -3089,6 +3151,10 @@ version = "0.1.0"
 [poimandres]
 submodule = "extensions/poimandres"
 version = "0.0.4"
+
+[pointer-theme]
+submodule = "extensions/pointer-theme"
+version = "1.0.0"
 
 [polar-context-server]
 submodule = "extensions/polar-context-server"
@@ -3316,6 +3382,10 @@ version = "0.11.11"
 [rego]
 submodule = "extensions/rego"
 version = "0.0.2"
+
+[relaxed-theme]
+submodule = "extensions/relaxed-theme"
+version = "0.1.0"
 
 [relay]
 submodule = "extensions/relay"
@@ -3627,7 +3697,7 @@ version = "0.2.0"
 
 [soma]
 submodule = "extensions/soma"
-version = "0.5.0"
+version = "0.6.0"
 
 [sonder-theme]
 submodule = "extensions/sonder-theme"
@@ -3727,7 +3797,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "2.0.2"
+version = "3.0.0"
 
 [styx]
 submodule = "extensions/styx"
@@ -3745,6 +3815,10 @@ version = "0.1.15"
 [sumi-light]
 submodule = "extensions/sumi-light"
 version = "0.0.2"
+
+[sunrise-bloom-theme]
+submodule = "extensions/sunrise-bloom-theme"
+version = "0.0.1"
 
 [sunset-drive]
 submodule = "extensions/sunset-drive"
@@ -3764,7 +3838,7 @@ version = "0.1.0"
 
 [superior-green-theme]
 submodule = "extensions/superior-green-theme"
-version = "0.0.10"
+version = "0.0.20"
 
 [supertheme4]
 submodule = "extensions/supertheme4"
@@ -4091,6 +4165,10 @@ version = "0.0.2"
 submodule = "extensions/ultraviolet-theme"
 version = "0.1.1"
 
+[umbra-theme]
+submodule = "extensions/umbra-theme"
+version = "0.1.0"
+
 [umbralkai]
 submodule = "extensions/umbralkai"
 version = "0.1.0"
@@ -4389,6 +4467,10 @@ version = "0.4.0"
 [witchesbrew-theme]
 submodule = "extensions/witchesbrew-theme"
 version = "1.0.0"
+
+[woocommerce-snippets]
+submodule = "extensions/woocommerce-snippets"
+version = "0.1.0"
 
 [wow-toc]
 submodule = "extensions/wow-toc"
