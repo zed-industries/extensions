@@ -1598,6 +1598,10 @@
 	path = extensions/hbuilderx-push-light
 	url = https://github.com/yuanzhhh/hbuilderx-theme-zed.git
 
+[submodule "extensions/helios-theme"]
+	path = extensions/helios-theme
+	url = https://github.com/heliosgraphics/helios-theme.git
+
 [submodule "extensions/helm"]
 	path = extensions/helm
 	url = https://github.com/cabrinha/helm.zed.git
@@ -2433,6 +2437,10 @@
 [submodule "extensions/mistral-vibe"]
 	path = extensions/mistral-vibe
 	url = https://github.com/mistralai/mistral-vibe.git
+
+[submodule "extensions/mlir-tablegen"]
+	path = extensions/mlir-tablegen
+	url = https://github.com/feichai0017/mlir-zed.git
 
 [submodule "extensions/mnemonic"]
 	path = extensions/mnemonic
