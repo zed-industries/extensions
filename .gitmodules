@@ -718,6 +718,10 @@
 	path = extensions/conl
 	url = https://github.com/ConradIrwin/zed-extension-conl
 
+[submodule "extensions/contextual-zed"]
+	path = extensions/contextual-zed
+	url = https://github.com/Amarin38/Contextual-Zed
+
 [submodule "extensions/cooklang"]
 	path = extensions/cooklang
 	url = https://github.com/hugginsio/zed-cooklang.git
@@ -4585,6 +4589,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/contextual-zed"]
-	path = extensions/contextual-zed
-	url = https://github.com/Amarin38/Contextual-Zed
