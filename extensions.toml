@@ -312,7 +312,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.220.0"
+version = "0.221.0"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -1099,7 +1099,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.4.3"
+version = "0.5.0"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -1468,7 +1468,7 @@ version = "0.1.5"
 
 [godot-theme]
 submodule = "extensions/godot-theme"
-version = "1.2.0"
+version = "1.3.0"
 
 [golangci-lint]
 submodule = "extensions/golangci-lint"
@@ -1621,6 +1621,10 @@ version = "0.3.1"
 [hbuilderx-push-light]
 submodule = "extensions/hbuilderx-push-light"
 version = "0.1.0"
+
+[helios-theme]
+submodule = "extensions/helios-theme"
+version = "0.0.8"
 
 [helm]
 submodule = "extensions/helm"
@@ -1900,7 +1904,7 @@ version = "0.3.2"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.9"
+version = "0.1.10"
 
 [just]
 submodule = "extensions/just"
@@ -2054,7 +2058,7 @@ version = "0.1.0"
 [little-league-theme]
 submodule = "extensions/little-league-theme"
 path = "targets/zed"
-version = "1.4.1"
+version = "1.5.1"
 
 [live-server]
 submodule = "extensions/live-server"
@@ -2465,8 +2469,12 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.7.4"
+version = "2.7.5"
 path = "distribution/zed"
+
+[mlir-tablegen]
+submodule = "extensions/mlir-tablegen"
+version = "0.2.1"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -2486,7 +2494,7 @@ version = "0.1.9"
 
 [modus-themes]
 submodule = "extensions/modus-themes"
-version = "0.1.7"
+version = "0.1.8"
 
 [molten-theme]
 submodule = "extensions/molten-theme"
@@ -2674,7 +2682,7 @@ version = "0.2.0"
 
 [nightingale]
 submodule = "extensions/nightingale"
-version = "0.1.3"
+version = "1.0.0"
 
 [nim]
 submodule = "extensions/nim"
@@ -2917,7 +2925,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.4.3"
+version = "1.4.6"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -3689,7 +3697,7 @@ version = "0.2.0"
 
 [soma]
 submodule = "extensions/soma"
-version = "0.5.0"
+version = "0.6.0"
 
 [sonder-theme]
 submodule = "extensions/sonder-theme"
@@ -3789,7 +3797,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "2.0.2"
+version = "3.0.0"
 
 [styx]
 submodule = "extensions/styx"
