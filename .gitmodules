@@ -110,6 +110,10 @@
 	path = extensions/andromeda
 	url = https://github.com/ChocolateNao/andromeda-zed.git
 
+[submodule "extensions/angelscript"]
+	path = extensions/angelscript
+	url = https://github.com/jeruin-dev/AngelScript.git
+
 [submodule "extensions/angular"]
 	path = extensions/angular
 	url = https://github.com/nathansbradshaw/zed-angular.git
@@ -4585,6 +4589,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/angelscript"]
-	path = extensions/angelscript
-	url = https://github.com/jeruin-dev/AngelScript.git
