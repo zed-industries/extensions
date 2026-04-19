@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: 03d8e9aee95ea6117d75a48bcac2e19241f6e667
+  ZED_EXTENSION_CLI_SHA: 1fa7f1a3ec28ea1eae6db2e937d7a538fb10c0c7
 
 jobs:
   package:
@@ -26,7 +26,7 @@ jobs:
           clean: false
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
         with:
           version: 9
 
@@ -35,7 +35,7 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
-      - uses: actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c # v1
+      - uses: actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7 # v1
         with:
           toolchain: "1.90"
           target: "wasm32-wasip2"
@@ -74,6 +74,7 @@ jobs:
         run: pnpm package-extensions
         env:
           REF_NAME: ${{ github.ref_name }}
+          RUSTUP_TOOLCHAIN: "1.90"
           SHOULD_PUBLISH: ${{ github.ref_name == 'main' }}
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
           S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
