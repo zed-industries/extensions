@@ -3046,6 +3046,10 @@
 	path = extensions/phosphor-icons-theme
 	url = https://github.com/theoluciano/phosphor-icons-theme.git
 
+[submodule "extensions/phosphor-theme"]
+	path = extensions/phosphor-theme
+	url = https://github.com/Codenii/phosphor-zed
+
 [submodule "extensions/php"]
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
@@ -4597,7 +4601,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-
-[submodule "extensions/phosphor"]
-	path = extensions/phosphor
-	url = https://github.com/Codenii/phosphor-zed
