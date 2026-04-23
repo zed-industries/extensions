@@ -1482,6 +1482,11 @@ version = "0.0.2"
 submodule = "extensions/gotmpl"
 version = "0.0.1"
 
+[gram]
+submodule = "extensions/gram"
+version = "0.3.4"
+path = "editors/zed"
+
 [graphene]
 submodule = "extensions/graphene"
 version = "0.2.1"
