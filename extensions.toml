@@ -3655,6 +3655,10 @@ path = "extensions/zed"
 submodule = "extensions/smithy"
 version = "0.0.1"
 
+[smithy-lsp]
+submodule = "extensions/smithy-lsp"
+version = "0.1.0"
+
 [sml]
 submodule = "extensions/sml"
 version = "0.2.0"
