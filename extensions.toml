@@ -2439,6 +2439,10 @@ submodule = "extensions/metal"
 path = "editors/zed"
 version = "0.1.19"
 
+[micropython]
+submodule = "extensions/micropython"
+version = "0.1.0"
+
 [microscript]
 submodule = "extensions/microscript"
 version = "0.2.0"
