@@ -142,7 +142,7 @@ version = "0.1.0"
 
 [apathy-theme]
 submodule = "extensions/apathy-theme"
-version = "3.5.0"
+version = "3.7.0"
 path = "packages/zed"
 
 [apisartisan]
@@ -550,7 +550,7 @@ version = "0.0.1"
 [cem]
 submodule = "extensions/cem"
 path = "extensions/zed"
-version = "0.9.18"
+version = "0.9.19"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -733,7 +733,7 @@ version = "1.3.3"
 
 [corust-agent]
 submodule = "extensions/corust-agent"
-version = "0.4.1"
+version = "0.4.2"
 
 [cosmos]
 submodule = "extensions/cosmos"
@@ -1099,7 +1099,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.5.0"
+version = "0.5.1"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -1156,7 +1156,7 @@ version = "0.2.1"
 
 [esmerald-theme]
 submodule = "extensions/esmerald-theme"
-version = "0.1.0"
+version = "0.1.2"
 
 [everforest]
 submodule = "extensions/everforest"
@@ -1237,7 +1237,7 @@ version = "0.1.0"
 
 [fish]
 submodule = "extensions/fish"
-version = "0.0.8"
+version = "0.1.0"
 
 [flask-snippets]
 submodule = "extensions/flask-snippets"
@@ -1350,7 +1350,7 @@ version = "1.0.1"
 
 [gatito-theme]
 submodule = "extensions/gatito-theme"
-version = "0.0.1"
+version = "0.1.0"
 
 [gato-theme]
 submodule = "extensions/gato-theme"
@@ -1399,7 +1399,7 @@ version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.4"
+version = "0.1.5"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -1848,7 +1848,7 @@ version = "0.0.1"
 
 [jellybeans-vim]
 submodule = "extensions/jellybeans-vim"
-version = "0.0.2"
+version = "0.0.3"
 
 [jetbrains-darcula-theme-by-bronya0]
 submodule = "extensions/jetbrains-darcula-theme-by-bronya0"
@@ -2404,7 +2404,7 @@ version = "0.0.2"
 
 [mcp-server-threadbridge]
 submodule = "extensions/mcp-server-threadbridge"
-version = "0.1.0"
+version = "0.2.0"
 
 [mcp-server-weave]
 submodule = "extensions/mcp-server-weave"
@@ -2463,13 +2463,17 @@ version = "0.1.0"
 submodule = "extensions/mint-theme"
 version = "0.1.1"
 
+[miramare-theme]
+submodule = "extensions/miramare-theme"
+version = "0.0.1"
+
 [missing-theme]
 submodule = "extensions/missing-theme"
 version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.7.5"
+version = "2.7.6"
 path = "distribution/zed"
 
 [mlir-tablegen]
@@ -2522,11 +2526,15 @@ version = "0.0.2"
 
 [monokai-sharp]
 submodule = "extensions/monokai-sharp"
-version = "1.0.0"
+version = "1.0.1"
 
 [monokai-vibrant-amped]
 submodule = "extensions/monokai-vibrant-amped"
 version = "0.0.3"
+
+[monokuro-theme]
+submodule = "extensions/monokuro-theme"
+version = "0.0.1"
 
 [monolith]
 submodule = "extensions/monolith"
@@ -2666,7 +2674,7 @@ version = "0.0.1"
 
 [night-owlz]
 submodule = "extensions/night-owlz"
-version = "0.0.4"
+version = "0.0.5"
 
 [night-shift]
 submodule = "extensions/night-shift"
@@ -2727,7 +2735,7 @@ version = "0.0.2"
 
 [nord]
 submodule = "extensions/nord"
-version = "0.1.4"
+version = "0.1.5"
 
 [nordic-nvim-theme]
 submodule = "extensions/nordic-nvim-theme"
@@ -2808,6 +2816,10 @@ version = "0.0.1"
 [oat]
 submodule = "extensions/oat"
 version = "0.0.4"
+
+[oberon]
+submodule = "extensions/oberon"
+version = "0.0.1"
 
 [objective-c]
 submodule = "extensions/objective-c"
@@ -2925,7 +2937,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.4.6"
+version = "1.14.18"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -2941,7 +2953,7 @@ version = "0.0.1"
 
 [opentofu]
 submodule = "extensions/opentofu"
-version = "0.2.0"
+version = "0.3.0"
 
 [optima-theme]
 submodule = "extensions/optima-theme"
@@ -3186,7 +3198,7 @@ version = "0.1.0"
 
 [powershell]
 submodule = "extensions/powershell"
-version = "0.4.2"
+version = "0.4.3"
 
 [prime-dark-theme]
 submodule = "extensions/prime-dark-theme"
@@ -3272,7 +3284,7 @@ version = "0.0.4"
 
 [python-snippets]
 submodule = "extensions/python-snippets"
-version = "0.1.1"
+version = "0.1.3"
 
 [qlik]
 submodule = "extensions/qlik"
@@ -3636,7 +3648,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.15.1"
+version = "1.16.0"
 
 [smalisp]
 submodule = "extensions/smalisp"
@@ -3949,7 +3961,7 @@ path = "zed"
 
 [templ]
 submodule = "extensions/templ"
-version = "0.0.9"
+version = "0.0.10"
 
 [templeos-theme]
 submodule = "extensions/templeos-theme"
@@ -3989,7 +4001,7 @@ version = "0.1.0"
 
 [tflint]
 submodule = "extensions/tflint"
-version = "0.1.0"
+version = "0.1.1"
 
 [the-best-theme]
 submodule = "extensions/the-best-theme"
@@ -4059,7 +4071,7 @@ version = "0.2.2"
 
 [toml]
 submodule = "extensions/toml"
-version = "1.0.2"
+version = "1.0.3"
 
 [tomorrow-min-theme]
 submodule = "extensions/tomorrow-min-theme"
@@ -4203,7 +4215,7 @@ version = "0.0.6"
 
 [united-gnome]
 submodule = "extensions/united-gnome"
-version = "0.3.1"
+version = "0.4.3"
 
 [unity-snippets]
 submodule = "extensions/unity-snippets"
