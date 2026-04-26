@@ -3533,6 +3533,11 @@ version = "0.0.1"
 submodule = "extensions/scss"
 version = "0.2.0"
 
+[scope-i18n-lens]
+submodule = "extensions/scope-i18n-lens"
+path = "crates/intl-lens-extension"
+version = "0.2.3"
+
 [semgrep]
 submodule = "extensions/semgrep"
 version = "0.0.2"
