@@ -702,6 +702,10 @@
 	path = extensions/comment
 	url = https://github.com/thedadams/zed-comment.git
 
+[submodule "extensions/comment-block-snippets"]
+	path = extensions/comment-block-snippets
+	url = https://github.com/rami-shalhoub/comment-blocks-zed.git
+
 [submodule "extensions/comphy-crisp-themes"]
 	path = extensions/comphy-crisp-themes
 	url = https://github.com/VatsalSy/comphy-zed-themes.git
@@ -2629,10 +2633,6 @@
 [submodule "extensions/new-darcula"]
 	path = extensions/new-darcula
 	url = https://github.com/e-simpson/new-darcula-z.git
-
-[submodule "extensions/new-id-here"]
-	path = extensions/new-id-here
-	url = https://github.com/rami-shalhoub/comment-blocks-zed.git
 
 [submodule "extensions/nextjs-react-snippets"]
 	path = extensions/nextjs-react-snippets
