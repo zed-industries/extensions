@@ -625,6 +625,11 @@ version = "1.0.0"
 submodule = "extensions/city-lights"
 version = "0.0.2"
 
+[civet]
+submodule = "extensions/civet"
+path = "lsp/zed"
+version = "0.0.1"
+
 [clarity]
 submodule = "extensions/clarity"
 version = "0.1.0"
