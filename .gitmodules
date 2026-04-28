@@ -1686,6 +1686,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/http-client"]
+	path = extensions/http-client
+	url = https://github.com/cramhead/http-client
+
 [submodule "extensions/hubl"]
 	path = extensions/hubl
 	url = https://github.com/blueambr/zed-hubl.git
