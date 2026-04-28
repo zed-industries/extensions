@@ -850,6 +850,10 @@
 	path = extensions/dafny
 	url = https://github.com/WeetHet/dafny-zed.git
 
+[submodule "extensions/daml"]
+	path = extensions/daml
+	url = https://github.com/DLC-link/zed-daml-lsp.git
+
 [submodule "extensions/dang"]
 	path = extensions/dang
 	url = https://codeberg.org/vito/zed-dang.git
