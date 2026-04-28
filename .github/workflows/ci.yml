@@ -2,6 +2,7 @@ name: CI
 
 on:
   pull_request:
+  merge_group:
   push:
     branches:
       - "main"
@@ -11,20 +12,21 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: e34fee55a05e6ceb928b7d57f84c51cdd4fd323a
+  ZED_EXTENSION_CLI_SHA: 1fa7f1a3ec28ea1eae6db2e937d7a538fb10c0c7
 
 jobs:
   package:
-    runs-on: ubuntu-latest
+    runs-on: namespace-profile-8x32-ubuntu-2404
     if: github.repository_owner == 'zed-industries'
+    timeout-minutes: 10
     steps:
       - name: Checkout repo
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           clean: false
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
         with:
           version: 9
 
@@ -33,9 +35,14 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
+      - uses: actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7 # v1
+        with:
+          toolchain: "1.90"
+          target: "wasm32-wasip2"
+
       - name: Cache zed-extension CLI
         id: cache-zed-extension
-        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: |
             zed-extension
@@ -57,7 +64,7 @@ jobs:
         run: pnpm test
 
       - name: Cache extension build dependencies
-        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           key: cache-build-dependencies
           path: |
@@ -66,6 +73,8 @@ jobs:
       - name: Package extensions
         run: pnpm package-extensions
         env:
+          REF_NAME: ${{ github.ref_name }}
+          RUSTUP_TOOLCHAIN: "1.90"
           SHOULD_PUBLISH: ${{ github.ref_name == 'main' }}
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
           S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
@@ -81,6 +90,7 @@ jobs:
 
       - name: Enforce no Git LFS
         run: |
+          # shellcheck disable=SC2016
           git submodule foreach --quiet \
             '[ ! -f .gitattributes ] || ! grep -q "filter=lfs" .gitattributes && [ ! -d .git/lfs ] || {
               echo "LFS detected in $path" >&2 && exit 1
