@@ -2290,6 +2290,10 @@
 	path = extensions/mcp-server-gitlab
 	url = https://github.com/akbxr/gitlab-mcp-zed
 
+[submodule "extensions/mcp-server-godot"]
+	path = extensions/mcp-server-godot
+	url = https://github.com/maccesch/zed-extension-mcp-server-godot.git
+
 [submodule "extensions/mcp-server-grafana"]
 	path = extensions/mcp-server-grafana
 	url = https://github.com/sd2k/zed-mcp-grafana.git
