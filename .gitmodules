@@ -1886,6 +1886,10 @@
 	path = extensions/jq
 	url = https://github.com/dangh/zed-jq.git
 
+[submodule "extensions/json-path"]
+	path = extensions/json-path
+	url = https://github.com/PashaFG/zed-json-path.git
+
 [submodule "extensions/json5"]
 	path = extensions/json5
 	url = https://github.com/ChunzhengLab/json5-zed-extension.git
