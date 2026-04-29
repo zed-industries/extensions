@@ -3359,6 +3359,11 @@ version = "1.0.1"
 submodule = "extensions/rcl"
 version = "0.12.0"
 
+[rdf]
+submodule = "extensions/rdf"
+version = "0.1.1"
+path = "extensions/zed-rdf"
+
 [react-snippets]
 submodule = "extensions/react-snippets"
 version = "1.0.6"
@@ -4576,11 +4581,6 @@ version = "0.1.2"
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
 version = "0.0.3"
-
-[zed-rdf]
-submodule = "extensions/zed-rdf"
-version = "0.1.0"
-path = "extensions/zed-rdf"
 
 [zedbox]
 submodule = "extensions/zedbox"

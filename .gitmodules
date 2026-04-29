@@ -3310,6 +3310,10 @@
 	path = extensions/rcl
 	url = https://github.com/rcl-lang/zed-rcl.git
 
+[submodule "extensions/rdf"]
+	path = extensions/rdf
+	url = https://github.com/sparkling/zed-rdf.git
+
 [submodule "extensions/react-snippets"]
 	path = extensions/react-snippets
 	url = https://github.com/tamimhasandev/react-snippets
@@ -4517,10 +4521,6 @@
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
-
-[submodule "extensions/zed-rdf"]
-	path = extensions/zed-rdf
-	url = https://github.com/sparkling/zed-rdf.git
 
 [submodule "extensions/zedbox"]
 	path = extensions/zedbox
