@@ -46,6 +46,10 @@ version = "0.2.3"
 submodule = "extensions/adech"
 version = "2.0.1"
 
+[adventurex-theme]
+submodule = "extensions/adventurex-theme"
+version = "0.1.0"
+
 [adwaita]
 submodule = "extensions/adwaita"
 version = "1.1.1"
@@ -282,6 +286,10 @@ version = "0.0.1"
 submodule = "extensions/axolosin"
 version = "1.1.1"
 
+[ayla]
+submodule = "extensions/ayla"
+version = "0.0.1"
+
 [aylin-theme]
 submodule = "extensions/aylin-theme"
 version = "0.6.1"
@@ -312,7 +320,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.221.0"
+version = "0.222.0"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -385,6 +393,10 @@ version = "0.0.4"
 [blackfox]
 submodule = "extensions/blackfox"
 version = "0.4.0"
+
+[blacknpink-theme]
+submodule = "extensions/blacknpink-theme"
+version = "0.1.0"
 
 [blackrain-theme]
 submodule = "extensions/blackrain-theme"
@@ -475,6 +487,11 @@ version = "0.0.1"
 submodule = "extensions/bubblegum"
 version = "0.1.0"
 
+[bugstalker-dap]
+submodule = "extensions/bugstalker-dap"
+version = "0.1.0"
+path = "extension/zed"
+
 [bun-docs-mcp]
 submodule = "extensions/bun-docs-mcp"
 version = "1.0.0"
@@ -505,7 +522,7 @@ version = "0.0.1"
 
 [carbonember]
 submodule = "extensions/carbonember"
-version = "1.1.0"
+version = "1.1.1"
 
 [carbonfox]
 submodule = "extensions/carbonfox"
@@ -558,7 +575,7 @@ version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.1.9"
+version = "0.2.9"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -623,6 +640,10 @@ version = "0.1.0"
 [claude-code-inspired-dark]
 submodule = "extensions/claude-code-inspired-dark"
 version = "1.0.0"
+
+[claude-warm-theme]
+submodule = "extensions/claude-warm-theme"
+version = "0.0.1"
 
 [clean-vscode-icons]
 submodule = "extensions/clean-vscode-icons"
@@ -952,7 +973,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.7.0"
+version = "1.8.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -1107,7 +1128,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.5.1"
+version = "0.6.1"
 
 [elixir-snippets]
 submodule = "extensions/elixir-snippets"
@@ -1655,6 +1676,10 @@ version = "0.0.4"
 submodule = "extensions/hexpeek"
 version = "0.1.0"
 
+[high-contrast-themes]
+submodule = "extensions/high-contrast-themes"
+version = "0.1.0"
+
 [hilleer-v-theme]
 submodule = "extensions/hilleer-v-theme"
 version = "0.0.1"
@@ -1840,7 +1865,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.14"
+version = "6.8.15"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2161,6 +2186,10 @@ version = "0.1.0"
 submodule = "extensions/make"
 version = "1.1.2"
 
+[mako]
+submodule = "extensions/mako"
+version = "0.0.3"
+
 [malibu]
 submodule = "extensions/malibu"
 version = "0.0.1"
@@ -2247,7 +2276,7 @@ version = "0.1.1"
 
 [mau]
 submodule = "extensions/mau"
-version = "0.0.4"
+version = "0.2.0"
 
 [maya]
 submodule = "extensions/maya"
@@ -2489,7 +2518,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.8.1"
+version = "2.9.0"
 path = "distribution/zed"
 
 [mlir-tablegen]
@@ -2953,7 +2982,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.14.28"
+version = "1.14.29"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -3437,7 +3466,7 @@ version = "0.0.2"
 
 [rescript]
 submodule = "extensions/rescript"
-version = "0.4.3"
+version = "0.4.4"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -4087,7 +4116,7 @@ version = "0.1.0"
 [tombi]
 submodule = "extensions/tombi"
 path = "editors/zed"
-version = "0.2.3"
+version = "0.2.4"
 
 [toml]
 submodule = "extensions/toml"
@@ -4559,7 +4588,7 @@ version = "0.0.2"
 
 [yang]
 submodule = "extensions/yang"
-version = "0.0.1"
+version = "0.0.2"
 
 [yara]
 submodule = "extensions/yara"
