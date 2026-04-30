@@ -1914,6 +1914,10 @@
 	path = extensions/just
 	url = https://github.com/jackTabsCode/zed-just.git
 
+[submodule "extensions/k8s-crd-lsp"]
+	path = extensions/k8s-crd-lsp
+	url = https://github.com/decade-eng/k8s-crd-lsp-zed.git
+
 [submodule "extensions/kagimcp"]
 	path = extensions/kagimcp
 	url = https://github.com/jmylchreest/kagimcp-zed.git
