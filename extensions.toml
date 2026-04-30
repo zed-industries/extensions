@@ -3412,6 +3412,11 @@ version = "1.0.1"
 submodule = "extensions/rcl"
 version = "0.12.0"
 
+[rdf]
+submodule = "extensions/rdf"
+version = "0.1.1"
+path = "extensions/zed-rdf"
+
 [react-snippets]
 submodule = "extensions/react-snippets"
 version = "1.0.6"
