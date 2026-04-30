@@ -2459,6 +2459,11 @@ version = "0.0.2"
 submodule = "extensions/mcp-server-webflow"
 version = "0.1.0"
 
+[mcp-webshift]
+submodule = "extensions/mcp-webshift"
+path = "integrations/zed"
+version = "0.1.0"
+
 [mdx]
 submodule = "extensions/mdx"
 version = "0.3.0"
