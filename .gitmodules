@@ -1226,6 +1226,10 @@
 	path = extensions/ferret
 	url = https://github.com/Ferret-Language/ferret-language-support.git
 
+[submodule "extensions/fhir-json"]
+	path = extensions/fhir-json
+	url = https://github.com/Yes25/zed-fhir-extension.git
+
 [submodule "extensions/fiber-snippets"]
 	path = extensions/fiber-snippets
 	url = https://github.com/ayberkgezer/fiber-zed-snippets
@@ -1665,6 +1669,10 @@
 [submodule "extensions/hivacruz-theme"]
 	path = extensions/hivacruz-theme
 	url = https://github.com/kinoute/zed-hivacruz-theme
+
+[submodule "extensions/hl7v2"]
+	path = extensions/hl7v2
+	url = https://github.com/Yes25/zed-hl7v2-extension.git
 
 [submodule "extensions/hledger"]
 	path = extensions/hledger
