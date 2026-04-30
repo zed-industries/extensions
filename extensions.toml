@@ -3052,6 +3052,11 @@ version = "0.0.3"
 submodule = "extensions/palenight"
 version = "0.0.1"
 
+[panache-language-server]
+submodule = "extensions/panache-language-server"
+path = "editors/zed"
+version = "2.35.0"
+
 [panda-plus-theme]
 submodule = "extensions/panda-plus-theme"
 version = "0.1.1"
