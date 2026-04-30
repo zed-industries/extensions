@@ -2478,6 +2478,10 @@
 	path = extensions/mistral-vibe
 	url = https://github.com/mistralai/mistral-vibe.git
 
+[submodule "extensions/mlir-suite"]
+	path = extensions/mlir-suite
+	url = https://github.com/felixtensor/zed-mlir-suite.git
+
 [submodule "extensions/mlir-tablegen"]
 	path = extensions/mlir-tablegen
 	url = https://github.com/feichai0017/mlir-zed.git

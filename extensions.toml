@@ -2517,6 +2517,10 @@ submodule = "extensions/mistral-vibe"
 version = "2.9.0"
 path = "distribution/zed"
 
+[mlir-suite]
+submodule = "extensions/mlir-suite"
+version = "0.5.1"
+
 [mlir-tablegen]
 submodule = "extensions/mlir-tablegen"
 version = "0.2.1"
