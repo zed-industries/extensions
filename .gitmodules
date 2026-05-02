@@ -10,6 +10,10 @@
 	path = extensions/1984-theme
 	url = https://github.com/chenmijiang/zed-1984.git
 
+[submodule "extensions/3d-model-viewer"]
+	path = extensions/3d-model-viewer
+	url = https://github.com/imboni/zed-gltf-model-viewer.git
+
 [submodule "extensions/a-touch-of-lilac-theme"]
 	path = extensions/a-touch-of-lilac-theme
 	url = https://github.com/szymkab/a-touch-of-lilac-theme
@@ -1469,10 +1473,6 @@
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
-
-[submodule "extensions/gltf-model-viewer"]
-	path = extensions/gltf-model-viewer
-	url = https://github.com/imboni/zed-gltf-model-viewer.git
 
 [submodule "extensions/go-snippets"]
 	path = extensions/go-snippets
