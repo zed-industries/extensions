@@ -1268,6 +1268,10 @@ version = "0.1.0"
 submodule = "extensions/fish"
 version = "0.1.0"
 
+[fjord-theme]
+submodule = "extensions/fjord-theme"
+version = "0.1.5"
+
 [flask-snippets]
 submodule = "extensions/flask-snippets"
 version = "0.0.2"
@@ -1521,7 +1525,7 @@ version = "0.2.1"
 
 [graphql]
 submodule = "extensions/graphql"
-version = "1.0.3"
+version = "1.0.4"
 
 [graphviz]
 submodule = "extensions/graphviz"
@@ -2982,7 +2986,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.14.29"
+version = "1.14.33"
 
 [openfga]
 submodule = "extensions/openfga"
