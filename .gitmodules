@@ -2658,6 +2658,10 @@
 	path = extensions/neon-pulse-theme
 	url = https://github.com/ArnoldWW/neon-pulse-theme
 
+[submodule "extensions/neon-theme"]
+	path = extensions/neon-theme
+	url = https://github.com/spences10/zed-neon.git
+
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
 	url = https://github.com/carlocaione/NeoSolarized.zed.git
@@ -4601,10 +4605,6 @@
 [submodule "extensions/zed-legacy-themes"]
 	path = extensions/zed-legacy-themes
 	url = https://github.com/zed-extensions/legacy-themes.git
-
-[submodule "extensions/zed-neon"]
-	path = extensions/zed-neon
-	url = https://github.com/spences10/zed-neon.git
 
 [submodule "extensions/zedbox"]
 	path = extensions/zedbox
