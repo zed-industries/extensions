@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-s3':
-        specifier: 3.1043.0
-        version: 3.1043.0
+        specifier: 3.1044.0
+        version: 3.1044.0
       '@iarna/toml':
         specifier: 2.2.5
         version: 2.2.5
@@ -74,8 +74,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-s3@3.1043.0':
-    resolution: {integrity: sha512-QrDh9PACpmijOgbVnvQIvoWFZcMEBoGw0qiQRfGvsUEcB1JPCS2U5R0irB4XQSmsBlQUNlNeXVfpx3JI++NqrA==}
+  '@aws-sdk/client-s3@3.1044.0':
+    resolution: {integrity: sha512-yT3g0Oi0b+pJBJswNxRwWLLBoExQhRx9Iz2rUy1xV0slMogTQN+DSjChI95XTDtpGEcY0qnIK6UYX0XCYdhOKg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.974.8':
@@ -1414,7 +1414,7 @@ snapshots:
       '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
 
-  '@aws-sdk/client-s3@3.1043.0':
+  '@aws-sdk/client-s3@3.1044.0':
     dependencies:
       '@aws-crypto/sha1-browser': 5.2.0
       '@aws-crypto/sha256-browser': 5.2.0
