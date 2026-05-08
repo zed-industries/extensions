@@ -1482,6 +1482,10 @@
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
 
+[submodule "extensions/gn"]
+	path = extensions/gn
+	url = https://github.com/dsa28s/zed-gn-language.git
+
 [submodule "extensions/go-snippets"]
 	path = extensions/go-snippets
 	url = https://github.com/ayberkgezer/go-zed-snippets
