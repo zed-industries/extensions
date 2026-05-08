@@ -3218,6 +3218,10 @@
 	path = extensions/postgres-language-server
 	url = https://github.com/LoamStudios/zed-postgres-language-server.git
 
+[submodule "extensions/postman-context-server"]
+	path = extensions/postman-context-server
+	url = https://github.com/postmanlabs/postman-mcp-zed-extension
+
 [submodule "extensions/powershell"]
 	path = extensions/powershell
 	url = https://github.com/zed-extensions/powershell
