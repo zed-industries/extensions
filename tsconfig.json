@@ -2,11 +2,11 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": [
     "@tsconfig/node22/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json"
+    "@tsconfig/strictest/tsconfig.json",
   ],
   "compilerOptions": {
     "checkJs": true,
-    "noEmit": true
+    "noEmit": true,
   },
-  "include": ["src/"]
+  "include": ["src/"],
 }
