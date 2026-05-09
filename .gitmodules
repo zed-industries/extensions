@@ -2719,7 +2719,7 @@
 	url = https://github.com/staleo/zed-nottooshabby-theme.git
 
 [submodule "extensions/noted-markdown-lsp"]
-	path = extensions/noted
+	path = extensions/noted-markdown-lsp
 	url = https://github.com/sergeevalera/noted.git
 
 [submodule "extensions/noted-theme"]
@@ -4589,3 +4589,6 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
+[submodule "noted"]
+	path = noted
+	url = https://github.com/sergeevalera/noted.git
