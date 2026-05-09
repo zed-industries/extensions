@@ -536,6 +536,10 @@ version = "1.1.1"
 submodule = "extensions/carbonfox"
 version = "1.0.0"
 
+[carbonmeda-theme]
+submodule = "extensions/carbonmeda-theme"
+version = "1.0.0"
+
 [cargo-appraiser]
 submodule = "extensions/cargo-appraiser"
 version = "0.2.0"
@@ -563,10 +567,6 @@ version = "0.1.1"
 [catppuccin-icons]
 submodule = "extensions/catppuccin-icons"
 version = "1.23.1"
-
-[carbonmeda-theme]
-submodule = "extensions/carbonmeda-theme"
-version = "1.0.0"
 
 [cds-lsp]
 submodule = "extensions/cds-lsp"
