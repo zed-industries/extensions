@@ -4466,6 +4466,10 @@
 	path = extensions/warplabs
 	url = https://github.com/wp-labs/zed-warplabs.git
 
+[submodule "extensions/wasm-decompile"]
+	path = extensions/wasm-decompile
+	url = https://git.sr.ht/~applejag/zed-wasm-decompile
+
 [submodule "extensions/wat"]
 	path = extensions/wat
 	url = https://github.com/g-plane/zed-wasm.git
