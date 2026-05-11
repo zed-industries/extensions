@@ -2102,6 +2102,10 @@
 	path = extensions/llvm-ir
 	url = https://github.com/kdkasad/zed-llvm-ir-extension
 
+[submodule "extensions/lndpnr"]
+	path = extensions/lndpnr
+	url = https://github.com/leaandropinheiro/lndpnr.git
+
 [submodule "extensions/log"]
 	path = extensions/log
 	url = https://github.com/nervenes/zed-log.git
@@ -4681,6 +4685,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/lndpnr"]
-	path = extensions/lndpnr
-	url = https://github.com/leaandropinheiro/lndpnr.git
