@@ -1398,10 +1398,6 @@
 	path = extensions/gem
 	url = https://github.com/mantou132/gem
 
-[submodule "extensions/gemini"]
-	path = extensions/gemini
-	url = https://github.com/clseibold/gemini-zed.git
-
 [submodule "extensions/genexpr"]
 	path = extensions/genexpr
 	url = https://github.com/isabelgk/genexpr-zed.git
@@ -1485,6 +1481,10 @@
 [submodule "extensions/gleam-theme"]
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
+
+[submodule "extensions/gn"]
+	path = extensions/gn
+	url = https://github.com/dsa28s/zed-gn-language.git
 
 [submodule "extensions/go-snippets"]
 	path = extensions/go-snippets
@@ -1606,10 +1606,6 @@
 	path = extensions/hacker-night-vision
 	url = https://github.com/Takk8IS/hacker-night-vision-theme-for-zed.git
 
-[submodule "extensions/hacker-theme"]
-	path = extensions/hacker-theme
-	url = https://github.com/0xSandiem/zedhacker.git
-
 [submodule "extensions/hackthebox-theme"]
 	path = extensions/hackthebox-theme
 	url = https://github.com/b00tk1ll/hackthebox-zed-theme.git
@@ -1725,10 +1721,6 @@
 [submodule "extensions/html-snippets"]
 	path = extensions/html-snippets
 	url = https://github.com/seekode/zed-html-snippets.git
-
-[submodule "extensions/htmx-lsp"]
-	path = extensions/htmx-lsp
-	url = https://github.com/prophittcorey/zed-htmx-lsp.git
 
 [submodule "extensions/http"]
 	path = extensions/http
@@ -2025,6 +2017,10 @@
 [submodule "extensions/kvs-cyberpunk-2077"]
 	path = extensions/kvs-cyberpunk-2077
 	url = https://github.com/notKvS/2077-zed.git
+
+[submodule "extensions/laravel"]
+	path = extensions/laravel
+	url = https://github.com/GeneaLabs/zed-laravel.git
 
 [submodule "extensions/latex"]
 	path = extensions/latex
@@ -2442,10 +2438,6 @@
 	path = extensions/mcp-server-threadbridge
 	url = https://github.com/dereklei12/zed-mcp-server-threadbridge.git
 
-[submodule "extensions/mcp-server-weave"]
-	path = extensions/mcp-server-weave
-	url = https://github.com/Ataraxy-Labs/weave-zed.git
-
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
@@ -2541,10 +2533,6 @@
 [submodule "extensions/monokai-nebula"]
 	path = extensions/monokai-nebula
 	url = https://github.com/JacobCallahan/monokai-nebula-zed.git
-
-[submodule "extensions/monokai-night"]
-	path = extensions/monokai-night
-	url = https://github.com/farbodvand/zed-monokai-night.git
 
 [submodule "extensions/monokai-og"]
 	path = extensions/monokai-og
@@ -2974,10 +2962,6 @@
 	path = extensions/openfga
 	url = https://github.com/rosnovsky/zed-extension-fga.git
 
-[submodule "extensions/openmoji-icons"]
-	path = extensions/openmoji-icons
-	url = https://github.com/cotyhamilton/zed-emoji-icon-theme.git
-
 [submodule "extensions/openscad"]
 	path = extensions/openscad
 	url = https://github.com/dotcypress/zed-openscad.git
@@ -3238,6 +3222,10 @@
 	path = extensions/postgres-language-server
 	url = https://github.com/LoamStudios/zed-postgres-language-server.git
 
+[submodule "extensions/postman-context-server"]
+	path = extensions/postman-context-server
+	url = https://github.com/postmanlabs/postman-mcp-zed-extension
+
 [submodule "extensions/powershell"]
 	path = extensions/powershell
 	url = https://github.com/zed-extensions/powershell
@@ -3285,10 +3273,6 @@
 [submodule "extensions/purescript"]
 	path = extensions/purescript
 	url = https://github.com/zed-extensions/purescript.git
-
-[submodule "extensions/purr"]
-	path = extensions/purr
-	url = https://github.com/nemanjastanic/zed-purr.git
 
 [submodule "extensions/px-to-rem"]
 	path = extensions/px-to-rem
@@ -3648,7 +3632,7 @@
 
 [submodule "extensions/short-giraffe-theme"]
 	path = extensions/short-giraffe-theme
-	url = https://github.com/Mehdi-Hp/Short-Giraffe.git
+	url = https://github.com/kumamaki/Short-Giraffe.git
 
 [submodule "extensions/sieve"]
 	path = extensions/sieve
@@ -4126,6 +4110,10 @@
 	path = extensions/ton
 	url = https://github.com/Bionic2113/ton-zed.git
 
+[submodule "extensions/tonel-smalltalk"]
+	path = extensions/tonel-smalltalk
+	url = https://github.com/mumez/zed-extension-tonel-smalltalk.git
+
 [submodule "extensions/toon"]
 	path = extensions/toon
 	url = https://github.com/3swordman/zed-toon.git
@@ -4557,10 +4545,6 @@
 [submodule "extensions/xml"]
 	path = extensions/xml
 	url = https://github.com/sweetppro/zed-xml.git
-
-[submodule "extensions/xonsh"]
-	path = extensions/xonsh
-	url = https://github.com/oscarvarto/zed-xonsh.git
 
 [submodule "extensions/xy-zed"]
 	path = extensions/xy-zed
