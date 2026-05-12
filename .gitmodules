@@ -2018,6 +2018,10 @@
 	path = extensions/kvs-cyberpunk-2077
 	url = https://github.com/notKvS/2077-zed.git
 
+[submodule "extensions/laravel"]
+	path = extensions/laravel
+	url = https://github.com/GeneaLabs/zed-laravel.git
+
 [submodule "extensions/latex"]
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
@@ -2341,6 +2345,10 @@
 [submodule "extensions/mcp-server-gitlab"]
 	path = extensions/mcp-server-gitlab
 	url = https://github.com/akbxr/gitlab-mcp-zed
+
+[submodule "extensions/mcp-server-godot"]
+	path = extensions/mcp-server-godot
+	url = https://github.com/maccesch/zed-extension-mcp-server-godot.git
 
 [submodule "extensions/mcp-server-grafana"]
 	path = extensions/mcp-server-grafana
@@ -3217,6 +3225,10 @@
 [submodule "extensions/postgres-language-server"]
 	path = extensions/postgres-language-server
 	url = https://github.com/LoamStudios/zed-postgres-language-server.git
+
+[submodule "extensions/postman-context-server"]
+	path = extensions/postman-context-server
+	url = https://github.com/postmanlabs/postman-mcp-zed-extension
 
 [submodule "extensions/powershell"]
 	path = extensions/powershell
