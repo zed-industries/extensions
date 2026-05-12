@@ -575,7 +575,7 @@ version = "0.0.1"
 [cem]
 submodule = "extensions/cem"
 path = "extensions/zed"
-version = "0.10.4"
+version = "0.10.5"
 
 [cfengine]
 submodule = "extensions/cfengine"
@@ -1925,7 +1925,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "0.4.0"
+version = "1.0.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -2057,7 +2057,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.1.15"
+version = "0.1.16"
 
 [latex]
 submodule = "extensions/latex"
@@ -2151,7 +2151,7 @@ version = "0.0.1"
 
 [logstash]
 submodule = "extensions/logstash"
-version = "0.0.1"
+version = "0.0.2"
 
 [lonely-planet]
 submodule = "extensions/lonely-planet"
@@ -2387,6 +2387,10 @@ version = "0.1.0"
 submodule = "extensions/mcp-server-gitlab"
 version = "0.0.5"
 
+[mcp-server-godot]
+submodule = "extensions/mcp-server-godot"
+version = "0.1.0"
+
 [mcp-server-grafana]
 submodule = "extensions/mcp-server-grafana"
 version = "0.1.2"
@@ -2542,7 +2546,7 @@ version = "0.0.1"
 
 [mistral-vibe]
 submodule = "extensions/mistral-vibe"
-version = "2.9.5"
+version = "2.9.6"
 path = "distribution/zed"
 
 [mlir-tablegen]
@@ -3002,7 +3006,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.14.41"
+version = "1.14.48"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -3664,7 +3668,7 @@ version = "0.1.0"
 
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
-version = "0.0.6"
+version = "0.0.7"
 
 [shapels]
 submodule = "extensions/shapels"
@@ -4220,7 +4224,7 @@ version = "0.1.0"
 
 [txtar]
 submodule = "extensions/txtar"
-version = "0.1.0"
+version = "0.3.0"
 
 [ty]
 submodule = "extensions/ty"
