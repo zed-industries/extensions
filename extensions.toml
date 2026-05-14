@@ -1547,7 +1547,12 @@ version = "1.0.4"
 submodule = "extensions/graphviz"
 version = "0.2.1"
 
+
 [green-monochrome-monitor-crt-phosphor]
+[grasp-code-architecture]
+submodule = "extensions/grasp"
+path = "zed-extension"
+version = "3.20.0"
 submodule = "extensions/green-monochrome-monitor-crt-phosphor"
 version = "0.1.3"
 
