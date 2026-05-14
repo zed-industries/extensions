@@ -1898,13 +1898,13 @@
 	path = extensions/jinja2
 	url = https://github.com/ArcherHume/jinja2-support.git
 
-[submodule "extensions/jira-mcp-server"]
-	path = extensions/jira-mcp-server
-	url = https://github.com/mulhamna/jirac-ext.git
-
 [submodule "extensions/jira-slash-command"]
 	path = extensions/jira-slash-command
 	url = https://github.com/trbroyles1/jira-slash-command.git
+
+[submodule "extensions/jirac-mcp-server"]
+	path = extensions/jirac-mcp-server
+	url = https://github.com/mulhamna/jirac-ext.git
 
 [submodule "extensions/jj-lsp"]
 	path = extensions/jj-lsp
