@@ -1654,6 +1654,10 @@
 	path = extensions/helios-theme
 	url = https://github.com/heliosgraphics/helios-theme.git
 
+[submodule "extensions/helixql"]
+	path = extensions/helixql
+	url = https://github.com/floscom/zed-helixql.git
+
 [submodule "extensions/helm"]
 	path = extensions/helm
 	url = https://github.com/cabrinha/helm.zed.git
@@ -4697,6 +4701,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/helixql"]
-	path = extensions/helixql
-	url = https://github.com/floscom/zed-helixql.git
