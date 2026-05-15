@@ -306,6 +306,10 @@
 	path = extensions/ayu-darker
 	url = https://github.com/k4yt3x/zed-theme-ayu-darker.git
 
+[submodule "extensions/ayu-theme"]
+	path = extensions/ayu-theme
+	url = https://github.com/shamsghi/Ayu-in-Zed.git
+
 [submodule "extensions/ayu-themes-glass"]
 	path = extensions/ayu-themes-glass
 	url = https://github.com/jansol/zed-ayu-glass.git
@@ -4697,6 +4701,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/ayu-theme"]
-	path = extensions/ayu-theme
-	url = https://github.com/shamsghi/Ayu-in-Zed.git
