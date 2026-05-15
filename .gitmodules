@@ -286,6 +286,10 @@
 	path = extensions/awk
 	url = https://github.com/dangh/zed-awk.git
 
+[submodule "extensions/awsum"]
+	path = extensions/awsum
+	url = https://github.com/awsum-lang/awsum-zed.git
+
 [submodule "extensions/axolosin"]
 	path = extensions/axolosin
 	url = https://github.com/LightTreasure/axolosin-theme.git
@@ -4701,6 +4705,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/awsum"]
-	path = extensions/awsum
-	url = https://github.com/awsum-lang/awsum-zed.git
