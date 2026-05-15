@@ -990,6 +990,10 @@
 	path = extensions/dev-magic
 	url = https://github.com/susanta96/dev-magic.git
 
+[submodule "extensions/devglobe-activity"]
+	path = extensions/devglobe-activity
+	url = https://github.com/devglobe-xyz/zed-devglobe.git
+
 [submodule "extensions/devicetree"]
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
@@ -4681,6 +4685,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/devglobe"]
-	path = extensions/devglobe
-	url = https://github.com/devglobe-xyz/zed-devglobe.git
