@@ -230,6 +230,10 @@
 	path = extensions/asteroid
 	url = https://github.com/webhooked/asteroid-zed
 
+[submodule "extensions/astral-theme"]
+	path = extensions/astral-theme
+	url = https://github.com/leofernandesbh/astral-zed-theme.git
+
 [submodule "extensions/astro"]
 	path = extensions/astro
 	url = https://github.com/zed-extensions/astro.git
@@ -1358,6 +1362,10 @@
 	path = extensions/freezed-dart-flutter-snippets
 	url = https://github.com/OppositeDragon/freezed-snippets.git
 
+[submodule "extensions/frieren-theme"]
+	path = extensions/frieren-theme
+	url = https://github.com/PR454D/frieren-theme.git
+
 [submodule "extensions/frosted-theme"]
 	path = extensions/frosted-theme
 	url = https://github.com/daviiiL/frosted-theme
@@ -1369,6 +1377,10 @@
 [submodule "extensions/fsm"]
 	path = extensions/fsm
 	url = https://codeberg.org/reesericci/zed-extension-fsm.git
+
+[submodule "extensions/fujihaze-theme"]
+	path = extensions/fujihaze-theme
+	url = https://github.com/BinaryMoura/FujiHaze-Theme.git
 
 [submodule "extensions/furina-vibe-theme"]
 	path = extensions/furina-vibe-theme
@@ -1969,6 +1981,10 @@
 [submodule "extensions/kdl"]
 	path = extensions/kdl
 	url = https://github.com/elkowar/zed-kdl.git
+
+[submodule "extensions/keep-a-changelog-snippets"]
+	path = extensions/keep-a-changelog-snippets
+	url = https://github.com/ssh-den/zed-keep-a-changelog-snippets.git
 
 [submodule "extensions/keepcalm"]
 	path = extensions/keepcalm
@@ -2984,7 +3000,7 @@
 
 [submodule "extensions/opentofu"]
 	path = extensions/opentofu
-	url = https://github.com/tzabbi/zed-extension-opentofu
+	url = https://github.com/tzabbi/zed-opentofu.git
 
 [submodule "extensions/optima-theme"]
 	path = extensions/optima-theme
