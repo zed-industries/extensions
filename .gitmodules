@@ -1134,6 +1134,10 @@
 	path = extensions/elixir
 	url = https://github.com/zed-extensions/elixir.git
 
+[submodule "extensions/elixir-hex-lens"]
+	path = extensions/elixir-hex-lens
+	url = https://github.com/jotaviobiondo/elixir-hex-lens-zed.git
+
 [submodule "extensions/elixir-snippets"]
 	path = extensions/elixir-snippets
 	url = https://github.com/FeedMyCat54/elixir-zed-snippets.git
