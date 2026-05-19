@@ -2637,10 +2637,6 @@ version = "0.0.1"
 submodule = "extensions/muted"
 version = "0.0.1"
 
-[my-extension]
-submodule = "extensions/triumph-theme"
-version = "0.1.0"
-
 [naive-ui-intellisense]
 submodule = "extensions/naive-ui-intellisense"
 version = "0.1.2"
@@ -4153,6 +4149,10 @@ version = "0.2.0"
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
 version = "0.1.1"
+
+[triumph-theme]
+submodule = "extensions/triumph-theme"
+version = "0.1.0"
 
 [tron-legacy]
 submodule = "extensions/tron-legacy"
