@@ -294,6 +294,10 @@ version = "0.0.1"
 submodule = "extensions/awk"
 version = "0.0.1"
 
+[aws-toolkit]
+submodule = "extensions/aws-toolkit"
+version = "0.5.0"
+
 [axolosin]
 submodule = "extensions/axolosin"
 version = "1.1.1"
@@ -4698,9 +4702,6 @@ version = "0.0.3"
 submodule = "extensions/zarcula-theme"
 version = "0.1.2"
 
-[zed-aws-toolkit]
-submodule = "extensions/zed-aws-toolkit"
-version = "0.5.0"
 
 [zed-legacy-themes]
 submodule = "extensions/zed-legacy-themes"
