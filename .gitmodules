@@ -4598,8 +4598,13 @@
 	path = extensions/woocommerce-snippets
 	url = https://github.com/renzojohnson/woocommerce-snippets.git
 
-[submodule "extensions/wordpress"]
-	path = extensions/wordpress
+[submodule "extensions/wordpress-coding-standards"]
+	path = extensions/wordpress-coding-standards
+	url = https://github.com/zcuric/zed-wordpress.git
+	branch = main
+
+[submodule "extensions/wordpress-intelephense"]
+	path = extensions/wordpress-intelephense
 	url = https://github.com/zcuric/zed-wordpress.git
 	branch = main
 
