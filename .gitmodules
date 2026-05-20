@@ -1302,6 +1302,10 @@
 	path = extensions/findrakecil-alabaster
 	url = https://github.com/findrakecil/alabaster-zed-theme.git
 
+[submodule "extensions/fineorite-theme"]
+	path = extensions/fineorite-theme
+	url = https://github.com/Finorion/zed-fineorite.git
+
 [submodule "extensions/firebase-security-rules"]
 	path = extensions/firebase-security-rules
 	url = https://github.com/ChemisTechlabs/zed-firebase-security-rules.git
@@ -4805,7 +4809,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-
-[submodule "extensions/fineorite-theme"]
-	path = extensions/fineorite-theme
-	url = https://github.com/Finorion/zed-fineorite.git
