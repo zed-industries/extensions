@@ -4663,9 +4663,15 @@ version = "1.0.0"
 submodule = "extensions/woocommerce-snippets"
 version = "0.1.0"
 
-[wordpress]
+[wordpress-coding-standards]
 submodule = "extensions/wordpress"
-version = "0.2.1"
+path = "wpcs"
+version = "0.1.0"
+
+[wordpress-intelephense]
+submodule = "extensions/wordpress"
+path = "intelephense"
+version = "0.1.0"
 
 [wow-toc]
 submodule = "extensions/wow-toc"
