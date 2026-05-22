@@ -533,6 +533,11 @@ submodule = "extensions/bugstalker-dap"
 version = "0.1.0"
 path = "extension/zed"
 
+[bun-debugger]
+submodule = "extensions/bun-debugger"
+version = "0.1.0"
+path = "extension"
+
 [bun-docs-mcp]
 submodule = "extensions/bun-docs-mcp"
 version = "1.0.0"
