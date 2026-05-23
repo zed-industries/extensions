@@ -78,6 +78,10 @@
 	path = extensions/agnix
 	url = https://github.com/avifenesh/agnix.git
 
+[submodule "extensions/agno-theme"]
+	path = extensions/agno-theme
+	url = https://github.com/devalexandre/agno-theme.git
+
 [submodule "extensions/aiken"]
 	path = extensions/aiken
 	url = https://github.com/aiken-lang/zed-aiken.git
@@ -509,6 +513,10 @@
 [submodule "extensions/brainfuck"]
 	path = extensions/brainfuck
 	url = https://github.com/JosephTLyons/zed-brainfuck.git
+
+[submodule "extensions/brogrammer-theme"]
+	path = extensions/brogrammer-theme
+	url = https://github.com/gebeto/brogrammer-theme.git
 
 [submodule "extensions/browser-tools-context-server"]
 	path = extensions/browser-tools-context-server
