@@ -842,6 +842,10 @@
 	path = extensions/csharp
 	url = https://github.com/zed-extensions/csharp.git
 
+[submodule "extensions/csharp-ls"]
+	path = extensions/csharp-ls
+	url = https://github.com/rbstp/zed-csharp-ls.git
+
 [submodule "extensions/csharp-snippets"]
 	path = extensions/csharp-snippets
 	url = https://github.com/kenBinary/csharp-zed-snippets.git
