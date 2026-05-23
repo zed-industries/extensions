@@ -2818,6 +2818,10 @@
 	path = extensions/npm-package-json-checker
 	url = https://github.com/e-simpson/zed-npm-update-checker.git
 
+[submodule "extensions/nsis"]
+	path = extensions/nsis
+	url = https://github.com/idleberg/zed-nsis-extension.git
+
 [submodule "extensions/nstlgy-dark"]
 	path = extensions/nstlgy-dark
 	url = https://github.com/nstlgy/zed-nstlgy-dark
@@ -4701,7 +4705,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-
-[submodule "extensions/nsis"]
-	path = extensions/nsis
-	url = https://github.com/idleberg/zed-nsis-extension.git
