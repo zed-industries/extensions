@@ -75,6 +75,11 @@ submodule = "extensions/agnix"
 path = "editors/zed"
 version = "0.17.0"
 
+[agno-theme]
+submodule = "extensions/agno-theme"
+path = "zed"
+version = "0.0.4"
+
 [aiken]
 submodule = "extensions/aiken"
 version = "1.0.0"
@@ -106,7 +111,7 @@ version = "2.0.2"
 
 [alpental-theme]
 submodule = "extensions/alpental-theme"
-version = "0.0.8"
+version = "0.0.9"
 
 [alpinejs-snippets]
 submodule = "extensions/alpinejs-snippets"
@@ -306,6 +311,10 @@ version = "0.0.1"
 [awk]
 submodule = "extensions/awk"
 version = "0.0.1"
+
+[awsum]
+submodule = "extensions/awsum"
+version = "0.0.4"
 
 [axolosin]
 submodule = "extensions/axolosin"
@@ -508,6 +517,10 @@ version = "0.0.1"
 submodule = "extensions/brainfuck"
 version = "0.0.4"
 
+[brogrammer-theme]
+submodule = "extensions/brogrammer-theme"
+version = "0.0.1"
+
 [browser-tools-context-server]
 submodule = "extensions/browser-tools-context-server"
 version = "0.0.2"
@@ -563,6 +576,10 @@ version = "1.1.1"
 
 [carbonfox]
 submodule = "extensions/carbonfox"
+version = "1.0.0"
+
+[carbonmeda-theme]
+submodule = "extensions/carbonmeda-theme"
 version = "1.0.0"
 
 [cargo-appraiser]
@@ -1327,7 +1344,7 @@ version = "1.0.2"
 
 [fineorite-theme]
 submodule = "extensions/fineorite-theme"
-version = "0.1.0"
+version = "0.1.1"
 
 [firebase-security-rules]
 submodule = "extensions/firebase-security-rules"
@@ -1648,7 +1665,7 @@ version = "0.1.0"
 
 [greycat]
 submodule = "extensions/greycat"
-version = "0.1.3"
+version = "0.1.4"
 
 [grimaces-birthday]
 submodule = "extensions/grimaces-birthday"
@@ -1993,6 +2010,10 @@ version = "0.0.1"
 [jellybeans-vim]
 submodule = "extensions/jellybeans-vim"
 version = "0.0.3"
+
+[jemini-theme]
+submodule = "extensions/jemini-theme"
+version = "0.0.1"
 
 [jerry]
 submodule = "extensions/jerry"
@@ -2416,6 +2437,10 @@ version = "0.4.5"
 [maybe-material]
 submodule = "extensions/maybe-material"
 path = "extension/"
+version = "0.1.0"
+
+[mc-dp-icons-theme]
+submodule = "extensions/mc-dp-icons-theme"
 version = "0.1.0"
 
 [mcfunction]
@@ -3121,7 +3146,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.15.5"
+version = "1.15.9"
 
 [openfga]
 submodule = "extensions/openfga"
