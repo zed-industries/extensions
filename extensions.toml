@@ -1239,7 +1239,7 @@ version = "0.0.2"
 
 [emmet]
 submodule = "extensions/emmet"
-version = "0.0.12"
+version = "0.0.13"
 
 [emmylua]
 submodule = "extensions/emmylua"
@@ -1940,7 +1940,7 @@ version = "0.1.0"
 [intl-lens]
 submodule = "extensions/intl-lens"
 path = "crates/intl-lens-extension"
-version = "0.1.3"
+version = "0.1.5"
 
 [ion]
 submodule = "extensions/ion"
@@ -2017,7 +2017,7 @@ version = "0.0.1"
 
 [jerry]
 submodule = "extensions/jerry"
-version = "0.5.0"
+version = "0.8.0"
 
 [jetbrains-darcula-theme-by-bronya0]
 submodule = "extensions/jetbrains-darcula-theme-by-bronya0"
@@ -2037,7 +2037,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "1.0.0"
+version = "1.1.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -2105,7 +2105,7 @@ version = "0.1.2"
 
 [kanso]
 submodule = "extensions/kanso"
-version = "1.0.4"
+version = "1.0.5"
 
 [kcl]
 submodule = "extensions/kcl"
@@ -2811,7 +2811,7 @@ version = "0.1.0"
 
 [napalm]
 submodule = "extensions/napalm"
-version = "0.0.2"
+version = "0.1.0"
 
 [navi]
 submodule = "extensions/navi"
@@ -3064,7 +3064,7 @@ version = "1.0.1"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.11"
+version = "0.3.12"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -3146,7 +3146,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.15.9"
+version = "1.15.10"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -4542,6 +4542,10 @@ version = "1.0.0"
 submodule = "extensions/verilog"
 version = "0.0.17"
 
+[version14-theme]
+submodule = "extensions/version14-theme"
+version = "0.1.0"
+
 [veryl]
 submodule = "extensions/veryl"
 path = "support/zed"
@@ -4602,6 +4606,10 @@ version = "0.5.0"
 [vitest-snippets]
 submodule = "extensions/vitest-snippets"
 version = "1.0.0"
+
+[vivid-void-theme]
+submodule = "extensions/vivid-void-theme"
+version = "0.0.1"
 
 [vrl]
 submodule = "extensions/vrl"
