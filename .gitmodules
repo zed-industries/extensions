@@ -558,6 +558,10 @@
 	path = extensions/call-trans-opt-received
 	url = https://github.com/takk8is/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed.git
 
+[submodule "extensions/canipls-lint"]
+	path = extensions/canipls-lint
+	url = https://github.com/taylorplewe/canipls-zed.git
+
 [submodule "extensions/capnp"]
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
@@ -4841,6 +4845,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/canipls-lint"]
-	path = extensions/canipls-lint
-	url = https://github.com/taylorplewe/canipls-zed.git
