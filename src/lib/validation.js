@@ -1,11 +1,15 @@
+import semver from "semver";
 import {
   isApache2License,
   isBsd2ClauseLicense,
   isBsd3ClauseLicense,
+  isCcBy4License,
   isGplV3License,
   isLgplV3License,
   isMitLicense,
+  isUnlicense,
   isZlibLicense,
+  normalizeWhitespace,
 } from "./license.js";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
@@ -58,6 +62,15 @@ export function validateExtensionsToml(extensionsToml) {
       );
     }
 
+    if (
+      extensionId.includes("extension") &&
+      !EXTENSION_ID_ENDS_WITH_EXCEPTIONS.includes(extensionId)
+    ) {
+      throw new Error(
+        `Extension IDs should not include "extension", as they are all Zed extensions: "${extensionId}".`,
+      );
+    }
+
     if (!extensionInfo.submodule || !extensionInfo.version) {
       throw new Error(
         `Missing required field "submodule" or "version" for extension "${extensionId}"`,
@@ -70,18 +83,27 @@ export function validateExtensionsToml(extensionsToml) {
  * @param {Record<string, any>} manifest
  */
 export function validateManifest(manifest) {
+  /** @type string */
+  let extensionName = manifest["name"];
+
   if (
-    manifest["name"].startsWith("Zed ") &&
-    manifest["name"] !== "Zed Legacy Themes"
+    extensionName.startsWith("Zed ") &&
+    extensionName !== "Zed Legacy Themes"
   ) {
     throw new Error(
-      `Extension names should not start with "Zed ", as they are all Zed extensions: "${manifest["name"]}".`,
+      `Extension names should not start with "Zed ", as they are all Zed extensions: "${extensionName}".`,
     );
   }
 
-  if (manifest["name"].endsWith(" Zed")) {
+  if (extensionName.endsWith(" Zed")) {
     throw new Error(
-      `Extension names should not end with " Zed", as they are all Zed extensions: "${manifest["name"]}".`,
+      `Extension names should not end with " Zed", as they are all Zed extensions: "${extensionName}".`,
+    );
+  }
+
+  if (extensionName.toLowerCase().includes("extension")) {
+    throw new Error(
+      `Extension names should not include the word "extension", as they are all Zed extensions: "${extensionName}".`,
     );
   }
 
@@ -157,9 +179,11 @@ const LICENSE_REQUIREMENT_TEXT = `Extension repositories must have a valid licen
   - Apache 2.0
   - BSD 2-Clause
   - BSD 3-Clause
+  - CC BY 4.0
   - GNU GPLv3
   - GNU LGPLv3
   - MIT
+  - Unlicense
   - zlib`;
 
 const LICENSE_DOCUMENTATION_URL =
@@ -179,14 +203,17 @@ export function validateLicense(licenseCandidates) {
   }
 
   for (const license_data of licenseCandidates) {
+    const content = normalizeWhitespace(license_data.content);
     const isValidLicense =
-      isApache2License(license_data.content) ||
-      isBsd2ClauseLicense(license_data.content) ||
-      isBsd3ClauseLicense(license_data.content) ||
-      isGplV3License(license_data.content) ||
-      isLgplV3License(license_data.content) ||
-      isMitLicense(license_data.content) ||
-      isZlibLicense(license_data.content);
+      isApache2License(content) ||
+      isBsd2ClauseLicense(content) ||
+      isBsd3ClauseLicense(content) ||
+      isCcBy4License(content) ||
+      isGplV3License(content) ||
+      isLgplV3License(content) ||
+      isMitLicense(content) ||
+      isUnlicense(content) ||
+      isZlibLicense(content);
 
     if (isValidLicense) {
       return;
@@ -203,6 +230,26 @@ export function validateLicense(licenseCandidates) {
       `${MISSING_LICENSE_ERROR}`,
     ].join("\n"),
   );
+}
+
+/**
+ * Asserts that a version update for an extension does not decrease the version.
+ *
+ * @param {string} extensionId - The extension ID (used in the error message)
+ * @param {string} currentVersion - The new version
+ * @param {string} previousVersion - The old version
+ * @throws {Error} If the current version is less than the previous version
+ */
+export function assertVersionNotDecreased(
+  extensionId,
+  currentVersion,
+  previousVersion,
+) {
+  if (semver.lt(currentVersion, previousVersion)) {
+    throw new Error(
+      `Version for extension "${extensionId}" must not decrease: ${previousVersion} -> ${currentVersion}`,
+    );
+  }
 }
 
 /**
