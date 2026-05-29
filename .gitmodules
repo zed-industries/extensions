@@ -1070,6 +1070,10 @@
 	path = extensions/django-snippets
 	url = https://github.com/bencres/zed-django-snippets.git
 
+[submodule "extensions/djot"]
+	path = extensions/djot
+	url = https://github.com/nzoschke/zed-djot.git
+
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
 	url = https://github.com/eth0net/zed-docker-compose.git
@@ -2502,6 +2506,10 @@
 	path = extensions/mcp-server-master-go
 	url = https://github.com/aizigao/zed-mcp-server-master-go.git
 
+[submodule "extensions/mcp-server-memory"]
+	path = extensions/mcp-server-memory
+	url = https://github.com/robin-afro/zed-mcp-memory
+
 [submodule "extensions/mcp-server-miaoduo"]
 	path = extensions/mcp-server-miaoduo
 	url = https://github.com/benmooo/zed-mcp-server-miaoduo.git
@@ -3210,6 +3218,10 @@
 	path = extensions/path-of-exile
 	url = https://github.com/egibs/poe.zed.git
 
+[submodule "extensions/path-server-lsp"]
+	path = extensions/path-server-lsp
+	url = https://github.com/kunlinglio/path-server.git
+
 [submodule "extensions/pathy"]
 	path = extensions/pathy
 	url = https://github.com/gokulp01/pathy.git
@@ -3809,6 +3821,10 @@
 [submodule "extensions/sieve"]
 	path = extensions/sieve
 	url = https://github.com/aRustyDev/zed-sieve.git
+
+[submodule "extensions/silverstripe"]
+	path = extensions/silverstripe
+	url = https://github.com/nicolas-cusan/zed-silverstripe.git
 
 [submodule "extensions/simple-darker"]
 	path = extensions/simple-darker
@@ -4789,6 +4805,10 @@
 [submodule "extensions/yugen"]
 	path = extensions/yugen
 	url = https://github.com/frank-vdm/yugen
+
+[submodule "extensions/yulang"]
+	path = extensions/yulang
+	url = https://github.com/momota1029/yulang-zed.git
 
 [submodule "extensions/zabby"]
 	path = extensions/zabby
