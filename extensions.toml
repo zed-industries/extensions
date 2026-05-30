@@ -103,7 +103,7 @@ version = "0.0.1"
 
 [alabaster]
 submodule = "extensions/alabaster"
-version = "0.0.3"
+version = "0.0.4"
 
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
@@ -523,7 +523,7 @@ version = "0.0.1"
 
 [browser-tools-context-server]
 submodule = "extensions/browser-tools-context-server"
-version = "0.0.2"
+version = "0.1.0"
 
 [bsl]
 submodule = "extensions/bsl"
@@ -1086,6 +1086,10 @@ version = "0.2.2"
 [django-snippets]
 submodule = "extensions/django-snippets"
 version = "0.0.1"
+
+[djot]
+submodule = "extensions/djot"
+version = "0.1.0"
 
 [docker-compose]
 submodule = "extensions/docker-compose"
@@ -2543,6 +2547,10 @@ version = "0.0.1"
 submodule = "extensions/mcp-server-master-go"
 version = "0.0.1"
 
+[mcp-server-memory]
+submodule = "extensions/mcp-server-memory"
+version = "0.1.0"
+
 [mcp-server-miaoduo]
 submodule = "extensions/mcp-server-miaoduo"
 version = "0.0.1"
@@ -3256,6 +3264,11 @@ version = "0.1.0"
 submodule = "extensions/path-of-exile"
 version = "0.0.1"
 
+[path-server-lsp]
+submodule = "extensions/path-server-lsp"
+path = "extensions/zed"
+version = "1.1.2"
+
 [pathy]
 submodule = "extensions/pathy"
 version = "0.1.0"
@@ -3741,7 +3754,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.12"
+version = "0.16.13"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -3866,6 +3879,10 @@ version = "2.2.1"
 [sieve]
 submodule = "extensions/sieve"
 version = "0.1.7"
+
+[silverstripe]
+submodule = "extensions/silverstripe"
+version = "0.1.0"
 
 [simple-darker]
 submodule = "extensions/simple-darker"
@@ -4553,7 +4570,7 @@ version = "0.3.0"
 
 [veda-pro-theme]
 submodule = "extensions/veda-pro-theme"
-version = "0.1.0"
+version = "0.1.1"
 
 [vento]
 submodule = "extensions/vento"
@@ -4862,6 +4879,10 @@ version = "1.2.1"
 [yugen]
 submodule = "extensions/yugen"
 version = "0.0.1"
+
+[yulang]
+submodule = "extensions/yulang"
+version = "0.0.3"
 
 [zabby]
 submodule = "extensions/zabby"
