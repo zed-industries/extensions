@@ -1006,6 +1006,10 @@
 	path = extensions/dbml
 	url = https://github.com/shuklaayush/zed-dbml.git
 
+[submodule "extensions/dbt"]
+	path = extensions/dbt
+	url = https://github.com/kylejbrk/zed-dbt.git
+
 [submodule "extensions/decorative-stitch"]
 	path = extensions/decorative-stitch
 	url = https://github.com/keithrowell/zed-theme-decorative-stitch.git
@@ -4909,6 +4913,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/dbt"]
-	path = extensions/dbt
-	url = https://github.com/kylejbrk/zed-dbt.git
