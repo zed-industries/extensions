@@ -3290,10 +3290,6 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
-[submodule "extensions/php-mago"]
-	path = extensions/php-mago
-	url = https://github.com/LirimSakura/zed-php-mago.git
-
 [submodule "extensions/php-snippets"]
 	path = extensions/php-snippets
 	url = https://github.com/seekode/zed-php-snippets
@@ -3301,6 +3297,10 @@
 [submodule "extensions/phpcs"]
 	path = extensions/phpcs
 	url = https://github.com/GeneaLabs/zed-phpcs-lsp.git
+
+[submodule "extensions/phpmago-lsp"]
+	path = extensions/phpmago-lsp
+	url = https://github.com/LirimSakura/zed-php-mago.git
 
 [submodule "extensions/phpmd"]
 	path = extensions/phpmd
