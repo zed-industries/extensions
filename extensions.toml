@@ -629,7 +629,7 @@ version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.2.21"
+version = "0.2.22"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -1075,6 +1075,10 @@ version = "2.0.1"
 submodule = "extensions/devicetree"
 version = "0.0.1"
 
+[dhall]
+submodule = "extensions/dhall"
+version = "0.1.0"
+
 [discord-presence]
 submodule = "extensions/discord-presence"
 version = "0.2.4"
@@ -1086,6 +1090,10 @@ version = "0.2.2"
 [django-snippets]
 submodule = "extensions/django-snippets"
 version = "0.0.1"
+
+[djot]
+submodule = "extensions/djot"
+version = "0.1.0"
 
 [docker-compose]
 submodule = "extensions/docker-compose"
@@ -1499,7 +1507,7 @@ version = "0.1.1"
 
 [gatito-theme]
 submodule = "extensions/gatito-theme"
-version = "0.1.1"
+version = "0.2.0"
 
 [gato-theme]
 submodule = "extensions/gato-theme"
@@ -2189,7 +2197,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.1.19"
+version = "0.2.2"
 
 [latex]
 submodule = "extensions/latex"
@@ -2542,6 +2550,10 @@ version = "0.0.1"
 [mcp-server-master-go]
 submodule = "extensions/mcp-server-master-go"
 version = "0.0.1"
+
+[mcp-server-memory]
+submodule = "extensions/mcp-server-memory"
+version = "0.1.0"
 
 [mcp-server-miaoduo]
 submodule = "extensions/mcp-server-miaoduo"
@@ -3158,7 +3170,7 @@ version = "0.1.0"
 [opencode]
 submodule = "extensions/opencode"
 path = "packages/extensions/zed"
-version = "1.15.12"
+version = "1.15.13"
 
 [openfga]
 submodule = "extensions/openfga"
@@ -3255,6 +3267,11 @@ version = "0.1.0"
 [path-of-exile]
 submodule = "extensions/path-of-exile"
 version = "0.0.1"
+
+[path-server-lsp]
+submodule = "extensions/path-server-lsp"
+path = "extensions/zed"
+version = "1.1.2"
 
 [pathy]
 submodule = "extensions/pathy"
@@ -3867,6 +3884,10 @@ version = "2.2.1"
 submodule = "extensions/sieve"
 version = "0.1.7"
 
+[silverstripe]
+submodule = "extensions/silverstripe"
+version = "0.1.0"
+
 [simple-darker]
 submodule = "extensions/simple-darker"
 version = "0.0.1"
@@ -4035,7 +4056,7 @@ version = "0.0.3"
 
 [ssh-config]
 submodule = "extensions/ssh-config"
-version = "0.1.0"
+version = "0.2.0"
 
 [stakpak]
 submodule = "extensions/stakpak"
@@ -4120,7 +4141,7 @@ version = "0.0.3"
 
 [surpassone-theme]
 submodule = "extensions/surpassone-theme"
-version = "0.3.4"
+version = "0.3.5"
 
 [surrealql]
 submodule = "extensions/surrealql"
@@ -4547,6 +4568,10 @@ version = "0.0.2"
 submodule = "extensions/valt"
 version = "1.0.0"
 
+[vanta-theme]
+submodule = "extensions/vanta-theme"
+version = "1.0.0"
+
 [vapor-theme]
 submodule = "extensions/vapor-theme"
 version = "0.0.2"
@@ -4863,6 +4888,10 @@ version = "1.2.1"
 submodule = "extensions/yugen"
 version = "0.0.1"
 
+[yulang]
+submodule = "extensions/yulang"
+version = "0.0.3"
+
 [zabby]
 submodule = "extensions/zabby"
 version = "0.0.3"
@@ -4914,6 +4943,10 @@ version = "0.0.3"
 [zen-abyssal]
 submodule = "extensions/zen-abyssal"
 version = "1.4.3"
+
+[zenburn-transparent-theme]
+submodule = "extensions/zenburn-transparent-theme"
+version = "1.0.0"
 
 [zero-trust-theme]
 submodule = "extensions/zero-trust-theme"

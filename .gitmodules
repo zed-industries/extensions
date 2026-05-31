@@ -1058,6 +1058,10 @@
 	path = extensions/devicetree
 	url = https://github.com/anikinmd/zed_devicetree
 
+[submodule "extensions/dhall"]
+	path = extensions/dhall
+	url = https://github.com/SrGaabriel/zed-dhall
+
 [submodule "extensions/discord-presence"]
 	path = extensions/discord-presence
 	url = https://github.com/xhyrom/zed-discord-presence
@@ -1069,6 +1073,10 @@
 [submodule "extensions/django-snippets"]
 	path = extensions/django-snippets
 	url = https://github.com/bencres/zed-django-snippets.git
+
+[submodule "extensions/djot"]
+	path = extensions/djot
+	url = https://github.com/nzoschke/zed-djot.git
 
 [submodule "extensions/docker-compose"]
 	path = extensions/docker-compose
@@ -2152,7 +2160,7 @@
 
 [submodule "extensions/laravel"]
 	path = extensions/laravel
-	url = https://github.com/GeneaLabs/zed-laravel.git
+	url = https://github.com/mike-bronner/zed-laravel.git
 
 [submodule "extensions/latex"]
 	path = extensions/latex
@@ -2501,6 +2509,10 @@
 [submodule "extensions/mcp-server-master-go"]
 	path = extensions/mcp-server-master-go
 	url = https://github.com/aizigao/zed-mcp-server-master-go.git
+
+[submodule "extensions/mcp-server-memory"]
+	path = extensions/mcp-server-memory
+	url = https://github.com/robin-afro/zed-mcp-memory
 
 [submodule "extensions/mcp-server-miaoduo"]
 	path = extensions/mcp-server-miaoduo
@@ -3210,6 +3222,10 @@
 	path = extensions/path-of-exile
 	url = https://github.com/egibs/poe.zed.git
 
+[submodule "extensions/path-server-lsp"]
+	path = extensions/path-server-lsp
+	url = https://github.com/kunlinglio/path-server.git
+
 [submodule "extensions/pathy"]
 	path = extensions/pathy
 	url = https://github.com/gokulp01/pathy.git
@@ -3809,6 +3825,10 @@
 [submodule "extensions/sieve"]
 	path = extensions/sieve
 	url = https://github.com/aRustyDev/zed-sieve.git
+
+[submodule "extensions/silverstripe"]
+	path = extensions/silverstripe
+	url = https://github.com/nicolas-cusan/zed-silverstripe.git
 
 [submodule "extensions/simple-darker"]
 	path = extensions/simple-darker
@@ -4482,6 +4502,10 @@
 	path = extensions/valt
 	url = https://github.com/valtism/valt.git
 
+[submodule "extensions/vanta-theme"]
+	path = extensions/vanta-theme
+	url = https://codeberg.org/bogusz/vanta.git
+
 [submodule "extensions/vapor-theme"]
 	path = extensions/vapor-theme
 	url = https://github.com/felipetesc/vapor-theme.git
@@ -4794,6 +4818,10 @@
 	path = extensions/yugen
 	url = https://github.com/frank-vdm/yugen
 
+[submodule "extensions/yulang"]
+	path = extensions/yulang
+	url = https://github.com/momota1029/yulang-zed.git
+
 [submodule "extensions/zabby"]
 	path = extensions/zabby
 	url = https://github.com/arne-fuchs/zabby
@@ -4849,6 +4877,10 @@
 [submodule "extensions/zen-abyssal"]
 	path = extensions/zen-abyssal
 	url = https://github.com/KevInCompile/ZenAbyssal.git
+
+[submodule "extensions/zenburn-transparent-theme"]
+	path = extensions/zenburn-transparent-theme
+	url = https://github.com/rockas-d/zenburn-transparent.git
 
 [submodule "extensions/zero-trust-theme"]
 	path = extensions/zero-trust-theme
