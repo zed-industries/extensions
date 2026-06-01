@@ -3326,6 +3326,10 @@
 	path = extensions/phpcs
 	url = https://github.com/mike-bronner/zed-phpcs-lsp.git
 
+[submodule "extensions/phpmago-lsp"]
+	path = extensions/phpmago-lsp
+	url = https://github.com/LirimSakura/zed-php-mago.git
+
 [submodule "extensions/phpmd"]
 	path = extensions/phpmd
 	url = https://github.com/mike-bronner/zed-phpmd-lsp.git
