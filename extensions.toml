@@ -4209,6 +4209,11 @@ submodule = "extensions/symposium"
 path = "zed-extension/prod"
 version = "1.3"
 
+[syntaqlite-lsp]
+submodule = "extensions/syntaqlite-lsp"
+path = "integrations/zed"
+version = "0.5.10"
+
 [syntax]
 submodule = "extensions/syntax"
 version = "0.0.1"
