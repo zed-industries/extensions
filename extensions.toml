@@ -4449,6 +4449,11 @@ version = "0.1.0"
 submodule = "extensions/typespec"
 version = "0.0.1"
 
+[typeui]
+submodule = "extensions/typeui"
+path = "plugins/zed/typeui"
+version = "1.0.0"
+
 [typos]
 submodule = "extensions/typos"
 version = "0.0.5"
