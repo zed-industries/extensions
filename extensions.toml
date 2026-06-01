@@ -3568,9 +3568,9 @@ submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
 version = "0.22.0"
 
-[python-autodoc]
-submodule = "extensions/python-autodoc"
-version = "0.1.0"
+[python-autodoc-lsp]
+submodule = "extensions/python-autodoc-lsp"
+version = "0.1.1"
 
 [python-refactoring]
 submodule = "extensions/python-refactoring"
