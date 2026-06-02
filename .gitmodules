@@ -1726,6 +1726,9 @@
 	path = extensions/gruvbox-material
 	url = https://github.com/tokiory/zed-gruvbox-material.git
 
+[submodule "extensions/gruvbox-material-icons"]
+	path = extensions/gruvbox-material-icons
+	url = https://github.com/RiverMatsumoto/zed-gruvbox-material-icons.git
 
 [submodule "extensions/gruvbox-material-mix"]
 	path = extensions/gruvbox-material-mix
@@ -4990,6 +4993,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/gruvbox-material-icons"]
-	path = extensions/gruvbox-material-icons
-	url = https://github.com/RiverMatsumoto/zed-gruvbox-material-icons.git
