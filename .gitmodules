@@ -1190,6 +1190,10 @@
 	path = extensions/editorconfig
 	url = https://github.com/notpeter/editorconfig-zed.git
 
+[submodule "extensions/effect-language-service-tsgo"]
+	path = extensions/effect-language-service-tsgo
+	url = https://github.com/RATIU5/zed-effect-tsgo.git
+
 [submodule "extensions/eiffel-theme"]
 	path = extensions/eiffel-theme
 	url = https://github.com/demiurg/zed-theme-eiffel.git
@@ -1829,6 +1833,10 @@
 [submodule "extensions/hocon"]
 	path = extensions/hocon
 	url = https://github.com/tomatitito/hocon-zed-extension.git
+
+[submodule "extensions/hoon"]
+	path = extensions/hoon
+	url = https://github.com/TisaneFruitRouge/hoon-zed.git
 
 [submodule "extensions/horizon"]
 	path = extensions/horizon
@@ -2726,6 +2734,10 @@
 	path = extensions/molten-theme
 	url = https://github.com/vaqxai/zed-molten-theme.git
 
+[submodule "extensions/monochromator-theme"]
+	path = extensions/monochromator-theme
+	url = https://codeberg.org/beem/monochromator.git
+
 [submodule "extensions/monokai-nebula"]
 	path = extensions/monokai-nebula
 	url = https://github.com/JacobCallahan/monokai-nebula-zed.git
@@ -3506,6 +3518,10 @@
 	path = extensions/pytest-language-server
 	url = https://github.com/bellini666/pytest-language-server.git
 
+[submodule "extensions/python-autodoc-lsp"]
+	path = extensions/python-autodoc-lsp
+	url = https://github.com/eallender/zed-python-autodoc.git
+
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
 	url = https://github.com/rowillia/zed-python-refactoring.git
@@ -3965,6 +3981,10 @@
 [submodule "extensions/solarized-fp"]
 	path = extensions/solarized-fp
 	url = https://github.com/lohazo/zed-solarized-fp.git
+
+[submodule "extensions/solarized-osaka-theme"]
+	path = extensions/solarized-osaka-theme
+	url = https://github.com/clouby/solarized-osaka-zed.git
 
 [submodule "extensions/solid-typescript-snippets"]
 	path = extensions/solid-typescript-snippets

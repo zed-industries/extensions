@@ -1210,6 +1210,10 @@ version = "0.0.2"
 submodule = "extensions/editorconfig"
 version = "0.1.0"
 
+[effect-language-service-tsgo]
+submodule = "extensions/effect-language-service-tsgo"
+version = "0.0.4"
+
 [eiffel-theme]
 submodule = "extensions/eiffel-theme"
 version = "0.1.1"
@@ -1807,7 +1811,7 @@ version = "0.2.1"
 
 [haxe]
 submodule = "extensions/haxe"
-version = "0.3.1"
+version = "0.4.0"
 
 [hbuilderx-push-light]
 submodule = "extensions/hbuilderx-push-light"
@@ -1861,6 +1865,10 @@ version = "0.0.1"
 [hocon]
 submodule = "extensions/hocon"
 version = "0.2.0"
+
+[hoon]
+submodule = "extensions/hoon"
+version = "0.1.0"
 
 [horizon]
 submodule = "extensions/horizon"
@@ -2771,6 +2779,11 @@ version = "0.2.1"
 submodule = "extensions/molten-theme"
 version = "1.0.0"
 
+[monochromator-theme]
+submodule = "extensions/monochromator-theme"
+path = "editors/zed"
+version = "0.2.2"
+
 [monokai-nebula]
 submodule = "extensions/monokai-nebula"
 version = "0.2.6"
@@ -3563,6 +3576,10 @@ submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
 version = "0.22.0"
 
+[python-autodoc-lsp]
+submodule = "extensions/python-autodoc-lsp"
+version = "0.1.1"
+
 [python-refactoring]
 submodule = "extensions/python-refactoring"
 version = "0.0.3"
@@ -4027,6 +4044,10 @@ version = "0.2.0"
 
 [solarized-fp]
 submodule = "extensions/solarized-fp"
+version = "0.0.1"
+
+[solarized-osaka-theme]
+submodule = "extensions/solarized-osaka-theme"
 version = "0.0.1"
 
 [solid-typescript-snippets]
