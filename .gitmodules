@@ -3114,6 +3114,10 @@
 	path = extensions/omnetpp
 	url = https://github.com/omnetpp/omnetpp-zed.git
 
+[submodule "extensions/omni"]
+	path = extensions/omni
+	url = https://github.com/JoaoGaValentim/zed-omni-theme
+
 [submodule "extensions/one-black-theme"]
 	path = extensions/one-black-theme
 	url = https://github.com/serhiiboreiko/one-black-theme-zed
@@ -4994,6 +4998,3 @@
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
 
-[submodule "extensions/omni"]
-	path = extensions/omni
-	url = https://github.com/JoaoGaValentim/zed-omni-theme
