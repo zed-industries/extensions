@@ -146,6 +146,11 @@ version = "21.0.0"
 submodule = "extensions/ansible"
 version = "1.0.0"
 
+[ansible-lens]
+submodule = "extensions/ansible-lens"
+path = "editors/zed"
+version = "0.2.2"
+
 [anthracite-theme]
 submodule = "extensions/anthracite-theme"
 version = "1.0.0"
