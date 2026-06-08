@@ -1558,7 +1558,7 @@ version = "0.0.2"
 [gem]
 submodule = "extensions/gem"
 path = "crates/zed-plugin-gem"
-version = "0.0.3"
+version = "0.0.5"
 
 [genexpr]
 submodule = "extensions/genexpr"
@@ -1651,7 +1651,7 @@ version = "0.2.1"
 [glsl]
 submodule = "extensions/zed"
 path = "extensions/glsl"
-version = "0.2.3"
+version = "0.2.4"
 
 [gn]
 submodule = "extensions/gn"
@@ -2169,6 +2169,11 @@ version = "0.1.2"
 submodule = "extensions/kanso"
 version = "1.0.5"
 
+[karma-theme]
+submodule = "extensions/karma-theme"
+path = "packages/zed"
+version = "1.0.0"
+
 [kcl]
 submodule = "extensions/kcl"
 version = "0.0.2"
@@ -2243,7 +2248,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.2.2"
+version = "0.3.0"
 
 [latex]
 submodule = "extensions/latex"
@@ -3123,7 +3128,7 @@ version = "0.0.1"
 
 [ocaml]
 submodule = "extensions/ocaml"
-version = "0.3.2"
+version = "0.4.0"
 
 [ocean-dark-motifs]
 submodule = "extensions/ocean-dark-motifs"
@@ -3582,7 +3587,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.22.0"
+version = "0.23.0"
 
 [python-autodoc-lsp]
 submodule = "extensions/python-autodoc-lsp"
