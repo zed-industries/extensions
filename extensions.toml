@@ -108,7 +108,7 @@ version = "0.1.0"
 
 [alabaster]
 submodule = "extensions/alabaster"
-version = "0.0.4"
+version = "0.0.5"
 
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
@@ -257,7 +257,7 @@ version = "0.1.0"
 
 [astro]
 submodule = "extensions/astro"
-version = "0.1.10"
+version = "0.1.11"
 
 [atlas-ragnarok-theme]
 submodule = "extensions/atlas-ragnarok-theme"
@@ -1020,7 +1020,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.7"
+version = "0.3.8"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -1119,7 +1119,7 @@ version = "0.1.0"
 
 [dockerfile]
 submodule = "extensions/dockerfile"
-version = "0.2.0"
+version = "0.2.1"
 
 [dogi]
 submodule = "extensions/dogi"
@@ -1382,7 +1382,7 @@ version = "0.1.1"
 
 [findrakecil-alabaster]
 submodule = "extensions/findrakecil-alabaster"
-version = "1.0.2"
+version = "1.0.3"
 
 [fineorite-theme]
 submodule = "extensions/fineorite-theme"
@@ -1558,7 +1558,7 @@ version = "0.0.2"
 [gem]
 submodule = "extensions/gem"
 path = "crates/zed-plugin-gem"
-version = "0.0.3"
+version = "0.0.5"
 
 [genexpr]
 submodule = "extensions/genexpr"
@@ -1590,7 +1590,7 @@ version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.6"
+version = "0.1.7"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -1651,7 +1651,7 @@ version = "0.2.1"
 [glsl]
 submodule = "extensions/zed"
 path = "extensions/glsl"
-version = "0.2.3"
+version = "0.2.4"
 
 [gn]
 submodule = "extensions/gn"
@@ -1687,7 +1687,7 @@ version = "0.2.1"
 
 [graphql]
 submodule = "extensions/graphql"
-version = "1.0.4"
+version = "1.0.5"
 
 [graphviz]
 submodule = "extensions/graphviz"
@@ -1807,7 +1807,7 @@ version = "0.1.5"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "0.3.0"
+version = "0.3.1"
 
 [haxe]
 submodule = "extensions/haxe"
@@ -2165,6 +2165,11 @@ version = "0.1.2"
 submodule = "extensions/kanso"
 version = "1.0.5"
 
+[karma-theme]
+submodule = "extensions/karma-theme"
+path = "packages/zed"
+version = "1.0.0"
+
 [kcl]
 submodule = "extensions/kcl"
 version = "0.0.2"
@@ -2239,7 +2244,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.2.2"
+version = "0.3.0"
 
 [latex]
 submodule = "extensions/latex"
@@ -2386,7 +2391,7 @@ version = "0.0.4"
 
 [mach]
 submodule = "extensions/mach"
-version = "0.1.0"
+version = "0.2.0"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -3123,7 +3128,7 @@ version = "0.0.1"
 
 [ocaml]
 submodule = "extensions/ocaml"
-version = "0.3.2"
+version = "0.4.0"
 
 [ocean-dark-motifs]
 submodule = "extensions/ocean-dark-motifs"
@@ -3362,7 +3367,7 @@ version = "1.0.1"
 
 [perl]
 submodule = "extensions/perl"
-version = "0.2.0"
+version = "0.3.0"
 
 [perm]
 submodule = "extensions/perm"
@@ -3416,7 +3421,7 @@ version = "0.0.2"
 [pierre-theme]
 submodule = "extensions/pierre-theme"
 path = "zed"
-version = "0.0.23"
+version = "0.0.29"
 
 [pigs-in-space]
 submodule = "extensions/pigs-in-space"
@@ -3582,7 +3587,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.22.0"
+version = "0.23.0"
 
 [python-autodoc-lsp]
 submodule = "extensions/python-autodoc-lsp"
@@ -3672,6 +3677,11 @@ version = "1.0.1"
 [rcl]
 submodule = "extensions/rcl"
 version = "0.12.0"
+
+[react-component-lens-lsp]
+submodule = "extensions/react-component-lens-lsp"
+path = "packages/zed"
+version = "1.0.5"
 
 [react-snippets]
 submodule = "extensions/react-snippets"
@@ -3769,7 +3779,7 @@ version = "0.0.1"
 [rlsp-yaml]
 submodule = "extensions/rlsp-yaml"
 path = "rlsp-yaml/integrations/zed"
-version = "0.1.1"
+version = "0.1.2"
 
 [robot-framework]
 submodule = "extensions/robot-framework"
@@ -4341,7 +4351,7 @@ version = "1.3.0"
 
 [termux]
 submodule = "extensions/termux"
-version = "0.1.2"
+version = "0.1.3"
 
 [terraform]
 submodule = "extensions/terraform"
@@ -4591,7 +4601,7 @@ version = "0.0.9"
 
 [united-gnome]
 submodule = "extensions/united-gnome"
-version = "0.4.9"
+version = "0.5.10"
 
 [unity-snippets]
 submodule = "extensions/unity-snippets"
