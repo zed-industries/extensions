@@ -1,0 +1,96 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Solarized Osaka",
+  "author": "Leandro Moren",
+  "themes": [
+    {
+      "name": "Solarized Osaka Dark",
+      "appearance": "dark",
+      "style": {
+        "background": "#001419ff",
+        "surface.background": "#001419ff",
+        "editor.background": "#001419ff",
+        "editor.foreground": "#ede7d3ff",
+        "text": "#ede7d3ff",
+        "text.muted": "#93a1a1ff",
+        "text.accent": "#268bd2ff",
+        "border": "#063540ff",
+        "border.variant": "#002c38ff",
+        "panel.background": "#001419ff",
+        "tab_bar.background": "#001419ff",
+        "tab.inactive_background": "#001419ff",
+        "editor.active_line.background": "#002c38aa",
+        "editor.line_number": "#586e75ff",
+        "editor.active_line_number": "#a8daffff",
+        "editor.cursor": "#a8daffff",
+        "editor.selection_background": "#063540aa",
+        "terminal.background": "#001419ff",
+        "title_bar.background": "#001419ff",
+        "title_bar.inactive_background": "#001419ff",
+        "toolbar.background": "#001419ff",
+        "elevated_surface.background": "#001419ff",
+        "editor.gutter.background": "#001419ff",
+        "tab.active_background": "#001419ff",
+        "status_bar.background": "#001419ff",
+        "syntax": {
+          "comment": {
+            "color": "#586e75ff",
+            "font_style": "italic"
+          },
+          "attribute": {
+            "color": "#d33682ff"
+          },
+          "comment.doc": {
+            "color": "#657b83ff"
+          },
+          "keyword": {
+            "color": "#859900ff"
+          },
+          "string": {
+            "color": "#2aa198ff"
+          },
+          "number": {
+            "color": "#d33682ff"
+          },
+          "function": {
+            "color": "#268bd2ff"
+          },
+          "constructor": {
+            "color": "#268bd2ff"
+          },
+          "type": {
+            "color": "#b58900ff"
+          },
+          "variable": {
+            "color": "#93a1a1ff"
+          },
+          "property": {
+            "color": "#cb4b16ff"
+          },
+          "operator": {
+            "color": "#6c71c4ff"
+          },
+          "punctuation": {
+            "color": "#7c8a8bff"
+          },
+          "constant": {
+            "color": "#b58900ff"
+          }
+        },
+        "players": [],
+        "panel.overlay_background": "#001419ff",
+        "panel.overlay_hover": "#001419ff",
+        "link_text.hover": "#268bd2ff",
+        "icon": "#ede7d3ff",
+        "icon.muted": "#93a1a1ff",
+        "icon.accent": "#268bd2ff",
+        "editor.highlighted_line.background": "#001419ff",
+        "editor.subheader.background": "#001419ff",
+        "element.background": "#001419ff",
+        "terminal.foreground": "#ede7d3ff"
+      }
+    }
+  ],
+  "isUserGenerated": true,
+  "description": "An Osaka-inspired theme"
+}
