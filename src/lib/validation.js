@@ -12,6 +12,8 @@ import {
   normalizeWhitespace,
 } from "./license.js";
 
+// Spurious change.
+
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
 
 /**
