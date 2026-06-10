@@ -2126,6 +2126,10 @@
 	path = extensions/kanso
 	url = https://github.com/webhooked/kanso-zed.git
 
+[submodule "extensions/karma-theme"]
+	path = extensions/karma-theme
+	url = https://github.com/sreetamdas/karma.git
+
 [submodule "extensions/kcl"]
 	path = extensions/kcl
 	url = https://github.com/pisarenko91/kcl-zed-extension.git
@@ -2637,6 +2641,10 @@
 [submodule "extensions/mcp-server-webflow"]
 	path = extensions/mcp-server-webflow
 	url = https://github.com/LoamStudios/zed-mcp-server-webflow.git
+
+[submodule "extensions/mcp-server-zuraffa"]
+	path = extensions/mcp-server-zuraffa
+	url = https://github.com/arrrrny/zuraffa-zed.git
 
 [submodule "extensions/mdias-oled-theme"]
 	path = extensions/mdias-oled-theme
@@ -3605,6 +3613,10 @@
 [submodule "extensions/rcl"]
 	path = extensions/rcl
 	url = https://github.com/rcl-lang/zed-rcl.git
+
+[submodule "extensions/react-component-lens-lsp"]
+	path = extensions/react-component-lens-lsp
+	url = https://github.com/dev-five-git/react-component-lens.git
 
 [submodule "extensions/react-snippets"]
 	path = extensions/react-snippets
