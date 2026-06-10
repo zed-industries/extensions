@@ -4174,6 +4174,10 @@
 	path = extensions/svelte
 	url = https://github.com/zed-extensions/svelte.git
 
+[submodule "extensions/svelte-effect-runtime-language-server"]
+	path = extensions/svelte-effect-runtime-language-server
+	url = https://github.com/usebarekey/svelte-effect-runtime.git
+
 [submodule "extensions/svelte-mcp"]
 	path = extensions/svelte-mcp
 	url = https://github.com/ghostdevv/zed-svelte-mcp.git
