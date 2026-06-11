@@ -4474,14 +4474,14 @@ version = "0.0.2"
 submodule = "extensions/tmux"
 version = "0.0.2"
 
-[todos]
-submodule = "extensions/todos"
-version = "0.2.0"
-
 [todo-highlight-language-server]
 submodule = "extensions/todo-highlight-language-server"
 version = "0.2.0"
 path = "extension"
+
+[todos]
+submodule = "extensions/todos"
+version = "0.2.0"
 
 [todotxt]
 submodule = "extensions/todotxt"
