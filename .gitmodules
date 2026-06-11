@@ -3246,6 +3246,10 @@
 	path = extensions/outrun
 	url = https://github.com/Acepie/OutrunZedTheme.git
 
+[submodule "extensions/outrun-vscode"]
+	path = extensions/outrun-vscode
+	url = https://github.com/exkungen/outrun-vscode-zed.git
+
 [submodule "extensions/oxc"]
 	path = extensions/oxc
 	url = https://github.com/oxc-project/oxc-zed.git
@@ -5057,6 +5061,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/outrun-vscode"]
-	path = extensions/outrun-vscode
-	url = https://github.com/exkungen/outrun-vscode-zed.git
