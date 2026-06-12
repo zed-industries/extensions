@@ -108,7 +108,7 @@ version = "0.1.0"
 
 [alabaster]
 submodule = "extensions/alabaster"
-version = "0.0.4"
+version = "0.0.5"
 
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
@@ -257,7 +257,7 @@ version = "0.1.0"
 
 [astro]
 submodule = "extensions/astro"
-version = "0.1.10"
+version = "0.1.11"
 
 [atlas-ragnarok-theme]
 submodule = "extensions/atlas-ragnarok-theme"
@@ -1020,7 +1020,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.7"
+version = "0.3.8"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -1075,7 +1075,7 @@ version = "1.0.1"
 [design-tokens]
 submodule = "extensions/design-tokens"
 path = "extensions/zed"
-version = "0.3.1"
+version = "0.3.2"
 
 [desktop]
 submodule = "extensions/desktop"
@@ -1119,7 +1119,7 @@ version = "0.1.0"
 
 [dockerfile]
 submodule = "extensions/dockerfile"
-version = "0.2.0"
+version = "0.2.1"
 
 [dogi]
 submodule = "extensions/dogi"
@@ -1209,6 +1209,10 @@ version = "0.0.2"
 [editorconfig]
 submodule = "extensions/editorconfig"
 version = "0.1.0"
+
+[edusites-theme]
+submodule = "extensions/edusites-theme"
+version = "1.0.0"
 
 [effect-language-service-tsgo]
 submodule = "extensions/effect-language-service-tsgo"
@@ -1384,9 +1388,13 @@ version = "0.1.0"
 submodule = "extensions/fiberplane-studio"
 version = "0.1.1"
 
+[field-lights-theme]
+submodule = "extensions/field-lights-theme"
+version = "1.0.0"
+
 [findrakecil-alabaster]
 submodule = "extensions/findrakecil-alabaster"
-version = "1.0.2"
+version = "1.0.3"
 
 [fineorite-theme]
 submodule = "extensions/fineorite-theme"
@@ -1553,7 +1561,7 @@ version = "0.0.1"
 
 [gdscript]
 submodule = "extensions/gdscript"
-version = "0.8.0"
+version = "0.9.0"
 
 [gdscript-snippets]
 submodule = "extensions/gdscript-snippets"
@@ -1562,7 +1570,7 @@ version = "0.0.2"
 [gem]
 submodule = "extensions/gem"
 path = "crates/zed-plugin-gem"
-version = "0.0.3"
+version = "0.0.5"
 
 [genexpr]
 submodule = "extensions/genexpr"
@@ -1594,7 +1602,7 @@ version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.6"
+version = "0.1.7"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -1655,7 +1663,7 @@ version = "0.2.1"
 [glsl]
 submodule = "extensions/zed"
 path = "extensions/glsl"
-version = "0.2.3"
+version = "0.2.4"
 
 [gn]
 submodule = "extensions/gn"
@@ -1691,7 +1699,7 @@ version = "0.2.1"
 
 [graphql]
 submodule = "extensions/graphql"
-version = "1.0.4"
+version = "1.0.5"
 
 [graphviz]
 submodule = "extensions/graphviz"
@@ -1793,6 +1801,10 @@ version = "0.0.1"
 submodule = "extensions/halcyon"
 version = "0.2.3"
 
+[halloween-night-theme]
+submodule = "extensions/halloween-night-theme"
+version = "0.0.1"
+
 [hami-melon-theme]
 submodule = "extensions/hami-melon-theme"
 version = "0.5.0"
@@ -1811,7 +1823,7 @@ version = "0.1.5"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "0.3.0"
+version = "0.3.1"
 
 [haxe]
 submodule = "extensions/haxe"
@@ -2121,6 +2133,10 @@ version = "0.1.0"
 submodule = "extensions/jq"
 version = "0.0.2"
 
+[json-tool-lsp]
+submodule = "extensions/json-tool-lsp"
+version = "0.0.3"
+
 [json5]
 submodule = "extensions/json5"
 version = "0.1.0"
@@ -2169,6 +2185,11 @@ version = "0.1.2"
 submodule = "extensions/kanso"
 version = "1.0.5"
 
+[karma-theme]
+submodule = "extensions/karma-theme"
+path = "packages/zed"
+version = "3.1.1"
+
 [kcl]
 submodule = "extensions/kcl"
 version = "0.0.2"
@@ -2203,6 +2224,10 @@ version = "1.0.0"
 
 [kiselevka]
 submodule = "extensions/kiselevka"
+version = "0.0.1"
+
+[koda-theme]
+submodule = "extensions/koda-theme"
 version = "0.0.1"
 
 [kokedera-icons]
@@ -2243,7 +2268,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.2.2"
+version = "0.4.0"
 
 [latex]
 submodule = "extensions/latex"
@@ -2283,6 +2308,10 @@ version = "0.0.1"
 
 [lights-out]
 submodule = "extensions/lights-out"
+version = "0.0.1"
+
+[likec4]
+submodule = "extensions/likec4"
 version = "0.0.1"
 
 [lilypond]
@@ -2390,7 +2419,7 @@ version = "0.0.4"
 
 [mach]
 submodule = "extensions/mach"
-version = "0.1.0"
+version = "0.2.0"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -2540,10 +2569,6 @@ version = "0.2.0"
 [mcp-server-buildkite]
 submodule = "extensions/mcp-server-buildkite"
 version = "0.0.4"
-
-[mcp-server-byterover]
-submodule = "extensions/mcp-server-byterover"
-version = "0.0.3"
 
 [mcp-server-code-runner]
 submodule = "extensions/mcp-server-code-runner"
@@ -3061,6 +3086,10 @@ version = "0.1.0"
 submodule = "extensions/npm-package-json-checker"
 version = "1.0.6"
 
+[nsis]
+submodule = "extensions/nsis"
+version = "0.1.0"
+
 [nstlgy-dark]
 submodule = "extensions/nstlgy-dark"
 version = "0.0.2"
@@ -3123,7 +3152,7 @@ version = "0.0.1"
 
 [ocaml]
 submodule = "extensions/ocaml"
-version = "0.3.2"
+version = "0.4.0"
 
 [ocean-dark-motifs]
 submodule = "extensions/ocean-dark-motifs"
@@ -3267,6 +3296,10 @@ version = "0.2.0"
 submodule = "extensions/outrun"
 version = "0.0.3"
 
+[outrun-vscode-theme]
+submodule = "extensions/outrun-vscode-theme"
+version = "0.1.0"
+
 [oxc]
 submodule = "extensions/oxc"
 version = "0.4.7"
@@ -3362,7 +3395,7 @@ version = "1.0.1"
 
 [perl]
 submodule = "extensions/perl"
-version = "0.2.0"
+version = "0.3.0"
 
 [perm]
 submodule = "extensions/perm"
@@ -3388,6 +3421,10 @@ version = "0.0.1"
 submodule = "extensions/phosphor-icons-theme"
 version = "0.0.2"
 
+[phosphor-theme]
+submodule = "extensions/phosphor-theme"
+version = "1.0.0"
+
 [php]
 submodule = "extensions/php"
 version = "0.4.10"
@@ -3407,7 +3444,7 @@ version = "0.1.0"
 
 [phpmd]
 submodule = "extensions/phpmd"
-version = "0.1.2"
+version = "0.1.4"
 
 [pica200]
 submodule = "extensions/pica200"
@@ -3416,7 +3453,7 @@ version = "0.0.2"
 [pierre-theme]
 submodule = "extensions/pierre-theme"
 path = "zed"
-version = "0.0.23"
+version = "0.0.29"
 
 [pigs-in-space]
 submodule = "extensions/pigs-in-space"
@@ -3437,6 +3474,10 @@ version = "1.3.0"
 [pinkzuna-theme]
 submodule = "extensions/pinkzuna-theme"
 version = "1.0.0"
+
+[pioasm]
+submodule = "extensions/pioasm"
+version = "0.0.1"
 
 [pkl]
 submodule = "extensions/pkl"
@@ -3567,6 +3608,10 @@ version = "0.1.3"
 submodule = "extensions/px-to-rem"
 version = "0.1.0"
 
+[pyatlas-lsp]
+submodule = "extensions/pyatlas-lsp"
+version = "0.1.1"
+
 [pycharm-modern-themes]
 submodule = "extensions/pycharm-modern-themes"
 version = "0.0.1"
@@ -3582,7 +3627,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.22.0"
+version = "0.23.0"
 
 [python-autodoc-lsp]
 submodule = "extensions/python-autodoc-lsp"
@@ -3669,9 +3714,18 @@ version = "1.1.0"
 submodule = "extensions/rapture-theme"
 version = "1.0.1"
 
+[rasi]
+submodule = "extensions/rasi"
+version = "0.1.1"
+
 [rcl]
 submodule = "extensions/rcl"
 version = "0.12.0"
+
+[react-component-lens-lsp]
+submodule = "extensions/react-component-lens-lsp"
+path = "packages/zed"
+version = "1.0.5"
 
 [react-snippets]
 submodule = "extensions/react-snippets"
@@ -3769,7 +3823,7 @@ version = "0.0.1"
 [rlsp-yaml]
 submodule = "extensions/rlsp-yaml"
 path = "rlsp-yaml/integrations/zed"
-version = "0.1.1"
+version = "0.1.2"
 
 [robot-framework]
 submodule = "extensions/robot-framework"
@@ -3778,6 +3832,10 @@ version = "0.0.1"
 [roc]
 submodule = "extensions/roc"
 version = "0.0.6"
+
+[rockide-language-server]
+submodule = "extensions/rockide-language-server"
+version = "0.1.0"
 
 [ron]
 submodule = "extensions/ron"
@@ -4118,10 +4176,6 @@ version = "0.2.0"
 submodule = "extensions/sqlmesh"
 version = "0.1.4"
 
-[sqruff]
-submodule = "extensions/sqruff"
-version = "0.1.0"
-
 [squirrel]
 submodule = "extensions/squirrel"
 version = "0.1.0"
@@ -4230,6 +4284,11 @@ version = "0.0.1"
 [svelte]
 submodule = "extensions/svelte"
 version = "0.2.11"
+
+[svelte-effect-runtime-language-server]
+submodule = "extensions/svelte-effect-runtime-language-server"
+path = "modules/svelte-effect-runtime-zed"
+version = "2.3.0"
 
 [svelte-mcp]
 submodule = "extensions/svelte-mcp"
@@ -4341,7 +4400,7 @@ version = "1.3.0"
 
 [termux]
 submodule = "extensions/termux"
-version = "0.1.2"
+version = "0.1.3"
 
 [terraform]
 submodule = "extensions/terraform"
@@ -4410,6 +4469,11 @@ version = "0.0.2"
 [tmux]
 submodule = "extensions/tmux"
 version = "0.0.2"
+
+[todo-highlight-language-server]
+submodule = "extensions/todo-highlight-language-server"
+version = "0.2.0"
+path = "extension"
 
 [todotxt]
 submodule = "extensions/todotxt"
@@ -4531,7 +4595,7 @@ version = "0.0.5"
 
 [typst]
 submodule = "extensions/typst"
-version = "0.2.0"
+version = "0.2.1"
 
 [tyranoscript]
 submodule = "extensions/tyranoscript"
@@ -4591,7 +4655,7 @@ version = "0.0.9"
 
 [united-gnome]
 submodule = "extensions/united-gnome"
-version = "0.4.9"
+version = "0.5.10"
 
 [unity-snippets]
 submodule = "extensions/unity-snippets"
@@ -4643,7 +4707,7 @@ version = "0.0.2"
 
 [valt]
 submodule = "extensions/valt"
-version = "1.0.0"
+version = "1.0.1"
 
 [vanta-theme]
 submodule = "extensions/vanta-theme"
@@ -4752,7 +4816,7 @@ version = "0.0.1"
 
 [vrl]
 submodule = "extensions/vrl"
-version = "0.1.0"
+version = "0.1.1"
 
 [vscode-classic-theme]
 submodule = "extensions/vscode-classic-theme"
@@ -4896,11 +4960,6 @@ version = "0.0.1"
 submodule = "extensions/wren"
 version = "0.0.1"
 
-[wren-lsp]
-submodule = "extensions/wren-lsp"
-path = "editors/zed"
-version = "0.0.1"
-
 [wxml]
 submodule = "extensions/wxml"
 version = "0.1.0"
@@ -5015,7 +5074,7 @@ version = "0.0.1"
 
 [zen]
 submodule = "extensions/zen"
-version = "0.0.3"
+version = "0.0.4"
 
 [zen-abyssal]
 submodule = "extensions/zen-abyssal"
