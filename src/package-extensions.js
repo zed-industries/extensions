@@ -194,6 +194,7 @@ async function packageExtension(
       env: {
         PATH: process.env["PATH"],
         RUST_LOG: "info",
+        RUSTUP_TOOLCHAIN: process.env["RUSTUP_TOOLCHAIN"],
       },
     },
   );
