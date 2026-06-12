@@ -1,6 +1,17 @@
 import path from "node:path";
 
 /**
+ * Normalizes whitespace in the given text by collapsing all sequences of
+ * whitespace characters (spaces, newlines, tabs, etc.) into a single space.
+ * This makes license matching insensitive to text wrapping.
+ * @param {string} text
+ * @returns {string}
+ */
+export function normalizeWhitespace(text) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+/**
  * @param {string} fileName
  * @returns {boolean}
  */
@@ -45,12 +56,12 @@ const BSD_COMMON_PATTERNS = [
   /1\. Redistributions of source code must retain the above copyright/i,
   /2\. Redistributions in binary form must reproduce the above copyright/i,
   /THIS SOFTWARE IS PROVIDED BY THE (?:COPYRIGHT HOLDERS AND CONTRIBUTORS|AUTHOR AND CONTRIBUTORS) "AS IS"/i,
-  /IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE[ \n]ARE/i,
-  /DISCLAIMED\.[\s\S]{1,2}IN NO EVENT SHALL THE (?:COPYRIGHT HOLDER|AUTHOR) OR CONTRIBUTORS BE LIABLE/i,
+  /IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE/i,
+  /DISCLAIMED\. IN NO EVENT SHALL THE (?:COPYRIGHT HOLDER|AUTHOR) OR CONTRIBUTORS BE LIABLE/i,
 ];
 
 const BSD_3_CLAUSE_ONLY_PATTERN =
-  /3\. Neither the name of the copyright holder nor the names of its[\s\S]{1,4}contributors may[\s\S]{1,4}be used to endorse or promote products derived from/i;
+  /3\. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from/i;
 
 /**
  * @param {string} licenseContent
@@ -108,9 +119,9 @@ export function isGplV3License(licenseContent) {
 
 const MIT_REQUIRED_PATTERNS = [
   /Copyright/i,
-  /Permission is hereby granted, free of charge, to any[ \n]person obtaining a copy/i,
-  /The above copyright notice and this permission notice[ \n]shall be included in[ \n]all/i,
-  /THE SOFTWARE IS PROVIDED ["“]AS IS["”], WITHOUT WARRANTY OF[ \n]ANY KIND, EXPRESS OR/i,
+  /Permission is hereby granted, free of charge, to any person obtaining a copy/i,
+  /The above copyright notice and this permission notice shall be included in all/i,
+  /THE SOFTWARE IS PROVIDED ["“]AS IS["”], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
 ];
 
 /**
