@@ -3414,6 +3414,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/php-lsp"]
+	path = extensions/php-lsp
+	url = https://github.com/jorgsowa/php-lsp-zed-extension
+
 [submodule "extensions/php-snippets"]
 	path = extensions/php-snippets
 	url = https://github.com/seekode/zed-php-snippets
