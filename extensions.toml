@@ -2566,10 +2566,6 @@ version = "0.2.0"
 submodule = "extensions/mcp-server-buildkite"
 version = "0.0.4"
 
-[mcp-server-byterover]
-submodule = "extensions/mcp-server-byterover"
-version = "0.0.3"
-
 [mcp-server-code-runner]
 submodule = "extensions/mcp-server-code-runner"
 version = "0.1.0"
@@ -4176,10 +4172,6 @@ version = "0.2.0"
 submodule = "extensions/sqlmesh"
 version = "0.1.4"
 
-[sqruff]
-submodule = "extensions/sqruff"
-version = "0.1.0"
-
 [squirrel]
 submodule = "extensions/squirrel"
 version = "0.1.0"
@@ -4966,11 +4958,6 @@ version = "0.0.1"
 
 [wren]
 submodule = "extensions/wren"
-version = "0.0.1"
-
-[wren-lsp]
-submodule = "extensions/wren-lsp"
-path = "editors/zed"
 version = "0.0.1"
 
 [wxml]
