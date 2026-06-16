@@ -2826,6 +2826,10 @@
 	path = extensions/monochromator-theme
 	url = https://codeberg.org/beem/monochromator.git
 
+[submodule "extensions/monokai-clarity"]
+	path = extensions/monokai-clarity
+	url = https://github.com/quocmffx/monokai-clarity.git
+
 [submodule "extensions/monokai-nebula"]
 	path = extensions/monokai-nebula
 	url = https://github.com/JacobCallahan/monokai-nebula-zed.git
@@ -5153,6 +5157,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/monokai-clarity"]
-	path = extensions/monokai-clarity
-	url = https://github.com/quocmffx/monokai-clarity.git
