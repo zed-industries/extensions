@@ -14,14 +14,11 @@ importers:
       '@iarna/toml':
         specifier: 2.2.5
         version: 2.2.5
-      '@types/semver':
-        specifier: ^7.7.1
-        version: 7.7.1
       git-submodule-js:
         specifier: 1.0.5
         version: 1.0.5
       semver:
-        specifier: ^7.7.4
+        specifier: 7.8.4
         version: 7.8.4
     devDependencies:
       '@tsconfig/node24':
@@ -31,8 +28,11 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/node':
-        specifier: 24.12.4
-        version: 24.12.4
+        specifier: 24.13.2
+        version: 24.13.2
+      '@types/semver':
+        specifier: 7.7.1
+        version: 7.7.1
       danger:
         specifier: 13.0.7
         version: 13.0.7
@@ -47,7 +47,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: 4.1.8
-        version: 4.1.8(@types/node@24.12.4)(vite@7.1.12(@types/node@24.12.4))
+        version: 4.1.8(@types/node@24.13.2)(vite@7.1.12(@types/node@24.13.2))
 
 packages:
 
@@ -602,8 +602,8 @@ packages:
   '@types/estree@1.0.9':
     resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
 
-  '@types/node@24.12.4':
-    resolution: {integrity: sha512-GUUEShf+PBCGW2KaXwcIt3Yk+e3pkKwWKb9GSyM9WQVE+ep2jzmHdGsHzu4wgcZy5fN9FBdVzjpBQsYlpfpgLA==}
+  '@types/node@24.13.2':
+    resolution: {integrity: sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==}
 
   '@types/semver@7.7.1':
     resolution: {integrity: sha512-FmgJfu+MOcQ370SD0ev7EI8TlCAfKYU+B4m5T3yXc1CiRN94g/SZPtsCkk506aUDtlMnFZvasDwHHUcZUEaYuA==}
@@ -1078,8 +1078,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
   universal-user-agent@6.0.1:
     resolution: {integrity: sha512-yCzhz6FN2wU1NiiQRogkTQszlQSlpWaw8SvVegAc+bDxbzHgh1vX8uIe8OYyMH6DwH+sdTJsgMl36+mSMdRJIQ==}
@@ -1758,9 +1758,9 @@ snapshots:
 
   '@types/estree@1.0.9': {}
 
-  '@types/node@24.12.4':
+  '@types/node@24.13.2':
     dependencies:
-      undici-types: 7.16.0
+      undici-types: 7.18.2
 
   '@types/semver@7.7.1': {}
 
@@ -1773,13 +1773,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.8(vite@7.1.12(@types/node@24.12.4))':
+  '@vitest/mocker@4.1.8(vite@7.1.12(@types/node@24.13.2))':
     dependencies:
       '@vitest/spy': 4.1.8
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.1.12(@types/node@24.12.4)
+      vite: 7.1.12(@types/node@24.13.2)
 
   '@vitest/pretty-format@4.1.8':
     dependencies:
@@ -2261,11 +2261,11 @@ snapshots:
 
   typescript@5.9.3: {}
 
-  undici-types@7.16.0: {}
+  undici-types@7.18.2: {}
 
   universal-user-agent@6.0.1: {}
 
-  vite@7.1.12(@types/node@24.12.4):
+  vite@7.1.12(@types/node@24.13.2):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
@@ -2274,13 +2274,13 @@ snapshots:
       rollup: 4.61.1
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 24.12.4
+      '@types/node': 24.13.2
       fsevents: 2.3.3
 
-  vitest@4.1.8(@types/node@24.12.4)(vite@7.1.12(@types/node@24.12.4)):
+  vitest@4.1.8(@types/node@24.13.2)(vite@7.1.12(@types/node@24.13.2)):
     dependencies:
       '@vitest/expect': 4.1.8
-      '@vitest/mocker': 4.1.8(vite@7.1.12(@types/node@24.12.4))
+      '@vitest/mocker': 4.1.8(vite@7.1.12(@types/node@24.13.2))
       '@vitest/pretty-format': 4.1.8
       '@vitest/runner': 4.1.8
       '@vitest/snapshot': 4.1.8
@@ -2297,10 +2297,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.16
       tinyrainbow: 3.1.0
-      vite: 7.1.12(@types/node@24.12.4)
+      vite: 7.1.12(@types/node@24.13.2)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.12.4
+      '@types/node': 24.13.2
     transitivePeerDependencies:
       - msw
 
