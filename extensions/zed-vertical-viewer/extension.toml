@@ -1,0 +1,16 @@
+id = "zed-vertical-viewer"
+name = "Zed Vertical Viewer"
+description = "A vertical-writing preview window that supports Japanese ruby text."
+version = "1.0.0"
+schema_version = 1
+authors = ["DroicheadNua <mirrorshard.dev@gmail.com>"]
+repository = "https://github.com/DroicheadNua/zed-vertical-viewer"
+
+# Markdownファイルが開かれたら、このLSP（Viewer）を自動起動する
+[language_servers.zed-vertical-viewer]
+languages = ["Markdown"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "zed-vertical-viewer"
+args = ["**"]
