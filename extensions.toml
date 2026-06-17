@@ -89,6 +89,10 @@ submodule = "extensions/air"
 path = "editors/zed"
 version = "0.1.0"
 
+[air-theme]
+submodule = "extensions/air-theme"
+version = "0.1.0"
+
 [aira]
 submodule = "extensions/aira"
 version = "1.0.0"
@@ -164,12 +168,16 @@ version = "0.1.0"
 
 [apathy-theme]
 submodule = "extensions/apathy-theme"
-version = "3.8.0"
+version = "3.11.1"
 path = "packages/zed"
 
 [apisartisan]
 submodule = "extensions/apisartisan"
 version = "0.0.1"
+
+[applescript]
+submodule = "extensions/applescript"
+version = "1.9.1"
 
 [aptos-move]
 submodule = "extensions/aptos-move"
@@ -423,7 +431,7 @@ version = "1.2.2"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.3.0"
+version = "0.3.1"
 
 [birds-of-paradise-theme]
 submodule = "extensions/birds-of-paradise-theme"
@@ -497,6 +505,10 @@ version = "1.0.0"
 [blueprint]
 submodule = "extensions/blueprint"
 version = "0.4.1"
+
+[blueprint-dark-theme]
+submodule = "extensions/blueprint-dark-theme"
+version = "0.1.0"
 
 [bluespec-systemverilog]
 submodule = "extensions/bluespec-systemverilog"
@@ -1215,6 +1227,10 @@ version = "1.0.0"
 submodule = "extensions/eclat"
 version = "0.1.0"
 
+[eclipsa-theme]
+submodule = "extensions/eclipsa-theme"
+version = "0.1.0"
+
 [edge]
 submodule = "extensions/edge"
 version = "1.0.1"
@@ -1238,6 +1254,10 @@ version = "0.0.5"
 [eiffel-theme]
 submodule = "extensions/eiffel-theme"
 version = "0.1.1"
+
+[ejentum-mcp]
+submodule = "extensions/ejentum-mcp"
+version = "0.2.0"
 
 [ejs]
 submodule = "extensions/ejs"
@@ -1846,6 +1866,10 @@ version = "0.1.5"
 submodule = "extensions/haskell"
 version = "0.3.1"
 
+[haven-theme]
+submodule = "extensions/haven-theme"
+version = "0.6.0"
+
 [haxe]
 submodule = "extensions/haxe"
 version = "0.4.0"
@@ -2319,6 +2343,11 @@ version = "1.0.1"
 submodule = "extensions/ledger"
 version = "0.2.0"
 
+[legendary-dark-theme]
+submodule = "extensions/legendary-dark-theme"
+path = "zed"
+version = "5.0.1"
+
 [leptos]
 submodule = "extensions/leptos"
 version = "0.1.1"
@@ -2444,7 +2473,7 @@ version = "0.0.4"
 
 [mach]
 submodule = "extensions/mach"
-version = "0.2.1"
+version = "0.2.2"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -2743,6 +2772,10 @@ version = "0.2.1"
 submodule = "extensions/mcp-server-webflow"
 version = "0.1.0"
 
+[mcp-server-zephex]
+submodule = "extensions/mcp-server-zephex"
+version = "0.0.1"
+
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
 version = "5.2.1"
@@ -3012,7 +3045,7 @@ version = "0.1.0"
 
 [nginx]
 submodule = "extensions/nginx"
-version = "0.0.2"
+version = "0.0.3"
 
 [nickel]
 submodule = "extensions/nickel"
@@ -3157,7 +3190,7 @@ version = "0.0.1"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.10.0"
+version = "0.10.1"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -3377,6 +3410,11 @@ version = "0.0.3"
 submodule = "extensions/palenight"
 version = "0.0.1"
 
+[panache-language-server]
+submodule = "extensions/panache-language-server"
+path = "editors/zed"
+version = "2.35.1"
+
 [panda-plus-theme]
 submodule = "extensions/panda-plus-theme"
 version = "0.1.1"
@@ -3413,6 +3451,10 @@ version = "1.3.1"
 [pathy]
 submodule = "extensions/pathy"
 version = "0.1.0"
+
+[patina-theme]
+submodule = "extensions/patina-theme"
+version = "1.3.0"
 
 [pbxproj]
 submodule = "extensions/pbxproj"
@@ -3718,6 +3760,10 @@ version = "0.4.0"
 [quakec]
 submodule = "extensions/quakec"
 version = "0.0.2"
+
+[quantum-theme]
+submodule = "extensions/quantum-theme"
+version = "1.0.0"
 
 [quarto]
 submodule = "extensions/quarto"
@@ -4373,7 +4419,7 @@ version = "0.4.9"
 
 [symbols]
 submodule = "extensions/symbols"
-version = "1.1.0"
+version = "1.2.0"
 
 [symposium]
 submodule = "extensions/symposium"
@@ -4533,7 +4579,7 @@ version = "0.0.2"
 
 [todo-highlight-language-server]
 submodule = "extensions/todo-highlight-language-server"
-version = "0.2.0"
+version = "0.2.1"
 path = "extension"
 
 [todotxt]
