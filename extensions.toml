@@ -365,6 +365,11 @@ version = "0.1.0"
 submodule = "extensions/bamboo-theme"
 version = "0.1.0"
 
+[babel-lsp]
+submodule = "extensions/babel-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [baml]
 submodule = "extensions/baml"
 version = "0.222.0"
