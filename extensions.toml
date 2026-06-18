@@ -175,6 +175,10 @@ path = "packages/zed"
 submodule = "extensions/apisartisan"
 version = "0.0.1"
 
+[applescript]
+submodule = "extensions/applescript"
+version = "1.9.1"
+
 [aptos-move]
 submodule = "extensions/aptos-move"
 version = "0.0.2"
@@ -497,6 +501,10 @@ version = "1.0.0"
 [blueprint]
 submodule = "extensions/blueprint"
 version = "0.4.1"
+
+[blueprint-dark-theme]
+submodule = "extensions/blueprint-dark-theme"
+version = "0.1.0"
 
 [bluespec-systemverilog]
 submodule = "extensions/bluespec-systemverilog"
