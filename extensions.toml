@@ -840,6 +840,10 @@ submodule = "extensions/compline"
 path = "zed"
 version = "0.1.0"
 
+[composer-update-checker]
+submodule = "extensions/composer-update-checker"
+version = "0.1.0"
+
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
 version = "1.0.0"
