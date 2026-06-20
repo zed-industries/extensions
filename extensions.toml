@@ -4609,6 +4609,11 @@ submodule = "extensions/todo-highlight-language-server"
 version = "0.2.1"
 path = "extension"
 
+[todo-highlight-lsp]
+submodule = "extensions/todo-highlight-lsp"
+version = "0.1.2"
+path = "todo_highlight"
+
 [todotxt]
 submodule = "extensions/todotxt"
 version = "0.2.3"
