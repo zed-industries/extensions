@@ -733,6 +733,10 @@ version = "0.1.0"
 submodule = "extensions/claude-code-inspired-dark"
 version = "1.0.0"
 
+[claude-vellum-theme]
+submodule = "extensions/claude-vellum-theme"
+version = "0.1.0"
+
 [claude-warm-theme]
 submodule = "extensions/claude-warm-theme"
 version = "0.0.1"
@@ -1304,6 +1308,10 @@ version = "0.1.0"
 submodule = "extensions/elm"
 version = "0.2.2"
 
+[elsa-lang]
+submodule = "extensions/elsa-lang"
+version = "0.1.0"
+
 [ember]
 submodule = "extensions/ember"
 version = "0.1.0"
@@ -1830,6 +1838,11 @@ version = "2.0.0"
 submodule = "extensions/hackthebox-theme"
 version = "0.1.0"
 
+[hakimi-deuteranopia-theme]
+submodule = "extensions/hakimi-deuteranopia-theme"
+path = "zed"
+version = "1.2.1"
+
 [haku-dark-theme]
 submodule = "extensions/haku-dark-theme"
 version = "0.0.1"
@@ -2313,11 +2326,15 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.4.1"
+version = "0.5.0"
 
 [latex]
 submodule = "extensions/latex"
 version = "0.2.3"
+
+[latex-snippets]
+submodule = "extensions/latex-snippets"
+version = "0.0.1"
 
 [latte]
 submodule = "extensions/latte"
@@ -2454,6 +2471,10 @@ version = "0.3.8"
 [lume-theme]
 submodule = "extensions/lume-theme"
 version = "0.1.0"
+
+[lumin-theme]
+submodule = "extensions/lumin-theme"
+version = "0.0.1"
 
 [lumina-theme]
 submodule = "extensions/lumina-theme"
@@ -2774,7 +2795,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "5.2.1"
+version = "5.2.2"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -4047,7 +4068,7 @@ version = "0.0.1"
 
 [sequoia]
 submodule = "extensions/sequoia"
-version = "1.31.0"
+version = "1.32.0"
 
 [sercali]
 submodule = "extensions/sercali"
@@ -4059,7 +4080,7 @@ version = "0.0.1"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "1.0.0"
+version = "1.1.0"
 
 [serendipity-icons]
 submodule = "extensions/serendipity-icons"
@@ -4285,7 +4306,7 @@ version = "0.1.0"
 
 [srcery]
 submodule = "extensions/srcery"
-version = "0.0.3"
+version = "0.0.4"
 
 [ssh-config]
 submodule = "extensions/ssh-config"
@@ -4368,6 +4389,10 @@ version = "0.1.0"
 [superior-green-theme]
 submodule = "extensions/superior-green-theme"
 version = "0.0.20"
+
+[superset-theme]
+submodule = "extensions/superset-theme"
+version = "0.0.1"
 
 [supertheme4]
 submodule = "extensions/supertheme4"
@@ -4566,6 +4591,11 @@ version = "0.0.2"
 submodule = "extensions/tla-plus"
 version = "0.2.0"
 
+[tlapalli-theme]
+submodule = "extensions/tlapalli-theme"
+path = "extension"
+version = "1.2.0"
+
 [tm-twilight]
 submodule = "extensions/tm-twilight"
 version = "0.0.2"
@@ -4582,6 +4612,10 @@ path = "extension"
 [todotxt]
 submodule = "extensions/todotxt"
 version = "0.2.3"
+
+[token-themes]
+submodule = "extensions/token-themes"
+version = "0.0.1"
 
 [tokyo-maple-theme]
 submodule = "extensions/tokyo-maple-theme"
@@ -4843,7 +4877,7 @@ version = "0.1.0"
 
 [vercel-theme]
 submodule = "extensions/vercel-theme"
-version = "1.0.0"
+version = "1.1.0"
 
 [verilog]
 submodule = "extensions/verilog"
