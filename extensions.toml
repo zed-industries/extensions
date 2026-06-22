@@ -3651,6 +3651,10 @@ version = "0.6.1"
 submodule = "extensions/popping-and-locking"
 version = "1.0.3"
 
+[postgres]
+submodule = "extensions/postgres"
+version = "1.0.0"
+
 [postgres-context-server]
 submodule = "extensions/postgres-context-server"
 version = "0.0.5"
