@@ -1102,6 +1102,10 @@
 	path = extensions/dhall
 	url = https://github.com/SrGaabriel/zed-dhall
 
+[submodule "extensions/diff-tool-lsp"]
+	path = extensions/diff-tool-lsp
+	url = https://github.com/xgfone/zed-diff-tool.git
+
 [submodule "extensions/discord-presence"]
 	path = extensions/discord-presence
 	url = https://github.com/xhyrom/zed-discord-presence
