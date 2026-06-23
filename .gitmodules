@@ -1362,6 +1362,10 @@
 	path = extensions/fantasticons-icons-theme
 	url = https://github.com/caiolandgraf/fantasticons-zed.git
 
+[submodule "extensions/fastapi-lsp"]
+	path = extensions/fastapi-lsp
+	url = https://github.com/alex-oleshkevich/fastapi-lsp
+
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
@@ -4209,10 +4213,6 @@
 [submodule "extensions/ssh-config"]
 	path = extensions/ssh-config
 	url = https://github.com/pranavmangal/zed-ssh-config.git
-
-[submodule "extensions/stakpak"]
-	path = extensions/stakpak
-	url = https://github.com/stakpak/zed-stakpak-agent-server.git
 
 [submodule "extensions/stan"]
 	path = extensions/stan
