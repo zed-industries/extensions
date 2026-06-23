@@ -168,7 +168,7 @@ version = "0.1.0"
 
 [apathy-theme]
 submodule = "extensions/apathy-theme"
-version = "3.11.1"
+version = "3.15.2"
 path = "packages/zed"
 
 [apisartisan]
@@ -319,7 +319,7 @@ version = "0.0.1"
 
 [awsum]
 submodule = "extensions/awsum"
-version = "0.0.6"
+version = "0.0.7"
 
 [axolosin]
 submodule = "extensions/axolosin"
@@ -1152,7 +1152,7 @@ version = "0.0.1"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "1.1.1"
+version = "1.1.2"
 
 [dracula-flat]
 submodule = "extensions/dracula-flat"
@@ -1384,6 +1384,11 @@ version = "1.0.10"
 [fantasticons-icons-theme]
 submodule = "extensions/fantasticons-icons-theme"
 version = "1.0.0"
+
+[fastapi-lsp]
+submodule = "extensions/fastapi-lsp"
+path = "editors/zed"
+version = "0.1.0"
 
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
@@ -1627,7 +1632,7 @@ version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.7"
+version = "0.1.8"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -4575,7 +4580,7 @@ version = "0.0.2"
 
 [todo-highlight-language-server]
 submodule = "extensions/todo-highlight-language-server"
-version = "0.2.1"
+version = "0.2.2"
 path = "extension"
 
 [todotxt]
@@ -4979,7 +4984,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.3.4"
+version = "0.3.5"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
