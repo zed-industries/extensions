@@ -144,7 +144,7 @@ version = "0.0.5"
 
 [angular-snippets]
 submodule = "extensions/angular-snippets"
-version = "21.0.0"
+version = "21.1.0"
 
 [ansible]
 submodule = "extensions/ansible"
@@ -168,7 +168,7 @@ version = "0.1.0"
 
 [apathy-theme]
 submodule = "extensions/apathy-theme"
-version = "3.11.1"
+version = "3.15.2"
 path = "packages/zed"
 
 [apisartisan]
@@ -284,10 +284,6 @@ version = "0.0.1"
 submodule = "extensions/atomizer-theme"
 version = "0.1.0"
 
-[auggie]
-submodule = "extensions/auggie"
-version = "0.16.0"
-
 [aura-theme]
 submodule = "extensions/aura-theme"
 path = "packages/zed"
@@ -309,10 +305,6 @@ version = "0.3.0"
 submodule = "extensions/autocorrect"
 version = "0.2.2"
 
-[autohand-acp]
-submodule = "extensions/autohand-acp"
-version = "0.2.1"
-
 [autohotkey]
 submodule = "extensions/autohotkey"
 version = "2.0.1"
@@ -327,7 +319,7 @@ version = "0.0.1"
 
 [awsum]
 submodule = "extensions/awsum"
-version = "0.0.6"
+version = "0.0.7"
 
 [axolosin]
 submodule = "extensions/axolosin"
@@ -782,10 +774,6 @@ version = "0.0.5"
 submodule = "extensions/codebook"
 version = "0.2.12"
 
-[codebuddy]
-submodule = "extensions/codebuddy"
-version = "2.19.1"
-
 [codely-theme]
 submodule = "extensions/codely-theme"
 version = "0.0.1"
@@ -855,10 +843,6 @@ version = "2.0.1"
 [cooklang]
 submodule = "extensions/cooklang"
 version = "1.3.3"
-
-[corust-agent]
-submodule = "extensions/corust-agent"
-version = "0.4.2"
 
 [cosmos]
 submodule = "extensions/cosmos"
@@ -1168,7 +1152,7 @@ version = "0.0.1"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "1.1.1"
+version = "1.1.2"
 
 [dracula-flat]
 submodule = "extensions/dracula-flat"
@@ -1393,10 +1377,6 @@ version = "0.0.1"
 submodule = "extensions/ezio-theme"
 version = "0.0.8"
 
-[factory-droid]
-submodule = "extensions/factory-droid"
-version = "0.68.1"
-
 [falcon-theme]
 submodule = "extensions/falcon-theme"
 version = "1.0.10"
@@ -1404,6 +1384,11 @@ version = "1.0.10"
 [fantasticons-icons-theme]
 submodule = "extensions/fantasticons-icons-theme"
 version = "1.0.0"
+
+[fastapi-lsp]
+submodule = "extensions/fastapi-lsp"
+path = "editors/zed"
+version = "0.1.0"
 
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
@@ -1647,7 +1632,7 @@ version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.7"
+version = "0.1.8"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -2474,7 +2459,7 @@ version = "0.1.0"
 
 [lumin-theme]
 submodule = "extensions/lumin-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [lumina-theme]
 submodule = "extensions/lumina-theme"
@@ -2861,11 +2846,6 @@ version = "0.1.0"
 [missing-theme]
 submodule = "extensions/missing-theme"
 version = "0.0.1"
-
-[mistral-vibe]
-submodule = "extensions/mistral-vibe"
-version = "2.10.1"
-path = "distribution/zed"
 
 [mjml]
 submodule = "extensions/mjml"
@@ -3342,11 +3322,6 @@ version = "0.1.1"
 submodule = "extensions/opaline-theme"
 version = "0.1.0"
 
-[opencode]
-submodule = "extensions/opencode"
-path = "packages/extensions/zed"
-version = "1.15.13"
-
 [openfga]
 submodule = "extensions/openfga"
 version = "0.2.0"
@@ -3764,11 +3739,6 @@ version = "0.1.0"
 [qml]
 submodule = "extensions/qml"
 version = "0.0.4"
-
-[qqcode]
-submodule = "extensions/qqcode"
-version = "1.2.0"
-path = "distribution/zed"
 
 [quadlet]
 submodule = "extensions/quadlet"
@@ -4610,7 +4580,7 @@ version = "0.0.2"
 
 [todo-highlight-language-server]
 submodule = "extensions/todo-highlight-language-server"
-version = "0.2.1"
+version = "0.2.2"
 path = "extension"
 
 [todotxt]
@@ -5014,7 +4984,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.3.4"
+version = "0.3.5"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
