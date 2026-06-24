@@ -353,6 +353,11 @@ version = "1.0.0"
 submodule = "extensions/azutiku-theme"
 version = "0.1.0"
 
+[babel-lsp]
+submodule = "extensions/babel-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [bamboo-theme]
 submodule = "extensions/bamboo-theme"
 version = "0.1.0"
@@ -1326,7 +1331,7 @@ version = "0.0.1"
 
 [ep-133-theme]
 submodule = "extensions/ep-133-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [erb-snippets]
 submodule = "extensions/erb-snippets"
@@ -4266,6 +4271,11 @@ version = "0.1.0"
 submodule = "extensions/sql"
 version = "1.1.7"
 
+[sqlalchemy-lsp]
+submodule = "extensions/sqlalchemy-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
@@ -4479,6 +4489,11 @@ version = "1.0.0"
 [tcl]
 submodule = "extensions/tcl"
 version = "0.0.2"
+
+[tech49-theme]
+submodule = "extensions/tech49-theme"
+version = "0.2.3"
+path = "zed"
 
 [technicolor-theme]
 submodule = "extensions/technicolor-theme"
@@ -4980,7 +4995,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.3.5"
+version = "0.3.6"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
