@@ -546,6 +546,10 @@
 	path = extensions/bugstalker-dap
 	url = https://github.com/godzie44/BugStalker.git
 
+[submodule "extensions/buisson-theme"]
+	path = extensions/buisson-theme
+	url = https://github.com/Adriusops/buisson-zed.git
+
 [submodule "extensions/bun-docs-mcp"]
 	path = extensions/bun-docs-mcp
 	url = https://github.com/kjanat/bun-docs-mcp-zed.git
@@ -5177,6 +5181,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/buisson-theme"]
-	path = extensions/buisson-theme
-	url = https://github.com/Adriusops/buisson-zed.git
