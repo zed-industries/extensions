@@ -21,3 +21,8 @@ clean-submodules:
 # Resets all of the Git submodules containing extensions.
 reset-submodules: clean-submodules
     git submodule update --init --recursive
+
+# Update the submodule at the given path to the given commit hash.
+update-submodule SUBMODULE_PATH COMMIT_HASH:
+    git submodule update --init --recursive {{SUBMODULE_PATH}}
+    git -C {{SUBMODULE_PATH}} checkout {{COMMIT_HASH}}

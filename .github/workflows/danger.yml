@@ -1,6 +1,7 @@
 name: Danger
 
 on:
+  merge_group:
   pull_request:
     branches: [main]
     types:
@@ -8,22 +9,24 @@ on:
       - synchronize
       - reopened
       - edited
+      - labeled
+      - unlabeled
 
 jobs:
   danger:
-    runs-on: ubuntu-latest
+    runs-on: namespace-profile-2x4-ubuntu-2404
     if: github.repository_owner == 'zed-industries'
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
 
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271 # v6
         with:
-          version: 9
+          version: 11
 
       - name: Setup Node
-        uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "pnpm"
 
       - name: Install dependencies
@@ -35,7 +38,7 @@ jobs:
           # This GitHub token is not used, but the value needs to be here to prevent
           # Danger from throwing an error.
           GITHUB_TOKEN: "not_a_real_token"
-          # All requests are instead proxied through an instance of
-          # https://github.com/maxdeviant/danger-proxy that allows Danger to securely
-          # authenticate with GitHub while still being able to run on PRs from forks.
-          DANGER_GITHUB_API_BASE_URL: "https://danger-proxy.fly.dev/github"
+          # All requests are instead proxied through a proxy that allows Danger
+          # to securely authenticate with GitHub while still being able to run
+          # on PRs from forks.
+          DANGER_GITHUB_API_BASE_URL: "https://danger-proxy.zed.dev/github"
