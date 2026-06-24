@@ -34,6 +34,7 @@ jobs:
         with:
           node-version-file: "package.json"
           cache: "pnpm"
+          check-latest: true
 
       - uses: actions-rust-lang/setup-rust-toolchain@46268bd060767258de96ed93c1251119784f2ab6 # v1
         with:

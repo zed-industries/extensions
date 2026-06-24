@@ -28,6 +28,7 @@ jobs:
         with:
           node-version-file: "package.json"
           cache: "pnpm"
+          check-latest: true
 
       - name: Install dependencies
         run: pnpm install
