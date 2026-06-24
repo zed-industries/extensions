@@ -4275,6 +4275,11 @@ version = "1.1.7"
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
 
+[sqlalchemy-lsp]
+submodule = "extensions/sqlalchemy-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [sqlmesh]
 submodule = "extensions/sqlmesh"
 version = "0.1.4"
