@@ -33,7 +33,11 @@ jobs:
         run: pnpm install
 
       - name: Run Danger
-        run: pnpm run danger ci
+        uses: nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08 # v3
+        with:
+          max_attempts: 3
+          retry_wait_seconds: 30
+          command: pnpm run danger ci
         env:
           # This GitHub token is not used, but the value needs to be here to prevent
           # Danger from throwing an error.
