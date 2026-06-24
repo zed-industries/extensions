@@ -353,6 +353,11 @@ version = "1.0.0"
 submodule = "extensions/azutiku-theme"
 version = "0.1.0"
 
+[babel-lsp]
+submodule = "extensions/babel-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [bamboo-theme]
 submodule = "extensions/bamboo-theme"
 version = "0.1.0"
