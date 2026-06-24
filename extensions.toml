@@ -353,13 +353,18 @@ version = "1.0.0"
 submodule = "extensions/azutiku-theme"
 version = "0.1.0"
 
+[babel-lsp]
+submodule = "extensions/babel-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [bamboo-theme]
 submodule = "extensions/bamboo-theme"
 version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.222.0"
+version = "0.223.0"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -496,7 +501,7 @@ version = "0.4.1"
 
 [blueprint-dark-theme]
 submodule = "extensions/blueprint-dark-theme"
-version = "0.1.0"
+version = "0.1.3"
 
 [bluespec-systemverilog]
 submodule = "extensions/bluespec-systemverilog"
@@ -965,7 +970,7 @@ version = "0.2.0"
 
 [d]
 submodule = "extensions/d"
-version = "0.0.9"
+version = "0.0.10"
 
 [d2]
 submodule = "extensions/d2"
@@ -1323,6 +1328,10 @@ version = "1.1.1"
 [env]
 submodule = "extensions/env"
 version = "0.0.1"
+
+[ep-133-theme]
+submodule = "extensions/ep-133-theme"
+version = "0.0.2"
 
 [erb-snippets]
 submodule = "extensions/erb-snippets"
@@ -2475,7 +2484,7 @@ version = "0.0.4"
 
 [mach]
 submodule = "extensions/mach"
-version = "0.2.2"
+version = "0.4.2"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -2922,7 +2931,7 @@ version = "0.1.3"
 
 [monospace-icon-theme]
 submodule = "extensions/monospace-icon-theme"
-version = "0.1.5"
+version = "0.1.6"
 
 [monospace-theme]
 submodule = "extensions/monospace-theme"
@@ -4050,7 +4059,7 @@ version = "0.0.1"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "1.1.0"
+version = "1.1.1"
 
 [serendipity-icons]
 submodule = "extensions/serendipity-icons"
@@ -4204,7 +4213,7 @@ version = "0.1.1"
 
 [solarized]
 submodule = "extensions/solarized"
-version = "0.2.0"
+version = "0.4.0"
 
 [solarized-fp]
 submodule = "extensions/solarized-fp"
@@ -4266,6 +4275,11 @@ version = "0.1.0"
 submodule = "extensions/sql"
 version = "1.1.7"
 
+[sqlalchemy-lsp]
+submodule = "extensions/sqlalchemy-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
@@ -4285,10 +4299,6 @@ version = "0.0.4"
 [ssh-config]
 submodule = "extensions/ssh-config"
 version = "0.2.0"
-
-[stakpak]
-submodule = "extensions/stakpak"
-version = "0.1.9"
 
 [stan]
 submodule = "extensions/stan"
@@ -4391,7 +4401,7 @@ version = "0.2.11"
 [svelte-effect-runtime-language-server]
 submodule = "extensions/svelte-effect-runtime-language-server"
 path = "modules/svelte-effect-runtime-zed"
-version = "2.3.0"
+version = "3.0.2"
 
 [svelte-mcp]
 submodule = "extensions/svelte-mcp"
@@ -4483,6 +4493,11 @@ version = "1.0.0"
 [tcl]
 submodule = "extensions/tcl"
 version = "0.0.2"
+
+[tech49-theme]
+submodule = "extensions/tech49-theme"
+version = "0.2.3"
+path = "zed"
 
 [technicolor-theme]
 submodule = "extensions/technicolor-theme"
@@ -4984,7 +4999,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.3.5"
+version = "0.3.6"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
