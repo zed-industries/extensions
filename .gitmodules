@@ -4198,6 +4198,10 @@
 	path = extensions/sql
 	url = https://github.com/zed-extensions/sql.git
 
+[submodule "extensions/sql-tools"]
+	path = extensions/sql-tools
+	url = https://github.com/kidkender/zed-sql-tools.git
+
 [submodule "extensions/sqlc-snippets"]
 	path = extensions/sqlc-snippets
 	url = https://github.com/NarmadaWeb/sqlc-snippets-zed.git
