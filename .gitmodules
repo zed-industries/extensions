@@ -3470,6 +3470,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/php-cs-fixer"]
+	path = extensions/php-cs-fixer
+	url = https://github.com/jariz/zed-php-cs-fixer.git
+
 [submodule "extensions/php-snippets"]
 	path = extensions/php-snippets
 	url = https://github.com/seekode/zed-php-snippets
