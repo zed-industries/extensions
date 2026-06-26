@@ -4223,6 +4223,10 @@ version = "1.0.0"
 submodule = "extensions/solarized"
 version = "0.4.0"
 
+  [solarized.zed]
+  submodule = "extensions/solarized.zed"
+  version = "0.0.1"
+
 [solarized-fp]
 submodule = "extensions/solarized-fp"
 version = "0.0.1"
