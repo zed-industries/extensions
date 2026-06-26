@@ -278,10 +278,6 @@
 	path = extensions/atomizer-theme
 	url = https://github.com/riipandi/zed-atomizer-theme.git
 
-[submodule "extensions/auggie"]
-	path = extensions/auggie
-	url = https://github.com/augmentcode/auggie-zed-extension.git
-
 [submodule "extensions/aura-theme"]
 	path = extensions/aura-theme
 	url = https://github.com/daltonmenezes/aura-theme.git
@@ -301,10 +297,6 @@
 [submodule "extensions/autocorrect"]
 	path = extensions/autocorrect
 	url = https://github.com/huacnlee/zed-autocorrect.git
-
-[submodule "extensions/autohand-acp"]
-	path = extensions/autohand-acp
-	url = https://github.com/autohandai/autohand-acp.git
 
 [submodule "extensions/autohotkey"]
 	path = extensions/autohotkey
@@ -353,6 +345,10 @@
 [submodule "extensions/azutiku-theme"]
 	path = extensions/azutiku-theme
 	url = https://github.com/bwind/zed-azutiku-theme.git
+
+[submodule "extensions/babel-lsp"]
+	path = extensions/babel-lsp
+	url = https://github.com/alex-oleshkevich/babel-lsp
 
 [submodule "extensions/bamboo-theme"]
 	path = extensions/bamboo-theme
@@ -549,6 +545,10 @@
 [submodule "extensions/bugstalker-dap"]
 	path = extensions/bugstalker-dap
 	url = https://github.com/godzie44/BugStalker.git
+
+[submodule "extensions/buisson-theme"]
+	path = extensions/buisson-theme
+	url = https://github.com/Adriusops/buisson-zed.git
 
 [submodule "extensions/bun-docs-mcp"]
 	path = extensions/bun-docs-mcp
@@ -770,10 +770,6 @@
 	path = extensions/codebook
 	url = https://github.com/blopker/codebook-zed.git
 
-[submodule "extensions/codebuddy"]
-	path = extensions/codebuddy
-	url = https://github.com/jasonwang82/codebuddy-code-zed.git
-
 [submodule "extensions/codely-theme"]
 	path = extensions/codely-theme
 	url = https://github.com/GOI17/codely-theme-zed
@@ -841,10 +837,6 @@
 [submodule "extensions/cooklang"]
 	path = extensions/cooklang
 	url = https://github.com/hugginsio/zed-cooklang.git
-
-[submodule "extensions/corust-agent"]
-	path = extensions/corust-agent
-	url = https://github.com/Corust-ai/corust-agent-release.git
 
 [submodule "extensions/cosmos"]
 	path = extensions/cosmos
@@ -1302,6 +1294,10 @@
 	path = extensions/emerald-night
 	url = https://github.com/iamngoni/emerald-night-theme.git
 
+[submodule "extensions/emerald-synth-theme"]
+	path = extensions/emerald-synth-theme
+	url = https://github.com/malleroid/emerald-synth-zed.git
+
 [submodule "extensions/emmet"]
 	path = extensions/emmet
 	url = https://github.com/zed-extensions/emmet.git
@@ -1317,6 +1313,10 @@
 [submodule "extensions/env"]
 	path = extensions/env
 	url = https://github.com/zarifpour/zed-env
+
+[submodule "extensions/ep-133-theme"]
+	path = extensions/ep-133-theme
+	url = https://github.com/evgenii-sergeev/zed-ep-133.git
 
 [submodule "extensions/erb-snippets"]
 	path = extensions/erb-snippets
@@ -1370,10 +1370,6 @@
 	path = extensions/ezio-theme
 	url = https://github.com/dsantolo/ezio-zed.git
 
-[submodule "extensions/factory-droid"]
-	path = extensions/factory-droid
-	url = https://github.com/Factory-AI/factory-zed-extension.git
-
 [submodule "extensions/falcon-theme"]
 	path = extensions/falcon-theme
 	url = https://github.com/panxiaoan/falcon-zed-themes.git
@@ -1381,6 +1377,10 @@
 [submodule "extensions/fantasticons-icons-theme"]
 	path = extensions/fantasticons-icons-theme
 	url = https://github.com/caiolandgraf/fantasticons-zed.git
+
+[submodule "extensions/fastapi-lsp"]
+	path = extensions/fastapi-lsp
+	url = https://github.com/alex-oleshkevich/fastapi-lsp
 
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
@@ -2818,10 +2818,6 @@
 	path = extensions/missing-theme
 	url = https://codeberg.org/dz4k/zed-missing.git
 
-[submodule "extensions/mistral-vibe"]
-	path = extensions/mistral-vibe
-	url = https://github.com/mistralai/mistral-vibe.git
-
 [submodule "extensions/mjml"]
 	path = extensions/mjml
 	url = https://github.com/pataruco/zed-mjml.git
@@ -3294,10 +3290,6 @@
 	path = extensions/opaline-theme
 	url = https://github.com/IgorAlexey/opaline-zed
 
-[submodule "extensions/opencode"]
-	path = extensions/opencode
-	url = https://github.com/sst/opencode.git
-
 [submodule "extensions/openfga"]
 	path = extensions/openfga
 	url = https://github.com/rosnovsky/zed-extension-fga.git
@@ -3598,6 +3590,10 @@
 	path = extensions/popping-and-locking
 	url = https://github.com/randoneering/popping-and-locking-zed-theme.git
 
+[submodule "extensions/poryscript"]
+	path = extensions/poryscript
+	url = https://github.com/chris-wilson-1/zed-poryscript.git
+
 [submodule "extensions/postgres-context-server"]
 	path = extensions/postgres-context-server
 	url = https://github.com/zed-extensions/postgres-context-server.git
@@ -3705,10 +3701,6 @@
 [submodule "extensions/qml"]
 	path = extensions/qml
 	url = https://github.com/lkroll/zed-qml.git
-
-[submodule "extensions/qqcode"]
-	path = extensions/qqcode
-	url = https://github.com/qnguyen3/qqcode.git
 
 [submodule "extensions/quadlet"]
 	path = extensions/quadlet
@@ -4226,6 +4218,10 @@
 	path = extensions/sql
 	url = https://github.com/zed-extensions/sql.git
 
+[submodule "extensions/sqlalchemy-lsp"]
+	path = extensions/sqlalchemy-lsp
+	url = https://github.com/alex-oleshkevich/sqlalchemy-lsp
+
 [submodule "extensions/sqlc-snippets"]
 	path = extensions/sqlc-snippets
 	url = https://github.com/NarmadaWeb/sqlc-snippets-zed.git
@@ -4245,10 +4241,6 @@
 [submodule "extensions/ssh-config"]
 	path = extensions/ssh-config
 	url = https://github.com/pranavmangal/zed-ssh-config.git
-
-[submodule "extensions/stakpak"]
-	path = extensions/stakpak
-	url = https://github.com/stakpak/zed-stakpak-agent-server.git
 
 [submodule "extensions/stan"]
 	path = extensions/stan
@@ -4437,6 +4429,10 @@
 [submodule "extensions/tcl"]
 	path = extensions/tcl
 	url = https://github.com/richnou/kissb-zed-tcl.git
+
+[submodule "extensions/tech49-theme"]
+	path = extensions/tech49-theme
+	url = https://github.com/timdang/tech49_theme.git
 
 [submodule "extensions/technicolor-theme"]
 	path = extensions/technicolor-theme
@@ -4778,6 +4774,10 @@
 	path = extensions/vanta-theme
 	url = https://codeberg.org/bogusz/vanta.git
 
+[submodule "extensions/vantadark-theme"]
+	path = extensions/vantadark-theme
+	url = https://github.com/ams-sth/vantadark
+
 [submodule "extensions/vapor-theme"]
 	path = extensions/vapor-theme
 	url = https://github.com/felipetesc/vapor-theme.git
@@ -4885,6 +4885,10 @@
 [submodule "extensions/vscode-classic-theme"]
 	path = extensions/vscode-classic-theme
 	url = https://github.com/CharlesSBL/-vscode_classic_theme.zed
+
+[submodule "extensions/vscode-classic-themes"]
+	path = extensions/vscode-classic-themes
+	url = https://github.com/alanisme/vscode-themes-for-zed
 
 [submodule "extensions/vscode-dark-high-contrast"]
 	path = extensions/vscode-dark-high-contrast
