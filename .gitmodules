@@ -1326,6 +1326,10 @@
 	path = extensions/erlang
 	url = https://github.com/zed-extensions/erlang.git
 
+[submodule "extensions/erlang-otp-ls"]
+	path = extensions/erlang-otp-ls
+	url = https://github.com/ouweibiao/zed-erlang-otp-ls.git
+
 [submodule "extensions/esmerald-theme"]
 	path = extensions/esmerald-theme
 	url = https://github.com/esthorace/esmerald-zed
