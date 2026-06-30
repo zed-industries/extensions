@@ -144,7 +144,7 @@ version = "0.0.5"
 
 [angular-snippets]
 submodule = "extensions/angular-snippets"
-version = "21.0.0"
+version = "21.1.0"
 
 [ansible]
 submodule = "extensions/ansible"
@@ -168,7 +168,7 @@ version = "0.1.0"
 
 [apathy-theme]
 submodule = "extensions/apathy-theme"
-version = "3.11.1"
+version = "3.15.2"
 path = "packages/zed"
 
 [apisartisan]
@@ -284,10 +284,6 @@ version = "0.0.1"
 submodule = "extensions/atomizer-theme"
 version = "0.1.0"
 
-[auggie]
-submodule = "extensions/auggie"
-version = "0.16.0"
-
 [aura-theme]
 submodule = "extensions/aura-theme"
 path = "packages/zed"
@@ -309,10 +305,6 @@ version = "0.3.0"
 submodule = "extensions/autocorrect"
 version = "0.2.2"
 
-[autohand-acp]
-submodule = "extensions/autohand-acp"
-version = "0.2.1"
-
 [autohotkey]
 submodule = "extensions/autohotkey"
 version = "2.0.1"
@@ -327,7 +319,7 @@ version = "0.0.1"
 
 [awsum]
 submodule = "extensions/awsum"
-version = "0.0.6"
+version = "0.0.7"
 
 [axolosin]
 submodule = "extensions/axolosin"
@@ -361,13 +353,18 @@ version = "1.0.0"
 submodule = "extensions/azutiku-theme"
 version = "0.1.0"
 
+[babel-lsp]
+submodule = "extensions/babel-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [bamboo-theme]
 submodule = "extensions/bamboo-theme"
 version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.222.0"
+version = "0.223.0"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -508,7 +505,7 @@ version = "0.4.1"
 
 [blueprint-dark-theme]
 submodule = "extensions/blueprint-dark-theme"
-version = "0.1.0"
+version = "0.1.4"
 
 [bluespec-systemverilog]
 submodule = "extensions/bluespec-systemverilog"
@@ -562,6 +559,10 @@ version = "0.1.0"
 submodule = "extensions/bugstalker-dap"
 version = "0.1.0"
 path = "extension/zed"
+
+[buisson-theme]
+submodule = "extensions/buisson-theme"
+version = "0.1.0"
 
 [bun-docs-mcp]
 submodule = "extensions/bun-docs-mcp"
@@ -786,10 +787,6 @@ version = "0.0.5"
 submodule = "extensions/codebook"
 version = "0.2.12"
 
-[codebuddy]
-submodule = "extensions/codebuddy"
-version = "2.19.1"
-
 [codely-theme]
 submodule = "extensions/codely-theme"
 version = "0.0.1"
@@ -859,10 +856,6 @@ version = "2.0.1"
 [cooklang]
 submodule = "extensions/cooklang"
 version = "1.3.3"
-
-[corust-agent]
-submodule = "extensions/corust-agent"
-version = "0.4.2"
 
 [cosmos]
 submodule = "extensions/cosmos"
@@ -985,7 +978,7 @@ version = "0.2.0"
 
 [d]
 submodule = "extensions/d"
-version = "0.0.9"
+version = "0.0.10"
 
 [d2]
 submodule = "extensions/d2"
@@ -1090,7 +1083,7 @@ version = "0.1.1"
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
-version = "1.9.0"
+version = "1.9.1"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -1172,7 +1165,7 @@ version = "0.0.1"
 
 [dracula]
 submodule = "extensions/dracula"
-version = "1.1.1"
+version = "1.1.2"
 
 [dracula-flat]
 submodule = "extensions/dracula-flat"
@@ -1328,6 +1321,10 @@ version = "0.9.1"
 submodule = "extensions/emerald-night"
 version = "0.0.2"
 
+[emerald-synth-theme]
+submodule = "extensions/emerald-synth-theme"
+version = "0.1.0"
+
 [emmet]
 submodule = "extensions/emmet"
 version = "0.0.13"
@@ -1343,6 +1340,10 @@ version = "1.1.1"
 [env]
 submodule = "extensions/env"
 version = "0.0.1"
+
+[ep-133-theme]
+submodule = "extensions/ep-133-theme"
+version = "0.0.2"
 
 [erb-snippets]
 submodule = "extensions/erb-snippets"
@@ -1397,10 +1398,6 @@ version = "0.0.1"
 submodule = "extensions/ezio-theme"
 version = "0.0.8"
 
-[factory-droid]
-submodule = "extensions/factory-droid"
-version = "0.68.1"
-
 [falcon-theme]
 submodule = "extensions/falcon-theme"
 version = "1.0.10"
@@ -1408,6 +1405,11 @@ version = "1.0.10"
 [fantasticons-icons-theme]
 submodule = "extensions/fantasticons-icons-theme"
 version = "1.0.0"
+
+[fastapi-lsp]
+submodule = "extensions/fastapi-lsp"
+path = "editors/zed"
+version = "0.1.0"
 
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
@@ -1651,7 +1653,7 @@ version = "0.1.0"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
-version = "0.1.7"
+version = "0.1.8"
 
 [github-actions]
 submodule = "extensions/github-actions"
@@ -1877,7 +1879,7 @@ version = "0.1.5"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "0.3.1"
+version = "0.3.2"
 
 [haven-theme]
 submodule = "extensions/haven-theme"
@@ -2031,7 +2033,7 @@ version = "0.1.2"
 
 [import-cost-lsp]
 submodule = "extensions/import-cost-lsp"
-version = "0.0.2"
+version = "0.0.3"
 
 [inbedby7pm-theme]
 submodule = "extensions/inbedby7pm-theme"
@@ -2125,7 +2127,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.20"
+version = "6.8.21"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2408,7 +2410,7 @@ version = "0.1.0"
 [lisette]
 submodule = "extensions/lisette"
 path = "editors/zed"
-version = "0.1.1"
+version = "0.1.2"
 
 [little-league-theme]
 submodule = "extensions/little-league-theme"
@@ -2478,7 +2480,7 @@ version = "0.1.0"
 
 [lumin-theme]
 submodule = "extensions/lumin-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [lumina-theme]
 submodule = "extensions/lumina-theme"
@@ -2494,7 +2496,7 @@ version = "0.0.4"
 
 [mach]
 submodule = "extensions/mach"
-version = "0.2.2"
+version = "0.4.2"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -2866,11 +2868,6 @@ version = "0.1.0"
 submodule = "extensions/missing-theme"
 version = "0.0.1"
 
-[mistral-vibe]
-submodule = "extensions/mistral-vibe"
-version = "2.10.1"
-path = "distribution/zed"
-
 [mjml]
 submodule = "extensions/mjml"
 version = "0.2.0"
@@ -2946,7 +2943,7 @@ version = "0.1.3"
 
 [monospace-icon-theme]
 submodule = "extensions/monospace-icon-theme"
-version = "0.1.5"
+version = "0.1.6"
 
 [monospace-theme]
 submodule = "extensions/monospace-theme"
@@ -3346,11 +3343,6 @@ version = "0.1.1"
 submodule = "extensions/opaline-theme"
 version = "0.1.0"
 
-[opencode]
-submodule = "extensions/opencode"
-path = "packages/extensions/zed"
-version = "1.15.13"
-
 [openfga]
 submodule = "extensions/openfga"
 version = "0.2.0"
@@ -3467,7 +3459,7 @@ version = "0.0.1"
 [path-server-lsp]
 submodule = "extensions/path-server-lsp"
 path = "extensions/zed"
-version = "1.3.1"
+version = "1.4.0"
 
 [pathy]
 submodule = "extensions/pathy"
@@ -3655,6 +3647,10 @@ version = "0.6.1"
 submodule = "extensions/popping-and-locking"
 version = "1.0.3"
 
+[poryscript]
+submodule = "extensions/poryscript"
+version = "0.2.0"
+
 [postgres-context-server]
 submodule = "extensions/postgres-context-server"
 version = "0.0.5"
@@ -3768,11 +3764,6 @@ version = "0.1.0"
 [qml]
 submodule = "extensions/qml"
 version = "0.0.4"
-
-[qqcode]
-submodule = "extensions/qqcode"
-version = "1.2.0"
-path = "distribution/zed"
 
 [quadlet]
 submodule = "extensions/quadlet"
@@ -3951,7 +3942,7 @@ version = "0.0.1"
 
 [roc]
 submodule = "extensions/roc"
-version = "0.0.6"
+version = "0.1.2"
 
 [rockide-language-server]
 submodule = "extensions/rockide-language-server"
@@ -4036,7 +4027,7 @@ version = "0.0.4"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.2.2"
+version = "0.2.3"
 
 [scheme]
 submodule = "extensions/scheme"
@@ -4084,7 +4075,7 @@ version = "0.0.1"
 
 [serendipity]
 submodule = "extensions/serendipity"
-version = "1.1.0"
+version = "1.1.1"
 
 [serendipity-icons]
 submodule = "extensions/serendipity-icons"
@@ -4234,7 +4225,7 @@ version = "1.0.0"
 
 [solarized]
 submodule = "extensions/solarized"
-version = "0.2.0"
+version = "0.4.0"
 
 [solarized-fp]
 submodule = "extensions/solarized-fp"
@@ -4296,6 +4287,11 @@ version = "0.1.0"
 submodule = "extensions/sql"
 version = "1.1.7"
 
+[sqlalchemy-lsp]
+submodule = "extensions/sqlalchemy-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
@@ -4316,10 +4312,6 @@ version = "0.0.4"
 submodule = "extensions/ssh-config"
 version = "0.2.0"
 
-[stakpak]
-submodule = "extensions/stakpak"
-version = "0.1.9"
-
 [stan]
 submodule = "extensions/stan"
 version = "1.1.0"
@@ -4330,7 +4322,7 @@ version = "0.4.1"
 
 [statamic-antlers]
 submodule = "extensions/statamic-antlers"
-version = "0.1.0"
+version = "0.2.0"
 
 [stimulus]
 submodule = "extensions/stimulus"
@@ -4421,7 +4413,7 @@ version = "0.2.11"
 [svelte-effect-runtime-language-server]
 submodule = "extensions/svelte-effect-runtime-language-server"
 path = "modules/svelte-effect-runtime-zed"
-version = "2.3.0"
+version = "3.0.2"
 
 [svelte-mcp]
 submodule = "extensions/svelte-mcp"
@@ -4513,6 +4505,11 @@ version = "1.0.0"
 [tcl]
 submodule = "extensions/tcl"
 version = "0.0.2"
+
+[tech49-theme]
+submodule = "extensions/tech49-theme"
+version = "0.2.3"
+path = "zed"
 
 [technicolor-theme]
 submodule = "extensions/technicolor-theme"
@@ -4610,7 +4607,7 @@ version = "0.0.2"
 
 [todo-highlight-language-server]
 submodule = "extensions/todo-highlight-language-server"
-version = "0.2.1"
+version = "0.2.2"
 path = "extension"
 
 [todotxt]
@@ -4649,7 +4646,7 @@ version = "1.0.3"
 
 [tomorrow-min-theme]
 submodule = "extensions/tomorrow-min-theme"
-version = "1.1.0"
+version = "1.1.1"
 
 [tomorrow-night-burns-theme]
 submodule = "extensions/tomorrow-night-burns-theme"
@@ -4657,7 +4654,7 @@ version = "0.0.1"
 
 [tomorrow-theme]
 submodule = "extensions/tomorrow-theme"
-version = "1.2.0"
+version = "1.2.1"
 
 [ton]
 submodule = "extensions/ton"
@@ -4859,6 +4856,10 @@ version = "1.0.1"
 submodule = "extensions/vanta-theme"
 version = "1.0.2"
 
+[vantadark-theme]
+submodule = "extensions/vantadark-theme"
+version = "2.0.0"
+
 [vapor-theme]
 submodule = "extensions/vapor-theme"
 version = "0.0.2"
@@ -4968,13 +4969,17 @@ version = "0.1.1"
 submodule = "extensions/vscode-classic-theme"
 version = "0.0.1"
 
+[vscode-classic-themes]
+submodule = "extensions/vscode-classic-themes"
+version = "0.4.0"
+
 [vscode-dark-high-contrast]
 submodule = "extensions/vscode-dark-high-contrast"
 version = "1.0.0"
 
 [vscode-dark-modern]
 submodule = "extensions/vscode-dark-modern"
-version = "0.1.2"
+version = "0.1.3"
 
 [vscode-dark-plus]
 submodule = "extensions/vscode-dark-plus"
@@ -5014,7 +5019,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.3.4"
+version = "0.3.6"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
