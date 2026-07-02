@@ -4526,6 +4526,10 @@
 	path = extensions/todo-highlight-language-server
 	url = https://github.com/shionit/zed-todo-highlight.git
 
+[submodule "extensions/todo-highlight-lsp"]
+	path = extensions/todo-highlight-lsp
+	url = https://github.com/placintaalexandru/zed-todo-highlighter
+
 [submodule "extensions/todotxt"]
 	path = extensions/todotxt
 	url = https://github.com/pursvir/zed-todotxt.git
