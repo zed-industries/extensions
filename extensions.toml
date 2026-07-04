@@ -349,6 +349,10 @@ version = "1.0.0"
 submodule = "extensions/azure-context-server"
 version = "1.0.0"
 
+[azure-mcp]
+submodule = "extensions/azure-mcp"
+version = "0.1.1"
+
 [azutiku-theme]
 submodule = "extensions/azutiku-theme"
 version = "0.1.0"
@@ -1667,6 +1671,10 @@ version = "0.1.8"
 submodule = "extensions/github-actions"
 version = "0.0.1"
 
+[github-actions-snippets]
+submodule = "extensions/github-actions-snippets"
+version = "0.0.1"
+
 [github-activity-summarizer]
 submodule = "extensions/github-activity-summarizer"
 version = "0.5.2"
@@ -2237,6 +2245,10 @@ version = "0.1.10"
 submodule = "extensions/just"
 version = "0.2.0"
 
+[k8s-crd-lsp]
+submodule = "extensions/k8s-crd-lsp"
+version = "0.0.1"
+
 [kagimcp]
 submodule = "extensions/kagimcp"
 version = "0.0.31"
@@ -2520,7 +2532,7 @@ version = "0.1.0"
 
 [maho-lsp]
 submodule = "extensions/maho-lsp"
-version = "0.9.1"
+version = "0.10.0"
 
 [mainframe-theme]
 submodule = "extensions/mainframe-theme"
@@ -2809,6 +2821,11 @@ version = "0.1.0"
 
 [mcp-server-zephex]
 submodule = "extensions/mcp-server-zephex"
+version = "0.0.1"
+
+[mcp-server-zeroheight]
+submodule = "extensions/mcp-server-zeroheight"
+path = "zed"
 version = "0.0.1"
 
 [mcp-server-zuraffa]

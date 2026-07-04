@@ -342,6 +342,10 @@
 	path = extensions/azure-context-server
 	url = https://github.com/oWretch/zed-extension-azure-mcp
 
+[submodule "extensions/azure-mcp"]
+	path = extensions/azure-mcp
+	url = https://github.com/hodyhq/zed-azure-mcp.git
+
 [submodule "extensions/azutiku-theme"]
 	path = extensions/azutiku-theme
 	url = https://github.com/bwind/zed-azutiku-theme.git
@@ -1638,6 +1642,10 @@
 	path = extensions/github-actions
 	url = https://github.com/neoncitylights/zed-github-actions
 
+[submodule "extensions/github-actions-snippets"]
+	path = extensions/github-actions-snippets
+	url = https://github.com/frypan05/github-actions-snippet.git
+
 [submodule "extensions/github-activity-summarizer"]
 	path = extensions/github-activity-summarizer
 	url = https://github.com/rubiojr/gas.git
@@ -2193,6 +2201,10 @@
 [submodule "extensions/just"]
 	path = extensions/just
 	url = https://github.com/jackTabsCode/zed-just.git
+
+[submodule "extensions/k8s-crd-lsp"]
+	path = extensions/k8s-crd-lsp
+	url = https://github.com/decade-eng/k8s-crd-lsp-zed.git
 
 [submodule "extensions/kagimcp"]
 	path = extensions/kagimcp
@@ -2761,6 +2773,10 @@
 [submodule "extensions/mcp-server-zephex"]
 	path = extensions/mcp-server-zephex
 	url = https://github.com/zephexMCP/mcp-server-zephex.git
+
+[submodule "extensions/mcp-server-zeroheight"]
+	path = extensions/mcp-server-zeroheight
+	url = https://github.com/zeroheight/ai-plugins.git
 
 [submodule "extensions/mcp-server-zuraffa"]
 	path = extensions/mcp-server-zuraffa
