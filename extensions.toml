@@ -349,6 +349,10 @@ version = "1.0.0"
 submodule = "extensions/azure-context-server"
 version = "1.0.0"
 
+[azure-mcp]
+submodule = "extensions/azure-mcp"
+version = "0.1.1"
+
 [azutiku-theme]
 submodule = "extensions/azutiku-theme"
 version = "0.1.0"
@@ -785,7 +789,7 @@ version = "0.0.5"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.2.13"
+version = "0.2.14"
 
 [codely-theme]
 submodule = "extensions/codely-theme"
@@ -950,7 +954,7 @@ version = "0.0.1"
 
 [cyan-light-theme]
 submodule = "extensions/cyan-light-theme"
-version = "0.7.1"
+version = "0.7.2"
 
 [cyberpunk-2077]
 submodule = "extensions/cyberpunk-2077"
@@ -1667,6 +1671,10 @@ version = "0.1.8"
 submodule = "extensions/github-actions"
 version = "0.0.1"
 
+[github-actions-snippets]
+submodule = "extensions/github-actions-snippets"
+version = "0.0.1"
+
 [github-activity-summarizer]
 submodule = "extensions/github-activity-summarizer"
 version = "0.5.2"
@@ -2116,6 +2124,10 @@ version = "0.2.0"
 submodule = "extensions/isle"
 version = "0.0.1"
 
+[ita-theme]
+submodule = "extensions/ita-theme"
+version = "0.1.0"
+
 [iterm2-default-theme]
 submodule = "extensions/iterm2-default-theme"
 version = "0.1.0"
@@ -2236,6 +2248,10 @@ version = "0.1.10"
 [just]
 submodule = "extensions/just"
 version = "0.2.0"
+
+[k8s-crd-lsp]
+submodule = "extensions/k8s-crd-lsp"
+version = "0.0.1"
 
 [kagimcp]
 submodule = "extensions/kagimcp"
@@ -2520,7 +2536,7 @@ version = "0.1.0"
 
 [maho-lsp]
 submodule = "extensions/maho-lsp"
-version = "0.9.1"
+version = "0.10.0"
 
 [mainframe-theme]
 submodule = "extensions/mainframe-theme"
@@ -2809,6 +2825,11 @@ version = "0.1.0"
 
 [mcp-server-zephex]
 submodule = "extensions/mcp-server-zephex"
+version = "0.0.1"
+
+[mcp-server-zeroheight]
+submodule = "extensions/mcp-server-zeroheight"
+path = "zed"
 version = "0.0.1"
 
 [mcp-server-zuraffa]
@@ -4157,6 +4178,10 @@ version = "0.1.0"
 [simple-darker]
 submodule = "extensions/simple-darker"
 version = "0.0.1"
+
+[simple-light-theme]
+submodule = "extensions/simple-light-theme"
+version = "0.4.0"
 
 [simula]
 submodule = "extensions/simula"
