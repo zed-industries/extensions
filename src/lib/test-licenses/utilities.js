@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import url from "node:url";
+import { normalizeWhitespace } from "../license.js";
 
 export function readApache2License() {
   return readLicenseFile("test-apache-2-license");
@@ -18,6 +19,10 @@ export function readBsd3ClauseAlternativeLicense() {
   return readLicenseFile("test-bsd-3-clause-alternative");
 }
 
+export function readCcBy4License() {
+  return readLicenseFile("test-cc-by-4.0-international-license");
+}
+
 export function readGplV3License() {
   return readLicenseFile("test-gpl-v3-license");
 }
@@ -28,6 +33,10 @@ export function readLgplV3License() {
 
 export function readMitLicense() {
   return readLicenseFile("test-mit-license");
+}
+
+export function readUnlicense() {
+  return readLicenseFile("test-unlicense");
 }
 
 export function readZlibLicense() {
@@ -56,7 +65,9 @@ export function readLicenseFile(fileName) {
     return content;
   }
 
-  content = fs.readFileSync(path.join(__dirname, fileName), "utf-8");
+  content = normalizeWhitespace(
+    fs.readFileSync(path.join(__dirname, fileName), "utf-8"),
+  );
   licenseCache.set(fileName, content);
 
   return content;
