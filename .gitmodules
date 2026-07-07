@@ -586,6 +586,10 @@
 	path = extensions/capnp
 	url = https://github.com/cmackenzie1/zed-capnp.git
 
+[submodule "extensions/carbon-candy-theme"]
+	path = extensions/carbon-candy-theme
+	url = https://github.com/viral-team/carbon-candy-zed-theme.git
+
 [submodule "extensions/carbonember"]
 	path = extensions/carbonember
 	url = https://github.com/HurrellT/CarbonEmber
@@ -5253,6 +5257,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/carbon-candy-theme"]
-	path = extensions/carbon-candy-theme
-	url = https://github.com/viral-team/carbon-candy-zed-theme.git
