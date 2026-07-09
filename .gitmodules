@@ -146,6 +146,10 @@
 	path = extensions/ansible
 	url = https://github.com/kartikvashistha/zed-ansible
 
+[submodule "extensions/ansible-vault-inline"]
+	path = extensions/ansible-vault-inline
+	url = https://github.com/dimao/ansible-vault-zed.git
+
 [submodule "extensions/anthracite-theme"]
 	path = extensions/anthracite-theme
 	url = https://github.com/boycsuk/anthracite-theme.git
