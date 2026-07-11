@@ -217,7 +217,7 @@ version = "0.0.1"
 
 [arkts]
 submodule = "extensions/arkts"
-version = "0.2.0"
+version = "0.3.0"
 
 [ars-goetia-theme]
 submodule = "extensions/ars-goetia-theme"
@@ -360,7 +360,7 @@ version = "0.1.0"
 [babel-lsp]
 submodule = "extensions/babel-lsp"
 path = "editors/zed"
-version = "0.1.0"
+version = "0.1.1"
 
 [bamboo-theme]
 submodule = "extensions/bamboo-theme"
@@ -904,7 +904,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.2.4"
+version = "1.3.0"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -951,6 +951,10 @@ version = "1.1.2"
 [cursor-dark-theme]
 submodule = "extensions/cursor-dark-theme"
 version = "0.0.1"
+
+[cutiepro-theme]
+submodule = "extensions/cutiepro-theme"
+version = "0.1.0"
 
 [cyan-light-theme]
 submodule = "extensions/cyan-light-theme"
@@ -1254,7 +1258,7 @@ version = "1.0.0"
 
 [effect-language-service-tsgo]
 submodule = "extensions/effect-language-service-tsgo"
-version = "0.0.5"
+version = "0.0.6"
 
 [eiffel-theme]
 submodule = "extensions/eiffel-theme"
@@ -1347,7 +1351,7 @@ version = "1.1.1"
 
 [env]
 submodule = "extensions/env"
-version = "0.0.1"
+version = "0.0.2"
 
 [ep-133-theme]
 submodule = "extensions/ep-133-theme"
@@ -1410,6 +1414,11 @@ version = "0.0.8"
 submodule = "extensions/falcon-theme"
 version = "1.0.10"
 
+[fallow]
+submodule = "extensions/fallow"
+path = "editors/zed"
+version = "0.1.0"
+
 [fantasticons-icons-theme]
 submodule = "extensions/fantasticons-icons-theme"
 version = "1.0.0"
@@ -1417,7 +1426,7 @@ version = "1.0.0"
 [fastapi-lsp]
 submodule = "extensions/fastapi-lsp"
 path = "editors/zed"
-version = "0.1.0"
+version = "0.1.1"
 
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
@@ -1908,6 +1917,10 @@ version = "0.4.0"
 [hbuilderx-push-light]
 submodule = "extensions/hbuilderx-push-light"
 version = "0.1.0"
+
+[hc-monokai-theme]
+submodule = "extensions/hc-monokai-theme"
+version = "0.0.1"
 
 [helios-theme]
 submodule = "extensions/helios-theme"
@@ -2834,7 +2847,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "5.3.0"
+version = "5.4.2"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -3241,7 +3254,7 @@ version = "0.0.1"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.10.1"
+version = "0.10.2"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -3549,7 +3562,7 @@ version = "0.1.1"
 [pgfmt-lsp]
 submodule = "extensions/pgfmt-lsp"
 path = "zed-pgfmt"
-version = "0.3.3"
+version = "0.4.0"
 
 [phasmid-theme]
 submodule = "extensions/phasmid-theme"
@@ -3561,7 +3574,7 @@ version = "0.0.1"
 
 [phosphor-icons-theme]
 submodule = "extensions/phosphor-icons-theme"
-version = "0.0.2"
+version = "0.1.0"
 
 [phosphor-theme]
 submodule = "extensions/phosphor-theme"
@@ -4033,7 +4046,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.13"
+version = "0.16.14"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -4137,7 +4150,7 @@ version = "0.1.0"
 
 [shader-ls]
 submodule = "extensions/shader-ls"
-version = "0.1.0"
+version = "0.2.0"
 
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
@@ -4332,7 +4345,7 @@ version = "1.1.7"
 [sqlalchemy-lsp]
 submodule = "extensions/sqlalchemy-lsp"
 path = "editors/zed"
-version = "0.1.1"
+version = "0.1.2"
 
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
@@ -4352,7 +4365,7 @@ version = "0.0.4"
 
 [ssh-config]
 submodule = "extensions/ssh-config"
-version = "0.2.0"
+version = "0.3.0"
 
 [stan]
 submodule = "extensions/stan"
@@ -4704,7 +4717,7 @@ version = "0.3.1"
 
 [tonel-smalltalk]
 submodule = "extensions/tonel-smalltalk"
-version = "0.1.7"
+version = "0.2.0"
 
 [toon]
 submodule = "extensions/toon"
