@@ -4014,6 +4014,10 @@
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
 
+[submodule "extensions/schemalock-lsp"]
+	path = extensions/schemalock-lsp
+	url = https://github.com/schemalock/zed.git
+
 [submodule "extensions/scheme"]
 	path = extensions/scheme
 	url = https://github.com/zed-extensions/scheme.git
