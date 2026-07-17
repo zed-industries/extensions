@@ -886,6 +886,11 @@ version = "3.0.0"
 submodule = "extensions/crates-lsp"
 version = "0.2.0"
 
+[crepuscularity]
+submodule = "extensions/crepuscularity"
+path = "editors/zed"
+version = "0.2.3"
+
 [crimson-theme]
 submodule = "extensions/crimson-theme"
 version = "0.0.4"
