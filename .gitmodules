@@ -1730,6 +1730,10 @@
 	path = extensions/golangci-lint
 	url = https://github.com/zed-extensions/golangci-lint.git
 
+[submodule "extensions/goonward"]
+	path = extensions/goonward
+	url = https://github.com/goonward/plugins.git
+
 [submodule "extensions/gosum"]
 	path = extensions/gosum
 	url = https://github.com/kartikvashistha/zed-gosum.git
