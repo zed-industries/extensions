@@ -588,6 +588,10 @@ version = "0.1.1"
 submodule = "extensions/call-trans-opt-received"
 version = "0.1.1"
 
+[candela-theme]
+submodule = "extensions/candela-theme"
+version = "0.0.1"
+
 [canipls-lint]
 submodule = "extensions/canipls-lint"
 version = "0.0.1"
@@ -896,7 +900,7 @@ version = "0.0.1"
 
 [csharp]
 submodule = "extensions/csharp"
-version = "1.2.0"
+version = "1.2.1"
 
 [csharp-snippets]
 submodule = "extensions/csharp-snippets"
@@ -951,6 +955,10 @@ version = "1.1.2"
 [cursor-dark-theme]
 submodule = "extensions/cursor-dark-theme"
 version = "0.0.1"
+
+[custom-code-folding-lsp]
+submodule = "extensions/custom-code-folding-lsp"
+version = "0.1.0"
 
 [cutiepro-theme]
 submodule = "extensions/cutiepro-theme"
@@ -1581,6 +1589,10 @@ version = "0.1.0"
 submodule = "extensions/freezed-dart-flutter-snippets"
 version = "0.0.1"
 
+[freshjuice-themes]
+submodule = "extensions/freshjuice-themes"
+version = "0.1.0"
+
 [frieren-theme]
 submodule = "extensions/frieren-theme"
 version = "0.1.0"
@@ -1719,6 +1731,10 @@ version = "2025.08.0"
 [gitlab-ci-ls]
 submodule = "extensions/gitlab-ci-ls"
 version = "1.0.1"
+
+[glass-theme]
+submodule = "extensions/glass-theme"
+version = "0.1.0"
 
 [glazier]
 submodule = "extensions/glazier"
@@ -1928,7 +1944,7 @@ version = "0.0.8"
 
 [helm]
 submodule = "extensions/helm"
-version = "0.0.2"
+version = "0.0.6"
 
 [herzha-theme]
 submodule = "extensions/herzha-theme"
@@ -2236,7 +2252,7 @@ version = "0.0.3"
 
 [json5]
 submodule = "extensions/json5"
-version = "0.1.0"
+version = "0.1.1"
 
 [jsonl]
 submodule = "extensions/jsonl"
@@ -2847,7 +2863,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "5.4.2"
+version = "5.6.0"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -2871,7 +2887,7 @@ version = "0.1.0"
 
 [meson]
 submodule = "extensions/meson"
-version = "0.5.0"
+version = "0.6.0"
 
 [metal]
 submodule = "extensions/metal"
@@ -3250,7 +3266,7 @@ version = "0.0.1"
 
 [nunjucks]
 submodule = "extensions/nunjucks"
-version = "0.0.1"
+version = "0.0.7"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
@@ -3408,6 +3424,10 @@ version = "0.1.0"
 [optima-theme]
 submodule = "extensions/optima-theme"
 version = "0.0.1"
+
+[orange-theme]
+submodule = "extensions/orange-theme"
+version = "0.1.0"
 
 [org]
 submodule = "extensions/org"
@@ -3712,7 +3732,7 @@ version = "0.1.0"
 
 [postman-context-server]
 submodule = "extensions/postman-context-server"
-version = "0.1.0"
+version = "0.2.0"
 
 [powershell]
 submodule = "extensions/powershell"
@@ -3807,6 +3827,10 @@ version = "0.0.5"
 [python-snippets]
 submodule = "extensions/python-snippets"
 version = "0.1.3"
+
+[qb-woodland-theme]
+submodule = "extensions/qb-woodland-theme"
+version = "0.0.1"
 
 [qlik]
 submodule = "extensions/qlik"
@@ -3968,7 +3992,7 @@ version = "0.1.0"
 
 [rhai]
 submodule = "extensions/rhai"
-version = "0.0.1"
+version = "0.0.2"
 
 [rich-vesper]
 submodule = "extensions/rich-vesper"
@@ -4050,7 +4074,11 @@ version = "0.16.14"
 
 [rumdl]
 submodule = "extensions/rumdl"
-version = "0.0.1"
+version = "0.0.3"
+
+[runescape-icon-theme]
+submodule = "extensions/runescape-icon-theme"
+version = "1.0.0"
 
 [rust-and-brown]
 submodule = "extensions/rust-and-brown"
@@ -4063,6 +4091,10 @@ version = "1.0.3"
 [rust-snippets]
 submodule = "extensions/rust-snippets"
 version = "0.0.4"
+
+[rust-workflow-snippets]
+submodule = "extensions/rust-workflow-snippets"
+version = "0.1.0"
 
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
@@ -4079,6 +4111,10 @@ version = "0.0.4"
 [scala]
 submodule = "extensions/scala"
 version = "0.2.3"
+
+[schemalock-lsp]
+submodule = "extensions/schemalock-lsp"
+version = "0.1.0"
 
 [scheme]
 submodule = "extensions/scheme"
@@ -4865,7 +4901,7 @@ version = "0.0.5"
 
 [unoflat]
 submodule = "extensions/unoflat"
-version = "0.1.4"
+version = "0.1.5"
 
 [urdf]
 submodule = "extensions/urdf"
@@ -4945,7 +4981,7 @@ version = "1.1.0"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.17"
+version = "0.0.18"
 
 [version14-theme]
 submodule = "extensions/version14-theme"
@@ -4982,7 +5018,7 @@ version = "1.0.0"
 
 [vibescript]
 submodule = "extensions/vibescript"
-version = "0.0.1"
+version = "0.0.4"
 
 [vibrant-abyss]
 submodule = "extensions/vibrant-abyss"
@@ -5023,6 +5059,10 @@ version = "0.0.1"
 [vrl]
 submodule = "extensions/vrl"
 version = "0.1.1"
+
+[vscode-2026-theme]
+submodule = "extensions/vscode-2026-theme"
+version = "0.1.0"
 
 [vscode-classic-theme]
 submodule = "extensions/vscode-classic-theme"
