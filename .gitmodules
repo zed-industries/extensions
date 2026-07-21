@@ -2234,6 +2234,10 @@
 	path = extensions/jsonl
 	url = https://github.com/vim-zz/jsonl-syntax-zed.git
 
+[submodule "extensions/jsonl-tools"]
+	path = extensions/jsonl-tools
+	url = https://github.com/sarvagnan/jsonl-tools.git
+
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
 	url = https://github.com/narqo/zed-jsonnet.git
