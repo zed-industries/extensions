@@ -1668,6 +1668,11 @@ submodule = "extensions/gem"
 path = "crates/zed-plugin-gem"
 version = "0.0.5"
 
+[gemtext]
+submodule = "extensions/gemtext"
+path = "clients/zed"
+version = "0.0.1"
+
 [genexpr]
 submodule = "extensions/genexpr"
 version = "0.1.0"
