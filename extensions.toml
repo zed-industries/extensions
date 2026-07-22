@@ -345,6 +345,10 @@ version = "0.0.3"
 submodule = "extensions/ayu-darker"
 version = "1.1.2"
 
+[ayu-theme]
+submodule = "extensions/ayu-theme"
+version = "1.0.1"
+
 [ayu-themes-glass]
 submodule = "extensions/ayu-themes-glass"
 version = "1.0.0"
@@ -546,6 +550,10 @@ version = "0.0.1"
 [browser-tools-context-server]
 submodule = "extensions/browser-tools-context-server"
 version = "0.1.0"
+
+[bruno]
+submodule = "extensions/bruno"
+version = "0.0.1"
 
 [bsl]
 submodule = "extensions/bsl"
@@ -1008,6 +1016,10 @@ version = "0.2.1"
 submodule = "extensions/dafny"
 version = "0.0.1"
 
+[daml]
+submodule = "extensions/daml"
+version = "0.1.0"
+
 [dang]
 submodule = "extensions/dang"
 version = "0.1.1"
@@ -1062,7 +1074,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.3.8"
+version = "0.4.0"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -1090,7 +1102,7 @@ version = "0.1.0"
 
 [deep-slate-theme]
 submodule = "extensions/deep-slate-theme"
-version = "0.0.1"
+version = "0.1.1"
 
 [defold]
 submodule = "extensions/defold"
@@ -1924,7 +1936,7 @@ version = "0.1.5"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "0.3.2"
+version = "1.0.0"
 
 [haven-theme]
 submodule = "extensions/haven-theme"
@@ -1941,6 +1953,10 @@ version = "0.1.0"
 [hc-monokai-theme]
 submodule = "extensions/hc-monokai-theme"
 version = "0.0.1"
+
+[hearthcode-theme]
+submodule = "extensions/hearthcode-theme"
+version = "3.7.5"
 
 [helios-theme]
 submodule = "extensions/helios-theme"
@@ -2192,6 +2208,10 @@ version = "0.2.5"
 
 [javascript-snippets]
 submodule = "extensions/javascript-snippets"
+version = "0.1.0"
+
+[jb-high-contrast-theme]
+submodule = "extensions/jb-high-contrast-theme"
 version = "0.1.0"
 
 [jdl]
@@ -2867,7 +2887,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "5.6.0"
+version = "5.6.1"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -2989,7 +3009,7 @@ version = "0.0.2"
 
 [monokai-sharp]
 submodule = "extensions/monokai-sharp"
-version = "1.0.1"
+version = "1.0.2"
 
 [monokai-vibrant-amped]
 submodule = "extensions/monokai-vibrant-amped"
@@ -3065,6 +3085,10 @@ version = "0.1.0"
 
 [napalm]
 submodule = "extensions/napalm"
+version = "0.1.0"
+
+[nautilus]
+submodule = "extensions/nautilus"
 version = "0.1.0"
 
 [navi]
@@ -3330,7 +3354,7 @@ version = "1.0.1"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.12"
+version = "0.3.13"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -3419,7 +3443,7 @@ version = "0.0.1"
 
 [opentofu]
 submodule = "extensions/opentofu"
-version = "1.0.0"
+version = "1.0.1"
 
 [opentype-feature]
 submodule = "extensions/opentype-feature"
@@ -3606,7 +3630,7 @@ version = "1.0.0"
 
 [php]
 submodule = "extensions/php"
-version = "0.4.10"
+version = "0.5.0"
 
 [php-snippets]
 submodule = "extensions/php-snippets"
@@ -3641,6 +3665,10 @@ version = "0.1.0"
 [pinata-theme]
 submodule = "extensions/pinata-theme"
 version = "0.0.1"
+
+[pine-script]
+submodule = "extensions/pine-script"
+version = "0.1.0"
 
 [pink-candy-theme]
 submodule = "extensions/pink-candy-theme"
@@ -3708,7 +3736,7 @@ version = "0.8.1"
 
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
-version = "1.0.12"
+version = "1.0.13"
 
 [polycarbonate-dark-theme]
 submodule = "extensions/polycarbonate-dark-theme"
@@ -4078,7 +4106,7 @@ version = "0.16.14"
 
 [rumdl]
 submodule = "extensions/rumdl"
-version = "0.0.3"
+version = "0.0.4"
 
 [runescape-icon-theme]
 submodule = "extensions/runescape-icon-theme"
@@ -4130,7 +4158,7 @@ version = "0.0.1"
 
 [scss]
 submodule = "extensions/scss"
-version = "0.2.0"
+version = "0.2.1"
 
 [selene-abyss-theme]
 submodule = "extensions/selene-abyss-theme"
@@ -4380,7 +4408,7 @@ version = "0.1.0"
 
 [sql]
 submodule = "extensions/sql"
-version = "1.1.7"
+version = "1.1.8"
 
 [sqlalchemy-lsp]
 submodule = "extensions/sqlalchemy-lsp"
@@ -4528,7 +4556,7 @@ version = "0.1.0"
 
 [swift]
 submodule = "extensions/swift"
-version = "0.4.9"
+version = "0.4.10"
 
 [symbols]
 submodule = "extensions/symbols"
@@ -4793,7 +4821,12 @@ version = "0.0.9"
 
 [tsgo]
 submodule = "extensions/tsgo"
-version = "1.0.0"
+version = "1.1.0"
+
+[tsrx]
+submodule = "extensions/tsrx"
+path = "packages/zed-plugin"
+version = "0.0.84"
 
 [turtle]
 submodule = "extensions/turtle"
