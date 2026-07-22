@@ -2027,6 +2027,10 @@ version = "0.0.1"
 submodule = "extensions/hot-dog-stand"
 version = "0.0.2"
 
+[houdini-vex]
+submodule = "extensions/houdini-vex"
+version = "0.0.1"
+
 [hp42s]
 submodule = "extensions/hp42s"
 version = "0.3.0"
@@ -2589,7 +2593,7 @@ version = "0.10.0"
 
 [mainframe-theme]
 submodule = "extensions/mainframe-theme"
-version = "0.1.0"
+version = "0.1.1"
 
 [make]
 submodule = "extensions/make"
@@ -3005,7 +3009,7 @@ version = "0.0.2"
 
 [monokai-sharp]
 submodule = "extensions/monokai-sharp"
-version = "1.0.1"
+version = "1.0.2"
 
 [monokai-vibrant-amped]
 submodule = "extensions/monokai-vibrant-amped"
@@ -3439,7 +3443,7 @@ version = "0.0.1"
 
 [opentofu]
 submodule = "extensions/opentofu"
-version = "1.0.0"
+version = "1.0.1"
 
 [opentype-feature]
 submodule = "extensions/opentype-feature"
@@ -3732,7 +3736,7 @@ version = "0.8.1"
 
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
-version = "1.0.12"
+version = "1.0.13"
 
 [polycarbonate-dark-theme]
 submodule = "extensions/polycarbonate-dark-theme"
@@ -4049,7 +4053,7 @@ version = "0.1.2"
 
 [rockide-language-server]
 submodule = "extensions/rockide-language-server"
-version = "0.1.0"
+version = "0.2.0"
 
 [ron]
 submodule = "extensions/ron"
@@ -4368,7 +4372,7 @@ version = "0.6.0"
 
 [sonder-theme]
 submodule = "extensions/sonder-theme"
-version = "0.1.1"
+version = "0.1.2"
 
 [sonokai]
 submodule = "extensions/sonokai"
@@ -4583,6 +4587,11 @@ version = "0.1.1"
 [synthwave84]
 submodule = "extensions/synthwave84"
 version = "0.2.0"
+
+[sysml-v2]
+submodule = "extensions/sysml-v2"
+path = "zed"
+version = "0.30.0"
 
 [systemrdl]
 submodule = "extensions/systemrdl"
@@ -4919,6 +4928,10 @@ version = "0.0.9"
 [united-gnome]
 submodule = "extensions/united-gnome"
 version = "0.5.10"
+
+[unity-debugger]
+submodule = "extensions/unity-debugger"
+version = "26.04.06"
 
 [unity-snippets]
 submodule = "extensions/unity-snippets"
