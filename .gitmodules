@@ -2014,6 +2014,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/hubbamax-theme"]
+	path = extensions/hubbamax-theme
+	url = https://github.com/agrippa1027/zed-hubbamax.git
+
 [submodule "extensions/hubl"]
 	path = extensions/hubl
 	url = https://github.com/blueambr/zed-hubl.git
@@ -2238,6 +2242,10 @@
 	path = extensions/jsonl
 	url = https://github.com/vim-zz/jsonl-syntax-zed.git
 
+[submodule "extensions/jsonl-lsp"]
+	path = extensions/jsonl-lsp
+	url = https://github.com/sarvagnan/jsonl-tools.git
+
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
 	url = https://github.com/narqo/zed-jsonnet.git
@@ -2425,6 +2433,10 @@
 [submodule "extensions/lilypond"]
 	path = extensions/lilypond
 	url = https://github.com/nwhetsell/lilypond-zed-extension
+
+[submodule "extensions/lini"]
+	path = extensions/lini
+	url = https://github.com/monfa-red/lini
 
 [submodule "extensions/linkerscript"]
 	path = extensions/linkerscript
