@@ -3286,6 +3286,11 @@ version = "0.1.0"
 submodule = "extensions/npm-package-json-checker"
 version = "1.0.6"
 
+[npmx-language-server]
+submodule = "extensions/npmx-language-server"
+path = "extensions/zed"
+version = "0.9.2"
+
 [nsis]
 submodule = "extensions/nsis"
 version = "0.2.0"
