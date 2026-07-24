@@ -3503,6 +3503,11 @@ version = "0.0.3"
 submodule = "extensions/outrun-vscode-theme"
 version = "0.1.0"
 
+[ox-content]
+submodule = "extensions/ox-content"
+path = "editors/zed"
+version = "2.73.0"
+
 [oxc]
 submodule = "extensions/oxc"
 version = "0.4.7"
