@@ -1426,6 +1426,10 @@
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
 
+[submodule "extensions/fastly-vcl"]
+	path = extensions/fastly-vcl
+	url = https://github.com/fastly/zed-fastly-vcl.git
+
 [submodule "extensions/fedaykin-themes"]
 	path = extensions/fedaykin-themes
 	url = https://github.com/btriapitsyn/zed-fedaykin-themes.git
