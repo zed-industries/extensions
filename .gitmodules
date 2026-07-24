@@ -2522,6 +2522,10 @@
 	path = extensions/luau
 	url = https://github.com/4teapo/zed-luau
 
+[submodule "extensions/lucent-blur-theme"]
+	path = extensions/lucent-blur-theme
+	url = https://github.com/callqh/lucent-blur.git
+
 [submodule "extensions/lume-theme"]
 	path = extensions/lume-theme
 	url = https://github.com/danfry1/lume-zed-theme.git
@@ -2693,10 +2697,6 @@
 [submodule "extensions/mcp-server-atproto-docs"]
 	path = extensions/mcp-server-atproto-docs
 	url = https://github.com/moshyfawn/zed-mcp-server-atproto-docs.git
-
-[submodule "extensions/mcp-server-axiom"]
-	path = extensions/mcp-server-axiom
-	url = https://github.com/zed-extensions/mcp-server-axiom.git
 
 [submodule "extensions/mcp-server-brave-search"]
 	path = extensions/mcp-server-brave-search
@@ -4293,6 +4293,10 @@
 [submodule "extensions/snowflake"]
 	path = extensions/snowflake
 	url = https://github.com/bxxf/snowflake-zed.git
+
+[submodule "extensions/solace-theme"]
+	path = extensions/solace-theme
+	url = https://github.com/bhavya-dang/Solace.git
 
 [submodule "extensions/solarized"]
 	path = extensions/solarized

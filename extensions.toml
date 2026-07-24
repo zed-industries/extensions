@@ -2573,6 +2573,10 @@ version = "0.1.9"
 submodule = "extensions/luau"
 version = "0.3.8"
 
+[lucent-blur-theme]
+submodule = "extensions/lucent-blur-theme"
+version = "0.3.0"
+
 [lume-theme]
 submodule = "extensions/lume-theme"
 version = "0.1.0"
@@ -2744,10 +2748,6 @@ version = "0.2.0"
 
 [mcp-server-atproto-docs]
 submodule = "extensions/mcp-server-atproto-docs"
-version = "0.2.0"
-
-[mcp-server-axiom]
-submodule = "extensions/mcp-server-axiom"
 version = "0.2.0"
 
 [mcp-server-brave-search]
@@ -3087,7 +3087,7 @@ version = "0.2.0"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
-version = "1.0.2"
+version = "1.1.0"
 
 [mustache]
 submodule = "extensions/mustache"
@@ -4367,6 +4367,10 @@ version = "0.2.2"
 [snowflake]
 submodule = "extensions/snowflake"
 version = "1.0.0"
+
+[solace-theme]
+submodule = "extensions/solace-theme"
+version = "0.1.2"
 
 [solarized]
 submodule = "extensions/solarized"
