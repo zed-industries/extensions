@@ -3963,6 +3963,11 @@ submodule = "extensions/react-component-lens-lsp"
 path = "packages/zed"
 version = "1.0.5"
 
+[react-i18next-lens]
+submodule = "extensions/react-i18next-lens"
+path = "crates/intl-lens-extension"
+version = "0.0.4"
+
 [react-snippets]
 submodule = "extensions/react-snippets"
 version = "1.0.6"
