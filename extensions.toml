@@ -1932,7 +1932,7 @@ version = "0.1.5"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "1.0.0"
+version = "1.0.1"
 
 [haven-theme]
 submodule = "extensions/haven-theme"
@@ -2055,6 +2055,10 @@ version = "0.1.0"
 [http]
 submodule = "extensions/http"
 version = "0.0.1"
+
+[hubbamax-theme]
+submodule = "extensions/hubbamax-theme"
+version = "0.1.0"
 
 [hubl]
 submodule = "extensions/hubl"
@@ -2282,6 +2286,11 @@ version = "0.1.1"
 submodule = "extensions/jsonl"
 version = "0.1.1"
 
+[jsonl-lsp]
+submodule = "extensions/jsonl-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [jsonnet]
 submodule = "extensions/jsonnet"
 version = "0.4.0"
@@ -2471,6 +2480,11 @@ version = "0.0.1"
 [lilypond]
 submodule = "extensions/lilypond"
 version = "0.0.9"
+
+[lini]
+submodule = "extensions/lini"
+path = "editors/zed"
+version = "0.1.0"
 
 [linkerscript]
 submodule = "extensions/linkerscript"
