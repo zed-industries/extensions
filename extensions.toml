@@ -5306,6 +5306,11 @@ version = "0.1.0"
 submodule = "extensions/xml"
 version = "0.1.0"
 
+[xml-lsp]
+submodule = "extensions/xml-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [xy-zed]
 submodule = "extensions/xy-zed"
 version = "0.1.4"
