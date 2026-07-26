@@ -2018,6 +2018,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/hubbamax-theme"]
+	path = extensions/hubbamax-theme
+	url = https://github.com/agrippa1027/zed-hubbamax.git
+
 [submodule "extensions/hubl"]
 	path = extensions/hubl
 	url = https://github.com/blueambr/zed-hubl.git
@@ -2242,6 +2246,10 @@
 	path = extensions/jsonl
 	url = https://github.com/vim-zz/jsonl-syntax-zed.git
 
+[submodule "extensions/jsonl-lsp"]
+	path = extensions/jsonl-lsp
+	url = https://github.com/sarvagnan/jsonl-tools.git
+
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
 	url = https://github.com/narqo/zed-jsonnet.git
@@ -2430,6 +2438,10 @@
 	path = extensions/lilypond
 	url = https://github.com/nwhetsell/lilypond-zed-extension
 
+[submodule "extensions/lini"]
+	path = extensions/lini
+	url = https://github.com/monfa-red/lini
+
 [submodule "extensions/linkerscript"]
 	path = extensions/linkerscript
 	url = https://github.com/notpeter/linkerscript-zed.git
@@ -2509,6 +2521,10 @@
 [submodule "extensions/luau"]
 	path = extensions/luau
 	url = https://github.com/4teapo/zed-luau
+
+[submodule "extensions/lucent-blur-theme"]
+	path = extensions/lucent-blur-theme
+	url = https://github.com/callqh/lucent-blur.git
 
 [submodule "extensions/lume-theme"]
 	path = extensions/lume-theme
@@ -2681,10 +2697,6 @@
 [submodule "extensions/mcp-server-atproto-docs"]
 	path = extensions/mcp-server-atproto-docs
 	url = https://github.com/moshyfawn/zed-mcp-server-atproto-docs.git
-
-[submodule "extensions/mcp-server-axiom"]
-	path = extensions/mcp-server-axiom
-	url = https://github.com/zed-extensions/mcp-server-axiom.git
 
 [submodule "extensions/mcp-server-brave-search"]
 	path = extensions/mcp-server-brave-search
@@ -4281,6 +4293,10 @@
 [submodule "extensions/snowflake"]
 	path = extensions/snowflake
 	url = https://github.com/bxxf/snowflake-zed.git
+
+[submodule "extensions/solace-theme"]
+	path = extensions/solace-theme
+	url = https://github.com/bhavya-dang/Solace.git
 
 [submodule "extensions/solarized"]
 	path = extensions/solarized
