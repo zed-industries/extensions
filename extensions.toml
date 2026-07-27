@@ -1395,7 +1395,7 @@ version = "0.0.1"
 
 [everforest]
 submodule = "extensions/everforest"
-version = "0.1.4"
+version = "0.2.0"
 
 [everforest-blurred]
 submodule = "extensions/everforest-blurred"
@@ -3004,6 +3004,10 @@ version = "0.2.1"
 submodule = "extensions/molten-theme"
 version = "1.0.0"
 
+[monobrut-theme]
+submodule = "extensions/monobrut-theme"
+version = "0.1.0"
+
 [monochromator-theme]
 submodule = "extensions/monochromator-theme"
 path = "editors/zed"
@@ -3372,7 +3376,7 @@ version = "1.0.1"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.13"
+version = "0.3.14"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -3571,7 +3575,7 @@ version = "0.0.1"
 [path-server-lsp]
 submodule = "extensions/path-server-lsp"
 path = "extensions/zed"
-version = "1.4.0"
+version = "1.4.1"
 
 [pathy]
 submodule = "extensions/pathy"
@@ -4294,6 +4298,11 @@ version = "0.0.12"
 submodule = "extensions/sitruuna"
 version = "0.1.0"
 
+[skill-language-server]
+submodule = "extensions/skill-language-server"
+path = "ext/zed"
+version = "0.0.1"
+
 [sl4y-theme]
 submodule = "extensions/sl4y-theme"
 version = "0.0.1"
@@ -4455,7 +4464,7 @@ version = "0.0.4"
 
 [ssh-config]
 submodule = "extensions/ssh-config"
-version = "0.3.0"
+version = "0.4.0"
 
 [stan]
 submodule = "extensions/stan"
