@@ -150,6 +150,11 @@ version = "21.1.0"
 submodule = "extensions/ansible"
 version = "1.0.0"
 
+[ansible-vault-inline]
+submodule = "extensions/ansible-vault-inline"
+path = "zed-ansible-vault"
+version = "0.5.0"
+
 [anthracite-theme]
 submodule = "extensions/anthracite-theme"
 version = "1.0.0"
