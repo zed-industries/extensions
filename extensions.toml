@@ -890,6 +890,11 @@ version = "0.1.0"
 submodule = "extensions/cql"
 version = "3.0.0"
 
+[crabbox]
+submodule = "extensions/crabbox"
+version = "0.1.0"
+path = "integrations/zed"
+
 [crates-lsp]
 submodule = "extensions/crates-lsp"
 version = "0.2.0"
