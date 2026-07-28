@@ -1395,7 +1395,7 @@ version = "0.0.1"
 
 [everforest]
 submodule = "extensions/everforest"
-version = "0.1.4"
+version = "0.2.0"
 
 [everforest-blurred]
 submodule = "extensions/everforest-blurred"
@@ -1932,7 +1932,7 @@ version = "0.1.5"
 
 [haskell]
 submodule = "extensions/haskell"
-version = "1.0.0"
+version = "1.0.1"
 
 [haven-theme]
 submodule = "extensions/haven-theme"
@@ -1952,7 +1952,7 @@ version = "0.0.1"
 
 [hearthcode-theme]
 submodule = "extensions/hearthcode-theme"
-version = "3.7.5"
+version = "3.7.7"
 
 [helios-theme]
 submodule = "extensions/helios-theme"
@@ -2055,6 +2055,10 @@ version = "0.1.0"
 [http]
 submodule = "extensions/http"
 version = "0.0.1"
+
+[hubbamax-theme]
+submodule = "extensions/hubbamax-theme"
+version = "0.1.0"
 
 [hubl]
 submodule = "extensions/hubl"
@@ -2234,6 +2238,10 @@ version = "0.0.1"
 submodule = "extensions/jerry"
 version = "0.8.0"
 
+[jest-snippets]
+submodule = "extensions/jest-snippets"
+version = "0.0.1"
+
 [jetbrains-darcula-theme-by-bronya0]
 submodule = "extensions/jetbrains-darcula-theme-by-bronya0"
 version = "0.1.4"
@@ -2281,6 +2289,11 @@ version = "0.1.1"
 [jsonl]
 submodule = "extensions/jsonl"
 version = "0.1.1"
+
+[jsonl-lsp]
+submodule = "extensions/jsonl-lsp"
+path = "editors/zed"
+version = "0.1.0"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
@@ -2472,6 +2485,11 @@ version = "0.0.1"
 submodule = "extensions/lilypond"
 version = "0.0.9"
 
+[lini]
+submodule = "extensions/lini"
+path = "editors/zed"
+version = "0.1.0"
+
 [linkerscript]
 submodule = "extensions/linkerscript"
 version = "0.1.0"
@@ -2505,6 +2523,10 @@ version = "0.3.1"
 [live-template]
 submodule = "extensions/live-template"
 version = "0.0.4"
+
+[livetennis-mcp]
+submodule = "extensions/livetennis-mcp"
+version = "0.1.0"
 
 [llvm-ir]
 submodule = "extensions/llvm-ir"
@@ -2554,6 +2576,10 @@ version = "0.1.9"
 [luau]
 submodule = "extensions/luau"
 version = "0.3.8"
+
+[lucent-blur-theme]
+submodule = "extensions/lucent-blur-theme"
+version = "0.3.0"
 
 [lume-theme]
 submodule = "extensions/lume-theme"
@@ -2726,10 +2752,6 @@ version = "0.2.0"
 
 [mcp-server-atproto-docs]
 submodule = "extensions/mcp-server-atproto-docs"
-version = "0.2.0"
-
-[mcp-server-axiom]
-submodule = "extensions/mcp-server-axiom"
 version = "0.2.0"
 
 [mcp-server-brave-search]
@@ -2990,6 +3012,10 @@ version = "0.2.1"
 submodule = "extensions/molten-theme"
 version = "1.0.0"
 
+[monobrut-theme]
+submodule = "extensions/monobrut-theme"
+version = "0.1.0"
+
 [monochromator-theme]
 submodule = "extensions/monochromator-theme"
 path = "editors/zed"
@@ -3069,7 +3095,7 @@ version = "0.2.0"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
-version = "1.0.2"
+version = "1.1.0"
 
 [mustache]
 submodule = "extensions/mustache"
@@ -3126,6 +3152,10 @@ version = "0.0.1"
 [neon-pulse-theme]
 submodule = "extensions/neon-pulse-theme"
 version = "2.1.0"
+
+[neon-verdigris-theme]
+submodule = "extensions/neon-verdigris-theme"
+version = "0.2.0"
 
 [neosolarized]
 submodule = "extensions/neosolarized"
@@ -3358,7 +3388,7 @@ version = "1.0.1"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.13"
+version = "0.3.15"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -3557,7 +3587,7 @@ version = "0.0.1"
 [path-server-lsp]
 submodule = "extensions/path-server-lsp"
 path = "extensions/zed"
-version = "1.4.0"
+version = "1.4.1"
 
 [pathy]
 submodule = "extensions/pathy"
@@ -3634,7 +3664,7 @@ version = "1.0.0"
 
 [php]
 submodule = "extensions/php"
-version = "0.5.0"
+version = "0.5.1"
 
 [php-snippets]
 submodule = "extensions/php-snippets"
@@ -3642,7 +3672,7 @@ version = "0.1.0"
 
 [phpcs]
 submodule = "extensions/phpcs"
-version = "0.4.4"
+version = "0.4.5"
 
 [phpmago-lsp]
 submodule = "extensions/phpmago-lsp"
@@ -4284,6 +4314,11 @@ version = "0.0.12"
 submodule = "extensions/sitruuna"
 version = "0.1.0"
 
+[skill-language-server]
+submodule = "extensions/skill-language-server"
+path = "ext/zed"
+version = "0.0.1"
+
 [sl4y-theme]
 submodule = "extensions/sl4y-theme"
 version = "0.0.1"
@@ -4353,6 +4388,10 @@ version = "0.2.2"
 [snowflake]
 submodule = "extensions/snowflake"
 version = "1.0.0"
+
+[solace-theme]
+submodule = "extensions/solace-theme"
+version = "0.1.2"
 
 [solarized]
 submodule = "extensions/solarized"
@@ -4441,7 +4480,7 @@ version = "0.0.4"
 
 [ssh-config]
 submodule = "extensions/ssh-config"
-version = "0.3.0"
+version = "0.4.0"
 
 [stan]
 submodule = "extensions/stan"
@@ -5035,7 +5074,7 @@ version = "1.1.0"
 
 [verilog]
 submodule = "extensions/verilog"
-version = "0.0.18"
+version = "0.0.19"
 
 [version14-theme]
 submodule = "extensions/version14-theme"

@@ -2014,6 +2014,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/hubbamax-theme"]
+	path = extensions/hubbamax-theme
+	url = https://github.com/agrippa1027/zed-hubbamax.git
+
 [submodule "extensions/hubl"]
 	path = extensions/hubl
 	url = https://github.com/blueambr/zed-hubl.git
@@ -2190,6 +2194,10 @@
 	path = extensions/jerry
 	url = https://github.com/jeffscottbrown/jerry-zed.git
 
+[submodule "extensions/jest-snippets"]
+	path = extensions/jest-snippets
+	url = https://github.com/tmsbkn/jest-snippets.git
+
 [submodule "extensions/jetbrains-darcula-theme-by-bronya0"]
 	path = extensions/jetbrains-darcula-theme-by-bronya0
 	url = https://github.com/Bronya0/Jetbrains-Darcula-Zed-Theme.git
@@ -2237,6 +2245,10 @@
 [submodule "extensions/jsonl"]
 	path = extensions/jsonl
 	url = https://github.com/vim-zz/jsonl-syntax-zed.git
+
+[submodule "extensions/jsonl-lsp"]
+	path = extensions/jsonl-lsp
+	url = https://github.com/sarvagnan/jsonl-tools.git
 
 [submodule "extensions/jsonnet"]
 	path = extensions/jsonnet
@@ -2426,6 +2438,10 @@
 	path = extensions/lilypond
 	url = https://github.com/nwhetsell/lilypond-zed-extension
 
+[submodule "extensions/lini"]
+	path = extensions/lini
+	url = https://github.com/monfa-red/lini
+
 [submodule "extensions/linkerscript"]
 	path = extensions/linkerscript
 	url = https://github.com/notpeter/linkerscript-zed.git
@@ -2457,6 +2473,10 @@
 [submodule "extensions/live-template"]
 	path = extensions/live-template
 	url = https://github.com/jekst/zed-snippets.git
+
+[submodule "extensions/livetennis-mcp"]
+	path = extensions/livetennis-mcp
+	url = https://github.com/livetennisapi/zed-livetennis-mcp.git
 
 [submodule "extensions/llvm-ir"]
 	path = extensions/llvm-ir
@@ -2505,6 +2525,10 @@
 [submodule "extensions/luau"]
 	path = extensions/luau
 	url = https://github.com/4teapo/zed-luau
+
+[submodule "extensions/lucent-blur-theme"]
+	path = extensions/lucent-blur-theme
+	url = https://github.com/callqh/lucent-blur.git
 
 [submodule "extensions/lume-theme"]
 	path = extensions/lume-theme
@@ -2677,10 +2701,6 @@
 [submodule "extensions/mcp-server-atproto-docs"]
 	path = extensions/mcp-server-atproto-docs
 	url = https://github.com/moshyfawn/zed-mcp-server-atproto-docs.git
-
-[submodule "extensions/mcp-server-axiom"]
-	path = extensions/mcp-server-axiom
-	url = https://github.com/zed-extensions/mcp-server-axiom.git
 
 [submodule "extensions/mcp-server-brave-search"]
 	path = extensions/mcp-server-brave-search
@@ -2938,6 +2958,10 @@
 	path = extensions/molten-theme
 	url = https://github.com/vaqxai/zed-molten-theme.git
 
+[submodule "extensions/monobrut-theme"]
+	path = extensions/monobrut-theme
+	url = https://github.com/akullpp/monobrut-theme.git
+
 [submodule "extensions/monochromator-theme"]
 	path = extensions/monochromator-theme
 	url = https://codeberg.org/beem/monochromator.git
@@ -3073,6 +3097,10 @@
 [submodule "extensions/neon-pulse-theme"]
 	path = extensions/neon-pulse-theme
 	url = https://github.com/ArnoldWW/neon-pulse-theme
+
+[submodule "extensions/neon-verdigris-theme"]
+	path = extensions/neon-verdigris-theme
+	url = https://github.com/slaps-keyboard/zed-theme-neon-verdigris.git
 
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
@@ -4214,6 +4242,10 @@
 	path = extensions/sitruuna
 	url = https://github.com/menduz/sitruuna-zed.git
 
+[submodule "extensions/skill-language-server"]
+	path = extensions/skill-language-server
+	url = https://github.com/CyrusNuevoDia/skill-language-server.git
+
 [submodule "extensions/sl4y-theme"]
 	path = extensions/sl4y-theme
 	url = https://github.com/berkantay/zed-theme-sl4y.git
@@ -4281,6 +4313,10 @@
 [submodule "extensions/snowflake"]
 	path = extensions/snowflake
 	url = https://github.com/bxxf/snowflake-zed.git
+
+[submodule "extensions/solace-theme"]
+	path = extensions/solace-theme
+	url = https://github.com/bhavya-dang/Solace.git
 
 [submodule "extensions/solarized"]
 	path = extensions/solarized
