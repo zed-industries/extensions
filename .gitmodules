@@ -1318,6 +1318,10 @@
 	path = extensions/elsa-lang
 	url = https://github.com/MrPoloGit/elsa-lang.git
 
+[submodule "extensions/embedded-javascript-ejs"]
+	path = extensions/embedded-javascript-ejs
+	url = https://github.com/ruiluntran/zed-extension-ejs.git
+
 [submodule "extensions/ember"]
 	path = extensions/ember
 	url = https://github.com/jylamont/zed-ember.git
@@ -5381,6 +5385,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/embedded-javascript-ejs"]
-	path = extensions/embedded-javascript-ejs
-	url = https://github.com/ruiluntran/zed-extension-ejs.git
