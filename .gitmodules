@@ -2198,6 +2198,10 @@
 	path = extensions/jerry
 	url = https://github.com/jeffscottbrown/jerry-zed.git
 
+[submodule "extensions/jest-snippets"]
+	path = extensions/jest-snippets
+	url = https://github.com/tmsbkn/jest-snippets.git
+
 [submodule "extensions/jetbrains-darcula-theme-by-bronya0"]
 	path = extensions/jetbrains-darcula-theme-by-bronya0
 	url = https://github.com/Bronya0/Jetbrains-Darcula-Zed-Theme.git
@@ -2473,6 +2477,10 @@
 [submodule "extensions/live-template"]
 	path = extensions/live-template
 	url = https://github.com/jekst/zed-snippets.git
+
+[submodule "extensions/livetennis-mcp"]
+	path = extensions/livetennis-mcp
+	url = https://github.com/livetennisapi/zed-livetennis-mcp.git
 
 [submodule "extensions/llvm-ir"]
 	path = extensions/llvm-ir
@@ -2750,6 +2758,10 @@
 	path = extensions/mcp-server-grafana
 	url = https://github.com/sd2k/zed-mcp-grafana.git
 
+[submodule "extensions/mcp-server-kubernetes"]
+	path = extensions/mcp-server-kubernetes
+	url = https://github.com/ferra-io/zed-mcp-server-kubernetes.git
+
 [submodule "extensions/mcp-server-markitdown"]
 	path = extensions/mcp-server-markitdown
 	url = https://github.com/G36maid/zed-mcp-server-markitdown
@@ -2954,6 +2966,10 @@
 	path = extensions/molten-theme
 	url = https://github.com/vaqxai/zed-molten-theme.git
 
+[submodule "extensions/monobrut-theme"]
+	path = extensions/monobrut-theme
+	url = https://github.com/akullpp/monobrut-theme.git
+
 [submodule "extensions/monochromator-theme"]
 	path = extensions/monochromator-theme
 	url = https://codeberg.org/beem/monochromator.git
@@ -3089,6 +3105,10 @@
 [submodule "extensions/neon-pulse-theme"]
 	path = extensions/neon-pulse-theme
 	url = https://github.com/ArnoldWW/neon-pulse-theme
+
+[submodule "extensions/neon-verdigris-theme"]
+	path = extensions/neon-verdigris-theme
+	url = https://github.com/slaps-keyboard/zed-theme-neon-verdigris.git
 
 [submodule "extensions/neosolarized"]
 	path = extensions/neosolarized
@@ -3658,6 +3678,10 @@
 	path = extensions/plantuml
 	url = https://github.com/gabeidx/zed-plantuml.git
 
+[submodule "extensions/plastic-legacy-theme"]
+	path = extensions/plastic-legacy-theme
+	url = https://github.com/justbipin/zed-plastic-legacy-theme.git
+
 [submodule "extensions/plastic-theme"]
 	path = extensions/plastic-theme
 	url = https://github.com/ibnuh/zed-plastic-theme.git
@@ -4225,6 +4249,10 @@
 [submodule "extensions/sitruuna"]
 	path = extensions/sitruuna
 	url = https://github.com/menduz/sitruuna-zed.git
+
+[submodule "extensions/skill-language-server"]
+	path = extensions/skill-language-server
+	url = https://github.com/CyrusNuevoDia/skill-language-server.git
 
 [submodule "extensions/sl4y-theme"]
 	path = extensions/sl4y-theme
