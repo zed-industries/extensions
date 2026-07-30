@@ -2386,6 +2386,10 @@
 	path = extensions/laravel
 	url = https://github.com/mike-bronner/zed-laravel.git
 
+[submodule "extensions/laravel-official"]
+	path = extensions/laravel-official
+	url = https://github.com/laravel/zed-extension.git
+
 [submodule "extensions/latex"]
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
