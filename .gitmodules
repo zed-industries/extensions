@@ -2614,6 +2614,11 @@
 	path = extensions/marine-dark
 	url = https://github.com/MarineDark/marine-dark.zed.git
 
+[submodule "extensions/markdoc"]
+	path = extensions/markdoc
+	url = https://github.com/louiss0/tree-sitter-markdoc.git
+	branch = release/markdoc-1.0.0
+
 [submodule "extensions/markdown-oxide"]
 	path = extensions/markdown-oxide
 	url = https://github.com/Feel-ix-343/markdown-oxide-zed.git
