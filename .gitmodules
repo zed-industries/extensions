@@ -2386,6 +2386,10 @@
 	path = extensions/laravel
 	url = https://github.com/mike-bronner/zed-laravel.git
 
+[submodule "extensions/laravel-official"]
+	path = extensions/laravel-official
+	url = https://github.com/laravel/zed-extension.git
+
 [submodule "extensions/latex"]
 	path = extensions/latex
 	url = https://github.com/rzukic/zed-latex.git
@@ -2757,6 +2761,10 @@
 [submodule "extensions/mcp-server-grafana"]
 	path = extensions/mcp-server-grafana
 	url = https://github.com/sd2k/zed-mcp-grafana.git
+
+[submodule "extensions/mcp-server-kubernetes"]
+	path = extensions/mcp-server-kubernetes
+	url = https://github.com/ferra-io/zed-mcp-server-kubernetes.git
 
 [submodule "extensions/mcp-server-markitdown"]
 	path = extensions/mcp-server-markitdown
@@ -3673,6 +3681,10 @@
 [submodule "extensions/plantuml"]
 	path = extensions/plantuml
 	url = https://github.com/gabeidx/zed-plantuml.git
+
+[submodule "extensions/plastic-legacy-theme"]
+	path = extensions/plastic-legacy-theme
+	url = https://github.com/justbipin/zed-plastic-legacy-theme.git
 
 [submodule "extensions/plastic-theme"]
 	path = extensions/plastic-theme

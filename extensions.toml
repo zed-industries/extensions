@@ -144,7 +144,7 @@ version = "0.1.2"
 
 [angular]
 submodule = "extensions/angular"
-version = "0.0.5"
+version = "0.0.6"
 
 [angular-snippets]
 submodule = "extensions/angular-snippets"
@@ -1379,7 +1379,7 @@ version = "0.0.2"
 
 [ep-133-theme]
 submodule = "extensions/ep-133-theme"
-version = "0.0.2"
+version = "0.0.3"
 
 [erb-snippets]
 submodule = "extensions/erb-snippets"
@@ -2430,7 +2430,11 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.6.0"
+version = "0.6.1"
+
+[laravel-official]
+submodule = "extensions/laravel-official"
+version = "0.1.0"
 
 [latex]
 submodule = "extensions/latex"
@@ -2575,7 +2579,7 @@ version = "0.1.1"
 
 [lua]
 submodule = "extensions/lua"
-version = "0.1.9"
+version = "0.1.10"
 
 [luau]
 submodule = "extensions/luau"
@@ -2583,7 +2587,7 @@ version = "0.3.8"
 
 [lucent-blur-theme]
 submodule = "extensions/lucent-blur-theme"
-version = "0.3.0"
+version = "0.4.0"
 
 [lume-theme]
 submodule = "extensions/lume-theme"
@@ -2810,13 +2814,17 @@ version = "0.1.0"
 submodule = "extensions/mcp-server-grafana"
 version = "0.1.2"
 
+[mcp-server-kubernetes]
+submodule = "extensions/mcp-server-kubernetes"
+version = "0.1.0"
+
 [mcp-server-markitdown]
 submodule = "extensions/mcp-server-markitdown"
 version = "0.0.1"
 
 [mcp-server-master-go]
 submodule = "extensions/mcp-server-master-go"
-version = "0.0.1"
+version = "0.0.2"
 
 [mcp-server-memory]
 submodule = "extensions/mcp-server-memory"
@@ -3736,6 +3744,10 @@ version = "0.1.0"
 submodule = "extensions/plantuml"
 version = "0.1.0"
 
+[plastic-legacy-theme]
+submodule = "extensions/plastic-legacy-theme"
+version = "0.0.1"
+
 [plastic-theme]
 submodule = "extensions/plastic-theme"
 version = "1.0.0"
@@ -4091,7 +4103,7 @@ version = "0.1.2"
 
 [rockide-language-server]
 submodule = "extensions/rockide-language-server"
-version = "0.2.0"
+version = "0.2.1"
 
 [ron]
 submodule = "extensions/ron"
@@ -4103,7 +4115,7 @@ version = "0.0.1"
 
 [rose-pine-theme]
 submodule = "extensions/rose-pine-theme"
-version = "1.4.0"
+version = "1.5.0"
 
 [rosevin]
 submodule = "extensions/rosevin"
@@ -5325,7 +5337,7 @@ version = "0.1.0"
 
 [xml]
 submodule = "extensions/xml"
-version = "0.1.0"
+version = "0.1.1"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
