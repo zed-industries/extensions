@@ -372,7 +372,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.223.0"
+version = "0.224.0"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -1628,6 +1628,10 @@ version = "1.0.0"
 [furina-vibe-theme]
 submodule = "extensions/furina-vibe-theme"
 version = "0.1.2"
+
+[g-slowpoke-theme]
+submodule = "extensions/g-slowpoke-theme"
+version = "0.0.1"
 
 [gafelson]
 submodule = "extensions/gafelson"
@@ -3047,7 +3051,7 @@ version = "0.0.2"
 
 [monokai-sharp]
 submodule = "extensions/monokai-sharp"
-version = "1.0.2"
+version = "1.0.3"
 
 [monokai-vibrant-amped]
 submodule = "extensions/monokai-vibrant-amped"
@@ -3974,6 +3978,11 @@ version = "1.1.0"
 submodule = "extensions/rainbow-csv"
 version = "1.1.0"
 
+[rajzik-theme]
+submodule = "extensions/rajzik-theme"
+path = "packages/zed-theme"
+version = "1.0.3"
+
 [rapture-theme]
 submodule = "extensions/rapture-theme"
 version = "1.0.1"
@@ -4346,7 +4355,7 @@ version = "1.0.1"
 [slint]
 submodule = "extensions/slint"
 path = "editors/zed"
-version = "1.16.1"
+version = "1.17.1"
 
 [slipstream-theme]
 submodule = "extensions/slipstream-theme"
@@ -5334,6 +5343,10 @@ version = "0.1.0"
 [xml]
 submodule = "extensions/xml"
 version = "0.1.1"
+
+[xquery]
+submodule = "extensions/xquery"
+version = "0.0.1"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
