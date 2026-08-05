@@ -840,6 +840,11 @@ version = "0.3.1"
 submodule = "extensions/colorizer"
 version = "1.0.6"
 
+[colors-le]
+submodule = "extensions/colors-le"
+path = "zed"
+version = "2.2.1"
+
 [commander-gold-theme]
 submodule = "extensions/commander-gold-theme"
 version = "0.0.1"
@@ -1075,6 +1080,11 @@ version = "0.4.0"
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
 version = "0.3.0"
+
+[dates-le]
+submodule = "extensions/dates-le"
+path = "zed"
+version = "2.2.1"
 
 [day-shift]
 submodule = "extensions/day-shift"
@@ -1376,6 +1386,11 @@ version = "1.1.1"
 [env]
 submodule = "extensions/env"
 version = "0.0.2"
+
+[envsync-le]
+submodule = "extensions/envsync-le"
+path = "zed"
+version = "2.2.1"
 
 [ep-133-theme]
 submodule = "extensions/ep-133-theme"
@@ -3338,6 +3353,11 @@ version = "1.0.0"
 submodule = "extensions/nuisance"
 version = "0.0.7"
 
+[numbers-le]
+submodule = "extensions/numbers-le"
+path = "zed"
+version = "2.2.1"
+
 [numscript]
 submodule = "extensions/numscript"
 version = "0.0.1"
@@ -3604,6 +3624,11 @@ version = "0.0.1"
 submodule = "extensions/path-server-lsp"
 path = "extensions/zed"
 version = "1.4.1"
+
+[paths-le]
+submodule = "extensions/paths-le"
+path = "zed"
+version = "2.2.1"
 
 [pathy]
 submodule = "extensions/pathy"
@@ -4032,6 +4057,11 @@ version = "0.2.0"
 submodule = "extensions/regedit"
 version = "0.0.1"
 
+[regex-le]
+submodule = "extensions/regex-le"
+path = "zed"
+version = "2.2.1"
+
 [regex-theme]
 submodule = "extensions/regex-theme"
 version = "0.11.11"
@@ -4215,9 +4245,19 @@ version = "0.0.6"
 submodule = "extensions/scls"
 version = "0.0.1"
 
+[scrape-le]
+submodule = "extensions/scrape-le"
+path = "zed"
+version = "2.2.1"
+
 [scss]
 submodule = "extensions/scss"
 version = "0.2.1"
+
+[secrets-le]
+submodule = "extensions/secrets-le"
+path = "zed"
+version = "2.2.1"
 
 [selene-abyss-theme]
 submodule = "extensions/selene-abyss-theme"
@@ -4522,6 +4562,11 @@ version = "0.2.0"
 [strace]
 submodule = "extensions/strace"
 version = "0.0.3"
+
+[string-le]
+submodule = "extensions/string-le"
+path = "zed"
+version = "2.2.1"
 
 [struct-theme]
 submodule = "extensions/struct-theme"
@@ -5020,6 +5065,11 @@ version = "0.1.6"
 [urdf]
 submodule = "extensions/urdf"
 version = "0.1.0"
+
+[urls-le]
+submodule = "extensions/urls-le"
+path = "zed"
+version = "2.2.1"
 
 [usd]
 submodule = "extensions/usd"
