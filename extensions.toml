@@ -675,7 +675,7 @@ version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.2.23"
+version = "0.2.24"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -3966,6 +3966,10 @@ version = "0.2.5"
 submodule = "extensions/racket"
 version = "0.1.1"
 
+[radical-reborn-theme]
+submodule = "extensions/radical-reborn-theme"
+version = "0.1.1"
+
 [railgun]
 submodule = "extensions/railgun"
 version = "1.0.1"
@@ -4339,6 +4343,11 @@ version = "0.1.0"
 submodule = "extensions/skill-language-server"
 path = "ext/zed"
 version = "0.0.1"
+
+[skript]
+submodule = "extensions/skript"
+path = "extension"
+version = "0.2.3"
 
 [sl4y-theme]
 submodule = "extensions/sl4y-theme"
