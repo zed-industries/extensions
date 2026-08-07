@@ -386,6 +386,11 @@ version = "0.1.2"
 submodule = "extensions/basher"
 version = "0.0.5"
 
+[batcave-theme]
+submodule = "extensions/batcave-theme"
+path = "zed"
+version = "0.0.1"
+
 [batman]
 submodule = "extensions/batman"
 version = "0.0.3"
@@ -675,7 +680,7 @@ version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.2.23"
+version = "0.2.24"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -2111,6 +2116,10 @@ version = "1.2.0"
 [idris2]
 submodule = "extensions/idris2"
 version = "0.0.1"
+
+[ifc]
+submodule = "extensions/ifc"
+version = "0.1.0"
 
 [immigrant]
 submodule = "extensions/immigrant"
@@ -3970,6 +3979,10 @@ version = "0.2.5"
 submodule = "extensions/racket"
 version = "0.1.1"
 
+[radical-reborn-theme]
+submodule = "extensions/radical-reborn-theme"
+version = "0.1.1"
+
 [railgun]
 submodule = "extensions/railgun"
 version = "1.0.1"
@@ -4343,6 +4356,11 @@ version = "0.1.0"
 submodule = "extensions/skill-language-server"
 path = "ext/zed"
 version = "0.0.1"
+
+[skript]
+submodule = "extensions/skript"
+path = "extension"
+version = "0.2.3"
 
 [sl4y-theme]
 submodule = "extensions/sl4y-theme"
@@ -5157,6 +5175,10 @@ version = "0.0.1"
 [visual-assist-dark]
 submodule = "extensions/visual-assist-dark"
 version = "0.0.5"
+
+[visual-studio-dark-theme]
+submodule = "extensions/visual-studio-dark-theme"
+version = "0.1.0"
 
 [vitesse]
 submodule = "extensions/vitesse"
