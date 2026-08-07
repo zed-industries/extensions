@@ -675,7 +675,7 @@ version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.2.23"
+version = "0.2.24"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -2438,7 +2438,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.6.1"
+version = "0.7.1"
 
 [laravel-official]
 submodule = "extensions/laravel-official"
@@ -4343,6 +4343,11 @@ version = "0.1.0"
 submodule = "extensions/skill-language-server"
 path = "ext/zed"
 version = "0.0.1"
+
+[skript]
+submodule = "extensions/skript"
+path = "extension"
+version = "0.2.3"
 
 [sl4y-theme]
 submodule = "extensions/sl4y-theme"
