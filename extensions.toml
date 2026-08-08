@@ -591,7 +591,7 @@ version = "0.0.2"
 
 [caddyfile]
 submodule = "extensions/caddyfile"
-version = "0.0.5"
+version = "0.0.6"
 
 [cadence]
 submodule = "extensions/cadence"
@@ -967,7 +967,7 @@ version = "0.0.2"
 
 [cue]
 submodule = "extensions/cue"
-version = "0.0.4"
+version = "0.0.6"
 
 [curry]
 submodule = "extensions/curry"
@@ -2133,6 +2133,10 @@ version = "1.2.0"
 submodule = "extensions/idris2"
 version = "0.0.1"
 
+[idx-theme]
+submodule = "extensions/idx-theme"
+version = "0.1.0"
+
 [ifc]
 submodule = "extensions/ifc"
 version = "0.1.0"
@@ -2598,6 +2602,10 @@ submodule = "extensions/looped-themes"
 version = "1.0.4"
 path = "zed"
 
+[lorem-snippets]
+submodule = "extensions/lorem-snippets"
+version = "0.1.0"
+
 [lotus-theme]
 submodule = "extensions/lotus-theme"
 version = "0.1.0"
@@ -2773,7 +2781,7 @@ version = "0.1.0"
 
 [mc-dp-icons-theme]
 submodule = "extensions/mc-dp-icons-theme"
-version = "0.1.0"
+version = "0.1.1"
 
 [mcfunction]
 submodule = "extensions/mcfunction"
@@ -4159,6 +4167,10 @@ version = "0.1.2"
 submodule = "extensions/robot-framework"
 version = "0.0.1"
 
+[robots-txt]
+submodule = "extensions/robots-txt"
+version = "0.1.0"
+
 [roc]
 submodule = "extensions/roc"
 version = "0.1.2"
@@ -4246,7 +4258,7 @@ version = "2.0.0"
 
 [sagemath]
 submodule = "extensions/sagemath"
-version = "0.1.0"
+version = "0.2.0"
 
 [salesforce]
 submodule = "extensions/salesforce"
@@ -5378,6 +5390,10 @@ version = "0.1.0"
 submodule = "extensions/wikitext"
 version = "0.0.1"
 
+[windows-batch]
+submodule = "extensions/windows-batch"
+version = "0.2.0"
+
 [wit]
 submodule = "extensions/wit"
 version = "0.4.0"
@@ -5389,6 +5405,10 @@ version = "1.0.0"
 [woocommerce-snippets]
 submodule = "extensions/woocommerce-snippets"
 version = "0.1.0"
+
+[word-highlight-lsp]
+submodule = "extensions/word-highlight-lsp"
+version = "0.1.4"
 
 [wow-toc]
 submodule = "extensions/wow-toc"
@@ -5525,6 +5545,10 @@ version = "1.4.3"
 [zenburn-transparent-theme]
 submodule = "extensions/zenburn-transparent-theme"
 version = "1.0.0"
+
+[zeraphim-theme]
+submodule = "extensions/zeraphim-theme"
+version = "0.1.0"
 
 [zero-trust-theme]
 submodule = "extensions/zero-trust-theme"
