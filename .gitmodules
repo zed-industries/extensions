@@ -2138,6 +2138,10 @@
 	path = extensions/intellij-light-theme
 	url = https://github.com/chandruscm/intellij-light-theme-zed.git
 
+[submodule "extensions/intellij-lsp"]
+	path = extensions/intellij-lsp
+	url = https://github.com/hlucas13/intellij-lsp-zed.git
+
 [submodule "extensions/intellij-newui-theme"]
 	path = extensions/intellij-newui-theme
 	url = https://github.com/kpitt/zed-theme-intellij-newui.git
@@ -5489,7 +5493,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/intellij-lsp"]
-	path = extensions/intellij-lsp
-	url = https://github.com/hlucas13/intellij-lsp-zed.git
-	branch = main
