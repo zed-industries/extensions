@@ -1158,6 +1158,10 @@
 	path = extensions/django
 	url = https://github.com/joshuadavidthomas/zed-django.git
 
+[submodule "extensions/django-lsp"]
+	path = extensions/django-lsp
+	url = https://github.com/patrick91/django-lsp.git
+
 [submodule "extensions/django-snippets"]
 	path = extensions/django-snippets
 	url = https://github.com/bencres/zed-django-snippets.git
