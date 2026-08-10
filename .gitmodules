@@ -1626,6 +1626,10 @@
 	path = extensions/ghostty-dark-theme
 	url = https://github.com/davideluzi/ghostty-dark-theme.git
 
+[submodule "extensions/giossue-glass-theme"]
+	path = extensions/giossue-glass-theme
+	url = https://github.com/Giossue/glass-theme.git
+
 [submodule "extensions/git-firefly"]
 	path = extensions/git-firefly
 	url = https://github.com/d1y/git_firefly.git
@@ -1669,10 +1673,6 @@
 [submodule "extensions/gitlab-ci-ls"]
 	path = extensions/gitlab-ci-ls
 	url = https://github.com/tzabbi/zed-gitlab-ci-ls.git
-
-[submodule "extensions/glass-theme"]
-	path = extensions/glass-theme
-	url = https://github.com/Giossue/glass-theme.git
 
 [submodule "extensions/glazier"]
 	path = extensions/glazier
