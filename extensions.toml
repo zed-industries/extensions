@@ -695,6 +695,11 @@ submodule = "extensions/cem"
 path = "extensions/zed"
 version = "0.11.0"
 
+[cendre-theme]
+submodule = "extensions/cendre-theme"
+path = "extras/zed"
+version = "0.1.0"
+
 [cfengine]
 submodule = "extensions/cfengine"
 version = "1.0.5"
@@ -2166,6 +2171,10 @@ version = "0.1.0"
 submodule = "extensions/hyprlang"
 version = "0.0.5"
 
+[i18n-lens-language-server]
+submodule = "extensions/i18n-lens-language-server"
+version = "0.11.1"
+
 [ibm-5151]
 submodule = "extensions/ibm-5151"
 version = "1.0.0"
@@ -2731,6 +2740,10 @@ version = "0.4.2"
 submodule = "extensions/macos-classic"
 version = "0.4.0"
 
+[macos-prism-theme]
+submodule = "extensions/macos-prism-theme"
+version = "0.0.1"
+
 [magento2-snippets]
 submodule = "extensions/magento2-snippets"
 version = "0.1.0"
@@ -3157,7 +3170,7 @@ version = "0.1.0"
 [monochromator-theme]
 submodule = "extensions/monochromator-theme"
 path = "editors/zed"
-version = "0.2.2"
+version = "0.3.0"
 
 [monokai-nebula]
 submodule = "extensions/monokai-nebula"
@@ -3812,6 +3825,10 @@ version = "1.0.0"
 submodule = "extensions/phine-theme"
 version = "0.0.1"
 
+[phoenix-pulse-theme]
+submodule = "extensions/phoenix-pulse-theme"
+version = "0.1.0"
+
 [phosphor-icons-theme]
 submodule = "extensions/phosphor-icons-theme"
 version = "0.1.0"
@@ -3930,6 +3947,10 @@ version = "0.0.1"
 submodule = "extensions/polar-theme"
 version = "0.8.1"
 
+[polaris-theme]
+submodule = "extensions/polaris-theme"
+version = "0.1.0"
+
 [pollinations-mcp]
 submodule = "extensions/pollinations-mcp"
 version = "1.0.13"
@@ -4002,6 +4023,10 @@ version = "0.0.2"
 submodule = "extensions/zed"
 path = "extensions/proto"
 version = "0.3.2"
+
+[pruple-theme]
+submodule = "extensions/pruple-theme"
+version = "0.0.1"
 
 [psalm]
 submodule = "extensions/psalm"
@@ -4365,6 +4390,11 @@ version = "0.2.0"
 submodule = "extensions/salesforce"
 version = "0.0.4"
 
+[santi020k-theme]
+submodule = "extensions/santi020k-theme"
+path = "packages/santi020k-zed-theme"
+version = "1.0.0"
+
 [scala]
 submodule = "extensions/scala"
 version = "0.2.3"
@@ -4384,6 +4414,10 @@ version = "0.0.1"
 [scss]
 submodule = "extensions/scss"
 version = "0.2.1"
+
+[seaglass-theme]
+submodule = "extensions/seaglass-theme"
+version = "0.1.0"
 
 [selene-abyss-theme]
 submodule = "extensions/selene-abyss-theme"
@@ -5358,6 +5392,10 @@ version = "1.0.0"
 [vivid-void-theme]
 submodule = "extensions/vivid-void-theme"
 version = "0.0.1"
+
+[voidline-theme]
+submodule = "extensions/voidline-theme"
+version = "0.1.1"
 
 [vrl]
 submodule = "extensions/vrl"
