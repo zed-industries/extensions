@@ -455,6 +455,11 @@ version = "0.1.0"
 submodule = "extensions/bitbake"
 version = "0.0.4"
 
+[black-frieza-theme]
+submodule = "extensions/black-frieza-theme"
+path = "zed/black-frieza"
+version = "1.1.0"
+
 [blackfox]
 submodule = "extensions/blackfox"
 version = "0.4.0"
@@ -863,7 +868,7 @@ version = "0.0.1"
 
 [comment]
 submodule = "extensions/comment"
-version = "0.6.6"
+version = "0.6.8"
 
 [comment-block-snippets]
 submodule = "extensions/comment-block-snippets"
@@ -871,7 +876,7 @@ version = "1.0.4"
 
 [comphy-crisp-themes]
 submodule = "extensions/comphy-crisp-themes"
-version = "1.0.1"
+version = "1.1.0"
 
 [compline]
 submodule = "extensions/compline"
@@ -1303,6 +1308,10 @@ version = "0.1.0"
 
 [edusites-theme]
 submodule = "extensions/edusites-theme"
+version = "1.0.0"
+
+[efa-dark-theme]
+submodule = "extensions/efa-dark-theme"
 version = "1.0.0"
 
 [effect-language-service-tsgo]
@@ -2197,6 +2206,10 @@ version = "0.0.2"
 submodule = "extensions/inko"
 version = "0.0.1"
 
+[inlang-language-server]
+submodule = "extensions/inlang-language-server"
+version = "0.0.1"
+
 [intellij-light-theme]
 submodule = "extensions/intellij-light-theme"
 version = "0.1.0"
@@ -2456,6 +2469,10 @@ version = "0.0.1"
 [kokedera-icons]
 submodule = "extensions/kokedera-icons"
 version = "1.1.0"
+
+[kokedera-light-theme]
+submodule = "extensions/kokedera-light-theme"
+version = "0.0.1"
 
 [kokedera-theme]
 submodule = "extensions/kokedera-theme"
@@ -2744,7 +2761,7 @@ version = "0.0.5"
 
 [markdown-snippets]
 submodule = "extensions/markdown-snippets"
-version = "0.0.8"
+version = "0.1.0"
 
 [markdownlint]
 submodule = "extensions/markdownlint"
@@ -3614,7 +3631,7 @@ version = "0.2.0"
 
 [oso]
 submodule = "extensions/oso"
-version = "0.2.0"
+version = "1.0.0"
 
 [outrun]
 submodule = "extensions/outrun"
@@ -4438,7 +4455,8 @@ version = "0.0.1"
 
 [simple-light-theme]
 submodule = "extensions/simple-light-theme"
-version = "0.4.0"
+path = "zed"
+version = "0.5.0"
 
 [simula]
 submodule = "extensions/simula"
