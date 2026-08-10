@@ -446,6 +446,10 @@
 	path = extensions/bitbake
 	url = https://github.com/anikinmd/zed_bitbake.git
 
+[submodule "extensions/black-frieza-theme"]
+	path = extensions/black-frieza-theme
+	url = https://github.com/dylandifilippo/black-frieza.git
+
 [submodule "extensions/blackfox"]
 	path = extensions/blackfox
 	url = https://github.com/matejcerny/BlackFoxZed.git
@@ -1281,6 +1285,10 @@
 [submodule "extensions/edusites-theme"]
 	path = extensions/edusites-theme
 	url = https://github.com/eduardolecdt/edusites-theme-zed.git
+
+[submodule "extensions/efa-dark-theme"]
+	path = extensions/efa-dark-theme
+	url = https://github.com/valyefimov/zed-theme-efa-dark.git
 
 [submodule "extensions/effect-language-service-tsgo"]
 	path = extensions/effect-language-service-tsgo
