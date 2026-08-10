@@ -513,6 +513,10 @@ path = "extensions/zed"
 submodule = "extensions/blueberry-banana-theme"
 version = "0.1.0"
 
+[blueberry-night-theme]
+submodule = "extensions/blueberry-night-theme"
+version = "1.0.0"
+
 [blueforest-theme]
 submodule = "extensions/blueforest-theme"
 version = "1.0.0"
@@ -620,6 +624,10 @@ version = "0.0.1"
 
 [capnp]
 submodule = "extensions/capnp"
+version = "0.0.1"
+
+[carbon-theme]
+submodule = "extensions/carbon-theme"
 version = "0.0.1"
 
 [carbonember]
@@ -895,6 +903,10 @@ version = "2.0.1"
 submodule = "extensions/cooklang"
 version = "1.3.3"
 
+[coolnight-theme]
+submodule = "extensions/coolnight-theme"
+version = "0.1.0"
+
 [corn]
 submodule = "extensions/corn"
 version = "0.1.0"
@@ -905,7 +917,7 @@ version = "0.0.1"
 
 [coverage-lsp]
 submodule = "extensions/coverage-lsp"
-version = "1.0.1"
+version = "1.0.3"
 path = "zed-coverage-lsp"
 
 [cpp2]
@@ -1065,6 +1077,10 @@ version = "0.0.4"
 [dark-discord]
 submodule = "extensions/dark-discord"
 version = "2.0.0"
+
+[dark-foundry-theme]
+submodule = "extensions/dark-foundry-theme"
+version = "0.0.1"
 
 [dark-glass-theme]
 submodule = "extensions/dark-glass-theme"
@@ -1423,6 +1439,10 @@ version = "0.1.0"
 submodule = "extensions/erlang"
 version = "0.3.0"
 
+[erlang-qol-snippets]
+submodule = "extensions/erlang-qol-snippets"
+version = "0.1.0"
+
 [esmerald-theme]
 submodule = "extensions/esmerald-theme"
 version = "0.1.2"
@@ -1533,6 +1553,10 @@ version = "0.1.1"
 [firebase-security-rules]
 submodule = "extensions/firebase-security-rules"
 version = "0.1.1"
+
+[firefox-quantum-theme]
+submodule = "extensions/firefox-quantum-theme"
+version = "1.0.2"
 
 [firrtl-source-locator]
 submodule = "extensions/firrtl-source-locator"
@@ -1745,6 +1769,10 @@ version = "0.3.2"
 [ghostty-dark-theme]
 submodule = "extensions/ghostty-dark-theme"
 version = "0.1.0"
+
+[giossue-glass-theme]
+submodule = "extensions/giossue-glass-theme"
+version = "0.0.1"
 
 [git-firefly]
 submodule = "extensions/git-firefly"
@@ -2617,6 +2645,10 @@ version = "0.1.0"
 [llvm-ir]
 submodule = "extensions/llvm-ir"
 version = "0.1.1"
+
+[lndpnr-theme]
+submodule = "extensions/lndpnr-theme"
+version = "0.0.1"
 
 [log]
 submodule = "extensions/log"
@@ -4492,6 +4524,10 @@ version = "0.1.1"
 submodule = "extensions/slate"
 version = "0.0.3"
 
+[slate-ui-theme]
+submodule = "extensions/slate-ui-theme"
+version = "0.0.1"
+
 [slim]
 submodule = "extensions/slim"
 version = "1.0.1"
@@ -4588,7 +4624,8 @@ version = "0.0.7"
 
 [sora-theme]
 submodule = "extensions/sora-theme"
-version = "0.1.0"
+path = "extras/zed"
+version = "0.1.1"
 
 [sorbet]
 submodule = "extensions/sorbet"
