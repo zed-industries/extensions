@@ -4742,6 +4742,10 @@
 	path = extensions/tsrx
 	url = https://github.com/Ripple-TS/ripple.git
 
+[submodule "extensions/turbo-log-snippets"]
+	path = extensions/turbo-log-snippets
+	url = https://github.com/devgauravjatt/turbo-log-snippets
+
 [submodule "extensions/turtle"]
 	path = extensions/turtle
 	url = https://github.com/MoskitoHero/zed-turtle.git
@@ -5333,6 +5337,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/turbo-log-snippets"]
-	path = extensions/turbo-log-snippets
-	url = https://github.com/devgauravjatt/turbo-log-snippets
