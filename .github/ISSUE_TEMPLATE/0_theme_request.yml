@@ -1,0 +1,17 @@
+name: Theme Request
+description: Request a theme extension
+title: "<name_of_theme>"
+labels: ["theme"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Check for existing issues
+      description: Check the backlog of issues to reduce the chances of creating duplicates; if an issue already exists, place a `+1` (👍) on it.
+      options:
+        - label: Completed
+          required: true
+  - type: textarea
+    attributes:
+      label: Misc notes
+    validations:
+      required: false
