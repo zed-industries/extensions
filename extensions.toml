@@ -655,6 +655,10 @@ version = "0.2.0"
 submodule = "extensions/cargo-tom"
 version = "0.4.1"
 
+[carve]
+submodule = "extensions/carve"
+version = "0.1.0"
+
 [cassette-futurism-theme]
 submodule = "extensions/cassette-futurism-theme"
 version = "0.0.1"
@@ -4391,6 +4395,10 @@ version = "0.0.4"
 submodule = "extensions/rust-workflow-snippets"
 version = "0.1.0"
 
+[rux]
+submodule = "extensions/rux"
+version = "0.1.0"
+
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
 version = "2.0.0"
@@ -4681,6 +4689,10 @@ version = "0.1.1"
 [sorbet]
 submodule = "extensions/sorbet"
 version = "0.1.1"
+
+[souffle]
+submodule = "extensions/souffle"
+version = "0.1.0"
 
 [sourcepawn]
 submodule = "extensions/sourcepawn"
@@ -5144,6 +5156,10 @@ version = "1.1.0"
 submodule = "extensions/tsrx"
 path = "packages/zed-plugin"
 version = "0.0.84"
+
+[turbo-log-snippets]
+submodule = "extensions/turbo-log-snippets"
+version = "0.1.0"
 
 [turtle]
 submodule = "extensions/turtle"
