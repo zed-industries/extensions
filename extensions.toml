@@ -73,7 +73,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.17.0"
+version = "0.48.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -222,6 +222,11 @@ version = "0.3.0"
 [ars-goetia-theme]
 submodule = "extensions/ars-goetia-theme"
 version = "0.0.1"
+
+[artisan-theme]
+submodule = "extensions/artisan-theme"
+path = "zed"
+version = "0.4.0"
 
 [arturo]
 submodule = "extensions/arturo"
@@ -4113,6 +4118,10 @@ version = "0.0.2"
 submodule = "extensions/quantum-theme"
 version = "1.0.0"
 
+[quarkdown]
+submodule = "extensions/quarkdown"
+version = "0.1.0"
+
 [quarto]
 submodule = "extensions/quarto"
 version = "0.0.1"
@@ -4467,6 +4476,10 @@ version = "1.0.0"
 submodule = "extensions/seti-icons"
 version = "0.0.1"
 
+[setinox-theme]
+submodule = "extensions/setinox-theme"
+version = "0.2.0"
+
 [severance-theme]
 submodule = "extensions/severance-theme"
 version = "0.1.1"
@@ -4744,6 +4757,10 @@ version = "0.0.1"
 
 [structured-text]
 submodule = "extensions/structured-text"
+version = "0.0.1"
+
+[structurizr]
+submodule = "extensions/structurizr"
 version = "0.0.1"
 
 [stylelint]
