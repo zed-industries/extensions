@@ -73,7 +73,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.17.0"
+version = "0.48.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -222,6 +222,11 @@ version = "0.3.0"
 [ars-goetia-theme]
 submodule = "extensions/ars-goetia-theme"
 version = "0.0.1"
+
+[artisan-theme]
+submodule = "extensions/artisan-theme"
+path = "zed"
+version = "0.4.0"
 
 [arturo]
 submodule = "extensions/arturo"
@@ -649,6 +654,10 @@ version = "0.2.0"
 [cargo-tom]
 submodule = "extensions/cargo-tom"
 version = "0.4.1"
+
+[carve]
+submodule = "extensions/carve"
+version = "0.1.0"
 
 [cassette-futurism-theme]
 submodule = "extensions/cassette-futurism-theme"
@@ -2760,6 +2769,10 @@ version = "0.1.1"
 submodule = "extensions/make"
 version = "1.1.2"
 
+[makinda-themes]
+submodule = "extensions/makinda-themes"
+version = "1.0.4"
+
 [mako]
 submodule = "extensions/mako"
 version = "0.0.3"
@@ -3751,6 +3764,10 @@ version = "1.0.2"
 submodule = "extensions/pascal"
 version = "0.1.0"
 
+[pastel-night-theme]
+submodule = "extensions/pastel-night-theme"
+version = "0.3.0"
+
 [path-of-exile]
 submodule = "extensions/path-of-exile"
 version = "0.0.1"
@@ -4113,6 +4130,10 @@ version = "0.0.2"
 submodule = "extensions/quantum-theme"
 version = "1.0.0"
 
+[quarkdown]
+submodule = "extensions/quarkdown"
+version = "0.1.0"
+
 [quarto]
 submodule = "extensions/quarto"
 version = "0.0.1"
@@ -4378,6 +4399,10 @@ version = "0.0.4"
 submodule = "extensions/rust-workflow-snippets"
 version = "0.1.0"
 
+[rux]
+submodule = "extensions/rux"
+version = "0.1.0"
+
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
 version = "2.0.0"
@@ -4466,6 +4491,10 @@ version = "1.0.0"
 [seti-icons]
 submodule = "extensions/seti-icons"
 version = "0.0.1"
+
+[setinox-theme]
+submodule = "extensions/setinox-theme"
+version = "0.2.0"
 
 [severance-theme]
 submodule = "extensions/severance-theme"
@@ -4667,6 +4696,10 @@ version = "0.1.1"
 submodule = "extensions/sorbet"
 version = "0.1.1"
 
+[souffle]
+submodule = "extensions/souffle"
+version = "0.1.0"
+
 [sourcepawn]
 submodule = "extensions/sourcepawn"
 version = "0.0.1"
@@ -4746,6 +4779,10 @@ version = "0.0.1"
 
 [structured-text]
 submodule = "extensions/structured-text"
+version = "0.0.1"
+
+[structurizr]
+submodule = "extensions/structurizr"
 version = "0.0.1"
 
 [stylelint]
@@ -5125,6 +5162,10 @@ version = "1.1.0"
 submodule = "extensions/tsrx"
 path = "packages/zed-plugin"
 version = "0.0.84"
+
+[turbo-log-snippets]
+submodule = "extensions/turbo-log-snippets"
+version = "0.1.0"
 
 [turtle]
 submodule = "extensions/turtle"
