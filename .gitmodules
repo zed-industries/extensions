@@ -2366,6 +2366,10 @@
 	path = extensions/jq
 	url = https://github.com/dangh/zed-jq.git
 
+[submodule "extensions/json-to-csv-converter"]
+	path = extensions/json-to-csv-converter
+	url = https://github.com/dancvv/json-to-csv-converter.git
+
 [submodule "extensions/json-tool-lsp"]
 	path = extensions/json-tool-lsp
 	url = https://github.com/xgfone/zed-json-tool.git
