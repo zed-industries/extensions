@@ -5040,6 +5040,11 @@ version = "1.0.0"
 submodule = "extensions/terrible-theme"
 version = "0.0.3"
 
+[test-coverage-highlight-lsp]
+submodule = "extensions/test-coverage-highlight-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [tex-japanese-formatter]
 submodule = "extensions/tex-japanese-formatter"
 version = "1.0.0"
