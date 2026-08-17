@@ -442,6 +442,10 @@
 	path = extensions/bicep
 	url = https://github.com/oWretch/zed-extension-bicep.git
 
+[submodule "extensions/bio-pype-lsp"]
+	path = extensions/bio-pype-lsp
+	url = https://codeberg.org/bio-pype/zed-bio-pype-lsp.git
+
 [submodule "extensions/biome"]
 	path = extensions/biome
 	url = https://github.com/biomejs/biome-zed.git
