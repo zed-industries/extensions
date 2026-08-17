@@ -2660,7 +2660,7 @@ version = "0.0.1"
 
 [lilypond]
 submodule = "extensions/lilypond"
-version = "0.1.0"
+version = "0.1.1"
 
 [lini]
 submodule = "extensions/lini"
@@ -3221,6 +3221,10 @@ version = "0.1.9"
 [modus-themes]
 submodule = "extensions/modus-themes"
 version = "0.2.1"
+
+[mojo]
+submodule = "extensions/mojo"
+version = "0.0.1"
 
 [molten-theme]
 submodule = "extensions/molten-theme"
@@ -4845,6 +4849,11 @@ version = "3.0.0"
 submodule = "extensions/styx"
 path = "editors/zed-styx"
 version = "0.1.0"
+
+[suannhai-theme]
+submodule = "extensions/suannhai-theme"
+path = "suannhai-zed"
+version = "0.2.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
