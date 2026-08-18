@@ -3100,6 +3100,11 @@ version = "0.0.2"
 submodule = "extensions/mcp-server-threadbridge"
 version = "0.2.1"
 
+[mcp-server-upstash]
+submodule = "extensions/mcp-server-upstash"
+path = "zed-extension"
+version = "0.1.0"
+
 [mcp-server-webflow]
 submodule = "extensions/mcp-server-webflow"
 version = "0.1.0"
