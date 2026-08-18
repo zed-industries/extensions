@@ -1000,6 +1000,11 @@ submodule = "extensions/css-modules-kit"
 version = "0.1.1"
 path = "crates/zed"
 
+[css-var-kit]
+submodule = "extensions/css-var-kit"
+version = "0.4.0"
+path = "crates/zed-extension"
+
 [css-variables]
 submodule = "extensions/css-variables"
 version = "0.1.1"
