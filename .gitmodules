@@ -5510,6 +5510,10 @@
 	path = extensions/wat
 	url = https://github.com/g-plane/zed-wasm.git
 
+[submodule "extensions/wavespeed-mcp"]
+	path = extensions/wavespeed-mcp
+	url = https://github.com/WaveSpeedAI/wavespeed-mcp-zed.git
+
 [submodule "extensions/wc-language-server"]
 	path = extensions/wc-language-server
 	url = https://github.com/wc-toolkit/wc-language-server.git
@@ -5749,6 +5753,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/wavespeed-mcp"]
-	path = extensions/wavespeed-mcp
-	url = https://github.com/WaveSpeedAI/wavespeed-mcp-zed.git
