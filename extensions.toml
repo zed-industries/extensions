@@ -314,6 +314,11 @@ version = "0.0.1"
 submodule = "extensions/authzed"
 version = "0.0.2"
 
+[auto-commit]
+submodule = "extensions/auto-commit"
+path = "extension"
+version = "0.1.0"
+
 [auto-file-header]
 submodule = "extensions/auto-file-header"
 version = "0.3.0"
