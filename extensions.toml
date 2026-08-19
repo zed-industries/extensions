@@ -1,3 +1,7 @@
+[0-protan-prism-theme]
+submodule = "extensions/0-protan-prism-theme"
+version = "0.1.0"
+
 [0x96f]
 submodule = "extensions/0x96f"
 version = "1.3.6"
@@ -9,6 +13,10 @@ version = "0.0.1"
 [1984-theme]
 submodule = "extensions/1984-theme"
 version = "0.1.3"
+
+[8008-theme]
+submodule = "extensions/8008-theme"
+version = "0.0.3"
 
 [a-distant-hope-theme]
 submodule = "extensions/a-distant-hope-theme"
@@ -715,7 +723,7 @@ version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.2.24"
+version = "0.2.25"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -764,6 +772,10 @@ version = "0.0.2"
 [chrome-devtools-mcp]
 submodule = "extensions/chrome-devtools-mcp"
 version = "1.0.2"
+
+[cinder-theme]
+submodule = "extensions/cinder-theme"
+version = "0.1.0"
 
 [cinnamonwine-theme]
 submodule = "extensions/cinnamonwine-theme"
@@ -834,6 +846,11 @@ version = "0.0.5"
 [code-stats]
 submodule = "extensions/code-stats"
 version = "0.3.0"
+
+[code-translate-lsp]
+submodule = "extensions/code-translate-lsp"
+path = "extensions/code-translate"
+version = "0.1.0"
 
 [codebabel-ztheme-dark]
 submodule = "extensions/codebabel-ztheme-dark"
@@ -956,7 +973,7 @@ version = "0.3.0"
 
 [crystal]
 submodule = "extensions/crystal"
-version = "0.0.4"
+version = "0.0.8"
 
 [crystal-theme]
 submodule = "extensions/crystal-theme"
@@ -964,7 +981,7 @@ version = "0.0.1"
 
 [csharp]
 submodule = "extensions/csharp"
-version = "1.2.1"
+version = "1.2.2"
 
 [csharp-snippets]
 submodule = "extensions/csharp-snippets"
@@ -985,7 +1002,7 @@ path = "crates/zed"
 
 [css-variables]
 submodule = "extensions/css-variables"
-version = "0.1.0"
+version = "0.1.1"
 
 [csskit-lsp]
 submodule = "extensions/csskit-lsp"
@@ -1160,6 +1177,10 @@ version = "0.1.0"
 submodule = "extensions/deep-slate-theme"
 version = "0.1.1"
 
+[deepz-theme]
+submodule = "extensions/deepz-theme"
+version = "0.0.1"
+
 [defold]
 submodule = "extensions/defold"
 version = "0.1.4"
@@ -1179,7 +1200,7 @@ version = "1.10.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
-version = "0.1.5"
+version = "0.1.6"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -1253,7 +1274,7 @@ version = "0.1.0"
 
 [dprint]
 submodule = "extensions/dprint"
-version = "0.0.1"
+version = "0.1.0"
 
 [dracula]
 submodule = "extensions/dracula"
@@ -1351,6 +1372,10 @@ version = "1.0.0"
 [effect-language-service-tsgo]
 submodule = "extensions/effect-language-service-tsgo"
 version = "0.0.6"
+
+[eh-web-themes]
+submodule = "extensions/eh-web-themes"
+version = "1.0"
 
 [eiffel-theme]
 submodule = "extensions/eiffel-theme"
@@ -1455,7 +1480,7 @@ version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
-version = "0.3.0"
+version = "0.3.1"
 
 [erlang-qol-snippets]
 submodule = "extensions/erlang-qol-snippets"
@@ -2174,7 +2199,7 @@ version = "0.0.1"
 
 [hubbamax-theme]
 submodule = "extensions/hubbamax-theme"
-version = "0.1.0"
+version = "0.2.1"
 
 [hubl]
 submodule = "extensions/hubl"
@@ -2340,7 +2365,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.25"
+version = "6.8.26"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2609,6 +2634,10 @@ submodule = "extensions/legendary-dark-theme"
 path = "zed"
 version = "5.0.1"
 
+[leo]
+submodule = "extensions/leo"
+version = "0.0.1"
+
 [leptos]
 submodule = "extensions/leptos"
 version = "0.1.1"
@@ -2631,7 +2660,7 @@ version = "0.0.1"
 
 [lilypond]
 submodule = "extensions/lilypond"
-version = "0.1.0"
+version = "0.1.1"
 
 [lini]
 submodule = "extensions/lini"
@@ -2771,6 +2800,11 @@ version = "0.0.1"
 
 [magento2-snippets]
 submodule = "extensions/magento2-snippets"
+version = "0.1.0"
+
+[magequery-lsp]
+submodule = "extensions/magequery-lsp"
+path = "editors/zed"
 version = "0.1.0"
 
 [maho-lsp]
@@ -3105,7 +3139,7 @@ version = "0.1.0"
 
 [meson]
 submodule = "extensions/meson"
-version = "0.6.0"
+version = "0.7.0"
 
 [metal]
 submodule = "extensions/metal"
@@ -3188,6 +3222,10 @@ version = "0.1.9"
 submodule = "extensions/modus-themes"
 version = "0.2.1"
 
+[mojo]
+submodule = "extensions/mojo"
+version = "0.0.1"
+
 [molten-theme]
 submodule = "extensions/molten-theme"
 version = "1.0.0"
@@ -3239,7 +3277,7 @@ version = "0.0.4"
 
 [monosami]
 submodule = "extensions/monosami"
-version = "0.1.3"
+version = "0.2.0"
 
 [monospace-icon-theme]
 submodule = "extensions/monospace-icon-theme"
@@ -3520,7 +3558,7 @@ version = "0.0.7"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.10.3"
+version = "0.10.4"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -3556,7 +3594,7 @@ version = "0.0.1"
 
 [ocaml]
 submodule = "extensions/ocaml"
-version = "0.4.0"
+version = "0.4.1"
 
 [ocean-dark-motifs]
 submodule = "extensions/ocean-dark-motifs"
@@ -3576,7 +3614,7 @@ version = "1.0.1"
 
 [odin]
 submodule = "extensions/odin"
-version = "0.3.15"
+version = "0.3.16"
 
 [odoo]
 submodule = "extensions/odoo"
@@ -4397,7 +4435,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.14"
+version = "0.16.15"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -4712,7 +4750,7 @@ version = "0.0.7"
 [sora-theme]
 submodule = "extensions/sora-theme"
 path = "extras/zed"
-version = "0.1.1"
+version = "0.1.2"
 
 [sorbet]
 submodule = "extensions/sorbet"
@@ -4815,6 +4853,11 @@ version = "3.0.0"
 submodule = "extensions/styx"
 path = "editors/zed-styx"
 version = "0.1.0"
+
+[suannhai-theme]
+submodule = "extensions/suannhai-theme"
+path = "suannhai-zed"
+version = "0.2.0"
 
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
@@ -5028,6 +5071,11 @@ version = "1.0.0"
 submodule = "extensions/terrible-theme"
 version = "0.0.3"
 
+[test-coverage-highlight-lsp]
+submodule = "extensions/test-coverage-highlight-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [tex-japanese-formatter]
 submodule = "extensions/tex-japanese-formatter"
 version = "1.0.0"
@@ -5174,7 +5222,7 @@ version = "0.1.1"
 
 [tsar]
 submodule = "extensions/tsar"
-version = "0.0.2"
+version = "0.1.0"
 
 [tsarcasm]
 submodule = "extensions/tsarcasm"
@@ -5187,7 +5235,7 @@ version = "1.1.0"
 [tsrx]
 submodule = "extensions/tsrx"
 path = "packages/zed-plugin"
-version = "0.0.84"
+version = "0.0.86"
 
 [turbo-log-snippets]
 submodule = "extensions/turbo-log-snippets"
@@ -5594,7 +5642,7 @@ version = "0.0.1"
 
 [wgsl-wesl]
 submodule = "extensions/wgsl-wesl"
-version = "0.0.2"
+version = "0.0.3"
 
 [whkd]
 submodule = "extensions/whkd"
