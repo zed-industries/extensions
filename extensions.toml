@@ -389,7 +389,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.225.0"
+version = "0.226.1"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -2703,7 +2703,7 @@ version = "0.0.4"
 
 [livetennis-mcp]
 submodule = "extensions/livetennis-mcp"
-version = "0.1.0"
+version = "0.2.0"
 
 [llvm-ir]
 submodule = "extensions/llvm-ir"
@@ -4455,7 +4455,7 @@ version = "1.0.3"
 
 [rust-snippets]
 submodule = "extensions/rust-snippets"
-version = "0.0.4"
+version = "0.1.0"
 
 [rust-workflow-snippets]
 submodule = "extensions/rust-workflow-snippets"
@@ -4596,7 +4596,8 @@ version = "0.0.2"
 
 [short-giraffe-theme]
 submodule = "extensions/short-giraffe-theme"
-version = "2.2.1"
+path = "zed"
+version = "2.5.1"
 
 [sieve]
 submodule = "extensions/sieve"
@@ -4939,7 +4940,7 @@ version = "0.1.1"
 
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
-version = "0.0.9"
+version = "0.1.0"
 
 [sway]
 submodule = "extensions/sway"
