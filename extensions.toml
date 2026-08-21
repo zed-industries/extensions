@@ -1193,6 +1193,11 @@ version = "0.0.2"
 submodule = "extensions/deno"
 version = "0.1.2"
 
+[dep-beacon]
+submodule = "extensions/dep-beacon"
+path = "extensions/dep-beacon"
+version = "1.1.1"
+
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
