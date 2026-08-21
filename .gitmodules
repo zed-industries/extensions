@@ -2150,6 +2150,10 @@
 	path = extensions/http
 	url = https://github.com/tie304/zed-http.git
 
+[submodule "extensions/http-request-client"]
+	path = extensions/http-request-client
+	url = https://github.com/feapps/zed-api-client.git
+
 [submodule "extensions/hubbamax-theme"]
 	path = extensions/hubbamax-theme
 	url = https://github.com/agrippa1027/zed-hubbamax.git
