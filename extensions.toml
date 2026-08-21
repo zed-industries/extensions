@@ -1200,7 +1200,7 @@ version = "1.10.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
-version = "0.1.6"
+version = "0.1.7"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -4731,6 +4731,10 @@ version = "0.1.0"
 [solidity]
 submodule = "extensions/solidity"
 version = "0.2.0"
+
+[solitude-theme]
+submodule = "extensions/solitude-theme"
+version = "0.1.0"
 
 [soma]
 submodule = "extensions/soma"
