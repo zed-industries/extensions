@@ -1,0 +1,27 @@
+name: Infisical Connection Check
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  verify:
+    name: Verify Infisical OIDC
+    runs-on: ubuntu-latest
+    steps:
+      - name: Authenticate and fetch development secrets
+        uses: Infisical/secrets-action@v1.0.16
+        with:
+          method: oidc
+          identity-id: ${{ vars.INFISICAL_IDENTITY_ID }}
+          project-slug: ${{ vars.INFISICAL_PROJECT_SLUG }}
+          env-slug: dev
+          secret-path: /
+          recursive: true
+
+      - name: Confirm connection
+        run: echo "Infisical OIDC authentication completed successfully."
+
