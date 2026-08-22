@@ -2443,6 +2443,11 @@ version = "0.1.0"
 submodule = "extensions/jq"
 version = "0.0.2"
 
+[json-to-csv-converter]
+submodule = "extensions/json-to-csv-converter"
+path = "packages/zed"
+version = "0.4.0"
+
 [json-tool-lsp]
 submodule = "extensions/json-tool-lsp"
 version = "0.0.3"
