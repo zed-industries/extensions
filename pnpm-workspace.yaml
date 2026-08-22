@@ -1,6 +1,10 @@
 packages:
   - "."
 
+minimumReleaseAge: 10080
+blockExoticSubdeps: true
+trustPolicy: no-downgrade
+
 allowBuilds:
   core-js: true
   esbuild: true
