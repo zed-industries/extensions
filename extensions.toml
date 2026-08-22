@@ -3339,6 +3339,11 @@ version = "0.1.0"
 submodule = "extensions/napalm"
 version = "0.1.0"
 
+[napi-vm]
+submodule = "extensions/napi-vm"
+path = "zed-extension"
+version = "0.1.2"
+
 [nautilus]
 submodule = "extensions/nautilus"
 version = "0.1.0"
