@@ -4854,6 +4854,11 @@ version = "0.0.1"
 submodule = "extensions/stylelint"
 version = "3.0.0"
 
+[stylus]
+submodule = "extensions/stylus"
+path = "editors/zed"
+version = "0.6.0"
+
 [styx]
 submodule = "extensions/styx"
 path = "editors/zed-styx"
