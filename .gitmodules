@@ -850,6 +850,10 @@
 	path = extensions/codeowners
 	url = https://github.com/lukasmalkmus/codeowners-zed.git
 
+[submodule "extensions/codeql"]
+	path = extensions/codeql
+	url = https://github.com/Fruit-Guardians/codeql-zed.git
+
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
 	url = https://github.com/MartinRybergLaude/zed-theme-codesandbox.git
