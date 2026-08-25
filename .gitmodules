@@ -598,6 +598,10 @@
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
 
+[submodule "extensions/caatinga"]
+	path = extensions/caatinga
+	url = https://github.com/meluiz/caatinga.git
+
 [submodule "extensions/caddyfile"]
 	path = extensions/caddyfile
 	url = https://github.com/nusnewob/caddyfile-zed.git
@@ -5757,7 +5761,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-
-[submodule "extensions/caatinga"]
-	path = extensions/caatinga
-	url = https://github.com/meluiz/caatinga.git
