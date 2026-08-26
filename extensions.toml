@@ -383,6 +383,11 @@ submodule = "extensions/babel-lsp"
 path = "editors/zed"
 version = "0.1.1"
 
+[badness-language-server]
+submodule = "extensions/badness-language-server"
+path = "editors/zed"
+version = "0.1.0"
+
 [bamboo-theme]
 submodule = "extensions/bamboo-theme"
 version = "0.1.0"
