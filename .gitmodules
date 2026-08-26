@@ -2430,6 +2430,11 @@
 	path = extensions/just
 	url = https://github.com/jackTabsCode/zed-just.git
 
+[submodule "extensions/jynxio-umbra"]
+	path = extensions/jynxio-umbra
+	url = https://github.com/jynxio/umbra.git
+	branch = main
+
 [submodule "extensions/k8s-crd-lsp"]
 	path = extensions/k8s-crd-lsp
 	url = https://github.com/decade-eng/k8s-crd-lsp-zed.git

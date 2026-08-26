@@ -2480,6 +2480,11 @@ version = "0.1.10"
 submodule = "extensions/just"
 version = "0.2.0"
 
+[jynxio-umbra]
+submodule = "extensions/jynxio-umbra"
+path = "zed"
+version = "1.0.0"
+
 [k8s-crd-lsp]
 submodule = "extensions/k8s-crd-lsp"
 version = "0.0.1"
