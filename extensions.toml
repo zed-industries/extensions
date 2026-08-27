@@ -1200,7 +1200,7 @@ version = "1.10.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
-version = "0.1.6"
+version = "0.1.7"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -1254,7 +1254,7 @@ version = "0.1.0"
 
 [dockerfile]
 submodule = "extensions/dockerfile"
-version = "0.2.1"
+version = "0.3.0"
 
 [dogi]
 submodule = "extensions/dogi"
@@ -1411,7 +1411,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.6.2"
+version = "0.6.3"
 
 [elixir-hex-lens]
 submodule = "extensions/elixir-hex-lens"
@@ -2217,6 +2217,10 @@ version = "1.1.0"
 submodule = "extensions/hurl"
 version = "0.1.0"
 
+[hyperlinks-lsp]
+submodule = "extensions/hyperlinks-lsp"
+version = "0.0.4"
+
 [hyprlang]
 submodule = "extensions/hyprlang"
 version = "0.0.5"
@@ -2563,7 +2567,7 @@ version = "0.0.1"
 
 [kokedera-theme]
 submodule = "extensions/kokedera-theme"
-version = "1.0.2"
+version = "2.0.0"
 
 [kotlin]
 submodule = "extensions/kotlin"
@@ -4378,7 +4382,7 @@ version = "0.1.0"
 
 [roc]
 submodule = "extensions/roc"
-version = "0.1.2"
+version = "0.2.0"
 
 [rockide-language-server]
 submodule = "extensions/rockide-language-server"
@@ -4463,7 +4467,7 @@ version = "0.1.0"
 
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
-version = "2.0.0"
+version = "2.0.3"
 
 [sagemath]
 submodule = "extensions/sagemath"
@@ -4731,6 +4735,10 @@ version = "0.1.0"
 [solidity]
 submodule = "extensions/solidity"
 version = "0.2.0"
+
+[solitude-theme]
+submodule = "extensions/solitude-theme"
+version = "0.1.0"
 
 [soma]
 submodule = "extensions/soma"
@@ -5272,7 +5280,7 @@ version = "0.0.5"
 
 [typst]
 submodule = "extensions/typst"
-version = "0.2.1"
+version = "0.2.2"
 
 [tyranoscript]
 submodule = "extensions/tyranoscript"
