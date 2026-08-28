@@ -1178,6 +1178,10 @@
 	path = extensions/deps-language-server
 	url = https://github.com/bug-ops/deps-zed.git
 
+[submodule "extensions/depsy-lsp"]
+	path = extensions/depsy-lsp
+	url = https://github.com/mpiton/zed-depsy.git
+
 [submodule "extensions/deputy"]
 	path = extensions/deputy
 	url = https://github.com/filiptibell/deputy.git
@@ -1549,6 +1553,10 @@
 [submodule "extensions/field-lights-theme"]
 	path = extensions/field-lights-theme
 	url = https://github.com/adamsharifc/zed-field-lights
+
+[submodule "extensions/filament-theme"]
+	path = extensions/filament-theme
+	url = https://github.com/mehcode/filament.git
 
 [submodule "extensions/file-icons"]
 	path = extensions/file-icons
@@ -2045,6 +2053,10 @@
 [submodule "extensions/hc-monokai-theme"]
 	path = extensions/hc-monokai-theme
 	url = https://github.com/p404/zed-hc-monokai.git
+
+[submodule "extensions/hearth-theme"]
+	path = extensions/hearth-theme
+	url = https://github.com/ryanfurrer/hearth-theme.git
 
 [submodule "extensions/hearthcode-theme"]
 	path = extensions/hearthcode-theme
@@ -3721,6 +3733,10 @@
 [submodule "extensions/pact"]
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
+
+[submodule "extensions/pale-fire-theme"]
+	path = extensions/pale-fire-theme
+	url = https://github.com/sahmed007/pale-fire-zed.git
 
 [submodule "extensions/palenight"]
 	path = extensions/palenight

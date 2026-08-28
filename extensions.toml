@@ -1147,7 +1147,7 @@ version = "0.0.2"
 
 [dart]
 submodule = "extensions/dart"
-version = "0.4.0"
+version = "0.4.1"
 
 [datadog-mcp]
 submodule = "extensions/datadog-mcp"
@@ -1201,6 +1201,11 @@ version = "1.11.0"
 [deps-language-server]
 submodule = "extensions/deps-language-server"
 version = "0.1.8"
+
+[depsy-lsp]
+submodule = "extensions/depsy-lsp"
+path = "depsy-zed"
+version = "2.0.1"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -1580,6 +1585,10 @@ version = "0.1.1"
 [field-lights-theme]
 submodule = "extensions/field-lights-theme"
 version = "1.0.0"
+
+[filament-theme]
+submodule = "extensions/filament-theme"
+version = "0.2.0"
 
 [file-icons]
 submodule = "extensions/file-icons"
@@ -2086,6 +2095,11 @@ version = "0.1.0"
 [hc-monokai-theme]
 submodule = "extensions/hc-monokai-theme"
 version = "0.0.1"
+
+[hearth-theme]
+submodule = "extensions/hearth-theme"
+path = "zed"
+version = "0.2.0"
 
 [hearthcode-theme]
 submodule = "extensions/hearthcode-theme"
@@ -3784,6 +3798,10 @@ version = "1.1.0"
 [pact]
 submodule = "extensions/pact"
 version = "0.0.3"
+
+[pale-fire-theme]
+submodule = "extensions/pale-fire-theme"
+version = "0.1.0"
 
 [palenight]
 submodule = "extensions/palenight"
