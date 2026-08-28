@@ -1178,6 +1178,10 @@
 	path = extensions/deps-language-server
 	url = https://github.com/bug-ops/deps-zed.git
 
+[submodule "extensions/depsy-lsp"]
+	path = extensions/depsy-lsp
+	url = https://github.com/mpiton/zed-depsy.git
+
 [submodule "extensions/deputy"]
 	path = extensions/deputy
 	url = https://github.com/filiptibell/deputy.git
