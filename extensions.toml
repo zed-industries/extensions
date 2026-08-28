@@ -1202,6 +1202,11 @@ version = "1.11.0"
 submodule = "extensions/deps-language-server"
 version = "0.1.8"
 
+[depsy-lsp]
+submodule = "extensions/depsy-lsp"
+path = "depsy-zed"
+version = "2.0.1"
+
 [deputy]
 submodule = "extensions/deputy"
 path = "editors/zed"
