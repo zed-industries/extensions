@@ -2323,6 +2323,11 @@ version = "0.1.0"
 submodule = "extensions/intellij-newui-theme"
 version = "0.1.0"
 
+[intellij-server]
+submodule = "extensions/intellij-server"
+path = "extension"
+version = "0.1.0"
+
 [intl-lens]
 submodule = "extensions/intl-lens"
 path = "crates/intl-lens-extension"
