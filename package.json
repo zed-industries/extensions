@@ -1,7 +1,7 @@
 {
   "type": "module",
   "volta": {
-    "node": "24.19.0"
+    "node": "24.20.0"
   },
   "scripts": {
     "fmt": "prettier --write .",
@@ -19,7 +19,7 @@
     "semver": "7.8.5"
   },
   "devDependencies": {
-    "@tsconfig/node24": "24.0.4",
+    "@tsconfig/node24": "24.0.5",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.13.3",
     "@types/semver": "7.8.0",
@@ -27,6 +27,6 @@
     "danger-plugin-pr-hygiene": "0.7.1",
     "prettier": "3.9.6",
     "typescript": "5.9.3",
-    "vitest": "4.1.10"
+    "vitest": "4.1.11"
   }
 }
