@@ -2170,6 +2170,10 @@
 	path = extensions/hurl
 	url = https://github.com/tommy/zed-hurl
 
+[submodule "extensions/hyperlinks-lsp"]
+	path = extensions/hyperlinks-lsp
+	url = https://github.com/krawitzzZ/zed-hyperlinks.git
+
 [submodule "extensions/hyprlang"]
 	path = extensions/hyprlang
 	url = https://github.com/WhySoBad/zed-hyprlang-extension.git
@@ -4646,6 +4650,10 @@
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
 
+[submodule "extensions/solitude-theme"]
+	path = extensions/solitude-theme
+	url = https://github.com/SomeoneWithOptions/zed-solitude.git
+
 [submodule "extensions/soma"]
 	path = extensions/soma
 	url = https://github.com/SrGaabriel/zed-soma.git
@@ -5132,7 +5140,7 @@
 
 [submodule "extensions/tsrx"]
 	path = extensions/tsrx
-	url = https://github.com/Ripple-TS/ripple.git
+	url = https://github.com/tsrx-org/tsrx.git
 
 [submodule "extensions/turbo-log-snippets"]
 	path = extensions/turbo-log-snippets
