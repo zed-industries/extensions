@@ -1181,6 +1181,10 @@
 	path = extensions/deps-language-server
 	url = https://github.com/bug-ops/deps-zed.git
 
+[submodule "extensions/depsy-lsp"]
+	path = extensions/depsy-lsp
+	url = https://github.com/mpiton/zed-depsy.git
+
 [submodule "extensions/deputy"]
 	path = extensions/deputy
 	url = https://github.com/filiptibell/deputy.git
@@ -1552,6 +1556,10 @@
 [submodule "extensions/field-lights-theme"]
 	path = extensions/field-lights-theme
 	url = https://github.com/adamsharifc/zed-field-lights
+
+[submodule "extensions/filament-theme"]
+	path = extensions/filament-theme
+	url = https://github.com/mehcode/filament.git
 
 [submodule "extensions/file-icons"]
 	path = extensions/file-icons
@@ -2049,6 +2057,10 @@
 	path = extensions/hc-monokai-theme
 	url = https://github.com/p404/zed-hc-monokai.git
 
+[submodule "extensions/hearth-theme"]
+	path = extensions/hearth-theme
+	url = https://github.com/ryanfurrer/hearth-theme.git
+
 [submodule "extensions/hearthcode-theme"]
 	path = extensions/hearthcode-theme
 	url = https://github.com/hearth-code/hearthcode-zed.git
@@ -2172,6 +2184,10 @@
 [submodule "extensions/hurl"]
 	path = extensions/hurl
 	url = https://github.com/tommy/zed-hurl
+
+[submodule "extensions/hyperlinks-lsp"]
+	path = extensions/hyperlinks-lsp
+	url = https://github.com/krawitzzZ/zed-hyperlinks.git
 
 [submodule "extensions/hyprlang"]
 	path = extensions/hyprlang
@@ -3721,6 +3737,10 @@
 	path = extensions/pact
 	url = https://github.com/kadena-community/pact-zed.git
 
+[submodule "extensions/pale-fire-theme"]
+	path = extensions/pale-fire-theme
+	url = https://github.com/sahmed007/pale-fire-zed.git
+
 [submodule "extensions/palenight"]
 	path = extensions/palenight
 	url = https://github.com/alanmontgomery/palenight-zed.git
@@ -4649,6 +4669,10 @@
 	path = extensions/solidity
 	url = https://github.com/zarifpour/zed-solidity.git
 
+[submodule "extensions/solitude-theme"]
+	path = extensions/solitude-theme
+	url = https://github.com/SomeoneWithOptions/zed-solitude.git
+
 [submodule "extensions/soma"]
 	path = extensions/soma
 	url = https://github.com/SrGaabriel/zed-soma.git
@@ -5131,7 +5155,7 @@
 
 [submodule "extensions/tsrx"]
 	path = extensions/tsrx
-	url = https://github.com/Ripple-TS/ripple.git
+	url = https://github.com/tsrx-org/tsrx.git
 
 [submodule "extensions/turbo-log-snippets"]
 	path = extensions/turbo-log-snippets
