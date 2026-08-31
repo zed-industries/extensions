@@ -24,7 +24,7 @@ version = "0.1.0"
 
 [a-touch-of-lilac-theme]
 submodule = "extensions/a-touch-of-lilac-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [abysswalker-theme]
 submodule = "extensions/abysswalker-theme"
@@ -965,7 +965,7 @@ version = "0.2.0"
 
 [crimson-theme]
 submodule = "extensions/crimson-theme"
-version = "0.0.4"
+version = "0.0.5"
 
 [cron-sense-lsp]
 submodule = "extensions/cron-sense-lsp"
@@ -993,7 +993,7 @@ version = "1.3.0"
 
 [cspell]
 submodule = "extensions/cspell"
-version = "0.0.7"
+version = "0.0.8"
 
 [css-modules-kit]
 submodule = "extensions/css-modules-kit"
@@ -1205,7 +1205,7 @@ version = "0.1.8"
 [depsy-lsp]
 submodule = "extensions/depsy-lsp"
 path = "depsy-zed"
-version = "2.0.1"
+version = "2.0.2"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -2092,6 +2092,11 @@ version = "0.4.0"
 submodule = "extensions/hbuilderx-push-light"
 version = "0.1.0"
 
+[hbuilderx-soft-green-theme]
+submodule = "extensions/hbuilderx-soft-green-theme"
+path = "zed"
+version = "1.0.0"
+
 [hc-monokai-theme]
 submodule = "extensions/hc-monokai-theme"
 version = "0.0.1"
@@ -2099,7 +2104,7 @@ version = "0.0.1"
 [hearth-theme]
 submodule = "extensions/hearth-theme"
 path = "zed"
-version = "0.2.0"
+version = "0.3.0"
 
 [hearthcode-theme]
 submodule = "extensions/hearthcode-theme"
@@ -2115,7 +2120,7 @@ version = "0.0.6"
 
 [herzha-theme]
 submodule = "extensions/herzha-theme"
-version = "0.0.1"
+version = "0.1.0"
 path = "packages/zed"
 
 [hex-light-theme]
@@ -2439,7 +2444,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "1.2.1"
+version = "1.3.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -2613,7 +2618,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.7.1"
+version = "0.7.5"
 
 [laravel-official]
 submodule = "extensions/laravel-official"
@@ -2668,6 +2673,10 @@ version = "0.1.0"
 submodule = "extensions/libsql-context-server"
 version = "0.0.1"
 
+[licensr-snippets]
+submodule = "extensions/licensr-snippets"
+version = "1.0.0"
+
 [lights-out]
 submodule = "extensions/lights-out"
 version = "0.0.1"
@@ -2704,7 +2713,7 @@ version = "0.1.0"
 [lisette]
 submodule = "extensions/lisette"
 path = "editors/zed"
-version = "0.1.2"
+version = "0.1.3"
 
 [little-league-theme]
 submodule = "extensions/little-league-theme"
@@ -3133,7 +3142,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "6.0.0"
+version = "6.1.0"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -3214,7 +3223,7 @@ version = "0.2.0"
 
 [mlir-tablegen]
 submodule = "extensions/mlir-tablegen"
-version = "0.2.1"
+version = "0.6.3"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -3625,6 +3634,10 @@ version = "1.1.0"
 [oceans-of-andromeda-theme]
 submodule = "extensions/oceans-of-andromeda-theme"
 version = "1.0.1"
+
+[oddities-theme]
+submodule = "extensions/oddities-theme"
+version = "0.1.0"
 
 [odin]
 submodule = "extensions/odin"
@@ -4453,7 +4466,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.15"
+version = "0.16.17"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -4485,7 +4498,7 @@ version = "0.1.0"
 
 [s-dark-theme]
 submodule = "extensions/s-dark-theme"
-version = "2.0.5"
+version = "3.0.0"
 
 [sagemath]
 submodule = "extensions/sagemath"
@@ -4996,7 +5009,7 @@ version = "0.0.1"
 
 [synthwave]
 submodule = "extensions/synthwave"
-version = "0.0.1"
+version = "0.0.3"
 
 [synthwave-alpha-theme]
 submodule = "extensions/synthwave-alpha-theme"
@@ -5532,6 +5545,10 @@ version = "1.0.0"
 [vivid-void-theme]
 submodule = "extensions/vivid-void-theme"
 version = "0.0.1"
+
+[void-oled-theme]
+submodule = "extensions/void-oled-theme"
+version = "0.8.9"
 
 [voidline-theme]
 submodule = "extensions/voidline-theme"
