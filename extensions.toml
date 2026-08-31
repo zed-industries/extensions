@@ -1197,6 +1197,11 @@ version = "0.0.2"
 submodule = "extensions/deno"
 version = "0.1.2"
 
+[dep-beacon-lsp]
+submodule = "extensions/dep-beacon-lsp"
+path = "extensions/dep-beacon-lsp"
+version = "1.1.1"
+
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
