@@ -158,6 +158,10 @@ version = "21.1.0"
 submodule = "extensions/ansible"
 version = "1.0.0"
 
+[answer-set-programming]
+submodule = "extensions/answer-set-programming"
+version = "0.1.0"
+
 [anthracite-theme]
 submodule = "extensions/anthracite-theme"
 version = "1.0.0"
@@ -440,6 +444,10 @@ version = "1.0.0"
 submodule = "extensions/bearded-theme"
 version = "1.0.0"
 
+[beast]
+submodule = "extensions/beast"
+version = "0.1.0"
+
 [bebop-theme]
 submodule = "extensions/bebop-theme"
 version = "0.0.1"
@@ -598,6 +606,10 @@ version = "0.1.0"
 submodule = "extensions/bugstalker-dap"
 version = "0.1.0"
 path = "extension/zed"
+
+[build2]
+submodule = "extensions/build2"
+version = "0.1.0"
 
 [buisson-theme]
 submodule = "extensions/buisson-theme"
@@ -997,7 +1009,7 @@ version = "1.3.0"
 
 [cspell]
 submodule = "extensions/cspell"
-version = "0.0.7"
+version = "0.0.8"
 
 [css-modules-kit]
 submodule = "extensions/css-modules-kit"
@@ -1196,6 +1208,11 @@ version = "0.0.2"
 [deno]
 submodule = "extensions/deno"
 version = "0.1.2"
+
+[dep-beacon-lsp]
+submodule = "extensions/dep-beacon-lsp"
+path = "extensions/dep-beacon-lsp"
+version = "1.1.1"
 
 [dependi]
 submodule = "extensions/dependi"
@@ -1963,6 +1980,10 @@ version = "0.1.3"
 submodule = "extensions/green-theme"
 version = "0.0.3"
 
+[gregorio]
+submodule = "extensions/gregorio"
+version = "0.8.0"
+
 [gren]
 submodule = "extensions/gren"
 version = "0.2.0"
@@ -2096,6 +2117,11 @@ version = "0.4.0"
 submodule = "extensions/hbuilderx-push-light"
 version = "0.1.0"
 
+[hbuilderx-soft-green-theme]
+submodule = "extensions/hbuilderx-soft-green-theme"
+path = "zed"
+version = "1.0.0"
+
 [hc-monokai-theme]
 submodule = "extensions/hc-monokai-theme"
 version = "0.0.1"
@@ -2103,7 +2129,7 @@ version = "0.0.1"
 [hearth-theme]
 submodule = "extensions/hearth-theme"
 path = "zed"
-version = "0.2.0"
+version = "0.3.0"
 
 [hearthcode-theme]
 submodule = "extensions/hearthcode-theme"
@@ -2119,7 +2145,7 @@ version = "0.0.6"
 
 [herzha-theme]
 submodule = "extensions/herzha-theme"
-version = "0.0.1"
+version = "0.1.0"
 path = "packages/zed"
 
 [hex-light-theme]
@@ -2672,6 +2698,10 @@ version = "0.1.0"
 submodule = "extensions/libsql-context-server"
 version = "0.0.1"
 
+[licensr-snippets]
+submodule = "extensions/licensr-snippets"
+version = "1.0.0"
+
 [lights-out]
 submodule = "extensions/lights-out"
 version = "0.0.1"
@@ -3137,7 +3167,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "6.0.0"
+version = "6.1.0"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -3218,7 +3248,7 @@ version = "0.2.0"
 
 [mlir-tablegen]
 submodule = "extensions/mlir-tablegen"
-version = "0.2.1"
+version = "0.6.3"
 
 [mnemonic]
 submodule = "extensions/mnemonic"
@@ -3629,6 +3659,10 @@ version = "1.1.0"
 [oceans-of-andromeda-theme]
 submodule = "extensions/oceans-of-andromeda-theme"
 version = "1.0.1"
+
+[oddities-theme]
+submodule = "extensions/oddities-theme"
+version = "0.1.0"
 
 [odin]
 submodule = "extensions/odin"
@@ -5536,6 +5570,10 @@ version = "1.0.0"
 [vivid-void-theme]
 submodule = "extensions/vivid-void-theme"
 version = "0.0.1"
+
+[void-oled-theme]
+submodule = "extensions/void-oled-theme"
+version = "0.8.9"
 
 [voidline-theme]
 submodule = "extensions/voidline-theme"
