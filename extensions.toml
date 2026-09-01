@@ -158,6 +158,10 @@ version = "21.1.0"
 submodule = "extensions/ansible"
 version = "1.0.0"
 
+[answer-set-programming]
+submodule = "extensions/answer-set-programming"
+version = "0.1.0"
+
 [anthracite-theme]
 submodule = "extensions/anthracite-theme"
 version = "1.0.0"
@@ -440,6 +444,10 @@ version = "1.0.0"
 submodule = "extensions/bearded-theme"
 version = "1.0.0"
 
+[beast]
+submodule = "extensions/beast"
+version = "0.1.0"
+
 [bebop-theme]
 submodule = "extensions/bebop-theme"
 version = "0.0.1"
@@ -598,6 +606,10 @@ version = "0.1.0"
 submodule = "extensions/bugstalker-dap"
 version = "0.1.0"
 path = "extension/zed"
+
+[build2]
+submodule = "extensions/build2"
+version = "0.1.0"
 
 [buisson-theme]
 submodule = "extensions/buisson-theme"
@@ -1193,6 +1205,11 @@ version = "0.0.2"
 submodule = "extensions/deno"
 version = "0.1.2"
 
+[dep-beacon-lsp]
+submodule = "extensions/dep-beacon-lsp"
+path = "extensions/dep-beacon-lsp"
+version = "1.1.1"
+
 [dependi]
 submodule = "extensions/dependi"
 path = "dependi-zed"
@@ -1478,6 +1495,10 @@ version = "0.0.2"
 [ep-133-theme]
 submodule = "extensions/ep-133-theme"
 version = "0.0.3"
+
+[epitech-header-snippets]
+submodule = "extensions/epitech-header-snippets"
+version = "1.0.0"
 
 [erb-snippets]
 submodule = "extensions/erb-snippets"
@@ -1958,6 +1979,10 @@ version = "0.1.3"
 [green-theme]
 submodule = "extensions/green-theme"
 version = "0.0.3"
+
+[gregorio]
+submodule = "extensions/gregorio"
+version = "0.8.0"
 
 [gren]
 submodule = "extensions/gren"
