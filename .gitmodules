@@ -1782,6 +1782,10 @@
 	path = extensions/geode-theme
 	url = https://github.com/almeladev/geode-zed.git
 
+[submodule "extensions/georgy-theme"]
+	path = extensions/georgy-theme
+	url = https://github.com/GeorgyDesign/georgy-themes-zed.git
+
 [submodule "extensions/ghost-in-the-shell-theme"]
 	path = extensions/ghost-in-the-shell-theme
 	url = https://github.com/ddoemonn/ghost-in-the-shell-theme.git
@@ -5773,6 +5777,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/georgy-theme"]
-	path = extensions/georgy-theme
-	url = https://github.com/GeorgyDesign/georgy-themes-zed.git
