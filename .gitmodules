@@ -3006,6 +3006,10 @@
 	path = extensions/mcp-server-kubernetes
 	url = https://github.com/ferra-io/zed-mcp-server-kubernetes.git
 
+[submodule "extensions/mcp-server-localstack"]
+	path = extensions/mcp-server-localstack
+	url = https://github.com/localstack/zed-localstack-extension.git
+
 [submodule "extensions/mcp-server-markitdown"]
 	path = extensions/mcp-server-markitdown
 	url = https://github.com/G36maid/zed-mcp-server-markitdown
