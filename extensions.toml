@@ -4300,6 +4300,11 @@ version = "0.2.2"
 submodule = "extensions/quint"
 version = "0.2.0"
 
+[quint-language-support]
+submodule = "extensions/quint-language-support"
+path = "editors/zed"
+version = "0.1.0"
+
 [qwark-theme]
 submodule = "extensions/qwark-theme"
 version = "0.2.0"
