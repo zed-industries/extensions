@@ -3705,6 +3705,11 @@ path = "crates/extension-zed"
 submodule = "extensions/oh-lucy"
 version = "0.0.1"
 
+[okf-lsp]
+submodule = "extensions/okf-lsp"
+path = "editors/zed"
+version = "0.1.1"
+
 [oldbook-theme]
 submodule = "extensions/oldbook-theme"
 version = "1.5.5"
