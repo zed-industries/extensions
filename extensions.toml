@@ -938,6 +938,10 @@ submodule = "extensions/compline"
 path = "zed"
 version = "0.1.0"
 
+[composer-lsp]
+submodule = "extensions/composer-lsp"
+version = "0.2.5"
+
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
 version = "1.0.0"

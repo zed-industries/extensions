@@ -918,6 +918,10 @@
 	path = extensions/compline
 	url = https://github.com/jblais493/compline.git
 
+[submodule "extensions/composer-lsp"]
+	path = extensions/composer-lsp
+	url = https://github.com/BastenIT/zed-composer-support.git
+
 [submodule "extensions/confluence-context-server"]
 	path = extensions/confluence-context-server
 	url = https://github.com/mouhamadalmounayar/confluence-context-server
