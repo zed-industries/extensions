@@ -4236,6 +4236,11 @@ version = "0.24.0"
 submodule = "extensions/python-autodoc-lsp"
 version = "0.1.1"
 
+[python-env-language-server]
+submodule = "extensions/python-env-language-server"
+path = "extension"
+version = "0.1.1"
+
 [python-refactoring]
 submodule = "extensions/python-refactoring"
 version = "0.0.3"
