@@ -4222,6 +4222,10 @@
 	path = extensions/quint
 	url = https://github.com/zdavison/zed-quint.git
 
+[submodule "extensions/quint-language-support"]
+	path = extensions/quint-language-support
+	url = https://github.com/LegacyCodeHQ/tree-sitter-quint.git
+
 [submodule "extensions/qwark-theme"]
 	path = extensions/qwark-theme
 	url = https://github.com/biancofla/qwark.git
