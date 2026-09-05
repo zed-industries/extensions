@@ -1878,6 +1878,10 @@
 	path = extensions/gitlab-web-ide-theme
 	url = https://github.com/karnauhmax/zed-gitlab-web-ide-theme.git
 
+[submodule "extensions/gjs-debugger"]
+	path = extensions/gjs-debugger
+	url = https://gitlab.gnome.org/vixalien/gjs-dap
+
 [submodule "extensions/glass-theme"]
 	path = extensions/glass-theme
 	url = https://github.com/b4bury/zed-glass.git
