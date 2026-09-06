@@ -4794,6 +4794,10 @@
 	path = extensions/sqlc-snippets
 	url = https://github.com/NarmadaWeb/sqlc-snippets-zed.git
 
+[submodule "extensions/sqldex-lsp"]
+	path = extensions/sqldex-lsp
+	url = https://github.com/sdvallejo/sqldex.git
+
 [submodule "extensions/sqlmesh"]
 	path = extensions/sqlmesh
 	url = https://github.com/GitToby/zed-sqlmesh.git
