@@ -1016,6 +1016,11 @@ submodule = "extensions/css-modules-kit"
 version = "0.1.1"
 path = "crates/zed"
 
+[css-var-kit-lsp]
+submodule = "extensions/css-var-kit-lsp"
+path = "crates/zed-extension"
+version = "0.4.0"
+
 [css-variables]
 submodule = "extensions/css-variables"
 version = "0.1.1"
