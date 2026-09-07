@@ -166,12 +166,6 @@ export function validateGitmodulesLocations(extensionsToml, gitmodules) {
         `Name and path do not match for submodule ${expectedSubmoduleName}. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
       );
     }
-
-    if (submoduleName !== expectedSubmoduleName) {
-      throw new Error(
-        `Extension with ID "${extensionId}" does not use the proper submodule. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
-      );
-    }
   }
 }
 
