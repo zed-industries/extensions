@@ -4571,6 +4571,11 @@ version = "1.0.0"
 submodule = "extensions/scala"
 version = "0.2.3"
 
+[scalino-lsp]
+submodule = "extensions/scalino-lsp"
+path = "zed-extension"
+version = "0.0.1"
+
 [schemalock-lsp]
 submodule = "extensions/schemalock-lsp"
 version = "0.1.0"
