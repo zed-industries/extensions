@@ -3198,6 +3198,11 @@ version = "6.1.0"
 submodule = "extensions/mdias-oled-theme"
 version = "0.1.0"
 
+[mdrev-language-server]
+submodule = "extensions/mdrev-language-server"
+path = "zed-extension"
+version = "0.1.1"
+
 [mdx]
 submodule = "extensions/mdx"
 version = "0.4.0"
