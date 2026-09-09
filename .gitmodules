@@ -1130,6 +1130,10 @@
 	path = extensions/dark-purple-theme
 	url = https://github.com/brgr/dark-purple-theme-for-zed.git
 
+[submodule "extensions/dark-trio-themes"]
+	path = extensions/dark-trio-themes
+	url = https://github.com/2u841r/dark-trio.git
+
 [submodule "extensions/darker-horizon"]
 	path = extensions/darker-horizon
 	url = https://github.com/ewwwdp/dark-horizon-zed.git
@@ -1549,6 +1553,10 @@
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
+
+[submodule "extensions/fatou-language-server"]
+	path = extensions/fatou-language-server
+	url = https://github.com/jolars/fatou.git
 
 [submodule "extensions/fedaykin-themes"]
 	path = extensions/fedaykin-themes
@@ -2414,6 +2422,10 @@
 	path = extensions/jetbrains-darcula-theme-by-bronya0
 	url = https://github.com/Bronya0/Jetbrains-Darcula-Zed-Theme.git
 
+[submodule "extensions/jetbrains-dark-blur-theme"]
+	path = extensions/jetbrains-dark-blur-theme
+	url = https://github.com/Slipstream-Max/jetbrains-dark-blur-theme.git
+
 [submodule "extensions/jetbrains-icons"]
 	path = extensions/jetbrains-icons
 	url = https://github.com/ziishaned/zed-jetbrains-icons.git
@@ -2792,7 +2804,7 @@
 
 [submodule "extensions/mach"]
 	path = extensions/mach
-	url = https://github.com/octalide/mach-zed.git
+	url = https://github.com/briar-systems/mach-zed.git
 
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
@@ -2877,6 +2889,10 @@
 [submodule "extensions/markdownlint"]
 	path = extensions/markdownlint
 	url = https://github.com/vitallium/zed-markdownlint.git
+
+[submodule "extensions/marko"]
+	path = extensions/marko
+	url = https://github.com/marko-js/zed.git
 
 [submodule "extensions/marksman"]
 	path = extensions/marksman
