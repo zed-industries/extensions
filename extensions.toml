@@ -40,7 +40,7 @@ version = "0.1.2"
 
 [ad-astra-theme]
 submodule = "extensions/ad-astra-theme"
-version = "1.1.0"
+version = "1.1.2"
 
 [ada]
 submodule = "extensions/ada"
@@ -393,7 +393,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.226.1"
+version = "0.226.2"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -544,7 +544,7 @@ version = "1.0.0"
 
 [blueprint]
 submodule = "extensions/blueprint"
-version = "0.4.1"
+version = "0.5.0"
 
 [blueprint-dark-theme]
 submodule = "extensions/blueprint-dark-theme"
@@ -677,7 +677,7 @@ version = "0.4.1"
 
 [cartan]
 submodule = "extensions/cartan"
-version = "0.5.1"
+version = "0.6.9"
 
 [carve]
 submodule = "extensions/carve"
@@ -890,7 +890,7 @@ version = "0.0.6"
 
 [codestackr]
 submodule = "extensions/codestackr"
-version = "0.0.1"
+version = "0.0.2"
 
 [coding-in-the-sun-theme]
 submodule = "extensions/coding-in-the-sun-theme"
@@ -1518,7 +1518,7 @@ version = "0.3.1"
 
 [erlang-qol-snippets]
 submodule = "extensions/erlang-qol-snippets"
-version = "0.1.1"
+version = "0.1.2"
 
 [esmerald-theme]
 submodule = "extensions/esmerald-theme"
@@ -1586,6 +1586,11 @@ version = "0.1.1"
 [fastapi-snippets]
 submodule = "extensions/fastapi-snippets"
 version = "0.3.0"
+
+[fatou-language-server]
+submodule = "extensions/fatou-language-server"
+path = "editors/zed"
+version = "0.1.0"
 
 [fedaykin-themes]
 submodule = "extensions/fedaykin-themes"
@@ -2659,7 +2664,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.7.5"
+version = "0.7.6"
 
 [laravel-official]
 submodule = "extensions/laravel-official"
@@ -2856,7 +2861,7 @@ version = "0.0.4"
 
 [mach]
 submodule = "extensions/mach"
-version = "0.4.2"
+version = "0.5.0"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -4515,7 +4520,7 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.17"
+version = "0.16.18"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -4941,7 +4946,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "3.1.0"
+version = "3.2.0"
 
 [styx]
 submodule = "extensions/styx"
@@ -5329,7 +5334,7 @@ version = "1.1.0"
 [tsrx]
 submodule = "extensions/tsrx"
 path = "packages/zed-plugin"
-version = "0.0.87"
+version = "0.0.88"
 
 [turbo-log-snippets]
 submodule = "extensions/turbo-log-snippets"
@@ -5630,7 +5635,7 @@ version = "0.0.1"
 
 [vscode-classic-themes]
 submodule = "extensions/vscode-classic-themes"
-version = "0.4.1"
+version = "0.4.2"
 
 [vscode-dark-high-contrast]
 submodule = "extensions/vscode-dark-high-contrast"
@@ -5638,7 +5643,7 @@ version = "1.0.0"
 
 [vscode-dark-modern]
 submodule = "extensions/vscode-dark-modern"
-version = "0.1.5"
+version = "0.1.6"
 
 [vscode-dark-plus]
 submodule = "extensions/vscode-dark-plus"
@@ -5748,7 +5753,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.1.0"
+version = "0.4.0"
 
 [whkd]
 submodule = "extensions/whkd"
