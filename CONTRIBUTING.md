@@ -2,18 +2,18 @@
 
 Thanks for contributing to the Zed extension ecosystem!
 
-For the process to go smoothly, please read the [Extension Publishing Prerequisites](https://zed.dev/docs/extensions/developing-extensions#extension-publishing-prerequisites) thoroughly and make sure to follow the steps described in [Publishing Your Extension](https://zed.dev/docs/extensions/developing-extensions#publishing-your-extension). Following these steps helps us a lot with going through the pull requests and will help you with getting your extension published sooner.
+For the process to go smoothly, please read the [Publishing Prerequisites](https://zed.dev/docs/extensions/publishing/prerequisites) thoroughly and follow the steps in the [Publishing Guide](https://zed.dev/docs/extensions/publishing/publishing-guide). This helps us review pull requests faster - and gets your extension published sooner.
 
-Note that not every extension is a good fit for being published - for example, if your extension provides functionality already provided by another extension, you should consider contributing fixes in the existing extension for all users first before opening a pull request for a new extension here.
+A few things to keep in mind:
 
-Furthermore, we expect extensions to be tested locally as a dev extension before they're submitted. PRs for extensions that clearly don't work will be closed.
-
-Your extension repository also needs to include an [accepted license](https://zed.dev/docs/extensions/developing-extensions#extension-license-requirements).
+- Not every extension is a good fit for publishing. If yours overlaps with an existing extension, consider contributing improvements to that extension first before opening a pull request for a new one.
+- Test your extension locally as a dev extension before submitting. PRs for extensions that clearly don't work will be closed without further feedback.
+- Your extension repository must include an [accepted license](https://zed.dev/docs/extensions/publishing/license-requirements).
 
 ## Updating an existing extension
 
-If you're updating an extension you maintain, please make sure to follow the [Updating an Extension](https://zed.dev/docs/extensions/developing-extensions#updating-an-extension) guide.
+If you're updating an extension you maintain, please follow the [Updating an Extension](https://zed.dev/docs/extensions/publishing/updating-and-maintenance) guide.
 
 ## Documentation
 
-For anything not covered here, feel free to have a look at the [extension section](https://zed.dev/docs/extensions) of our documentation or see the full guide on the process of developing and publishing an extension over at [Developing Extensions](https://zed.dev/docs/extensions/developing-extensions).
+For anything not covered here, check the [FAQ](https://zed.dev/docs/extensions/publishing/faq), the [Publishing Extensions overview](https://zed.dev/docs/extensions/publishing/overview), or the broader [extensions documentation](https://zed.dev/docs/extensions).
