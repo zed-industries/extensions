@@ -378,6 +378,10 @@
 	path = extensions/babel-lsp
 	url = https://github.com/alex-oleshkevich/babel-lsp
 
+[submodule "extensions/bamboo-paper-theme"]
+	path = extensions/bamboo-paper-theme
+	url = https://github.com/chrisdrackett/bamboo-theme-zed.git
+
 [submodule "extensions/bamboo-theme"]
 	path = extensions/bamboo-theme
 	url = https://github.com/LoamStudios/zed-bamboo-theme
@@ -1553,6 +1557,10 @@
 [submodule "extensions/fastapi-snippets"]
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
+
+[submodule "extensions/fatou-language-server"]
+	path = extensions/fatou-language-server
+	url = https://github.com/jolars/fatou.git
 
 [submodule "extensions/fedaykin-themes"]
 	path = extensions/fedaykin-themes
@@ -2800,7 +2808,7 @@
 
 [submodule "extensions/mach"]
 	path = extensions/mach
-	url = https://github.com/octalide/mach-zed.git
+	url = https://github.com/briar-systems/mach-zed.git
 
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
