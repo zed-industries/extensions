@@ -1,6 +1,17 @@
 import path from "node:path";
 
 /**
+ * Normalizes whitespace in the given text by collapsing all sequences of
+ * whitespace characters (spaces, newlines, tabs, etc.) into a single space.
+ * This makes license matching insensitive to text wrapping.
+ * @param {string} text
+ * @returns {string}
+ */
+export function normalizeWhitespace(text) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+/**
  * @param {string} fileName
  * @returns {boolean}
  */
@@ -45,12 +56,12 @@ const BSD_COMMON_PATTERNS = [
   /1\. Redistributions of source code must retain the above copyright/i,
   /2\. Redistributions in binary form must reproduce the above copyright/i,
   /THIS SOFTWARE IS PROVIDED BY THE (?:COPYRIGHT HOLDERS AND CONTRIBUTORS|AUTHOR AND CONTRIBUTORS) "AS IS"/i,
-  /IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE[ \n]ARE/i,
-  /DISCLAIMED\.[\s\S]{1,2}IN NO EVENT SHALL THE (?:COPYRIGHT HOLDER|AUTHOR) OR CONTRIBUTORS BE LIABLE/i,
+  /IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE/i,
+  /DISCLAIMED\. IN NO EVENT SHALL THE (?:COPYRIGHT HOLDER|AUTHOR) OR CONTRIBUTORS BE LIABLE/i,
 ];
 
 const BSD_3_CLAUSE_ONLY_PATTERN =
-  /3\. Neither the name of the copyright holder nor the names of its[\s\S]{1,4}contributors may[\s\S]{1,4}be used to endorse or promote products derived from/i;
+  /3\. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from/i;
 
 /**
  * @param {string} licenseContent
@@ -108,9 +119,9 @@ export function isGplV3License(licenseContent) {
 
 const MIT_REQUIRED_PATTERNS = [
   /Copyright/i,
-  /Permission is hereby granted, free of charge, to any[ \n]person obtaining a copy/i,
-  /The above copyright notice and this permission notice[ \n]shall be included in[ \n]all/i,
-  /THE SOFTWARE IS PROVIDED ["“]AS IS["”], WITHOUT WARRANTY OF[ \n]ANY KIND, EXPRESS OR/i,
+  /Permission is hereby granted, free of charge, to any person obtaining a copy/i,
+  /The above copyright notice and this permission notice shall be included in all/i,
+  /THE SOFTWARE IS PROVIDED ["“]AS IS["”], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR/i,
 ];
 
 /**
@@ -123,7 +134,7 @@ export function isMitLicense(licenseContent) {
 
 const ZLIB_REQUIRED_PATTERNS = [
   /(?:Copyright|\(C\))/i,
-  /This software is provided ['']as-is[''], without any express or implied/i,
+  /This software is provided [\u2018\u2019']as-is[\u2018\u2019'], without any express or implied/i,
   /warranty\.\s+In no event will the authors be held liable for any damages/i,
   /arising from the use of this software/i,
   /Permission is granted to anyone to use this software for any purpose/i,
@@ -131,7 +142,7 @@ const ZLIB_REQUIRED_PATTERNS = [
   /freely, subject to the following restrictions:/i,
   /1\. The origin of this software must not be misrepresented/i,
   /2\. Altered source versions must be plainly marked as such/i,
-  /3\. This notice may not be removed or altered from any source distribution/i,
+  /3\. This notice may not be removed or altered from any source\s+distribution/i,
 ];
 
 /**
@@ -165,6 +176,53 @@ const LGPL_V3_REQUIRED_PATTERNS = [
  */
 export function isLgplV3License(licenseContent) {
   return LGPL_V3_REQUIRED_PATTERNS.every((pattern) =>
+    pattern.test(licenseContent),
+  );
+}
+
+const UNLICENSE_REQUIRED_PATTERNS = [
+  /free and unencumbered software released into the public domain/i,
+  /Anyone is free to copy, modify, publish, use, compile, sell, or/i,
+  /distribute this software/i,
+  /In jurisdictions that recognize copyright laws/i,
+  /dedicate any and all copyright interest/i,
+  /relinquishment in perpetuity of all present and future rights/i,
+  /THE SOFTWARE IS PROVIDED .AS IS., WITHOUT WARRANTY OF ANY KIND/i,
+  /For more information, please refer to\s+<?https?:\/\/unlicense\.org\/?>?/i,
+];
+
+/**
+ * @param {string} licenseContent
+ * @returns {boolean}
+ */
+export function isUnlicense(licenseContent) {
+  return UNLICENSE_REQUIRED_PATTERNS.every((pattern) =>
+    pattern.test(licenseContent),
+  );
+}
+
+const CC_BY_4_REQUIRED_PATTERNS = [
+  /Attribution 4\.0 International/i,
+  /Creative Commons Corporation/i,
+  /Creative Commons Attribution 4\.0 International Public License/i,
+  /Section 1 -- Definitions/i,
+  /Section 2 -- Scope/i,
+  /Section 3 -- License Conditions/i,
+  /Section 4 -- Sui Generis Database Rights/i,
+  /Section 5 -- Disclaimer of Warranties and Limitation of Liability/i,
+  /Section 6 -- Term and Termination/i,
+  /Section 7 -- Other Terms and Conditions/i,
+  /Section 8 -- Interpretation/i,
+  /Licensed Rights/i,
+  /Adapted Material/i,
+];
+
+/**
+ * @param {string} licenseContent
+ * @returns {boolean}
+ */
+export function isCcBy4License(licenseContent) {
+  return CC_BY_4_REQUIRED_PATTERNS.every((pattern) =>
     pattern.test(licenseContent),
   );
 }
