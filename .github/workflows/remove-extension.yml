@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       extension_id:
-        description: "ID of the extension to remove (as listed in `extensions.toml`)"
+        description: "ID of the extension to remove"
         required: true
         type: string
       reason:
-        description: "Why the extension is being removed (included in the PR body)"
+        description: "Why the extension is being removed (ends up in the PR description)"
         required: false
         type: string
 
@@ -23,7 +23,7 @@ jobs:
     env:
       EXTENSION_ID: ${{ inputs.extension_id }}
       REASON: ${{ inputs.reason }}
-      BRANCH: remove-extension/${{ inputs.extension_id }}
+      BRANCH: remove-${{ inputs.extension_id }}
     steps:
       - name: Generate token
         id: generate-token
@@ -37,8 +37,7 @@ jobs:
           permission-issues: write
           permission-pull-requests: write
 
-      - name: Checkout repo
-        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           token: ${{ steps.generate-token.outputs.token }}
 
@@ -56,26 +55,13 @@ jobs:
           git config user.name "zed-zippy[bot]"
           git config user.email "234243425+zed-zippy[bot]@users.noreply.github.com"
           git switch --create "$BRANCH"
-          git commit --message "Remove \`$EXTENSION_ID\` extension"
+          git commit \
+            --message "Remove \`$EXTENSION_ID\` extension" \
+            --message "This PR removes the \`$EXTENSION_ID\` extension." \
+            ${REASON:+--message "$REASON"} \
           git push --force --set-upstream origin "$BRANCH"
 
       - name: Open pull request
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
-        run: |
-          {
-            echo "Removes the \`$EXTENSION_ID\` extension."
-            echo
-            if [ -n "$REASON" ]; then
-              echo "$REASON"
-              echo
-            fi
-            echo "Opened automatically by the \`Remove extension\` workflow, triggered by @$GITHUB_ACTOR."
-          } > pr_body.md
-
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "Remove \`$EXTENSION_ID\` extension" \
-            --body-file pr_body.md \
-            --assignee "$GITHUB_ACTOR"
+        run: gh pr create --fill --head "$BRANCH" --base main --assignee "$GITHUB_ACTOR"

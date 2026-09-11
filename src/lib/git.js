@@ -52,6 +52,19 @@ export async function removeGitSubmodule(path) {
   await exec("git", ["rm", "--quiet", "--", path]);
 }
 
+/**
+ * Stages the given paths.
+ *
+ * @param {readonly string[]} paths
+ */
+export async function stageGitPaths(paths) {
+  if (paths.length === 0) {
+    return;
+  }
+
+  await exec("git", ["add", "--", ...paths]);
+}
+
 /** @param {string} path */
 export async function readGitmodules(path) {
   const gitmodulesContent = await fs.readFile(path, "utf-8");

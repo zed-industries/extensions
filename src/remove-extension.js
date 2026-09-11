@@ -1,7 +1,6 @@
 import { removeExtensionFromToml } from "./lib/extensions-toml.js";
 import { readTomlFile } from "./lib/fs.js";
-import { removeGitSubmodule } from "./lib/git.js";
-import { exec } from "./lib/process.js";
+import { removeGitSubmodule, stageGitPaths } from "./lib/git.js";
 
 const USAGE = `
 remove-extension <extensionId>
@@ -66,4 +65,4 @@ if (submoduleStillInUse) {
 
 // `git rm` already stages the submodule removal; stage the manifest change too
 // so the whole removal is ready to commit.
-await exec("git", ["add", "--", EXTENSIONS_TOML]);
+await stageGitPaths([EXTENSIONS_TOML]);
