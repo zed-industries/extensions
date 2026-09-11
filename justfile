@@ -6,6 +6,10 @@ package-extensions:
 sort-extensions:
     pnpm sort-extensions
 
+# Removes the extension with the given ID (its `extensions.toml` entry and submodule).
+remove-extension EXTENSION_ID:
+    pnpm remove-extension {{EXTENSION_ID}}
+
 # Initializes the submodule at the given path.
 init-submodule SUBMODULE_PATH:
     git submodule update --init --recursive {{SUBMODULE_PATH}}

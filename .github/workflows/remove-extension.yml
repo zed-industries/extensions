@@ -1,0 +1,81 @@
+name: Remove extension
+
+on:
+  workflow_dispatch:
+    inputs:
+      extension_id:
+        description: "ID of the extension to remove (as listed in `extensions.toml`)"
+        required: true
+        type: string
+      reason:
+        description: "Why the extension is being removed (included in the PR body)"
+        required: false
+        type: string
+
+permissions: {}
+
+jobs:
+  remove-extension:
+    runs-on: namespace-profile-2x4-ubuntu-2404
+    if: github.repository_owner == 'zed-industries'
+    timeout-minutes: 10
+    permissions: {}
+    env:
+      EXTENSION_ID: ${{ inputs.extension_id }}
+      REASON: ${{ inputs.reason }}
+      BRANCH: remove-extension/${{ inputs.extension_id }}
+    steps:
+      - name: Generate token
+        id: generate-token
+        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
+        with:
+          app-id: ${{ secrets.ZED_ZIPPY_APP_ID }}
+          private-key: ${{ secrets.ZED_ZIPPY_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+          permission-contents: write
+          permission-issues: write
+          permission-pull-requests: write
+
+      - name: Checkout repo
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+
+      - uses: pnpm/setup@5d160c5bc68a09337ad0d5654e237e03253b5879 # v1
+        with:
+          version: 11
+          runtime: node@24.21.0
+          cache: true
+
+      - name: Remove extension
+        run: pnpm remove-extension "$EXTENSION_ID"
+
+      - name: Commit and push
+        run: |
+          git config user.name "zed-zippy[bot]"
+          git config user.email "234243425+zed-zippy[bot]@users.noreply.github.com"
+          git switch --create "$BRANCH"
+          git commit --message "Remove \`$EXTENSION_ID\` extension"
+          git push --force --set-upstream origin "$BRANCH"
+
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          {
+            echo "Removes the \`$EXTENSION_ID\` extension."
+            echo
+            if [ -n "$REASON" ]; then
+              echo "$REASON"
+              echo
+            fi
+            echo "Opened automatically by the \`Remove extension\` workflow, triggered by @$GITHUB_ACTOR."
+          } > pr_body.md
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "Remove \`$EXTENSION_ID\` extension" \
+            --body-file pr_body.md \
+            --assignee "$GITHUB_ACTOR"

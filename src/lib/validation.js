@@ -1,4 +1,5 @@
 import semver from "semver";
+import { diffExtensionIds } from "./extensions-toml.js";
 import {
   isApache2License,
   isBsd2ClauseLicense,
@@ -257,11 +258,10 @@ export function validateExtensionIdsNotChanged(
   currentExtensionsToml,
   previousExtensionsToml,
 ) {
-  const currentIds = new Set(Object.keys(currentExtensionsToml));
-  const previousIds = new Set(Object.keys(previousExtensionsToml));
-
-  const addedIds = [...currentIds].filter((id) => !previousIds.has(id));
-  const removedIds = [...previousIds].filter((id) => !currentIds.has(id));
+  const { added: addedIds, removed: removedIds } = diffExtensionIds(
+    currentExtensionsToml,
+    previousExtensionsToml,
+  );
 
   if (addedIds.length > 0 && removedIds.length > 0) {
     throw new Error(

@@ -34,6 +34,24 @@ export async function checkoutGitRepo(name, repositoryUrl, commitSha) {
   return repoPath;
 }
 
+/**
+ * Removes the Git submodule at `path` from the repository.
+ *
+ * This unregisters the submodule from `.git/config`, removes it from the index
+ * and working tree, and drops its section from `.gitmodules`. The resulting
+ * changes are staged but not committed.
+ *
+ * @param {string} path
+ */
+export async function removeGitSubmodule(path) {
+  console.log(`Removing Git submodule at '${path}'`);
+
+  // `deinit` succeeds (with a warning) even if the submodule was never
+  // initialized, so we don't need to check for that up front.
+  await exec("git", ["submodule", "deinit", "--force", "--", path]);
+  await exec("git", ["rm", "--quiet", "--", path]);
+}
+
 /** @param {string} path */
 export async function readGitmodules(path) {
   const gitmodulesContent = await fs.readFile(path, "utf-8");
