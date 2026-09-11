@@ -5140,6 +5140,11 @@ version = "1.0.0"
 submodule = "extensions/tcl"
 version = "0.0.2"
 
+[tcl-lsp]
+submodule = "extensions/tcl-lsp"
+path = "editors/zed"
+version = "2.2.3"
+
 [tech49-theme]
 submodule = "extensions/tech49-theme"
 version = "0.2.3"
