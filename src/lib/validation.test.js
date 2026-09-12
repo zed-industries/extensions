@@ -6,6 +6,7 @@ import {
   validateManifest,
   validateExtensionIdsNotChanged,
   assertVersionNotDecreased,
+  validateGitmodulesLocations,
 } from "./validation.js";
 import {
   readApache2License,
@@ -528,5 +529,52 @@ describe("validateExtensionIdsNotChanged", () => {
         If you need to rename an extension, update the display name in the extension's manifest instead.]
       `);
     });
+  });
+});
+
+describe("validateGitmodulesLocations", () => {
+  it("does not throw for valid submodule configuration", () => {
+    const extensionsToml = {
+      "my-extension": { submodule: "extensions/my-extension", version: "1.0.0" },
+    };
+    const gitmodules = {
+      "extensions/my-extension": { path: "extensions/my-extension" },
+    };
+    expect(() =>
+      validateGitmodulesLocations(extensionsToml, gitmodules),
+    ).not.toThrow();
+  });
+
+  it("throws when submodule is missing in gitmodules", () => {
+    const extensionsToml = {
+      "my-extension": { submodule: "extensions/my-extension", version: "1.0.0" },
+    };
+    expect(() =>
+      validateGitmodulesLocations(extensionsToml, {}),
+    ).toThrowError('Could not find submodule "extensions/my-extension" for extension ID "my-extension".');
+  });
+
+  it("throws when submodule name does not match expected name", () => {
+    const extensionsToml = {
+      "my-extension": { submodule: "extensions/wrong-name", version: "1.0.0" },
+    };
+    const gitmodules = {
+      "extensions/wrong-name": { path: "extensions/wrong-name" },
+    };
+    expect(() =>
+      validateGitmodulesLocations(extensionsToml, gitmodules),
+    ).toThrowError("Submodule name extensions/wrong-name does not match expected name.");
+  });
+
+  it("throws when name and path do not match", () => {
+    const extensionsToml = {
+      "my-extension": { submodule: "extensions/my-extension", version: "1.0.0" },
+    };
+    const gitmodules = {
+      "extensions/my-extension": { path: "extensions/wrong-path" },
+    };
+    expect(() =>
+      validateGitmodulesLocations(extensionsToml, gitmodules),
+    ).toThrowError("Name and path do not match for submodule extensions/my-extension.");
   });
 });
