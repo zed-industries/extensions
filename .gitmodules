@@ -4518,6 +4518,10 @@
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
 
+[submodule "extensions/scalino-lsp"]
+	path = extensions/scalino-lsp
+	url = https://github.com/lolgab/scalino.git
+
 [submodule "extensions/schemalock-lsp"]
 	path = extensions/schemalock-lsp
 	url = https://github.com/schemalock/zed.git
