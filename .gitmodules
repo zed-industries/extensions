@@ -714,6 +714,11 @@
 	path = extensions/catppuccin-icons
 	url = https://github.com/catppuccin/zed-icons.git
 
+[submodule "extensions/catthode-theme"]
+	path = extensions/catthode-theme
+	url = https://github.com/catthode/zed.git
+	branch = main
+
 [submodule "extensions/cds-lsp"]
 	path = extensions/cds-lsp
 	url = https://github.com/doxblek/zed-cds-lsp
