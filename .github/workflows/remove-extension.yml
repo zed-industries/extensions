@@ -1,0 +1,66 @@
+name: Remove extension
+run-name: "Remove `${{ inputs.extension_id }}` extension"
+
+on:
+  workflow_dispatch:
+    inputs:
+      extension_id:
+        description: "ID of the extension to remove"
+        required: true
+        type: string
+      reason:
+        description: "Why the extension is being removed (ends up in the PR description)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  remove-extension:
+    runs-on: namespace-profile-2x4-ubuntu-2404
+    if: github.repository_owner == 'zed-industries'
+    timeout-minutes: 10
+    steps:
+      - name: Generate token
+        id: generate-token
+        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
+        with:
+          app-id: ${{ secrets.ZED_ZIPPY_APP_ID }}
+          private-key: ${{ secrets.ZED_ZIPPY_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+          permission-contents: write
+          permission-issues: write
+          permission-pull-requests: write
+
+      - name: Checkout repo
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - uses: pnpm/setup@5d160c5bc68a09337ad0d5654e237e03253b5879 # v1
+        with:
+          version: 11
+          runtime: node@24.21.0
+          cache: true
+
+      - name: Remove extension
+        run: pnpm remove-extension "$EXTENSION_ID"
+        env:
+          EXTENSION_ID: ${{ inputs.extension_id }}
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725 # v8.0.0
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          branch: remove-${{ inputs.extension_id }}
+          base: main
+          delete-branch: true
+          committer: zed-zippy[bot] <234243425+zed-zippy[bot]@users.noreply.github.com>
+          author: zed-zippy[bot] <234243425+zed-zippy[bot]@users.noreply.github.com>
+          assignees: ${{ github.actor }}
+          commit-message: "Remove `${{ inputs.extension_id }}` extension"
+          title: "Remove `${{ inputs.extension_id }}` extension"
+          body: |
+            This PR removes the `${{ inputs.extension_id }}` extension.
+
+            ${{ inputs.reason }}
