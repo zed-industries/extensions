@@ -52,7 +52,7 @@ version = "0.0.2"
 
 [adaptify]
 submodule = "extensions/adaptify"
-version = "0.3.0"
+version = "0.3.1"
 
 [adech]
 submodule = "extensions/adech"
@@ -631,6 +631,11 @@ version = "0.1.0"
 submodule = "extensions/bun-docs-mcp"
 version = "1.0.0"
 
+[bylaws-lsp]
+submodule = "extensions/bylaws-lsp"
+path = "Editors/Zed"
+version = "0.1.0"
+
 [c3]
 submodule = "extensions/c3"
 version = "0.0.2"
@@ -948,6 +953,10 @@ version = "1.2.0"
 [compline]
 submodule = "extensions/compline"
 path = "zed"
+version = "0.1.0"
+
+[confetti]
+submodule = "extensions/confetti"
 version = "0.1.0"
 
 [confluence-context-server]
@@ -2947,7 +2956,7 @@ version = "0.1.0"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
-version = "0.1.9"
+version = "0.2.0"
 
 [marathon-theme]
 submodule = "extensions/marathon-theme"
@@ -5113,7 +5122,7 @@ version = "0.1.1"
 
 [synthwave84]
 submodule = "extensions/synthwave84"
-version = "0.2.0"
+version = "0.3.0"
 
 [sysml-v2]
 submodule = "extensions/sysml-v2"
@@ -5567,7 +5576,7 @@ version = "0.0.19"
 
 [version14-theme]
 submodule = "extensions/version14-theme"
-version = "0.1.0"
+version = "0.4.2"
 
 [veryl]
 submodule = "extensions/veryl"
@@ -5786,7 +5795,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.5.0"
+version = "0.8.0"
 
 [whkd]
 submodule = "extensions/whkd"
