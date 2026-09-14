@@ -48,8 +48,6 @@ const { submodule: submodulePath } = await removeExtensionFromToml(
 );
 console.log(`Removed '${extensionId}' from '${EXTENSIONS_TOML}'`);
 
-// Some submodules host multiple extensions (e.g. `extensions/zed`), so only
-// remove the submodule once nothing else refers to it.
 const remainingExtensionsToml = await readTomlFile(EXTENSIONS_TOML);
 const submoduleStillInUse = Object.values(remainingExtensionsToml).some(
   (extensionInfo) => extensionInfo.submodule === submodulePath,
@@ -63,6 +61,4 @@ if (submoduleStillInUse) {
   await removeGitSubmodule(submodulePath);
 }
 
-// `git rm` already stages the submodule removal; stage the manifest change too
-// so the whole removal is ready to commit.
 await stageGitPaths([EXTENSIONS_TOML]);
