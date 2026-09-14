@@ -4,7 +4,7 @@ version = "0.1.0"
 
 [0x96f]
 submodule = "extensions/0x96f"
-version = "1.3.6"
+version = "1.4.0"
 
 [0xtz]
 submodule = "extensions/0xtz"
@@ -40,7 +40,7 @@ version = "0.1.2"
 
 [ad-astra-theme]
 submodule = "extensions/ad-astra-theme"
-version = "1.1.0"
+version = "1.1.2"
 
 [ada]
 submodule = "extensions/ada"
@@ -52,7 +52,7 @@ version = "0.0.2"
 
 [adaptify]
 submodule = "extensions/adaptify"
-version = "0.2.3"
+version = "0.3.0"
 
 [adech]
 submodule = "extensions/adech"
@@ -125,6 +125,10 @@ version = "0.0.5"
 [alabaster-dark]
 submodule = "extensions/alabaster-dark"
 version = "2.0.2"
+
+[alabaster-official]
+submodule = "extensions/alabaster-official"
+version = "0.1.0"
 
 [alpental-theme]
 submodule = "extensions/alpental-theme"
@@ -330,6 +334,10 @@ version = "0.2.2"
 submodule = "extensions/autohotkey"
 version = "2.0.1"
 
+[autoit]
+submodule = "extensions/autoit"
+version = "0.5.0"
+
 [autumnal-marscape]
 submodule = "extensions/autumnal-marscape"
 version = "0.0.1"
@@ -387,13 +395,17 @@ submodule = "extensions/babel-lsp"
 path = "editors/zed"
 version = "0.1.1"
 
+[bamboo-paper-theme]
+submodule = "extensions/bamboo-paper-theme"
+version = "0.0.1"
+
 [bamboo-theme]
 submodule = "extensions/bamboo-theme"
 version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.226.1"
+version = "0.226.2"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -544,7 +556,7 @@ version = "1.0.0"
 
 [blueprint]
 submodule = "extensions/blueprint"
-version = "0.4.1"
+version = "0.5.0"
 
 [blueprint-dark-theme]
 submodule = "extensions/blueprint-dark-theme"
@@ -677,7 +689,7 @@ version = "0.4.1"
 
 [cartan]
 submodule = "extensions/cartan"
-version = "0.5.1"
+version = "0.8.0"
 
 [carve]
 submodule = "extensions/carve"
@@ -697,7 +709,7 @@ version = "1.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.25"
+version = "0.2.26"
 
 [catppuccin-black-theme]
 submodule = "extensions/catppuccin-black-theme"
@@ -713,7 +725,7 @@ version = "0.1.1"
 
 [catppuccin-icons]
 submodule = "extensions/catppuccin-icons"
-version = "1.23.1"
+version = "1.24.0"
 
 [cds-lsp]
 submodule = "extensions/cds-lsp"
@@ -890,7 +902,7 @@ version = "0.0.6"
 
 [codestackr]
 submodule = "extensions/codestackr"
-version = "0.0.1"
+version = "0.0.2"
 
 [coding-in-the-sun-theme]
 submodule = "extensions/coding-in-the-sun-theme"
@@ -982,6 +994,11 @@ version = "0.2.0"
 [crimson-theme]
 submodule = "extensions/crimson-theme"
 version = "0.0.5"
+
+[croma-abc]
+submodule = "extensions/croma-abc"
+path = "editors/zed"
+version = "1.0.0"
 
 [cron-sense-lsp]
 submodule = "extensions/cron-sense-lsp"
@@ -1322,6 +1339,10 @@ version = "1.0.0"
 submodule = "extensions/dream"
 version = "1.0.0"
 
+[drogon-csp]
+submodule = "extensions/drogon-csp"
+version = "0.1.0"
+
 [duckyscript]
 submodule = "extensions/duckyscript"
 version = "0.0.1"
@@ -1514,11 +1535,11 @@ version = "0.1.0"
 
 [erlang]
 submodule = "extensions/erlang"
-version = "0.3.1"
+version = "0.3.2"
 
 [erlang-qol-snippets]
 submodule = "extensions/erlang-qol-snippets"
-version = "0.1.1"
+version = "0.1.2"
 
 [esmerald-theme]
 submodule = "extensions/esmerald-theme"
@@ -1565,6 +1586,10 @@ version = "0.0.1"
 submodule = "extensions/ezio-theme"
 version = "0.0.8"
 
+[faded-prism-theme]
+submodule = "extensions/faded-prism-theme"
+version = "1.4.1"
+
 [falcon-theme]
 submodule = "extensions/falcon-theme"
 version = "1.0.10"
@@ -1587,9 +1612,18 @@ version = "0.1.1"
 submodule = "extensions/fastapi-snippets"
 version = "0.3.0"
 
+[fatou-language-server]
+submodule = "extensions/fatou-language-server"
+path = "editors/zed"
+version = "0.1.0"
+
 [fedaykin-themes]
 submodule = "extensions/fedaykin-themes"
 version = "1.0.0"
+
+[fennel]
+submodule = "extensions/fennel"
+version = "0.2.0"
 
 [ferret]
 submodule = "extensions/ferret"
@@ -1770,7 +1804,7 @@ version = "0.0.1"
 
 [fsharp]
 submodule = "extensions/fsharp"
-version = "0.0.11"
+version = "0.0.12"
 
 [fsm]
 submodule = "extensions/fsm"
@@ -2062,7 +2096,7 @@ version = "0.1.0"
 
 [hackatime]
 submodule = "extensions/hackatime"
-version = "0.3.1"
+version = "0.4.0"
 
 [hacker-night-vision]
 submodule = "extensions/hacker-night-vision"
@@ -2311,7 +2345,7 @@ version = "0.1.0"
 
 [ifc]
 submodule = "extensions/ifc"
-version = "0.1.0"
+version = "0.6.0"
 
 [immigrant]
 submodule = "extensions/immigrant"
@@ -2562,7 +2596,7 @@ version = "0.1.2"
 
 [kanagawa-wave-blur-theme]
 submodule = "extensions/kanagawa-wave-blur-theme"
-version = "0.1.0"
+version = "0.2.0"
 
 [kanso]
 submodule = "extensions/kanso"
@@ -2659,7 +2693,7 @@ version = "1.0.3"
 
 [laravel]
 submodule = "extensions/laravel"
-version = "0.7.5"
+version = "0.7.6"
 
 [laravel-official]
 submodule = "extensions/laravel-official"
@@ -2704,7 +2738,7 @@ version = "0.0.1"
 
 [leptos]
 submodule = "extensions/leptos"
-version = "0.1.1"
+version = "0.1.2"
 
 [less]
 submodule = "extensions/less"
@@ -2856,7 +2890,7 @@ version = "0.0.4"
 
 [mach]
 submodule = "extensions/mach"
-version = "0.4.2"
+version = "0.5.0"
 
 [macos-classic]
 submodule = "extensions/macos-classic"
@@ -3187,7 +3221,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "6.1.0"
+version = "6.2.1"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -3248,7 +3282,7 @@ version = "1.0.0"
 
 [minizinc]
 submodule = "extensions/minizinc"
-version = "0.1.0"
+version = "0.2.0"
 
 [mint-theme]
 submodule = "extensions/mint-theme"
@@ -3530,7 +3564,7 @@ version = "0.0.2"
 
 [nix]
 submodule = "extensions/nix"
-version = "0.1.4"
+version = "0.1.5"
 
 [nixdorf-8870]
 submodule = "extensions/nixdorf-8870"
@@ -4160,7 +4194,7 @@ version = "0.0.1"
 
 [prisma]
 submodule = "extensions/prisma"
-version = "0.1.9"
+version = "0.1.10"
 
 [prisma-mcp]
 submodule = "extensions/prisma-mcp"
@@ -4515,11 +4549,11 @@ version = "0.0.2"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.17"
+version = "0.16.19"
 
 [rumdl]
 submodule = "extensions/rumdl"
-version = "0.0.4"
+version = "0.0.5"
 
 [runescape-icon-theme]
 submodule = "extensions/runescape-icon-theme"
@@ -4589,7 +4623,7 @@ version = "0.2.1"
 
 [seaglass-theme]
 submodule = "extensions/seaglass-theme"
-version = "0.1.0"
+version = "0.2.1"
 
 [selene-abyss-theme]
 submodule = "extensions/selene-abyss-theme"
@@ -4941,7 +4975,7 @@ version = "0.0.1"
 
 [stylelint]
 submodule = "extensions/stylelint"
-version = "3.1.0"
+version = "3.2.0"
 
 [styx]
 submodule = "extensions/styx"
@@ -4956,6 +4990,10 @@ version = "0.2.0"
 [sublime-mariana-theme]
 submodule = "extensions/sublime-mariana-theme"
 version = "1.1.4"
+
+[sublime-text-4-colorful-theme]
+submodule = "extensions/sublime-text-4-colorful-theme"
+version = "0.1.1"
 
 [subliminal-nightfall]
 submodule = "extensions/subliminal-nightfall"
@@ -5080,7 +5118,7 @@ version = "0.2.0"
 [sysml-v2]
 submodule = "extensions/sysml-v2"
 path = "zed"
-version = "0.30.0"
+version = "0.52.0"
 
 [systemrdl]
 submodule = "extensions/systemrdl"
@@ -5329,7 +5367,7 @@ version = "1.1.0"
 [tsrx]
 submodule = "extensions/tsrx"
 path = "packages/zed-plugin"
-version = "0.0.87"
+version = "0.0.88"
 
 [turbo-log-snippets]
 submodule = "extensions/turbo-log-snippets"
@@ -5630,7 +5668,7 @@ version = "0.0.1"
 
 [vscode-classic-themes]
 submodule = "extensions/vscode-classic-themes"
-version = "0.4.1"
+version = "0.4.2"
 
 [vscode-dark-high-contrast]
 submodule = "extensions/vscode-dark-high-contrast"
@@ -5638,7 +5676,7 @@ version = "1.0.0"
 
 [vscode-dark-modern]
 submodule = "extensions/vscode-dark-modern"
-version = "0.1.5"
+version = "0.1.6"
 
 [vscode-dark-plus]
 submodule = "extensions/vscode-dark-plus"
@@ -5753,7 +5791,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.1.0"
+version = "0.5.0"
 
 [whkd]
 submodule = "extensions/whkd"
