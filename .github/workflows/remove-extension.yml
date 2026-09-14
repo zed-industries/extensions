@@ -1,4 +1,5 @@
 name: Remove extension
+run-name: "Remove `${{ inputs.extension_id }}` extension"
 
 on:
   workflow_dispatch:
