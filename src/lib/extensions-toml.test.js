@@ -57,12 +57,21 @@ describe("removeExtensionFromToml", () => {
     await fs.rm(tempDir, { recursive: true, force: true });
   });
 
-  it("removes the entry, returns it, and writes the rest sorted", async () => {
-    const removed = await removeExtensionFromToml(tomlPath, "b-ext");
+  it("removes the entry, returns it and the rest, and writes the rest sorted", async () => {
+    const { removed, remaining } = await removeExtensionFromToml(
+      tomlPath,
+      "b-ext",
+    );
 
     expect(removed).toEqual({
       submodule: "extensions/b-ext",
       version: "2.0.0",
+    });
+    expect(remaining).toEqual({
+      "a-ext": {
+        submodule: "extensions/a-ext",
+        version: "1.0.0",
+      },
     });
     expect(await fs.readFile(tomlPath, "utf-8")).toMatchInlineSnapshot(`
       "[a-ext]

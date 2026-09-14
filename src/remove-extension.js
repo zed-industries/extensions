@@ -1,5 +1,4 @@
 import { removeExtensionFromToml } from "./lib/extensions-toml.js";
-import { readTomlFile } from "./lib/fs.js";
 import { removeGitSubmodule, stageGitPaths } from "./lib/git.js";
 
 const USAGE = `
@@ -42,14 +41,21 @@ if (!extensionId) {
 
 const EXTENSIONS_TOML = "extensions.toml";
 
-const { submodule: submodulePath } = await removeExtensionFromToml(
-  EXTENSIONS_TOML,
-  extensionId,
-);
+/** @type {Awaited<ReturnType<typeof removeExtensionFromToml>>} */
+let removal;
+try {
+  removal = await removeExtensionFromToml(EXTENSIONS_TOML, extensionId);
+} catch (error) {
+  console.error(error instanceof Error ? error.message : error);
+  process.exit(1);
+}
 console.log(`Removed '${extensionId}' from '${EXTENSIONS_TOML}'`);
 
-const remainingExtensionsToml = await readTomlFile(EXTENSIONS_TOML);
-const submoduleStillInUse = Object.values(remainingExtensionsToml).some(
+const { removed, remaining } = removal;
+
+const submodulePath = removed["submodule"];
+
+const submoduleStillInUse = Object.values(remaining).some(
   (extensionInfo) => extensionInfo.submodule === submodulePath,
 );
 

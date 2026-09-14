@@ -14,14 +14,15 @@ export async function sortExtensionsToml(path) {
  *
  * @param {string} path
  * @param {string} extensionId
- * @returns {Promise<Record<string, any>>} The removed entry.
+ * @returns {Promise<{ removed: Record<string, any>, remaining: Record<string, any> }>}
+ *   The removed entry and the extensions that remain after removal.
  * @throws {Error} If there is no entry for `extensionId`.
  */
 export async function removeExtensionFromToml(path, extensionId) {
   const extensionsToml = await readTomlFile(path);
 
-  const extensionInfo = extensionsToml[extensionId];
-  if (!extensionInfo) {
+  const removed = extensionsToml[extensionId];
+  if (!removed) {
     throw new Error(
       `No extension with ID "${extensionId}" found in '${path}'.`,
     );
@@ -30,7 +31,7 @@ export async function removeExtensionFromToml(path, extensionId) {
   delete extensionsToml[extensionId];
   await writeExtensionsToml(path, extensionsToml);
 
-  return extensionInfo;
+  return { removed, remaining: extensionsToml };
 }
 
 /**

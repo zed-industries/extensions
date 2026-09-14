@@ -55,8 +55,6 @@ jobs:
           base: main
           delete-branch: true
           sign-commits: true
-          committer: zed-zippy[bot] <234243425+zed-zippy[bot]@users.noreply.github.com>
-          author: zed-zippy[bot] <234243425+zed-zippy[bot]@users.noreply.github.com>
           assignees: ${{ github.actor }}
           commit-message: "Remove `${{ inputs.extension_id }}` extension"
           title: "Remove `${{ inputs.extension_id }}` extension"
