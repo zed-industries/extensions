@@ -52,7 +52,7 @@ version = "0.0.2"
 
 [adaptify]
 submodule = "extensions/adaptify"
-version = "0.3.0"
+version = "0.3.1"
 
 [adech]
 submodule = "extensions/adech"
@@ -290,7 +290,7 @@ version = "0.1.0"
 
 [astro]
 submodule = "extensions/astro"
-version = "0.2.0"
+version = "0.2.1"
 
 [atlas-ragnarok-theme]
 submodule = "extensions/atlas-ragnarok-theme"
@@ -438,10 +438,6 @@ version = "0.1.2"
 
 [beanseeds-pro]
 submodule = "extensions/beanseeds-pro"
-version = "1.0.0"
-
-[bearded]
-submodule = "extensions/bearded"
 version = "1.0.0"
 
 [bearded-icon-theme]
@@ -630,6 +626,11 @@ version = "0.1.0"
 [bun-docs-mcp]
 submodule = "extensions/bun-docs-mcp"
 version = "1.0.0"
+
+[bylaws-lsp]
+submodule = "extensions/bylaws-lsp"
+path = "Editors/Zed"
+version = "0.1.0"
 
 [c3]
 submodule = "extensions/c3"
@@ -950,6 +951,10 @@ submodule = "extensions/compline"
 path = "zed"
 version = "0.1.0"
 
+[confetti]
+submodule = "extensions/confetti"
+version = "0.1.0"
+
 [confluence-context-server]
 submodule = "extensions/confluence-context-server"
 version = "1.0.0"
@@ -1234,11 +1239,6 @@ version = "0.1.2"
 submodule = "extensions/dep-beacon-lsp"
 path = "extensions/dep-beacon-lsp"
 version = "1.1.1"
-
-[dependi]
-submodule = "extensions/dependi"
-path = "dependi-zed"
-version = "1.11.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -2234,10 +2234,6 @@ version = "0.2.0"
 submodule = "extensions/hoon"
 version = "0.1.0"
 
-[horizon]
-submodule = "extensions/horizon"
-version = "0.0.1"
-
 [horizon-extended]
 submodule = "extensions/horizon-extended"
 version = "0.0.1"
@@ -2412,10 +2408,6 @@ version = "0.1.2"
 submodule = "extensions/ir-black"
 version = "0.0.1"
 
-[irix-terminal-theme]
-submodule = "extensions/irix-terminal-theme"
-version = "0.1.0"
-
 [irodori-theme]
 submodule = "extensions/irodori-theme"
 version = "1.0.0"
@@ -2459,7 +2451,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.26"
+version = "6.8.27"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2764,6 +2756,10 @@ version = "0.0.1"
 submodule = "extensions/lilypond"
 version = "0.1.1"
 
+[lina-theme]
+submodule = "extensions/lina-theme"
+version = "0.0.1"
+
 [lini]
 submodule = "extensions/lini"
 path = "editors/zed"
@@ -2947,7 +2943,7 @@ version = "0.1.0"
 
 [maple-theme]
 submodule = "extensions/maple-theme"
-version = "0.1.9"
+version = "0.2.0"
 
 [marathon-theme]
 submodule = "extensions/marathon-theme"
@@ -3221,7 +3217,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "6.2.1"
+version = "6.3.0"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -3436,10 +3432,6 @@ version = "0.0.1"
 [naive-ui-intellisense]
 submodule = "extensions/naive-ui-intellisense"
 version = "0.1.2"
-
-[nanowise]
-submodule = "extensions/nanowise"
-version = "0.1.0"
 
 [napalm]
 submodule = "extensions/napalm"
@@ -4420,10 +4412,6 @@ version = "0.0.1"
 submodule = "extensions/regex-theme"
 version = "0.11.11"
 
-[rego]
-submodule = "extensions/rego"
-version = "0.0.2"
-
 [relaxed-theme]
 submodule = "extensions/relaxed-theme"
 version = "0.1.0"
@@ -5071,7 +5059,7 @@ version = "0.1.1"
 
 [svelte-snippets]
 submodule = "extensions/svelte-snippets"
-version = "0.1.0"
+version = "0.2.0"
 
 [sway]
 submodule = "extensions/sway"
@@ -5113,7 +5101,7 @@ version = "0.1.1"
 
 [synthwave84]
 submodule = "extensions/synthwave84"
-version = "0.2.0"
+version = "0.3.0"
 
 [sysml-v2]
 submodule = "extensions/sysml-v2"
@@ -5571,7 +5559,7 @@ version = "0.0.19"
 
 [version14-theme]
 submodule = "extensions/version14-theme"
-version = "0.1.0"
+version = "0.4.2"
 
 [veryl]
 submodule = "extensions/veryl"
@@ -5790,7 +5778,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.5.0"
+version = "0.8.0"
 
 [whkd]
 submodule = "extensions/whkd"
@@ -5915,10 +5903,6 @@ version = "0.0.3"
 [zedbox]
 submodule = "extensions/zedbox"
 version = "0.0.3"
-
-[zedburn]
-submodule = "extensions/zedburn"
-version = "0.1.0"
 
 [zedokai]
 submodule = "extensions/zedokai"
