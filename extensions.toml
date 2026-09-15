@@ -440,10 +440,6 @@ version = "0.1.2"
 submodule = "extensions/beanseeds-pro"
 version = "1.0.0"
 
-[bearded]
-submodule = "extensions/bearded"
-version = "1.0.0"
-
 [bearded-icon-theme]
 submodule = "extensions/bearded-icon-theme"
 version = "0.4.0"
@@ -1243,11 +1239,6 @@ version = "0.1.2"
 submodule = "extensions/dep-beacon-lsp"
 path = "extensions/dep-beacon-lsp"
 version = "1.1.1"
-
-[dependi]
-submodule = "extensions/dependi"
-path = "dependi-zed"
-version = "1.11.0"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -2247,10 +2238,6 @@ version = "0.2.0"
 submodule = "extensions/hoon"
 version = "0.1.0"
 
-[horizon]
-submodule = "extensions/horizon"
-version = "0.0.1"
-
 [horizon-extended]
 submodule = "extensions/horizon-extended"
 version = "0.0.1"
@@ -2425,10 +2412,6 @@ version = "0.1.2"
 submodule = "extensions/ir-black"
 version = "0.0.1"
 
-[irix-terminal-theme]
-submodule = "extensions/irix-terminal-theme"
-version = "0.1.0"
-
 [irodori-theme]
 submodule = "extensions/irodori-theme"
 version = "1.0.0"
@@ -2472,7 +2455,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.26"
+version = "6.8.27"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2776,6 +2759,10 @@ version = "0.0.1"
 [lilypond]
 submodule = "extensions/lilypond"
 version = "0.1.1"
+
+[lina-theme]
+submodule = "extensions/lina-theme"
+version = "0.0.1"
 
 [lini]
 submodule = "extensions/lini"
@@ -3234,7 +3221,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "6.2.1"
+version = "6.3.0"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -3449,10 +3436,6 @@ version = "0.0.1"
 [naive-ui-intellisense]
 submodule = "extensions/naive-ui-intellisense"
 version = "0.1.2"
-
-[nanowise]
-submodule = "extensions/nanowise"
-version = "0.1.0"
 
 [napalm]
 submodule = "extensions/napalm"
@@ -4433,10 +4416,6 @@ version = "0.0.1"
 submodule = "extensions/regex-theme"
 version = "0.11.11"
 
-[rego]
-submodule = "extensions/rego"
-version = "0.0.2"
-
 [relaxed-theme]
 submodule = "extensions/relaxed-theme"
 version = "0.1.0"
@@ -5380,7 +5359,7 @@ version = "1.1.0"
 [tsrx]
 submodule = "extensions/tsrx"
 path = "packages/zed-plugin"
-version = "0.0.88"
+version = "0.1.0"
 
 [turbo-log-snippets]
 submodule = "extensions/turbo-log-snippets"
@@ -5924,10 +5903,6 @@ version = "0.0.3"
 [zedbox]
 submodule = "extensions/zedbox"
 version = "0.0.3"
-
-[zedburn]
-submodule = "extensions/zedburn"
-version = "0.1.0"
 
 [zedokai]
 submodule = "extensions/zedokai"
