@@ -1244,6 +1244,10 @@ submodule = "extensions/dep-beacon-lsp"
 path = "extensions/dep-beacon-lsp"
 version = "1.1.1"
 
+[dependi]
+submodule = "extensions/dependi"
+path = "zed"
+version = "1.20.0"
 [deps-language-server]
 submodule = "extensions/deps-language-server"
 version = "0.1.8"
@@ -5995,7 +5999,3 @@ version = "0.0.1"
 [zwirn]
 submodule = "extensions/zwirn"
 version = "0.2.0"
-[dependi]
-submodule = "extensions/dependi"
-path = "zed"
-version = "1.20.0"
