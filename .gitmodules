@@ -3858,6 +3858,11 @@
 	path = extensions/paraiso
 	url = https://github.com/treffynnon/zed-Paraiso.git
 
+[submodule "extensions/pascal"]
+	path = extensions/pascal
+	url = https://github.com/oisanjaya/zed-pascal
+	branch = feature
+
 [submodule "extensions/pastel-night-theme"]
 	path = extensions/pastel-night-theme
 	url = https://github.com/leolorenzato/zed-pastel-night-theme.git
@@ -5869,7 +5874,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/pascal"]
-	path = extensions/pascal
-	url = https://github.com/oisanjaya/zed-pascal
-	branch = feature
