@@ -1578,6 +1578,10 @@
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
 
+[submodule "extensions/fastly-vcl"]
+	path = extensions/fastly-vcl
+	url = https://github.com/fastly/zed-fastly-vcl.git
+
 [submodule "extensions/fatou-language-server"]
 	path = extensions/fatou-language-server
 	url = https://github.com/jolars/fatou.git
