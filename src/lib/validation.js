@@ -24,7 +24,6 @@ const EXTENSION_VERSION_EXCEPTIONS = new Map([
   ["eh-web-themes", "1.0"],
   ["gitignore-templates", "2025.08.0"],
   ["platformio", "v0.0.1"],
-  ["symposium", "1.3"],
   ["unity-debugger", "26.04.06"],
 ]);
 
