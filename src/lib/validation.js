@@ -20,10 +20,7 @@ const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
  *
  * Only to be edited by Zed staff.
  */
-const EXTENSION_VERSION_EXCEPTIONS = new Map([
-  ["platformio", "v0.0.1"],
-  ["unity-debugger", "26.04.06"],
-]);
+const EXTENSION_VERSION_EXCEPTIONS = new Map([["platformio", "v0.0.1"]]);
 
 /**
  * Exceptions to the rule of extension IDs starting in `zed-`.
