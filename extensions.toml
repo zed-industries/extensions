@@ -1982,6 +1982,10 @@ submodule = "extensions/zed"
 path = "extensions/glsl"
 version = "0.2.4"
 
+[glsl-extended]
+submodule = "extensions/glsl-extended"
+version = "0.1.20"
+
 [gn]
 submodule = "extensions/gn"
 version = "1.4.0"
