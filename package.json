@@ -10,6 +10,7 @@
     "test:watch": "vitest",
     "package-extensions": "node src/package-extensions.js",
     "sort-extensions": "node src/sort-extensions.js",
+    "remove-extension": "node src/remove-extension.js",
     "danger": "danger"
   },
   "dependencies": {
