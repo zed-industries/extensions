@@ -81,7 +81,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.52.1"
+version = "0.54.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -466,7 +466,7 @@ version = "0.0.1"
 
 [bicep]
 submodule = "extensions/bicep"
-version = "1.2.2"
+version = "1.4.0"
 
 [biome]
 submodule = "extensions/biome"
@@ -1430,7 +1430,7 @@ version = "0.0.6"
 
 [eh-web-themes]
 submodule = "extensions/eh-web-themes"
-version = "1.0"
+version = "1.0.0"
 
 [eiffel-theme]
 submodule = "extensions/eiffel-theme"
@@ -1947,7 +1947,7 @@ version = "0.1.8"
 
 [gitignore-templates]
 submodule = "extensions/gitignore-templates"
-version = "2025.08.0"
+version = "2026.9.1"
 
 [gitlab-ci-ls]
 submodule = "extensions/gitlab-ci-ls"
@@ -2317,7 +2317,7 @@ version = "0.0.5"
 
 [i18n-lens-language-server]
 submodule = "extensions/i18n-lens-language-server"
-version = "0.11.1"
+version = "0.12.0"
 
 [ibm-5151]
 submodule = "extensions/ibm-5151"
@@ -2642,6 +2642,10 @@ version = "1.0.0"
 [kiselevka]
 submodule = "extensions/kiselevka"
 version = "0.0.1"
+
+[kitty]
+submodule = "extensions/kitty"
+version = "0.0.2"
 
 [koda-theme]
 submodule = "extensions/koda-theme"
@@ -4601,6 +4605,11 @@ submodule = "extensions/santi020k-theme"
 path = "packages/santi020k-zed-theme"
 version = "1.0.0"
 
+[satz]
+submodule = "extensions/satz"
+path = "editors/zed"
+version = "0.1.0"
+
 [scala]
 submodule = "extensions/scala"
 version = "0.2.3"
@@ -4892,10 +4901,6 @@ version = "0.1.1"
 submodule = "extensions/sourcepawn"
 version = "0.0.1"
 
-[spai-zero-theme]
-submodule = "extensions/spai-zero-theme"
-version = "0.2.1"
-
 [spiceflow-theme]
 submodule = "extensions/spiceflow-theme"
 version = "0.0.0"
@@ -5088,11 +5093,6 @@ version = "0.4.11"
 [symbols]
 submodule = "extensions/symbols"
 version = "1.2.0"
-
-[symposium]
-submodule = "extensions/symposium"
-path = "zed-extension/prod"
-version = "1.3"
 
 [syntaqlite-lsp]
 submodule = "extensions/syntaqlite-lsp"
@@ -5471,7 +5471,7 @@ version = "0.5.10"
 
 [unity-debugger]
 submodule = "extensions/unity-debugger"
-version = "26.04.06"
+version = "26.4.6"
 
 [unity-snippets]
 submodule = "extensions/unity-snippets"

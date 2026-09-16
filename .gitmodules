@@ -2586,6 +2586,10 @@
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
 
+[submodule "extensions/kitty"]
+	path = extensions/kitty
+	url = https://github.com/Elcaten/zed-kitty.git
+
 [submodule "extensions/koda-theme"]
 	path = extensions/koda-theme
 	url = https://github.com/markosnarinian/koda-zed.git
@@ -4514,6 +4518,10 @@
 	path = extensions/santi020k-theme
 	url = https://github.com/santi020k/santi020k-theme
 
+[submodule "extensions/satz"]
+	path = extensions/satz
+	url = https://github.com/tjirsch/satz.git
+
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
@@ -4798,10 +4806,6 @@
 	path = extensions/sourcepawn
 	url = https://github.com/tsuza/zed-sourcepawn-ext.git
 
-[submodule "extensions/spai-zero-theme"]
-	path = extensions/spai-zero-theme
-	url = https://github.com/BasaiCorp/zed-spai-zero-theme.git
-
 [submodule "extensions/spiceflow-theme"]
 	path = extensions/spiceflow-theme
 	url = https://github.com/remorses/spiceflow-zed-theme
@@ -4989,10 +4993,6 @@
 [submodule "extensions/symbols"]
 	path = extensions/symbols
 	url = https://github.com/sebastiandotdev/zed-symbols.git
-
-[submodule "extensions/symposium"]
-	path = extensions/symposium
-	url = https://github.com/symposium-dev/symposium.git
 
 [submodule "extensions/syntaqlite-lsp"]
 	path = extensions/syntaqlite-lsp
