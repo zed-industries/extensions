@@ -21,7 +21,6 @@ const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
  * Only to be edited by Zed staff.
  */
 const EXTENSION_VERSION_EXCEPTIONS = new Map([
-  ["eh-web-themes", "1.0"],
   ["gitignore-templates", "2025.08.0"],
   ["platformio", "v0.0.1"],
   ["unity-debugger", "26.04.06"],
