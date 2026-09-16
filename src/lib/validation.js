@@ -16,6 +16,19 @@ import {
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
 
 /**
+ * Grandfather only these existing extension/version pairs, not future releases.
+ *
+ * Only to be edited by Zed staff.
+ */
+const EXTENSION_VERSION_EXCEPTIONS = new Map([
+  ["eh-web-themes", "1.0"],
+  ["gitignore-templates", "2025.08.0"],
+  ["platformio", "v0.0.1"],
+  ["symposium", "1.3"],
+  ["unity-debugger", "26.04.06"],
+]);
+
+/**
  * Exceptions to the rule of extension IDs starting in `zed-`.
  *
  * Only to be edited by Zed staff.
@@ -75,6 +88,19 @@ export function validateExtensionsToml(extensionsToml) {
     if (!extensionInfo.submodule || !extensionInfo.version) {
       throw new Error(
         `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+      );
+    }
+
+    const version = extensionInfo.version;
+    const parsedVersion = semver.parse(version);
+    if (
+      version !== EXTENSION_VERSION_EXCEPTIONS.get(extensionId) &&
+      (!parsedVersion ||
+        version !==
+          `${parsedVersion.major}.${parsedVersion.minor}.${parsedVersion.patch}`)
+    ) {
+      throw new Error(
+        `Invalid version "${version}" for extension "${extensionId}". Expected a SemVer version in the form "major.minor.patch" with no leading zeroes, prefixes, suffixes, or whitespace.`,
       );
     }
   }
@@ -240,6 +266,11 @@ export function assertVersionNotDecreased(
   currentVersion,
   previousVersion,
 ) {
+  // Let maintainers choose a valid replacement for their legacy version.
+  if (previousVersion === EXTENSION_VERSION_EXCEPTIONS.get(extensionId)) {
+    return;
+  }
+
   if (semver.lt(currentVersion, previousVersion)) {
     throw new Error(
       `Version for extension "${extensionId}" must not decrease: ${previousVersion} -> ${currentVersion}`,
