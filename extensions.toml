@@ -839,6 +839,11 @@ version = "0.0.1"
 submodule = "extensions/clarity"
 version = "0.1.0"
 
+[claude-code-connect]
+submodule = "extensions/claude-code-connect"
+version = "0.1.0"
+path = "extension"
+
 [claude-code-inspired-dark]
 submodule = "extensions/claude-code-inspired-dark"
 version = "1.0.0"

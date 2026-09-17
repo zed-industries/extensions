@@ -822,6 +822,10 @@
 	path = extensions/clarity
 	url = https://github.com/stx-labs/clarity-zed.git
 
+[submodule "extensions/claude-code-connect"]
+	path = extensions/claude-code-connect
+	url = https://github.com/josephsintum/zed-claude-code-connect.git
+
 [submodule "extensions/claude-code-inspired-dark"]
 	path = extensions/claude-code-inspired-dark
 	url = https://github.com/ericbuess/claude-code-inspired-dark.git
