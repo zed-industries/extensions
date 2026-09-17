@@ -301,6 +301,10 @@ version = "1.0.0"
 submodule = "extensions/atom-one-theme"
 version = "0.1.0"
 
+[atomic-dark-theme]
+submodule = "extensions/atomic-dark-theme"
+version = "0.1.0"
+
 [atomize]
 submodule = "extensions/atomize"
 version = "0.0.1"
@@ -909,6 +913,10 @@ version = "0.0.6"
 submodule = "extensions/codestackr"
 version = "0.0.2"
 
+[codetime-lsp]
+submodule = "extensions/codetime-lsp"
+version = "0.1.8"
+
 [coding-in-the-sun-theme]
 submodule = "extensions/coding-in-the-sun-theme"
 version = "0.0.1"
@@ -1031,7 +1039,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.3.0"
+version = "1.4.0"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -1251,7 +1259,7 @@ version = "0.1.8"
 [depsy-lsp]
 submodule = "extensions/depsy-lsp"
 path = "depsy-zed"
-version = "2.0.2"
+version = "2.1.0"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -1277,7 +1285,7 @@ version = "2.0.1"
 
 [devicetree]
 submodule = "extensions/devicetree"
-version = "0.0.1"
+version = "0.2.0"
 
 [dhall]
 submodule = "extensions/dhall"
@@ -1314,6 +1322,10 @@ version = "1.0.4"
 [dogxi-theme]
 submodule = "extensions/dogxi-theme"
 version = "0.0.2"
+
+[donna]
+submodule = "extensions/donna"
+version = "0.1.0"
 
 [doom-one-theme]
 submodule = "extensions/doom-one-theme"
@@ -1466,7 +1478,7 @@ version = "0.0.5"
 
 [elixir]
 submodule = "extensions/elixir"
-version = "0.6.4"
+version = "0.7.0"
 
 [elixir-hex-lens]
 submodule = "extensions/elixir-hex-lens"
@@ -1628,6 +1640,10 @@ version = "1.0.0"
 [fennel]
 submodule = "extensions/fennel"
 version = "0.2.0"
+
+[feral]
+submodule = "extensions/feral"
+version = "0.0.1"
 
 [ferret]
 submodule = "extensions/ferret"
@@ -1984,7 +2000,7 @@ version = "0.2.1"
 [glsl]
 submodule = "extensions/zed"
 path = "extensions/glsl"
-version = "0.2.4"
+version = "0.2.5"
 
 [gn]
 submodule = "extensions/gn"
@@ -2001,6 +2017,10 @@ version = "1.3.0"
 [golangci-lint]
 submodule = "extensions/golangci-lint"
 version = "0.2.0"
+
+[golens-lsp]
+submodule = "extensions/golens-lsp"
+version = "1.0.0"
 
 [gosum]
 submodule = "extensions/gosum"
@@ -2277,7 +2297,7 @@ version = "0.0.1"
 [html]
 submodule = "extensions/zed"
 path = "extensions/html"
-version = "0.3.1"
+version = "0.3.2"
 
 [html-jinja]
 submodule = "extensions/html-jinja"
@@ -4227,7 +4247,7 @@ version = "0.0.2"
 [proto]
 submodule = "extensions/zed"
 path = "extensions/proto"
-version = "0.3.3"
+version = "0.3.4"
 
 [pruple-theme]
 submodule = "extensions/pruple-theme"
@@ -4604,6 +4624,10 @@ version = "0.2.0"
 submodule = "extensions/salesforce"
 version = "0.0.4"
 
+[salt]
+submodule = "extensions/salt"
+version = "1.1.0"
+
 [santi020k-theme]
 submodule = "extensions/santi020k-theme"
 path = "packages/santi020k-zed-theme"
@@ -4904,10 +4928,6 @@ version = "0.1.1"
 [sourcepawn]
 submodule = "extensions/sourcepawn"
 version = "0.0.1"
-
-[spai-zero-theme]
-submodule = "extensions/spai-zero-theme"
-version = "0.2.1"
 
 [spiceflow-theme]
 submodule = "extensions/spiceflow-theme"
