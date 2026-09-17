@@ -714,6 +714,10 @@
 	path = extensions/catppuccin-icons
 	url = https://github.com/catppuccin/zed-icons.git
 
+[submodule "extensions/catthode-theme"]
+	path = extensions/catthode-theme
+	url = https://github.com/catthode/zed.git
+
 [submodule "extensions/cds-lsp"]
 	path = extensions/cds-lsp
 	url = https://github.com/doxblek/zed-cds-lsp
@@ -1710,6 +1714,10 @@
 	path = extensions/focus-theme
 	url = https://github.com/jigyansunanda/focus.git
 
+[submodule "extensions/foreglow-theme"]
+	path = extensions/foreglow-theme
+	url = https://github.com/Foreglow/zed.git
+
 [submodule "extensions/forest-cottage-theme"]
 	path = extensions/forest-cottage-theme
 	url = https://github.com/zphrs/forest-cottage-theme-zed
@@ -2578,6 +2586,10 @@
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
 
+[submodule "extensions/kitty"]
+	path = extensions/kitty
+	url = https://github.com/Elcaten/zed-kitty.git
+
 [submodule "extensions/koda-theme"]
 	path = extensions/koda-theme
 	url = https://github.com/markosnarinian/koda-zed.git
@@ -3193,6 +3205,10 @@
 [submodule "extensions/midnight-marina"]
 	path = extensions/midnight-marina
 	url = https://github.com/Muddyblack/midnight-marina-zed.git
+
+[submodule "extensions/midnight-theme"]
+	path = extensions/midnight-theme
+	url = https://github.com/mete-sirin/midnight-theme.git
 
 [submodule "extensions/miles-theme"]
 	path = extensions/miles-theme
@@ -4502,6 +4518,10 @@
 	path = extensions/santi020k-theme
 	url = https://github.com/santi020k/santi020k-theme
 
+[submodule "extensions/satz"]
+	path = extensions/satz
+	url = https://github.com/tjirsch/satz.git
+
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
@@ -4786,10 +4806,6 @@
 	path = extensions/sourcepawn
 	url = https://github.com/tsuza/zed-sourcepawn-ext.git
 
-[submodule "extensions/spai-zero-theme"]
-	path = extensions/spai-zero-theme
-	url = https://github.com/BasaiCorp/zed-spai-zero-theme.git
-
 [submodule "extensions/spiceflow-theme"]
 	path = extensions/spiceflow-theme
 	url = https://github.com/remorses/spiceflow-zed-theme
@@ -4977,10 +4993,6 @@
 [submodule "extensions/symbols"]
 	path = extensions/symbols
 	url = https://github.com/sebastiandotdev/zed-symbols.git
-
-[submodule "extensions/symposium"]
-	path = extensions/symposium
-	url = https://github.com/symposium-dev/symposium.git
 
 [submodule "extensions/syntaqlite-lsp"]
 	path = extensions/syntaqlite-lsp
