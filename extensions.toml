@@ -4184,6 +4184,11 @@ version = "0.0.5"
 submodule = "extensions/postgres-language-server"
 version = "0.1.0"
 
+[postgresql-conf]
+submodule = "extensions/postgresql-conf"
+path = "editors/zed"
+version = "0.1.7"
+
 [postman-context-server]
 submodule = "extensions/postman-context-server"
 version = "0.2.0"
