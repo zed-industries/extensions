@@ -4766,6 +4766,10 @@
 	path = extensions/slate-ui-theme
 	url = https://github.com/Giossue/slate-ui-theme.git
 
+[submodule "extensions/slatehollow-theme"]
+	path = extensions/slatehollow-theme
+	url = https://github.com/ams-sth/slatehollow
+
 [submodule "extensions/slim"]
 	path = extensions/slim
 	url = https://github.com/calmyournerves/zed-slim.git
@@ -5493,10 +5497,6 @@
 [submodule "extensions/vanta-theme"]
 	path = extensions/vanta-theme
 	url = https://codeberg.org/bogusz/vanta.git
-
-[submodule "extensions/vantadark-theme"]
-	path = extensions/vantadark-theme
-	url = https://github.com/ams-sth/vantadark
 
 [submodule "extensions/vapor-theme"]
 	path = extensions/vapor-theme
