@@ -1004,6 +1004,10 @@ version = "0.1.0"
 submodule = "extensions/cql"
 version = "3.0.0"
 
+[crate-helper]
+submodule = "extensions/crate-helper"
+version = "0.1.0"
+
 [crates-lsp]
 submodule = "extensions/crates-lsp"
 version = "0.2.0"
