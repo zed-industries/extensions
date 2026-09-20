@@ -4684,8 +4684,6 @@ version = "0.0.12"
 submodule = "extensions/sitruuna"
 version = "0.1.0"
 
-[skys-theme]
-submodule = "extensions/skys-theme"
 [skill-language-server]
 submodule = "extensions/skill-language-server"
 path = "ext/zed"
@@ -4695,6 +4693,10 @@ version = "0.0.1"
 submodule = "extensions/skript"
 path = "extension"
 version = "0.2.5"
+
+[skys-theme]
+submodule = "extensions/skys-theme"
+version = "0.1.0"
 
 [sl4y-theme]
 submodule = "extensions/sl4y-theme"
