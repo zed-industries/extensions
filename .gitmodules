@@ -2186,6 +2186,10 @@
 	path = extensions/herzha-theme
 	url = https://github.com/madhanmaaz/herzha-theme.git
 
+[submodule "extensions/heta"]
+	path = extensions/heta
+	url = https://github.com/hetalang/zed-heta.git
+
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
 	url = https://github.com/coghost/light-zed-theme
@@ -2193,6 +2197,10 @@
 [submodule "extensions/hexpeek"]
 	path = extensions/hexpeek
 	url = https://github.com/A-23187/zed-hexpeek.git
+
+[submodule "extensions/hfst"]
+	path = extensions/hfst
+	url = https://github.com/tachyons/zed-hfst
 
 [submodule "extensions/high-contrast-themes"]
 	path = extensions/high-contrast-themes
@@ -2813,6 +2821,10 @@
 [submodule "extensions/logcat"]
 	path = extensions/logcat
 	url = https://github.com/vinnom/logcat-highlighter.git
+
+[submodule "extensions/logos"]
+	path = extensions/logos
+	url = https://github.com/nobottomline/logos-zed.git
 
 [submodule "extensions/logstash"]
 	path = extensions/logstash
@@ -4033,6 +4045,10 @@
 [submodule "extensions/php"]
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
+
+[submodule "extensions/php-lsp"]
+	path = extensions/php-lsp
+	url = https://github.com/jorgsowa/php-lsp-zed-extension
 
 [submodule "extensions/php-snippets"]
 	path = extensions/php-snippets
