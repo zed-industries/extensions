@@ -522,6 +522,10 @@
 	path = extensions/blinds-theme
 	url = https://github.com/orbulant/zed-blinds-theme.git
 
+[submodule "extensions/blink"]
+	path = extensions/blink
+	url = https://github.com/okhalri/zed-blink
+
 [submodule "extensions/blk-theme"]
 	path = extensions/blk-theme
 	url = https://github.com/leetdavid/blk-zed
@@ -1025,6 +1029,10 @@
 [submodule "extensions/css-modules-kit"]
 	path = extensions/css-modules-kit
 	url = https://github.com/mizdra/css-modules-kit.git
+
+[submodule "extensions/css-modules-lsp"]
+	path = extensions/css-modules-lsp
+	url = https://github.com/gugahoi/zed-css-modules-lsp.git
 
 [submodule "extensions/css-variables"]
 	path = extensions/css-variables
@@ -1990,6 +1998,10 @@
 	path = extensions/grafana-alloy
 	url = https://github.com/lenstr/zed-grafana-alloy.git
 
+[submodule "extensions/grapebox-theme"]
+	path = extensions/grapebox-theme
+	url = https://github.com/fisherrjd/Grapebox.git
+
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene.git
@@ -2069,6 +2081,10 @@
 [submodule "extensions/gruvbox-material"]
 	path = extensions/gruvbox-material
 	url = https://github.com/tokiory/zed-gruvbox-material.git
+
+[submodule "extensions/gruvbox-material-icons"]
+	path = extensions/gruvbox-material-icons
+	url = https://github.com/RiverMatsumoto/zed-gruvbox-material-icons
 
 [submodule "extensions/gruvbox-material-mix"]
 	path = extensions/gruvbox-material-mix
@@ -2174,6 +2190,10 @@
 	path = extensions/herzha-theme
 	url = https://github.com/madhanmaaz/herzha-theme.git
 
+[submodule "extensions/heta"]
+	path = extensions/heta
+	url = https://github.com/hetalang/zed-heta.git
+
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
 	url = https://github.com/coghost/light-zed-theme
@@ -2181,6 +2201,10 @@
 [submodule "extensions/hexpeek"]
 	path = extensions/hexpeek
 	url = https://github.com/A-23187/zed-hexpeek.git
+
+[submodule "extensions/hfst"]
+	path = extensions/hfst
+	url = https://github.com/tachyons/zed-hfst
 
 [submodule "extensions/high-contrast-themes"]
 	path = extensions/high-contrast-themes
@@ -2413,6 +2437,10 @@
 [submodule "extensions/iwe"]
 	path = extensions/iwe
 	url = https://github.com/iwe-org/zed-iwe.git
+
+[submodule "extensions/jac"]
+	path = extensions/jac
+	url = https://github.com/chess10kp/jac-zed.git
 
 [submodule "extensions/jai"]
 	path = extensions/jai
@@ -2662,6 +2690,10 @@
 	path = extensions/kvs-cyberpunk-2077
 	url = https://github.com/notKvS/2077-zed.git
 
+[submodule "extensions/languagetool-lsp"]
+	path = extensions/languagetool-lsp
+	url = https://github.com/mschuwalow/languagetool-zed-extension.git
+
 [submodule "extensions/laravel"]
 	path = extensions/laravel
 	url = https://github.com/mike-bronner/zed-laravel.git
@@ -2794,6 +2826,10 @@
 	path = extensions/logcat
 	url = https://github.com/vinnom/logcat-highlighter.git
 
+[submodule "extensions/logos"]
+	path = extensions/logos
+	url = https://github.com/nobottomline/logos-zed.git
+
 [submodule "extensions/logstash"]
 	path = extensions/logstash
 	url = https://github.com/StrongTheDev/logstash-for-zed
@@ -2841,6 +2877,10 @@
 [submodule "extensions/lume-theme"]
 	path = extensions/lume-theme
 	url = https://github.com/danfry1/lume-zed-theme.git
+
+[submodule "extensions/lumenhush-theme"]
+	path = extensions/lumenhush-theme
+	url = https://github.com/pedronhamirre/lumenhush-theme.git
 
 [submodule "extensions/lumin-theme"]
 	path = extensions/lumin-theme
@@ -3190,6 +3230,10 @@
 	path = extensions/mcp-server-zuraffa
 	url = https://github.com/arrrrny/zuraffa-zed.git
 
+[submodule "extensions/md-image-path-lsp"]
+	path = extensions/md-image-path-lsp
+	url = https://github.com/yuzukq/md-image-path-lsp.git
+
 [submodule "extensions/mdias-oled-theme"]
 	path = extensions/mdias-oled-theme
 	url = https://github.com/mcdays94/zed-vaporware-oled-theme.git
@@ -3237,6 +3281,10 @@
 [submodule "extensions/miles-theme"]
 	path = extensions/miles-theme
 	url = https://github.com/imkarmona/miles-theme.git
+
+[submodule "extensions/milo-theme"]
+	path = extensions/milo-theme
+	url = https://github.com/hazicy/milo-theme-zed.git
 
 [submodule "extensions/mimo-code-theme"]
 	path = extensions/mimo-code-theme
@@ -3478,6 +3526,10 @@
 	path = extensions/new-darcula
 	url = https://github.com/e-simpson/new-darcula-z.git
 
+[submodule "extensions/newspaper-theme"]
+	path = extensions/newspaper-theme
+	url = https://github.com/ibehren1/zed-newspaper-theme
+
 [submodule "extensions/nextjs-react-snippets"]
 	path = extensions/nextjs-react-snippets
 	url = https://github.com/Konstantinos-Ps/zed-nextjs-react-snippets
@@ -3597,6 +3649,10 @@
 [submodule "extensions/npm-package-json-checker"]
 	path = extensions/npm-package-json-checker
 	url = https://github.com/e-simpson/zed-npm-update-checker.git
+
+[submodule "extensions/npmx-language-server"]
+	path = extensions/npmx-language-server
+	url = https://github.com/npmx-dev/vscode-npmx
 
 [submodule "extensions/nsis"]
 	path = extensions/nsis
@@ -3994,6 +4050,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/php-lsp"]
+	path = extensions/php-lsp
+	url = https://github.com/jorgsowa/php-lsp-zed-extension
+
 [submodule "extensions/php-snippets"]
 	path = extensions/php-snippets
 	url = https://github.com/seekode/zed-php-snippets
@@ -4125,6 +4185,10 @@
 [submodule "extensions/poryscript"]
 	path = extensions/poryscript
 	url = https://github.com/chris-wilson-1/zed-poryscript.git
+
+[submodule "extensions/postdare-theme"]
+	path = extensions/postdare-theme
+	url = https://github.com/postdare/zed-postdare.git
 
 [submodule "extensions/postgres-context-server"]
 	path = extensions/postgres-context-server
@@ -4470,6 +4534,10 @@
 	path = extensions/roto
 	url = https://github.com/tertsdiepraam/zed-extension-roto.git
 
+[submodule "extensions/rotom"]
+	path = extensions/rotom
+	url = https://github.com/KalaayPT/rotom-zed.git
+
 [submodule "extensions/rover"]
 	path = extensions/rover
 	url = https://github.com/rover-app/zed-extension.git
@@ -4489,6 +4557,10 @@
 [submodule "extensions/rst"]
 	path = extensions/rst
 	url = https://github.com/elmarco/zed-rst.git
+
+[submodule "extensions/rtemis-theme"]
+	path = extensions/rtemis-theme
+	url = https://github.com/rtemis-org/rtemis-theme.git
 
 [submodule "extensions/ruby"]
 	path = extensions/ruby
@@ -4550,6 +4622,10 @@
 	path = extensions/satz
 	url = https://github.com/tjirsch/satz.git
 
+[submodule "extensions/sbpf-assembly"]
+	path = extensions/sbpf-assembly
+	url = https://github.com/Perelyn-sama/sbpf-assembly.git
+
 [submodule "extensions/scala"]
 	path = extensions/scala
 	url = https://github.com/scalameta/metals-zed.git
@@ -4573,6 +4649,10 @@
 [submodule "extensions/seaglass-theme"]
 	path = extensions/seaglass-theme
 	url = https://github.com/mrcoolbay/seaglass-theme.git
+
+[submodule "extensions/secdb-lsp"]
+	path = extensions/secdb-lsp
+	url = https://github.com/giterlizzi/secdb-zed.git
 
 [submodule "extensions/selene-abyss-theme"]
 	path = extensions/selene-abyss-theme
@@ -5785,6 +5865,10 @@
 [submodule "extensions/yarn-spinner"]
 	path = extensions/yarn-spinner
 	url = https://github.com/yuna0x0/zed-yarn-spinner.git
+
+[submodule "extensions/yayamlls"]
+	path = extensions/yayamlls
+	url = https://github.com/home-operations/yayamlls.git
 
 [submodule "extensions/yellowed"]
 	path = extensions/yellowed
