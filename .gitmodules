@@ -1030,6 +1030,10 @@
 	path = extensions/css-modules-kit
 	url = https://github.com/mizdra/css-modules-kit.git
 
+[submodule "extensions/css-modules-lsp"]
+	path = extensions/css-modules-lsp
+	url = https://github.com/gugahoi/zed-css-modules-lsp.git
+
 [submodule "extensions/css-variables"]
 	path = extensions/css-variables
 	url = https://github.com/lmn451/css-variables-zed.git
@@ -2854,6 +2858,10 @@
 	path = extensions/lume-theme
 	url = https://github.com/danfry1/lume-zed-theme.git
 
+[submodule "extensions/lumenhush-theme"]
+	path = extensions/lumenhush-theme
+	url = https://github.com/pedronhamirre/lumenhush-theme.git
+
 [submodule "extensions/lumin-theme"]
 	path = extensions/lumin-theme
 	url = https://github.com/frypan05/Lumin.git
@@ -3201,6 +3209,10 @@
 [submodule "extensions/mcp-server-zuraffa"]
 	path = extensions/mcp-server-zuraffa
 	url = https://github.com/arrrrny/zuraffa-zed.git
+
+[submodule "extensions/md-image-path-lsp"]
+	path = extensions/md-image-path-lsp
+	url = https://github.com/yuzukq/md-image-path-lsp.git
 
 [submodule "extensions/mdias-oled-theme"]
 	path = extensions/mdias-oled-theme
@@ -4150,6 +4162,10 @@
 	path = extensions/poryscript
 	url = https://github.com/chris-wilson-1/zed-poryscript.git
 
+[submodule "extensions/postdare-theme"]
+	path = extensions/postdare-theme
+	url = https://github.com/postdare/zed-postdare.git
+
 [submodule "extensions/postgres-context-server"]
 	path = extensions/postgres-context-server
 	url = https://github.com/zed-extensions/postgres-context-server.git
@@ -4517,6 +4533,10 @@
 [submodule "extensions/rst"]
 	path = extensions/rst
 	url = https://github.com/elmarco/zed-rst.git
+
+[submodule "extensions/rtemis-theme"]
+	path = extensions/rtemis-theme
+	url = https://github.com/rtemis-org/rtemis-theme.git
 
 [submodule "extensions/ruby"]
 	path = extensions/ruby
