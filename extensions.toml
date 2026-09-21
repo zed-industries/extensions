@@ -189,7 +189,7 @@ path = "packages/zed"
 
 [apisartisan]
 submodule = "extensions/apisartisan"
-version = "0.0.1"
+version = "0.1.0"
 
 [applescript]
 submodule = "extensions/applescript"
@@ -698,7 +698,7 @@ version = "0.4.1"
 
 [cartan]
 submodule = "extensions/cartan"
-version = "0.8.3"
+version = "0.9.1"
 
 [carve]
 submodule = "extensions/carve"
@@ -718,7 +718,7 @@ version = "1.0.1"
 
 [catppuccin]
 submodule = "extensions/catppuccin"
-version = "0.2.26"
+version = "0.2.27"
 
 [catppuccin-black-theme]
 submodule = "extensions/catppuccin-black-theme"
@@ -726,7 +726,7 @@ version = "0.1.0"
 
 [catppuccin-blur]
 submodule = "extensions/catppuccin-blur"
-version = "0.3.4"
+version = "0.4.0"
 
 [catppuccin-blur-plus]
 submodule = "extensions/catppuccin-blur-plus"
@@ -1059,6 +1059,10 @@ submodule = "extensions/css-modules-kit"
 version = "0.1.1"
 path = "crates/zed"
 
+[css-modules-lsp]
+submodule = "extensions/css-modules-lsp"
+version = "0.0.1"
+
 [css-variables]
 submodule = "extensions/css-variables"
 version = "0.1.1"
@@ -1114,7 +1118,7 @@ version = "2.0.0"
 
 [cyberpunk-2077-theme]
 submodule = "extensions/cyberpunk-2077-theme"
-version = "0.0.3"
+version = "0.0.4"
 
 [cyberpunk-scarlet]
 submodule = "extensions/cyberpunk-scarlet"
@@ -2921,6 +2925,10 @@ version = "0.4.0"
 submodule = "extensions/lume-theme"
 version = "0.1.0"
 
+[lumenhush-theme]
+submodule = "extensions/lumenhush-theme"
+version = "0.0.1"
+
 [lumin-theme]
 submodule = "extensions/lumin-theme"
 version = "0.0.2"
@@ -3271,6 +3279,11 @@ version = "0.0.1"
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
 version = "7.0.0"
+
+[md-image-path-lsp]
+submodule = "extensions/md-image-path-lsp"
+path = "clients/zed"
+version = "0.1.1"
 
 [mdias-oled-theme]
 submodule = "extensions/mdias-oled-theme"
@@ -4230,6 +4243,10 @@ version = "1.0.3"
 submodule = "extensions/poryscript"
 version = "0.2.0"
 
+[postdare-theme]
+submodule = "extensions/postdare-theme"
+version = "0.1.0"
+
 [postgres-context-server]
 submodule = "extensions/postgres-context-server"
 version = "0.0.5"
@@ -4608,6 +4625,11 @@ version = "0.1.6"
 [rst]
 submodule = "extensions/rst"
 version = "0.0.2"
+
+[rtemis-theme]
+submodule = "extensions/rtemis-theme"
+path = "zed"
+version = "0.1.0"
 
 [ruby]
 submodule = "extensions/ruby"
@@ -5404,7 +5426,7 @@ version = "0.4.2"
 
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
-version = "0.1.1"
+version = "0.2.1"
 
 [triumph-theme]
 submodule = "extensions/triumph-theme"
@@ -5852,7 +5874,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.8.0"
+version = "0.10.0"
 
 [whkd]
 submodule = "extensions/whkd"
