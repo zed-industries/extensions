@@ -122,6 +122,10 @@
 	path = extensions/alabaster-dark
 	url = https://github.com/findrakecil/alabaster-dark-zed-theme.git
 
+[submodule "extensions/alabaster-official"]
+	path = extensions/alabaster-official
+	url = https://github.com/tonsky/zed-theme-alabaster.git
+
 [submodule "extensions/alpental-theme"]
 	path = extensions/alpental-theme
 	url = https://github.com/ascarter/zed-alpental-theme.git
@@ -290,6 +294,10 @@
 	path = extensions/atom-one-theme
 	url = https://github.com/Stelath/zed-atom-one-theme.git
 
+[submodule "extensions/atomic-dark-theme"]
+	path = extensions/atomic-dark-theme
+	url = https://github.com/atomic-dark/zed.git
+
 [submodule "extensions/atomize"]
 	path = extensions/atomize
 	url = https://github.com/zhouyuxiang0/atomize.zed.git
@@ -321,6 +329,10 @@
 [submodule "extensions/autohotkey"]
 	path = extensions/autohotkey
 	url = https://github.com/alfredomtx/tree-sitter-autohotkey.git
+
+[submodule "extensions/autoit"]
+	path = extensions/autoit
+	url = https://github.com/sumit-m/zed-autoit.git
 
 [submodule "extensions/autumnal-marscape"]
 	path = extensions/autumnal-marscape
@@ -378,6 +390,14 @@
 	path = extensions/babel-lsp
 	url = https://github.com/alex-oleshkevich/babel-lsp
 
+[submodule "extensions/bamboo-icons"]
+	path = extensions/bamboo-icons
+	url = https://github.com/chrisdrackett/bamboo-icon-theme-zed.git
+
+[submodule "extensions/bamboo-paper-theme"]
+	path = extensions/bamboo-paper-theme
+	url = https://github.com/chrisdrackett/bamboo-theme-zed.git
+
 [submodule "extensions/bamboo-theme"]
 	path = extensions/bamboo-theme
 	url = https://github.com/LoamStudios/zed-bamboo-theme
@@ -417,10 +437,6 @@
 [submodule "extensions/beanseeds-pro"]
 	path = extensions/beanseeds-pro
 	url = https://github.com/tokiory/beanseeds-pro.git
-
-[submodule "extensions/bearded"]
-	path = extensions/bearded
-	url = https://github.com/lassejlv/bearded-themes.git
 
 [submodule "extensions/bearded-icon-theme"]
 	path = extensions/bearded-icon-theme
@@ -509,6 +525,10 @@
 [submodule "extensions/blinds-theme"]
 	path = extensions/blinds-theme
 	url = https://github.com/orbulant/zed-blinds-theme.git
+
+[submodule "extensions/blink"]
+	path = extensions/blink
+	url = https://github.com/okhalri/zed-blink
 
 [submodule "extensions/blk-theme"]
 	path = extensions/blk-theme
@@ -606,6 +626,10 @@
 	path = extensions/bun-docs-mcp
 	url = https://github.com/kjanat/bun-docs-mcp-zed.git
 
+[submodule "extensions/bylaws-lsp"]
+	path = extensions/bylaws-lsp
+	url = https://github.com/theblixguy/swift-bylaws.git
+
 [submodule "extensions/c3"]
 	path = extensions/c3
 	url = https://github.com/AineeJames/c3-zed.git
@@ -662,6 +686,10 @@
 	path = extensions/cargo-tom
 	url = https://github.com/frederik-uni/zed-cargotom.git
 
+[submodule "extensions/cartan"]
+	path = extensions/cartan
+	url = https://github.com/cartan-lang/zed-cartan.git
+
 [submodule "extensions/carve"]
 	path = extensions/carve
 	url = https://github.com/markup-carve/zed-carve.git
@@ -698,6 +726,10 @@
 	path = extensions/catppuccin-icons
 	url = https://github.com/catppuccin/zed-icons.git
 
+[submodule "extensions/catthode-theme"]
+	path = extensions/catthode-theme
+	url = https://github.com/catthode/zed.git
+
 [submodule "extensions/cds-lsp"]
 	path = extensions/cds-lsp
 	url = https://github.com/doxblek/zed-cds-lsp
@@ -729,6 +761,10 @@
 [submodule "extensions/chalice-theme"]
 	path = extensions/chalice-theme
 	url = https://github.com/huangkairan/chalice-theme-zed.git
+
+[submodule "extensions/chalk-lsp"]
+	path = extensions/chalk-lsp
+	url = https://github.com/chalk-ai/chalk-zed.git
 
 [submodule "extensions/chanterelle"]
 	path = extensions/chanterelle
@@ -870,6 +906,10 @@
 	path = extensions/codestackr
 	url = https://github.com/Pjort/codestackr-zed.git
 
+[submodule "extensions/codetime-lsp"]
+	path = extensions/codetime-lsp
+	url = https://github.com/codetime-dev/codetime-zed.git
+
 [submodule "extensions/coding-in-the-sun-theme"]
 	path = extensions/coding-in-the-sun-theme
 	url = https://github.com/tgrecojs/coding-in-the-sun.git
@@ -913,6 +953,10 @@
 [submodule "extensions/compline"]
 	path = extensions/compline
 	url = https://github.com/jblais493/compline.git
+
+[submodule "extensions/confetti"]
+	path = extensions/confetti
+	url = https://github.com/demen1n/zed-confetti.git
 
 [submodule "extensions/confluence-context-server"]
 	path = extensions/confluence-context-server
@@ -958,6 +1002,10 @@
 	path = extensions/crimson-theme
 	url = https://github.com/kaem-e/zed-crimson-theme.git
 
+[submodule "extensions/croma-abc"]
+	path = extensions/croma-abc
+	url = https://github.com/ro-ag/croma.git
+
 [submodule "extensions/cron-sense-lsp"]
 	path = extensions/cron-sense-lsp
 	url = https://github.com/zxcodes/cron-sense.git
@@ -989,6 +1037,10 @@
 [submodule "extensions/css-modules-kit"]
 	path = extensions/css-modules-kit
 	url = https://github.com/mizdra/css-modules-kit.git
+
+[submodule "extensions/css-modules-lsp"]
+	path = extensions/css-modules-lsp
+	url = https://github.com/gugahoi/zed-css-modules-lsp.git
 
 [submodule "extensions/css-var-kit-lsp"]
 	path = extensions/css-var-kit-lsp
@@ -1130,6 +1182,10 @@
 	path = extensions/dark-purple-theme
 	url = https://github.com/brgr/dark-purple-theme-for-zed.git
 
+[submodule "extensions/dark-trio-themes"]
+	path = extensions/dark-trio-themes
+	url = https://github.com/2u841r/dark-trio.git
+
 [submodule "extensions/darker-horizon"]
 	path = extensions/darker-horizon
 	url = https://github.com/ewwwdp/dark-horizon-zed.git
@@ -1189,10 +1245,6 @@
 [submodule "extensions/dep-beacon-lsp"]
 	path = extensions/dep-beacon-lsp
 	url = https://github.com/santi020k/dep-beacon
-
-[submodule "extensions/dependi"]
-	path = extensions/dependi
-	url = https://github.com/mpiton/zed-dependi.git
 
 [submodule "extensions/deps-language-server"]
 	path = extensions/deps-language-server
@@ -1262,6 +1314,14 @@
 	path = extensions/dogxi-theme
 	url = https://github.com/dogxii/dogxi-theme-zed.git
 
+[submodule "extensions/donna"]
+	path = extensions/donna
+	url = https://github.com/NikolasSkyl/donna-zed
+
+[submodule "extensions/doodle-icons"]
+	path = extensions/doodle-icons
+	url = https://github.com/MrCheesie/doodle-icons.git
+
 [submodule "extensions/doom-one-theme"]
 	path = extensions/doom-one-theme
 	url = https://github.com/bashln/zed-doom.git
@@ -1289,6 +1349,10 @@
 [submodule "extensions/dream"]
 	path = extensions/dream
 	url = https://github.com/arturonegrete-dev/Dream-zed
+
+[submodule "extensions/drogon-csp"]
+	path = extensions/drogon-csp
+	url = https://github.com/rbprsp/zed-drogon-csp.git
 
 [submodule "extensions/duckyscript"]
 	path = extensions/duckyscript
@@ -1530,6 +1594,10 @@
 	path = extensions/ezio-theme
 	url = https://github.com/dsantolo/ezio-zed.git
 
+[submodule "extensions/faded-prism-theme"]
+	path = extensions/faded-prism-theme
+	url = https://github.com/ryanabx/faded-prism-zed.git
+
 [submodule "extensions/falcon-theme"]
 	path = extensions/falcon-theme
 	url = https://github.com/panxiaoan/falcon-zed-themes.git
@@ -1550,9 +1618,21 @@
 	path = extensions/fastapi-snippets
 	url = https://github.com/NarmadaWeb/fastapi-snippets-zed.git
 
+[submodule "extensions/fatou-language-server"]
+	path = extensions/fatou-language-server
+	url = https://github.com/jolars/fatou.git
+
 [submodule "extensions/fedaykin-themes"]
 	path = extensions/fedaykin-themes
 	url = https://github.com/btriapitsyn/zed-fedaykin-themes.git
+
+[submodule "extensions/fennel"]
+	path = extensions/fennel
+	url = https://github.com/notpeter/fennel-zed
+
+[submodule "extensions/feral"]
+	path = extensions/feral
+	url = https://github.com/Feral-Lang/Zed.git
 
 [submodule "extensions/ferret"]
 	path = extensions/ferret
@@ -1673,6 +1753,10 @@
 [submodule "extensions/focus-theme"]
 	path = extensions/focus-theme
 	url = https://github.com/jigyansunanda/focus.git
+
+[submodule "extensions/foreglow-theme"]
+	path = extensions/foreglow-theme
+	url = https://github.com/Foreglow/zed.git
 
 [submodule "extensions/forest-cottage-theme"]
 	path = extensions/forest-cottage-theme
@@ -1910,6 +1994,10 @@
 	path = extensions/golangci-lint
 	url = https://github.com/zed-extensions/golangci-lint.git
 
+[submodule "extensions/golens-lsp"]
+	path = extensions/golens-lsp
+	url = https://github.com/riflowth/zed-golens.git
+
 [submodule "extensions/gosum"]
 	path = extensions/gosum
 	url = https://github.com/kartikvashistha/zed-gosum.git
@@ -1921,6 +2009,10 @@
 [submodule "extensions/grafana-alloy"]
 	path = extensions/grafana-alloy
 	url = https://github.com/lenstr/zed-grafana-alloy.git
+
+[submodule "extensions/grapebox-theme"]
+	path = extensions/grapebox-theme
+	url = https://github.com/fisherrjd/Grapebox.git
 
 [submodule "extensions/graphene"]
 	path = extensions/graphene
@@ -2001,6 +2093,10 @@
 [submodule "extensions/gruvbox-material"]
 	path = extensions/gruvbox-material
 	url = https://github.com/tokiory/zed-gruvbox-material.git
+
+[submodule "extensions/gruvbox-material-icons"]
+	path = extensions/gruvbox-material-icons
+	url = https://github.com/RiverMatsumoto/zed-gruvbox-material-icons
 
 [submodule "extensions/gruvbox-material-mix"]
 	path = extensions/gruvbox-material-mix
@@ -2106,6 +2202,10 @@
 	path = extensions/herzha-theme
 	url = https://github.com/madhanmaaz/herzha-theme.git
 
+[submodule "extensions/heta"]
+	path = extensions/heta
+	url = https://github.com/hetalang/zed-heta.git
+
 [submodule "extensions/hex-light-theme"]
 	path = extensions/hex-light-theme
 	url = https://github.com/coghost/light-zed-theme
@@ -2113,6 +2213,10 @@
 [submodule "extensions/hexpeek"]
 	path = extensions/hexpeek
 	url = https://github.com/A-23187/zed-hexpeek.git
+
+[submodule "extensions/hfst"]
+	path = extensions/hfst
+	url = https://github.com/tachyons/zed-hfst
 
 [submodule "extensions/high-contrast-themes"]
 	path = extensions/high-contrast-themes
@@ -2149,10 +2253,6 @@
 [submodule "extensions/hoon"]
 	path = extensions/hoon
 	url = https://github.com/TisaneFruitRouge/hoon-zed.git
-
-[submodule "extensions/horizon"]
-	path = extensions/horizon
-	url = https://github.com/ayn2op/zed-horizon.git
 
 [submodule "extensions/horizon-extended"]
 	path = extensions/horizon-extended
@@ -2322,13 +2422,13 @@
 	path = extensions/ir-black
 	url = https://github.com/sametaylak/ir-black-zed-theme
 
-[submodule "extensions/irix-terminal-theme"]
-	path = extensions/irix-terminal-theme
-	url = https://codeberg.org/nwgh/zed-irix-terminal-theme
-
 [submodule "extensions/irodori-theme"]
 	path = extensions/irodori-theme
 	url = https://github.com/agrahamlincoln/irodori.git
+
+[submodule "extensions/iron-man-theme"]
+	path = extensions/iron-man-theme
+	url = https://github.com/bkataru/iron-man-zed.git
 
 [submodule "extensions/islands-theme"]
 	path = extensions/islands-theme
@@ -2349,6 +2449,10 @@
 [submodule "extensions/iwe"]
 	path = extensions/iwe
 	url = https://github.com/iwe-org/zed-iwe.git
+
+[submodule "extensions/jac"]
+	path = extensions/jac
+	url = https://github.com/chess10kp/jac-zed.git
 
 [submodule "extensions/jai"]
 	path = extensions/jai
@@ -2405,6 +2509,10 @@
 [submodule "extensions/jetbrains-darcula-theme-by-bronya0"]
 	path = extensions/jetbrains-darcula-theme-by-bronya0
 	url = https://github.com/Bronya0/Jetbrains-Darcula-Zed-Theme.git
+
+[submodule "extensions/jetbrains-dark-blur-theme"]
+	path = extensions/jetbrains-dark-blur-theme
+	url = https://github.com/Slipstream-Max/jetbrains-dark-blur-theme.git
 
 [submodule "extensions/jetbrains-icons"]
 	path = extensions/jetbrains-icons
@@ -2542,6 +2650,10 @@
 	path = extensions/kiselevka
 	url = https://github.com/kdubrovsky/kiselevka.git
 
+[submodule "extensions/kitty"]
+	path = extensions/kitty
+	url = https://github.com/Elcaten/zed-kitty.git
+
 [submodule "extensions/koda-theme"]
 	path = extensions/koda-theme
 	url = https://github.com/markosnarinian/koda-zed.git
@@ -2589,6 +2701,10 @@
 [submodule "extensions/kvs-cyberpunk-2077"]
 	path = extensions/kvs-cyberpunk-2077
 	url = https://github.com/notKvS/2077-zed.git
+
+[submodule "extensions/languagetool-lsp"]
+	path = extensions/languagetool-lsp
+	url = https://github.com/mschuwalow/languagetool-zed-extension.git
 
 [submodule "extensions/laravel"]
 	path = extensions/laravel
@@ -2662,6 +2778,10 @@
 	path = extensions/lilypond
 	url = https://github.com/nwhetsell/lilypond-zed-extension
 
+[submodule "extensions/lina-theme"]
+	path = extensions/lina-theme
+	url = https://github.com/danilomcampos/lina-zed.git
+
 [submodule "extensions/lini"]
 	path = extensions/lini
 	url = https://github.com/monfa-red/lini
@@ -2718,6 +2838,10 @@
 	path = extensions/logcat
 	url = https://github.com/vinnom/logcat-highlighter.git
 
+[submodule "extensions/logos"]
+	path = extensions/logos
+	url = https://github.com/nobottomline/logos-zed.git
+
 [submodule "extensions/logstash"]
 	path = extensions/logstash
 	url = https://github.com/StrongTheDev/logstash-for-zed
@@ -2766,6 +2890,10 @@
 	path = extensions/lume-theme
 	url = https://github.com/danfry1/lume-zed-theme.git
 
+[submodule "extensions/lumenhush-theme"]
+	path = extensions/lumenhush-theme
+	url = https://github.com/pedronhamirre/lumenhush-theme.git
+
 [submodule "extensions/lumin-theme"]
 	path = extensions/lumin-theme
 	url = https://github.com/frypan05/Lumin.git
@@ -2784,7 +2912,7 @@
 
 [submodule "extensions/mach"]
 	path = extensions/mach
-	url = https://github.com/octalide/mach-zed.git
+	url = https://github.com/briar-systems/mach-zed.git
 
 [submodule "extensions/macos-classic"]
 	path = extensions/macos-classic
@@ -2869,6 +2997,10 @@
 [submodule "extensions/markdownlint"]
 	path = extensions/markdownlint
 	url = https://github.com/vitallium/zed-markdownlint.git
+
+[submodule "extensions/marko"]
+	path = extensions/marko
+	url = https://github.com/marko-js/zed.git
 
 [submodule "extensions/marksman"]
 	path = extensions/marksman
@@ -3110,6 +3242,10 @@
 	path = extensions/mcp-server-zuraffa
 	url = https://github.com/arrrrny/zuraffa-zed.git
 
+[submodule "extensions/md-image-path-lsp"]
+	path = extensions/md-image-path-lsp
+	url = https://github.com/yuzukq/md-image-path-lsp.git
+
 [submodule "extensions/mdias-oled-theme"]
 	path = extensions/mdias-oled-theme
 	url = https://github.com/mcdays94/zed-vaporware-oled-theme.git
@@ -3150,9 +3286,21 @@
 	path = extensions/midnight-marina
 	url = https://github.com/Muddyblack/midnight-marina-zed.git
 
+[submodule "extensions/midnight-theme"]
+	path = extensions/midnight-theme
+	url = https://github.com/mete-sirin/midnight-theme.git
+
 [submodule "extensions/miles-theme"]
 	path = extensions/miles-theme
 	url = https://github.com/imkarmona/miles-theme.git
+
+[submodule "extensions/milo-theme"]
+	path = extensions/milo-theme
+	url = https://github.com/hazicy/milo-theme-zed.git
+
+[submodule "extensions/mimo-code-theme"]
+	path = extensions/mimo-code-theme
+	url = https://github.com/jadmadi/zed-mimoCode-theme.git
 
 [submodule "extensions/min-theme"]
 	path = extensions/min-theme
@@ -3318,10 +3466,6 @@
 	path = extensions/naive-ui-intellisense
 	url = https://github.com/tu6ge/zed-naive-ui.git
 
-[submodule "extensions/nanowise"]
-	path = extensions/nanowise
-	url = https://github.com/Fastiraz/nanowise.git
-
 [submodule "extensions/napalm"]
 	path = extensions/napalm
 	url = https://github.com/napalmpapalam/napalm-theme-zed.git
@@ -3393,6 +3537,10 @@
 [submodule "extensions/new-darcula"]
 	path = extensions/new-darcula
 	url = https://github.com/e-simpson/new-darcula-z.git
+
+[submodule "extensions/newspaper-theme"]
+	path = extensions/newspaper-theme
+	url = https://github.com/ibehren1/zed-newspaper-theme
 
 [submodule "extensions/nextjs-react-snippets"]
 	path = extensions/nextjs-react-snippets
@@ -3506,6 +3654,10 @@
 	path = extensions/noted-theme
 	url = https://github.com/sergeevalera/noted-theme.git
 
+[submodule "extensions/nous-alt-theme"]
+	path = extensions/nous-alt-theme
+	url = https://github.com/lvabarajithan/nous-alt-theme.git
+
 [submodule "extensions/nova-theme"]
 	path = extensions/nova-theme
 	url = https://github.com/overstarry/zed-nova.git
@@ -3513,6 +3665,10 @@
 [submodule "extensions/npm-package-json-checker"]
 	path = extensions/npm-package-json-checker
 	url = https://github.com/e-simpson/zed-npm-update-checker.git
+
+[submodule "extensions/npmx-language-server"]
+	path = extensions/npmx-language-server
+	url = https://github.com/npmx-dev/vscode-npmx
 
 [submodule "extensions/nsis"]
 	path = extensions/nsis
@@ -3689,6 +3845,10 @@
 [submodule "extensions/open-dylan"]
 	path = extensions/open-dylan
 	url = https://github.com/ganderzz/zed-dylan.git
+
+[submodule "extensions/openapi-lsp"]
+	path = extensions/openapi-lsp
+	url = https://github.com/Dyqer/openapi.git
 
 [submodule "extensions/openfga"]
 	path = extensions/openfga
@@ -3910,6 +4070,10 @@
 	path = extensions/php
 	url = https://github.com/zed-extensions/php.git
 
+[submodule "extensions/php-lsp"]
+	path = extensions/php-lsp
+	url = https://github.com/jorgsowa/php-lsp-zed-extension
+
 [submodule "extensions/php-snippets"]
 	path = extensions/php-snippets
 	url = https://github.com/seekode/zed-php-snippets
@@ -4041,6 +4205,10 @@
 [submodule "extensions/poryscript"]
 	path = extensions/poryscript
 	url = https://github.com/chris-wilson-1/zed-poryscript.git
+
+[submodule "extensions/postdare-theme"]
+	path = extensions/postdare-theme
+	url = https://github.com/postdare/zed-postdare.git
 
 [submodule "extensions/postgres-context-server"]
 	path = extensions/postgres-context-server
@@ -4286,10 +4454,6 @@
 	path = extensions/regex-theme
 	url = https://github.com/oxnan/RegEx-theme.git
 
-[submodule "extensions/rego"]
-	path = extensions/rego
-	url = https://github.com/StyraInc/zed-rego.git
-
 [submodule "extensions/relaxed-theme"]
 	path = extensions/relaxed-theme
 	url = https://github.com/stefanbc/relaxed-zed-theme
@@ -4390,6 +4554,10 @@
 	path = extensions/roto
 	url = https://github.com/tertsdiepraam/zed-extension-roto.git
 
+[submodule "extensions/rotom"]
+	path = extensions/rotom
+	url = https://github.com/KalaayPT/rotom-zed.git
+
 [submodule "extensions/rover"]
 	path = extensions/rover
 	url = https://github.com/rover-app/zed-extension.git
@@ -4410,6 +4578,10 @@
 	path = extensions/rst
 	url = https://github.com/elmarco/zed-rst.git
 
+[submodule "extensions/rtemis-theme"]
+	path = extensions/rtemis-theme
+	url = https://github.com/rtemis-org/rtemis-theme.git
+
 [submodule "extensions/ruby"]
 	path = extensions/ruby
 	url = https://github.com/zed-extensions/ruby.git
@@ -4425,6 +4597,10 @@
 [submodule "extensions/rust-and-brown"]
 	path = extensions/rust-and-brown
 	url = https://github.com/LukianovII/rust-and-brown-zed.git
+
+[submodule "extensions/rust-glancer"]
+	path = extensions/rust-glancer
+	url = https://github.com/rust-glancer/rust-glancer.git
 
 [submodule "extensions/rust-rover-dark-theme"]
 	path = extensions/rust-rover-dark-theme
@@ -4454,9 +4630,21 @@
 	path = extensions/salesforce
 	url = https://github.com/Damecek/zed-salesforce-extension.git
 
+[submodule "extensions/salt"]
+	path = extensions/salt
+	url = https://github.com/relkian/zed-extension-salt.git
+
 [submodule "extensions/santi020k-theme"]
 	path = extensions/santi020k-theme
 	url = https://github.com/santi020k/santi020k-theme
+
+[submodule "extensions/satz"]
+	path = extensions/satz
+	url = https://github.com/tjirsch/satz.git
+
+[submodule "extensions/sbpf-assembly"]
+	path = extensions/sbpf-assembly
+	url = https://github.com/Perelyn-sama/sbpf-assembly.git
 
 [submodule "extensions/scala"]
 	path = extensions/scala
@@ -4481,6 +4669,10 @@
 [submodule "extensions/seaglass-theme"]
 	path = extensions/seaglass-theme
 	url = https://github.com/mrcoolbay/seaglass-theme.git
+
+[submodule "extensions/secdb-lsp"]
+	path = extensions/secdb-lsp
+	url = https://github.com/giterlizzi/secdb-zed.git
 
 [submodule "extensions/selene-abyss-theme"]
 	path = extensions/selene-abyss-theme
@@ -4605,6 +4797,10 @@
 [submodule "extensions/skill-language-server"]
 	path = extensions/skill-language-server
 	url = https://github.com/CyrusNuevoDia/skill-language-server.git
+
+[submodule "extensions/skir"]
+	path = extensions/skir
+	url = https://github.com/sporto/zed-skir.git
 
 [submodule "extensions/skript"]
 	path = extensions/skript
@@ -4738,9 +4934,9 @@
 	path = extensions/sourcepawn
 	url = https://github.com/tsuza/zed-sourcepawn-ext.git
 
-[submodule "extensions/spai-zero-theme"]
-	path = extensions/spai-zero-theme
-	url = https://github.com/BasaiCorp/zed-spai-zero-theme.git
+[submodule "extensions/spice-lang"]
+	path = extensions/spice-lang
+	url = https://github.com/MrPoloGit/spice-lang.git
 
 [submodule "extensions/spiceflow-theme"]
 	path = extensions/spiceflow-theme
@@ -4834,6 +5030,10 @@
 	path = extensions/sublime-mariana-theme
 	url = https://github.com/hnatiukr/zed-mariana-theme.git
 
+[submodule "extensions/sublime-text-4-colorful-theme"]
+	path = extensions/sublime-text-4-colorful-theme
+	url = https://github.com/Fan4Metal/sublime-text-4-colorful-zed.git
+
 [submodule "extensions/subliminal-nightfall"]
 	path = extensions/subliminal-nightfall
 	url = https://github.com/mhamrah/subliminal-nightfall
@@ -4925,10 +5125,6 @@
 [submodule "extensions/symbols"]
 	path = extensions/symbols
 	url = https://github.com/sebastiandotdev/zed-symbols.git
-
-[submodule "extensions/symposium"]
-	path = extensions/symposium
-	url = https://github.com/symposium-dev/symposium.git
 
 [submodule "extensions/syntaqlite-lsp"]
 	path = extensions/syntaqlite-lsp
@@ -5442,6 +5638,10 @@
 	path = extensions/vintergata
 	url = https://github.com/webhooked/vintergata-zed
 
+[submodule "extensions/visqode-theme"]
+	path = extensions/visqode-theme
+	url = https://github.com/icrmahin/visqode-zed-theme
+
 [submodule "extensions/visual-assist-dark"]
 	path = extensions/visual-assist-dark
 	url = https://github.com/trojanfoe/visual-assist-dark.zed.git
@@ -5602,6 +5802,10 @@
 	path = extensions/wgsl-wesl
 	url = https://github.com/lucascompython/wgsl-wesl-zed
 
+[submodule "extensions/whim-lang"]
+	path = extensions/whim-lang
+	url = https://github.com/carthage-software/whim-zed.git
+
 [submodule "extensions/whkd"]
 	path = extensions/whkd
 	url = https://github.com/LGUG2Z/zed-whkd.git
@@ -5686,6 +5890,10 @@
 	path = extensions/yarn-spinner
 	url = https://github.com/yuna0x0/zed-yarn-spinner.git
 
+[submodule "extensions/yayamlls"]
+	path = extensions/yayamlls
+	url = https://github.com/home-operations/yayamlls.git
+
 [submodule "extensions/yellowed"]
 	path = extensions/yellowed
 	url = https://github.com/Gael-Lopes-Da-Silva/YellowedZed
@@ -5729,10 +5937,6 @@
 [submodule "extensions/zedbox"]
 	path = extensions/zedbox
 	url = https://github.com/isaiah-hamilton/zedbox.git
-
-[submodule "extensions/zedburn"]
-	path = extensions/zedburn
-	url = https://github.com/rmoraes92/zedburn.git
 
 [submodule "extensions/zedokai"]
 	path = extensions/zedokai
