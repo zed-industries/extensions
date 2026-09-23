@@ -474,6 +474,10 @@
 	path = extensions/bicep
 	url = https://github.com/oWretch/zed-extension-bicep.git
 
+[submodule "extensions/binary-preview-lsp"]
+	path = extensions/binary-preview-lsp
+	url = https://github.com/exelsior87/binary-preview.git
+
 [submodule "extensions/biome"]
 	path = extensions/biome
 	url = https://github.com/biomejs/biome-zed.git
@@ -3462,6 +3466,10 @@
 	path = extensions/mpls
 	url = https://github.com/pnyda/zed-mpls.git
 
+[submodule "extensions/msbuild-lsp"]
+	path = extensions/msbuild-lsp
+	url = https://github.com/MangelMaxime/zed-msbuild.git
+
 [submodule "extensions/msun-dark"]
 	path = extensions/msun-dark
 	url = https://github.com/mikesun/msun-dark-zed.git
@@ -4649,6 +4657,10 @@
 [submodule "extensions/salt"]
 	path = extensions/salt
 	url = https://github.com/relkian/zed-extension-salt.git
+
+[submodule "extensions/sanemark-markdown-lsp"]
+	path = extensions/sanemark-markdown-lsp
+	url = https://github.com/nkitsaini/sanemark-zed.git
 
 [submodule "extensions/santi020k-theme"]
 	path = extensions/santi020k-theme
