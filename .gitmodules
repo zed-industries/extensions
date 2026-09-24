@@ -4266,6 +4266,10 @@
 	path = extensions/postgres-language-server
 	url = https://github.com/LoamStudios/zed-postgres-language-server.git
 
+[submodule "extensions/postgresql-conf"]
+	path = extensions/postgresql-conf
+	url = https://github.com/willibrandon/postern.git
+
 [submodule "extensions/postman-context-server"]
 	path = extensions/postman-context-server
 	url = https://github.com/postmanlabs/postman-mcp-zed-extension
