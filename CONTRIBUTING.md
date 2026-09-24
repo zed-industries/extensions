@@ -8,7 +8,7 @@ A few things to keep in mind:
 
 - Not every extension is a good fit for publishing. If yours overlaps with an existing extension, consider contributing improvements to that extension first before opening a pull request for a new one.
 - Test your extension locally as a dev extension before submitting. PRs for clearly untested extensions will be closed without further feedback.
-- All contributions are subject to our [AI policy](./AI_POLICY.md).
+- All contributions are subject to our [AI policy](https://github.com/zed-industries/extensions/blob/main/AI_POLICY.md).
 - Your extension repository must include an [accepted license](https://zed.dev/docs/extensions/publishing/license-requirements).
 
 ## Updating an existing extension
