@@ -255,7 +255,7 @@ version = "1.0.3"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.5.6"
+version = "0.5.7"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -296,6 +296,10 @@ version = "0.1.0"
 [astro]
 submodule = "extensions/astro"
 version = "0.2.1"
+
+[astro-snippets]
+submodule = "extensions/astro-snippets"
+version = "1.0.0"
 
 [atlas-ragnarok-theme]
 submodule = "extensions/atlas-ragnarok-theme"
@@ -519,6 +523,10 @@ version = "0.4.0"
 [blacknpink-theme]
 submodule = "extensions/blacknpink-theme"
 version = "0.1.0"
+
+[blackout-engine-theme]
+submodule = "extensions/blackout-engine-theme"
+version = "0.1.1"
 
 [blackrain-theme]
 submodule = "extensions/blackrain-theme"
@@ -2686,6 +2694,11 @@ version = "0.2.0"
 submodule = "extensions/kanso"
 version = "1.0.5"
 
+[karia-language-server]
+submodule = "extensions/karia-language-server"
+path = "editors/zed"
+version = "0.0.3"
+
 [karma-theme]
 submodule = "extensions/karma-theme"
 path = "packages/zed"
@@ -4700,7 +4713,7 @@ version = "0.1.0"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.19"
+version = "0.16.20"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -4771,7 +4784,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.2.3"
+version = "0.2.5"
 
 [schemalock-lsp]
 submodule = "extensions/schemalock-lsp"
@@ -4864,6 +4877,10 @@ version = "0.2.0"
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
 version = "0.0.7"
+
+[shades-of-stoicism-theme]
+submodule = "extensions/shades-of-stoicism-theme"
+version = "1.0.0"
 
 [shale-theme]
 submodule = "extensions/shale-theme"
@@ -5092,6 +5109,11 @@ version = "0.1.2"
 [sqlc-snippets]
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
+
+[sqldex-lsp]
+submodule = "extensions/sqldex-lsp"
+path = "editors/zed"
+version = "0.1.0"
 
 [sqlmesh]
 submodule = "extensions/sqlmesh"
@@ -5348,6 +5370,10 @@ version = "0.0.11"
 
 [templeos-theme]
 submodule = "extensions/templeos-theme"
+version = "1.0.0"
+
+[tensorfoundry-theme]
+submodule = "extensions/tensorfoundry-theme"
 version = "1.0.0"
 
 [tera]
@@ -6018,6 +6044,10 @@ version = "0.1.1"
 [xquery]
 submodule = "extensions/xquery"
 version = "0.0.1"
+
+[xscriptor-theme]
+submodule = "extensions/xscriptor-theme"
+version = "0.1.0"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
