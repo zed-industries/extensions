@@ -1558,6 +1558,10 @@
 	path = extensions/emoji-completions
 	url = https://github.com/ahockersten/emoji-completions-zed.git
 
+[submodule "extensions/energyplus-idf"]
+	path = extensions/energyplus-idf
+	url = https://github.com/luzechao/zed-extension-energyplus.git
+
 [submodule "extensions/env"]
 	path = extensions/env
 	url = https://github.com/zarifpour/zed-env
@@ -6121,6 +6125,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/energyplus-idf"]
-	path = extensions/energyplus-idf
-	url = https://github.com/luzechao/zed-extension-energyplus.git

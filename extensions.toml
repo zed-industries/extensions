@@ -1570,10 +1570,6 @@ version = "0.1.0"
 submodule = "extensions/ember"
 version = "0.1.0"
 
-[energyplus-idf]
-submodule = "extensions/energyplus-idf"
-version = "0.1.0"
-
 [ember-theme]
 submodule = "extensions/ember-theme"
 version = "0.9.1"
@@ -1597,6 +1593,10 @@ version = "0.20.2"
 [emoji-completions]
 submodule = "extensions/emoji-completions"
 version = "1.1.1"
+
+[energyplus-idf]
+submodule = "extensions/energyplus-idf"
+version = "0.1.0"
 
 [env]
 submodule = "extensions/env"
