@@ -621,6 +621,10 @@ version = "0.0.1"
 submodule = "extensions/brainfuck"
 version = "0.0.4"
 
+[breadog-theme]
+submodule = "extensions/breadog-theme"
+version = "0.1.0"
+
 [brogrammer-theme]
 submodule = "extensions/brogrammer-theme"
 version = "0.0.1"
@@ -2664,7 +2668,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.10"
+version = "0.2.0"
 
 [just]
 submodule = "extensions/just"
@@ -4028,7 +4032,7 @@ version = "0.1.0"
 
 [oxc]
 submodule = "extensions/oxc"
-version = "0.4.7"
+version = "0.4.8"
 
 [oxocarbon]
 submodule = "extensions/oxocarbon"
@@ -4733,7 +4737,11 @@ version = "0.1.0"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.20"
+version = "0.16.21"
+
+[ruby-snippets]
+submodule = "extensions/ruby-snippets"
+version = "0.1.0"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -5539,7 +5547,7 @@ version = "0.3.1"
 
 [tonel-smalltalk]
 submodule = "extensions/tonel-smalltalk"
-version = "0.2.0"
+version = "0.3.0"
 
 [toon]
 submodule = "extensions/toon"
@@ -5563,7 +5571,7 @@ version = "1.2.1"
 
 [truly-zen-theme]
 submodule = "extensions/truly-zen-theme"
-version = "1.0.0"
+version = "1.1.0"
 
 [ts-macro]
 submodule = "extensions/ts-macro"
