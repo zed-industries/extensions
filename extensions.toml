@@ -255,7 +255,7 @@ version = "1.0.3"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.5.6"
+version = "0.5.8"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -296,6 +296,10 @@ version = "0.1.0"
 [astro]
 submodule = "extensions/astro"
 version = "0.2.1"
+
+[astro-snippets]
+submodule = "extensions/astro-snippets"
+version = "1.0.0"
 
 [atlas-ragnarok-theme]
 submodule = "extensions/atlas-ragnarok-theme"
@@ -486,6 +490,11 @@ version = "0.0.1"
 submodule = "extensions/bicep"
 version = "1.4.0"
 
+[binary-preview-lsp]
+submodule = "extensions/binary-preview-lsp"
+path = "zed-extension"
+version = "0.1.0"
+
 [biome]
 submodule = "extensions/biome"
 version = "0.3.1"
@@ -514,6 +523,10 @@ version = "0.4.0"
 [blacknpink-theme]
 submodule = "extensions/blacknpink-theme"
 version = "0.1.0"
+
+[blackout-engine-theme]
+submodule = "extensions/blackout-engine-theme"
+version = "0.1.1"
 
 [blackrain-theme]
 submodule = "extensions/blackrain-theme"
@@ -607,6 +620,10 @@ version = "0.0.1"
 [brainfuck]
 submodule = "extensions/brainfuck"
 version = "0.0.4"
+
+[breadog-theme]
+submodule = "extensions/breadog-theme"
+version = "0.1.0"
 
 [brogrammer-theme]
 submodule = "extensions/brogrammer-theme"
@@ -712,7 +729,7 @@ version = "0.4.1"
 
 [cartan]
 submodule = "extensions/cartan"
-version = "0.9.1"
+version = "0.9.2"
 
 [carve]
 submodule = "extensions/carve"
@@ -1483,6 +1500,10 @@ version = "1.0.0"
 submodule = "extensions/eiffel-theme"
 version = "0.1.1"
 
+[eiwa]
+submodule = "extensions/eiwa"
+version = "0.1.0"
+
 [ejentum-mcp]
 submodule = "extensions/ejentum-mcp"
 version = "0.2.0"
@@ -1873,6 +1894,10 @@ version = "0.3.0"
 submodule = "extensions/fswiki"
 version = "1.0.1"
 
+[fuji-winter-theme]
+submodule = "extensions/fuji-winter-theme"
+version = "0.1.0"
+
 [fujihaze-theme]
 submodule = "extensions/fujihaze-theme"
 version = "1.0.0"
@@ -2204,7 +2229,7 @@ version = "0.5.0"
 
 [haml]
 submodule = "extensions/haml"
-version = "0.2.0"
+version = "0.4.1"
 
 [hare]
 submodule = "extensions/hare"
@@ -2643,7 +2668,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.10"
+version = "0.2.0"
 
 [just]
 submodule = "extensions/just"
@@ -2676,6 +2701,11 @@ version = "0.2.0"
 [kanso]
 submodule = "extensions/kanso"
 version = "1.0.5"
+
+[karia-language-server]
+submodule = "extensions/karia-language-server"
+path = "editors/zed"
+version = "0.0.3"
 
 [karma-theme]
 submodule = "extensions/karma-theme"
@@ -3517,6 +3547,10 @@ version = "0.0.2"
 submodule = "extensions/motoko"
 version = "0.1.1"
 
+[mountain-theme]
+submodule = "extensions/mountain-theme"
+version = "0.0.1"
+
 [move]
 submodule = "extensions/move"
 version = "0.0.4"
@@ -3528,6 +3562,10 @@ version = "0.0.2"
 [mpls]
 submodule = "extensions/mpls"
 version = "0.2.0"
+
+[msbuild-lsp]
+submodule = "extensions/msbuild-lsp"
+version = "1.0.0"
 
 [msun-dark]
 submodule = "extensions/msun-dark"
@@ -3701,6 +3739,10 @@ version = "0.0.3"
 [nord]
 submodule = "extensions/nord"
 version = "0.1.7"
+
+[nord-wave-theme]
+submodule = "extensions/nord-wave-theme"
+version = "0.1.0"
 
 [nordic-nvim-theme]
 submodule = "extensions/nordic-nvim-theme"
@@ -3990,7 +4032,7 @@ version = "0.1.0"
 
 [oxc]
 submodule = "extensions/oxc"
-version = "0.4.7"
+version = "0.4.8"
 
 [oxocarbon]
 submodule = "extensions/oxocarbon"
@@ -4561,6 +4603,10 @@ version = "0.1.0"
 submodule = "extensions/relay"
 version = "0.0.5"
 
+[relm4-snippets]
+submodule = "extensions/relm4-snippets"
+version = "0.0.1"
+
 [remedy-theme]
 submodule = "extensions/remedy-theme"
 version = "0.2.0"
@@ -4687,7 +4733,11 @@ version = "0.1.0"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.19"
+version = "0.16.21"
+
+[ruby-snippets]
+submodule = "extensions/ruby-snippets"
+version = "0.1.0"
 
 [rumdl]
 submodule = "extensions/rumdl"
@@ -4738,6 +4788,10 @@ version = "0.0.4"
 submodule = "extensions/salt"
 version = "1.1.0"
 
+[sanemark-markdown-lsp]
+submodule = "extensions/sanemark-markdown-lsp"
+version = "0.1.0"
+
 [santi020k-theme]
 submodule = "extensions/santi020k-theme"
 path = "packages/santi020k-zed-theme"
@@ -4754,7 +4808,7 @@ version = "0.1.0"
 
 [scala]
 submodule = "extensions/scala"
-version = "0.2.3"
+version = "0.2.5"
 
 [schemalock-lsp]
 submodule = "extensions/schemalock-lsp"
@@ -4847,6 +4901,10 @@ version = "0.2.0"
 [shades-of-purple-theme]
 submodule = "extensions/shades-of-purple-theme"
 version = "0.0.7"
+
+[shades-of-stoicism-theme]
+submodule = "extensions/shades-of-stoicism-theme"
+version = "1.0.0"
 
 [shale-theme]
 submodule = "extensions/shale-theme"
@@ -5080,6 +5138,11 @@ version = "0.1.2"
 submodule = "extensions/sqlc-snippets"
 version = "0.2.0"
 
+[sqldex-lsp]
+submodule = "extensions/sqldex-lsp"
+path = "editors/zed"
+version = "0.1.0"
+
 [sqlmesh]
 submodule = "extensions/sqlmesh"
 version = "0.1.4"
@@ -5272,7 +5335,7 @@ version = "0.3.0"
 [sysml-v2]
 submodule = "extensions/sysml-v2"
 path = "zed"
-version = "0.52.0"
+version = "0.53.1"
 
 [systemrdl]
 submodule = "extensions/systemrdl"
@@ -5335,6 +5398,10 @@ version = "0.0.11"
 
 [templeos-theme]
 submodule = "extensions/templeos-theme"
+version = "1.0.0"
+
+[tensorfoundry-theme]
+submodule = "extensions/tensorfoundry-theme"
 version = "1.0.0"
 
 [tera]
@@ -5480,7 +5547,7 @@ version = "0.3.1"
 
 [tonel-smalltalk]
 submodule = "extensions/tonel-smalltalk"
-version = "0.2.0"
+version = "0.3.0"
 
 [toon]
 submodule = "extensions/toon"
@@ -5504,7 +5571,7 @@ version = "1.2.1"
 
 [truly-zen-theme]
 submodule = "extensions/truly-zen-theme"
-version = "1.0.0"
+version = "1.1.0"
 
 [ts-macro]
 submodule = "extensions/ts-macro"
@@ -6005,6 +6072,10 @@ version = "0.1.1"
 [xquery]
 submodule = "extensions/xquery"
 version = "0.0.1"
+
+[xscriptor-theme]
+submodule = "extensions/xscriptor-theme"
+version = "0.1.0"
 
 [xy-zed]
 submodule = "extensions/xy-zed"
