@@ -1267,6 +1267,11 @@ version = "0.0.1"
 submodule = "extensions/dbt"
 version = "0.1.2"
 
+[decl]
+submodule = "extensions/decl"
+path = "extension/zed"
+version = "0.4.7"
+
 [decorative-stitch]
 submodule = "extensions/decorative-stitch"
 version = "1.0.0"
