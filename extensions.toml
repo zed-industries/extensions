@@ -1314,6 +1314,11 @@ submodule = "extensions/deputy"
 path = "editors/zed"
 version = "1.0.1"
 
+[design-lasagna-design-system-language-server]
+submodule = "extensions/design-lasagna-design-system-language-server"
+path = "editors/zed"
+version = "0.2.0"
+
 [design-tokens]
 submodule = "extensions/design-tokens"
 path = "extensions/zed"
@@ -1410,11 +1415,6 @@ version = "1.0.0"
 [drogon-csp]
 submodule = "extensions/drogon-csp"
 version = "0.1.0"
-
-[ds-language-server]
-submodule = "extensions/ds-language-server"
-path = "editors/zed"
-version = "0.2.0"
 
 [duckyscript]
 submodule = "extensions/duckyscript"
