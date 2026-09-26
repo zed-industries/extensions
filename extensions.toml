@@ -255,7 +255,7 @@ version = "1.0.3"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.5.7"
+version = "0.5.8"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -623,7 +623,7 @@ version = "0.0.4"
 
 [breadog-theme]
 submodule = "extensions/breadog-theme"
-version = "0.1.0"
+version = "0.1.1"
 
 [brogrammer-theme]
 submodule = "extensions/brogrammer-theme"
@@ -1222,6 +1222,11 @@ version = "0.3.0"
 [dark-material-dracula]
 submodule = "extensions/dark-material-dracula"
 version = "0.0.1"
+
+[dark-matter-code-theme]
+submodule = "extensions/dark-matter-code-theme"
+path = "zed"
+version = "0.0.8"
 
 [dark-oled]
 submodule = "extensions/dark-oled"
@@ -2231,6 +2236,10 @@ version = "0.5.0"
 submodule = "extensions/haml"
 version = "0.4.1"
 
+[haproxy]
+submodule = "extensions/haproxy"
+version = "1.0.1"
+
 [hare]
 submodule = "extensions/hare"
 version = "0.0.1"
@@ -2668,7 +2677,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.1.10"
+version = "0.2.0"
 
 [just]
 submodule = "extensions/just"
@@ -4032,7 +4041,7 @@ version = "0.1.0"
 
 [oxc]
 submodule = "extensions/oxc"
-version = "0.4.7"
+version = "0.4.8"
 
 [oxocarbon]
 submodule = "extensions/oxocarbon"
@@ -4733,7 +4742,7 @@ version = "0.1.0"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.20"
+version = "0.16.21"
 
 [ruby-snippets]
 submodule = "extensions/ruby-snippets"
@@ -4973,6 +4982,10 @@ version = "0.3.0"
 submodule = "extensions/skript"
 path = "extension"
 version = "0.2.5"
+
+[skys-theme]
+submodule = "extensions/skys-theme"
+version = "0.0.1"
 
 [sl4y-theme]
 submodule = "extensions/sl4y-theme"
@@ -5331,7 +5344,7 @@ version = "0.3.0"
 [sysml-v2]
 submodule = "extensions/sysml-v2"
 path = "zed"
-version = "0.52.0"
+version = "0.53.1"
 
 [systemrdl]
 submodule = "extensions/systemrdl"
@@ -5543,7 +5556,7 @@ version = "0.3.1"
 
 [tonel-smalltalk]
 submodule = "extensions/tonel-smalltalk"
-version = "0.2.0"
+version = "0.3.0"
 
 [toon]
 submodule = "extensions/toon"
@@ -5567,7 +5580,7 @@ version = "1.2.1"
 
 [truly-zen-theme]
 submodule = "extensions/truly-zen-theme"
-version = "1.0.0"
+version = "1.1.0"
 
 [ts-macro]
 submodule = "extensions/ts-macro"
@@ -5829,7 +5842,7 @@ version = "0.4.14"
 
 [viewtree]
 submodule = "extensions/viewtree"
-version = "1.0.10"
+version = "1.0.11"
 
 [vim-theme]
 submodule = "extensions/vim-theme"
@@ -5938,6 +5951,11 @@ version = "0.0.2"
 [vue]
 submodule = "extensions/vue"
 version = "0.4.0"
+
+[vue-i18n-language-server]
+submodule = "extensions/vue-i18n-language-server"
+path = "extension"
+version = "0.1.0"
 
 [vue-snippets]
 submodule = "extensions/vue-snippets"
