@@ -86,7 +86,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.54.0"
+version = "0.55.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -260,7 +260,7 @@ version = "1.0.3"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.5.9"
+version = "0.5.10"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -288,7 +288,7 @@ version = "0.1.0"
 
 [ast-grep]
 submodule = "extensions/ast-grep"
-version = "0.1.0"
+version = "0.1.1"
 
 [asteroid]
 submodule = "extensions/asteroid"
@@ -908,6 +908,11 @@ submodule = "extensions/clice"
 version = "0.1.0"
 path = "editors/zed"
 
+[clockwork-gold-theme]
+submodule = "extensions/clockwork-gold-theme"
+path = "zed"
+version = "0.1.0"
+
 [clojure]
 submodule = "extensions/clojure"
 version = "0.2.2"
@@ -1171,6 +1176,10 @@ version = "0.0.2"
 [cylc]
 submodule = "extensions/cylc"
 version = "0.2.0"
+
+[cynosure-light-theme]
+submodule = "extensions/cynosure-light-theme"
+version = "0.1.0"
 
 [cypher]
 submodule = "extensions/cypher"
@@ -1441,6 +1450,10 @@ version = "0.0.1"
 [duso]
 submodule = "extensions/duso"
 version = "1.6.21"
+
+[dusty-plum-theme]
+submodule = "extensions/dusty-plum-theme"
+version = "0.1.1"
 
 [dusty-theme]
 submodule = "extensions/dusty-theme"
@@ -1932,6 +1945,10 @@ version = "0.0.2"
 [gafelson]
 submodule = "extensions/gafelson"
 version = "1.0.1"
+
+[gafelson-lavender-theme]
+submodule = "extensions/gafelson-lavender-theme"
+version = "0.1.0"
 
 [gas-plasma-icons]
 submodule = "extensions/gas-plasma-icons"
@@ -2699,7 +2716,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.2.0"
+version = "0.2.1"
 
 [just]
 submodule = "extensions/just"
@@ -3710,6 +3727,11 @@ version = "0.0.5"
 submodule = "extensions/night-shift"
 version = "1.0.3"
 
+[nightcall-theme]
+submodule = "extensions/nightcall-theme"
+path = "zed"
+version = "0.0.1"
+
 [nightfall-theme]
 submodule = "extensions/nightfall-theme"
 version = "0.1.0"
@@ -4660,7 +4682,7 @@ version = "0.4.4"
 
 [resonance-with-hatsune-miku-theme]
 submodule = "extensions/resonance-with-hatsune-miku-theme"
-version = "0.1.0"
+version = "1.0.0"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -6051,7 +6073,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.14.0"
+version = "0.15.0"
 
 [whkd]
 submodule = "extensions/whkd"
@@ -6079,7 +6101,7 @@ version = "0.1.0"
 
 [word-highlight-lsp]
 submodule = "extensions/word-highlight-lsp"
-version = "0.1.4"
+version = "0.1.5"
 
 [wow-toc]
 submodule = "extensions/wow-toc"
