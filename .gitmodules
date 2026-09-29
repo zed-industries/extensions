@@ -4370,6 +4370,10 @@
 	path = extensions/pylsp
 	url = https://github.com/rgbkrk/python-lsp-zed-extension.git
 
+[submodule "extensions/pypilot-language-server"]
+	path = extensions/pypilot-language-server
+	url = https://github.com/Abdullah-Masood-05/pypilot.git
+
 [submodule "extensions/pyrefly"]
 	path = extensions/pyrefly
 	url = https://github.com/zed-extensions/pyrefly.git
@@ -4381,10 +4385,6 @@
 [submodule "extensions/python-autodoc-lsp"]
 	path = extensions/python-autodoc-lsp
 	url = https://github.com/eallender/zed-python-autodoc.git
-
-[submodule "extensions/python-env-language-server"]
-	path = extensions/python-env-language-server
-	url = https://github.com/Abdullah-Masood-05/pypilot.git
 
 [submodule "extensions/python-refactoring"]
 	path = extensions/python-refactoring
