@@ -14,6 +14,11 @@ version = "0.0.1"
 submodule = "extensions/1984-theme"
 version = "0.1.3"
 
+[42nd-theme]
+submodule = "extensions/42nd-theme"
+path = "zed"
+version = "0.1.0"
+
 [8008-theme]
 submodule = "extensions/8008-theme"
 version = "0.0.4"
@@ -81,7 +86,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.54.0"
+version = "0.55.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -255,7 +260,7 @@ version = "1.0.3"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.5.9"
+version = "0.5.10"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -283,7 +288,7 @@ version = "0.1.0"
 
 [ast-grep]
 submodule = "extensions/ast-grep"
-version = "0.1.0"
+version = "0.1.1"
 
 [asteroid]
 submodule = "extensions/asteroid"
@@ -390,6 +395,11 @@ version = "1.0.1"
 [ayu-themes-glass]
 submodule = "extensions/ayu-themes-glass"
 version = "1.0.0"
+
+[azulejo-brutalism-theme]
+submodule = "extensions/azulejo-brutalism-theme"
+path = "zed"
+version = "0.1.0"
 
 [azure-context-server]
 submodule = "extensions/azure-context-server"
@@ -903,6 +913,11 @@ submodule = "extensions/clice"
 version = "0.1.0"
 path = "editors/zed"
 
+[clockwork-gold-theme]
+submodule = "extensions/clockwork-gold-theme"
+path = "zed"
+version = "0.1.0"
+
 [clojure]
 submodule = "extensions/clojure"
 version = "0.2.2"
@@ -1005,6 +1020,10 @@ version = "1.2.0"
 submodule = "extensions/compline"
 path = "zed"
 version = "0.1.0"
+
+[composer-lsp]
+submodule = "extensions/composer-lsp"
+version = "0.2.6"
 
 [confetti]
 submodule = "extensions/confetti"
@@ -1166,6 +1185,10 @@ version = "0.0.2"
 [cylc]
 submodule = "extensions/cylc"
 version = "0.2.0"
+
+[cynosure-light-theme]
+submodule = "extensions/cynosure-light-theme"
+version = "0.1.0"
 
 [cypher]
 submodule = "extensions/cypher"
@@ -1436,6 +1459,10 @@ version = "0.0.1"
 [duso]
 submodule = "extensions/duso"
 version = "1.6.21"
+
+[dusty-plum-theme]
+submodule = "extensions/dusty-plum-theme"
+version = "0.1.1"
 
 [dusty-theme]
 submodule = "extensions/dusty-theme"
@@ -1847,6 +1874,10 @@ version = "0.1.0"
 submodule = "extensions/forest-night"
 version = "0.1.0"
 
+[forest-night-ethereal-theme]
+submodule = "extensions/forest-night-ethereal-theme"
+version = "0.1.0"
+
 [formosa-theme]
 submodule = "extensions/formosa-theme"
 version = "1.0.0"
@@ -1928,6 +1959,10 @@ version = "0.0.2"
 submodule = "extensions/gafelson"
 version = "1.0.1"
 
+[gafelson-lavender-theme]
+submodule = "extensions/gafelson-lavender-theme"
+version = "0.1.0"
+
 [gas-plasma-icons]
 submodule = "extensions/gas-plasma-icons"
 path = "zed/gas-plasma-icons"
@@ -1978,6 +2013,10 @@ version = "1.2.2"
 [geode-theme]
 submodule = "extensions/geode-theme"
 version = "2.0.1"
+
+[georgy-theme]
+submodule = "extensions/georgy-theme"
+version = "0.1.0"
 
 [ghost-in-the-shell-theme]
 submodule = "extensions/ghost-in-the-shell-theme"
@@ -2315,6 +2354,10 @@ version = "0.1.0"
 [hex-light-theme]
 submodule = "extensions/hex-light-theme"
 version = "0.0.4"
+
+[hexaly]
+submodule = "extensions/hexaly"
+version = "0.1.0"
 
 [hexpeek]
 submodule = "extensions/hexpeek"
@@ -2694,7 +2737,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.2.0"
+version = "0.2.1"
 
 [just]
 submodule = "extensions/just"
@@ -3513,6 +3556,10 @@ submodule = "extensions/monochromator-theme"
 path = "editors/zed"
 version = "0.4.0"
 
+[monochrome-amber-theme]
+submodule = "extensions/monochrome-amber-theme"
+version = "0.1.0"
+
 [monokai-nebula]
 submodule = "extensions/monokai-nebula"
 version = "0.2.6"
@@ -3705,6 +3752,11 @@ version = "0.0.5"
 submodule = "extensions/night-shift"
 version = "1.0.3"
 
+[nightcall-theme]
+submodule = "extensions/nightcall-theme"
+path = "zed"
+version = "0.0.1"
+
 [nightfall-theme]
 submodule = "extensions/nightfall-theme"
 version = "0.1.0"
@@ -3777,6 +3829,10 @@ version = "0.0.3"
 [nordic-theme]
 submodule = "extensions/nordic-theme"
 version = "0.5.2"
+
+[nordppuccin-theme]
+submodule = "extensions/nordppuccin-theme"
+version = "0.0.2"
 
 [norminette]
 submodule = "extensions/norminette"
@@ -3879,6 +3935,10 @@ version = "1.4.0"
 submodule = "extensions/obsidian-sunset"
 version = "1.1.0"
 
+[obsidian-theme]
+submodule = "extensions/obsidian-theme"
+version = "0.1.0"
+
 [oc-2-theme]
 submodule = "extensions/oc-2-theme"
 version = "0.0.1"
@@ -3898,6 +3958,10 @@ version = "0.0.1"
 [oceanic-next]
 submodule = "extensions/oceanic-next"
 version = "1.1.0"
+
+[oceanic-rift-theme]
+submodule = "extensions/oceanic-rift-theme"
+version = "0.1.0"
 
 [oceans-of-andromeda-theme]
 submodule = "extensions/oceans-of-andromeda-theme"
@@ -3927,6 +3991,10 @@ version = "0.0.1"
 [oldbook-theme]
 submodule = "extensions/oldbook-theme"
 version = "1.5.5"
+
+[olive-green-theme]
+submodule = "extensions/olive-green-theme"
+version = "0.1.0"
 
 [omnetpp]
 submodule = "extensions/omnetpp"
@@ -4660,7 +4728,7 @@ version = "0.4.4"
 
 [resonance-with-hatsune-miku-theme]
 submodule = "extensions/resonance-with-hatsune-miku-theme"
-version = "0.1.0"
+version = "1.0.0"
 
 [retrofit-theme]
 submodule = "extensions/retrofit-theme"
@@ -4970,6 +5038,10 @@ version = "2.5.1"
 submodule = "extensions/sieve"
 version = "0.1.7"
 
+[silex]
+submodule = "extensions/silex"
+version = "0.51.0"
+
 [silverstripe]
 submodule = "extensions/silverstripe"
 version = "0.1.0"
@@ -5234,6 +5306,11 @@ version = "0.0.1"
 submodule = "extensions/stylelint"
 version = "3.2.0"
 
+[stylus]
+submodule = "extensions/stylus"
+path = "editors/zed"
+version = "0.6.0"
+
 [styx]
 submodule = "extensions/styx"
 path = "editors/zed-styx"
@@ -5487,6 +5564,10 @@ version = "0.0.1"
 [the-dark-side]
 submodule = "extensions/the-dark-side"
 version = "0.3.0"
+
+[the-forbidden-one-theme]
+submodule = "extensions/the-forbidden-one-theme"
+version = "0.0.1"
 
 [the-pure-tone]
 submodule = "extensions/the-pure-tone"
@@ -5821,6 +5902,10 @@ version = "0.1.0"
 submodule = "extensions/vercel-theme"
 version = "1.1.0"
 
+[verifpal]
+submodule = "extensions/verifpal"
+version = "1.0.0"
+
 [verilog]
 submodule = "extensions/verilog"
 version = "0.0.19"
@@ -6051,7 +6136,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.14.0"
+version = "0.15.0"
 
 [whkd]
 submodule = "extensions/whkd"
@@ -6079,7 +6164,7 @@ version = "0.1.0"
 
 [word-highlight-lsp]
 submodule = "extensions/word-highlight-lsp"
-version = "0.1.4"
+version = "0.1.5"
 
 [wow-toc]
 submodule = "extensions/wow-toc"
