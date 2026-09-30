@@ -850,6 +850,10 @@
 	path = extensions/compline
 	url = https://github.com/jblais493/compline.git
 
+[submodule "extensions/concoctis-theme"]
+	path = extensions/concoctis-theme
+	url = https://github.com/m3rashid/concoctis-zed-theme.git
+
 [submodule "extensions/confluence-context-server"]
 	path = extensions/confluence-context-server
 	url = https://github.com/mouhamadalmounayar/confluence-context-server
@@ -1837,10 +1841,6 @@
 [submodule "extensions/gruvbox-baby"]
 	path = extensions/gruvbox-baby
 	url = https://github.com/gbo-dev/gruvbox-baby-zed
-
-[submodule "extensions/gruvbox-concoctis-theme"]
-	path = extensions/gruvbox-concoctis-theme
-	url = https://github.com/m3rashid/gruvbox-concoctis-zed-theme.git
 
 [submodule "extensions/gruvbox-crisp-themes"]
 	path = extensions/gruvbox-crisp-themes
