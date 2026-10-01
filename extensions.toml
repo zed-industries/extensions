@@ -691,7 +691,7 @@ version = "0.0.2"
 
 [caddyfile]
 submodule = "extensions/caddyfile"
-version = "0.0.6"
+version = "0.0.7"
 
 [cadence]
 submodule = "extensions/cadence"
@@ -1508,6 +1508,10 @@ version = "0.1.0"
 submodule = "extensions/edge"
 version = "1.0.1"
 
+[edge-theme]
+submodule = "extensions/edge-theme"
+version = "0.1.0"
+
 [edgerunners-2-theme]
 submodule = "extensions/edgerunners-2-theme"
 version = "0.0.2"
@@ -1951,6 +1955,11 @@ submodule = "extensions/fun-lang"
 path = "editors/zed"
 version = "0.1.1"
 
+[fun-web-theme]
+submodule = "extensions/fun-web-theme"
+path = "editors/zed-theme"
+version = "0.1.0"
+
 [furina-vibe-theme]
 submodule = "extensions/furina-vibe-theme"
 version = "0.1.2"
@@ -2189,7 +2198,7 @@ version = "0.1.0"
 
 [greycat]
 submodule = "extensions/greycat"
-version = "0.1.10"
+version = "0.1.11"
 
 [grimaces-birthday]
 submodule = "extensions/grimaces-birthday"
@@ -3299,7 +3308,7 @@ version = "0.0.4"
 
 [mcp-server-github]
 submodule = "extensions/mcp-server-github"
-version = "0.1.0"
+version = "0.2.0"
 
 [mcp-server-gitlab]
 submodule = "extensions/mcp-server-gitlab"
@@ -4456,7 +4465,7 @@ version = "0.0.5"
 
 [postgres-language-server]
 submodule = "extensions/postgres-language-server"
-version = "0.1.0"
+version = "0.1.1"
 
 [postman-context-server]
 submodule = "extensions/postman-context-server"
@@ -4517,6 +4526,10 @@ version = "0.2.0"
 
 [puppydog-theme]
 submodule = "extensions/puppydog-theme"
+version = "0.0.1"
+
+[pure-black-high-contrast-theme]
+submodule = "extensions/pure-black-high-contrast-theme"
 version = "0.0.1"
 
 [purescript]
@@ -4967,6 +4980,10 @@ version = "0.0.1"
 
 [sequel-icons]
 submodule = "extensions/sequel-icons"
+version = "0.1.0"
+
+[sequel-theme]
+submodule = "extensions/sequel-theme"
 version = "0.1.0"
 
 [sequoia]
@@ -6009,7 +6026,7 @@ version = "0.8.9"
 
 [voidline-theme]
 submodule = "extensions/voidline-theme"
-version = "0.1.1"
+version = "0.1.2"
 
 [vrl]
 submodule = "extensions/vrl"

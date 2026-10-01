@@ -1470,6 +1470,10 @@
 	path = extensions/edge
 	url = https://github.com/Hexacker/zed-edge.git
 
+[submodule "extensions/edge-theme"]
+	path = extensions/edge-theme
+	url = https://github.com/arobsn/edge-zed.git
+
 [submodule "extensions/edgerunners-2-theme"]
 	path = extensions/edgerunners-2-theme
 	url = https://github.com/Nicktriez/edgerunners-2-zed-editor-themes.git
@@ -1904,6 +1908,10 @@
 
 [submodule "extensions/fun-lang"]
 	path = extensions/fun-lang
+	url = https://github.com/omdxp/fun.git
+
+[submodule "extensions/fun-web-theme"]
+	path = extensions/fun-web-theme
 	url = https://github.com/omdxp/fun.git
 
 [submodule "extensions/furina-vibe-theme"]
@@ -4426,6 +4434,10 @@
 	path = extensions/puppydog-theme
 	url = https://github.com/lillianrubyrose/puppydog-theme-zed.git
 
+[submodule "extensions/pure-black-high-contrast-theme"]
+	path = extensions/pure-black-high-contrast-theme
+	url = https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast.git
+
 [submodule "extensions/purescript"]
 	path = extensions/purescript
 	url = https://github.com/zed-extensions/purescript.git
@@ -4865,6 +4877,10 @@
 [submodule "extensions/sequel-icons"]
 	path = extensions/sequel-icons
 	url = https://github.com/sequelcore/zed-icons.git
+
+[submodule "extensions/sequel-theme"]
+	path = extensions/sequel-theme
+	url = https://github.com/sequelcore/zed-theme.git
 
 [submodule "extensions/sequoia"]
 	path = extensions/sequoia
