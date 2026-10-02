@@ -5461,6 +5461,10 @@ version = "0.4.11"
 submodule = "extensions/symbols"
 version = "1.2.0"
 
+[symfony-lsp]
+submodule = "extensions/symfony-lsp"
+version = "0.1.0"
+
 [syntaqlite-lsp]
 submodule = "extensions/syntaqlite-lsp"
 path = "integrations/zed"
