@@ -3574,6 +3574,11 @@
 	path = extensions/mpls
 	url = https://github.com/pnyda/zed-mpls.git
 
+[submodule "extensions/ms-solarized-dark-theme"]
+	path = extensions/ms-solarized-dark-theme
+	url = https://github.com/Lszaboo/ms-solarized-dark-zed.git
+	branch = publish
+
 [submodule "extensions/msbuild-lsp"]
 	path = extensions/msbuild-lsp
 	url = https://github.com/MangelMaxime/zed-msbuild.git
