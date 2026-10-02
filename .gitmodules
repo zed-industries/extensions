@@ -1106,6 +1106,10 @@
 	path = extensions/csv
 	url = https://github.com/huacnlee/zed-csv.git
 
+[submodule "extensions/csv-columns"]
+	path = extensions/csv-columns
+	url = https://github.com/SirToffski/zed_csv_utils.git
+
 [submodule "extensions/ctags"]
 	path = extensions/ctags
 	url = https://github.com/mazurel/zed-ctags.git
