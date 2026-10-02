@@ -2070,6 +2070,10 @@
 	path = extensions/gleam-theme
 	url = https://github.com/DanielleMaywood/gleam-theme-zed
 
+[submodule "extensions/glua"]
+	path = extensions/glua
+	url = https://github.com/vaqxai/glua.git
+
 [submodule "extensions/gn"]
 	path = extensions/gn
 	url = https://github.com/dsa28s/zed-gn-language.git
@@ -6261,6 +6265,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/zed-glua"]
-	path = extensions/zed-glua
-	url = https://github.com/vaqxai/zed-glua
