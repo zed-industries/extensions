@@ -2750,7 +2750,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.2.1"
+version = "0.2.2"
 
 [just]
 submodule = "extensions/just"
@@ -3532,7 +3532,7 @@ version = "0.0.1"
 
 [mjml]
 submodule = "extensions/mjml"
-version = "0.2.0"
+version = "0.3.1"
 
 [mlir-tablegen]
 submodule = "extensions/mlir-tablegen"
@@ -4263,7 +4263,8 @@ version = "0.0.1"
 
 [pearl-theme]
 submodule = "extensions/pearl-theme"
-version = "0.0.1"
+path = "pearl"
+version = "0.0.2"
 
 [pelpsi-night-theme]
 submodule = "extensions/pelpsi-night-theme"
@@ -5751,7 +5752,7 @@ version = "1.1.0"
 [tsrx]
 submodule = "extensions/tsrx"
 path = "packages/zed-plugin"
-version = "0.1.1"
+version = "0.1.4"
 
 [turbo-log-snippets]
 submodule = "extensions/turbo-log-snippets"
@@ -5903,7 +5904,7 @@ version = "0.2.0"
 
 [vala]
 submodule = "extensions/vala"
-version = "0.2.0"
+version = "0.3.0"
 
 [vale]
 submodule = "extensions/vale"
