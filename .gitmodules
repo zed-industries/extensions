@@ -2654,6 +2654,10 @@
 	path = extensions/jq
 	url = https://github.com/dangh/zed-jq.git
 
+[submodule "extensions/jscpd-lsp"]
+	path = extensions/jscpd-lsp
+	url = https://github.com/kucherenko/jscpd-ide.git
+
 [submodule "extensions/json-tool-lsp"]
 	path = extensions/json-tool-lsp
 	url = https://github.com/xgfone/zed-json-tool.git
