@@ -1058,6 +1058,10 @@
 	path = extensions/cron-sense-lsp
 	url = https://github.com/zxcodes/cron-sense.git
 
+[submodule "extensions/crowdstrike-cql"]
+	path = extensions/crowdstrike-cql
+	url = https://github.com/brandonvader/crowdstrike-cql-zed.git
+
 [submodule "extensions/crystal"]
 	path = extensions/crystal
 	url = https://github.com/crystal-lang-tools/zed-crystal.git
