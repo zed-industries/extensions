@@ -3830,6 +3830,10 @@
 	path = extensions/nu-lint
 	url = https://codeberg.org/vmeurisse/nu-lint-zed.git
 
+[submodule "extensions/nudo-lsp"]
+	path = extensions/nudo-lsp
+	url = https://github.com/nudojs/nudo-zed.git
+
 [submodule "extensions/nuisance"]
 	path = extensions/nuisance
 	url = https://github.com/xtrasmal/zed-theme-nuisance.git
@@ -4172,7 +4176,7 @@
 
 [submodule "extensions/pearl-theme"]
 	path = extensions/pearl-theme
-	url = https://github.com/olllayor/pearl-theme.git
+	url = https://github.com/olllayor/zed-themes.git
 
 [submodule "extensions/pelpsi-night-theme"]
 	path = extensions/pelpsi-night-theme
