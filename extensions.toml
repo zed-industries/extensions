@@ -4001,6 +4001,11 @@ version = "0.3.16"
 submodule = "extensions/odoo"
 version = "1.6.0"
 
+[odoo-lint-lsp]
+submodule = "extensions/odoo-lint-lsp"
+path = "integrations/zed"
+version = "0.1.0"
+
 [odoo-lsp]
 submodule = "extensions/odoo-lsp"
 version = "1.0.0"
