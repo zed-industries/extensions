@@ -446,6 +446,10 @@
 	path = extensions/batman
 	url = https://github.com/devzaidi/batman-theme-zed
 
+[submodule "extensions/bats"]
+	path = extensions/bats
+	url = https://github.com/nertzy/zed-bats.git
+
 [submodule "extensions/batsignal-theme"]
 	path = extensions/batsignal-theme
 	url = https://github.com/kijv/batsignal-zed.git
@@ -937,6 +941,10 @@
 [submodule "extensions/codeowners"]
 	path = extensions/codeowners
 	url = https://github.com/lukasmalkmus/codeowners-zed.git
+
+[submodule "extensions/codeql"]
+	path = extensions/codeql
+	url = https://github.com/Fruit-Guardians/codeql-zed.git
 
 [submodule "extensions/codesandbox-theme"]
 	path = extensions/codesandbox-theme
@@ -1466,6 +1474,10 @@
 	path = extensions/edge
 	url = https://github.com/Hexacker/zed-edge.git
 
+[submodule "extensions/edge-theme"]
+	path = extensions/edge-theme
+	url = https://github.com/arobsn/edge-zed.git
+
 [submodule "extensions/edgerunners-2-theme"]
 	path = extensions/edgerunners-2-theme
 	url = https://github.com/Nicktriez/edgerunners-2-zed-editor-themes.git
@@ -1649,6 +1661,10 @@
 [submodule "extensions/eyecandy"]
 	path = extensions/eyecandy
 	url = https://github.com/MSH-01/eyecandy.git
+
+[submodule "extensions/eyesclosed-theme"]
+	path = extensions/eyesclosed-theme
+	url = https://github.com/thdxg/eyesclosed.git
 
 [submodule "extensions/ezio-theme"]
 	path = extensions/ezio-theme
@@ -1902,6 +1918,14 @@
 	path = extensions/fun-lang
 	url = https://github.com/omdxp/fun.git
 
+[submodule "extensions/fun-web-theme"]
+	path = extensions/fun-web-theme
+	url = https://github.com/omdxp/fun.git
+
+[submodule "extensions/funky-theme"]
+	path = extensions/funky-theme
+	url = https://github.com/maxgb23/funky-theme.git
+
 [submodule "extensions/furina-vibe-theme"]
 	path = extensions/furina-vibe-theme
 	url = https://github.com/Hilrein/zed-Furina-vibe-theme.git
@@ -2097,6 +2121,10 @@
 [submodule "extensions/graphene"]
 	path = extensions/graphene
 	url = https://github.com/adinack/graphene.git
+
+[submodule "extensions/graphite-theme"]
+	path = extensions/graphite-theme
+	url = https://github.com/lazyanubis/zed-graphite.git
 
 [submodule "extensions/graphql"]
 	path = extensions/graphql
@@ -3022,6 +3050,10 @@
 	path = extensions/macos-prism-theme
 	url = https://github.com/ardahamamcioglu/macos-prism-theme.git
 
+[submodule "extensions/macvim-classic-theme"]
+	path = extensions/macvim-classic-theme
+	url = https://github.com/JuanVqz/macvim-theme.git
+
 [submodule "extensions/magento2-snippets"]
 	path = extensions/magento2-snippets
 	url = https://github.com/mage-os-lab/zed-magento2-snippets
@@ -3810,6 +3842,10 @@
 	path = extensions/nu-lint
 	url = https://codeberg.org/vmeurisse/nu-lint-zed.git
 
+[submodule "extensions/nudo-lsp"]
+	path = extensions/nudo-lsp
+	url = https://github.com/nudojs/nudo-zed.git
+
 [submodule "extensions/nuisance"]
 	path = extensions/nuisance
 	url = https://github.com/xtrasmal/zed-theme-nuisance.git
@@ -4034,6 +4070,10 @@
 	path = extensions/oso
 	url = https://github.com/osohq/oso-zed.git
 
+[submodule "extensions/ouch-my-eyes-theme"]
+	path = extensions/ouch-my-eyes-theme
+	url = https://github.com/KevBeltrao/ouch-my-eyes-theme.git
+
 [submodule "extensions/outrun"]
 	path = extensions/outrun
 	url = https://github.com/Acepie/OutrunZedTheme.git
@@ -4041,6 +4081,10 @@
 [submodule "extensions/outrun-vscode-theme"]
 	path = extensions/outrun-vscode-theme
 	url = https://github.com/exkungen/outrun-vscode-zed.git
+
+[submodule "extensions/overpassql"]
+	path = extensions/overpassql
+	url = https://github.com/edwinkortman/overpassql-zed-extension.git
 
 [submodule "extensions/oxc"]
 	path = extensions/oxc
@@ -4145,6 +4189,10 @@
 [submodule "extensions/pearish-theme"]
 	path = extensions/pearish-theme
 	url = https://github.com/dvhthomas/pearish-theme.git
+
+[submodule "extensions/pearl-theme"]
+	path = extensions/pearl-theme
+	url = https://github.com/olllayor/zed-themes.git
 
 [submodule "extensions/pelpsi-night-theme"]
 	path = extensions/pelpsi-night-theme
@@ -4414,6 +4462,10 @@
 	path = extensions/puppydog-theme
 	url = https://github.com/lillianrubyrose/puppydog-theme-zed.git
 
+[submodule "extensions/pure-black-high-contrast-theme"]
+	path = extensions/pure-black-high-contrast-theme
+	url = https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast.git
+
 [submodule "extensions/purescript"]
 	path = extensions/purescript
 	url = https://github.com/zed-extensions/purescript.git
@@ -4429,6 +4481,10 @@
 [submodule "extensions/pycharm-modern-themes"]
 	path = extensions/pycharm-modern-themes
 	url = https://github.com/injirez/zed-pycharm-modern-themes
+
+[submodule "extensions/pyfun"]
+	path = extensions/pyfun
+	url = https://github.com/simontreanor/Pyfun.git
 
 [submodule "extensions/pylsp"]
 	path = extensions/pylsp
@@ -4853,6 +4909,10 @@
 [submodule "extensions/seoul256"]
 	path = extensions/seoul256
 	url = https://github.com/jcmorrow/seoul256-zed.git
+
+[submodule "extensions/sequel-theme"]
+	path = extensions/sequel-theme
+	url = https://github.com/sequelcore/zed-theme.git
 
 [submodule "extensions/sequoia"]
 	path = extensions/sequoia
