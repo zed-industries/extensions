@@ -3918,6 +3918,10 @@
 	path = extensions/odoo
 	url = https://github.com/odoo/odoo-zed.git
 
+[submodule "extensions/odoo-lint-lsp"]
+	path = extensions/odoo-lint-lsp
+	url = https://github.com/bosd/odoo-lint.git
+
 [submodule "extensions/odoo-lsp"]
 	path = extensions/odoo-lsp
 	url = https://github.com/Desdaemon/odoo-lsp.git
