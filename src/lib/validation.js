@@ -1,4 +1,5 @@
 import semver from "semver";
+import { diffExtensionIds } from "./extensions-toml.js";
 import {
   isApache2License,
   isBsd2ClauseLicense,
@@ -13,6 +14,13 @@ import {
 } from "./license.js";
 
 const EXTENSION_ID_PATTERN = /^[a-z0-9\-]+$/;
+
+/**
+ * Grandfather only these existing extension/version pairs, not future releases.
+ *
+ * Only to be edited by Zed staff.
+ */
+const EXTENSION_VERSION_EXCEPTIONS = new Map([["platformio", "v0.0.1"]]);
 
 /**
  * Exceptions to the rule of extension IDs starting in `zed-`.
@@ -74,6 +82,19 @@ export function validateExtensionsToml(extensionsToml) {
     if (!extensionInfo.submodule || !extensionInfo.version) {
       throw new Error(
         `Missing required field "submodule" or "version" for extension "${extensionId}"`,
+      );
+    }
+
+    const version = extensionInfo.version;
+    const parsedVersion = semver.parse(version);
+    if (
+      version !== EXTENSION_VERSION_EXCEPTIONS.get(extensionId) &&
+      (!parsedVersion ||
+        version !==
+          `${parsedVersion.major}.${parsedVersion.minor}.${parsedVersion.patch}`)
+    ) {
+      throw new Error(
+        `Invalid version "${version}" for extension "${extensionId}". Expected a SemVer version in the form "major.minor.patch" with no leading zeroes, prefixes, suffixes, or whitespace.`,
       );
     }
   }
@@ -166,12 +187,6 @@ export function validateGitmodulesLocations(extensionsToml, gitmodules) {
         `Name and path do not match for submodule ${expectedSubmoduleName}. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
       );
     }
-
-    if (submoduleName !== expectedSubmoduleName) {
-      throw new Error(
-        `Extension with ID "${extensionId}" does not use the proper submodule. Please ensure that the submodule is named and located at "${expectedSubmoduleName}".`,
-      );
-    }
   }
 }
 
@@ -245,6 +260,11 @@ export function assertVersionNotDecreased(
   currentVersion,
   previousVersion,
 ) {
+  // Let maintainers choose a valid replacement for their legacy version.
+  if (previousVersion === EXTENSION_VERSION_EXCEPTIONS.get(extensionId)) {
+    return;
+  }
+
   if (semver.lt(currentVersion, previousVersion)) {
     throw new Error(
       `Version for extension "${extensionId}" must not decrease: ${previousVersion} -> ${currentVersion}`,
@@ -263,11 +283,10 @@ export function validateExtensionIdsNotChanged(
   currentExtensionsToml,
   previousExtensionsToml,
 ) {
-  const currentIds = new Set(Object.keys(currentExtensionsToml));
-  const previousIds = new Set(Object.keys(previousExtensionsToml));
-
-  const addedIds = [...currentIds].filter((id) => !previousIds.has(id));
-  const removedIds = [...previousIds].filter((id) => !currentIds.has(id));
+  const { added: addedIds, removed: removedIds } = diffExtensionIds(
+    currentExtensionsToml,
+    previousExtensionsToml,
+  );
 
   if (addedIds.length > 0 && removedIds.length > 0) {
     throw new Error(
