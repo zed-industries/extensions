@@ -86,7 +86,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.55.0"
+version = "0.56.6"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -386,7 +386,7 @@ version = "0.0.3"
 
 [ayu-darker]
 submodule = "extensions/ayu-darker"
-version = "1.1.2"
+version = "1.2.0"
 
 [ayu-theme]
 submodule = "extensions/ayu-theme"
@@ -459,6 +459,10 @@ version = "0.0.1"
 [batman]
 submodule = "extensions/batman"
 version = "0.0.3"
+
+[bats]
+submodule = "extensions/bats"
+version = "0.1.0"
 
 [batsignal-theme]
 submodule = "extensions/batsignal-theme"
@@ -629,7 +633,7 @@ version = "0.0.1"
 
 [brackets-refined-theme]
 submodule = "extensions/brackets-refined-theme"
-version = "0.1.0"
+version = "0.1.1"
 
 [brainfuck]
 submodule = "extensions/brainfuck"
@@ -743,7 +747,7 @@ version = "0.4.1"
 
 [cartan]
 submodule = "extensions/cartan"
-version = "0.10.0"
+version = "0.10.1"
 
 [carve]
 submodule = "extensions/carve"
@@ -1105,7 +1109,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.4.0"
+version = "1.4.1"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -1334,7 +1338,7 @@ version = "0.1.2"
 [dep-beacon-lsp]
 submodule = "extensions/dep-beacon-lsp"
 path = "extensions/dep-beacon-lsp"
-version = "1.1.1"
+version = "1.1.2"
 
 [deps-language-server]
 submodule = "extensions/deps-language-server"
@@ -1343,7 +1347,7 @@ version = "0.1.8"
 [depsy-lsp]
 submodule = "extensions/depsy-lsp"
 path = "depsy-zed"
-version = "2.1.0"
+version = "2.1.1"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -1562,7 +1566,7 @@ version = "0.1.0"
 
 [eldritch-theme]
 submodule = "extensions/eldritch-theme"
-version = "0.1.0"
+version = "0.2.0"
 
 [electron-highlighter-theme]
 submodule = "extensions/electron-highlighter-theme"
@@ -1631,7 +1635,7 @@ version = "0.20.2"
 
 [emoji-completions]
 submodule = "extensions/emoji-completions"
-version = "1.1.1"
+version = "1.2.0"
 
 [env]
 submodule = "extensions/env"
@@ -1697,6 +1701,11 @@ version = "0.1.3"
 [eyecandy]
 submodule = "extensions/eyecandy"
 version = "0.0.1"
+
+[eyesclosed-theme]
+submodule = "extensions/eyesclosed-theme"
+path = "themes/zed"
+version = "0.1.0"
 
 [ezio-theme]
 submodule = "extensions/ezio-theme"
@@ -1960,6 +1969,11 @@ submodule = "extensions/fun-web-theme"
 path = "editors/zed-theme"
 version = "0.1.0"
 
+[funky-theme]
+submodule = "extensions/funky-theme"
+path = "zed"
+version = "0.1.0"
+
 [furina-vibe-theme]
 submodule = "extensions/furina-vibe-theme"
 version = "0.1.2"
@@ -2164,6 +2178,10 @@ version = "0.1.0"
 submodule = "extensions/graphene"
 version = "0.2.1"
 
+[graphite-theme]
+submodule = "extensions/graphite-theme"
+version = "0.1.0"
+
 [graphql]
 submodule = "extensions/graphql"
 version = "1.0.6"
@@ -2274,12 +2292,12 @@ version = "0.1.0"
 
 [hadal-theme]
 submodule = "extensions/hadal-theme"
-version = "0.2.0"
+version = "0.3.0"
 
 [hakimi-deuteranopia-theme]
 submodule = "extensions/hakimi-deuteranopia-theme"
 path = "zed"
-version = "1.2.1"
+version = "2.0.0"
 
 [haku-dark-theme]
 submodule = "extensions/haku-dark-theme"
@@ -2491,7 +2509,7 @@ version = "0.0.5"
 
 [i18n-lens-language-server]
 submodule = "extensions/i18n-lens-language-server"
-version = "0.12.0"
+version = "0.13.0"
 
 [ibm-5151]
 submodule = "extensions/ibm-5151"
@@ -2641,7 +2659,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.27"
+version = "6.8.28"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2750,7 +2768,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.2.2"
+version = "0.2.3"
 
 [just]
 submodule = "extensions/just"
@@ -3777,7 +3795,7 @@ version = "1.0.3"
 [nightcall-theme]
 submodule = "extensions/nightcall-theme"
 path = "zed"
-version = "0.0.2"
+version = "0.0.3"
 
 [nightfall-theme]
 submodule = "extensions/nightfall-theme"
@@ -4142,6 +4160,11 @@ version = "0.2.0"
 submodule = "extensions/oso"
 version = "1.0.0"
 
+[ouch-my-eyes-theme]
+submodule = "extensions/ouch-my-eyes-theme"
+path = "zed"
+version = "0.0.1"
+
 [outrun]
 submodule = "extensions/outrun"
 version = "0.0.3"
@@ -4160,7 +4183,7 @@ version = "0.4.8"
 
 [oxide-theme]
 submodule = "extensions/oxide-theme"
-version = "0.0.1"
+version = "0.0.2"
 
 [oxocarbon]
 submodule = "extensions/oxocarbon"
@@ -5352,7 +5375,7 @@ version = "3.2.0"
 [stylus]
 submodule = "extensions/stylus"
 path = "editors/zed"
-version = "0.6.1"
+version = "0.6.2"
 
 [styx]
 submodule = "extensions/styx"
@@ -6179,7 +6202,7 @@ version = "0.0.3"
 
 [whim-lang]
 submodule = "extensions/whim-lang"
-version = "0.15.0"
+version = "0.19.0"
 
 [whkd]
 submodule = "extensions/whkd"
