@@ -4346,6 +4346,10 @@
 	path = extensions/playdate
 	url = https://github.com/notpeter/playdate-zed-extension.git
 
+[submodule "extensions/playwright-runner-lsp"]
+	path = extensions/playwright-runner-lsp
+	url = https://github.com/radekBednarik/playwright-zed.git
+
 [submodule "extensions/po"]
 	path = extensions/po
 	url = https://git.disroot.org/gemmaro/zed-po.git
