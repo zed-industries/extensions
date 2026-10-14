@@ -6,6 +6,7 @@ import {
   validateManifest,
   validateExtensionIdsNotChanged,
   assertVersionNotDecreased,
+  validateGitmodulesLocations,
 } from "./validation.js";
 import {
   readApache2License,
@@ -81,6 +82,74 @@ describe("validateExtensionsToml", () => {
         expect(() => validateExtensionsToml(extensionsToml)).not.toThrow();
       },
     );
+  });
+
+  it.each(["0.0.0", "0.1.0", "1.2.3", "10.20.30", "2025.8.0"])(
+    'accepts a strict SemVer version "%s"',
+    (version) => {
+      expect(() =>
+        validateExtensionsToml({
+          "my-cool-language": {
+            submodule: "extensions/my-cool-language",
+            version,
+          },
+        }),
+      ).not.toThrow();
+    },
+  );
+
+  it.each([
+    "not-a-version",
+    "1",
+    "1.2",
+    "1.2.3.4",
+    "v1.2.3",
+    "V1.2.3",
+    "=1.2.3",
+    "1.2.3-alpha",
+    "1.2.3-rc.1",
+    "1.2.3+build.1",
+    "1.2.3-alpha+build.1",
+    "01.2.3",
+    "1.02.3",
+    "1.2.03",
+    "-1.2.3",
+    "+1.2.3",
+    "1.2.x",
+    " 1.2.3",
+    "1.2.3 ",
+    "1.2.3\n",
+    "1.2.3\r\n",
+    "1.2.3\t",
+    "1. 2.3",
+    "9007199254740992.0.0",
+  ])("rejects a nonconforming version %j", (version) => {
+    expect(() =>
+      validateExtensionsToml({
+        "my-cool-language": {
+          submodule: "extensions/my-cool-language",
+          version,
+        },
+      }),
+    ).toThrowError(
+      `Invalid version "${version}" for extension "my-cool-language". Expected a SemVer version in the form "major.minor.patch" with no leading zeroes, prefixes, suffixes, or whitespace.`,
+    );
+  });
+
+  it.each([
+    { version: 123 },
+    { version: true },
+    { version: ["1.2.3"] },
+    { version: { major: 1, minor: 2, patch: 3 } },
+  ])("rejects a non-string version $version", ({ version }) => {
+    expect(() =>
+      validateExtensionsToml({
+        "my-cool-language": {
+          submodule: "extensions/my-cool-language",
+          version,
+        },
+      }),
+    ).toThrowError("Invalid version");
   });
 
   describe("when `extensions.toml` contains an extension ID with invalid characters", () => {
@@ -528,5 +597,65 @@ describe("validateExtensionIdsNotChanged", () => {
         If you need to rename an extension, update the display name in the extension's manifest instead.]
       `);
     });
+  });
+});
+
+describe("validateGitmodulesLocations", () => {
+  it("does not throw for valid submodule configuration", () => {
+    const extensionsToml = {
+      "my-extension": {
+        submodule: "extensions/my-extension",
+        version: "1.0.0",
+      },
+    };
+    const gitmodules = {
+      "extensions/my-extension": { path: "extensions/my-extension" },
+    };
+    expect(() =>
+      validateGitmodulesLocations(extensionsToml, gitmodules),
+    ).not.toThrow();
+  });
+
+  it("throws when submodule is missing in gitmodules", () => {
+    const extensionsToml = {
+      "my-extension": {
+        submodule: "extensions/my-extension",
+        version: "1.0.0",
+      },
+    };
+    expect(() => validateGitmodulesLocations(extensionsToml, {})).toThrowError(
+      'Could not find submodule "extensions/my-extension" for extension ID "my-extension".',
+    );
+  });
+
+  it("throws when submodule name does not match expected name", () => {
+    const extensionsToml = {
+      "my-extension": { submodule: "extensions/wrong-name", version: "1.0.0" },
+    };
+    const gitmodules = {
+      "extensions/wrong-name": { path: "extensions/wrong-name" },
+    };
+    expect(() =>
+      validateGitmodulesLocations(extensionsToml, gitmodules),
+    ).toThrowError(
+      "Submodule name extensions/wrong-name does not match expected name.",
+    );
+  });
+
+  it("throws when name and path do not match", () => {
+    const extensionsToml = {
+      "my-extension": {
+        submodule: "extensions/my-extension",
+        version: "1.0.0",
+      },
+    };
+    const gitmodules = {
+      "extensions/my-extension": { path: "extensions/wrong-path" },
+    };
+    expect(() =>
+      validateGitmodulesLocations(extensionsToml, gitmodules),
+    ).toThrowError(
+      "Name and path do not match for submodule extensions/my-extension.",
+    );
   });
 });
