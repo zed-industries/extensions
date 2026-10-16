@@ -2844,6 +2844,11 @@ version = "1.0.1"
 submodule = "extensions/keo-theme"
 version = "0.0.1"
 
+[kirana-lsp]
+submodule = "extensions/kirana-lsp"
+path = "packages/kirana/editors/zed"
+version = "0.3.1"
+
 [kiro]
 submodule = "extensions/kiro"
 version = "1.0.0"
