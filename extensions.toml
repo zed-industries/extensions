@@ -300,7 +300,7 @@ version = "0.1.0"
 
 [astro]
 submodule = "extensions/astro"
-version = "0.2.1"
+version = "0.2.2"
 
 [astro-snippets]
 submodule = "extensions/astro-snippets"
@@ -919,7 +919,7 @@ version = "0.1.1"
 
 [clice]
 submodule = "extensions/clice"
-version = "0.1.0"
+version = "0.1.2"
 path = "editors/zed"
 
 [clockwork-gold-theme]
@@ -2532,13 +2532,17 @@ version = "0.2.10"
 submodule = "extensions/iceicebergy"
 version = "0.3.14"
 
+[iconify-lsp]
+submodule = "extensions/iconify-lsp"
+version = "0.1.0"
+
 [icons-modern-material]
 submodule = "extensions/icons-modern-material"
 version = "1.2.0"
 
 [icu-theme]
 submodule = "extensions/icu-theme"
-version = "0.1.1"
+version = "0.1.2"
 
 [idris2]
 submodule = "extensions/idris2"
@@ -3148,6 +3152,10 @@ submodule = "extensions/magequery-lsp"
 path = "editors/zed"
 version = "0.1.1"
 
+[magreen-theme]
+submodule = "extensions/magreen-theme"
+version = "0.1.1"
+
 [maho-lsp]
 submodule = "extensions/maho-lsp"
 version = "0.10.0"
@@ -3431,7 +3439,7 @@ version = "0.0.2"
 
 [mcp-server-sonarqube]
 submodule = "extensions/mcp-server-sonarqube"
-version = "1.10.0"
+version = "1.29.0"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -6137,7 +6145,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.4.0"
+version = "0.4.1"
 
 [vue-i18n-language-server]
 submodule = "extensions/vue-i18n-language-server"
