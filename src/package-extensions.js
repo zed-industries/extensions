@@ -3,7 +3,7 @@ import toml from "@iarna/toml";
 import assert from "node:assert";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { sortExtensionsToml } from "./lib/extensions-toml.js";
+import { diffExtensionIds, sortExtensionsToml } from "./lib/extensions-toml.js";
 import {
   fileExists,
   readTomlFile,
@@ -194,6 +194,7 @@ async function packageExtension(
       env: {
         PATH: process.env["PATH"],
         RUST_LOG: "info",
+        RUSTUP_TOOLCHAIN: process.env["RUSTUP_TOOLCHAIN"],
       },
     },
   );
@@ -325,6 +326,17 @@ async function changedExtensionIds(extensionsToml, useMergeBase) {
   const mainExtensionsToml = toml.parse(extensionsContents);
 
   validateExtensionIdsNotChanged(extensionsToml, mainExtensionsToml);
+
+  const { removed: removedExtensionIds } = diffExtensionIds(
+    extensionsToml,
+    mainExtensionsToml,
+  );
+  if (removedExtensionIds.length !== 0) {
+    console.log(
+      "Extensions removed from main:",
+      removedExtensionIds.join(", "),
+    );
+  }
 
   const result = [];
   for (const [extensionId, extensionInfo] of Object.entries(extensionsToml)) {

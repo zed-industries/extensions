@@ -12,30 +12,32 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 env:
-  ZED_EXTENSION_CLI_SHA: 1fa7f1a3ec28ea1eae6db2e937d7a538fb10c0c7
+  ZED_EXTENSION_CLI_SHA: 9ee3c503a4bbbc6b4a0f8a789acca4871d773223
 
 jobs:
   package:
-    runs-on: namespace-profile-8x32-ubuntu-2404
+    runs-on: >-
+      ${{ (github.ref == 'refs/heads/main'
+      || github.event_name == 'merge_group'
+      || contains(github.event.pull_request.labels.*.name, 'large-runner'))
+      && 'namespace-profile-8x32-ubuntu-2404'
+      || 'namespace-profile-4x8-ubuntu-2404' }}
     if: github.repository_owner == 'zed-industries'
     timeout-minutes: 10
     steps:
       - name: Checkout repo
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           clean: false
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4
+      - uses: pnpm/setup@5d160c5bc68a09337ad0d5654e237e03253b5879 # v1
         with:
-          version: 9
+          version: 11
+          runtime: node@24.21.0
+          cache: true
 
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
-        with:
-          node-version: "20"
-          cache: "pnpm"
-
-      - uses: actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606 # v1
+      - uses: actions-rust-lang/setup-rust-toolchain@166cdcfd11aee3cb47222f9ddb555ce30ddb9659 # v1
         with:
           toolchain: "1.90"
           target: "wasm32-wasip2"
@@ -54,9 +56,6 @@ jobs:
           wget --quiet "https://zed-extension-cli.nyc3.digitaloceanspaces.com/$ZED_EXTENSION_CLI_SHA/x86_64-unknown-linux-gnu/zed-extension"
           chmod +x zed-extension
 
-      - name: Install dependencies
-        run: pnpm install
-
       - name: Build
         run: pnpm build
 
@@ -74,6 +73,7 @@ jobs:
         run: pnpm package-extensions
         env:
           REF_NAME: ${{ github.ref_name }}
+          RUSTUP_TOOLCHAIN: "1.90"
           SHOULD_PUBLISH: ${{ github.ref_name == 'main' }}
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
           S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
