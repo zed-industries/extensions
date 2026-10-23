@@ -1006,6 +1006,10 @@
 	path = extensions/composer-lsp
 	url = https://github.com/BastenIT/zed-composer-support.git
 
+[submodule "extensions/conduktor-console-lsp"]
+	path = extensions/conduktor-console-lsp
+	url = https://github.com/conduktor/conduktor-language-tools.git
+
 [submodule "extensions/confetti"]
 	path = extensions/confetti
 	url = https://github.com/demen1n/zed-confetti.git
