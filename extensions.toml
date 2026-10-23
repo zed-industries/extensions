@@ -5752,6 +5752,11 @@ version = "0.0.2"
 submodule = "extensions/tql"
 version = "0.4.2"
 
+[translation-lsp]
+submodule = "extensions/translation-lsp"
+path = "crates/zed-extension"
+version = "0.1.0"
+
 [tree-sitter-query]
 submodule = "extensions/tree-sitter-query"
 version = "0.2.1"
