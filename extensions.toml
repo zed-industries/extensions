@@ -86,7 +86,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.56.6"
+version = "0.58.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -300,7 +300,7 @@ version = "0.1.0"
 
 [astro]
 submodule = "extensions/astro"
-version = "0.2.1"
+version = "0.2.2"
 
 [astro-snippets]
 submodule = "extensions/astro-snippets"
@@ -490,7 +490,7 @@ version = "1.0.0"
 
 [beast]
 submodule = "extensions/beast"
-version = "0.3.1"
+version = "0.3.2"
 
 [bebop-theme]
 submodule = "extensions/bebop-theme"
@@ -743,7 +743,7 @@ version = "1.0.0"
 
 [cargo-appraiser]
 submodule = "extensions/cargo-appraiser"
-version = "0.2.0"
+version = "0.2.1"
 
 [cargo-tom]
 submodule = "extensions/cargo-tom"
@@ -751,7 +751,7 @@ version = "0.4.1"
 
 [cartan]
 submodule = "extensions/cartan"
-version = "0.10.1"
+version = "0.11.1"
 
 [carve]
 submodule = "extensions/carve"
@@ -817,7 +817,7 @@ version = "1.0.5"
 
 [cfml]
 submodule = "extensions/cfml"
-version = "0.2.32"
+version = "0.2.35"
 
 [chai-theme]
 submodule = "extensions/chai-theme"
@@ -918,7 +918,7 @@ version = "0.1.1"
 
 [clice]
 submodule = "extensions/clice"
-version = "0.1.0"
+version = "0.1.2"
 path = "editors/zed"
 
 [clockwork-gold-theme]
@@ -1156,7 +1156,7 @@ version = "0.0.2"
 
 [cue]
 submodule = "extensions/cue"
-version = "0.0.6"
+version = "0.0.7"
 
 [curry]
 submodule = "extensions/curry"
@@ -1631,7 +1631,7 @@ version = "0.1.0"
 
 [emmet]
 submodule = "extensions/emmet"
-version = "0.0.14"
+version = "0.0.15"
 
 [emmylua]
 submodule = "extensions/emmylua"
@@ -1639,7 +1639,7 @@ version = "0.20.2"
 
 [emoji-completions]
 submodule = "extensions/emoji-completions"
-version = "1.2.0"
+version = "1.4.0"
 
 [env]
 submodule = "extensions/env"
@@ -1976,7 +1976,7 @@ version = "0.1.0"
 [funky-theme]
 submodule = "extensions/funky-theme"
 path = "zed"
-version = "0.1.0"
+version = "0.2.1"
 
 [furina-vibe-theme]
 submodule = "extensions/furina-vibe-theme"
@@ -2204,7 +2204,7 @@ version = "0.0.3"
 
 [green-tree-theme]
 submodule = "extensions/green-tree-theme"
-version = "0.11.1"
+version = "0.11.2"
 
 [gregorio]
 submodule = "extensions/gregorio"
@@ -2375,7 +2375,7 @@ version = "0.0.8"
 
 [helm]
 submodule = "extensions/helm"
-version = "0.0.8"
+version = "0.0.9"
 
 [herzha-theme]
 submodule = "extensions/herzha-theme"
@@ -2531,13 +2531,17 @@ version = "0.2.10"
 submodule = "extensions/iceicebergy"
 version = "0.3.14"
 
+[iconify-lsp]
+submodule = "extensions/iconify-lsp"
+version = "0.1.0"
+
 [icons-modern-material]
 submodule = "extensions/icons-modern-material"
 version = "1.2.0"
 
 [icu-theme]
 submodule = "extensions/icu-theme"
-version = "0.1.0"
+version = "0.1.2"
 
 [idris2]
 submodule = "extensions/idris2"
@@ -2663,7 +2667,7 @@ version = "0.1.1"
 
 [java]
 submodule = "extensions/java"
-version = "6.8.28"
+version = "6.8.29"
 
 [java-eclipse-jdtls]
 submodule = "extensions/java-eclipse-jdtls"
@@ -2723,7 +2727,7 @@ version = "0.0.2"
 
 [jetbrains-themes]
 submodule = "extensions/jetbrains-themes"
-version = "1.3.0"
+version = "1.4.0"
 
 [jinja2]
 submodule = "extensions/jinja2"
@@ -2772,7 +2776,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.2.3"
+version = "0.2.5"
 
 [just]
 submodule = "extensions/just"
@@ -2850,7 +2854,7 @@ version = "1.0.0"
 
 [kiselevka]
 submodule = "extensions/kiselevka"
-version = "0.0.1"
+version = "0.2.0"
 
 [kitty]
 submodule = "extensions/kitty"
@@ -2878,7 +2882,7 @@ version = "2.0.0"
 
 [kotlin]
 submodule = "extensions/kotlin"
-version = "0.3.2"
+version = "0.3.4"
 
 [koto]
 submodule = "extensions/koto"
@@ -2968,6 +2972,10 @@ version = "0.0.1"
 [licensr-snippets]
 submodule = "extensions/licensr-snippets"
 version = "1.0.0"
+
+[lig-theme]
+submodule = "extensions/lig-theme"
+version = "0.1.2"
 
 [lights-out]
 submodule = "extensions/lights-out"
@@ -3143,6 +3151,10 @@ submodule = "extensions/magequery-lsp"
 path = "editors/zed"
 version = "0.1.1"
 
+[magreen-theme]
+submodule = "extensions/magreen-theme"
+version = "0.1.1"
+
 [maho-lsp]
 submodule = "extensions/maho-lsp"
 version = "0.10.0"
@@ -3233,7 +3245,7 @@ version = "0.0.3"
 
 [material-icon-theme]
 submodule = "extensions/material-icon-theme"
-version = "1.3.1"
+version = "1.3.2"
 
 [material-theme]
 submodule = "extensions/material-theme"
@@ -3426,7 +3438,7 @@ version = "0.0.2"
 
 [mcp-server-sonarqube]
 submodule = "extensions/mcp-server-sonarqube"
-version = "1.10.0"
+version = "1.29.0"
 
 [mcp-server-supabase]
 submodule = "extensions/mcp-server-supabase"
@@ -3455,7 +3467,7 @@ version = "0.0.1"
 
 [mcp-server-zuraffa]
 submodule = "extensions/mcp-server-zuraffa"
-version = "7.0.1"
+version = "7.2.0"
 
 [md-image-path-lsp]
 submodule = "extensions/md-image-path-lsp"
@@ -3484,12 +3496,12 @@ version = "0.1.0"
 
 [meson]
 submodule = "extensions/meson"
-version = "0.7.0"
+version = "1.0.0"
 
 [metal]
 submodule = "extensions/metal"
 path = "editors/zed"
-version = "0.1.23"
+version = "0.1.26"
 
 [metascript]
 submodule = "extensions/metascript"
@@ -3933,7 +3945,7 @@ version = "1.0.0"
 
 [nudo-lsp]
 submodule = "extensions/nudo-lsp"
-version = "0.1.2"
+version = "0.1.3"
 
 [nuisance]
 submodule = "extensions/nuisance"
@@ -4021,7 +4033,12 @@ version = "0.3.16"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "1.6.0"
+version = "1.6.1"
+
+[odoo-lint-lsp]
+submodule = "extensions/odoo-lint-lsp"
+path = "integrations/zed"
+version = "0.1.1"
 
 [odoo-lsp]
 submodule = "extensions/odoo-lsp"
@@ -4163,7 +4180,7 @@ version = "1.0.0"
 [ouch-my-eyes-theme]
 submodule = "extensions/ouch-my-eyes-theme"
 path = "zed"
-version = "0.0.1"
+version = "0.0.2"
 
 [outrun]
 submodule = "extensions/outrun"
@@ -4179,7 +4196,7 @@ version = "0.1.0"
 
 [oxc]
 submodule = "extensions/oxc"
-version = "0.4.8"
+version = "0.4.9"
 
 [oxide-theme]
 submodule = "extensions/oxide-theme"
@@ -4211,7 +4228,7 @@ version = "0.0.3"
 
 [pale-fire-theme]
 submodule = "extensions/pale-fire-theme"
-version = "0.1.0"
+version = "0.2.0"
 
 [palenight]
 submodule = "extensions/palenight"
@@ -4265,7 +4282,7 @@ version = "0.0.1"
 [path-server-lsp]
 submodule = "extensions/path-server-lsp"
 path = "extensions/zed"
-version = "1.4.3"
+version = "1.4.4"
 
 [pathy]
 submodule = "extensions/pathy"
@@ -4762,7 +4779,7 @@ version = "0.11.11"
 
 [relaxed-theme]
 submodule = "extensions/relaxed-theme"
-version = "0.1.0"
+version = "1.0.0"
 
 [relay]
 submodule = "extensions/relay"
@@ -4824,7 +4841,7 @@ version = "0.0.1"
 [rlsp-yaml]
 submodule = "extensions/rlsp-yaml"
 path = "rlsp-yaml/integrations/zed"
-version = "0.1.2"
+version = "0.1.4"
 
 [robot-framework]
 submodule = "extensions/robot-framework"
@@ -4885,7 +4902,7 @@ version = "0.0.1"
 
 [rshtml]
 submodule = "extensions/rshtml"
-version = "0.1.6"
+version = "0.1.7"
 
 [rst]
 submodule = "extensions/rst"
@@ -4898,7 +4915,7 @@ version = "0.1.0"
 
 [ruby]
 submodule = "extensions/ruby"
-version = "0.16.21"
+version = "0.16.22"
 
 [ruby-snippets]
 submodule = "extensions/ruby-snippets"
@@ -5692,7 +5709,7 @@ path = "packages/zed"
 
 [tokyo-night]
 submodule = "extensions/tokyo-night"
-version = "0.8.0"
+version = "0.9.0"
 
 [tokyo-night-dark]
 submodule = "extensions/tokyo-night-dark"
@@ -5709,7 +5726,7 @@ version = "0.2.4"
 
 [toml]
 submodule = "extensions/toml"
-version = "1.0.3"
+version = "1.1.0"
 
 [tomorrow-min-theme]
 submodule = "extensions/tomorrow-min-theme"
@@ -6127,7 +6144,7 @@ version = "0.0.2"
 
 [vue]
 submodule = "extensions/vue"
-version = "0.4.0"
+version = "0.4.1"
 
 [vue-i18n-language-server]
 submodule = "extensions/vue-i18n-language-server"
@@ -6214,7 +6231,7 @@ version = "0.0.1"
 
 [windows-batch]
 submodule = "extensions/windows-batch"
-version = "0.3.0"
+version = "0.4.0"
 
 [wit]
 submodule = "extensions/wit"
@@ -6258,7 +6275,7 @@ version = "0.1.0"
 
 [xml]
 submodule = "extensions/xml"
-version = "0.1.1"
+version = "0.2.0"
 
 [xquery]
 submodule = "extensions/xquery"
@@ -6324,6 +6341,11 @@ version = "0.0.10"
 [zabby]
 submodule = "extensions/zabby"
 version = "0.0.3"
+
+[zacess-themes]
+submodule = "extensions/zacess-themes"
+path = "editors/zed"
+version = "0.2.1"
 
 [zarcula-theme]
 submodule = "extensions/zarcula-theme"
