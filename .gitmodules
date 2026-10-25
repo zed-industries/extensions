@@ -4714,6 +4714,10 @@
 	path = extensions/rewrite-theme
 	url = https://github.com/RewriteToday/theme.git
 
+[submodule "extensions/rgc"]
+	path = extensions/rgc
+	url = https://github.com/rgc-lang/zed-rgc
+
 [submodule "extensions/rhai"]
 	path = extensions/rhai
 	url = https://github.com/elkowar/zed-rhai
@@ -6305,6 +6309,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/rgc"]
-	path = extensions/rgc
-	url = https://github.com/rgc-lang/zed-rgc
