@@ -167,6 +167,10 @@ version = "21.1.0"
 submodule = "extensions/ansible"
 version = "1.0.0"
 
+[ansible-vault-lsp]
+submodule = "extensions/ansible-vault-lsp"
+version = "0.1.0"
+
 [answer-set-programming]
 submodule = "extensions/answer-set-programming"
 version = "0.1.0"
