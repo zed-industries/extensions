@@ -1,0 +1,11 @@
+id = "rgc"
+name = "RGC"
+version = "0.1.0"
+schema_version = 1
+authors = ["rgc-lang"]
+description = "RGC language support: tree-sitter syntax highlighting, outline, and bracket matching for the RGC programming language."
+repository = "https://github.com/rgc-lang/zed-rgc"
+
+[grammars.rgc]
+repository = "https://github.com/rgc-lang/tree-sitter-rgc"
+rev = "f813d342c12d529d812af11023c6a53d94841cde"
