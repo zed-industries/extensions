@@ -1354,6 +1354,10 @@
 	path = extensions/django-snippets
 	url = https://github.com/bencres/zed-django-snippets.git
 
+[submodule "extensions/djlint-lsp"]
+	path = extensions/djlint-lsp
+	url = https://github.com/djlint/djlint-zed.git
+
 [submodule "extensions/djot"]
 	path = extensions/djot
 	url = https://github.com/nzoschke/zed-djot.git
