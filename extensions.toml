@@ -3332,6 +3332,11 @@ version = "0.0.1"
 submodule = "extensions/mcp-server-context7"
 version = "0.0.5"
 
+[mcp-server-ctxd]
+submodule = "extensions/mcp-server-ctxd"
+path = "packages/zed"
+version = "0.1.0"
+
 [mcp-server-digitalocean]
 submodule = "extensions/mcp-server-digitalocean"
 version = "0.1.0"
