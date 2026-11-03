@@ -1274,6 +1274,10 @@
 	path = extensions/dbt
 	url = https://github.com/kylejbrk/zed-dbt.git
 
+[submodule "extensions/debug-log-lsp"]
+	path = extensions/debug-log-lsp
+	url = https://github.com/MARVElOUS-DEV/zed-console-log.git
+
 [submodule "extensions/decorative-stitch"]
 	path = extensions/decorative-stitch
 	url = https://github.com/keithrowell/zed-theme-decorative-stitch.git
