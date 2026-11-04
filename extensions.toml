@@ -1033,6 +1033,11 @@ version = "0.1.0"
 submodule = "extensions/composer-lsp"
 version = "0.2.6"
 
+[conduktor-console-lsp]
+submodule = "extensions/conduktor-console-lsp"
+path = "extensions/zed"
+version = "0.0.1"
+
 [confetti]
 submodule = "extensions/confetti"
 version = "0.1.0"
