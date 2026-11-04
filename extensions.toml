@@ -2024,6 +2024,10 @@ version = "0.9.0"
 submodule = "extensions/gdscript-snippets"
 version = "0.0.2"
 
+[gdscript-theme]
+submodule = "extensions/gdscript-theme"
+version = "0.1.0"
+
 [gem]
 submodule = "extensions/gem"
 path = "crates/zed-plugin-gem"
