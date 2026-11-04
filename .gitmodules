@@ -5634,6 +5634,10 @@
 	path = extensions/tql
 	url = https://github.com/tenzir/zed-tql.git
 
+[submodule "extensions/translation-lsp"]
+	path = extensions/translation-lsp
+	url = https://github.com/hwtnb/zed-translation-lsp.git
+
 [submodule "extensions/tree-sitter-query"]
 	path = extensions/tree-sitter-query
 	url = https://github.com/vitallium/zed-tree-sitter-query.git
