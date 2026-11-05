@@ -2982,6 +2982,10 @@
 	path = extensions/logcat
 	url = https://github.com/vinnom/logcat-highlighter.git
 
+[submodule "extensions/logo"]
+	path = extensions/logo
+	url = https://github.com/dflock/zed-logo.git
+
 [submodule "extensions/logos"]
 	path = extensions/logos
 	url = https://github.com/nobottomline/logos-zed.git
@@ -6321,6 +6325,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/logo"]
-	path = extensions/logo
-	url = https://github.com/dflock/zed-logo.git
