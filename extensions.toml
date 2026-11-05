@@ -4317,6 +4317,11 @@ version = "0.0.2"
 submodule = "extensions/pelpsi-night-theme"
 version = "0.0.2"
 
+[pem-parser]
+submodule = "extensions/pem-parser"
+path = "extension"
+version = "0.1.1"
+
 [penumbra]
 submodule = "extensions/penumbra"
 version = "0.1.1"
@@ -6272,11 +6277,6 @@ version = "0.0.1"
 [wxml]
 submodule = "extensions/wxml"
 version = "0.1.0"
-
-[x509-parser]
-submodule = "extensions/x509-parser"
-path = "extension"
-version = "0.1.1"
 
 [xcode-themes]
 submodule = "extensions/xcode-themes"
