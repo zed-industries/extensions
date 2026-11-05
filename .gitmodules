@@ -6134,6 +6134,10 @@
 	path = extensions/wxml
 	url = https://github.com/BlockLune/zed-wxml.git
 
+[submodule "extensions/x509-parser"]
+	path = extensions/x509-parser
+	url = https://github.com/hvardhan20/zed-x509-parser.git
+
 [submodule "extensions/xcode-themes"]
 	path = extensions/xcode-themes
 	url = https://github.com/skarline/zed-xcode-themes.git
@@ -6321,6 +6325,3 @@
 [submodule "extensions/zwirn"]
 	path = extensions/zwirn
 	url = https://codeberg.org/polymorphicengine/zwirn-zed-extension.git
-[submodule "extensions/x509-parser"]
-	path = extensions/x509-parser
-	url = https://github.com/hvardhan20/zed-x509-parser
