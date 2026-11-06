@@ -1078,6 +1078,11 @@ version = "3.0.0"
 submodule = "extensions/crates-lsp"
 version = "0.2.0"
 
+[cremisi-theme]
+submodule = "extensions/cremisi-theme"
+path = "ports/zed"
+version = "0.1.0"
+
 [crimson-theme]
 submodule = "extensions/crimson-theme"
 version = "0.0.5"
