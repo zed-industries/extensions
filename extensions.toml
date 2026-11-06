@@ -86,7 +86,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.58.0"
+version = "0.61.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -260,7 +260,7 @@ version = "1.0.3"
 
 [asciidoc]
 submodule = "extensions/asciidoc"
-version = "0.5.10"
+version = "0.6.0"
 
 [ashen]
 submodule = "extensions/ashen"
@@ -490,7 +490,7 @@ version = "1.0.0"
 
 [beast]
 submodule = "extensions/beast"
-version = "0.3.2"
+version = "0.3.3"
 
 [bebop-theme]
 submodule = "extensions/bebop-theme"
@@ -511,7 +511,7 @@ version = "0.1.0"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.3.1"
+version = "0.3.2"
 
 [birds-of-paradise-theme]
 submodule = "extensions/birds-of-paradise-theme"
@@ -1082,6 +1082,11 @@ version = "3.0.0"
 submodule = "extensions/crates-lsp"
 version = "0.2.0"
 
+[cremisi-theme]
+submodule = "extensions/cremisi-theme"
+path = "ports/zed"
+version = "0.1.0"
+
 [crimson-theme]
 submodule = "extensions/crimson-theme"
 version = "0.0.5"
@@ -1113,7 +1118,7 @@ version = "0.1.0"
 
 [csound]
 submodule = "extensions/csound"
-version = "1.4.1"
+version = "1.4.5"
 
 [cspell]
 submodule = "extensions/cspell"
@@ -1325,7 +1330,7 @@ version = "0.1.1"
 
 [deepz-theme]
 submodule = "extensions/deepz-theme"
-version = "0.0.1"
+version = "0.0.3"
 
 [defold]
 submodule = "extensions/defold"
@@ -1351,7 +1356,7 @@ version = "0.1.8"
 [depsy-lsp]
 submodule = "extensions/depsy-lsp"
 path = "depsy-zed"
-version = "2.1.1"
+version = "2.1.2"
 
 [deputy]
 submodule = "extensions/deputy"
@@ -2053,6 +2058,11 @@ version = "2.0.1"
 submodule = "extensions/georgy-theme"
 version = "0.1.0"
 
+[gh44-theme]
+submodule = "extensions/gh44-theme"
+path = "zed"
+version = "1.0.0"
+
 [ghost-in-the-shell-theme]
 submodule = "extensions/ghost-in-the-shell-theme"
 version = "0.1.0"
@@ -2208,7 +2218,7 @@ version = "0.0.3"
 
 [green-tree-theme]
 submodule = "extensions/green-tree-theme"
-version = "0.11.2"
+version = "1.0.0"
 
 [gregorio]
 submodule = "extensions/gregorio"
@@ -2341,7 +2351,7 @@ version = "0.0.1"
 
 [harper]
 submodule = "extensions/harper"
-version = "0.1.5"
+version = "0.1.6"
 
 [haskell]
 submodule = "extensions/haskell"
@@ -2353,7 +2363,7 @@ version = "0.6.0"
 
 [haxe]
 submodule = "extensions/haxe"
-version = "0.4.0"
+version = "0.4.1"
 
 [hbuilderx-push-light]
 submodule = "extensions/hbuilderx-push-light"
@@ -2420,7 +2430,7 @@ version = "0.0.1"
 
 [hipster-green-theme]
 submodule = "extensions/hipster-green-theme"
-version = "1.0.0"
+version = "1.1.0"
 
 [hivacruz-theme]
 submodule = "extensions/hivacruz-theme"
@@ -2521,7 +2531,7 @@ version = "0.0.5"
 
 [i18n-lens-language-server]
 submodule = "extensions/i18n-lens-language-server"
-version = "0.13.0"
+version = "0.14.0"
 
 [ibm-5151]
 submodule = "extensions/ibm-5151"
@@ -2772,7 +2782,7 @@ version = "0.1.0"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
-version = "0.4.0"
+version = "0.5.0"
 
 [jsp]
 submodule = "extensions/jsp"
@@ -2784,7 +2794,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.2.7"
+version = "0.2.8"
 
 [just]
 submodule = "extensions/just"
@@ -3113,6 +3123,10 @@ version = "0.4.0"
 submodule = "extensions/lucide-icons"
 version = "0.4.0"
 
+[lull-theme]
+submodule = "extensions/lull-theme"
+version = "0.1.0"
+
 [lume-theme]
 submodule = "extensions/lume-theme"
 version = "0.1.0"
@@ -3237,7 +3251,7 @@ version = "0.4.0"
 
 [marko]
 submodule = "extensions/marko"
-version = "0.1.0"
+version = "0.2.0"
 
 [marksman]
 submodule = "extensions/marksman"
@@ -3618,7 +3632,7 @@ version = "0.1.0"
 [monochromator-theme]
 submodule = "extensions/monochromator-theme"
 path = "editors/zed"
-version = "0.4.0"
+version = "0.5.0"
 
 [monochrome-amber-theme]
 submodule = "extensions/monochrome-amber-theme"
@@ -4045,7 +4059,7 @@ version = "0.3.16"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "1.6.1"
+version = "1.6.2"
 
 [odoo-lint-lsp]
 submodule = "extensions/odoo-lint-lsp"
@@ -4629,7 +4643,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.24.0"
+version = "0.26.0"
 
 [python-autodoc-lsp]
 submodule = "extensions/python-autodoc-lsp"
@@ -5178,7 +5192,7 @@ version = "0.3.0"
 [skript]
 submodule = "extensions/skript"
 path = "extension"
-version = "0.2.5"
+version = "0.3.1"
 
 [skys-theme]
 submodule = "extensions/skys-theme"
@@ -5525,7 +5539,7 @@ version = "1.2.0"
 [syntaqlite-lsp]
 submodule = "extensions/syntaqlite-lsp"
 path = "integrations/zed"
-version = "0.5.10"
+version = "0.14.0"
 
 [syntax]
 submodule = "extensions/syntax"
@@ -6001,6 +6015,11 @@ version = "0.1.0"
 submodule = "extensions/vercel-theme"
 version = "1.1.0"
 
+[verdula-theme]
+submodule = "extensions/verdula-theme"
+path = "zed"
+version = "0.0.5"
+
 [verifpal]
 submodule = "extensions/verifpal"
 version = "1.0.0"
@@ -6112,7 +6131,7 @@ version = "0.0.1"
 
 [vscode-classic-themes]
 submodule = "extensions/vscode-classic-themes"
-version = "0.4.2"
+version = "0.4.3"
 
 [vscode-dark-high-contrast]
 submodule = "extensions/vscode-dark-high-contrast"
@@ -6284,10 +6303,6 @@ version = "2.0.1"
 [xdr-naive]
 submodule = "extensions/xdr-naive"
 version = "0.0.2"
-
-[xmake]
-submodule = "extensions/xmake"
-version = "0.1.0"
 
 [xml]
 submodule = "extensions/xml"

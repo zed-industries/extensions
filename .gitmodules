@@ -1054,6 +1054,10 @@
 	path = extensions/crates-lsp
 	url = https://github.com/appelgriebsch/zed-crates-lsp
 
+[submodule "extensions/cremisi-theme"]
+	path = extensions/cremisi-theme
+	url = https://github.com/vari-sh/Cremisi-Theme.git
+
 [submodule "extensions/crimson-theme"]
 	path = extensions/crimson-theme
 	url = https://github.com/kaem-e/zed-crimson-theme.git
@@ -2002,6 +2006,10 @@
 	path = extensions/georgy-theme
 	url = https://github.com/GeorgyDesign/georgy-themes-zed.git
 
+[submodule "extensions/gh44-theme"]
+	path = extensions/gh44-theme
+	url = https://github.com/gentrithalili1/gh44-theme.git
+
 [submodule "extensions/ghost-in-the-shell-theme"]
 	path = extensions/ghost-in-the-shell-theme
 	url = https://github.com/ddoemonn/ghost-in-the-shell-theme.git
@@ -2360,7 +2368,7 @@
 
 [submodule "extensions/hipster-green-theme"]
 	path = extensions/hipster-green-theme
-	url = https://github.com/1ay1/hipster-green-zed-theme.git
+	url = https://github.com/1ay1/hipster-zed-theme.git
 
 [submodule "extensions/hivacruz-theme"]
 	path = extensions/hivacruz-theme
@@ -3038,6 +3046,10 @@
 	path = extensions/lucide-icons
 	url = https://github.com/kjvdven/lucide-zed-icons.git
 
+[submodule "extensions/lull-theme"]
+	path = extensions/lull-theme
+	url = https://github.com/ihormanzii/zed-lull-theme.git
+
 [submodule "extensions/lume-theme"]
 	path = extensions/lume-theme
 	url = https://github.com/danfry1/lume-zed-theme.git
@@ -3536,7 +3548,7 @@
 
 [submodule "extensions/monochromator-theme"]
 	path = extensions/monochromator-theme
-	url = https://codeberg.org/beem/monochromator.git
+	url = https://github.com/josiasbeem/monochromator.git
 
 [submodule "extensions/monochrome-amber-theme"]
 	path = extensions/monochrome-amber-theme
@@ -5866,6 +5878,10 @@
 	path = extensions/vercel-theme
 	url = https://github.com/NathanBrodin/zed-vercel-theme.git
 
+[submodule "extensions/verdula-theme"]
+	path = extensions/verdula-theme
+	url = https://github.com/LucasSouza76/verdula-theme.git
+
 [submodule "extensions/verifpal"]
 	path = extensions/verifpal
 	url = https://github.com/symbolicsoft/verifpal-zed.git
@@ -6145,10 +6161,6 @@
 [submodule "extensions/xdr-naive"]
 	path = extensions/xdr-naive
 	url = https://github.com/algebnaly/xdr.zed.git
-
-[submodule "extensions/xmake"]
-	path = extensions/xmake
-	url = https://github.com/xmake-io/xmake-zed.git
 
 [submodule "extensions/xml"]
 	path = extensions/xml
