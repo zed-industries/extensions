@@ -3368,6 +3368,11 @@ version = "0.1.2"
 submodule = "extensions/mcp-server-kubernetes"
 version = "0.1.0"
 
+[mcp-server-live-server]
+submodule = "extensions/mcp-server-live-server"
+path = "zed-extension"
+version = "0.1.0"
+
 [mcp-server-markitdown]
 submodule = "extensions/mcp-server-markitdown"
 version = "0.0.1"
