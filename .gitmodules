@@ -4110,6 +4110,10 @@
 	path = extensions/technicolor-theme
 	url = https://github.com/phaux/technicolor.git
 
+[submodule "extensions/telegram-tl"]
+	path = extensions/telegram-tl
+	url = https://github.com/desktop-app/zed-tl.git
+
 [submodule "extensions/templ"]
 	path = extensions/templ
 	url = https://github.com/makifdb/zed-templ.git
@@ -4181,10 +4185,6 @@
 [submodule "extensions/tiniri"]
 	path = extensions/tiniri
 	url = https://github.com/vladstudio/tiniri-zed.git
-
-[submodule "extensions/tl"]
-	path = extensions/tl
-	url = https://github.com/desktop-app/zed-tl.git
 
 [submodule "extensions/tla-plus"]
 	path = extensions/tla-plus
