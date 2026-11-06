@@ -21,7 +21,7 @@ version = "0.1.0"
 
 [8008-theme]
 submodule = "extensions/8008-theme"
-version = "0.0.4"
+version = "0.0.5"
 
 [a-distant-hope-theme]
 submodule = "extensions/a-distant-hope-theme"
@@ -86,7 +86,7 @@ version = "0.2.1"
 [agnix]
 submodule = "extensions/agnix"
 path = "editors/zed"
-version = "0.58.0"
+version = "0.61.0"
 
 [agno-theme]
 submodule = "extensions/agno-theme"
@@ -437,7 +437,7 @@ version = "0.1.0"
 
 [baml]
 submodule = "extensions/baml"
-version = "0.226.2"
+version = "0.226.3"
 
 [barbenheimer]
 submodule = "extensions/barbenheimer"
@@ -462,7 +462,7 @@ version = "0.0.3"
 
 [bats]
 submodule = "extensions/bats"
-version = "0.1.0"
+version = "0.1.1"
 
 [batsignal-theme]
 submodule = "extensions/batsignal-theme"
@@ -511,7 +511,7 @@ version = "0.1.0"
 
 [biome]
 submodule = "extensions/biome"
-version = "0.3.1"
+version = "0.3.2"
 
 [birds-of-paradise-theme]
 submodule = "extensions/birds-of-paradise-theme"
@@ -1357,7 +1357,7 @@ version = "1.0.1"
 [design-tokens]
 submodule = "extensions/design-tokens"
 path = "extensions/zed"
-version = "0.3.2"
+version = "0.3.4"
 
 [desktop]
 submodule = "extensions/desktop"
@@ -1700,7 +1700,7 @@ version = "0.1.3"
 
 [eyecandy]
 submodule = "extensions/eyecandy"
-version = "0.0.1"
+version = "0.0.2"
 
 [eyesclosed-theme]
 submodule = "extensions/eyesclosed-theme"
@@ -1740,7 +1740,7 @@ version = "0.3.0"
 [fatou-language-server]
 submodule = "extensions/fatou-language-server"
 path = "editors/zed"
-version = "0.1.0"
+version = "0.2.0"
 
 [fedaykin-themes]
 submodule = "extensions/fedaykin-themes"
@@ -2337,7 +2337,7 @@ version = "0.0.1"
 
 [harper]
 submodule = "extensions/harper"
-version = "0.1.5"
+version = "0.1.6"
 
 [haskell]
 submodule = "extensions/haskell"
@@ -2416,7 +2416,7 @@ version = "0.0.1"
 
 [hipster-green-theme]
 submodule = "extensions/hipster-green-theme"
-version = "1.0.0"
+version = "1.1.0"
 
 [hivacruz-theme]
 submodule = "extensions/hivacruz-theme"
@@ -2768,7 +2768,7 @@ version = "0.1.0"
 
 [jsonnet]
 submodule = "extensions/jsonnet"
-version = "0.4.0"
+version = "0.5.0"
 
 [jsp]
 submodule = "extensions/jsp"
@@ -2780,7 +2780,7 @@ version = "0.1.0"
 
 [julia]
 submodule = "extensions/julia"
-version = "0.2.7"
+version = "0.2.8"
 
 [just]
 submodule = "extensions/just"
@@ -2942,7 +2942,7 @@ version = "0.1.0"
 
 [lean4]
 submodule = "extensions/lean4"
-version = "0.1.0"
+version = "0.4.0"
 
 [leblackque]
 submodule = "extensions/leblackque"
@@ -3108,6 +3108,10 @@ version = "0.4.0"
 [lucide-icons]
 submodule = "extensions/lucide-icons"
 version = "0.4.0"
+
+[lull-theme]
+submodule = "extensions/lull-theme"
+version = "0.1.0"
 
 [lume-theme]
 submodule = "extensions/lume-theme"
@@ -3969,7 +3973,7 @@ version = "0.0.7"
 
 [nvim-nightfox]
 submodule = "extensions/nvim-nightfox"
-version = "0.10.5"
+version = "0.10.6"
 
 [nyxvamp-theme]
 submodule = "extensions/nyxvamp-theme"
@@ -4041,7 +4045,7 @@ version = "0.3.16"
 
 [odoo]
 submodule = "extensions/odoo"
-version = "1.6.1"
+version = "1.6.2"
 
 [odoo-lint-lsp]
 submodule = "extensions/odoo-lint-lsp"
@@ -4249,7 +4253,7 @@ version = "0.0.1"
 [panache-language-server]
 submodule = "extensions/panache-language-server"
 path = "editors/zed"
-version = "2.35.1"
+version = "2.36.1"
 
 [panda-plus-theme]
 submodule = "extensions/panda-plus-theme"
@@ -4625,7 +4629,7 @@ version = "0.0.1"
 [pytest-language-server]
 submodule = "extensions/pytest-language-server"
 path = "extensions/zed-extension"
-version = "0.24.0"
+version = "0.26.0"
 
 [python-autodoc-lsp]
 submodule = "extensions/python-autodoc-lsp"
@@ -4849,7 +4853,7 @@ version = "0.0.1"
 [rlsp-yaml]
 submodule = "extensions/rlsp-yaml"
 path = "rlsp-yaml/integrations/zed"
-version = "0.1.4"
+version = "0.1.5"
 
 [robot-framework]
 submodule = "extensions/robot-framework"
@@ -4865,7 +4869,7 @@ version = "0.2.0"
 
 [rockide-language-server]
 submodule = "extensions/rockide-language-server"
-version = "0.2.1"
+version = "0.3.0"
 
 [ron]
 submodule = "extensions/ron"
@@ -4944,7 +4948,7 @@ version = "1.0.0"
 [rust-glancer]
 submodule = "extensions/rust-glancer"
 path = "editors/zed"
-version = "0.3.0"
+version = "0.4.0"
 
 [rust-rover-dark-theme]
 submodule = "extensions/rust-rover-dark-theme"
@@ -5165,7 +5169,7 @@ version = "0.1.0"
 [skill-language-server]
 submodule = "extensions/skill-language-server"
 path = "ext/zed"
-version = "0.0.1"
+version = "0.0.2"
 
 [skir]
 submodule = "extensions/skir"
@@ -5174,7 +5178,7 @@ version = "0.3.0"
 [skript]
 submodule = "extensions/skript"
 path = "extension"
-version = "0.2.5"
+version = "0.3.1"
 
 [skys-theme]
 submodule = "extensions/skys-theme"
@@ -5521,7 +5525,7 @@ version = "1.2.0"
 [syntaqlite-lsp]
 submodule = "extensions/syntaqlite-lsp"
 path = "integrations/zed"
-version = "0.5.10"
+version = "0.14.0"
 
 [syntax]
 submodule = "extensions/syntax"
@@ -5613,7 +5617,7 @@ version = "1.0.0"
 
 [tera]
 submodule = "extensions/tera"
-version = "1.3.0"
+version = "1.3.3"
 
 [termux]
 submodule = "extensions/termux"
@@ -6096,7 +6100,7 @@ version = "0.1.2"
 
 [vrl]
 submodule = "extensions/vrl"
-version = "0.1.1"
+version = "0.2.0"
 
 [vscode-2026-theme]
 submodule = "extensions/vscode-2026-theme"
@@ -6108,7 +6112,7 @@ version = "0.0.1"
 
 [vscode-classic-themes]
 submodule = "extensions/vscode-classic-themes"
-version = "0.4.2"
+version = "0.4.3"
 
 [vscode-dark-high-contrast]
 submodule = "extensions/vscode-dark-high-contrast"
