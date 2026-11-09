@@ -3111,6 +3111,11 @@ version = "0.1.1"
 submodule = "extensions/lua"
 version = "0.1.11"
 
+[lua-debugger]
+submodule = "extensions/lua-debugger"
+path = "zed-extension"
+version = "0.2.4"
+
 [luau]
 submodule = "extensions/luau"
 version = "0.3.8"
