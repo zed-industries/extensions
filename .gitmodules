@@ -902,6 +902,10 @@
 	path = extensions/clojure
 	url = https://github.com/zed-extensions/clojure.git
 
+[submodule "extensions/cloned-dark-theme"]
+	path = extensions/cloned-dark-theme
+	url = https://github.com/cs-oolong/cloned-dark-theme
+
 [submodule "extensions/cloudformation-language-server"]
 	path = extensions/cloudformation-language-server
 	url = https://github.com/Ben-Wormald/cloudformation-language-server-zed.git
