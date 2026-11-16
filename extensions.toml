@@ -879,6 +879,11 @@ version = "1.0.0"
 submodule = "extensions/circom"
 version = "0.1.0"
 
+[cisco-config]
+submodule = "extensions/cisco-config"
+path = "editors/zed"
+version = "0.1.0"
+
 [cisco-theme]
 submodule = "extensions/cisco-theme"
 version = "1.0.0"
