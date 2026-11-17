@@ -3034,6 +3034,10 @@
 	path = extensions/lua
 	url = https://github.com/zed-extensions/lua.git
 
+[submodule "extensions/lua-debugger"]
+	path = extensions/lua-debugger
+	url = https://github.com/bigriver-dev/lua-debug-zed.git
+
 [submodule "extensions/luau"]
 	path = extensions/luau
 	url = https://github.com/4teapo/zed-luau
