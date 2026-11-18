@@ -2971,6 +2971,11 @@ submodule = "extensions/legendary-dark-theme"
 path = "zed"
 version = "5.0.1"
 
+[lemma]
+submodule = "extensions/lemma"
+path = "engine/lsp/editors/zed"
+version = "0.11.4"
+
 [leo]
 submodule = "extensions/leo"
 version = "0.0.1"
