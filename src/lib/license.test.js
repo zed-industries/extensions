@@ -104,6 +104,12 @@ describe("isApache2License", () => {
 });
 
 describe("isBsd2ClauseLicense", () => {
+  it("returns true for BSD 2-Clause license text using smart quotes", () => {
+    const license = readBsd2ClauseLicense().replace('"AS IS"', "“AS IS”");
+    expect(isBsd2ClauseLicense(license)).toBe(true);
+    expect(isBsd3ClauseLicense(license)).toBe(false);
+  });
+
   it("returns true for valid BSD 2-Clause license text", () => {
     expect(isBsd2ClauseLicense(readBsd2ClauseLicense())).toBe(true);
   });
@@ -134,6 +140,12 @@ describe("isBsd2ClauseLicense", () => {
 });
 
 describe("isBsd3ClauseLicense", () => {
+  it("returns true for BSD 3-Clause license text using smart quotes", () => {
+    const license = readBsd3ClauseLicense().replace('"AS IS"', "“AS IS”");
+    expect(isBsd3ClauseLicense(license)).toBe(true);
+    expect(isBsd2ClauseLicense(license)).toBe(false);
+  });
+
   it("returns true for valid BSD 3-Clause license text", () => {
     expect(isBsd3ClauseLicense(readBsd3ClauseLicense())).toBe(true);
   });
