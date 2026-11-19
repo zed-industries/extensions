@@ -55,7 +55,7 @@ const BSD_COMMON_PATTERNS = [
   /modification, are permitted provided that the following conditions/i,
   /1\. Redistributions of source code must retain the above copyright/i,
   /2\. Redistributions in binary form must reproduce the above copyright/i,
-  /THIS SOFTWARE IS PROVIDED BY THE (?:COPYRIGHT HOLDERS AND CONTRIBUTORS|AUTHOR AND CONTRIBUTORS) "AS IS"/i,
+  /THIS SOFTWARE IS PROVIDED BY THE (?:COPYRIGHT HOLDERS AND CONTRIBUTORS|AUTHOR AND CONTRIBUTORS) ["“]AS IS["”]/i,
   /IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE/i,
   /DISCLAIMED\. IN NO EVENT SHALL THE (?:COPYRIGHT HOLDER|AUTHOR) OR CONTRIBUTORS BE LIABLE/i,
 ];
