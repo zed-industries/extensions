@@ -1312,6 +1312,11 @@ version = "0.0.1"
 submodule = "extensions/dbt"
 version = "0.1.2"
 
+[debug-log-lsp]
+submodule = "extensions/debug-log-lsp"
+path = "extension"
+version = "0.1.0"
+
 [decorative-stitch]
 submodule = "extensions/decorative-stitch"
 version = "1.0.0"
