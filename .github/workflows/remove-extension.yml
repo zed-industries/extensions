@@ -40,7 +40,7 @@ jobs:
       - uses: pnpm/setup@5d160c5bc68a09337ad0d5654e237e03253b5879 # v1
         with:
           version: 11
-          runtime: node@24.22.2
+          runtime: node@24.22.3
           cache: true
 
       - name: Remove extension
@@ -49,7 +49,7 @@ jobs:
           EXTENSION_ID: ${{ inputs.extension_id }}
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        uses: peter-evans/create-pull-request@3ffccacd46053766916f087ce41d627c0b8cf2d1 # v8.1.3
         with:
           token: ${{ steps.generate-token.outputs.token }}
           branch: remove-${{ inputs.extension_id }}
