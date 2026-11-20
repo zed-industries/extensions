@@ -6309,6 +6309,11 @@ version = "0.0.1"
 submodule = "extensions/wxml"
 version = "0.1.0"
 
+[x18n-language-server]
+submodule = "extensions/x18n-language-server"
+path = "packages/zed"
+version = "0.1.6"
+
 [xcode-themes]
 submodule = "extensions/xcode-themes"
 version = "2.0.1"
