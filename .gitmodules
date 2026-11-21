@@ -6314,6 +6314,10 @@
 	path = extensions/zig
 	url = https://github.com/zed-extensions/zig.git
 
+[submodule "extensions/zig-analyzer"]
+	path = extensions/zig-analyzer
+	url = https://github.com/jinzhongjia/zig-analyzer.git
+
 [submodule "extensions/ziggy"]
 	path = extensions/ziggy
 	url = https://github.com/lvignoli/zed-ziggy
