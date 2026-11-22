@@ -3058,6 +3058,11 @@ version = "0.2.0"
 submodule = "extensions/llvm-ir"
 version = "0.1.1"
 
+[llvm-ir-advance]
+submodule = "extensions/llvm-ir-advance"
+version = "0.1.0"
+path = "editors/zed"
+
 [lndpnr-theme]
 submodule = "extensions/lndpnr-theme"
 version = "0.0.1"
