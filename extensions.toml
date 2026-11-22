@@ -942,6 +942,11 @@ version = "0.0.1"
 submodule = "extensions/cobol"
 version = "0.0.5"
 
+[code-review-notes-lsp]
+submodule = "extensions/code-review-notes-lsp"
+path = "zed-extension"
+version = "0.2.0"
+
 [code-stats]
 submodule = "extensions/code-stats"
 version = "0.3.1"
