@@ -202,7 +202,7 @@ version = "1.9.1"
 
 [aptos-move]
 submodule = "extensions/aptos-move"
-version = "0.0.2"
+version = "0.0.3"
 
 [aquaflow-theme]
 submodule = "extensions/aquaflow-theme"
@@ -973,7 +973,7 @@ version = "0.0.5"
 
 [codebook]
 submodule = "extensions/codebook"
-version = "0.2.14"
+version = "0.2.15"
 
 [codely-theme]
 submodule = "extensions/codely-theme"
@@ -998,6 +998,10 @@ version = "0.0.2"
 [codetime-lsp]
 submodule = "extensions/codetime-lsp"
 version = "0.1.8"
+
+[codigrate-themes]
+submodule = "extensions/codigrate-themes"
+version = "1.0.0"
 
 [coding-in-the-sun-theme]
 submodule = "extensions/coding-in-the-sun-theme"
@@ -2001,7 +2005,7 @@ version = "1.0.0"
 [fun-lang]
 submodule = "extensions/fun-lang"
 path = "editors/zed"
-version = "0.1.5"
+version = "0.1.6"
 
 [fun-web-theme]
 submodule = "extensions/fun-web-theme"
@@ -2205,6 +2209,10 @@ version = "0.2.0"
 [golens-lsp]
 submodule = "extensions/golens-lsp"
 version = "1.0.0"
+
+[goose]
+submodule = "extensions/goose"
+version = "0.2.1"
 
 [gopher-burrow-theme]
 submodule = "extensions/gopher-burrow-theme"
@@ -2965,6 +2973,11 @@ version = "0.0.1"
 submodule = "extensions/kvs-cyberpunk-2077"
 version = "1.0.3"
 
+[kyokko-theme]
+submodule = "extensions/kyokko-theme"
+path = "zed"
+version = "1.0.0"
+
 [landroid-theme]
 submodule = "extensions/landroid-theme"
 path = "zed"
@@ -3620,6 +3633,10 @@ version = "0.2.2"
 [min-theme-plus]
 submodule = "extensions/min-theme-plus"
 version = "1.0.0"
+
+[mineral-theme]
+submodule = "extensions/mineral-theme"
+version = "0.1.0"
 
 [minizinc]
 submodule = "extensions/minizinc"
@@ -4398,7 +4415,7 @@ version = "0.0.2"
 
 [penumbra]
 submodule = "extensions/penumbra"
-version = "0.1.1"
+version = "0.2.0"
 
 [penumbra-plus]
 submodule = "extensions/penumbra-plus"
@@ -5083,7 +5100,7 @@ version = "0.1.0"
 [santi020k-theme]
 submodule = "extensions/santi020k-theme"
 path = "packages/santi020k-zed-theme"
-version = "1.0.0"
+version = "1.0.1"
 
 [satz]
 submodule = "extensions/satz"
@@ -5955,6 +5972,10 @@ version = "0.1.3"
 submodule = "extensions/uiua"
 version = "0.0.2"
 
+[ulatte-theme]
+submodule = "extensions/ulatte-theme"
+version = "0.1.0"
+
 [ultimate-dark-neo]
 submodule = "extensions/ultimate-dark-neo"
 version = "0.2.0"
@@ -6423,6 +6444,10 @@ version = "0.0.4"
 [yarn-spinner]
 submodule = "extensions/yarn-spinner"
 version = "0.0.9"
+
+[yay-sayer-theme]
+submodule = "extensions/yay-sayer-theme"
+version = "0.2.0"
 
 [yayamlls]
 submodule = "extensions/yayamlls"

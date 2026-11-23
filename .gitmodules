@@ -974,6 +974,10 @@
 	path = extensions/codetime-lsp
 	url = https://github.com/codetime-dev/codetime-zed.git
 
+[submodule "extensions/codigrate-themes"]
+	path = extensions/codigrate-themes
+	url = https://github.com/codigrate/zed-themes.git
+
 [submodule "extensions/coding-in-the-sun-theme"]
 	path = extensions/coding-in-the-sun-theme
 	url = https://github.com/tgrecojs/coding-in-the-sun.git
@@ -2146,6 +2150,10 @@
 	path = extensions/golens-lsp
 	url = https://github.com/riflowth/zed-golens.git
 
+[submodule "extensions/goose"]
+	path = extensions/goose
+	url = https://github.com/ZHENGSY/goose-zed
+
 [submodule "extensions/gopher-burrow-theme"]
 	path = extensions/gopher-burrow-theme
 	url = https://github.com/mg0x7BE/gopher-burrow.git
@@ -2890,6 +2898,10 @@
 	path = extensions/kvs-cyberpunk-2077
 	url = https://github.com/notKvS/2077-zed.git
 
+[submodule "extensions/kyokko-theme"]
+	path = extensions/kyokko-theme
+	url = https://github.com/dekunocode/kyokko-theme.git
+
 [submodule "extensions/landroid-theme"]
 	path = extensions/landroid-theme
 	url = https://github.com/kerneldroid/Landroid.git
@@ -3533,6 +3545,10 @@
 [submodule "extensions/min-theme-plus"]
 	path = extensions/min-theme-plus
 	url = https://github.com/NiFate/zed-min-theme-plus.git
+
+[submodule "extensions/mineral-theme"]
+	path = extensions/mineral-theme
+	url = https://github.com/HarryC919/MineralThemeForZed.git
 
 [submodule "extensions/minizinc"]
 	path = extensions/minizinc
@@ -5810,6 +5826,10 @@
 	path = extensions/uiua
 	url = https://github.com/zed-extensions/uiua.git
 
+[submodule "extensions/ulatte-theme"]
+	path = extensions/ulatte-theme
+	url = https://github.com/ulatte-theme/zed.git
+
 [submodule "extensions/ultimate-dark-neo"]
 	path = extensions/ultimate-dark-neo
 	url = https://github.com/rubjo/ultimate-dark-neo-zed.git
@@ -6273,6 +6293,11 @@
 [submodule "extensions/yarn-spinner"]
 	path = extensions/yarn-spinner
 	url = https://github.com/yuna0x0/zed-yarn-spinner.git
+
+[submodule "extensions/yay-sayer-theme"]
+	path = extensions/yay-sayer-theme
+	url = https://github.com/ednanf/yay-sayer.git
+	branch = master
 
 [submodule "extensions/yayamlls"]
 	path = extensions/yayamlls
