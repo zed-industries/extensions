@@ -4665,6 +4665,11 @@ submodule = "extensions/zed"
 path = "extensions/proto"
 version = "0.3.4"
 
+[protocol-blueprint-light-theme]
+submodule = "extensions/protocol-blueprint-light-theme"
+path = "zed"
+version = "1.0.0"
+
 [pruple-theme]
 submodule = "extensions/pruple-theme"
 version = "0.0.1"
