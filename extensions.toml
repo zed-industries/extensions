@@ -3164,6 +3164,11 @@ version = "0.1.0"
 submodule = "extensions/lox"
 version = "0.0.1"
 
+[lspf-analysis]
+submodule = "extensions/lspf-analysis"
+path = "clients/zed"
+version = "0.1.0"
+
 [ltex]
 submodule = "extensions/ltex"
 version = "0.1.1"
