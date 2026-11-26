@@ -1171,6 +1171,11 @@ version = "0.4.0"
 submodule = "extensions/css-variables"
 version = "0.1.1"
 
+[cssdoc-language-server]
+submodule = "extensions/cssdoc-language-server"
+path = "servers/zed"
+version = "0.20.1"
+
 [csskit-lsp]
 submodule = "extensions/csskit-lsp"
 version = "0.0.1"
