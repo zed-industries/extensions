@@ -1138,6 +1138,11 @@
 	path = extensions/css-variables
 	url = https://github.com/lmn451/css-variables-zed.git
 
+[submodule "extensions/cssdoc-language-server"]
+	path = extensions/cssdoc-language-server
+	url = https://github.com/thedannywahl/cssdoc.git
+	branch = main
+
 [submodule "extensions/csskit-lsp"]
 	path = extensions/csskit-lsp
 	url = https://github.com/csskit/csskit
