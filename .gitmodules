@@ -162,6 +162,10 @@
 	path = extensions/ansible
 	url = https://github.com/kartikvashistha/zed-ansible
 
+[submodule "extensions/ansible-vault-lsp"]
+	path = extensions/ansible-vault-lsp
+	url = https://github.com/krptg0/zed-ansible-vault.git
+
 [submodule "extensions/answer-set-programming"]
 	path = extensions/answer-set-programming
 	url = https://github.com/tlyphed/zed-answer-set-programming
