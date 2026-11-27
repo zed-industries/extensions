@@ -5459,6 +5459,11 @@ version = "0.1.0"
 submodule = "extensions/sqlmesh"
 version = "0.1.4"
 
+[sqruff]
+submodule = "extensions/sqruff"
+path = "editors/zed"
+version = "0.2.0"
+
 [squirrel]
 submodule = "extensions/squirrel"
 version = "0.1.0"
