@@ -266,6 +266,10 @@
 	path = extensions/ask-starknet-mcp
 	url = https://github.com/0xpantera/ask-starknet-mcp-server.git
 
+[submodule "extensions/askama"]
+	path = extensions/askama
+	url = https://github.com/radiosilence/zed-askama.git
+
 [submodule "extensions/asn1"]
 	path = extensions/asn1
 	url = https://github.com/tdanner/zed-asn1.git
